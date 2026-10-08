@@ -200,6 +200,78 @@
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-08T23:14:08+00:00",
    "extra": true
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Aldi dinners under £1.50 a portion 👀💸",
+   "subline": "Save these for your next Aldi shop 🛒",
+   "title": "5 Aldi dinners under £1.50 a portion 👀💸",
+   "caption": "Save these 5 Aldi dinners for your next shop — all under £1.50 a portion. Perfect when you're skint and knackered. Good food. Less stress. 😏🛒\n\n1. BBQ Sausage Loaded Potatoes\n2. Garlic-Butter Chicken Flatbreads\n3. Cheesy Tomato Pasta\n4. Sticky Chicken Loaded Fries\n5. Garlic Butter Sausage Pasta\n\nWhich one are you making first this weekend? 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:garlic-butter-chicken-flatbreads-1",
+    "card:cheesy-tomato-pasta-1",
+    "card:sticky-chicken-loaded-fries-1",
+    "card:garlic-butter-sausage-pasta-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "garlic-butter-chicken-flatbreads",
+    "cheesy-tomato-pasta",
+    "sticky-chicken-loaded-fries",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Garlic-Butter Chicken Flatbreads",
+    "Cheesy Tomato Pasta",
+    "Sticky Chicken Loaded Fries",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    468,
+    892
+   ],
+   "extra": true,
+   "slot": "morning",
+   "theme": {
+    "collection": "under-150",
+    "angle": "save",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "save these for your next Aldi shop"
+   },
+   "question": "Which one are you making first this weekend? 👇",
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion 👀💸",
+     "subline": "Save these for your next Aldi shop 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "Weekend dinners from Aldi under £1.50 a portion 🔥🛒",
+     "subline": "Save these for Saturday tea 🙌",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-08T23:37:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-003621/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694444471110699030",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-08T23:37:56+00:00"
   }
  ]
 }
