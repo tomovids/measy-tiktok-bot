@@ -10,6 +10,10 @@ on:
         description: "Make today's draft now, even before the posting time"
         type: boolean
         default: true
+      again:
+        description: "Send another draft even if today's was already sent (testing)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -24,6 +28,7 @@ jobs:
     outputs:
       built: ${{ steps.build.outputs.built }}
       date: ${{ steps.build.outputs.date }}
+      post: ${{ steps.build.outputs.post }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -34,7 +39,7 @@ jobs:
 
       - name: Build today's slides
         id: build
-        run: python -m measybot build ${{ inputs.force && '--force' || '' }}
+        run: python -m measybot build ${{ inputs.force && '--force' || '' }} ${{ inputs.again && '--again' || '' }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
@@ -84,7 +89,7 @@ jobs:
         uses: actions/deploy-pages@v5
 
       - name: Send to TikTok drafts
-        run: python -m measybot send --date ${{ needs.build.outputs.date }}
+        run: python -m measybot send --date ${{ needs.build.outputs.date }} --post ${{ needs.build.outputs.post }}
         env:
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}

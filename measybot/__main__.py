@@ -47,26 +47,29 @@ def cmd_build(args, cfg) -> int:
     now = local_now(cfg)
     day = date.fromisoformat(args.date) if args.date else now.date()
     hist = History.load()
-    github_output(date=day.isoformat(), built="false")
-    if hist.done_on(day):
+    name = f"{day.isoformat()}-{now:%H%M%S}" if args.again else day.isoformat()
+    github_output(date=day.isoformat(), post=name, built="false")
+    if hist.done_on(day) and not args.again:
         log(f"Today's draft ({day}) was already sent. Nothing to do.")
         return 0
     if not config.TOKEN_FILE.exists():
         log("TikTok isn't connected yet (no state/tiktok_token.enc; see SETUP.md step 6). Skipping.")
         return 0
     hh, mm = map(int, cfg["schedule"]["post_time"].split(":"))
-    if not (args.force or args.date) and (now.hour, now.minute) < (hh, mm):
+    if not (args.force or args.again or args.date) and (now.hour, now.minute) < (hh, mm):
         log(f"It's {now:%H:%M} in {cfg['schedule']['timezone']}; posting time is "
             f"{cfg['schedule']['post_time']}. Nothing to do yet.")
         return 0
-    build_post(day, cfg, hist, stage.post_folder(day), openai_client(required=True), log=log)
+    if args.again:
+        log("Extra test draft: today's draft was already sent, making another one anyway.")
+    build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log)
     github_output(built="true")
     return 0
 
 
 def cmd_send(args, cfg) -> int:
     day = date.fromisoformat(args.date) if args.date else local_now(cfg).date()
-    post = stage.load_post(stage.post_folder(day))
+    post = stage.load_post(stage.post_folder(day, name=args.post))
     tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
     send_post(post, cfg, History.load(), tt, secret("TOKEN_KEY"), log=log)
     return 0
@@ -155,8 +158,11 @@ def main(argv: list[str] | None = None) -> int:
     b = sub.add_parser("build", help="build today's slides (GitHub Actions step 1)")
     b.add_argument("--date", help="YYYY-MM-DD (default: today, UK time)")
     b.add_argument("--force", action="store_true", help="build even before the posting time")
+    b.add_argument("--again", action="store_true",
+                   help="make another draft even if today's was already sent (for testing)")
     s = sub.add_parser("send", help="send the built slides to TikTok drafts (step 2)")
     s.add_argument("--date")
+    s.add_argument("--post", help="folder name under site/p (default: the date)")
     d = sub.add_parser("dry-run", help="build some days of slides into a folder; nothing is sent")
     d.add_argument("--days", type=int, default=3)
     d.add_argument("--out", default="out")

@@ -14,8 +14,9 @@ MAX_W, MAX_H = 1080, 1920       # TikTok photo limit (portrait)
 MAX_BYTES = 20 * 1024 * 1024
 
 
-def post_folder(day: date, site: Path | None = None) -> Path:
-    return (site or config.SITE) / "p" / day.isoformat()
+def post_folder(day: date, site: Path | None = None, name: str | None = None) -> Path:
+    """site/p/<date>, or site/p/<name> for an extra test post (its own URLs, so no stale cache)."""
+    return (site or config.SITE) / "p" / (name or day.isoformat())
 
 
 def slide_ok(path: Path) -> bool:
