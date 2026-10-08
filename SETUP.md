@@ -114,6 +114,9 @@ step: the bot says what happened and what to do. Common ones:
 
 ### If TikTok blocks drafts
 
+Tested 2026-10-08: drafts from the sandbox app reach the inbox, so no review was needed. Keep this in case TikTok changes that.
+
+
 TikTok's docs say apps it hasn't reviewed can only post privately. That is written for direct posting; it
 is not clear whether it also covers drafts, so the first real run (step 7) tells us. If it is blocked:
 

@@ -128,6 +128,8 @@ def cmd_status(args, cfg) -> int:
         if p.get("error"):
             log("    " + p["error"].splitlines()[0])
     recipes = catalogue.load_recipes()
+    if cfg["picker"].get("skip_dollar_cards"):
+        recipes = [r for r in recipes if r.currency != "USD"]
     used = hist.last_used("groups")
     groups = {r.group for r in recipes}
     log(f"\n{len(used)} of {len(groups)} dishes posted at least once.")

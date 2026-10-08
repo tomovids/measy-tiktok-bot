@@ -177,7 +177,7 @@ them with `gh secret set` (the assistant never sees them).
 - `dry-run --days 3` locally: the owner reviews the slides and captions before anything goes to TikTok.
 - One real draft to the owner's account: confirms the whole chain and answers the open question below.
 
-## Open question
+## Open question (answered 2026-10-08: drafts work from the sandbox app; the first real draft reached the inbox)
 
 TikTok's docs say content from apps it hasn't reviewed is private-only. That is stated for direct
 posting; it is not clear whether drafts (`MEDIA_UPLOAD`) from a sandbox app work. The first real test
