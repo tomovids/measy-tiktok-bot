@@ -76,3 +76,11 @@ def test_send_records_failure(tmp_path, monkeypatch, cfg):
                            log=lambda m: None, wait_pages=lambda urls, log: None)
     saved = History.load(tmp_path / "h.json")
     assert saved.posts[0]["status"] == "FAILED" and not saved.accepted()
+
+
+def test_extra_drafts_dont_count_as_the_days_post():
+    from datetime import date
+    h = History([{"date": "2026-10-09", "files": [], "groups": [], "status": SENT, "extra": True}])
+    assert not h.done_on(date(2026, 10, 9))
+    h.add({"date": "2026-10-09", "files": [], "groups": [], "status": SENT})
+    assert h.done_on(date(2026, 10, 9))

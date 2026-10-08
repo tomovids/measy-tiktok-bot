@@ -33,7 +33,8 @@ class History:
         return [p for p in self.posts if p.get("status") in DONE_STATUSES]
 
     def done_on(self, day: date) -> bool:
-        return any(p["date"] == day.isoformat() for p in self.accepted())
+        """Today's scheduled post was sent (extra test drafts don't count)."""
+        return any(p["date"] == day.isoformat() and not p.get("extra") for p in self.accepted())
 
     def add(self, post: dict) -> None:
         self.posts.append(post)

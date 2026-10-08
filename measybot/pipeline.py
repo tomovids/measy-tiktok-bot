@@ -15,7 +15,7 @@ from .tiktok import TikTok, TikTokError, wait_for_urls
 
 def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | None,
                ai_image: bool = True, keep_spares: bool = True, save_background: bool = False,
-               log=print) -> dict:
+               log=print, extra: bool = False) -> dict:
     recipes = pick(catalogue.load_recipes(), hist, day, cfg)
     log("Recipes: " + "; ".join(f"{r.dish} [{r.file[:3]}]" for r in recipes))
 
@@ -33,7 +33,7 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
                          avoid=sign)
 
     promo = hist.next_promo(catalogue.promo_files())
-    meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign,
+    meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign, "extra": extra,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     post = stage.stage(folder, day, slide, recipes, promo, words, caption, meta)
     if save_background:

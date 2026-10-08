@@ -62,8 +62,9 @@ def cmd_build(args, cfg) -> int:
             f"{cfg['schedule']['post_time']}. Nothing to do yet.")
         return 0
     if args.again:
-        log("Extra test draft: today's draft was already sent, making another one anyway.")
-    build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log)
+        log("Extra test draft: it won't count as today's scheduled post.")
+    build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log,
+               extra=args.again)
     github_output(built="true")
     return 0
 
