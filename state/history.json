@@ -49,6 +49,56 @@
    "publish_id": "p_inbox_url~v2.7694423660995889174",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-08T22:15:45+00:00"
+  },
+  {
+   "date": "2026-10-08",
+   "hook": "5 Aldi Dinners That Make Thursday Feel Like a Hug 😋🔥",
+   "subline": "Big comfort, tiny effort 🙌",
+   "title": "5 Aldi Dinners That Make Thursday Feel Like a Hug 😋🔥",
+   "caption": "Cosy Aldi dinners that actually hit the spot — big flavours, zero faff. Ready in 35 minutes or less 🤤🛒\n\n1. Chilli Beef Noodles with peppers & spring onions\n2. Honey Chilli Chicken Noodles\n3. Creamy Pesto Chicken Gnocchi\n4. Cheesy BBQ Loaded Potatoes with chicken & crispy onions\n5. Sweet Chilli Halloumi Wraps\n\nFull recipes on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #cheapmeals #easydinner #dinnerideas #mealideas #ukfood #measy",
+   "files": [
+    "049_a_vertical_recipe_card_infographic_image_in_a_cl.webp",
+    "121_honey_chilli_chicken_noodles.webp",
+    "096_creamy_pesto_chicken_gnocchi_poster.webp",
+    "001_a_bright_appetizing_food_poster_recipe_card_sty.webp",
+    "157_sweet_chilli_halloumi_wraps_recipe_card.webp"
+   ],
+   "groups": [
+    "chilli-beef-noodles",
+    "honey-chilli-chicken-noodles",
+    "creamy-pesto-chicken-gnocchi",
+    "cheesy-bbq-loaded-potatoes",
+    "sweet-chilli-halloumi-wraps"
+   ],
+   "dishes": [
+    "Chilli Beef Noodles with peppers & spring onions",
+    "Honey Chilli Chicken Noodles",
+    "Creamy Pesto Chicken Gnocchi",
+    "Cheesy BBQ Loaded Potatoes with chicken & crispy onions",
+    "Sweet Chilli Halloumi Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    360,
+    808
+   ],
+   "built_at": "2026-10-08T22:19:11+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/02.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/03.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/04.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/05.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/06.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-231833/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694424654358071299",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-08T22:19:53+00:00"
   }
  ]
 }
