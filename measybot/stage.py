@@ -57,7 +57,13 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, wor
     slides = [folder / "01.jpg"]
     cover.convert("RGB").save(slides[0], "JPEG", quality=92)
     for i, r in enumerate(recipes, 2):
-        slides.append(copy_slide(r.path, folder / f"{i:02d}"))
+        if r.file.startswith("card:"):
+            from .card import render_for
+            dst = folder / f"{i:02d}.jpg"
+            render_for(r.file).save(dst, "JPEG", quality=92)
+            slides.append(dst)
+        else:
+            slides.append(copy_slide(r.path, folder / f"{i:02d}"))
     slides.append(copy_slide(promo, folder / f"{len(recipes) + 2:02d}"))
 
     title = words.hook

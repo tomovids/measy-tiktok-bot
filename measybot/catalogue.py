@@ -48,10 +48,11 @@ class Recipe:
         return config.RECIPE_DIR / self.file
 
 
-def load_recipes(path: Path | None = None) -> list[Recipe]:
+def load_recipes(path: Path | None = None, cards: bool = True) -> list[Recipe]:
+    """The original recipe images, plus one entry per generated recipe card (photo variant)."""
     path = path or config.DATA / "recipes.json"
     rows = json.loads(path.read_text(encoding="utf-8"))
-    out = []
+    out = load_cards(rows) if cards else []
     for r in rows:
         if r.get("kind") != "recipe":
             continue
@@ -67,3 +68,24 @@ def promo_files(folder: Path | None = None) -> list[Path]:
     folder = folder or config.PROMO_DIR
     return sorted(p for p in folder.iterdir()
                   if p.suffix.lower() in (".jpg", ".jpeg", ".webp", ".png"))
+
+
+def load_cards(rows: list[dict]) -> list[Recipe]:
+    """Recipe cards drawn from data/recipe_library.json, one per food photo in images/photos/."""
+    from . import library, photos
+    meta = {}
+    for r in rows:
+        if r.get("kind") == "recipe":
+            meta.setdefault(r["group"], r)
+    out = []
+    for group, e in sorted(library.load().items()):
+        m = meta.get(group, {})
+        prices = [i.get("price") for i in e.get("ingredients", [])]
+        total = round(sum(prices), 2) if prices and all(isinstance(x, (int, float)) for x in prices) else None
+        mins = (e.get("prep_mins") or 0) + (e.get("cook_mins") or 0) or None
+        for photo in photos.photos_for(group):
+            out.append(Recipe(
+                file=f"card:{photo.stem}", dish=e["title"], group=group, protein=m.get("protein"),
+                base=m.get("base"), currency="GBP", cost_total=total, cost_per_serving=None,
+                serves=e.get("serves"), time_mins=mins, layout="card"))
+    return out

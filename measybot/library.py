@@ -11,7 +11,7 @@ import json
 from pathlib import Path
 
 from . import config
-from .card import CardRecipe, render
+from .card import CardRecipe, fit_line, render
 from .openai_api import OpenAI, OpenAIError
 
 LIBRARY = config.DATA / "recipe_library.json"
@@ -71,6 +71,9 @@ def check(entry: dict) -> list[str]:
             problems.append(f"no price for {i.get('item')}")
     if not 4 <= len(entry.get("method", [])) <= 5:
         problems.append("method must have 4 or 5 steps")
+    sub = entry.get("subtitle") or ""
+    if sub and fit_line(sub, 1080 - 88)[0] != sub.strip():
+        problems.append("the subtitle is too long for one line: keep it under 45 characters")
     if not problems:
         try:
             from PIL import Image
@@ -97,7 +100,10 @@ def build_entry(client: OpenAI, model: str, group: str, raw: dict | None, rows: 
     raise OpenAIError(f"Couldn't make a card-ready recipe for {group}.")
 
 
-def build(client: OpenAI, cfg: dict, only: list[str] | None = None, log=print) -> dict:
+def build(client: OpenAI, cfg: dict, only: list[str] | None = None, log=print, workers: int = 6) -> dict:
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
     catalogue = [r for r in json.loads((config.DATA / "recipes.json").read_text(encoding="utf-8"))
                  if r["kind"] == "recipe"]
     groups: dict[str, list[dict]] = {}
@@ -105,15 +111,27 @@ def build(client: OpenAI, cfg: dict, only: list[str] | None = None, log=print) -
         groups.setdefault(r["group"], []).append(r)
     raw = load_transcriptions()
     library = json.loads(LIBRARY.read_text(encoding="utf-8")) if LIBRARY.exists() else {}
-    for group in sorted(groups):
-        if only and group not in only:
-            continue
-        if group in library and not only:
-            continue
-        log(f"{group} ...")
-        library[group] = build_entry(client, cfg["openai"]["text_model"], group, raw.get(group),
-                                     groups[group], log)
-        LIBRARY.write_text(json.dumps(library, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    todo = [g for g in sorted(groups) if (g in only if only else g not in library)]
+    lock = threading.Lock()
+
+    def save():
+        text = json.dumps(dict(sorted(library.items())), ensure_ascii=False, indent=1)
+        LIBRARY.write_text(text + "\n", encoding="utf-8")
+
+    with ThreadPoolExecutor(workers) as pool:
+        jobs = {pool.submit(build_entry, client, cfg["openai"]["text_model"], g, raw.get(g), groups[g], log): g
+                for g in todo}
+        for job in as_completed(jobs):
+            g = jobs[job]
+            try:
+                entry = job.result()
+            except OpenAIError as e:
+                log(f"FAILED {g}: {e}")
+                continue
+            with lock:
+                library[g] = entry
+                save()
+            log(f"done {g} ({len(library)} in the library)")
     return library
 
 

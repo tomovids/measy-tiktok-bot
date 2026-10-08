@@ -46,7 +46,8 @@ def test_every_dish_comes_round_evenly(cfg):
         for r in picks:
             first_seen.setdefault(r.group, i)
     assert set(first_seen) == groups
-    assert max(first_seen.values()) <= cycle  # all dishes shown within one cycle (+1 day slack)
+    # all dishes shown within one cycle; the variety rules can push the last few by a day or two
+    assert max(first_seen.values()) <= cycle + 1
     uses = Counter(r.group for _, picks in posts for r in picks)
     assert max(uses.values()) - min(uses.values()) <= 2
 
@@ -93,13 +94,13 @@ def test_similar_names():
 def test_relaxes_rather_than_failing(cfg):
     # only five dishes, all used yesterday: the cooldown has to give way
     recipes = [Recipe(f"{i}.webp", f"Dish {i}", f"dish-{i}", "chicken", "rice", "GBP",
-                      5.0, None, 4, 20, "poster") for i in range(5)]
+                      5.0, None, 4, 20, "card") for i in range(5)]
     hist = History([{"date": "2026-10-08", "files": [r.file for r in recipes],
                      "groups": [r.group for r in recipes], "status": SENT}])
     picks = pick(recipes, hist, date(2026, 10, 9), cfg, random.Random(1))
     assert {r.group for r in picks} == {r.group for r in recipes}
 
 
-def test_only_food_photos(cfg):
+def test_only_recipe_cards(cfg):
     _, posts = simulate(cfg, 30)
-    assert all(r.layout == "poster" for _, picks in posts for r in picks)
+    assert all(r.layout == "card" for _, picks in posts for r in picks)

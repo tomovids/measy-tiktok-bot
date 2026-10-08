@@ -164,20 +164,27 @@ def cmd_library(args, cfg) -> int:
 
 
 def cmd_photos(args, cfg) -> int:
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     from . import library, photos
     lib = library.load()
     only = _only(args)
     client = openai_client(required=True)
     n = args.variants or cfg["cards"]["variants"]
-    for group, entry in sorted(lib.items()):
-        if only and group not in only:
-            continue
-        for v in range(1, n + 1):
-            if photos.photo_path(group, v).exists() and not args.redo:
-                continue
-            log(f"{group} photo {v} ...")
-            photos.generate(client, entry, v, cfg)
-    return 0
+    todo = [(g, v) for g in sorted(lib) if not only or g in only for v in range(1, n + 1)
+            if args.redo or not photos.photo_path(g, v).exists()]
+    log(f"{len(todo)} photos to make")
+    failed = 0
+    with ThreadPoolExecutor(args.workers) as pool:
+        jobs = {pool.submit(photos.generate, client, lib[g], v, cfg): (g, v) for g, v in todo}
+        for i, job in enumerate(as_completed(jobs), 1):
+            g, v = jobs[job]
+            try:
+                job.result()
+                log(f"[{i}/{len(todo)}] {g} photo {v}")
+            except OpenAIError as e:
+                failed += 1
+                log(f"[{i}/{len(todo)}] FAILED {g} photo {v}: {str(e)[:200]}")
+    return 1 if failed else 0
 
 
 def cmd_cards(args, cfg) -> int:
@@ -224,6 +231,7 @@ def main(argv: list[str] | None = None) -> int:
     ph.add_argument("--only", help="comma-separated dish ids")
     ph.add_argument("--variants", type=int, help="photos per dish (default from config)")
     ph.add_argument("--redo", action="store_true", help="replace existing photos")
+    ph.add_argument("--workers", type=int, default=4, help="photos made at the same time")
     cd = sub.add_parser("cards", help="render recipe cards into a folder to look at")
     cd.add_argument("--only", help="comma-separated dish ids")
     cd.add_argument("--out", default="out/cards")

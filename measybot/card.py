@@ -102,6 +102,26 @@ def wrap(text: str, f: ImageFont.FreeTypeFont, max_w: float) -> list[str]:
     return lines
 
 
+def fit_line(text: str, max_w: float, size: int = 56, min_size: int = 42):
+    """One line of Caveat: shrinks to fit; if still too long, ends at the last phrase that fits."""
+    text = text.strip()
+    for s in range(size, min_size - 1, -2):
+        f = font(CAVEAT, s)
+        if f.getlength(text) <= max_w:
+            return text, f
+    f = font(CAVEAT, min_size)
+    words, best = text.split(), ""
+    for i in range(1, len(words) + 1):
+        part = " ".join(words[:i])
+        if f.getlength(part) > max_w:
+            break
+        if part[-1] in ".,!;:–-" or i == len(words):
+            best = part
+    if not best:
+        best = wrap(text, f, max_w)[0]
+    return best.rstrip(" ,;:–-"), f
+
+
 def money(x: float) -> str:
     return f"£{x:.2f}"
 
@@ -299,8 +319,7 @@ def _layout(r: CardRecipe, photo: Image.Image, photo_h: int, min_size: int) -> I
             y += round(size * 0.98)
         d.text((M, y), line, font=tf, fill=GREEN, anchor="ls")
     if r.subtitle:
-        sf = font(CAVEAT, 56)
-        sub = wrap(r.subtitle, sf, W - 2 * M)[0]
+        sub, sf = fit_line(r.subtitle, W - 2 * M)
         y += 70
         d.text((M + 4, y), sub, font=sf, fill=INK, anchor="ls")
 
@@ -327,3 +346,12 @@ def _layout(r: CardRecipe, photo: Image.Image, photo_h: int, min_size: int) -> I
 
     _footer(img, r, footer_top)
     return img
+
+
+def render_for(file: str) -> Image.Image:
+    """Draws the card for a picked recipe whose file is 'card:<dish>-<n>'."""
+    from . import library, photos
+    stem = file.split(":", 1)[1]
+    group = stem.rsplit("-", 1)[0]
+    entry = library.load()[group]
+    return render(CardRecipe.from_dict(entry), Image.open(photos.PHOTO_DIR / f"{stem}.jpg"))
