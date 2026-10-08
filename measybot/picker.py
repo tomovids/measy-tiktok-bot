@@ -26,7 +26,7 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
     n = p["recipes_per_post"]
     rng = rng or random.Random(f"{today.isoformat()}/picker")
 
-    pool = [r for r in recipes if not (p.get("skip_dollar_cards") and r.currency == "USD")]
+    pool = usable(recipes, cfg)
     by_group: dict[str, list[Recipe]] = defaultdict(list)
     for r in pool:
         by_group[r.group].append(r)
@@ -69,6 +69,15 @@ def similar(a: str, b: str) -> bool:
     wa = set(a.split("-")) - STOPWORDS
     wb = set(b.split("-")) - STOPWORDS
     return len(wa & wb) / max(1, len(wa | wb)) >= 0.5
+
+
+def usable(recipes: list[Recipe], cfg: dict) -> list[Recipe]:
+    """The recipe images allowed in posts (no dollar cards, only the chosen layouts)."""
+    p = cfg["picker"]
+    layouts = set(p.get("layouts") or [])
+    return [r for r in recipes
+            if not (p.get("skip_dollar_cards") and r.currency == "USD")
+            and (not layouts or r.layout in layouts)]
 
 
 def _greedy(order, by_group, age, cooldown, max_protein, max_base, n,

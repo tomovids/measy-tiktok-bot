@@ -4,7 +4,7 @@ from datetime import date, timedelta
 
 from measybot.catalogue import Recipe, load_recipes
 from measybot.history import SENT, History
-from measybot.picker import pick, similar
+from measybot.picker import pick, similar, usable
 
 
 def simulate(cfg, days, start=date(2026, 10, 9)):
@@ -39,7 +39,7 @@ def test_no_dish_inside_the_cooldown(cfg):
 
 def test_every_dish_comes_round_evenly(cfg):
     recipes, posts = simulate(cfg, 60)
-    groups = {r.group for r in recipes if r.currency != "USD"}
+    groups = {r.group for r in usable(recipes, cfg)}
     cycle = -(-len(groups) // 5)  # days needed to show every dish once
     first_seen = {}
     for i, (_, picks) in enumerate(posts):
@@ -93,8 +93,13 @@ def test_similar_names():
 def test_relaxes_rather_than_failing(cfg):
     # only five dishes, all used yesterday: the cooldown has to give way
     recipes = [Recipe(f"{i}.webp", f"Dish {i}", f"dish-{i}", "chicken", "rice", "GBP",
-                      5.0, None, 4, 20) for i in range(5)]
+                      5.0, None, 4, 20, "poster") for i in range(5)]
     hist = History([{"date": "2026-10-08", "files": [r.file for r in recipes],
                      "groups": [r.group for r in recipes], "status": SENT}])
     picks = pick(recipes, hist, date(2026, 10, 9), cfg, random.Random(1))
     assert {r.group for r in picks} == {r.group for r in recipes}
+
+
+def test_only_food_photos(cfg):
+    _, posts = simulate(cfg, 30)
+    assert all(r.layout == "poster" for _, picks in posts for r in picks)

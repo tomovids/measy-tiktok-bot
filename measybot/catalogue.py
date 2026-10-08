@@ -20,6 +20,7 @@ class Recipe:
     cost_per_serving: float | None
     serves: int | None
     time_mins: int | None
+    layout: str | None = None
 
     @property
     def total_gbp(self) -> float | None:
@@ -58,7 +59,7 @@ def load_recipes(path: Path | None = None) -> list[Recipe]:
             file=r["file"], dish=r["dish"], group=r["group"], protein=r.get("protein"),
             base=r.get("base"), currency=r.get("currency"), cost_total=r.get("cost_total"),
             cost_per_serving=r.get("cost_per_serving"), serves=r.get("serves"),
-            time_mins=r.get("time_mins")))
+            time_mins=r.get("time_mins"), layout=r.get("layout")))
     return out
 
 

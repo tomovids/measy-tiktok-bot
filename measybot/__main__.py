@@ -16,6 +16,7 @@ from . import catalogue, config, stage, tokens
 from .config import ConfigError, load_config, load_dotenv, secret
 from .history import SENT, History
 from .openai_api import OpenAI, OpenAIError
+from .picker import usable
 from .pipeline import build_post, send_post
 from .tiktok import TikTok, TikTokError
 
@@ -130,9 +131,7 @@ def cmd_status(args, cfg) -> int:
         log(f"{p['date']}  {p.get('status', '?'):20s} {p.get('hook', '')}")
         if p.get("error"):
             log("    " + p["error"].splitlines()[0])
-    recipes = catalogue.load_recipes()
-    if cfg["picker"].get("skip_dollar_cards"):
-        recipes = [r for r in recipes if r.currency != "USD"]
+    recipes = usable(catalogue.load_recipes(), cfg)
     used = hist.last_used("groups")
     groups = {r.group for r in recipes}
     log(f"\n{len(used)} of {len(groups)} dishes posted at least once.")

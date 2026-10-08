@@ -15,6 +15,9 @@ max_same_protein = 3
 max_same_base = 2
 # 21 cards print prices in US dollars ($). Leave them out of UK posts.
 skip_dollar_cards = true
+# Which kinds of image can be a recipe slide: "poster" = a big photo of the meal,
+# "full_recipe" = ingredients + method card, "ingredients" = ingredients card.
+layouts = ["poster"]
 
 [openai]
 text_model = "gpt-5-mini"
