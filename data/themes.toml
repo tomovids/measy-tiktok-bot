@@ -1,0 +1,275 @@
+# Every post = one collection (which dishes) + one angle (why you need them today).
+# Collections match dish tags (see measybot/tags.py); a dish fits if it has ANY of `any`
+# and ALL of `all`. `hashtags` are added to the caption. Higher `weight` = picked more often.
+# Angles can be limited to weekdays (Mon..Sun), to the "morning"/"afternoon" post, or to months.
+
+[[collections]]
+id = "anything"
+label = "a mix of the best Aldi dinners"
+any = []
+weight = 3
+hashtags = ["#dinnerideas", "#mealideas"]
+
+[[collections]]
+id = "cheesy"
+label = "cheesy dinners"
+any = ["cheesy"]
+weight = 3
+hashtags = ["#cheesy", "#comfortfood"]
+
+[[collections]]
+id = "creamy"
+label = "creamy dinners"
+any = ["creamy"]
+weight = 2
+hashtags = ["#creamypasta", "#comfortfood"]
+
+[[collections]]
+id = "sticky"
+label = "sticky, saucy dinners"
+any = ["sticky"]
+weight = 2
+hashtags = ["#stickychicken", "#fakeaway"]
+
+[[collections]]
+id = "spicy"
+label = "dinners with a kick (spicy)"
+any = ["spicy"]
+weight = 2
+hashtags = ["#spicyfood", "#fakeaway"]
+
+[[collections]]
+id = "fakeaway"
+label = "fakeaways (takeaway-style dinners made at home)"
+any = ["fakeaway"]
+weight = 3
+hashtags = ["#fakeaway", "#takeawayathome"]
+
+[[collections]]
+id = "loaded"
+label = "loaded dinners (loaded fries, potatoes, nachos)"
+any = ["loaded", "potato"]
+weight = 2
+hashtags = ["#loadedfries", "#fakeaway"]
+
+[[collections]]
+id = "mexican"
+label = "Mexican-style dinners (tacos, quesadillas, burritos, nachos)"
+any = ["mexican"]
+weight = 2
+hashtags = ["#quesadilla", "#mexicanfood"]
+
+[[collections]]
+id = "asian"
+label = "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)"
+any = ["asian"]
+weight = 2
+hashtags = ["#noodles", "#fakeaway"]
+
+[[collections]]
+id = "italian"
+label = "Italian-style dinners (pasta, gnocchi, orzo)"
+any = ["italian"]
+weight = 2
+hashtags = ["#pastarecipe", "#pastanight"]
+
+[[collections]]
+id = "chicken"
+label = "chicken dinners"
+any = ["chicken"]
+weight = 3
+hashtags = ["#chickenrecipes", "#chickendinner"]
+
+[[collections]]
+id = "beef"
+label = "beef mince and beef dinners"
+any = ["beef"]
+weight = 2
+hashtags = ["#mincerecipes", "#beefrecipes"]
+
+[[collections]]
+id = "sausage"
+label = "sausage dinners"
+any = ["sausage"]
+weight = 1
+hashtags = ["#sausagerecipes", "#comfortfood"]
+
+[[collections]]
+id = "veggie"
+label = "meat-free dinners"
+any = ["veggie"]
+weight = 1
+hashtags = ["#meatfree", "#vegetarianrecipes"]
+
+[[collections]]
+id = "pasta"
+label = "pasta dinners"
+any = ["pasta"]
+weight = 2
+hashtags = ["#pastarecipe", "#pastanight"]
+
+[[collections]]
+id = "noodles"
+label = "noodle dinners"
+any = ["noodles"]
+weight = 1
+hashtags = ["#noodles", "#stirfry"]
+
+[[collections]]
+id = "rice"
+label = "rice bowls and rice dinners"
+any = ["rice"]
+weight = 2
+hashtags = ["#ricebowl", "#fakeaway"]
+
+[[collections]]
+id = "handheld"
+label = "wraps, flatbreads and quesadillas"
+any = ["handheld"]
+weight = 2
+hashtags = ["#wraps", "#flatbread"]
+
+[[collections]]
+id = "quick"
+label = "dinners ready in 20 minutes or less"
+any = ["quick"]
+weight = 3
+hashtags = ["#quickdinner", "#20minutemeals"]
+
+[[collections]]
+id = "under-150"
+label = "dinners under £1.50 a portion"
+any = ["under-150"]
+weight = 3
+hashtags = ["#cheapmeals", "#budgetmeals"]
+
+[[collections]]
+id = "under-2"
+label = "dinners under £2 a portion"
+any = ["under-2"]
+weight = 2
+hashtags = ["#cheapmeals", "#budgetmeals"]
+
+[[collections]]
+id = "comfort"
+label = "cosy comfort food"
+any = ["comfort"]
+weight = 2
+hashtags = ["#comfortfood", "#cosydinner"]
+
+# ---- angles --------------------------------------------------------------------------------
+
+[[angles]]
+id = "payday"
+text = "skint until payday / end of the month money is tight"
+weight = 3
+
+[[angles]]
+id = "tired"
+text = "too tired / can't be bothered to cook after a long day"
+weight = 3
+
+[[angles]]
+id = "no-idea"
+text = "no idea what to cook tonight / this week"
+weight = 3
+
+[[angles]]
+id = "takeaway"
+text = "better than (and cheaper than) a takeaway"
+weight = 3
+
+[[angles]]
+id = "repeat"
+text = "dinners I'd make on repeat / always go down well"
+weight = 2
+
+[[angles]]
+id = "send"
+text = "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+weight = 3
+
+[[angles]]
+id = "family"
+text = "feeding the whole family without the moaning"
+weight = 2
+
+[[angles]]
+id = "students"
+text = "students / first flat / living alone on a budget"
+weight = 1
+
+[[angles]]
+id = "weekly-shop"
+text = "plan your weekly Aldi shop around these"
+weight = 2
+
+[[angles]]
+id = "save"
+text = "save these for your next Aldi shop"
+weight = 2
+
+[[angles]]
+id = "taste-cheap"
+text = "cheap dinners that don't taste cheap"
+weight = 2
+
+[[angles]]
+id = "date-night"
+text = "a date night in that costs less than a cocktail"
+weight = 1
+days = ["Fri", "Sat"]
+
+[[angles]]
+id = "friday"
+text = "Friday night fakeaway / Friday night in"
+weight = 4
+days = ["Fri"]
+
+[[angles]]
+id = "saturday"
+text = "Saturday night in, better than going out"
+weight = 4
+days = ["Sat"]
+
+[[angles]]
+id = "sunday-reset"
+text = "Sunday reset: sort the week's dinners now"
+weight = 4
+days = ["Sun"]
+
+[[angles]]
+id = "monday"
+text = "Monday: start the week without blowing the budget"
+weight = 3
+days = ["Mon"]
+
+[[angles]]
+id = "midweek"
+text = "midweek slump: you've got nothing left by Wednesday"
+weight = 2
+days = ["Tue", "Wed", "Thu"]
+
+[[angles]]
+id = "tonight"
+text = "what to make tonight (deciding dinner right now)"
+weight = 3
+slots = ["afternoon"]
+
+[[angles]]
+id = "plan-today"
+text = "sort tonight's dinner before you even get to work"
+weight = 2
+slots = ["morning"]
+
+[[angles]]
+id = "cosy"
+text = "cosy nights in now it's getting colder and darker"
+weight = 3
+months = [10, 11, 12, 1, 2]
+
+[[angles]]
+id = "summer"
+text = "quick summer dinners when it's too hot to cook for long"
+weight = 2
+months = [6, 7, 8]

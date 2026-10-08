@@ -36,6 +36,10 @@ class History:
         """Today's scheduled post was sent (extra test drafts don't count)."""
         return any(p["date"] == day.isoformat() and not p.get("extra") for p in self.accepted())
 
+    def count_on(self, day: date) -> int:
+        """Scheduled posts sent on this day (extra test drafts don't count)."""
+        return sum(1 for p in self.accepted() if p["date"] == day.isoformat() and not p.get("extra"))
+
     def add(self, post: dict) -> None:
         self.posts.append(post)
 

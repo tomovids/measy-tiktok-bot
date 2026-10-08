@@ -1,4 +1,5 @@
 import random
+from datetime import date
 
 from measybot import writer
 from measybot.catalogue import Recipe
@@ -12,7 +13,27 @@ def recipe(i, total=None, per=None, serves=4, mins=None, currency="GBP"):
 
 
 FIVE_PRICED = [recipe(i, total=2.5, mins=20 + i) for i in range(5)]  # £12.50, slowest 24 min
+QUIET = dict(log=lambda m: None)
 
+
+def answer(*hooks, intro="Which one first? 👀", question="Rate these out of 10 👀"):
+    return {"candidates": [{"hook": h, "subline": ""} for h in hooks], "intro": intro, "question": question}
+
+
+class StubClient:
+    def __init__(self, answers):
+        self.answers = list(answers)
+        self.prompts = []
+
+    def chat_json(self, model, system, user):
+        self.prompts.append(user)
+        a = self.answers.pop(0)
+        if isinstance(a, Exception):
+            raise a
+        return a
+
+
+# ---- facts and claim checks -------------------------------------------------------------------
 
 def test_facts():
     f = facts_for(FIVE_PRICED)
@@ -54,48 +75,69 @@ def test_problems(cfg):
     assert problems(long, f, [], cfg)
 
 
-class StubClient:
-    def __init__(self, answers):
-        self.answers = list(answers)
-        self.prompts = []
+def test_brand_words_rejected(cfg):
+    f = facts_for(FIVE_PRICED)
+    w = Words("5 Aldi Dinners Cheaper Than Tesco 😏", "", "intro", source="ai")
+    assert any("tesco" in p for p in problems(w, f, [], cfg))
+    w = Words("5 Healthy Aldi Dinners 😋", "", "intro", source="ai")
+    assert any("healthy" in p for p in problems(w, f, [], cfg))
 
-    def chat_json(self, model, system, user):
-        self.prompts.append(user)
-        a = self.answers.pop(0)
-        if isinstance(a, Exception):
-            raise a
-        return a
 
+# ---- the hook tournament ----------------------------------------------------------------------
 
 def test_write_retries_until_valid(cfg):
-    bad = {"hook": "3 Aldi Dinners Under £5 😭", "subline": "", "intro": "x"}
-    good = {"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "",
-            "intro": "Which one first? 👀"}
+    bad = answer("3 Aldi Dinners Under £5 😭", "Dinners without the shop name 😭")
+    good = answer("5 Aldi Dinners Better Than a Takeaway 🍔")
     client = StubClient([bad, good])
-    w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), log=lambda m: None)
-    assert w.source == "ai" and w.hook == good["hook"] and w.intro == good["intro"]
-    assert "had these problems" in client.prompts[1]
+    w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
+    assert w.source == "ai" and w.hook == "5 Aldi Dinners Better Than a Takeaway 🍔"
+    assert w.intro == "Which one first? 👀" and w.question == "Rate these out of 10 👀"
+    assert "broke a rule" in client.prompts[1]
 
 
-def test_prompt_states_the_rules(cfg):
-    client = StubClient([{"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "",
-                          "intro": "Go on 👀", "scene": "dusk"}])
-    writer.write(FIVE_PRICED, ["Old hook 😭"], cfg, client, random.Random(1), log=lambda m: None)
+def test_judge_picks_the_winner(cfg):
+    a = "5 Aldi Dinners Better Than a Takeaway 🍔"
+    b = "5 Aldi Dinners for When Payday Feels Years Away 😭"
+    client = StubClient([answer(a, b), {"scores": [{"i": 0, "overall": 6}, {"i": 1, "overall": 9}], "best": 1}])
+    w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
+    assert w.hook == b and w.score == 9 and len(w.candidates) == 2
+
+
+def test_hooks_never_reused_or_near_copied(cfg):
+    old = "5 Aldi Dinners Better Than a Takeaway 🍔"
+    near = "5 Aldi Dinners That Are Better Than a Takeaway 🍔"
+    fresh = "5 Aldi Dinners for When Payday Feels Years Away 😭"
+    client = StubClient([answer(old, near, fresh)])
+    w = writer.write(FIVE_PRICED, [old], cfg, client, random.Random(1), used={old}, **QUIET)
+    assert w.hook == fresh
+
+
+def test_prompt_states_the_rules_and_theme(cfg):
+    from measybot.themes import Theme
+    theme = Theme("cheesy", "cheesy dinners", "payday", "skint until payday", ["#cheesy"], set())
+    client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔")])
+    writer.write(FIVE_PRICED, ["Old hook 😭"], cfg, client, random.Random(1), theme=theme, **QUIET)
     prompt = client.prompts[0]
     assert "£13" in prompt and "24 minutes" in prompt and "Old hook" in prompt
-    unpriced = StubClient([{"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "",
-                            "intro": "Go on 👀", "scene": "dusk"}])
-    writer.write([recipe(i) for i in range(5)], [], cfg, unpriced, random.Random(1), log=lambda m: None)
+    assert "5 cheesy dinners" in prompt and "skint until payday" in prompt
+    unpriced = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔")])
+    writer.write([recipe(i) for i in range(5)], [], cfg, unpriced, random.Random(1), **QUIET)
     assert "Do NOT mention any prices" in unpriced.prompts[0]
 
 
+def test_prompt_knows_the_weekday(cfg):
+    client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔")])
+    writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), day=date(2026, 10, 9), **QUIET)
+    assert "Friday morning" in client.prompts[0]
+
+
 def test_falls_back_when_openai_fails(cfg):
-    client = StubClient([OpenAIError("down", 503)])
+    client = StubClient([])
     unpriced = [recipe(i) for i in range(5)]
     for seed in range(20):
         client.answers = [OpenAIError("down", 503)]
-        w = writer.write(unpriced, [], cfg, client, random.Random(seed), log=lambda m: None)
-        assert w.source == "fallback"
+        w = writer.write(unpriced, [], cfg, client, random.Random(seed), **QUIET)
+        assert w.source == "fallback" and w.question
         assert "£" not in w.hook + w.subline and "minute" not in w.hook.lower()
         assert problems(w, facts_for(unpriced), [], cfg) == []
 
@@ -107,15 +149,26 @@ def test_fallback_list_is_valid(cfg):
         assert all(c in allowed for c in hook + sub if writer.is_emoji(c)), hook
 
 
+# ---- caption ----------------------------------------------------------------------------------
+
 def test_caption(cfg):
-    w = Words("5 Aldi Dinners 😋", "", "Saving these 👇", "sunny", "ai")
+    w = Words("5 Aldi Dinners 😋", "", "Saving these 👇", "sunny", "ai", question="Which one first? 👇")
     text = writer.caption(w, FIVE_PRICED, cfg)
-    assert text.startswith("Saving these 👇\n\n1. Dish number 0")
-    assert "5. Dish number 4" in text and "#aldi" in text and cfg["caption"]["cta"] in text
+    assert text.startswith("Saving these 👇")
+    assert "1. Dish number 0" in text and "5. Dish number 4" in text
+    assert "Which one first? 👇" in text and "💾" in text
+    assert "#measy" in text and cfg["caption"]["cta"] in text
+    assert len([t for t in text.split() if t.startswith("#")]) <= cfg["caption"]["max_hashtags"]
 
 
-def test_prompt_knows_the_weekday(cfg):
-    from datetime import date
-    client = StubClient([{"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "", "intro": "Go 👀"}])
-    writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), log=lambda m: None, day=date(2026, 10, 9))
-    assert "Friday morning" in client.prompts[0]
+def test_bad_intro_is_swapped_not_fatal(cfg):
+    long_intro = "word " * 60
+    client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔", intro=long_intro)])
+    w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
+    assert w.hook == "5 Aldi Dinners Better Than a Takeaway 🍔" and w.intro in writer.FALLBACK_INTROS
+
+
+def test_second_line_must_add_something(cfg):
+    f = facts_for(FIVE_PRICED)
+    w = Words("5 Cheesy Aldi Dinners Under £13 😳", "Cheesy Aldi dinners under £13 😳", "intro", source="ai")
+    assert any("repeats the hook" in p for p in problems(w, f, [], cfg))

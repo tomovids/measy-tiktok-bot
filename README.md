@@ -1,17 +1,21 @@
 # Measy TikTok slideshow bot
 
-Every morning a GitHub Action makes a 7-slide TikTok photo slideshow and drops it into the Measy
-account's TikTok drafts. Open the notification, add a sound, post.
+Twice a day (07:30 and 16:30 UK time) a GitHub Action makes a themed 7-slide TikTok photo slideshow
+and drops it into the Measy account's TikTok drafts. Open the notification, add a sound, post.
+It runs on GitHub's servers, so your PC can be off.
 
 1. **Cover:** a fresh AI picture of an Aldi store front (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.
-2. **Slides 2-6:** five recipe cards from `images/recipes/`, picked so every dish comes round evenly,
-   never the same dish twice in a post, a mix of proteins and bases, and the dollar-priced cards left out.
+2. **Slides 2-6:** five Measy recipe cards (an AI food photo + the full recipe, drawn by code from
+   `data/recipe_library.json`) that fit the post's theme (e.g. "cheesy dinners" + "skint until payday",
+   `data/themes.toml`); the most crave-worthy dish leads, dishes rotate evenly, never twice in a day.
 3. **Slide 7:** the next promo slide from `images/promo/` (drop more in to rotate them).
 
-The hook, an optional second line and the caption are written by OpenAI in the style of the account's
-best posts (`data/hook_examples.txt`). Claims are checked against the cards: "under £15" only when the
-five cards really add up to £15 or less, "ready in 20 minutes" only when every card says so.
+The hook is picked in a tournament: OpenAI writes 6 candidates in the style of the account's best posts
+(`data/hook_examples.txt`) and the brand guide (`data/brand.md`), rule checks remove the bad ones, and a
+second AI pass scores the rest; a hook is never reused. Claims are checked against the cards: "under
+£15" only when the five cards really add up to £15 or less, "ready in 20 minutes" only when every card
+says so. The caption asks a question (comments) and for a save.
 
 Setup: see [SETUP.md](SETUP.md). Design: [docs/superpowers/specs](docs/superpowers/specs).
 

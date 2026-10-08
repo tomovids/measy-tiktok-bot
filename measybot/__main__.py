@@ -44,28 +44,42 @@ def openai_client(required: bool) -> OpenAI | None:
 
 # ---- commands ---------------------------------------------------------------------------------
 
+def post_times(cfg: dict) -> list[tuple[int, int]]:
+    times = cfg["schedule"].get("post_times") or [cfg["schedule"]["post_time"]]
+    return [tuple(map(int, t.split(":"))) for t in times]
+
+
+def slot_name(index: int) -> str:
+    return "morning" if index == 0 else "afternoon"
+
+
 def cmd_build(args, cfg) -> int:
     now = local_now(cfg)
     day = date.fromisoformat(args.date) if args.date else now.date()
     hist = History.load()
-    name = f"{day.isoformat()}-{now:%H%M%S}" if args.again else day.isoformat()
-    github_output(date=day.isoformat(), post=name, built="false")
-    if hist.done_on(day) and not args.again:
-        log(f"Today's draft ({day}) was already sent. Nothing to do.")
-        return 0
+    times = post_times(cfg)
+    done = hist.count_on(day)
+    github_output(date=day.isoformat(), built="false")
     if not config.TOKEN_FILE.exists():
         log("TikTok isn't connected yet (no state/tiktok_token.enc; see SETUP.md step 6). Skipping.")
         return 0
-    hh, mm = map(int, cfg["schedule"]["post_time"].split(":"))
-    if not (args.force or args.again or args.date) and (now.hour, now.minute) < (hh, mm):
-        log(f"It's {now:%H:%M} in {cfg['schedule']['timezone']}; posting time is "
-            f"{cfg['schedule']['post_time']}. Nothing to do yet.")
-        return 0
     if args.again:
-        log("Extra test draft: it won't count as today's scheduled post.")
+        index, name = min(done, len(times) - 1), f"{day.isoformat()}-{now:%H%M%S}"
+        log("Extra test draft: it won't count as one of today's scheduled posts.")
+    else:
+        due = len(times) if (args.force or args.date) else sum(1 for t in times if (now.hour, now.minute) >= t)
+        if done >= len(times):
+            log(f"All {len(times)} of today's drafts ({day}) were sent. Nothing to do.")
+            return 0
+        if done >= due:
+            nxt = times[done]
+            log(f"It's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
+            return 0
+        index, name = done, f"{day.isoformat()}-{done + 1}"
+    log(f"Building draft {index + 1} of {len(times)} for {day} ({slot_name(index)})")
     build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log,
-               extra=args.again)
-    github_output(built="true")
+               extra=args.again, slot=slot_name(index))
+    github_output(built="true", post=name)
     return 0
 
 
@@ -87,10 +101,12 @@ def cmd_dry_run(args, cfg) -> int:
     hist.path = None
     for i in range(args.days):
         day = start + timedelta(days=i)
-        log(f"\n== {day} ==")
-        post = build_post(day, cfg, hist, out / day.isoformat(), ai,
-                          ai_image=not args.no_image, keep_spares=False, save_background=True, log=log)
-        hist.add({**post, "status": SENT})   # pretend it was sent, so the next day moves on
+        for index in range(len(post_times(cfg))):
+            log(f"\n== {day} {slot_name(index)} ==")
+            post = build_post(day, cfg, hist, out / f"{day.isoformat()}-{index + 1}", ai,
+                              ai_image=not args.no_image, keep_spares=False, save_background=True,
+                              log=log, slot=slot_name(index))
+            hist.add({**post, "status": SENT})   # pretend it was sent, so the next one moves on
     log(f"\nSlides are in {out}")
     return 0
 

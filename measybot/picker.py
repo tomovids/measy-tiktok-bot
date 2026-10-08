@@ -21,12 +21,16 @@ class PickError(Exception):
 
 
 def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
-         rng: random.Random | None = None) -> list[Recipe]:
+         rng: random.Random | None = None, allowed: set[str] | None = None,
+         caps_off: set[str] | frozenset = frozenset(), lead: dict[str, int] | None = None) -> list[Recipe]:
+    """Five dishes. `allowed` limits them to a theme's dishes; `caps_off` lifts the "protein" or
+    "base" variety limit (a chicken theme can be all chicken); `lead` scores put the most
+    crave-worthy dish first. A dish is never posted twice on the same day."""
     p = cfg["picker"]
     n = p["recipes_per_post"]
     rng = rng or random.Random(f"{today.isoformat()}/picker")
 
-    pool = usable(recipes, cfg)
+    pool = [r for r in usable(recipes, cfg) if allowed is None or r.group in allowed]
     by_group: dict[str, list[Recipe]] = defaultdict(list)
     for r in pool:
         by_group[r.group].append(r)
@@ -44,11 +48,13 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
     score = {g: age(g) + rng.uniform(0, p.get("jitter_days", 0)) for g in groups}
     order = sorted(groups, key=lambda g: -score[g])
 
+    big = n if "protein" in caps_off else 0
+    bigb = n if "base" in caps_off else 0
     chosen: list[str] = []
-    for cooldown in range(p["dish_cooldown_days"], -1, -1):
+    for cooldown in range(p["dish_cooldown_days"], 0, -1):
         for extra in (0, 1, n):
-            chosen = _greedy(order, by_group, age, cooldown, p["max_same_protein"] + extra,
-                             p["max_same_base"] + extra, n, avoid_similar=extra == 0)
+            chosen = _greedy(order, by_group, age, cooldown, p["max_same_protein"] + extra + big,
+                             p["max_same_base"] + extra + bigb, n, avoid_similar=extra == 0)
             if len(chosen) == n:
                 break
         if len(chosen) == n:
@@ -58,6 +64,10 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
 
     picks = [_least_used_image(by_group[g], last_file, rng) for g in chosen]
     rng.shuffle(picks)
+    if lead:
+        best = max(picks, key=lambda r: lead.get(r.group, 0))
+        picks.remove(best)
+        picks.insert(0, best)
     return picks
 
 

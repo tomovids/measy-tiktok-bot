@@ -1,16 +1,19 @@
 # Measy TikTok slideshow bot settings. Edit freely; the next run picks them up.
 
 [schedule]
-# The draft is made at or after this time (UK time). GitHub may start a few minutes late.
-post_time = "07:30"
+# One draft per time (UK time). GitHub may start a few minutes late. The GitHub workflow runs at
+# these times too: if you change them, change the cron lines in .github/workflows/daily.yml.
+post_times = ["07:30", "16:30"]
 timezone = "Europe/London"
 
 [picker]
 recipes_per_post = 5
-# A dish never comes back sooner than this.
-dish_cooldown_days = 7
+# A dish isn't reused sooner than this unless the day's theme needs it (never twice in a day).
+dish_cooldown_days = 4
+# A collection (cheesy, chicken, fakeaway...) rests this many days before it's used again.
+collection_gap_days = 4
 # Random spread (days) so the same five dishes don't always travel together.
-jitter_days = 4
+jitter_days = 3
 max_same_protein = 3
 max_same_base = 2
 # 21 cards print prices in US dollars ($). Leave them out of UK posts.
@@ -84,11 +87,26 @@ max_hook_chars = 64
 max_subline_chars = 42
 # Emoji the writer may use (all draw cleanly on the cover).
 emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💷🍝🍗🌮🧀🍚😴🫶"
+# Hook tournament: how many hooks the writer drafts per post (the judge picks the best).
+candidates = 6
+# A hook sharing this share of its words with one of the last 60 hooks is rejected.
+similar_threshold = 0.6
+
+[brand]
+# Words that must never appear in a hook, second line, intro or question (see data/brand.md).
+avoid = ["tesco", "lidl", "asda", "sainsbury", "morrisons", "waitrose", "iceland", "co-op",
+         "m&s", "healthy", "weight loss", "guilt-free", "guilt free", "detox", "skinny", "clean eating"]
 
 [caption]
-cta = "Full recipes on the Measy app (link in bio) 📲"
-hashtags = ["#aldi", "#aldiuk", "#aldidinners", "#budgetmeals", "#cheapmeals", "#easydinner",
-            "#dinnerideas", "#mealideas", "#ukfood", "#measy"]
+cta = "Full recipes + the shopping list on the Measy app (link in bio) 📲"
+save_lines = [
+  "💾 Save this for your next Aldi shop",
+  "💾 Save this so you're not stuck for tea this week",
+  "💾 Save it, screenshot it, send it to whoever does the cooking",
+]
+# Always used; each theme adds its own two (max_hashtags in total).
+hashtags = ["#aldi", "#aldiuk", "#aldidinners", "#budgetmeals", "#easydinner", "#ukfood", "#measy"]
+max_hashtags = 9
 
 [tiktok]
 # Turns on TikTok's "AI-generated" label (the cover is a realistic AI picture).
