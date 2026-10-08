@@ -25,8 +25,8 @@ jobs:
       built: ${{ steps.build.outputs.built }}
       date: ${{ steps.build.outputs.date }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -43,14 +43,14 @@ jobs:
         run: mkdir -p state && tar czf workdir.tgz site/p state
 
       - if: steps.build.outputs.built == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: workdir
           path: workdir.tgz
           retention-days: 7
 
       - if: steps.build.outputs.built == 'true'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -66,21 +66,22 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
 
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: workdir
+          path: .
       - run: tar xzf workdir.tgz && rm workdir.tgz
 
       - name: Publish the slides on GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Send to TikTok drafts
         run: python -m measybot send --date ${{ needs.build.outputs.date }}
