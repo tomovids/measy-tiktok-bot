@@ -36,8 +36,10 @@ Keep it: if it's lost, just make a new one and do step 6 again.
 1. Go to <https://developers.tiktok.com/> and log in (any TikTok account works; it can be the Measy one).
 2. **Manage apps → Connect an app** (or "Create app"). Name it e.g. *Measy Slideshow Bot*.
 3. Fill in the basic info: icon (the Measy logo), category (e.g. Food & Drink / Lifestyle), a one-line
-   description ("Sends Measy's daily recipe slideshow to our own TikTok drafts"), and the
-   **Terms of Service** and **Privacy Policy** links (getmeasy.com's pages).
+   description ("Sends Measy's daily budget recipe slideshow to our own TikTok drafts, ready for us to add
+   a sound and post."), and the links
+   **Terms of Service** `https://tomovids.github.io/measy-tiktok-bot/terms.html` and
+   **Privacy Policy** `https://tomovids.github.io/measy-tiktok-bot/privacy.html`.
 4. **Platforms:** choose **Web** and use the website `https://tomovids.github.io/measy-tiktok-bot/`.
 5. **Add products:** **Login Kit** and **Content Posting API**.
    - Login Kit → **Redirect URI**: `https://tomovids.github.io/measy-tiktok-bot/auth.html`

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Measy Slideshow privacy</title>
+<style>
+  :root { --bg: #f6f3ea; --ink: #13261c; --muted: #4d5d53; --green: #1f6b3a; --rule: #d9d3c3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1a14; --ink: #e8efe9; --muted: #a9bbae; --green: #6fcf8e; --rule: #2a3a30; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 4px; color: var(--green); }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--green); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Measy Slideshow · Last updated 8 October 2026</p>
+
+  <p>Measy Slideshow is an internal tool run by Measy, the meal-planning app. It sends Measy's own daily
+  recipe slideshow to Measy's own TikTok account as a draft. This page explains what information the tool
+  handles. It covers this tool and this website only; the Measy app has its own privacy policy.</p>
+
+  <h2>What we get from TikTok</h2>
+  <p>When the Measy TikTok account connects the tool, TikTok gives us:</p>
+  <ul>
+    <li>an access token and a refresh token, which let the tool send drafts to that account;</li>
+    <li>the account's TikTok ID (open ID) and the permissions it granted: basic profile information
+        (<code>user.info.basic</code>) and uploading drafts (<code>video.upload</code>).</li>
+  </ul>
+  <p>We don't collect or store anything about any other TikTok user, and we don't read the account's
+  followers, messages, comments or videos.</p>
+
+  <h2>How we use it</h2>
+  <p>Only to upload Measy's own recipe slideshows to the Measy account's TikTok drafts and to check that
+  each upload arrived. Nothing is posted publicly by the tool; a person posts each draft in the TikTok app.</p>
+
+  <h2>Where it's kept</h2>
+  <p>The tokens are encrypted before they are stored, and the key that unlocks them is kept separately as
+  an encrypted GitHub secret. The tool runs on GitHub Actions and this website is hosted on GitHub Pages.
+  The day's slideshow images are published on this website so that TikTok can download them; they are
+  replaced with the next day's images.</p>
+
+  <h2>Who else is involved</h2>
+  <ul>
+    <li><strong>TikTok</strong> receives the slideshow and caption for the draft.</li>
+    <li><strong>GitHub</strong> runs the tool and hosts this website.</li>
+    <li><strong>OpenAI</strong> generates the cover picture and the caption text from the recipe names.
+        No personal information is sent to OpenAI.</li>
+  </ul>
+  <p>We don't sell or share the information with anyone else, and we don't use it for advertising.</p>
+
+  <h2>How long we keep it</h2>
+  <p>The tokens are kept while the account stays connected and are deleted when the connection is ended.
+  The account owner can end it at any time in the TikTok app (Settings and privacy → Security →
+  Manage app permissions).</p>
+
+  <h2>Visitors to this website</h2>
+  <p>This website has no cookies, sign-ups or analytics. GitHub, which hosts it, may log technical
+  information such as IP addresses; see
+  <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's
+  privacy statement</a>.</p>
+
+  <h2>Children</h2>
+  <p>The tool and this website are not aimed at children and don't knowingly collect children's information.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes we'll update this page and the date at the top.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests about your information: <a href="mailto:tomobiznis@gmail.com">tomobiznis@gmail.com</a>.</p>
+
+  <footer>
+    <a href="terms.html">Terms of Service</a> · <a href="./">Measy Slideshow</a> ·
+    <a href="https://get.getmeasy.com/">Get the Measy app</a>
+  </footer>
+</main>
+</body>
+</html>
