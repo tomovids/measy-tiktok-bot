@@ -51,6 +51,9 @@ def cmd_build(args, cfg) -> int:
     if hist.done_on(day):
         log(f"Today's draft ({day}) was already sent. Nothing to do.")
         return 0
+    if not config.TOKEN_FILE.exists():
+        log("TikTok isn't connected yet (no state/tiktok_token.enc; see SETUP.md step 6). Skipping.")
+        return 0
     hh, mm = map(int, cfg["schedule"]["post_time"].split(":"))
     if not (args.force or args.date) and (now.hour, now.minute) < (hh, mm):
         log(f"It's {now:%H:%M} in {cfg['schedule']['timezone']}; posting time is "

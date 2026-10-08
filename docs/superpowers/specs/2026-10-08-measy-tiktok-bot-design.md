@@ -33,8 +33,8 @@ sound and posts. The bot never posts publicly by itself.
 
 The workflow runs on a schedule at the posting time (default 07:30 Europe/London) and can also be
 started by hand (`workflow_dispatch`). GitHub cron is UTC, so it is scheduled at 06:30 and 07:30 UTC;
-the bot only proceeds when London time is at or past the posting time and today has no successful
-post in the history. A workflow `concurrency` group stops two runs overlapping.
+the bot only proceeds when London time is at or past the posting time, today has no successful
+post in the history, and a TikTok login has been saved (so nothing is spent before setup is done). A workflow `concurrency` group stops two runs overlapping.
 
 1. **Pick 5 recipes** (`measybot/picker.py`) from `data/recipes.json`:
    - never the same dish twice in one post (dishes are grouped: the three peri peri pasta images are one dish);
