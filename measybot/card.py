@@ -228,7 +228,13 @@ def _ingredients(img, r: CardRecipe, box, size: int) -> bool:
     for ing in r.ingredients:
         price = money(ing.price) if ing.price is not None else ""
         pw = fb.getlength(price) + (14 if price else 0)
-        text = f"{ing.qty} {ing.item}" if ing.qty else ing.item
+        qty = (ing.qty or "").strip()
+        if not qty:
+            text = ing.item
+        elif qty[0].isdigit() or qty[0] in "½¼¾":
+            text = f"{qty} {ing.item}"
+        else:  # "to taste", "a pinch", "handful": reads better after the name
+            text = f"{ing.item} ({qty})"
         lines = wrap(text, f, x1 - x0 - 30 - pw)
         if y + lh * len(lines) > y1:
             return False
