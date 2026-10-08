@@ -99,6 +99,56 @@
    "publish_id": "p_inbox_url~v2.7694424654358071299",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-08T22:19:53+00:00"
+  },
+  {
+   "date": "2026-10-08",
+   "hook": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
+   "subline": "Comfort food that actually hits the spot 👀",
+   "title": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
+   "caption": "Thursday sorted: 5 Aldi dinners that feel like proper comfort food — big flavours, tiny bill. Which one are you trying first? 😋👇\n\n1. Loaded BBQ Beef Nachos\n2. Sticky Korean BBQ Chicken Loaded Fries\n3. Cheesy Cajun Chicken Wraps\n4. Garlic Parmesan Chicken Flatbreads\n5. Sweet Chilli Beef Noodles\n\nFull recipes on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #cheapmeals #easydinner #dinnerideas #mealideas #ukfood #measy",
+   "files": [
+    "128_loaded_bbq_beef_nachos_recipe_card.webp",
+    "148_sticky_korean_bbq_loaded_fries.webp",
+    "072_cheesy_cajun_chicken_wraps_recipe_card.webp",
+    "117_garlic_parmesan_chicken_flatbread_recipe.webp",
+    "155_sweet_chilli_beef_noodles_poster.webp"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "cheesy-cajun-chicken-wraps",
+    "garlic-parmesan-chicken-flatbreads",
+    "sweet-chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Cheesy Cajun Chicken Wraps",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Sweet Chilli Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    444,
+    884
+   ],
+   "built_at": "2026-10-08T22:22:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/02.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/03.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/04.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/05.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/06.webp",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-08-232139/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694425417566242819",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-08T22:22:54+00:00"
   }
  ]
 }
