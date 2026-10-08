@@ -84,7 +84,7 @@ def cmd_dry_run(args, cfg) -> int:
         day = start + timedelta(days=i)
         log(f"\n== {day} ==")
         post = build_post(day, cfg, hist, out / day.isoformat(), ai,
-                          ai_image=not args.no_image, keep_spares=False, log=log)
+                          ai_image=not args.no_image, keep_spares=False, save_background=True, log=log)
         hist.add({**post, "status": SENT})   # pretend it was sent, so the next day moves on
     log(f"\nSlides are in {out}")
     return 0

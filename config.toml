@@ -26,18 +26,27 @@ image_quality = "medium"
 
 [cover]
 prompt = """Photorealistic photo of the outside of a UK Aldi supermarket store front: the blue Aldi logo \
-sign with its orange and yellow border on the facade, large glass entrance doors, trolleys and a car park \
-in the foreground. {scene}. Tall vertical composition: the Aldi sign in the upper part of the picture, \
-plain facade or sky across the middle where a caption will go. No people in focus. No added text, \
-captions, watermarks or words other than the Aldi sign."""
-# Used when the AI writer is unavailable.
-fallback_scenes = [
-  "Bright sunny morning, blue sky with a few white clouds, shot from the car park at a low angle",
-  "Golden hour sunset, warm orange sky, wet tarmac reflecting the lights, slight low angle",
-  "Evening after rain, glowing shop windows, puddles on the pavement, cosy street lights",
-  "Clear spring afternoon, trees in leaf beside the store, wide angle from across the road",
-  "Overcast autumn day, fallen leaves in the car park, soft even light, straight-on view",
-  "Dusk with a deep blue sky, the Aldi sign lit up, trolleys lined up by the doors",
+sign with its yellow, orange and red border mounted high on the facade, large glass entrance doors, \
+trolleys and a car park. {scene}. Tall vertical composition: the whole Aldi sign sits in the TOP THIRD \
+of the picture and is fully visible; the middle of the picture is plain facade or sky with nothing \
+important in it (a caption will cover it); the entrance and car park fill the bottom. Bright, inviting, \
+high-end advertising photography. No people in focus. No added text, captions, watermarks or words other \
+than the Aldi sign."""
+# The bot picks one sky and one camera angle per day (weighted), so covers vary but stay bright.
+skies = [
+  { weight = 30, text = "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight" },
+  { weight = 20, text = "Golden hour, warm low sun, orange and pink sky, long soft shadows" },
+  { weight = 15, text = "Blue-hour dusk, deep blue sky, the Aldi sign and shop windows glowing warmly" },
+  { weight = 10, text = "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine" },
+  { weight = 10, text = "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground" },
+  { weight = 8, text = "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky" },
+  { weight = 7, text = "Sunny summer evening, warm light on the facade, pastel sky" },
+]
+angles = [
+  "low angle from the car park looking up at the store",
+  "three-quarter view from the corner of the car park",
+  "straight-on view from across the car park, symmetrical",
+  "low angle close to the entrance, wide lens",
 ]
 hook_font = "fonts/TikTokSans36pt-SemiBold.ttf"
 arrow_font = "fonts/TikTokSans36pt-Bold.ttf"

@@ -14,23 +14,30 @@ from .tiktok import TikTok, TikTokError, wait_for_urls
 
 
 def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | None,
-               ai_image: bool = True, keep_spares: bool = True, log=print) -> dict:
+               ai_image: bool = True, keep_spares: bool = True, save_background: bool = False,
+               log=print) -> dict:
     recipes = pick(catalogue.load_recipes(), hist, day, cfg)
     log("Recipes: " + "; ".join(f"{r.dish} [{r.file[:3]}]" for r in recipes))
 
-    words = writer.write(recipes, hist.recent_hooks(30), cfg, ai, random.Random(f"{day}/words"), log)
+    words = writer.write(recipes, hist.recent_hooks(30), cfg, ai, random.Random(f"{day}/words"), log,
+                         day=day)
     log(f"Hook ({words.source}): {words.hook}" + (f"  /  {words.subline}" if words.subline else ""))
     caption = writer.caption(words, recipes, cfg)
+    words.scene = cover.pick_scene(cfg, random.Random(f"{day}/scene"))
 
     background, model, source = _background(day, words.scene, cfg, ai if ai_image else None, log)
     if source == "generated" and keep_spares:
         cover.keep_background(background, day)
-    slide = cover.render(background, words.hook, words.subline, cfg, random.Random(f"{day}/cover"))
+    sign = cover.find_sign(background) if source != "placeholder" else None
+    slide = cover.render(background, words.hook, words.subline, cfg, random.Random(f"{day}/cover"),
+                         avoid=sign)
 
     promo = hist.next_promo(catalogue.promo_files())
-    meta = {"scene": words.scene, "background": source, "image_model": model,
+    meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     post = stage.stage(folder, day, slide, recipes, promo, words, caption, meta)
+    if save_background:
+        background.save(folder / "background.jpg", "JPEG", quality=90)
     log(f"Built {len(post['slides'])} slides in {folder}")
     return post
 

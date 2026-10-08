@@ -68,12 +68,12 @@ class StubClient:
 
 
 def test_write_retries_until_valid(cfg):
-    bad = {"hook": "3 Aldi Dinners Under £5 😭", "subline": "", "intro": "x", "scene": "sunny"}
+    bad = {"hook": "3 Aldi Dinners Under £5 😭", "subline": "", "intro": "x"}
     good = {"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "",
-            "intro": "Which one first? 👀", "scene": "Golden hour, low angle."}
+            "intro": "Which one first? 👀"}
     client = StubClient([bad, good])
     w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), log=lambda m: None)
-    assert w.source == "ai" and w.hook == good["hook"] and w.scene == "Golden hour, low angle"
+    assert w.source == "ai" and w.hook == good["hook"] and w.intro == good["intro"]
     assert "had these problems" in client.prompts[1]
 
 
@@ -112,3 +112,10 @@ def test_caption(cfg):
     text = writer.caption(w, FIVE_PRICED, cfg)
     assert text.startswith("Saving these 👇\n\n1. Dish number 0")
     assert "5. Dish number 4" in text and "#aldi" in text and cfg["caption"]["cta"] in text
+
+
+def test_prompt_knows_the_weekday(cfg):
+    from datetime import date
+    client = StubClient([{"hook": "5 Aldi Dinners Better Than a Takeaway 🍔", "subline": "", "intro": "Go 👀"}])
+    writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), log=lambda m: None, day=date(2026, 10, 9))
+    assert "Friday morning" in client.prompts[0]

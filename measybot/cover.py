@@ -6,6 +6,7 @@ import random
 from dataclasses import dataclass
 from datetime import date
 from functools import lru_cache
+from itertools import combinations
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -34,6 +35,48 @@ def crop_portrait(img: Image.Image) -> Image.Image:
         nh = round(w / target)
         img = img.crop((0, (h - nh) // 2, w, (h - nh) // 2 + nh))
     return img.resize((W, H), Image.LANCZOS)
+
+
+def pick_scene(cfg: dict, rng: random.Random) -> str:
+    """One weighted sky + one camera angle for the cover photo."""
+    c = cfg["cover"]
+    sky = rng.choices([s["text"] for s in c["skies"]], weights=[s["weight"] for s in c["skies"]])[0]
+    return f"{sky}, {rng.choice(c['angles'])}"
+
+
+def find_sign(img: Image.Image) -> tuple[int, int] | None:
+    """Top and bottom (in pixels) of the Aldi sign, found by its yellow/orange border.
+
+    Looks for the biggest solid band of rows with sign-coloured pixels in the top 80% of the
+    picture; warm shop-window lights lower down are smaller and get ignored.
+    """
+    small = img.convert("RGB").resize((270, 480))
+    px = small.load()
+    counts = []
+    for y in range(int(480 * 0.8)):
+        n = 0
+        for x in range(270):
+            r, g, b = px[x, y]
+            if r > 200 and g > 120 and b < 70 and r - b > 160:
+                n += 1
+        counts.append(n)
+    runs, start, gap, total = [], None, 0, 0
+    for y, n in enumerate(counts + [0] * 6):
+        if n >= 3:
+            if start is None:
+                start, total = y, 0
+            gap, total, end = 0, total + n, y
+        elif start is not None:
+            gap += 1
+            if gap > 4:
+                runs.append((total, start, end))
+                start = None
+    runs = [r for r in runs if r[2] - r[1] >= 10]   # at least ~40 px tall
+    if not runs:
+        return None
+    _, top, bottom = max(runs)
+    scale = img.height / 480
+    return round(top * scale), round((bottom + 1) * scale)
 
 
 def generate_background(client: OpenAI, scene: str, cfg: dict) -> tuple[Image.Image, str]:
@@ -164,12 +207,31 @@ def wrap(text: str, style: Style, max_w: float) -> list[str]:
     return lines
 
 
+def balance(lines: list[str], style: Style, max_w: float) -> list[str]:
+    """Same number of lines, but split so they're as even as possible (no emoji-only line)."""
+    words = " ".join(lines).split()
+    n = len(lines)
+    if n < 2 or len(words) > 18:
+        return lines
+    best, best_w = lines, max(style.width(l) for l in lines)
+    for cuts in combinations(range(1, len(words)), n - 1):
+        bounds = (0, *cuts, len(words))
+        trial = [" ".join(words[a:b]) for a, b in zip(bounds, bounds[1:])]
+        if any(all(is_emoji(c) or c.isspace() for c in l) for l in trial):
+            continue
+        widest = max(style.width(l) for l in trial)
+        if widest <= max_w and widest < best_w - 1:
+            best, best_w = trial, widest
+    return best
+
+
 def fit(text: str, font: str, emoji_font: str, size: int, max_w: float, max_lines: int,
         min_size: int = 40) -> tuple[Style, list[str]]:
     """Largest size (down to min_size) at which the text wraps into max_lines within max_w."""
     while True:
         style = Style(font, emoji_font, size)
         lines = wrap(text, style, max_w - 2 * style.pad_x)
+        lines = balance(lines, style, max_w - 2 * style.pad_x)
         widest = max(style.width(l) for l in lines) + 2 * style.pad_x
         if (len(lines) <= max_lines and widest <= max_w) or size <= min_size:
             return style, lines
@@ -233,8 +295,25 @@ def _draw_lines(img: Image.Image, lines: list[str], rects: list, style: Style, c
                 x += f.getlength(val)
 
 
+def place(default_top: float, block_h: float, avoid: tuple[int, int] | None,
+          margin: int = 28) -> float:
+    """Moves the caption block off the sign: below it if there's room, else above it."""
+    if not avoid:
+        return default_top
+    a_top, a_bottom = avoid
+    if default_top + block_h + margin <= a_top or default_top >= a_bottom + margin:
+        return default_top
+    below = a_bottom + margin
+    if below + block_h <= H * 0.74:
+        return below
+    above = a_top - margin - block_h
+    if above >= H * 0.1:
+        return above
+    return default_top
+
+
 def render(background: Image.Image, hook: str, subline: str, cfg: dict,
-           rng: random.Random | None = None) -> Image.Image:
+           rng: random.Random | None = None, avoid: tuple[int, int] | None = None) -> Image.Image:
     c = cfg["cover"]
     rng = rng or random.Random(hook)
     img = background.convert("RGB").copy()
@@ -250,7 +329,7 @@ def render(background: Image.Image, hook: str, subline: str, cfg: dict,
     if sub_lines:
         block_h += gap + len(sub_lines) * sub_style.line_h
     block_h += gap + arrow_size
-    top = H * c["text_y"] - block_h / 2
+    top = place(H * c["text_y"] - block_h / 2, block_h, avoid)
 
     white = Image.new("RGB", (W, H), (255, 255, 255))
     mask, hook_rects = _box_mask(hook_lines, hook_style, W / 2, top)

@@ -1,4 +1,4 @@
-"""Writes the day's hook, optional second line, caption intro and cover scene.
+"""Writes the day's hook, optional second line and caption intro.
 
 The OpenAI writer is shown the owner's past hooks as style examples. Every answer is checked:
 claims about money or time must be true for the five recipes on the cards, the number of dinners
@@ -11,6 +11,7 @@ import math
 import random
 import re
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 from . import config
@@ -37,8 +38,8 @@ class Words:
     hook: str
     subline: str
     intro: str
-    scene: str
-    source: str  # "ai" or "fallback"
+    scene: str = ""      # filled in by the pipeline (cover.pick_scene)
+    source: str = "ai"   # "ai" or "fallback"
 
 
 @dataclass
@@ -181,8 +182,6 @@ def _rules(facts: Facts, cfg: dict) -> str:
 - "subline": an optional short second line, at most {wc['max_subline_chars']} characters, ending with one emoji, or "" for none.
   Use one on roughly 4 in 10 posts.
 - "intro": the first line of the TikTok caption (at most 150 characters, 1-2 emoji, don't list the dishes).
-- "scene": one sentence describing the photo conditions for a picture of an Aldi store front: time of day,
-  weather, season, camera angle, lighting. No people, no text. Make it different from a plain sunny day sometimes.
 - Use ONLY these emoji: {wc['emoji']}
 - {money}
 - {time}
@@ -191,7 +190,7 @@ def _rules(facts: Facts, cfg: dict) -> str:
 
 
 def _prompt(recipes: list[Recipe], facts: Facts, examples, recent: list[str], theme: str,
-            cfg: dict) -> tuple[str, str]:
+            cfg: dict, day: date | None = None) -> tuple[str, str]:
     system = ("You write the cover text for daily TikTok photo slideshows by Measy, a UK meal-planning "
               "app with budget recipes made from an Aldi shop. Every slideshow shows 5 Aldi dinners. "
               "Answer with a JSON object only.")
@@ -208,28 +207,31 @@ Today's five dinners:
 {dishes}
 
 Angle to try today (optional, only if it fits): {theme}
+{_when(day)}
 
 Don't repeat or closely copy these recent hooks:
 {rec}
 
 {_rules(facts, cfg)}
 
-Return: {{"hook": "...", "subline": "...", "intro": "...", "scene": "..."}}"""
+Return: {{"hook": "...", "subline": "...", "intro": "..."}}"""
     return system, user
 
 
-def _clean_scene(scene: str) -> str:
-    scene = re.sub(r"\s+", " ", str(scene or "")).strip().strip('"').strip()
-    return scene.rstrip(".")[:220]
+def _when(day: date | None) -> str:
+    if day is None:
+        return ""
+    return (f"The post goes out on {day:%A} morning. Only mention a day of the week if it's "
+            f"{day:%A} or the coming weekend.")
 
 
 def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | None,
-          rng: random.Random, log=print) -> Words:
+          rng: random.Random, log=print, day: date | None = None) -> Words:
     facts = facts_for(recipes)
     if client is not None:
         examples = load_examples()
         theme = rng.choice(THEMES)
-        system, user = _prompt(recipes, facts, examples, recent, theme, cfg)
+        system, user = _prompt(recipes, facts, examples, recent, theme, cfg, day)
         feedback = ""
         for attempt in range(3):
             try:
@@ -237,13 +239,11 @@ def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | 
             except OpenAIError as e:
                 log(f"Writer unavailable, using a saved hook: {e}")
                 break
-            w = Words(hook=str(data.get("hook", "")).strip(), subline=str(data.get("subline", "") or "").strip(),
-                      intro=str(data.get("intro", "")).strip(), scene=_clean_scene(data.get("scene", "")),
-                      source="ai")
+            w = Words(hook=str(data.get("hook", "")).strip(),
+                      subline=str(data.get("subline", "") or "").strip(),
+                      intro=str(data.get("intro", "")).strip(), source="ai")
             found = problems(w, facts, recent, cfg)
             if not found:
-                if not w.scene:
-                    w.scene = rng.choice(cfg["cover"]["fallback_scenes"])
                 return w
             log(f"Writer attempt {attempt + 1} rejected: {'; '.join(found)}")
             feedback = ("\n\nYour last answer was " + str(data) + "\nIt had these problems: "
@@ -255,13 +255,12 @@ def fallback(facts: Facts, recent: list[str], cfg: dict, rng: random.Random) -> 
     options = load_fallbacks()
     rng.shuffle(options)
     intro = rng.choice(FALLBACK_INTROS)
-    scene = rng.choice(cfg["cover"]["fallback_scenes"])
     for ignore_recent in (False, True):
         for hook, sub in options:
-            w = Words(hook, sub, intro, scene, "fallback")
+            w = Words(hook, sub, intro, source="fallback")
             if not problems(w, facts, [] if ignore_recent else recent, cfg):
                 return w
-    return Words("5 Aldi Dinners I'd Make on Repeat 😋", "", intro, scene, "fallback")
+    return Words("5 Aldi Dinners I'd Make on Repeat 😋", "", intro, source="fallback")
 
 
 def dish_name(r: Recipe) -> str:
