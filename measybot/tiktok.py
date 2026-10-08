@@ -8,6 +8,7 @@ import requests
 
 AUTH_URL = "https://www.tiktok.com/v2/auth/authorize/"
 TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/"
+USER_INFO_URL = "https://open.tiktokapis.com/v2/user/info/"
 INIT_URL = "https://open.tiktokapis.com/v2/post/publish/content/init/"
 STATUS_URL = "https://open.tiktokapis.com/v2/post/publish/status/fetch/"
 
@@ -102,6 +103,19 @@ class TikTok:
 
     def refresh(self, tokens: dict) -> dict:
         return self._token({"grant_type": "refresh_token", "refresh_token": tokens["refresh_token"]})
+
+    def display_name(self, access_token: str) -> str:
+        """The connected account's display name (user.info.basic), to confirm the right account."""
+        r = self.http.get(USER_INFO_URL, params={"fields": "open_id,display_name"}, timeout=30,
+                          headers={"Authorization": f"Bearer {access_token}"})
+        try:
+            data = r.json()
+        except ValueError:
+            raise TikTokError(f"http_{r.status_code}", r.text[:300])
+        err = data.get("error") or {}
+        if err.get("code", "ok") != "ok":
+            raise TikTokError(err.get("code"), err.get("message", ""), err.get("log_id", ""))
+        return (data.get("data") or {}).get("user", {}).get("display_name", "")
 
     # ---- posting --------------------------------------------------------------------------
 

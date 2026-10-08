@@ -104,6 +104,14 @@ def cmd_authorize(args, cfg) -> int:
     missing = [s for s in t["scopes"] if s not in login.get("scope", "")]
     if missing:
         log(f"Warning: TikTok didn't grant {', '.join(missing)}. Check the app's scopes (SETUP.md).")
+    try:
+        name = tt.display_name(login["access_token"])
+        log(f"Connected as: {name}" + ("" if name else " (no display name)"))
+        if name and input("Is this the Measy account? [y/n] ").strip().lower() not in ("y", "yes"):
+            log("Not saved. Log out of TikTok in the browser, log in as the Measy account and run authorize again.")
+            return 1
+    except TikTokError as e:
+        log(f"(Couldn't read the account name: {e})")
     tokens.save(login, key)
     log(f"Saved the login to {config.TOKEN_FILE.relative_to(config.ROOT)} (encrypted).")
     log("Now commit and push it:  git add state/tiktok_token.enc && git commit -m \"TikTok login\" && git push")

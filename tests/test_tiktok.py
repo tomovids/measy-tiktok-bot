@@ -104,3 +104,12 @@ def test_wait_for_urls():
     wait_for_urls(URLS[:2], session=s, sleep=lambda x: t.__setitem__(0, t[0] + x),
                   now=lambda: t[0], log=lambda m: None)
     assert len(s.calls) == 4
+
+
+def test_display_name():
+    tt, s = tiktok([FakeResponse(200, {"data": {"user": {"open_id": "o", "display_name": "Measy"}},
+                                       "error": OK})])
+    assert tt.display_name("tok") == "Measy"
+    method, url, kw = s.calls[0]
+    assert method == "GET" and url.endswith("/v2/user/info/")
+    assert kw["params"]["fields"] == "open_id,display_name"
