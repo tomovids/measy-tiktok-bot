@@ -1,0 +1,68 @@
+# Measy TikTok slideshow bot settings. Edit freely; the next run picks them up.
+
+[schedule]
+# The draft is made at or after this time (UK time). GitHub may start a few minutes late.
+post_time = "07:30"
+timezone = "Europe/London"
+
+[picker]
+recipes_per_post = 5
+# A dish never comes back sooner than this.
+dish_cooldown_days = 7
+# Random spread (days) so the same five dishes don't always travel together.
+jitter_days = 4
+max_same_protein = 3
+max_same_base = 2
+# 21 cards print prices in US dollars ($). Leave them out of UK posts.
+skip_dollar_cards = true
+
+[openai]
+text_model = "gpt-5-mini"
+# Tried in order until one works (newest first).
+image_models = ["gpt-image-2", "gpt-image-1.5", "gpt-image-1"]
+image_size = "1024x1536"
+# low (about 1c), medium (about 5c) or high (about 17-20c) per cover
+image_quality = "medium"
+
+[cover]
+prompt = """Photorealistic photo of the outside of a UK Aldi supermarket store front: the blue Aldi logo \
+sign with its orange and yellow border on the facade, large glass entrance doors, trolleys and a car park \
+in the foreground. {scene}. Tall vertical composition: the Aldi sign in the upper part of the picture, \
+plain facade or sky across the middle where a caption will go. No people in focus. No added text, \
+captions, watermarks or words other than the Aldi sign."""
+# Used when the AI writer is unavailable.
+fallback_scenes = [
+  "Bright sunny morning, blue sky with a few white clouds, shot from the car park at a low angle",
+  "Golden hour sunset, warm orange sky, wet tarmac reflecting the lights, slight low angle",
+  "Evening after rain, glowing shop windows, puddles on the pavement, cosy street lights",
+  "Clear spring afternoon, trees in leaf beside the store, wide angle from across the road",
+  "Overcast autumn day, fallen leaves in the car park, soft even light, straight-on view",
+  "Dusk with a deep blue sky, the Aldi sign lit up, trolleys lined up by the doors",
+]
+hook_font = "fonts/TikTokSans36pt-SemiBold.ttf"
+arrow_font = "fonts/TikTokSans36pt-Bold.ttf"
+emoji_font = "fonts/NotoColorEmoji.ttf"
+hook_size = 62
+subline_size = 50
+# Vertical centre of the caption, as a share of the height (0.5 = middle).
+text_y = 0.47
+max_width = 0.88
+
+[words]
+max_hook_chars = 64
+max_subline_chars = 42
+# Emoji the writer may use (all draw cleanly on the cover).
+emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💷🍝🍗🌮🧀🍚😴🫶"
+
+[caption]
+cta = "Full recipes on the Measy app (link in bio) 📲"
+hashtags = ["#aldi", "#aldiuk", "#aldidinners", "#budgetmeals", "#cheapmeals", "#easydinner",
+            "#dinnerideas", "#mealideas", "#ukfood", "#measy"]
+
+[tiktok]
+# Turns on TikTok's "AI-generated" label (the cover is a realistic AI picture).
+ai_generated = true
+# Where GitHub Pages serves the slides. TikTok must have this address verified.
+pages_base_url = "https://tomovids.github.io/measy-tiktok-bot/"
+redirect_uri = "https://tomovids.github.io/measy-tiktok-bot/auth.html"
+scopes = ["user.info.basic", "video.upload"]

@@ -27,7 +27,7 @@ sound and posts. The bot never posts publicly by itself.
 | Where it runs | GitHub Actions (free), repo `tomovids/measy-tiktok-bot` (public, so GitHub Pages is free) |
 | Approach | The owner's own TikTok developer app; images served to TikTok from GitHub Pages |
 | Language | British English, prices in £ (this is the owner's UK audience) |
-| AI label | TikTok's AI-generated flag turned on by default (the cover is a realistic AI image); `config.yaml` can turn it off |
+| AI label | TikTok's AI-generated flag turned on by default (the cover is a realistic AI image); `config.toml` can turn it off |
 
 ## Daily run
 
@@ -38,11 +38,17 @@ post in the history. A workflow `concurrency` group stops two runs overlapping.
 
 1. **Pick 5 recipes** (`measybot/picker.py`) from `data/recipes.json`:
    - never the same dish twice in one post (dishes are grouped: the three peri peri pasta images are one dish);
-   - an image is not reused until every recipe image has been used once (a "cycle"); when fewer than
-     5 unused images from 5 different dishes remain, a new cycle starts;
-   - a dish is not repeated within `dish_cooldown_days` (default 10); if the rules leave fewer than 5
-     candidates the cooldown is relaxed one day at a time;
-   - variety: at most 2 recipes with the same main ingredient and at most 2 with the same base;
+   - dishes rotate least-recently-used first (never-used dishes before anything else), so every dish
+     comes round once before dishes repeat (63 dishes = about every 13 days); a random spread of
+     `jitter_days` (4) stops the same five dishes always travelling together. (Changed during the build:
+     rotating by *image* clashed with the dish cooldown, because one dish has up to 9 images.)
+   - within a dish, the image shown longest ago is used, so the images of a dish take turns;
+   - a dish is never repeated within `dish_cooldown_days` (7); if the rules leave fewer than 5
+     candidates the variety rules give way first, then the cooldown one day at a time;
+   - variety: at most 3 recipes with the same main ingredient (half the dishes are chicken, so 2 made the
+     chicken dishes come round less often), at most 2 with the same base, and no two dishes whose names
+     mostly share words (e.g. sticky BBQ chicken / beef rice bowls);
+   - the 21 cards priced in US dollars are left out (`skip_dollar_cards`);
    - choices are random but seeded by the date, so a dry run for a given date is reproducible;
    - promo images are never picked as recipes.
 2. **Write the words** (`measybot/writer.py`) with the OpenAI text model (configurable). Input: the 5
@@ -57,19 +63,20 @@ post in the history. A workflow `concurrency` group stops two runs overlapping.
    - not a repeat of the last 30 hooks.
    A failed check retries (up to 3 times), then falls back to `data/hooks_fallback.txt` and a caption template.
 3. **Make the cover** (`measybot/cover.py`):
-   - generate the background with GPT Image from the prompt template in `config.yaml` filled with the
+   - generate the background with GPT Image from the prompt template in `config.toml` filled with the
      day's `scene` (a realistic UK Aldi store front, blue sky or the day's weather, no added text);
    - centre-crop 1024x1536 to 9:16 and resize to 1080x1920;
    - draw the hook in a white rounded box (TikTok Sans, black, auto-shrinks to fit at most 3 lines,
      about 86% of the width, centred a little above the middle), the optional sub-line in a second
      smaller box, and `>>>>` in white with a dark outline under it; emoji drawn in colour from Noto Color Emoji;
-   - save as JPEG (quality 92) and keep the plain background in `state/backgrounds/` (last 30 kept);
-   - if image generation fails, reuse a background from `state/backgrounds/` with the new text.
+   - save as JPEG (quality 92); the first 10 generated backgrounds are kept in `state/backgrounds/` as spares;
+   - if image generation fails, reuse a spare background with the new text.
 4. **Promo slide**: the next image in `images/promo/` (rotating in file-name order).
 5. **Stage the slides** (`measybot/stage.py`) into `site/p/<YYYY-MM-DD>/01.jpg ... 07.<ext>`. Recipe and
    promo images are copied as they are when they are JPEG/WebP, at most 1080x1920 and under 20 MB;
-   anything else is resized/converted to JPEG. Folders older than 14 days are deleted. The run's
-   choices are written to `site/p/<date>/post.json` for the next step.
+   anything else is resized/converted to JPEG (12 cards are 1086-1145 px wide and get resized). The
+   run's choices are written to `site/p/<date>/post.json` for the next step. `site/p/` is not committed:
+   it travels to the next job as a workflow artifact, so the repo doesn't grow by 2 MB a day.
 6. **Publish to GitHub Pages**: the workflow deploys `site/` with `actions/upload-pages-artifact` +
    `actions/deploy-pages`. The bot then waits (up to 10 minutes) until every slide URL answers 200
    with an image content type.
@@ -85,24 +92,25 @@ post in the history. A workflow `concurrency` group stops two runs overlapping.
    commits `state/` back to the repo. Images count as used **only** once TikTok accepted the draft.
 
 The caption: one intro line, the 5 dishes as a numbered list, "Full recipes on the Measy app (link in
-bio) 📲", then the hashtags from `config.yaml`.
+bio) 📲", then the hashtags from `config.toml`.
 
 ## Project layout
 
 ```
 measy-tiktok-bot/
-  measybot/            __main__.py (CLI), config.py, catalogue.py, picker.py, writer.py,
-                       cover.py, stage.py, tiktok.py, tokens.py, history.py
+  measybot/            __main__.py (CLI), config.py, catalogue.py, picker.py, writer.py, openai_api.py,
+                       cover.py, stage.py, pipeline.py, tiktok.py, tokens.py, history.py
   images/recipes/      the 157 recipe images (file names kept)
   images/promo/        promo slides (starts with the "Plan tasty meals made easy" slide)
   fonts/               TikTokSans (OFL), NotoColorEmoji (OFL), with licence files
   data/recipes.json    catalogue: file, dish, group, protein, base, cost_total, serves, time_mins, kind
   data/hook_examples.txt, data/hooks_fallback.txt
-  config.yaml          post time, timezone, hashtags, models, image quality, prompt template, AI flag, cooldown
+  config.toml          post time, timezone, hashtags, models, image quality, prompt template, AI flag, cooldown
+                       (TOML instead of YAML: Python reads it without an extra package)
   state/               history.json, tiktok_token.enc, backgrounds/
-  site/                GitHub Pages: index.html, auth.html, TikTok verification file, p/<date>/
+  site/                GitHub Pages: index.html, auth.html, TikTok verification file, p/<date>/ (not committed)
   tests/               pytest
-  .github/workflows/daily.yml
+  .github/workflows/daily.yml, site.yml (publishes site/ when it changes, e.g. the verification file)
   .env.example         local secrets for test runs (.env is git-ignored)
   SETUP.md             click-by-click setup guide
 ```
@@ -112,8 +120,10 @@ CLI: `python -m measybot build` (steps 1-5; prints "nothing to do" if today is d
 (builds N days of slides locally, no Pages/TikTok, does not touch history),
 `python -m measybot authorize` (one-time TikTok login), `python -m measybot status` (history summary).
 
-Workflow `daily.yml`: checkout, Python 3.12 + requirements, `build`, Pages deploy, `send`, commit
-`state/` with the built-in `GITHUB_TOKEN` (`contents: write`, `pages: write`, `id-token: write`).
+Workflow `daily.yml`, two jobs so skipped runs don't create Pages deployments:
+`build` (checkout, Python 3.12 + requirements, `build`; if it built: pack `site/p` + `state` as an artifact
+and upload `site/` as the Pages artifact) and `send` (only if built; `github-pages` environment: unpack,
+`actions/deploy-pages`, `send`, then always commit `state/` with the built-in `GITHUB_TOKEN`).
 
 ## TikTok login
 
