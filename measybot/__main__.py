@@ -151,6 +151,52 @@ def cmd_newkey(args, cfg) -> int:
     return 0
 
 
+def _only(args) -> list[str] | None:
+    return [g.strip() for g in args.only.split(",")] if args.only else None
+
+
+def cmd_library(args, cfg) -> int:
+    from . import library
+    lib = library.build(openai_client(required=True), cfg, only=_only(args), log=log)
+    filled = {g: e["ai_filled"] for g, e in lib.items() if e.get("ai_filled")}
+    log(f"\n{len(lib)} recipes in data/recipe_library.json; {len(filled)} have AI-filled parts to check.")
+    return 0
+
+
+def cmd_photos(args, cfg) -> int:
+    from . import library, photos
+    lib = library.load()
+    only = _only(args)
+    client = openai_client(required=True)
+    n = args.variants or cfg["cards"]["variants"]
+    for group, entry in sorted(lib.items()):
+        if only and group not in only:
+            continue
+        for v in range(1, n + 1):
+            if photos.photo_path(group, v).exists() and not args.redo:
+                continue
+            log(f"{group} photo {v} ...")
+            photos.generate(client, entry, v, cfg)
+    return 0
+
+
+def cmd_cards(args, cfg) -> int:
+    from PIL import Image
+    from . import card, library, photos
+    out = Path(args.out).resolve()
+    out.mkdir(parents=True, exist_ok=True)
+    only = _only(args)
+    for group, entry in sorted(library.load().items()):
+        if only and group not in only:
+            continue
+        for path in photos.photos_for(group) or [None]:
+            photo = Image.open(path) if path else Image.new("RGB", (1536, 1024), (196, 160, 120))
+            name = (path.stem if path else group) + ".jpg"
+            card.render(card.CardRecipe.from_dict(entry), photo).save(out / name, "JPEG", quality=92)
+            log(f"{out / name}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="measybot", description="Measy TikTok slideshow bot")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -172,6 +218,15 @@ def main(argv: list[str] | None = None) -> int:
     st = sub.add_parser("status", help="show recent posts")
     st.add_argument("-n", type=int, default=10)
     sub.add_parser("newkey", help="print a new TOKEN_KEY")
+    lb = sub.add_parser("library", help="build the card-ready recipe library with OpenAI (one-off)")
+    lb.add_argument("--only", help="comma-separated dish ids")
+    ph = sub.add_parser("photos", help="make the AI food photos for the recipe cards (one-off)")
+    ph.add_argument("--only", help="comma-separated dish ids")
+    ph.add_argument("--variants", type=int, help="photos per dish (default from config)")
+    ph.add_argument("--redo", action="store_true", help="replace existing photos")
+    cd = sub.add_parser("cards", help="render recipe cards into a folder to look at")
+    cd.add_argument("--only", help="comma-separated dish ids")
+    cd.add_argument("--out", default="out/cards")
     args = p.parse_args(argv)
 
     if hasattr(sys.stdout, "reconfigure"):
@@ -179,7 +234,8 @@ def main(argv: list[str] | None = None) -> int:
     load_dotenv()
     cfg = load_config()
     commands = {"build": cmd_build, "send": cmd_send, "dry-run": cmd_dry_run,
-                "authorize": cmd_authorize, "status": cmd_status, "newkey": cmd_newkey}
+                "authorize": cmd_authorize, "status": cmd_status, "newkey": cmd_newkey,
+                "library": cmd_library, "photos": cmd_photos, "cards": cmd_cards}
     try:
         return commands[args.cmd](args, cfg)
     except (ConfigError, TikTokError, tokens.TokenError, OpenAIError, FileNotFoundError) as e:

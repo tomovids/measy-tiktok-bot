@@ -1,0 +1,268 @@
+{
+ "creamy-garlic-chicken-rice": {
+  "title": "Creamy Garlic Chicken Rice",
+  "subtitle": "Creamy chicken in a garlicky sauce",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "calories": 520,
+  "ingredients": [
+   {
+    "item": "chicken breasts",
+    "qty": "600g",
+    "price": 4.49
+   },
+   {
+    "item": "long grain rice",
+    "qty": "300g",
+    "price": 0.6
+   },
+   {
+    "item": "onion",
+    "qty": "1",
+    "price": 0.18
+   },
+   {
+    "item": "garlic",
+    "qty": "4 cloves",
+    "price": 0.1
+   },
+   {
+    "item": "single cream",
+    "qty": "200ml",
+    "price": 0.85
+   },
+   {
+    "item": "parmesan",
+    "qty": "50g",
+    "price": 0.79
+   },
+   {
+    "item": "baby spinach",
+    "qty": "100g",
+    "price": 0.85
+   },
+   {
+    "item": "mixed herbs",
+    "qty": "1 tsp",
+    "price": 0.1
+   },
+   {
+    "item": "chilli flakes",
+    "qty": "1/2 tsp",
+    "price": 0.05
+   },
+   {
+    "item": "salt & pepper",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the rice",
+    "text": "Cook the rice according to the packet instructions and keep warm."
+   },
+   {
+    "title": "Season and fry",
+    "text": "Season chicken with salt, pepper and half the mixed herbs. Fry in a little oil 5–6 mins each side until cooked through; slice."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "In the same pan cook onion 3–4 mins. Add garlic and chilli for 1 min. Pour in cream, add remaining herbs and a handful of Parmesan; simmer 2–3 mins."
+   },
+   {
+    "title": "Add the greens",
+    "text": "Stir in spinach until wilted, return the sliced chicken to the pan and coat in the sauce."
+   },
+   {
+    "title": "Serve",
+    "text": "Serve the chicken and sauce over the rice. Top with extra Parmesan and cracked pepper."
+   }
+  ],
+  "tip": "Add mushrooms for extra flavour or swap the spinach for broccoli.",
+  "ai_filled": [
+   "subtitle",
+   "prep_mins",
+   "cook_mins",
+   "prices",
+   "method"
+  ],
+  "group": "creamy-garlic-chicken-rice",
+  "source_card": "028_a_vertical_clean_modern_recipe_poster_infographi.webp"
+ },
+ "sticky-hoisin-beef-flatbreads": {
+  "title": "Sticky Hoisin Beef Flatbreads",
+  "subtitle": "Quick, easy and packed with flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "calories": 520,
+  "ingredients": [
+   {
+    "item": "beef mince (5% fat)",
+    "qty": "500g",
+    "price": 2.99
+   },
+   {
+    "item": "flatbreads",
+    "qty": "4 pack",
+    "price": 0.85
+   },
+   {
+    "item": "red onion",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "cucumber",
+    "qty": "1/2",
+    "price": 0.49
+   },
+   {
+    "item": "carrots",
+    "qty": "3 pack",
+    "price": 0.39
+   },
+   {
+    "item": "hoisin sauce",
+    "qty": "200g",
+    "price": 1.09
+   },
+   {
+    "item": "soy sauce",
+    "qty": "150ml",
+    "price": 0.65
+   },
+   {
+    "item": "garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "coriander",
+    "qty": "1 bunch",
+    "price": 0.49
+   },
+   {
+    "item": "sesame seeds",
+    "qty": "50g",
+    "price": 0.79
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the beef",
+    "text": "Fry the mince in a large pan over medium-high heat until browned. Add minced garlic and cook 1 minute."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "Stir in hoisin sauce, soy sauce and a splash of water. Simmer 5-7 minutes until thick and glossy."
+   },
+   {
+    "title": "Prep the veg",
+    "text": "Thinly slice the red onion and cucumber, grate the carrots and chop the coriander."
+   },
+   {
+    "title": "Warm the breads",
+    "text": "Heat flatbreads in a dry pan or in the oven a few minutes until warm and slightly crisp."
+   },
+   {
+    "title": "Assemble",
+    "text": "Top each flatbread with sticky beef, fresh veg, coriander and sesame seeds. Add extra hoisin or mayo if liked."
+   }
+  ],
+  "tip": "Swap the beef for chicken or Quorn mince for a cheaper option that's just as tasty!",
+  "ai_filled": [],
+  "group": "sticky-hoisin-beef-flatbreads",
+  "source_card": "016_a_clean_professional_magazine_style_recipe_card.webp"
+ },
+ "sweet-chilli-beef-noodles": {
+  "title": "Sweet Chilli Beef Noodles",
+  "subtitle": "Quick sticky chilli noodles",
+  "serves": 4,
+  "prep_mins": 8,
+  "cook_mins": 12,
+  "calories": 520,
+  "ingredients": [
+   {
+    "item": "beef mince (5% fat)",
+    "qty": "500g",
+    "price": 3.29
+   },
+   {
+    "item": "egg noodles",
+    "qty": "300g",
+    "price": 0.79
+   },
+   {
+    "item": "sweet chilli sauce",
+    "qty": "200ml",
+    "price": 0.89
+   },
+   {
+    "item": "soy sauce",
+    "qty": "1 tbsp",
+    "price": 0.07
+   },
+   {
+    "item": "red pepper",
+    "qty": "1",
+    "price": 0.69
+   },
+   {
+    "item": "carrot",
+    "qty": "1",
+    "price": 0.1
+   },
+   {
+    "item": "spring onions",
+    "qty": "1 bunch",
+    "price": 0.55
+   },
+   {
+    "item": "garlic",
+    "qty": "2 cloves",
+    "price": 0.05
+   },
+   {
+    "item": "vegetable oil",
+    "qty": "1 tbsp",
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Prep veg & noodles",
+    "text": "Slice red pepper, grate carrot, chop spring onions and crush garlic. Cover noodles with boiling water to soften."
+   },
+   {
+    "title": "Brown the mince",
+    "text": "Heat oil in a large frying pan, add beef mince and cook until browned, breaking it up, about 4–5 minutes."
+   },
+   {
+    "title": "Stir in veg",
+    "text": "Add red pepper, carrot and garlic to the pan and stir-fry 2–3 minutes until softened."
+   },
+   {
+    "title": "Add sauces",
+    "text": "Pour in sweet chilli and soy sauce, stir well and simmer 1–2 minutes so the flavours combine."
+   },
+   {
+    "title": "Combine & serve",
+    "text": "Drain noodles, add to the pan with spring onions and toss to coat. Divide between bowls and serve hot."
+   }
+  ],
+  "tip": "Stretch the meal with frozen peas or extra veg, and use spring onion whites in cooking for extra flavour.",
+  "ai_filled": [
+   "prices",
+   "method",
+   "calories",
+   "subtitle",
+   "prep_mins",
+   "cook_mins"
+  ],
+  "group": "sweet-chilli-beef-noodles",
+  "source_card": null
+ }
+}

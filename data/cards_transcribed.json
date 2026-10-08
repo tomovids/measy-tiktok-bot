@@ -1,0 +1,6262 @@
+[
+ {
+  "group": "bbq-sausage-loaded-potatoes",
+  "file": "059_bbq_sausage_loaded_potatoes.webp",
+  "title": "BBQ Sausage Loaded Potatoes",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 520,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Potatoes (washed and cut into chunks)",
+    "qty": "700g",
+    "price": null
+   },
+   {
+    "item": "Sausages (any kind)",
+    "qty": "5–6",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar cheese",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions (sliced)",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Sour cream or mayo",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper",
+    "qty": "to taste",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Preheat oven to 220°C (200°C fan) or air fryer to 200°C. Toss potatoes with olive oil, paprika, salt and pepper. Spread on a baking tray and roast for 20–25 mins, flipping halfway, until golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "While the potatoes cook, heat a frying pan over medium heat. Cook sausages for 8–10 mins, turning until browned and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Slice the sausages into bite-sized pieces."
+   },
+   {
+    "title": null,
+    "text": "Once the potatoes are done, top with sliced sausages and sprinkle over the grated cheddar cheese."
+   },
+   {
+    "title": null,
+    "text": "Pop back in the oven for 2–3 mins, or until the cheese is melted and gooey."
+   },
+   {
+    "title": null,
+    "text": "Drizzle with BBQ sauce, add a dollop of sour cream (or mayo) and sprinkle with spring onions."
+   },
+   {
+    "title": null,
+    "text": "Serve immediately and enjoy!"
+   }
+  ],
+  "tip": "Add jalapeños or swap cheddar for mozzarella for a different twist.",
+  "printed_total": 3.5,
+  "printed_per_serving": null,
+  "notes": "Banner reads '3 Aldi Dinners for Under $12 Total' (series banner, not a subtitle). '20 mins' is shown unlabelled next to a clock, put in total_mins. No per-ingredient prices. Equipment: baking tray or air fryer, frying pan, knife, chopping board."
+ },
+ {
+  "group": "buffalo-chicken-quesadillas",
+  "file": "005_a_bright_clean_infographic_style_recipe_card_lay.webp",
+  "title": "Buffalo Chicken Quesadillas",
+  "subtitle": "Spicy, cheesy and ready in 20 minutes!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 10,
+  "total_mins": null,
+  "calories": 480,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "1 lb",
+    "price": 5.49
+   },
+   {
+    "item": "Flour Tortillas",
+    "qty": "8 pack",
+    "price": 1.29
+   },
+   {
+    "item": "Shredded Cheese",
+    "qty": "8 oz",
+    "price": 1.99
+   },
+   {
+    "item": "Buffalo Sauce",
+    "qty": "12 oz",
+    "price": 0.99
+   },
+   {
+    "item": "Cream Cheese",
+    "qty": "8 oz",
+    "price": 1.49
+   },
+   {
+    "item": "Ranch Dressing",
+    "qty": "16 oz",
+    "price": 1.49
+   },
+   {
+    "item": "Red Onion",
+    "qty": "1",
+    "price": 0.59
+   },
+   {
+    "item": "Cilantro",
+    "qty": "1 bunch",
+    "price": 0.59
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the chicken",
+    "text": "Cut the chicken into small pieces, season with salt, pepper and a little garlic powder. Cook in a pan over medium heat until cooked through."
+   },
+   {
+    "title": "Make the filling",
+    "text": "In a bowl, mix the cooked chicken with buffalo sauce and cream cheese until creamy and well coated. Add a little chopped red onion if using."
+   },
+   {
+    "title": "Assemble the quesadillas",
+    "text": "Lay a tortilla flat, add a layer of the buffalo chicken mixture and shredded cheese. Top with another tortilla."
+   },
+   {
+    "title": "Cook until golden",
+    "text": "Heat a clean pan over medium heat and cook the quesadilla for 2–3 minutes per side until golden and crispy, and the cheese is melted."
+   },
+   {
+    "title": "Slice and serve",
+    "text": "Cut into wedges, drizzle with ranch dressing and sprinkle with fresh cilantro. Enjoy."
+   }
+  ],
+  "tip": null,
+  "printed_total": 12.43,
+  "printed_per_serving": 3.11,
+  "notes": "Aldi branding. Badges: 'Under $4 Per Serving', 'Easy Weeknight Dinner'. Printed total $12.43 does not equal the sum of the printed item prices ($13.92); copied as printed. Calories printed as ~480 per serving."
+ },
+ {
+  "group": "cheesy-bbq-chicken-loaded-fries",
+  "file": "064_cheesy_bbq_loaded_fries_recipe_poster.webp",
+  "title": "Cheesy BBQ Loaded Fries",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 620,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Frozen straight-cut fries",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Cooked chicken breasts, shredded",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar cheese",
+    "qty": "120g",
+    "price": null
+   },
+   {
+    "item": "Grated mozzarella",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sour cream",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Crispy fried onions",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Smoked paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Garlic granules",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Jalapeños (optional topping)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the fries until golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "Toss the shredded chicken with smoked paprika, garlic granules, a little oil, and 2 tbsp BBQ sauce."
+   },
+   {
+    "title": null,
+    "text": "Pile the cooked fries into an ovenproof dish, top with the BBQ chicken and both cheeses."
+   },
+   {
+    "title": null,
+    "text": "Bake or grill for a few minutes until the cheese melts."
+   },
+   {
+    "title": null,
+    "text": "Finish with the remaining BBQ sauce, sour cream, spring onions, crispy fried onions, and optional jalapeños."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 3.5,
+  "notes": "Single '20 mins' clock figure (put in total_mins). 'All ingredients from Aldi'. No ingredient prices; only 'Only £3.50 per serving'. Group name mentions chicken but the printed title is 'Cheesy BBQ Loaded Fries'."
+ },
+ {
+  "group": "cheesy-bbq-loaded-potatoes",
+  "file": "065_cheesy_bbq_loaded_potato_recipe_card.webp",
+  "title": "Cheesy BBQ Loaded Potatoes",
+  "subtitle": "with chicken & crispy onions",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 35,
+  "calories": 560,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Baking potatoes",
+    "qty": "4 large",
+    "price": null
+   },
+   {
+    "item": "Cooked chicken, shredded",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar cheese",
+    "qty": "120g",
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Red onion, finely chopped",
+    "qty": "1 small",
+    "price": null
+   },
+   {
+    "item": "Crispy onions",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Mayo or sour cream",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Preheat the oven to 220°C (200°C fan). Rub the potatoes with olive oil, season with salt and pepper, and bake for 35–45 minutes until crisp outside and soft inside."
+   },
+   {
+    "title": null,
+    "text": "While the potatoes cook, mix the shredded chicken with 2 tablespoons of the BBQ sauce."
+   },
+   {
+    "title": null,
+    "text": "Slice open the baked potatoes and fluff the centres with a fork."
+   },
+   {
+    "title": null,
+    "text": "Fill each potato with the BBQ chicken, spoon over the remaining BBQ sauce, and top with grated cheddar."
+   },
+   {
+    "title": null,
+    "text": "Return to the oven for 5 minutes until the cheese is melted."
+   },
+   {
+    "title": null,
+    "text": "Finish with red onion, crispy onions, spring onions, and a dollop of mayo or sour cream."
+   },
+   {
+    "title": null,
+    "text": "Serve hot."
+   }
+  ],
+  "tip": "Swap chicken for leftover pulled pork or beans for an even cheaper twist.",
+  "printed_total": 1.8,
+  "printed_per_serving": null,
+  "notes": "Header chip '35 mins' has no label (stored as total_mins); method itself says bake 35-45 min. Equipment: baking tray, knife, chopping board, spoon. 'Budget Friendly' tag. ALDI logo."
+ },
+ {
+  "group": "cheesy-bbq-pulled-chicken-nachos",
+  "file": "066_cheesy_bbq_pulled_chicken_nachos.webp",
+  "title": "Cheesy BBQ Pulled Chicken Nachos",
+  "subtitle": null,
+  "serves": null,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Tortilla chips",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Cooked pulled chicken",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Grated cheddar",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Mozzarella",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Red onion",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Sweetcorn",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Jalapeños",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Spring onion",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Sour cream",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "Ingredients-only card: picture labels only, no quantities, prices, serves, times, calories or method. Handwritten stickers: 'BBQ Flavour Fiesta', 'Loaded Cheesy Goodness'."
+ },
+ {
+  "group": "cheesy-beef-bean-loaded-potatoes",
+  "file": "069_cheesy_beef_and_bean_loaded_potatoes.webp",
+  "title": "Cheesy Beef & Bean Loaded Potatoes",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 35,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Large baking potatoes",
+    "qty": "4",
+    "price": 1.0
+   },
+   {
+    "item": "Beef mince",
+    "qty": "300g",
+    "price": 2.49
+   },
+   {
+    "item": "Baked beans or kidney beans",
+    "qty": "1 tin",
+    "price": 0.65
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.12
+   },
+   {
+    "item": "Grated cheese",
+    "qty": "80g",
+    "price": 0.95
+   },
+   {
+    "item": "Tomato sauce or salsa",
+    "qty": "2 tbsp",
+    "price": 0.2
+   },
+   {
+    "item": "Paprika",
+    "qty": "1 tsp",
+    "price": 0.05
+   },
+   {
+    "item": "Oil",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Spring onion (optional)",
+    "qty": null,
+    "price": 0.15
+   }
+  ],
+  "method": [
+   {
+    "title": "Bake the potatoes",
+    "text": "Bake in the oven (200°C, 60–70 mins) or microwave until soft and fluffy all the way through."
+   },
+   {
+    "title": "Fry the beef",
+    "text": "Heat a little oil in a pan, add the chopped onion and cook for 3–4 mins until soft. Add the beef mince and fry until browned."
+   },
+   {
+    "title": "Add the flavour",
+    "text": "Stir in the paprika, beans and tomato sauce or salsa. Simmer for 5–10 mins until thickened. Season with salt and pepper."
+   },
+   {
+    "title": "Prepare the potatoes",
+    "text": "Split the baked potatoes open and use a fork to fluff up the centres."
+   },
+   {
+    "title": "Load and serve",
+    "text": "Spoon over the beef and bean mixture, top with grated cheese and a sprinkle of spring onion (if using). Serve immediately."
+   }
+  ],
+  "tip": "Pop under the grill for a minute to melt the cheese extra bubbly!",
+  "printed_total": 7.2,
+  "printed_per_serving": 1.8,
+  "notes": "Banner above title: '5 Aldi Dinners for When Your Bank Balance Says 'Absolutely Not''. Aldi logo. Printed per serving is 'Approx £1.80'. Printed total £7.20 does not equal the sum of the printed item prices (£5.71); copied as printed. Quantities were part of the ingredient line (e.g. '4 large baking potatoes') and have been split into item/qty."
+ },
+ {
+  "group": "cheesy-beef-pepper-stuffed-flatbreads",
+  "file": "034_a_vertical_infographic_poster_recipe_card_on_a_cre.webp",
+  "title": "Cheesy Beef & Pepper Stuffed Flatbreads",
+  "subtitle": "Crispy outside. Cheesy inside. Proper tasty!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": 580,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef Mince",
+    "qty": "500g",
+    "price": 2.99
+   },
+   {
+    "item": "Plain Flatbreads",
+    "qty": "4 pack",
+    "price": 0.85
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "Green Pepper",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "Onion",
+    "qty": "1 large",
+    "price": 0.35
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Grated Cheddar",
+    "qty": "200g",
+    "price": 1.19
+   },
+   {
+    "item": "Tomato Purée",
+    "qty": "70g",
+    "price": 0.39
+   },
+   {
+    "item": "Mixed Herbs",
+    "qty": "10g",
+    "price": 0.49
+   },
+   {
+    "item": "Paprika",
+    "qty": "50g",
+    "price": 0.49
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the beef",
+    "text": "Heat a large frying pan over medium-high heat. Add the beef mince and cook until browned, breaking it up with a spoon. Drain any excess fat if needed."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add the chopped onion, red and green peppers and cook for 4–5 minutes until softened. Add the garlic and cook for 1 minute."
+   },
+   {
+    "title": "Season it",
+    "text": "Stir in the tomato purée, paprika, mixed herbs, salt and pepper. Cook for 2–3 minutes until everything is well combined and rich in flavour."
+   },
+   {
+    "title": "Assemble the flatbreads",
+    "text": "Lay out the flatbreads and divide the beef mixture evenly over one half of each. Sprinkle generously with grated cheddar, then fold over."
+   },
+   {
+    "title": "Cook until crispy",
+    "text": "Heat a clean frying pan (no oil needed) over medium heat. Cook the stuffed flatbreads for 2–3 minutes per side until golden and crispy, and the cheese is melted."
+   },
+   {
+    "title": "Serve & enjoy",
+    "text": "Slice in half and serve with a side salad, sour cream or your favourite dip!"
+   }
+  ],
+  "tip": "Add a pinch of chilli flakes for extra kick or swap the beef for chicken!",
+  "printed_total": 7.33,
+  "printed_per_serving": 1.83,
+  "notes": "Printed 'Total: ~ £7.33, That's £1.83 per serving!' but the listed ingredient prices add up to £8.42 (printed as-is). Word 'Cheesy' is in a script line above the main title. Tagline 'Aldi Ingredients Real Prices Great Meals'."
+ },
+ {
+  "group": "cheesy-beef-taco-pasta",
+  "file": "071_cheesy_beef_taco_pasta_recipe_card.webp",
+  "title": "Cheesy Beef Taco Pasta",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 530,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Short pasta (penne, shells or rigatoni)",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Beef mince",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Onion (finely chopped)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves (minced)",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Taco seasoning (25g) or 1 tsp each paprika, cumin and chilli powder",
+    "qty": "1 packet",
+    "price": null
+   },
+   {
+    "item": "Chopped tomatoes",
+    "qty": "1 x 400g can",
+    "price": null
+   },
+   {
+    "item": "Tomato puree",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar cheese",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper to taste",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Spring onion or fresh cilantro (to garnish, optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the pasta in salted water according to packet instructions. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat olive oil in a large frying pan over medium heat."
+   },
+   {
+    "title": null,
+    "text": "Add the onion and cook for 2–3 minutes until softened."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and beef mince. Cook, breaking it up, until browned (5–6 minutes)."
+   },
+   {
+    "title": null,
+    "text": "Stir in the taco seasoning, tomato puree and chopped tomatoes. Simmer for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cooked pasta and most of the cheese. Stir until everything is combined and heated through."
+   },
+   {
+    "title": null,
+    "text": "Top with the remaining cheese, let it melt, and garnish with spring onion or cilantro. Serve and enjoy!"
+   }
+  ],
+  "tip": "Use whatever short pasta you have – it all works! Add a handful of frozen sweetcorn or beans for extra veg (and extra value!).",
+  "printed_total": 3.75,
+  "printed_per_serving": null,
+  "notes": "Banner: '3 Aldi Dinners for Under $12 Total'. Header '20 mins' has no label (stored as total_mins). Calories printed '~530 cals (per serving)'. Equipment: large saucepan or deep frying pan, saucepan for pasta, wooden spoon, colander. Prices in dollars but metric quantities."
+ },
+ {
+  "group": "cheesy-buffalo-chicken-potato-skins",
+  "file": "022_a_tall_recipe_infographic_poster_in_a_clean_moder.webp",
+  "title": "Cheesy Buffalo Chicken Potato Skins",
+  "subtitle": "Crispy, cheesy, spicy and seriously good!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 25,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Baking Potatoes",
+    "qty": "4 large",
+    "price": 0.89
+   },
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "400g",
+    "price": 3.49
+   },
+   {
+    "item": "Hot Sauce (use your favourite)",
+    "qty": "150ml",
+    "price": 0.89
+   },
+   {
+    "item": "Soft Cheese",
+    "qty": "200g",
+    "price": 0.95
+   },
+   {
+    "item": "Grated Cheddar",
+    "qty": "200g",
+    "price": 1.19
+   },
+   {
+    "item": "Spring Onions",
+    "qty": "1 bunch",
+    "price": 0.75
+   },
+   {
+    "item": "Garlic Powder",
+    "qty": "50g",
+    "price": 0.49
+   },
+   {
+    "item": "Paprika",
+    "qty": "50g",
+    "price": 0.49
+   },
+   {
+    "item": "Mixed Herbs",
+    "qty": "25g",
+    "price": 0.37
+   }
+  ],
+  "method": [
+   {
+    "title": "Bake the potatoes",
+    "text": "Scrub the potatoes, prick with a fork and bake at 200°C (fan) for 50–60 minutes until soft."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "While the potatoes are baking, cut the chicken into small pieces. Season with garlic powder, paprika, herbs, salt and pepper. Cook in a pan with a little oil for 6–8 minutes until cooked through."
+   },
+   {
+    "title": "Make the buffalo sauce",
+    "text": "Lower the heat and add hot sauce and a few tablespoons of soft cheese. Stir until the chicken is fully coated and the sauce is creamy."
+   },
+   {
+    "title": "Prepare the skins",
+    "text": "Once the potatoes are cooked, cut them in half lengthways. Scoop out a little of the potato filling (leaving a thin layer) and place the halves on a baking tray. You can mash the scooped out potato and mix it with the chicken if you like."
+   },
+   {
+    "title": "Fill and top",
+    "text": "Spoon the buffalo chicken into the potato skins and top with plenty of grated cheese."
+   },
+   {
+    "title": "Bake again",
+    "text": "Return to the oven at 200°C for 10–15 minutes until the cheese is melted and golden."
+   },
+   {
+    "title": "Finish and serve",
+    "text": "Top with sliced spring onions and a drizzle of extra hot sauce or a little yogurt/ranch dressing if you like."
+   }
+  ],
+  "tip": "Use the leftover potato filling to make loaded cheesy mash on the side – no waste, more flavour!",
+  "printed_total": 7.2,
+  "printed_per_serving": 1.8,
+  "notes": "Printed total reads 'Total: ~ £7.20, That's £1.80 per serving!' but the printed ingredient prices add up to £9.51. Equipment: oven, frying pan, knife, chopping board, spoon."
+ },
+ {
+  "group": "cheesy-cajun-chicken-wraps",
+  "file": "072_cheesy_cajun_chicken_wraps_recipe_card.webp",
+  "title": "Cheesy Cajun Chicken Wraps",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 560,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Cajun seasoning",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Large wraps",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Red bell pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Green bell pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Small onion, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Soft cheese or mayo",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Garlic powder",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Lettuce",
+    "qty": "Small handful",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Toss the chicken with Cajun seasoning, salt, pepper and oil."
+   },
+   {
+    "title": null,
+    "text": "Cook the chicken in a hot pan for 6–8 minutes until golden and cooked through; set aside."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, soften the onion and peppers for 3–4 minutes."
+   },
+   {
+    "title": null,
+    "text": "Mix the soft cheese or mayo with garlic powder. Fill each wrap with lettuce, chicken, peppers and cheddar, then drizzle with the creamy sauce."
+   },
+   {
+    "title": null,
+    "text": "Fold the wraps and toast in a dry pan for 1–2 minutes per side until golden and melty, then serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": 8.25,
+  "printed_per_serving": null,
+  "notes": "No per-item prices; only a '£8.25 total' chip. Banner above title: '3 LAZY Aldi dinners ready in 20 mins'; line under the title is just the label 'Ingredients & Method' (not used as subtitle). Single '20 mins' chip (no prep/cook split), taken as total. Calories ~560 (per-serving not stated). Aldi logo; footer chips: Budget-friendly, Quick & easy, Simple ingredients, Family favourite."
+ },
+ {
+  "group": "cheesy-cajun-sausage-gnocchi",
+  "file": "007_a_bright_food_cgi_styled_recipe_poster_collage_im.webp",
+  "title": "Cheesy Cajun Sausage Gnocchi",
+  "subtitle": "Creamy, spicy and ready in 20 minutes!",
+  "serves": 4,
+  "prep_mins": 5,
+  "cook_mins": 15,
+  "total_mins": 20,
+  "calories": 540,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pork Sausages",
+    "qty": "8 pack",
+    "price": 2.25
+   },
+   {
+    "item": "Gnocchi",
+    "qty": "500g",
+    "price": 0.85
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1",
+    "price": 0.69
+   },
+   {
+    "item": "Yellow Pepper",
+    "qty": "1",
+    "price": 0.69
+   },
+   {
+    "item": "Baby Spinach",
+    "qty": "100g",
+    "price": 0.79
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.45
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Single Cream",
+    "qty": "300ml",
+    "price": 0.95
+   },
+   {
+    "item": "Cajun Seasoning",
+    "qty": "50g",
+    "price": 0.69
+   },
+   {
+    "item": "Grated Cheese",
+    "qty": "200g",
+    "price": 1.09
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the sausages",
+    "text": "Slice the sausages into bite-sized pieces. Fry in a large pan over medium-high heat until browned. Remove and set aside."
+   },
+   {
+    "title": "Cook the veg",
+    "text": "In the same pan, add a little oil and fry the onion and peppers for 5–6 minutes until softened. Add minced garlic and Cajun seasoning, cook for 1 minute."
+   },
+   {
+    "title": "Cook the gnocchi",
+    "text": "Add the gnocchi to the pan and cook for 3–4 minutes, stirring, until lightly golden and slightly crispy."
+   },
+   {
+    "title": "Make it creamy",
+    "text": "Pour in the single cream, stir well and let it simmer for 2–3 minutes. Add the sausages back in and a handful of spinach. Stir until the spinach wilts."
+   },
+   {
+    "title": "Add the cheese",
+    "text": "Stir in most of the grated cheese, saving a little for the top. Let it melt into a creamy sauce."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with the remaining cheese and a sprinkle of extra Cajun seasoning. Enjoy!"
+   }
+  ],
+  "tip": "Add a squeeze of lemon at the end for even more flavour!",
+  "printed_total": 8.7,
+  "printed_per_serving": 2.18,
+  "notes": "Printed 'Total: ~ £8.70, That's £2.18 per serving!'; listed prices add to £8.74. Step 2 printed 'Ad d minced garlic' (line-break typo, corrected to 'Add'). total_mins 20 from subtitle 'ready in 20 minutes'. Tagline 'Aldi Ingredients Real Prices Great Meals'."
+ },
+ {
+  "group": "cheesy-pepperoni-pizza-wraps",
+  "file": "076_cheesy_pepperoni_pizza_wraps_recipe_card.webp",
+  "title": "Cheesy Pepperoni Pizza Wraps",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Tortilla wraps",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Pepperoni slices",
+    "qty": "120g",
+    "price": null
+   },
+   {
+    "item": "Pizza sauce",
+    "qty": "180g",
+    "price": null
+   },
+   {
+    "item": "Grated mozzarella",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar",
+    "qty": "40g",
+    "price": null
+   },
+   {
+    "item": "Mixed herbs",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Garlic granules",
+    "qty": "1/2 tsp",
+    "price": null
+   },
+   {
+    "item": "Black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Fresh basil or parsley (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.25,
+  "notes": "Ingredients-only card (no method). Header '15 mins' has no label (stored as total_mins). Cost printed as 'Approx £4.25 per serving'. 'You'll also need': frying pan or grill pan, spatula. Search-bar graphic reads 'cheesy pepperoni pizza wraps'."
+ },
+ {
+  "group": "cheesy-taco-quesadillas",
+  "file": "026_a_tall_vertical_infographic_recipe_poster_on_a_cre.webp",
+  "title": "Cheesy Taco Quesadillas",
+  "subtitle": "Simple ingredients. Huge flavour.",
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Ground Beef",
+    "qty": "1 lb",
+    "price": 4.49
+   },
+   {
+    "item": "Tortillas",
+    "qty": "8 count",
+    "price": 1.49
+   },
+   {
+    "item": "Shredded Cheese",
+    "qty": "2 cups",
+    "price": 2.19
+   },
+   {
+    "item": "Taco Seasoning",
+    "qty": "1 packet",
+    "price": 0.79
+   },
+   {
+    "item": "Red Bell Pepper",
+    "qty": "1",
+    "price": 0.89
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.79
+   },
+   {
+    "item": "Salsa",
+    "qty": "1 cup",
+    "price": 1.49
+   },
+   {
+    "item": "Sour Cream",
+    "qty": "½ cup",
+    "price": 1.25
+   },
+   {
+    "item": "Cilantro (optional)",
+    "qty": null,
+    "price": 0.69
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook beef, onion and pepper in a pan. Drain excess fat and add taco seasoning."
+   },
+   {
+    "title": null,
+    "text": "Add the beef mixture and cheese to one half of a tortilla."
+   },
+   {
+    "title": null,
+    "text": "Fold and cook in a pan for 2–3 mins per side until crispy and melted."
+   },
+   {
+    "title": null,
+    "text": "Slice, serve with salsa and sour cream. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.75,
+  "notes": "Per serving printed as '~$4.75' but the ingredient prices add up to $14.07 (about $7.04 for 2 servings). Banner 'Full week under $30'. Stickers: 'All from Aldi!', 'Quick Easy Tasty'. Cilantro's quantity line reads '(optional)'."
+ },
+ {
+  "group": "cheesy-taco-rice-skillet",
+  "file": "052_a_vertical_recipe_infographic_poster_for_a_home_co.webp",
+  "title": "Cheesy Taco Rice Skillet",
+  "subtitle": "Quick, cheap and packed with flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Ground Beef",
+    "qty": "1 lb",
+    "price": 4.49
+   },
+   {
+    "item": "Long Grain Rice",
+    "qty": "1 lb",
+    "price": 1.09
+   },
+   {
+    "item": "Black Beans",
+    "qty": "15 oz",
+    "price": 0.69
+   },
+   {
+    "item": "Sweet Corn",
+    "qty": "15 oz",
+    "price": 0.69
+   },
+   {
+    "item": "Diced Tomatoes",
+    "qty": "14.5 oz",
+    "price": 0.69
+   },
+   {
+    "item": "Taco Seasoning",
+    "qty": "1 oz",
+    "price": 0.49
+   },
+   {
+    "item": "Shredded Cheese",
+    "qty": "8 oz",
+    "price": 1.99
+   },
+   {
+    "item": "Bell Pepper",
+    "qty": "1",
+    "price": 0.79
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.59
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the beef",
+    "text": "Heat a large skillet over medium heat. Add the ground beef and cook until browned. Drain any excess fat."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add the diced onion, bell pepper and garlic. Cook for 3–4 minutes until softened."
+   },
+   {
+    "title": "Add the flavour",
+    "text": "Stir in the taco seasoning, diced tomatoes, black beans, corn and rice. Mix everything together."
+   },
+   {
+    "title": "Simmer",
+    "text": "Add 2 cups of water, bring to a boil, then reduce heat, cover and simmer for 15 minutes until the rice is cooked."
+   },
+   {
+    "title": "Add the cheese",
+    "text": "Sprinkle the shredded cheese over the top, cover for 2 minutes until melted."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with fresh coriander or green onions if you have them. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": 12.51,
+  "printed_per_serving": 3.13,
+  "notes": "Aldi branding. Badges: 'Under $4 Per Serving', 'Easy Weeknight Dinner'. Printed total $12.51 does not equal the sum of the printed item prices ($11.80); copied as printed."
+ },
+ {
+  "group": "cheesy-tomato-pasta",
+  "file": "079_cheesy_tomato_pasta_recipe_card.webp",
+  "title": "Cheesy Tomato Pasta",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 490,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pasta",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Onion, diced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Chopped tomatoes or passata",
+    "qty": "400g",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Mixed herbs or Italian seasoning",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Parsley (optional)",
+    "qty": "small handful",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the pasta according to packet instructions."
+   },
+   {
+    "title": null,
+    "text": "In a pan, soften the onion in olive oil for 3–4 minutes, then add garlic for 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Stir in the chopped tomatoes or passata and mixed herbs, then simmer for 5 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the cooked pasta and most of the cheddar, stir until coated and melty, then season to taste."
+   },
+   {
+    "title": null,
+    "text": "Top with the remaining cheddar, finish with parsley if using, and serve warm."
+   }
+  ],
+  "tip": null,
+  "printed_total": 2.4,
+  "printed_per_serving": null,
+  "notes": "Line under the title is just the section label 'Ingredients & Method' (subtitle left null). Banner above title: '5 Aldi dinners from ONE £10 shopping basket'. Total printed '£2.40 total'; single '20 mins' figure (put in total_mins). No per-ingredient prices. Handwritten notes: 'All ingredients from Aldi'."
+ },
+ {
+  "group": "chilli-beef-noodles",
+  "file": "036_a_vertical_infographic_recipe_card_image_clean_fl.webp",
+  "title": "Chilli Beef Noodles",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef mince",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Egg noodles",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Chilli & garlic stir fry sauce",
+    "qty": "1 jar",
+    "price": null
+   },
+   {
+    "item": "Red pepper (sliced)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Stir fry veg",
+    "qty": "1 bag",
+    "price": null
+   },
+   {
+    "item": "Onion (sliced)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves (minced)",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Soy sauce (optional)",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds (to top)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Spring onions (to top)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the noodles",
+    "text": "Boil according to packet instructions, then drain and set aside."
+   },
+   {
+    "title": "Cook the beef",
+    "text": "In a large pan, cook the beef mince over medium heat until browned. Drain excess fat."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add onion, garlic, red pepper and stir fry veg. Cook for 3–4 minutes until softened."
+   },
+   {
+    "title": "Add the sauce",
+    "text": "Pour in the chilli & garlic stir fry sauce and soy sauce (if using). Mix well and simmer for 2–3 minutes."
+   },
+   {
+    "title": "Combine",
+    "text": "Add the cooked noodles, toss everything together and heat through."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with sesame seeds and spring onions. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 2.5,
+  "notes": "Banner: '5 Aldi Dinners for when you CANNOT be bothered to cook'. The line under the title is just the 'Ingredients' section label (subtitle null). Footer stats: 20 MINS (unlabeled, stored as total_mins), 2 SERVINGS, 520 CALORIES (approx), ~£2.50 PER SERVING (printed with ~). Product pack photos show brand packaging."
+ },
+ {
+  "group": "creamy-cajun-chicken-flatbreads",
+  "file": "024_a_tall_vertical_food_recipe_style_poster_thumbnai.webp",
+  "title": "Creamy Cajun Chicken Flatbreads",
+  "subtitle": "Spicy, creamy and packed with flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 10,
+  "total_mins": 20,
+  "calories": 480,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "500g",
+    "price": 3.49
+   },
+   {
+    "item": "Plain Naan Breads",
+    "qty": "4",
+    "price": 0.85
+   },
+   {
+    "item": "Cooking Cream",
+    "qty": "200ml",
+    "price": 0.89
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1",
+    "price": 0.79
+   },
+   {
+    "item": "Red Onion",
+    "qty": "1",
+    "price": 0.59
+   },
+   {
+    "item": "Cajun Seasoning",
+    "qty": "2 tsp",
+    "price": 0.79
+   },
+   {
+    "item": "Grated Mature Cheddar",
+    "qty": "100g",
+    "price": 1.19
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Fresh Parsley",
+    "qty": "small handful",
+    "price": 0.49
+   }
+  ],
+  "method": [
+   {
+    "title": "Prep the chicken",
+    "text": "Slice the chicken into strips and coat with Cajun seasoning. Heat a pan with a little oil and cook for 5–6 minutes until golden and cooked through."
+   },
+   {
+    "title": "Cook the veg",
+    "text": "Add the sliced red pepper and onion to the pan and cook for 3–4 minutes until softened."
+   },
+   {
+    "title": "Make the creamy sauce",
+    "text": "Lower the heat and pour in the cooking cream. Stir well and let it simmer for 2–3 minutes until slightly thickened."
+   },
+   {
+    "title": "Assemble the flatbreads",
+    "text": "Place the naan breads on a baking tray, top with creamy Cajun chicken mix and sprinkle with grated cheese."
+   },
+   {
+    "title": "Bake and serve",
+    "text": "Bake at 200°C for 5–7 minutes until the cheese is melted and golden. Top with fresh parsley and enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 2.5,
+  "notes": "Badge reads 'Ready in 20 minutes!' (used for total_mins) and 'Under £2.50 per serving' (2.50 is the printed upper bound). Ingredient prices add up to £9.37 (about £2.34 per serving). No total printed."
+ },
+ {
+  "group": "creamy-garlic-chicken-gnocchi",
+  "file": "080_creamy_garlic_chicken_gnocchi_ingredients.webp",
+  "title": "Creamy Garlic Chicken Gnocchi",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Gnocchi",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Chicken breasts, diced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Spinach",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Soft cheese or cream cheese",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "150ml",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "30g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Fresh parsley (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.5,
+  "notes": "Ingredients-only card (no method). Single '15 mins' chip with a clock (no prep/cook labels), taken as total. 'Approx £4.50 per serving'. 'You'll also need': Frying pan, Wooden spoon. Search-bar header text 'creamy garlic chicken gnocchi'."
+ },
+ {
+  "group": "creamy-garlic-chicken-orzo",
+  "file": "083_creamy_garlic_chicken_orzo_recipe_card.webp",
+  "title": "Creamy Garlic Chicken Orzo",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 540,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts, diced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Orzo",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Small onion, diced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spinach",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Soft cheese or cream cheese",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "500ml",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "40g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Italian seasoning",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Heat olive oil in a large pan and cook the diced chicken until golden and cooked through. Remove and set aside."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, soften the onion for 2–3 minutes, then stir in the garlic for 30 seconds."
+   },
+   {
+    "title": null,
+    "text": "Add the orzo and chicken stock. Simmer for 8–10 minutes, stirring often, until the orzo is tender."
+   },
+   {
+    "title": null,
+    "text": "Stir in the soft cheese, spinach, parmesan, Italian seasoning, and the cooked chicken. Mix until creamy and the spinach has wilted."
+   },
+   {
+    "title": null,
+    "text": "Season with salt and black pepper, then serve warm."
+   }
+  ],
+  "tip": null,
+  "printed_total": 7.95,
+  "printed_per_serving": null,
+  "notes": "Line under the title is the label 'Ingredients & Method' (subtitle null). Banner above title: '3 LAZY Aldi dinners ready in 20 mins'. Footer: £7.95 total, 20 mins (put in total_mins), serves 4, ~540 cals per serving. No per-ingredient prices. Handwritten: 'Creamy, garlicky, so good'."
+ },
+ {
+  "group": "creamy-garlic-chicken-pasta",
+  "file": "003_a_bright_clean_infographic_recipe_card_image_with.webp",
+  "title": "Creamy Garlic Chicken Pasta",
+  "subtitle": "Rich, creamy and ready in 20 minutes!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 560,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "600g",
+    "price": 2.99
+   },
+   {
+    "item": "Penne Pasta",
+    "qty": "500g",
+    "price": 0.65
+   },
+   {
+    "item": "Single Cream",
+    "qty": "300ml",
+    "price": 0.95
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Baby Spinach",
+    "qty": "100g",
+    "price": 0.79
+   },
+   {
+    "item": "Sun Dried Tomatoes",
+    "qty": "280g",
+    "price": 0.89
+   },
+   {
+    "item": "Grated Cheese",
+    "qty": "200g",
+    "price": 1.09
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.45
+   },
+   {
+    "item": "Olive Oil",
+    "qty": "500ml",
+    "price": 1.19
+   },
+   {
+    "item": "Italian Herbs",
+    "qty": "15g",
+    "price": 0.49
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the pasta",
+    "text": "Bring a large pan of salted water to the boil and cook the penne according to the packet instructions. Drain and set aside."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Cut the chicken into bite-sized pieces. Season with salt, pepper and Italian herbs. Heat a large pan with a little olive oil and cook the chicken until golden and cooked through."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "In the same pan, add a little more oil if needed. Fry the onion and garlic for 2 minutes. Add the sun dried tomatoes and cook for 1 minute."
+   },
+   {
+    "title": "Add the cream",
+    "text": "Pour in the single cream, stir well and let it simmer for 3–4 minutes. Add a handful of spinach and let it wilt. Season to taste."
+   },
+   {
+    "title": "Combine",
+    "text": "Add the cooked pasta to the pan and toss everything together. Add most of the grated cheese and stir until creamy."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with the remaining cheese, extra black pepper and a sprinkle of herbs. Enjoy!"
+   }
+  ],
+  "tip": "Swap the chicken for prawns or use broccoli instead of spinach for a different twist!",
+  "printed_total": 8.29,
+  "printed_per_serving": 2.07,
+  "notes": "Printed total is '~£8.29' but the ten printed ingredient prices add up to £9.78 (verified on a zoomed crop). Prices appear to be full pack prices with the pack size/amount printed beside them. Calories '~560 per serving'. Printed per-serving '£2.07'. ALDI branding."
+ },
+ {
+  "group": "creamy-garlic-chicken-rice",
+  "file": "028_a_vertical_clean_modern_recipe_poster_infographi.webp",
+  "title": "Creamy Garlic Chicken Rice",
+  "subtitle": "Aldi dinner for less than $4.50 a serving!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": 520,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Chicken breasts (approx. 600g)",
+    "qty": "4",
+    "price": 5.49
+   },
+   {
+    "item": "Long grain rice",
+    "qty": "300g",
+    "price": 0.89
+   },
+   {
+    "item": "Onion, finely chopped",
+    "qty": "1",
+    "price": 0.39
+   },
+   {
+    "item": "Garlic, minced",
+    "qty": "4 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Single cream",
+    "qty": "200ml",
+    "price": 1.19
+   },
+   {
+    "item": "Grated Parmesan (or hard cheese)",
+    "qty": "50g",
+    "price": 0.89
+   },
+   {
+    "item": "Baby spinach",
+    "qty": "100g",
+    "price": 0.79
+   },
+   {
+    "item": "Mixed herbs",
+    "qty": "1 tsp",
+    "price": 0.4
+   },
+   {
+    "item": "Chilli flakes",
+    "qty": "1/2 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to packet instructions."
+   },
+   {
+    "title": null,
+    "text": "Season the chicken with salt, pepper and half the mixed herbs."
+   },
+   {
+    "title": null,
+    "text": "Heat a large pan with a drizzle of oil over medium heat. Cook the chicken for 5–6 minutes per side until golden and cooked through. Remove and slice."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, add the onion and cook for 3–4 minutes until soft. Add the garlic and chilli flakes and cook for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Pour in the cream, add the remaining herbs and a handful of Parmesan. Stir and let it simmer for 2–3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the spinach and stir until wilted. Return the chicken to the pan and coat in the sauce."
+   },
+   {
+    "title": null,
+    "text": "Serve over the rice and top with extra cheese and cracked pepper."
+   }
+  ],
+  "tip": "Add mushrooms for extra flavour or swap the spinach for broccoli!",
+  "printed_total": 10.33,
+  "printed_per_serving": 4.25,
+  "notes": "Card is a two-panel layout. The spice line 'mixed herbs / 1/2 tsp chilli flakes / Salt & pepper' shares a single price of ~$0.40, put on the first of the three. Printed total is 'Total (approx.) $10.33' (matches the item prices) but the stat tile says $4.25 per serving (10.33/4 would be about $2.58) and the subtitle says less than $4.50 a serving. '25 Mins' is unlabelled, put in total_mins."
+ },
+ {
+  "group": "creamy-garlic-sausage-pasta",
+  "file": "089_creamy_garlic_sausage_pasta_recipe_card.webp",
+  "title": "Creamy Garlic Sausage Pasta",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pasta",
+    "qty": "300g",
+    "price": 0.45
+   },
+   {
+    "item": "Pork sausages",
+    "qty": "6",
+    "price": 1.49
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "3",
+    "price": 0.15
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.12
+   },
+   {
+    "item": "Cream cheese",
+    "qty": "180g",
+    "price": 0.95
+   },
+   {
+    "item": "Spinach",
+    "qty": "2 handfuls",
+    "price": 0.6
+   },
+   {
+    "item": "Grated cheese",
+    "qty": "40g",
+    "price": 0.55
+   },
+   {
+    "item": "Stock cube or splash of stock",
+    "qty": "1",
+    "price": 0.1
+   },
+   {
+    "item": "Oil",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the pasta",
+    "text": "Bring a large pan of salted water to the boil and cook the pasta according to the packet instructions. Reserve a splash of pasta water."
+   },
+   {
+    "title": "Brown the sausage",
+    "text": "Remove sausage meat from the skins and fry in a large pan with a drizzle of oil. Add the chopped onion and cook for 4–5 mins, then add the garlic and cook for 1 min."
+   },
+   {
+    "title": "Make it creamy",
+    "text": "Stir in the cream cheese and a splash of pasta water or stock. Let it melt into a creamy sauce."
+   },
+   {
+    "title": "Add the greens & pasta",
+    "text": "Stir in the spinach and cooked pasta. Mix well until the spinach wilts and everything is coated in the sauce."
+   },
+   {
+    "title": "Finish & serve",
+    "text": "Sprinkle over the grated cheese, season with salt and pepper, and give everything a good stir. Serve immediately."
+   }
+  ],
+  "tip": "Add chilli flakes for extra kick.",
+  "printed_total": 7.8,
+  "printed_per_serving": 1.95,
+  "notes": "Banner above title: '5 Aldi Dinners for When Your Bank Balance Says 'Absolutely Not''. Aldi logo. Printed per serving is 'Approx £1.95'. Printed total £7.80 does not equal the sum of the printed item prices (£4.51); copied as printed. Quantities were part of the ingredient line and have been split into item/qty."
+ },
+ {
+  "group": "creamy-harissa-chicken-couscous",
+  "file": "055_a_vertical_recipe_poster_infographic_layout_clean.webp",
+  "title": "Creamy Harissa Chicken Couscous",
+  "subtitle": "Spicy, creamy and full of flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken Thigh Fillets",
+    "qty": "600g",
+    "price": 2.89
+   },
+   {
+    "item": "Couscous",
+    "qty": "500g",
+    "price": 0.65
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "2 large",
+    "price": 0.69
+   },
+   {
+    "item": "Onion",
+    "qty": "1 large",
+    "price": 0.35
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Harissa Paste",
+    "qty": "100g",
+    "price": 0.89
+   },
+   {
+    "item": "Creme Fraiche",
+    "qty": "300g",
+    "price": 0.85
+   },
+   {
+    "item": "Spinach",
+    "qty": "200g",
+    "price": 0.69
+   },
+   {
+    "item": "Lemon",
+    "qty": "1 large",
+    "price": 0.39
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the chicken",
+    "text": "Season the chicken with salt, pepper and a tablespoon of harissa paste. Heat a large frying pan with a little oil and cook for 6–8 minutes until golden and cooked through. Remove and slice."
+   },
+   {
+    "title": "Cook the veg",
+    "text": "In the same pan, add the chopped onion and red pepper. Cook for 5 minutes until softened. Add the garlic and cook for 1 minute."
+   },
+   {
+    "title": "Make it creamy",
+    "text": "Stir in the remaining harissa paste and creme fraiche. Let it simmer for 2–3 minutes, then add the spinach and cooked chicken. Mix well and season to taste."
+   },
+   {
+    "title": "Cook the couscous",
+    "text": "Prepare the couscous following the pack instructions, then fluff with a fork."
+   },
+   {
+    "title": "Serve & enjoy",
+    "text": "Spoon the couscous into bowls, top with the creamy harissa chicken and finish with a squeeze of fresh lemon and chopped parsley."
+   }
+  ],
+  "tip": "Want it extra tasty? Add a sprinkle of feta or a drizzle of chilli oil before serving!",
+  "printed_total": 6.6,
+  "printed_per_serving": 1.65,
+  "notes": "Printed 'Total: ~ £6.60, That's £1.65 per serving!' but the listed prices add up to £7.69 (printed as-is). Word 'Creamy Harissa' is a script line above 'Chicken Couscous'. Parsley is used in step 5 but not in the ingredient list."
+ },
+ {
+  "group": "creamy-lemon-chicken-orzo",
+  "file": "092_creamy_lemon_chicken_orzo_recipe_card.webp",
+  "title": "Creamy Lemon Chicken Orzo",
+  "subtitle": "Easy • Creamy • Bright & comforting",
+  "serves": null,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Chicken breasts, diced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Orzo",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Onion, finely chopped",
+    "qty": "1 small",
+    "price": null
+   },
+   {
+    "item": "Lemon (zest + juice)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Light cream",
+    "qty": "150ml",
+    "price": null
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "500ml",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "50g",
+    "price": null
+   },
+   {
+    "item": "Spinach",
+    "qty": "2 handfuls",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt, pepper & mixed herbs",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Season the chicken, then fry in olive oil until golden. Remove and set aside."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, soften the onion and garlic. Stir in the orzo for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Pour in the chicken stock, cream, lemon zest and juice. Simmer until the orzo is tender."
+   },
+   {
+    "title": null,
+    "text": "Stir through the spinach and parmesan, then return the chicken to the pan."
+   },
+   {
+    "title": null,
+    "text": "Finish with black pepper and extra parmesan, then serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No servings, times, calories or prices printed on this card."
+ },
+ {
+  "group": "creamy-peri-peri-chicken-pasta",
+  "file": "014_a_clean_infographic_recipe_card_on_a_cream_backgro.webp",
+  "title": "Creamy Peri-Peri Chicken Pasta",
+  "subtitle": "Spicy, creamy and packed with flavour!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 580,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breast",
+    "qty": "500g",
+    "price": 1.8
+   },
+   {
+    "item": "Penne pasta",
+    "qty": "300g",
+    "price": 0.35
+   },
+   {
+    "item": "Peri-peri sauce",
+    "qty": "3 tbsp",
+    "price": 0.3
+   },
+   {
+    "item": "Single cream",
+    "qty": "200ml",
+    "price": 0.45
+   },
+   {
+    "item": "Red onion",
+    "qty": "1",
+    "price": 0.15
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": 0.35
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "3",
+    "price": 0.1
+   },
+   {
+    "item": "Grated cheese",
+    "qty": "50g",
+    "price": 0.25
+   },
+   {
+    "item": "Spinach",
+    "qty": "Handful",
+    "price": 0.2
+   },
+   {
+    "item": "Mixed herbs",
+    "qty": "1 tsp",
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the pasta according to pack instructions until al dente. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Cut the chicken into strips and season with salt, pepper and mixed herbs."
+   },
+   {
+    "title": null,
+    "text": "Heat a large pan over medium-high heat and cook the chicken until golden and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Add the onion, pepper and garlic. Cook for 2–3 minutes until softened."
+   },
+   {
+    "title": null,
+    "text": "Stir in the peri-peri sauce and let it cook for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Pour in the single cream and simmer for 3–4 minutes until slightly thickened."
+   },
+   {
+    "title": null,
+    "text": "Add the cooked pasta, spinach and half of the cheese. Stir until combined."
+   },
+   {
+    "title": null,
+    "text": "Serve with the remaining cheese on top and enjoy!"
+   }
+  ],
+  "tip": "Use extra peri-peri sauce if you like it spicier, and add a squeeze of lemon for even more flavour!",
+  "printed_total": 2.95,
+  "printed_per_serving": null,
+  "notes": "Total Cost tile reads '£2.95 (for 4 servings)' but the printed ingredient prices add up to £4.00. Badge 'Budget Friendly'. Label 'Top Tip' used as the tip."
+ },
+ {
+  "group": "creamy-pesto-chicken-gnocchi",
+  "file": "019_a_clean_vertical_infographic_recipe_card_poster_w.webp",
+  "title": "Creamy Pesto Chicken Gnocchi",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 5,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Potato Gnocchi",
+    "qty": "500g",
+    "price": 0.85
+   },
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "600g",
+    "price": 3.49
+   },
+   {
+    "item": "Basil Pesto",
+    "qty": "190g",
+    "price": 1.29
+   },
+   {
+    "item": "Double Cream",
+    "qty": "300ml",
+    "price": 1.15
+   },
+   {
+    "item": "Cherry Tomatoes",
+    "qty": "250g",
+    "price": 0.85
+   },
+   {
+    "item": "Baby Spinach",
+    "qty": "100g",
+    "price": 0.89
+   },
+   {
+    "item": "Grated Hard Cheese",
+    "qty": "100g",
+    "price": 1.19
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": 0.35
+   },
+   {
+    "item": "Italian Herbs",
+    "qty": "1 tsp",
+    "price": 0.39
+   }
+  ],
+  "method": [
+   {
+    "title": "Prep the chicken",
+    "text": "Cut the chicken into bite-sized pieces. Season with salt, pepper and Italian herbs."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Heat a large pan with a little oil. Add the chicken and cook for 5–6 minutes until golden and cooked through. Remove and set aside."
+   },
+   {
+    "title": "Cook the gnocchi",
+    "text": "In the same pan, add a little more oil and fry the gnocchi for 4–5 minutes until golden and slightly crispy."
+   },
+   {
+    "title": "Add the garlic and tomatoes",
+    "text": "Add the minced garlic and cherry tomatoes. Cook for 2–3 minutes until the tomatoes soften and start to burst."
+   },
+   {
+    "title": "Make it creamy",
+    "text": "Lower the heat and stir in the pesto and double cream. Mix well and let it simmer for 2 minutes."
+   },
+   {
+    "title": "Combine",
+    "text": "Add the cooked chicken back to the pan along with the spinach. Stir until the spinach wilts and everything is coated in the creamy pesto sauce."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with grated cheese and a pinch of black pepper. Enjoy!"
+   }
+  ],
+  "tip": "Add a squeeze of lemon juice at the end to make the flavours pop even more!",
+  "printed_total": 10.4,
+  "printed_per_serving": 2.6,
+  "notes": "Aldi branding. Sticker 'Restaurant Vibes For Less'. Equipment needed: Large pan or wok, Knife, Chopping board, Wooden spoon. Printed total ~£10.40 vs sum of printed item prices £10.45. Calories ~520 per serving."
+ },
+ {
+  "group": "creamy-sun-dried-tomato-chicken-orzo",
+  "file": "097_creamy_sun_dried_tomato_chicken_orzo.webp",
+  "title": "Creamy Sun-Dried Tomato Chicken Orzo",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Chicken breast",
+    "qty": "2 (about 300g)",
+    "price": null
+   },
+   {
+    "item": "Orzo",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": null
+   },
+   {
+    "item": "Sun-dried tomatoes",
+    "qty": "80g (in oil, drained)",
+    "price": null
+   },
+   {
+    "item": "Baby spinach",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "400ml",
+    "price": null
+   },
+   {
+    "item": "Cream cheese",
+    "qty": "100g (or soft cheese)",
+    "price": null
+   },
+   {
+    "item": "Parmesan",
+    "qty": "40g (plus extra to serve)",
+    "price": null
+   },
+   {
+    "item": "Italian seasoning",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "to taste",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the chicken",
+    "text": "Season chicken with salt, pepper and Italian seasoning. Heat olive oil in a large pan and cook for 4–5 mins until golden and cooked through. Remove and set aside."
+   },
+   {
+    "title": "Build the flavour",
+    "text": "In the same pan, sauté garlic for 30 seconds, then add sun-dried tomatoes and cook for 1–2 mins."
+   },
+   {
+    "title": "Cook the orzo",
+    "text": "Add orzo and chicken stock. Simmer for 8–10 mins, stirring occasionally, until the orzo is almost tender."
+   },
+   {
+    "title": "Make it creamy",
+    "text": "Stir in cream cheese, parmesan, spinach and cooked chicken. Simmer for 2–3 mins until creamy and the spinach wilts. Season to taste."
+   },
+   {
+    "title": "Serve & enjoy",
+    "text": "Top with extra parmesan and fresh herbs if you like!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices, calories or branding on the card. Single '20 mins' figure (put in total_mins). Script word 'Creamy' above the main title; no subtitle."
+ },
+ {
+  "group": "creamy-tomato-chicken-pasta",
+  "file": "009_a_clean_flat_modern_recipe_infographic_poster._o.webp",
+  "title": "Creamy Tomato Chicken Pasta",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts",
+    "qty": "300g",
+    "price": 2.49
+   },
+   {
+    "item": "Penne pasta",
+    "qty": "200g",
+    "price": 0.39
+   },
+   {
+    "item": "Cherry tomatoes",
+    "qty": "250g",
+    "price": 0.79
+   },
+   {
+    "item": "Single cream",
+    "qty": "200ml",
+    "price": 0.85
+   },
+   {
+    "item": "Tomato purée",
+    "qty": "70g",
+    "price": 0.45
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.09
+   },
+   {
+    "item": "Grated hard cheese",
+    "qty": "50g",
+    "price": 0.89
+   },
+   {
+    "item": "Italian herbs",
+    "qty": "1 tsp",
+    "price": 0.1
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Salt & pepper (to taste)",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the pasta",
+    "text": "Boil penne in salted water according to packet instructions (10–12 mins)."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Cut chicken into bite-sized pieces. Season with salt, pepper and Italian herbs. Cook in a pan with a drizzle of oil until golden and cooked through."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "Add minced garlic and cook for 1 minute. Add cherry tomatoes and cook until soft. Stir in tomato purée and single cream. Simmer for 5–7 minutes."
+   },
+   {
+    "title": "Combine",
+    "text": "Add the cooked pasta and chicken to the sauce. Stir everything together and let it simmer for 2 minutes."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with grated cheese and extra herbs. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 3.5,
+  "notes": "The circle reads 'Total cost ~£3.50 per serving' (stored as per-serving; no separate total printed). The printed ingredient prices add up to £6.20 for 2 servings (about £3.10 each), so ~£3.50 doesn't match exactly. Footer: 'Ready in 25 minutes', 'All from Aldi'. The line under the title ('INGREDIENTS & METHOD') is a section label, so subtitle is null. No calories on card. Method steps have photo thumbnails."
+ },
+ {
+  "group": "creamy-tomato-pasta",
+  "file": "043_a_vertical_infographic_recipe_card_style_image_wit.webp",
+  "title": "Creamy Tomato Pasta",
+  "subtitle": "Rich, creamy, garlicky tomato pasta – a budget-friendly classic that's ready in no time!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Penne pasta (or your choice)",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Onion, finely chopped",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic, minced",
+    "qty": "3 cloves",
+    "price": null
+   },
+   {
+    "item": "Chopped tomatoes",
+    "qty": "1 can (400g)",
+    "price": null
+   },
+   {
+    "item": "Tomato purée",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Double cream (or crème fraîche)",
+    "qty": "150ml",
+    "price": null
+   },
+   {
+    "item": "Grated Parmesan (or cheddar)",
+    "qty": "50g",
+    "price": null
+   },
+   {
+    "item": "Dried Italian herbs (oregano, basil, thyme)",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": "1/2 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "to taste",
+    "price": null
+   },
+   {
+    "item": "Fresh basil, to serve (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the pasta according to packet instructions. Drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat the olive oil in a large pan over medium heat. Add the onion and cook for 3–4 minutes until soft."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and cook for 1 minute until fragrant."
+   },
+   {
+    "title": null,
+    "text": "Stir in the tomato purée and cook for 1–2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the chopped tomatoes, Italian herbs and chilli flakes (if using). Season with salt and pepper. Let it simmer for 8–10 minutes."
+   },
+   {
+    "title": null,
+    "text": "Reduce the heat and stir in the cream. Let it simmer for 2–3 minutes until the sauce is rich and creamy."
+   },
+   {
+    "title": null,
+    "text": "Add the cooked pasta and toss until everything is well coated."
+   },
+   {
+    "title": null,
+    "text": "Serve with grated cheese and fresh basil."
+   }
+  ],
+  "tip": "For an even richer flavour, add a splash of pasta water or a knob of butter!",
+  "printed_total": null,
+  "printed_per_serving": 1.54,
+  "notes": "Currency GBP from the '£1.54 Per Serving' tile; no per-ingredient prices. '20 Mins' is unlabelled, put in total_mins. Equipment: large saucepan, frying pan, wooden spoon, colander."
+ },
+ {
+  "group": "creamy-tuscan-chicken-pasta",
+  "file": "101_creamy_tuscan_chicken_pasta_ingredients.webp",
+  "title": "Creamy Tuscan Chicken Pasta",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": 680,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts, diced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Penne pasta",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Spinach",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Sun-dried tomatoes, sliced",
+    "qty": "80g",
+    "price": null
+   },
+   {
+    "item": "Soft cheese or cream cheese",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "150ml",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "30g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Italian herbs",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Fresh basil or parsley (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.75,
+  "notes": "Ingredients-only card (no method). Banner above title: '5 ALDI dinners for when you CANNOT be bothered to cook'. Single '15 mins' chip with a clock, taken as total. 'Approx £4.75 per serving'. Calories ~680 kcal (per serving not stated). 'You'll also need': Frying pan, Saucepan, Wooden spoon."
+ },
+ {
+  "group": "crispy-bean-quesadillas",
+  "file": "008_a_clean_flat_graphic_recipe_card_poster_photog.webp",
+  "title": "Crispy Bean Quesadillas",
+  "subtitle": "Golden, crispy tortillas packed with seasoned beans, melted cheese and the perfect flavour combo!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 480,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Tortilla wraps (large)",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Tinned black beans (drained & rinsed)",
+    "qty": "1 x 400g",
+    "price": null
+   },
+   {
+    "item": "Tinned chopped tomatoes",
+    "qty": "1 x 400g",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar cheese",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Red onion",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Ground cumin",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Chilli powder",
+    "qty": "1/2 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "to taste",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Finely chop the onion and red pepper. Heat 1 tbsp olive oil in a pan over medium heat. Add the onion and pepper and cook for 5 minutes until softened."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic, cumin, paprika and chilli powder. Cook for 1 minute, then stir in the black beans and chopped tomatoes. Simmer for 8–10 minutes, season with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Remove from heat and set aside."
+   },
+   {
+    "title": null,
+    "text": "Lay a tortilla flat and add a generous spoonful of the bean mixture, then sprinkle with cheddar cheese. Top with another tortilla."
+   },
+   {
+    "title": null,
+    "text": "Heat a clean pan over medium heat. Cook the quesadilla for 2–3 minutes per side, pressing down gently, until golden and crispy and the cheese has melted."
+   },
+   {
+    "title": null,
+    "text": "Repeat with the remaining tortillas."
+   },
+   {
+    "title": null,
+    "text": "Slice into wedges and serve with your favourite toppings (salsa, sour cream, guacamole, etc.)."
+   }
+  ],
+  "tip": "For extra crispy quesadillas, use a little more oil in the pan and press down with a spatula while cooking.",
+  "printed_total": null,
+  "printed_per_serving": 1.76,
+  "notes": "Only '£1.76 Per Serving' shown (no ingredient prices; currency GBP from that). Single '20 Mins' figure (put in total_mins). Last 5 ingredients are under 'Spices & Extras'. Equipment Needed: Large frying pan, Chopping board & knife, Mixing spoon. Quantity for chilli powder printed as ½ tsp."
+ },
+ {
+  "group": "crispy-beef-burrito-bowls",
+  "file": "105_crispy_beef_burrito_bowl_recipe_card.webp",
+  "title": "Crispy Beef Burrito Bowls",
+  "subtitle": "BOLD FLAVOURS. FRESH INGREDIENTS. REAL EASY.",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 560,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef mince",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Long-grain rice",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Black beans, drained",
+    "qty": "1 can",
+    "price": null
+   },
+   {
+    "item": "Sweetcorn, drained",
+    "qty": "1 can",
+    "price": null
+   },
+   {
+    "item": "Tomatoes, diced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Red onion, finely chopped",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Romaine lettuce, shredded",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Avocado, mashed",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Sour cream",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Lime, cut into wedges",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Taco seasoning",
+    "qty": "1 sachet",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to the pack instructions."
+   },
+   {
+    "title": null,
+    "text": "Heat the oil in a frying pan and cook the beef mince until browned, breaking it up as it cooks."
+   },
+   {
+    "title": null,
+    "text": "Stir in the taco seasoning with a splash of water and simmer for 2–3 minutes until glossy and slightly crispy."
+   },
+   {
+    "title": null,
+    "text": "Warm the black beans and sweetcorn, then prep the tomatoes, onion, lettuce and avocado."
+   },
+   {
+    "title": null,
+    "text": "Divide the rice between bowls and top with the crispy beef, beans, sweetcorn, lettuce, tomato, onion, avocado and sour cream. Finish with a squeeze of lime."
+   }
+  ],
+  "tip": "Add jalapeños or hot sauce for extra takeaway-style heat, or swap sour cream for Greek yogurt to keep it lighter.",
+  "printed_total": 5.95,
+  "printed_per_serving": null,
+  "notes": "Header chips: £5.95 TOTAL PRICE, 20 MINS READY TIME, SERVES 4, 560 KCAL / 30G PROTEIN per serving. Last three ingredients (Salt, Black pepper, Chilli flakes) come from the 'Pantry staples' box. Equipment: frying pan, saucepan, knife, chopping board. Subtitle is printed in capitals."
+ },
+ {
+  "group": "crispy-beef-taco-rice-bowls",
+  "file": "107_crispy_beef_taco_rice_bowls.webp",
+  "title": "Crispy Beef Taco Rice Bowls",
+  "subtitle": "Easy takeaway-style dinner at home.",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Lean beef mince",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Long grain rice",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Smoked paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Cumin",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Tomato puree",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweetcorn",
+    "qty": "1 small tin",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar",
+    "qty": "80g",
+    "price": null
+   },
+   {
+    "item": "Little gem lettuce",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Tomatoes",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Green chilli",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Fresh coriander",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Sour cream",
+    "qty": "4 tbsp",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook rice."
+   },
+   {
+    "title": null,
+    "text": "Fry onion and pepper, add beef and brown well."
+   },
+   {
+    "title": null,
+    "text": "Stir in paprika, cumin, tomato puree, soy sauce and sweet chilli, then add sweetcorn and cook until sticky."
+   },
+   {
+    "title": null,
+    "text": "Build bowls with rice, lettuce and tomatoes."
+   },
+   {
+    "title": null,
+    "text": "Top with crispy beef, cheese, sour cream, coriander and sliced chilli."
+   }
+  ],
+  "tip": "For extra crunch, let the beef cook undisturbed for a minute at the end so it caramelises slightly.",
+  "printed_total": 7.48,
+  "printed_per_serving": null,
+  "notes": "Subtitle is printed in capitals on the card. The 'Shopping list' is the ingredient list (no per-item prices). Separate 'Pantry' box: olive oil, salt, black pepper (not included in ingredients). Equipment: frying pan, saucepan, chopping board. Tile reads 'Total Price £7.48', 'Ready in 20 mins'."
+ },
+ {
+  "group": "crispy-sweet-chilli-chicken-bowls",
+  "file": "109_crispy_sweet_chilli_chicken_bowls.webp",
+  "title": "Crispy Sweet Chilli Chicken Bowls",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Chicken breast or chicken goujons",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Rice",
+    "qty": "150g (dry weight)",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "6 tbsp",
+    "price": null
+   },
+   {
+    "item": "Peppers",
+    "qty": "2 (any colours)",
+    "price": null
+   },
+   {
+    "item": "Cucumber",
+    "qty": "1/2 (sliced)",
+    "price": null
+   },
+   {
+    "item": "Spring onions",
+    "qty": "3 (sliced)",
+    "price": null
+   },
+   {
+    "item": "Mayonnaise",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Cornflour or breadcrumbs",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic powder",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "To taste",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "For frying",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Coat the chicken",
+    "text": "Cut chicken into bite-sized pieces. Toss with cornflour (or breadcrumbs), garlic powder, salt and pepper."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Heat oil in a pan and fry chicken for 6–8 mins until golden and cooked through."
+   },
+   {
+    "title": "Stir-fry the veg",
+    "text": "In the same pan, stir-fry the peppers for 3–4 mins until just tender."
+   },
+   {
+    "title": "Add the sauce",
+    "text": "Return the chicken to the pan and stir in the sweet chilli sauce. Coat well and cook for 1–2 mins until sticky."
+   },
+   {
+    "title": "Build your bowls",
+    "text": "Divide rice between bowls. Top with sweet chilli chicken, peppers, cucumber and spring onions. Drizzle with mayonnaise and enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices, calories or Measy logo. '20 mins' chip taken as total (also 'Big Flavour in 20 Mins!' sticker). Stickers: 'Sticky, Crispy & Fresh!'. Cucumber amount printed as a half symbol (written 1/2)."
+ },
+ {
+  "group": "crispy-sweet-chilli-chicken-noodles",
+  "file": "110_crispy_sweet_chilli_chicken_noodles.webp",
+  "title": "Crispy Sweet Chilli Chicken Noodles",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts or 4 chicken mini fillets",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Straight-to-wok noodles or 2 portions egg noodles",
+    "qty": "1 nest",
+    "price": null
+   },
+   {
+    "item": "Red pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Carrot, julienned",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Sugar snap peas",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic puree",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Fresh coriander (optional)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.5,
+  "notes": "Ingredients-only card (no method). Header 'INGREDIENTS' above the title and a search-bar graphic reading 'crispy sweet chilli chicken noodles'. Printed: 15 mins, Serves 2, 'Approx £4.50 per serving'. Ingredients are a bullet list with quantities inline (split into qty/item here). 'You'll also need': Frying pan or wok, Tongs or wooden spoon."
+ },
+ {
+  "group": "crispy-sweet-chilli-halloumi-burgers",
+  "file": "111_crispy_sweet_chilli_halloumi_burgers.webp",
+  "title": "Crispy Sweet Chilli Halloumi Burgers",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Burger buns",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Halloumi",
+    "qty": "225g",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Plain flour",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Egg",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Breadcrumbs",
+    "qty": "60g",
+    "price": null
+   },
+   {
+    "item": "Lettuce",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Red onion, sliced",
+    "qty": "1/2",
+    "price": null
+   },
+   {
+    "item": "Mayo",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Oil, for frying",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Slice the halloumi into thick pieces. Coat in flour, then egg, then breadcrumbs."
+   },
+   {
+    "title": null,
+    "text": "Fry until golden and crispy on both sides."
+   },
+   {
+    "title": null,
+    "text": "Mix the mayo with a little sweet chilli sauce."
+   },
+   {
+    "title": null,
+    "text": "Toast the buns, then layer with lettuce, red onion, crispy halloumi, and the sweet chilli mayo."
+   },
+   {
+    "title": null,
+    "text": "Drizzle extra sweet chilli sauce on top and serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No times, calories or prices printed; header chips only say 'Quick', 'Budget-friendly' and 'Serves 2'. Lettuce has no quantity."
+ },
+ {
+  "group": "garlic-butter-chicken-and-rice",
+  "file": "012_a_clean_infographic_recipe_card_image_in_a_vertica.webp",
+  "title": "Garlic Butter Chicken & Rice",
+  "subtitle": "Creamy, garlicky and comforting",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": 25,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breast",
+    "qty": "500g",
+    "price": 1.8
+   },
+   {
+    "item": "Long grain rice",
+    "qty": "250g",
+    "price": 0.25
+   },
+   {
+    "item": "Unsalted butter",
+    "qty": "50g",
+    "price": 0.2
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "4",
+    "price": 0.1
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.15
+   },
+   {
+    "item": "Double cream",
+    "qty": "100ml",
+    "price": 0.3
+   },
+   {
+    "item": "Grated cheese",
+    "qty": "50g",
+    "price": 0.25
+   },
+   {
+    "item": "Chicken stock cube",
+    "qty": "1",
+    "price": 0.05
+   },
+   {
+    "item": "Mixed herbs",
+    "qty": "1 tsp",
+    "price": 0.05
+   },
+   {
+    "item": "Chilli flakes",
+    "qty": "½ tsp",
+    "price": 0.05
+   },
+   {
+    "item": "Spinach (optional)",
+    "qty": "Handful",
+    "price": 0.2
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.02
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to pack instructions."
+   },
+   {
+    "title": null,
+    "text": "Season the chicken with salt, pepper and mixed herbs."
+   },
+   {
+    "title": null,
+    "text": "In a large pan, melt the butter over medium heat. Add the chicken and cook for 5–6 minutes until golden and cooked through. Remove and set aside."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, add the onion and cook for 2–3 minutes until soft. Add the garlic and chilli flakes and cook for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Pour in the cream and crumble in the stock cube. Stir and simmer for 2–3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Add the spinach and cheese (optional), then return the chicken to the pan. Stir until coated and heated through."
+   },
+   {
+    "title": null,
+    "text": "Serve over rice and enjoy!"
+   }
+  ],
+  "tip": "Add extra veg like broccoli or peas to make it even more filling!",
+  "printed_total": 2.2,
+  "printed_per_serving": null,
+  "notes": "Total Cost tile reads '£2.20 (for 4 servings)' but the printed ingredient prices add up to £3.42. Badge 'Budget Friendly'. Label 'Top Tip' used as the tip."
+ },
+ {
+  "group": "garlic-butter-flatbreads",
+  "file": "018_a_clean_vertical_infographic_recipe_card_in_the_s.webp",
+  "title": "Garlic Butter Flatbreads",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": 320,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Plain naan breads",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Unsalted butter",
+    "qty": "50g",
+    "price": null
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": null
+   },
+   {
+    "item": "Fresh parsley",
+    "qty": "Small handful",
+    "price": null
+   },
+   {
+    "item": "Grated hard cheese (parmesan or cheddar)",
+    "qty": "30g",
+    "price": null
+   },
+   {
+    "item": "Dried herbs (oregano/Italian mix)",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "(to taste)",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Make the garlic butter",
+    "text": "Melt the butter and add minced garlic, chopped parsley, herbs, salt and pepper. Mix well."
+   },
+   {
+    "title": "Prepare the flatbreads",
+    "text": "Place the naan breads on a baking tray. Brush or spoon the garlic butter evenly over each one."
+   },
+   {
+    "title": "Add cheese (optional)",
+    "text": "Sprinkle with grated cheese and a little extra herbs if you like."
+   },
+   {
+    "title": "Bake",
+    "text": "Bake in the oven at 200°C for 6–8 minutes, or until golden and crispy."
+   },
+   {
+    "title": "Serve",
+    "text": "Slice and enjoy hot! Perfect as a side, snack or with your favourite meal."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices. Calories printed as 'Approx. cals 320 (per flatbread)', not per serving. Aldi logo + 'All ingredients from Aldi'. Footer chips: Budget-friendly, Quick & easy (Ready in 15 minutes), Simple ingredients, Perfect for the whole family."
+ },
+ {
+  "group": "garlic-butter-halloumi-couscous",
+  "file": "114_garlic_butter_halloumi_couscous_recipe_card.webp",
+  "title": "Garlic Butter Halloumi Couscous",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Halloumi",
+    "qty": "225g",
+    "price": null
+   },
+   {
+    "item": "Couscous",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": null
+   },
+   {
+    "item": "Butter",
+    "qty": "30g",
+    "price": null
+   },
+   {
+    "item": "Cucumber (diced)",
+    "qty": "1/2",
+    "price": null
+   },
+   {
+    "item": "Cherry tomatoes (halved)",
+    "qty": "200g",
+    "price": null
+   },
+   {
+    "item": "Red onion (sliced)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Lemon juice",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Parsley (chopped)",
+    "qty": "Handful",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt",
+    "qty": "to taste",
+    "price": null
+   },
+   {
+    "item": "Pepper",
+    "qty": "to taste",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Make the couscous",
+    "text": "Pour 200ml boiling water over the couscous, cover and leave for 5 mins. Fluff with a fork."
+   },
+   {
+    "title": "Cook the halloumi",
+    "text": "Cut halloumi into cubes. Fry in a little olive oil over medium-high heat for 2–3 mins per side until golden and crispy. Remove and set aside."
+   },
+   {
+    "title": "Make the garlic butter",
+    "text": "In the same pan, lower the heat and add the butter and minced garlic. Cook for 1 minute until fragrant."
+   },
+   {
+    "title": "Combine everything",
+    "text": "In a large bowl, fluff the couscous and add the garlic butter, halloumi, cherry tomatoes, cucumber, red onion, lemon juice and parsley. Season with salt and pepper, then toss and serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices, calories or branding. Single '20 mins' figure (put in total_mins). Script word 'Garlic Butter' above 'Halloumi Couscous'; no subtitle."
+ },
+ {
+  "group": "garlic-butter-sausage-pasta",
+  "file": "132_measy_garlic_butter_sausage_pasta.webp",
+  "title": "Garlic Butter Sausage Pasta",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 500,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pasta",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Pork sausages, sliced",
+    "qty": "6",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Onion, diced",
+    "qty": "1 small",
+    "price": null
+   },
+   {
+    "item": "Butter",
+    "qty": "25g",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "30g",
+    "price": null
+   },
+   {
+    "item": "Parsley",
+    "qty": "Small handful",
+    "price": null
+   },
+   {
+    "item": "Salt",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the pasta according to packet instructions and reserve a little pasta water."
+   },
+   {
+    "title": null,
+    "text": "Fry the sliced sausages in olive oil until browned and cooked through; remove and set aside."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, soften the onion for 3–4 minutes, then add the garlic and butter."
+   },
+   {
+    "title": null,
+    "text": "Add the cooked pasta, a splash of pasta water, parmesan and the sausages; toss until glossy and coated."
+   },
+   {
+    "title": null,
+    "text": "Season with salt and black pepper, finish with parsley and optional chilli flakes, then serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": 3.1,
+  "printed_per_serving": null,
+  "notes": "Banner: '5 Aldi meals I'd make if I only had £15 left'; 'All ingredients from Aldi'. 'Ingredients & Method' under the title is a section label (subtitle null). Header chips: £3.10 total, 20 mins (unlabeled, stored as total_mins), Serves 4, ~500 cals."
+ },
+ {
+  "group": "garlic-butter-sausage-veggie-skillet",
+  "file": "116_garlic_butter_sausage_skillet_recipe_card.webp",
+  "title": "Garlic Butter Sausage & Veggie Skillet",
+  "subtitle": "Simple. Hearty. So good.",
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": 580,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Smoked sausage",
+    "qty": "12 oz",
+    "price": 3.49
+   },
+   {
+    "item": "Baby potatoes",
+    "qty": "1 lb",
+    "price": 2.49
+   },
+   {
+    "item": "Red bell pepper",
+    "qty": "1",
+    "price": 0.89
+   },
+   {
+    "item": "Green bell pepper",
+    "qty": "1",
+    "price": 0.89
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.79
+   },
+   {
+    "item": "Butter",
+    "qty": "2 tbsp",
+    "price": 0.25
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": 0.1
+   },
+   {
+    "item": "Italian seasoning",
+    "qty": "1 tsp",
+    "price": 0.05
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Par-cook the potatoes until just tender, then drain."
+   },
+   {
+    "title": null,
+    "text": "Slice the sausage and brown it in a skillet with a little oil."
+   },
+   {
+    "title": null,
+    "text": "Add the potatoes, peppers, onion, garlic, butter, and Italian seasoning."
+   },
+   {
+    "title": null,
+    "text": "Cook until the potatoes are golden and crispy and the veg is tender."
+   },
+   {
+    "title": null,
+    "text": "Season with salt and black pepper, then serve hot."
+   }
+  ],
+  "tip": null,
+  "printed_total": 11.0,
+  "printed_per_serving": 5.5,
+  "notes": "Title is printed in capitals. Printed 'Total for 2 servings: ~$11.00, Per serving: ~$5.50' but the ingredient prices add up to $9.10. The Salt & black pepper quantity is an illegible glyph (shown as a '3'), left null. Banner 'Full week under $30'. '25 Mins' is unlabelled, put in total_mins. Ingredient heading says '(2 servings)'."
+ },
+ {
+  "group": "garlic-parmesan-chicken-flatbreads",
+  "file": "117_garlic_parmesan_chicken_flatbread_recipe.webp",
+  "title": "Garlic Parmesan Chicken Flatbreads",
+  "subtitle": "Cheesy, garlicky and perfect for an easy fakeaway night.",
+  "serves": null,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Flatbreads or naan breads",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Chicken breasts, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic granules",
+    "qty": "2 tsp",
+    "price": null
+   },
+   {
+    "item": "Italian seasoning",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt and black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Grated mozzarella",
+    "qty": "100 g",
+    "price": null
+   },
+   {
+    "item": "Grated parmesan",
+    "qty": "35 g",
+    "price": null
+   },
+   {
+    "item": "Garlic and herb soft cheese or garlic sauce",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Fresh parsley, chopped",
+    "qty": "Small handful",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Season the chicken with garlic granules, Italian seasoning, salt and pepper, then cook in a pan with olive oil until golden and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Spread the garlic and herb soft cheese over the flatbreads."
+   },
+   {
+    "title": null,
+    "text": "Top with mozzarella, cooked chicken and parmesan."
+   },
+   {
+    "title": null,
+    "text": "Bake or air-fry until the flatbreads are crisp and the cheese is melted and bubbly."
+   },
+   {
+    "title": null,
+    "text": "Finish with chopped parsley, slice and serve."
+   }
+  ],
+  "tip": "Add a drizzle of garlic mayo after cooking for extra fakeaway flavour.",
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No serves, times, calories or prices printed. Ingredient panel is headed 'What you'll need'; a separate 'Pantry' box lists Olive oil, Salt, Black pepper (already in the list). 'You'll need' equipment: Frying pan, Oven or air fryer, Knife, Chopping board. Footer: 'Simple ingredients • Delicious results'."
+ },
+ {
+  "group": "garlic-sausage-rice-bowls",
+  "file": "035_a_vertical_infographic_recipe_card_image._overall.webp",
+  "title": "Garlic Sausage Rice Bowls",
+  "subtitle": "Juicy sausages, garlicky rice and roasted veg topped with a creamy sauce – easy, cheap and so good!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": 490,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pork sausages",
+    "qty": "6 (approx. 400g)",
+    "price": null
+   },
+   {
+    "item": "Long grain rice",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Red pepper, chopped",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Onion, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic, minced",
+    "qty": "3 cloves",
+    "price": null
+   },
+   {
+    "item": "Frozen peas",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Crème fraîche (or cream)",
+    "qty": "100g",
+    "price": null
+   },
+   {
+    "item": "Grated cheese (optional)",
+    "qty": "50g",
+    "price": null
+   },
+   {
+    "item": "Dried mixed herbs",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": "1/2 tsp",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "to taste",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to pack instructions."
+   },
+   {
+    "title": null,
+    "text": "Heat the olive oil in a large frying pan over medium heat. Add the sausages and cook for 10–12 minutes, turning until golden and cooked through. Remove and slice into bite-sized pieces."
+   },
+   {
+    "title": null,
+    "text": "In the same pan, add the onion and pepper. Cook for 5–6 minutes until soft. Add the garlic and cook for 1 minute."
+   },
+   {
+    "title": null,
+    "text": "Return the sliced sausages to the pan and add the peas, mixed herbs and chilli flakes (if using). Stir and cook for 2 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the crème fraîche and simmer for 2–3 minutes. Season with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "Serve over the rice and top with grated cheese and extra herbs."
+   }
+  ],
+  "tip": "Add a squeeze of lemon juice or extra herbs for even more flavour!",
+  "printed_total": null,
+  "printed_per_serving": 1.82,
+  "notes": "Only '£1.82 Per Serving' shown (no ingredient prices). Equipment Needed: Large frying pan, Saucepan, Knife, Chopping board. Single '25 Mins' figure (put in total_mins). Tagline 'Big Flavour Small Budget'."
+ },
+ {
+  "group": "honey-chilli-chicken-noodles",
+  "file": "123_honey_chilli_chicken_noodles_recipe_card.webp",
+  "title": "Honey Chilli Chicken Noodles",
+  "subtitle": "Quick takeaway-style noodles at home.",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 582,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Noodles",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Chicken thigh or breast, diced",
+    "qty": "450g",
+    "price": null
+   },
+   {
+    "item": "Red pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Chilli flakes",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Extra chilli",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Splash of water",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the noodles, drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Fry the chicken in oil until golden and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Add pepper, spring onions and garlic; cook for 2–3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in sweet chilli sauce, honey, soy sauce and chilli flakes, then toss in the noodles."
+   },
+   {
+    "title": null,
+    "text": "Mix until glossy and hot, then finish with sesame seeds and extra spring onion."
+   }
+  ],
+  "tip": "Add a splash of noodle water to loosen the sauce and help it coat every strand.",
+  "printed_total": 6.48,
+  "printed_per_serving": null,
+  "notes": "Header chips: £6.48 TOTAL PRICE, 20 MINS READY IN, SERVES 4, 582 CALS / 40G PROTEIN per serving. Last four ingredients (salt, black pepper, extra chilli, splash of water) come from the 'Pantry / optional' box. Equipment: frying pan or wok, saucepan, knife. Tip is labelled 'Top tip'."
+ },
+ {
+  "group": "honey-soy-beef-noodles",
+  "file": "039_a_vertical_infographic_recipe_card_poster_in_a_cle.webp",
+  "title": "Honey Soy Beef Noodles",
+  "subtitle": "Sweet, savoury and ready in 20 minutes!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 10,
+  "total_mins": 20,
+  "calories": 520,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Beef Mince (5% fat)",
+    "qty": "1 lb",
+    "price": 4.49
+   },
+   {
+    "item": "Egg Noodles",
+    "qty": "14 oz",
+    "price": 0.99
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1",
+    "price": 0.79
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.59
+   },
+   {
+    "item": "Garlic",
+    "qty": "4 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Soy Sauce",
+    "qty": "5 tbsp",
+    "price": 0.49
+   },
+   {
+    "item": "Honey",
+    "qty": "3 tbsp",
+    "price": 0.99
+   },
+   {
+    "item": "Sesame Oil",
+    "qty": "1 tbsp",
+    "price": 1.29
+   },
+   {
+    "item": "Spring Onions",
+    "qty": "3",
+    "price": 0.49
+   },
+   {
+    "item": "Sesame Seeds",
+    "qty": "1 tbsp",
+    "price": 0.69
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the noodles",
+    "text": "Bring a large pan of water to a boil and cook the egg noodles according to the packet instructions. Drain and set aside."
+   },
+   {
+    "title": "Cook the beef",
+    "text": "Heat a large pan or wok over medium-high heat. Add the beef mince and cook until browned, breaking it up with a spoon. Drain any excess fat if needed."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add the sliced onion and red pepper. Cook for 3–4 minutes until softened. Add the minced garlic and cook for 1 minute until fragrant."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "In a small bowl, mix together the soy sauce, honey and sesame oil. Pour into the pan and stir well, letting it simmer for 2–3 minutes until the sauce thickens slightly."
+   },
+   {
+    "title": "Combine & serve",
+    "text": "Add the cooked noodles to the pan and toss everything together until well coated. Top with sliced spring onions and sesame seeds. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": 12.58,
+  "printed_per_serving": 3.15,
+  "notes": "Printed 'Total: ~ $12.58, That's $3.15 per serving!' but the ingredient prices add up to $11.10. Also a badge 'Under $4 Per Serving'. Sticker 'Easy Weeknight Dinner'."
+ },
+ {
+  "group": "honey-soy-sausage-noodle-bowls",
+  "file": "125_honey_soy_sausage_noodle_bowls.webp",
+  "title": "Honey Soy Sausage Noodle Bowls",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Pork sausages",
+    "qty": "6",
+    "price": null
+   },
+   {
+    "item": "Medium egg noodles",
+    "qty": "2 nests",
+    "price": null
+   },
+   {
+    "item": "Red pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic paste",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the sausages until browned and cooked through, then slice."
+   },
+   {
+    "title": null,
+    "text": "Cook the noodles according to the packet and drain."
+   },
+   {
+    "title": null,
+    "text": "Fry the pepper for 2–3 minutes, then add the sliced sausages."
+   },
+   {
+    "title": null,
+    "text": "Stir in the soy sauce, honey, sweet chilli sauce, and garlic paste until everything is coated and sticky."
+   },
+   {
+    "title": null,
+    "text": "Toss in the noodles and spring onions, then serve topped with sesame seeds."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices, times or calories. Tags under the title: Quick, Budget-friendly, Serves 2. Measy script logo at bottom."
+ },
+ {
+  "group": "hot-honey-chicken-flatbread-pizzas",
+  "file": "126_hot_honey_chicken_flatbread_recipe_card.webp",
+  "title": "Hot Honey Chicken Flatbread Pizzas",
+  "subtitle": "SWEET HEAT. JUICY CHICKEN. SERIOUSLY GOOD.",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Flatbreads (naan or tortilla style)",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Cooked chicken (or 2 chicken breasts, cooked and shredded)",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Mozzarella (or grated cheese)",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Hot honey (plus extra for drizzling)",
+    "qty": "3–4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Red onion (thinly sliced)",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Fresh jalapeños (sliced, optional)",
+    "qty": "1–2",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves (minced)",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Smoked paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Dried oregano",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Fresh coriander (or parsley, chopped)",
+    "qty": "Handful",
+    "price": null
+   },
+   {
+    "item": "Salt",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Prep the chicken",
+    "text": "If using raw chicken, cook in a little olive oil with garlic, paprika, salt and pepper until cooked through. Shred or slice. If using cooked chicken, simply toss with a little hot honey, garlic and paprika."
+   },
+   {
+    "title": "Prep the toppings",
+    "text": "Thinly slice the red onion and jalapeños. Grate the cheese and chop your fresh herbs."
+   },
+   {
+    "title": "Assemble the flatbreads",
+    "text": "Place the flatbreads on a baking tray. Top with the honey chicken, cheese, red onion and jalapeños."
+   },
+   {
+    "title": "Bake",
+    "text": "Bake in a hot oven (200°C / fan 180°C) for 8–10 minutes, until the cheese is melted and golden."
+   },
+   {
+    "title": "Finish & serve",
+    "text": "Drizzle with extra hot honey, sprinkle with fresh herbs and a pinch of chilli flakes if you like. Slice and dig in!"
+   }
+  ],
+  "tip": "Use leftover roast chicken to make this even quicker – it's a great way to turn leftovers into something epic!",
+  "printed_total": 4.8,
+  "printed_per_serving": null,
+  "notes": "Printed '£4.80 EST. TOTAL PRICE'; '20 MINS READY TIME' (put in total_mins). No per-ingredient prices. Last three ingredients (salt, black pepper, chilli flakes optional) are under 'Pantry Items'. Equipment Needed: Frying pan (if cooking chicken), Baking tray, Chopping board, Knife, Grater (optional). Header 'TODAY'S RECIPE'."
+ },
+ {
+  "group": "loaded-bbq-beef-nachos",
+  "file": "128_loaded_bbq_beef_nachos_recipe_card.webp",
+  "title": "Loaded BBQ Beef Nachos",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Tortilla chips",
+    "qty": "1 large bag",
+    "price": null
+   },
+   {
+    "item": "Beef mince",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Grated cheddar or cheese mix",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Red onion, diced",
+    "qty": "1/2",
+    "price": null
+   },
+   {
+    "item": "Spring onion, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Jalapeño, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Sour cream",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Smoked paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Fresh coriander (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.25,
+  "notes": "Ingredients-only card (no method). Header '15 mins' has no label (stored as total_mins). Cost printed as 'Approx £4.25 per serving'. 'You'll also need': frying pan, baking tray or ovenproof dish. Search-bar graphic reads 'loaded bbq beef nachos'."
+ },
+ {
+  "group": "loaded-taco-jacket-potato",
+  "file": "011_a_clean_graphic_recipe_card_image_with_a_food_pho.webp",
+  "title": "Loaded Taco Jacket Potato",
+  "subtitle": "Crispy jacket potato. Zesty taco filling. All your favourite toppings.",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Large baking potatoes",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Lean minced beef (or turkey)",
+    "qty": "500g (1 lb)",
+    "price": null
+   },
+   {
+    "item": "Olive oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Small onion, finely chopped",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Taco seasoning (or homemade – see below)",
+    "qty": "1 packet",
+    "price": null
+   },
+   {
+    "item": "Cheddar cheese, grated",
+    "qty": "100g (1 cup)",
+    "price": null
+   },
+   {
+    "item": "Tomato, diced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Lettuce, shredded",
+    "qty": "1/2",
+    "price": null
+   },
+   {
+    "item": "Red onion, finely sliced",
+    "qty": "1/2",
+    "price": null
+   },
+   {
+    "item": "Sour cream (to serve)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Salsa (to serve)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Guacamole (to serve)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Jalapeños (optional)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Fresh coriander (optional)",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Bake the potatoes",
+    "text": "Preheat oven to 200°C (180°C fan) / 400°F. Scrub the potatoes, prick with a fork, rub with a little oil and salt. Bake for 50–60 minutes, or until crispy and fluffy inside."
+   },
+   {
+    "title": "Cook the taco filling",
+    "text": "While the potatoes bake, heat olive oil in a large pan over medium heat. Add onion and cook for 3–4 minutes until soft. Add garlic and cook for 1 minute."
+   },
+   {
+    "title": "Add the beef",
+    "text": "Add the minced beef and cook until browned, breaking it up with a spoon. Drain excess fat if needed."
+   },
+   {
+    "title": "Season",
+    "text": "Stir in taco seasoning and 100ml (1/2 cup) water. Simmer for 5–10 minutes until thick and flavourful."
+   },
+   {
+    "title": "Prepare toppings",
+    "text": "While the filling simmers, chop your fresh toppings (tomato, lettuce, red onion, etc)."
+   },
+   {
+    "title": "Assemble",
+    "text": "Once the potatoes are cooked, cut them open and fluff the insides with a fork. Spoon over the taco filling and top with cheese, lettuce, tomato, red onion, sour cream, salsa, guacamole, jalapeños and coriander."
+   }
+  ],
+  "tip": "Use sweet potatoes for a twist. Try black beans or lentils for a veggie option. Add crushed tortilla chips on top for extra crunch. Make it your own with your favourite taco toppings!",
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "Title is printed in capitals. No prices, time or calories. Two-column ingredient grid (left column then right column, in that order). Optional 'Homemade Taco Seasoning' box (not in ingredients): 1 tbsp chilli powder, 1 tsp ground cumin, 1 tsp paprika, 1 tsp dried oregano, 1/2 tsp garlic powder, 1/2 tsp onion powder, 1/2 tsp salt, 1/4 tsp black pepper, 1/4 tsp cayenne pepper (optional, for heat). 'TOP TIPS' is a four-item checklist, joined into one tip string. 'Dig in!' sign-off."
+ },
+ {
+  "group": "one-pan-smoky-beef-orzo",
+  "file": "004_a_bright_clean_infographic_recipe_poster_in_a_ver.webp",
+  "title": "One-Pan Smoky Beef Orzo",
+  "subtitle": "Big flavour. Minimal effort. Perfect for busy nights!",
+  "serves": 4,
+  "prep_mins": 5,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef Mince",
+    "qty": "500g",
+    "price": 2.99
+   },
+   {
+    "item": "Orzo Pasta",
+    "qty": "300g",
+    "price": 0.75
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "Red Onion",
+    "qty": "1 large",
+    "price": 0.35
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Chopped Tomatoes",
+    "qty": "400g",
+    "price": 0.45
+   },
+   {
+    "item": "Beef Stock Cubes",
+    "qty": "2 cubes",
+    "price": 0.29
+   },
+   {
+    "item": "Smoked Paprika",
+    "qty": "50g",
+    "price": 0.49
+   },
+   {
+    "item": "Baby Spinach",
+    "qty": "100g",
+    "price": 0.79
+   },
+   {
+    "item": "Grated Cheddar",
+    "qty": "200g",
+    "price": 1.19
+   }
+  ],
+  "method": [
+   {
+    "title": "Brown the beef",
+    "text": "Heat a large, deep pan over medium-high heat. Add the beef mince and cook until browned, breaking it up with a spoon. Drain excess fat if needed."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add the chopped onion and red pepper. Cook for 3–4 minutes until softened. Add the garlic and cook for 1 minute."
+   },
+   {
+    "title": "Build the flavour",
+    "text": "Stir in the smoked paprika and cook for 30 seconds until fragrant."
+   },
+   {
+    "title": "Add the orzo",
+    "text": "Stir in the orzo pasta, chopped tomatoes and 500ml of water (or stock using 2 beef stock cubes). Season with salt and pepper."
+   },
+   {
+    "title": "Simmer",
+    "text": "Bring to a gentle boil, then reduce the heat to medium. Simmer for 12–15 minutes, stirring occasionally, until the orzo is cooked and the sauce is rich and thickened."
+   },
+   {
+    "title": "Add the spinach",
+    "text": "Stir in the spinach and cook for 1–2 minutes until wilted."
+   },
+   {
+    "title": "Finish",
+    "text": "Top with grated cheddar, pop a lid on for a couple of minutes until melted. Serve straight from the pan and enjoy!"
+   }
+  ],
+  "tip": "Add a pinch of chilli flakes for extra kick or swap the spinach for kale!",
+  "printed_total": 7.39,
+  "printed_per_serving": 1.85,
+  "notes": "Aldi branding. Sticker 'Cheap Tasty Easy'. Equipment needed: Large frying pan (or deep pan), Wooden spoon, Measuring jug, Grater (optional). Printed total ~£7.39 does not equal the sum of the printed item prices (£8.28); copied as printed."
+ },
+ {
+  "group": "one-pan-tomato-chicken-orzo",
+  "file": "135_one_pan_tomato_chicken_orzo_recipe_card.webp",
+  "title": "One-Pan Tomato Chicken Orzo",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breast or thighs",
+    "qty": "400g",
+    "price": 2.5
+   },
+   {
+    "item": "Orzo",
+    "qty": "250g",
+    "price": 0.49
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.12
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "2",
+    "price": 0.1
+   },
+   {
+    "item": "Chopped tomatoes",
+    "qty": "1 tin",
+    "price": 0.49
+   },
+   {
+    "item": "Chicken stock",
+    "qty": "500ml",
+    "price": 0.45
+   },
+   {
+    "item": "Cream cheese",
+    "qty": "2 tbsp",
+    "price": 0.28
+   },
+   {
+    "item": "Italian seasoning",
+    "qty": "1 tsp",
+    "price": 0.1
+   },
+   {
+    "item": "Spinach",
+    "qty": "A handful",
+    "price": 0.6
+   },
+   {
+    "item": "Oil",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Brown the chicken",
+    "text": "Heat a large, deep pan with a splash of oil. Season the chicken and cook until golden on both sides. Remove and set aside."
+   },
+   {
+    "title": "Add onion and garlic",
+    "text": "In the same pan, add the chopped onion and cook for 3–4 mins until softened. Add the garlic and cook for 1 min."
+   },
+   {
+    "title": "Stir in the orzo, tomatoes, stock and seasoning",
+    "text": "Return the chicken to the pan. Stir in the orzo, chopped tomatoes, chicken stock and Italian seasoning. Season with salt and pepper."
+   },
+   {
+    "title": "Simmer until tender",
+    "text": "Bring to a gentle simmer, cover and cook for 15–20 mins, stirring occasionally, until the orzo is tender and most of the liquid is absorbed."
+   },
+   {
+    "title": "Stir through and serve",
+    "text": "Stir through the cream cheese and spinach until wilted and creamy. Taste and adjust seasoning, then serve immediately."
+   }
+  ],
+  "tip": "Finish with grated cheese or fresh basil for extra flavour.",
+  "printed_total": 8.0,
+  "printed_per_serving": 2.0,
+  "notes": "Printed 'Approx £2.00 per serving' and 'Total Cost (approx) £8.00 total' but the listed prices add up to £5.23 (printed as-is). Banner above title: '5 Aldi Dinners for When Your Bank Balance Says Absolutely Not' (with emoji). Aldi logo; 'measy' wordmark."
+ },
+ {
+  "group": "sticky-bbq-beef-rice-bowls",
+  "file": "137_sticky_bbq_beef_rice_bowls_recipe_card.webp",
+  "title": "Sticky BBQ Beef Rice Bowls",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 560,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef mince",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Microwave rice or 250g uncooked rice",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Red bell pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Smoked paprika",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds (optional)",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to packet instructions and set aside."
+   },
+   {
+    "title": null,
+    "text": "Heat oil in a pan and cook the beef mince until browned, breaking it up as it cooks."
+   },
+   {
+    "title": null,
+    "text": "Add the red pepper and garlic, then cook for 2–3 minutes until slightly softened."
+   },
+   {
+    "title": null,
+    "text": "Stir in the BBQ sauce, soy sauce, honey and smoked paprika. Simmer for 2 minutes until sticky and glossy."
+   },
+   {
+    "title": null,
+    "text": "Serve over rice and top with spring onions and sesame seeds."
+   }
+  ],
+  "tip": null,
+  "printed_total": 8.45,
+  "printed_per_serving": null,
+  "notes": "Banner: '3 LAZY Aldi dinners ready in 20 mins'; 'All ingredients from Aldi'. 'Ingredients & Method' under the title is a section label (subtitle null). Footer chips: £8.45 total, 20 mins (stored as total_mins), Serves 4, ~560 cals."
+ },
+ {
+  "group": "sticky-bbq-chicken-rice-bowls",
+  "file": "138_sticky_bbq_chicken_rice_bowls.webp",
+  "title": "Sticky BBQ Chicken Rice Bowls",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken thighs or breast",
+    "qty": "500g",
+    "price": 2.75
+   },
+   {
+    "item": "Rice",
+    "qty": "250g",
+    "price": 0.45
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": 0.45
+   },
+   {
+    "item": "Onion",
+    "qty": "1",
+    "price": 0.12
+   },
+   {
+    "item": "BBQ sauce",
+    "qty": "3 tbsp",
+    "price": 0.3
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "1 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": 0.15
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "2",
+    "price": 0.1
+   },
+   {
+    "item": "Spring onions",
+    "qty": "2",
+    "price": 0.25
+   },
+   {
+    "item": "Oil",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.03
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the rice",
+    "text": "Bring a pan of water to the boil, add the rice and cook according to the packet instructions. Drain and keep warm."
+   },
+   {
+    "title": "Fry the chicken",
+    "text": "Cut the chicken into bite-sized pieces and fry in a large pan with a little oil until browned and cooked through (8–10 mins)."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add the onion, pepper and garlic to the pan and cook for 4–5 mins, until softened."
+   },
+   {
+    "title": "Make it sticky",
+    "text": "Stir in the BBQ sauce, soy sauce and honey. Simmer for 3–5 mins until the sauce is thick, sticky and glossy, coating the chicken."
+   },
+   {
+    "title": "Serve",
+    "text": "Spoon the chicken and sauce over fluffy rice and finish with sliced spring onions."
+   }
+  ],
+  "tip": "Add chilli flakes for extra heat.",
+  "printed_total": 7.6,
+  "printed_per_serving": 1.9,
+  "notes": "Printed 'Total Cost (approx) £7.60 total' and 'Approx £1.90 per serving' but the ingredient prices add up to only £4.75. Banner at top reads '5 Aldi Dinners for When Your Bank Balance Says 'Absolutely Not'' (series banner, not a subtitle)."
+ },
+ {
+  "group": "sticky-beef-noodles",
+  "file": "140_sticky_beef_noodles_recipe_card.webp",
+  "title": "Sticky Beef Noodles",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 590,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Medium egg noodles",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Beef strips",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Red pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Hoisin sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & black pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the noodles according to the packet instructions, then drain and set aside."
+   },
+   {
+    "title": null,
+    "text": "Cook the beef in a hot pan with a little oil until browned."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and red pepper and cook for 2–3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in the soy sauce, hoisin sauce, sweet chilli sauce, and honey, then add the noodles and toss until glossy and sticky."
+   },
+   {
+    "title": null,
+    "text": "Finish with spring onions and sesame seeds, then serve."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 3.5,
+  "notes": "No per-item prices. Badge 'Only £3.50 per serving'. Line under the title is just the label 'INGREDIENTS & METHOD' (not used as subtitle). Single '20 mins' chip, taken as total. Calories ~590 per serving. Aldi logo + 'All ingredients from Aldi'. Landscape-ish card. Ingredients panel headed 'Ingredients (for 2)'."
+ },
+ {
+  "group": "sticky-beef-rice-bowls",
+  "file": "044_a_vertical_infographic_recipe_poster_in_a_clean_m.webp",
+  "title": "Sticky Beef Rice Bowls",
+  "subtitle": "Simple ingredients. Huge flavour.",
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": null,
+  "calories": null,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Ground Beef",
+    "qty": "1 lb",
+    "price": 4.49
+   },
+   {
+    "item": "White Rice",
+    "qty": "1 cup",
+    "price": 0.89
+   },
+   {
+    "item": "Red Bell Pepper",
+    "qty": "1",
+    "price": 0.89
+   },
+   {
+    "item": "Green Onions",
+    "qty": "2",
+    "price": 0.79
+   },
+   {
+    "item": "Soy Sauce",
+    "qty": "1¼ cup",
+    "price": 1.99
+   },
+   {
+    "item": "Honey",
+    "qty": "2 tbsp",
+    "price": 2.49
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.99
+   },
+   {
+    "item": "Sesame Oil",
+    "qty": "1 tbsp",
+    "price": 1.89
+   },
+   {
+    "item": "Stir-Fry Veg",
+    "qty": "2 cups",
+    "price": 1.69
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook rice according to packet instructions."
+   },
+   {
+    "title": null,
+    "text": "Cook ground beef in a pan until browned. Drain excess fat."
+   },
+   {
+    "title": null,
+    "text": "Add peppers, veg and garlic. Cook for 3–5 mins."
+   },
+   {
+    "title": null,
+    "text": "Stir in soy sauce, honey and sesame oil. Simmer for 2–3 mins. Serve over rice and top with green onions."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 6.0,
+  "notes": "Title printed in all caps (title-cased here). US dollars. Printed 'Serves 2 ~$6.00 per serving' and a 'Full week under $30' tag; no total printed (listed prices add up to $16.11). Soy Sauce quantity prints as '1¼ cup' (possibly a garbled 1/4 cup). Method steps are four photo captions with no titles. Brands visible on the product photos were not transcribed."
+ },
+ {
+  "group": "sticky-chicken-loaded-fries",
+  "file": "015_a_clean_poster_style_infographic_recipe_card_in_a.webp",
+  "title": "Sticky Chicken Loaded Fries",
+  "subtitle": "Sweet, sticky, crispy and unreal!",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": 25,
+  "total_mins": null,
+  "calories": 620,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breast",
+    "qty": "500g",
+    "price": 1.8
+   },
+   {
+    "item": "Oven chips",
+    "qty": "1kg",
+    "price": 0.95
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": 0.35
+   },
+   {
+    "item": "Spring onions",
+    "qty": "3",
+    "price": 0.25
+   },
+   {
+    "item": "Garlic cloves",
+    "qty": "3",
+    "price": 0.1
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "4 tbsp",
+    "price": 0.2
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "3 tbsp",
+    "price": 0.2
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Ketchup",
+    "qty": "2 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Preheat oven and cook the chips according to pack instructions until crispy."
+   },
+   {
+    "title": null,
+    "text": "Cut the chicken into bite-sized pieces. Season with salt and pepper."
+   },
+   {
+    "title": null,
+    "text": "In a pan, cook the chicken over medium-high heat until golden and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Add the garlic and sliced peppers. Cook for 2–3 minutes."
+   },
+   {
+    "title": null,
+    "text": "Stir in soy sauce, sweet chilli sauce, honey and ketchup. Let it simmer for a few minutes until sticky and glossy."
+   },
+   {
+    "title": null,
+    "text": "Load the crispy fries onto plates, top with the sticky chicken and sauce."
+   },
+   {
+    "title": null,
+    "text": "Finish with sliced spring onions and sesame seeds. Enjoy!"
+   }
+  ],
+  "tip": "For extra flavour, add a drizzle of sriracha or mayo on top!",
+  "printed_total": 2.85,
+  "printed_per_serving": null,
+  "notes": "Printed 'Total Cost £2.85 (for 4 servings)' but the ten printed ingredient prices add up to £4.10. Time is labelled 'Cook Time 25 mins'. Calories '620 per serving'. Tip is labelled 'Top Tip'. 'Budget Friendly' tag, ALDI logo."
+ },
+ {
+  "group": "sticky-garlic-beef-loaded-fries",
+  "file": "141_sticky_garlic_beef_loaded_fries.webp",
+  "title": "Sticky Garlic Beef Loaded Fries",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": null,
+  "currency": null,
+  "ingredients": [
+   {
+    "item": "Frozen fries",
+    "qty": "500g",
+    "price": null
+   },
+   {
+    "item": "Beef strips",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Grated mozzarella or cheddar",
+    "qty": "150g",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sesame oil",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the fries until golden and crispy."
+   },
+   {
+    "title": null,
+    "text": "Fry the beef in a hot pan, then add garlic, soy sauce, honey, sweet chilli sauce and sesame oil. Cook until the beef is sticky and coated."
+   },
+   {
+    "title": null,
+    "text": "Pile the cooked fries onto a tray or plate, scatter over the cheese, and spoon the sticky garlic beef on top."
+   },
+   {
+    "title": null,
+    "text": "Finish with spring onions and sesame seeds, then serve hot."
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No prices or calories printed. '25 mins' is unlabelled, put in total_mins; difficulty 'Easy' also shown. Stickers: 'Crispy Fries', 'Cheesy Saucy Irresistible!', 'Simple meals. A brighter you.'"
+ },
+ {
+  "group": "sticky-hoisin-beef-flatbreads",
+  "file": "016_a_clean_professional_magazine_style_recipe_card.webp",
+  "title": "Sticky Hoisin Beef Flatbreads",
+  "subtitle": "Quick, easy and packed with flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef Mince (5% fat)",
+    "qty": "500g",
+    "price": 2.99
+   },
+   {
+    "item": "Flatbreads",
+    "qty": "4 pack",
+    "price": 0.85
+   },
+   {
+    "item": "Red Onion",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "Cucumber",
+    "qty": "1/2",
+    "price": 0.49
+   },
+   {
+    "item": "Carrots",
+    "qty": "3 pack",
+    "price": 0.39
+   },
+   {
+    "item": "Hoisin Sauce",
+    "qty": "200g",
+    "price": 1.09
+   },
+   {
+    "item": "Soy Sauce",
+    "qty": "150ml",
+    "price": 0.65
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Coriander",
+    "qty": "1 bunch",
+    "price": 0.49
+   },
+   {
+    "item": "Sesame Seeds",
+    "qty": "50g",
+    "price": 0.79
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the beef",
+    "text": "Fry the mince in a large pan over medium-high heat until browned. Add minced garlic and cook for 1 minute."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "Stir in hoisin sauce, soy sauce and a splash of water. Let it simmer for 5–7 minutes until sticky and glossy."
+   },
+   {
+    "title": "Prep the toppings",
+    "text": "Thinly slice the red onion, cucumber and grate the carrots. Chop the coriander."
+   },
+   {
+    "title": "Warm the flatbreads",
+    "text": "Heat the flatbreads in a dry pan or in the oven for a few minutes until warm and slightly crispy."
+   },
+   {
+    "title": "Assemble",
+    "text": "Top each flatbread with the sticky beef, fresh veg, coriander and a sprinkle of sesame seeds. Add an extra drizzle of hoisin or a bit of mayo if you like!"
+   }
+  ],
+  "tip": "Swap the beef for chicken or quorn mince for a cheaper option that's just as tasty!",
+  "printed_total": 8.63,
+  "printed_per_serving": 2.16,
+  "notes": "Aldi branding. Stickers: 'Takeaway Flavour For Less', 'Big Flavour Small Budget'. Printed total ~£8.63 does not equal the sum of the printed item prices (£8.72); copied as printed."
+ },
+ {
+  "group": "sticky-honey-garlic-chicken-rice-bowls",
+  "file": "144_sticky_honey_garlic_chicken_bowls.webp",
+  "title": "Sticky Honey Garlic Chicken Rice Bowls",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 20,
+  "calories": 520,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken thigh or breast, diced",
+    "qty": "600g",
+    "price": null
+   },
+   {
+    "item": "Long grain rice (undried weight)",
+    "qty": "300g",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "3 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce (reduced salt if preferred)",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Ketchup",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Vegetable oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced (to garnish)",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds (to garnish, optional)",
+    "qty": "1 tbsp",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the rice",
+    "text": "Rinse the rice, then cook following pack instructions. Keep warm."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "In a small bowl, mix together honey, soy sauce and ketchup. Set aside."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Heat the oil in a large frying pan or wok over medium-high heat. Add the diced chicken and cook for 6–8 minutes, until golden and cooked through."
+   },
+   {
+    "title": "Add garlic",
+    "text": "Stir in the minced garlic and cook for 1 minute, until fragrant."
+   },
+   {
+    "title": "Add the sauce",
+    "text": "Pour in the honey garlic sauce and stir well. Simmer for 2–3 minutes, until thick, sticky and glossy, coating the chicken."
+   },
+   {
+    "title": "Serve",
+    "text": "Spoon the rice into bowls, top with the sticky chicken and finish with spring onions and sesame seeds (if using)."
+   }
+  ],
+  "tip": "Use chicken thighs for extra juiciness and flavour – they're often cheaper and stay tender!",
+  "printed_total": 2.1,
+  "printed_per_serving": null,
+  "notes": "Line under the title is the label 'Recipe & Ingredients' (subtitle null). Printed '£2.10 total', 20 mins (put in total_mins), Serves 4, ~520 cals per serve. Equipment needed: Saucepan (for rice), Large frying pan or wok, Mixing bowl, Chopping board & knife, Spoon or spatula. No per-ingredient prices."
+ },
+ {
+  "group": "sticky-honey-garlic-sausage-rice",
+  "file": "146_sticky_honey_garlic_sausage_bowls.webp",
+  "title": "Sticky Honey Garlic Sausage Bowls",
+  "subtitle": "sweet, sticky and ready in 20 minutes!",
+  "serves": 4,
+  "prep_mins": 5,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": 540,
+  "currency": "USD",
+  "ingredients": [
+   {
+    "item": "Smoked sausages (14 oz)",
+    "qty": "1 pack",
+    "price": 3.49
+   },
+   {
+    "item": "Microwave jasmine rice (8.8 oz)",
+    "qty": "2 pouches",
+    "price": 1.19
+   },
+   {
+    "item": "Broccoli (12 oz)",
+    "qty": "1 head",
+    "price": 1.79
+   },
+   {
+    "item": "Red bell pepper (1 each)",
+    "qty": "1 pepper",
+    "price": 0.99
+   },
+   {
+    "item": "Honey (12 oz)",
+    "qty": "1/4 cup",
+    "price": 2.49
+   },
+   {
+    "item": "Soy sauce (15 oz)",
+    "qty": "3 tbsp",
+    "price": 1.89
+   },
+   {
+    "item": "Garlic (3 oz)",
+    "qty": "4 cloves",
+    "price": 0.59
+   },
+   {
+    "item": "Spring onions (1 bunch)",
+    "qty": "3 stalks",
+    "price": 0.79
+   },
+   {
+    "item": "Olive oil (16.9 oz)",
+    "qty": "1 tbsp",
+    "price": 2.99
+   },
+   {
+    "item": "Sesame seeds (3 oz)",
+    "qty": "1 tsp",
+    "price": 1.29
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the rice",
+    "text": "Prepare microwave jasmine rice according to package instructions."
+   },
+   {
+    "title": "Brown the sausages",
+    "text": "Slice sausages and cook in a large skillet with a little olive oil until golden and caramelized. Remove and set aside."
+   },
+   {
+    "title": "Cook the vegetables",
+    "text": "In the same skillet, add broccoli and red bell pepper. Stir-fry for 4–5 minutes until tender-crisp."
+   },
+   {
+    "title": "Make the sticky sauce",
+    "text": "In a small bowl, whisk together honey, soy sauce and minced garlic."
+   },
+   {
+    "title": "Combine and serve",
+    "text": "Return sausages to the skillet, pour in the sauce and toss to coat. Simmer for 2–3 minutes. Serve over rice, then top with spring onions and sesame seeds."
+   }
+  ],
+  "tip": null,
+  "printed_total": 11.99,
+  "printed_per_serving": 3.0,
+  "notes": "Printed 'Total Cost: $11.99 / Cost Per Serving: $3.00' plus a stamp 'Under $4 Per Serving!'. The ten printed ingredient prices add up to $17.50 (they look like full pack prices). Each ingredient line shows the pack size in brackets beside the name and the recipe amount under the price; qty here is the recipe amount. Calories '~540 per serving'. Prep 5 mins, cook 15 mins. Method steps have photo thumbnails."
+ },
+ {
+  "group": "sticky-korean-bbq-chicken-loaded-fries",
+  "file": "021_a_tall_portrait_format_infographic_recipe_card_in.webp",
+  "title": "Sticky Korean BBQ Chicken Loaded Fries",
+  "subtitle": "Takeaway vibes for a fraction of the price",
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": 620,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Potatoes (chips)",
+    "qty": "800g",
+    "price": null
+   },
+   {
+    "item": "Chicken breast (diced)",
+    "qty": "600g",
+    "price": null
+   },
+   {
+    "item": "Korean BBQ sauce (gochujang or Aldi brand)",
+    "qty": "4 tbsp",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic granules",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Ginger (optional)",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Spring onions (sliced)",
+    "qty": "4",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Mayonnaise (optional, for drizzle)",
+    "qty": "1 tbsp",
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the chips",
+    "text": "Cook the fries according to pack instructions until golden and crispy."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "In a bowl, mix Korean BBQ sauce, soy sauce, honey, garlic and ginger."
+   },
+   {
+    "title": "Cook the chicken",
+    "text": "Fry the diced chicken in a pan over medium-high heat until cooked through. Pour in the sauce and simmer for 3–4 minutes until sticky and coated."
+   },
+   {
+    "title": "Assemble",
+    "text": "Add the cooked fries to a bowl or plate, top with the sticky Korean BBQ chicken."
+   },
+   {
+    "title": "Finish it off",
+    "text": "Sprinkle with spring onions, sesame seeds and a drizzle of mayo (optional)."
+   }
+  ],
+  "tip": "Add a pinch of chilli flakes for extra heat or swap the chicken for crispy tofu.",
+  "printed_total": null,
+  "printed_per_serving": 2.48,
+  "notes": "Subtitle is printed in capitals. No per-ingredient prices; currency GBP from the '£2.48 per serving' tile. '25 minutes' is unlabelled, put in total_mins. Label 'Top Tip' used as the tip."
+ },
+ {
+  "group": "sticky-korean-beef-rice-bowls",
+  "file": "150_sticky_korean_beef_rice_bowls_recipe.webp",
+  "title": "Sticky Korean Beef Rice Bowls",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 15,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Beef mince",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Microwave pouch basmati rice",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Small cucumber, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Carrot, peeled into ribbons",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "2 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Honey",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Garlic puree",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Ginger puree",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Chilli flakes (optional)",
+    "qty": "1 tsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tsp",
+    "price": null
+   }
+  ],
+  "method": [],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 4.75,
+  "notes": "Ingredients-only card (no method). Single '15 mins' chip with a clock, taken as total. 'Approx £4.75 per serving'. 'You'll also need': Frying pan, Small bowl. Search-bar header text 'sticky korean beef rice bowls'."
+ },
+ {
+  "group": "sticky-maple-sausage-traybake",
+  "file": "025_a_tall_vertical_infographic_recipe_card_with_a_cle.webp",
+  "title": "Sticky Maple Sausage Traybake",
+  "subtitle": "Sweet, savoury and packed with flavour!",
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 30,
+  "total_mins": null,
+  "calories": 540,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Pork Sausages",
+    "qty": "8 pack",
+    "price": 1.89
+   },
+   {
+    "item": "Baby Potatoes",
+    "qty": "750g",
+    "price": 0.79
+   },
+   {
+    "item": "Red Pepper",
+    "qty": "1 large",
+    "price": 0.69
+   },
+   {
+    "item": "Red Onion",
+    "qty": "2 large",
+    "price": 0.69
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.29
+   },
+   {
+    "item": "Maple Syrup",
+    "qty": "250ml",
+    "price": 1.49
+   },
+   {
+    "item": "Soy Sauce",
+    "qty": "150ml",
+    "price": 0.65
+   },
+   {
+    "item": "Dried Mixed Herbs",
+    "qty": "10g",
+    "price": 0.49
+   },
+   {
+    "item": "Olive Oil",
+    "qty": "250ml",
+    "price": 0.85
+   }
+  ],
+  "method": [
+   {
+    "title": "Prep the veg",
+    "text": "Preheat oven to 200°C (fan 180°C). Chop the baby potatoes, red pepper and red onion into chunks. Place them on a large baking tray."
+   },
+   {
+    "title": "Make the glaze",
+    "text": "In a small bowl, mix together maple syrup, soy sauce, minced garlic, mixed herbs, a drizzle of olive oil, salt and pepper."
+   },
+   {
+    "title": "Add everything",
+    "text": "Nestle the sausages into the tray with the veg. Pour over the glaze and toss everything together so it's well coated."
+   },
+   {
+    "title": "Bake",
+    "text": "Cook in the oven for 30 minutes, turning halfway through, until the sausages are golden and the veg is tender and caramelised."
+   },
+   {
+    "title": "Serve & enjoy",
+    "text": "Spoon onto plates and drizzle over any extra glaze from the tray. Add a sprinkle of fresh herbs if you have them."
+   }
+  ],
+  "tip": "For extra flavour, add a pinch of chilli flakes or swap the potatoes for sweet potatoes!",
+  "printed_total": 7.83,
+  "printed_per_serving": 1.96,
+  "notes": "Printed 'Total: ~ £7.83, That's £1.96 per serving!' (matches the listed prices). Script word 'Sticky Maple' above 'Sausage Traybake'. Tagline 'Aldi Ingredients Real Prices Great Meals'. Quantities are pack sizes as printed."
+ },
+ {
+  "group": "sticky-teriyaki-sausage-rice-bowls",
+  "file": "153_sticky_teriyaki_sausage_rice_bowls.webp",
+  "title": "Sticky Teriyaki Sausage Rice Bowls",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": null,
+  "cook_mins": 20,
+  "total_mins": null,
+  "calories": 527,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Sausages, sliced",
+    "qty": "400g",
+    "price": null
+   },
+   {
+    "item": "Long grain rice",
+    "qty": "250g",
+    "price": null
+   },
+   {
+    "item": "Red pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Yellow pepper, sliced",
+    "qty": "1",
+    "price": null
+   },
+   {
+    "item": "Spring onions, sliced",
+    "qty": "3",
+    "price": null
+   },
+   {
+    "item": "Garlic cloves, minced",
+    "qty": "2",
+    "price": null
+   },
+   {
+    "item": "Teriyaki sauce",
+    "qty": "180g",
+    "price": null
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Oil",
+    "qty": "1 tbsp",
+    "price": null
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": null
+   },
+   {
+    "item": "Splash of water",
+    "qty": null,
+    "price": null
+   }
+  ],
+  "method": [
+   {
+    "title": null,
+    "text": "Cook the rice according to the pack instructions."
+   },
+   {
+    "title": null,
+    "text": "Fry the sliced sausages in a little oil until browned and cooked through."
+   },
+   {
+    "title": null,
+    "text": "Add the peppers and garlic and cook for 3 to 4 minutes until softened."
+   },
+   {
+    "title": null,
+    "text": "Stir in the teriyaki sauce and soy sauce, then add a small splash of water if needed."
+   },
+   {
+    "title": null,
+    "text": "Toss everything together until the sausages are sticky and glossy."
+   },
+   {
+    "title": null,
+    "text": "Serve over the rice and finish with spring onions and sesame seeds."
+   }
+  ],
+  "tip": "Use a microwave rice pouch instead of dry rice if you want this on the table even faster.",
+  "printed_total": 6.12,
+  "printed_per_serving": null,
+  "notes": "Header chips: Total Price £6.12, Cook Time 20 mins, Serves 4, Calories 527 per serving. 'Ingredients & Method' under the title is a section label (subtitle null). Last three ingredients (oil, salt & pepper, splash of water) come from the 'Pantry' box. Equipment: saucepan, large frying pan or wok, knife & chopping board."
+ },
+ {
+  "group": "sweet-chilli-chicken-noodles",
+  "file": "010_a_clean_flat_recipe_card_infographic_style_imag.webp",
+  "title": "Sweet Chilli Chicken Noodles",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 15,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Egg Noodles",
+    "qty": "250g",
+    "price": 0.75
+   },
+   {
+    "item": "Chicken Breast Fillets",
+    "qty": "600g",
+    "price": 3.49
+   },
+   {
+    "item": "Sweet Chilli Sauce",
+    "qty": "4 tbsp",
+    "price": 1.09
+   },
+   {
+    "item": "Soy Sauce",
+    "qty": "2 tbsp",
+    "price": 0.85
+   },
+   {
+    "item": "Garlic",
+    "qty": "3 cloves",
+    "price": 0.35
+   },
+   {
+    "item": "Ginger",
+    "qty": "1 tbsp (grated)",
+    "price": 0.35
+   },
+   {
+    "item": "Mixed Peppers",
+    "qty": "3, sliced",
+    "price": 0.89
+   },
+   {
+    "item": "Carrot",
+    "qty": "2, julienned",
+    "price": 0.49
+   },
+   {
+    "item": "Spring Onions",
+    "qty": "3, chopped",
+    "price": 0.69
+   },
+   {
+    "item": "Sesame Seeds",
+    "qty": "1 tbsp",
+    "price": 0.85
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the noodles",
+    "text": "Cook the egg noodles according to the pack instructions. Drain and set aside."
+   },
+   {
+    "title": "Prepare the chicken",
+    "text": "Cut the chicken into thin strips. Season with a little salt and pepper."
+   },
+   {
+    "title": "Fry the chicken",
+    "text": "Heat a large pan or wok with a little oil. Add the chicken and stir-fry for 5–6 minutes until cooked and lightly golden. Remove from the pan and set aside."
+   },
+   {
+    "title": "Stir-fry the vegetables",
+    "text": "In the same pan, add a little more oil. Stir-fry the garlic and ginger for 30 seconds, then add the peppers and carrot. Cook for 3–4 minutes until slightly softened."
+   },
+   {
+    "title": "Make the sauce",
+    "text": "Add sweet chilli sauce and soy sauce to the pan. Stir and let it simmer for 1 minute."
+   },
+   {
+    "title": "Combine everything",
+    "text": "Add the cooked chicken and noodles back to the pan. Toss everything together until well coated in the sticky sauce."
+   },
+   {
+    "title": "Serve",
+    "text": "Top with chopped spring onions and sesame seeds. Enjoy!"
+   }
+  ],
+  "tip": "Add a squeeze of lime or a pinch of chilli flakes if you like a bit of extra heat!",
+  "printed_total": null,
+  "printed_per_serving": null,
+  "notes": "No total, per-serving cost or calories printed (ingredient prices add up to £9.80). Sticker 'SWEET STICKY BETTER THAN TAKEAWAY' (not used as subtitle). Equipment: large pan or wok, colander, knife, chopping board, wooden spoon."
+ },
+ {
+  "group": "sweet-chilli-chicken-rice-bowl",
+  "file": "042_a_vertical_infographic_recipe_card_scene_for_a_mea.webp",
+  "title": "Sweet Chilli Chicken Rice Bowl",
+  "subtitle": null,
+  "serves": 2,
+  "prep_mins": null,
+  "cook_mins": null,
+  "total_mins": 25,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Chicken breasts",
+    "qty": "300g",
+    "price": 2.49
+   },
+   {
+    "item": "Basmati rice",
+    "qty": "200g",
+    "price": 0.35
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "100ml",
+    "price": 0.75
+   },
+   {
+    "item": "Red pepper",
+    "qty": "1",
+    "price": 0.49
+   },
+   {
+    "item": "Broccoli",
+    "qty": "200g",
+    "price": 0.59
+   },
+   {
+    "item": "Carrot",
+    "qty": "1",
+    "price": 0.22
+   },
+   {
+    "item": "Spring onions",
+    "qty": "2",
+    "price": 0.25
+   },
+   {
+    "item": "Sesame seeds",
+    "qty": "1 tbsp",
+    "price": 0.15
+   },
+   {
+    "item": "Soy sauce",
+    "qty": "1 tbsp",
+    "price": 0.1
+   },
+   {
+    "item": "Garlic",
+    "qty": "2 cloves",
+    "price": 0.09
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": "(to taste)",
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the rice",
+    "text": "Rinse rice, then cook according to packet instructions (10–12 mins). Set aside."
+   },
+   {
+    "title": "Prepare the chicken",
+    "text": "Cut chicken into bite-sized pieces. Season with salt, pepper and a little garlic. Cook in a pan with a drizzle of oil until golden and cooked through."
+   },
+   {
+    "title": "Add the veg",
+    "text": "Add sliced pepper, broccoli and carrot to the pan. Stir-fry for 4–5 minutes until tender but still crisp."
+   },
+   {
+    "title": "Add the sauce",
+    "text": "Pour in the sweet chilli sauce and a splash of soy sauce. Stir well and let it simmer for 2–3 minutes until everything is coated."
+   },
+   {
+    "title": "Serve",
+    "text": "Add the rice to a bowl, top with the chicken and veg. Finish with spring onions and sesame seeds. Enjoy!"
+   }
+  ],
+  "tip": null,
+  "printed_total": null,
+  "printed_per_serving": 3.4,
+  "notes": "Badge reads 'Total cost ~£3.40 per serving' (odd wording; recorded as per-serving, no separate total printed). Sum of printed item prices is £5.53 (£2.77 per serving of 2), so the badge does not match. Line under the title is just the label 'INGREDIENTS & METHOD' (not used as subtitle). Total time from footer chip 'Ready in 25 minutes'. Aldi logo + 'All ingredients from Aldi'. No calories printed."
+ },
+ {
+  "group": "sweet-chilli-halloumi-wraps",
+  "file": "157_sweet_chilli_halloumi_wraps_recipe_card.webp",
+  "title": "Sweet Chilli Halloumi Wraps",
+  "subtitle": null,
+  "serves": 4,
+  "prep_mins": 10,
+  "cook_mins": 10,
+  "total_mins": null,
+  "calories": null,
+  "currency": "GBP",
+  "ingredients": [
+   {
+    "item": "Halloumi",
+    "qty": "225g",
+    "price": 2.25
+   },
+   {
+    "item": "Wraps",
+    "qty": "4",
+    "price": 0.65
+   },
+   {
+    "item": "Carrot",
+    "qty": "1",
+    "price": 0.12
+   },
+   {
+    "item": "Cucumber",
+    "qty": "1/2",
+    "price": 0.35
+   },
+   {
+    "item": "Lettuce",
+    "qty": "1",
+    "price": 0.65
+   },
+   {
+    "item": "Sweet chilli sauce",
+    "qty": "3 tbsp",
+    "price": 0.45
+   },
+   {
+    "item": "Mayo or yogurt",
+    "qty": "2 tbsp",
+    "price": 0.2
+   },
+   {
+    "item": "Oil",
+    "qty": null,
+    "price": 0.05
+   },
+   {
+    "item": "Salt & pepper",
+    "qty": null,
+    "price": 0.05
+   }
+  ],
+  "method": [
+   {
+    "title": "Cook the halloumi",
+    "text": "Slice the halloumi into thick strips and pan-fry in a little oil over a medium heat until golden on all sides."
+   },
+   {
+    "title": "Prep the veg",
+    "text": "Grate the carrot and slice the cucumber."
+   },
+   {
+    "title": "Warm the wraps",
+    "text": "Heat the wraps in a dry frying pan for 30 seconds on each side or in the microwave until soft and pliable."
+   },
+   {
+    "title": "Fill the wraps",
+    "text": "Add a layer of lettuce, grated carrot, cucumber, golden halloumi and a drizzle of sweet chilli sauce (plus mayo or yogurt if using)."
+   },
+   {
+    "title": "Roll up & serve",
+    "text": "Fold in the sides, roll up tightly and serve straight away."
+   }
+  ],
+  "tip": "Add a squeeze of lime for extra freshness.",
+  "printed_total": 7.8,
+  "printed_per_serving": 1.95,
+  "notes": "Printed 'Approx £1.95 per serving' and 'Total Cost (approx) £7.80 total' but the listed prices add up to £4.77 (printed as-is). Banner above title: '5 Aldi Dinners for When Your Bank Balance Says Absolutely Not' (with emoji). Aldi logo; 'measy' wordmark."
+ }
+]

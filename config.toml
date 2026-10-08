@@ -60,6 +60,24 @@ subline_size = 50
 text_y = 0.47
 max_width = 0.88
 
+[cards]
+# The AI food photo on each recipe card (made once per dish, kept in images/photos/).
+photo_prompt = """Ultra-appetising advertising food photograph of {dish}, made with {ingredients}. \
+{angle}. A generous, heaped portion that looks irresistible: glossy sauce, {cheese}, crispy golden \
+edges, juicy tender meat, a little steam rising. Show ONLY foods from this recipe; garnish only with \
+ingredients it lists. Served in a rustic ceramic bowl \
+or on a stoneware plate on a warm wooden table, a few loose ingredients and herbs scattered around. \
+Warm golden side lighting, rich saturated colour, shallow depth of field with a soft creamy blurred \
+background, hyper-detailed textures, high-end UK supermarket campaign and food magazine quality. \
+The dish fills most of the frame. No text, no labels, no logos, no packaging, no hands, no people."""
+photo_angles = [
+  "Close-up hero shot from a low 30-degree angle",
+  "Close-up from a 45-degree angle, slightly from above",
+]
+photo_size = "1536x1024"
+photo_quality = "medium"
+variants = 2
+
 [words]
 max_hook_chars = 64
 max_subline_chars = 42
