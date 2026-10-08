@@ -149,6 +149,56 @@
    "publish_id": "p_inbox_url~v2.7694425417566242819",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-08T22:22:54+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
+   "subline": "Big flavour, tiny weekend budget 👀",
+   "title": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
+   "caption": "Friday night in? Turn your Aldi shop into takeaway-level dinners — all ready in 30 minutes or less 🤤💸\n\n1. Crispy Bean Quesadillas\n2. Hot Honey Chicken Flatbread Pizzas\n3. Honey Soy Sausage Noodle Bowls\n4. Creamy Peri-Peri Chicken Pasta\n5. Creamy Sun-Dried Tomato Chicken Orzo\n\nFull recipes on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #cheapmeals #easydinner #dinnerideas #mealideas #ukfood #measy",
+   "files": [
+    "card:crispy-bean-quesadillas-1",
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "crispy-bean-quesadillas",
+    "hot-honey-chicken-flatbread-pizzas",
+    "honey-soy-sausage-noodle-bowls",
+    "creamy-peri-peri-chicken-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Crispy Bean Quesadillas",
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Honey Soy Sausage Noodle Bowls",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    376,
+    820
+   ],
+   "built_at": "2026-10-08T23:13:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-001240/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694438317508675606",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-08T23:14:08+00:00"
   }
  ]
 }
