@@ -37,7 +37,7 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     background, model, source = _background(day, words.scene, cfg, ai if ai_image else None, log, store)
     if source == "generated" and keep_spares:
         cover.keep_background(background, day, store=store.id)
-    sign = cover.find_sign(background) if source != "placeholder" else None
+    sign = cover.find_sign(background, store.id) if source != "placeholder" else None
     slide = cover.render(background, words.hook, words.subline, cfg, random.Random(f"{seed}/cover"),
                          avoid=sign)
 

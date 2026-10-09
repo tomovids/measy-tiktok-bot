@@ -77,3 +77,12 @@ def test_lines_are_balanced_and_emoji_never_alone(cfg):
     assert max(widths) - min(widths) < 0.35 * max(widths)
     for l in lines:
         assert not all(cover.is_emoji(ch) or ch.isspace() for ch in l)
+
+
+def test_find_sign_per_store_colour():
+    from PIL import ImageDraw
+    img = Image.new("RGB", (1080, 1920), (200, 205, 210))
+    ImageDraw.Draw(img).rectangle([200, 500, 900, 760], fill=(110, 190, 60))   # green ASDA letters
+    top, bottom = cover.find_sign(img, "asda")
+    assert abs(top - 500) <= 16 and abs(bottom - 760) <= 16
+    assert cover.find_sign(img, "aldi") is None

@@ -44,20 +44,31 @@ def pick_scene(cfg: dict, rng: random.Random) -> str:
     return f"{sky}, {rng.choice(c['angles'])}"
 
 
-def find_sign(img: Image.Image) -> tuple[int, int] | None:
-    """Top and bottom (in pixels) of the Aldi sign, found by its yellow/orange border.
+SIGN_COLOURS = {
+    # Aldi's border and Lidl's circle are bright yellow; Asda's letters green; Tesco's red;
+    # Sainsbury's orange.
+    "yellow": lambda r, g, b: r > 200 and g > 120 and b < 70 and r - b > 160,
+    "green": lambda r, g, b: g > 140 and r < 150 and b < 110 and g - r > 50 and g - b > 70,
+    "red": lambda r, g, b: r > 170 and g < 70 and b < 80,
+    "orange": lambda r, g, b: r > 210 and 80 < g < 170 and b < 70 and r - g > 60,
+}
+STORE_SIGN = {"aldi": "yellow", "lidl": "yellow", "asda": "green", "tesco": "red", "sainsburys": "orange"}
+
+
+def find_sign(img: Image.Image, store: str = "aldi") -> tuple[int, int] | None:
+    """Top and bottom (in pixels) of the store's sign, found by the sign's colour.
 
     Looks for the biggest solid band of rows with sign-coloured pixels in the top 80% of the
     picture; warm shop-window lights lower down are smaller and get ignored.
     """
+    match = SIGN_COLOURS[STORE_SIGN.get(store, "yellow")]
     small = img.convert("RGB").resize((270, 480))
     px = small.load()
     counts = []
     for y in range(int(480 * 0.8)):
         n = 0
         for x in range(270):
-            r, g, b = px[x, y]
-            if r > 200 and g > 120 and b < 70 and r - b > 160:
+            if match(*px[x, y]):
                 n += 1
         counts.append(n)
     runs, start, gap, total = [], None, 0, 0
