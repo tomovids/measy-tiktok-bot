@@ -23,8 +23,13 @@ def test_tester_stores_take_turns(cfg):
         s = stores.choose(h, cfg, random.Random(i), 1)
         seen.append(s.id)
         h.add({"date": f"2026-10-{10 + i}", "store": s.id, "status": SENT, "files": [], "groups": []})
-    assert sorted(seen[:4]) == ["asda", "lidl", "sainsburys", "tesco"]
-    assert sorted(seen[4:]) == ["asda", "lidl", "sainsburys", "tesco"]
+    assert seen == ["tesco", "sainsburys", "asda", "lidl"] * 2   # fixed order, repeating
+
+
+def test_test_drafts_dont_shift_the_rotation(cfg):
+    h = History([{"date": "2026-10-09", "store": "tesco", "status": SENT, "files": [], "groups": [],
+                  "extra": True}])
+    assert stores.choose(h, cfg, random.Random(1), 1).id == "tesco"
 
 
 def test_tesco_post_rules(cfg):

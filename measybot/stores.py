@@ -59,13 +59,14 @@ def choose(hist: History, cfg: dict, rng: random.Random, index: int = 0) -> Stor
         return by_id(cfg, entry)
     fixed = {e for e in plan if e != "rotate"}
     stores = [s for s in stores if s.id not in fixed] or stores
-    posts = sorted(hist.accepted(), key=lambda p: (p["date"], p.get("sent_at", "")))
+    # scheduled posts only: test drafts never shift the rotation
+    posts = sorted((p for p in hist.accepted() if not p.get("extra")),
+                   key=lambda p: (p["date"], p.get("sent_at", "")))
     last = {}
     for i, p in enumerate(posts):
         last[p.get("store", "aldi")] = i
-    oldest = min(last.get(s.id, -1) for s in stores)
-    cands = [s for s in stores if last.get(s.id, -1) == oldest]
-    return rng.choice(cands)
+    # the store used longest ago; ties go in config order, so the rotation is always the same
+    return min(stores, key=lambda s: last.get(s.id, -1))
 
 
 def all_words(cfg: dict) -> set[str]:
