@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Measy TikTok performance</title>
+<style>
+  :root {
+    --bg: #f6f2e7; --card: #fffdf7; --ink: #1c2a20; --muted: #5f6e63; --line: #e3dccb;
+    --green: #1b4a2a; --leaf: #3f8538; --panel: #e3ebd5; --up: #2f7d32; --down: #b5462f; --gold: #c58b12;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1712; --card: #17221a; --ink: #e7eee8; --muted: #9fb2a4; --line: #2a3a2f;
+            --green: #8fd3a0; --leaf: #6cc27a; --panel: #213126; --up: #6cc27a; --down: #f08b74; --gold: #e7b84a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; padding: 20px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 18px; }
+  h1 { margin: 0; font-size: 24px; color: var(--green); letter-spacing: -0.01em; }
+  h2 { margin: 0 0 12px; font-size: 17px; color: var(--green); }
+  .muted { color: var(--muted); }
+  .small { font-size: 13px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .grid { display: grid; gap: 12px; }
+  .kpis { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-bottom: 12px; }
+  .kpi .label { font-size: 13px; color: var(--muted); }
+  .kpi .value { font-size: 28px; font-weight: 700; color: var(--green); line-height: 1.15; margin-top: 2px; }
+  .kpi .delta { font-size: 13px; margin-top: 2px; }
+  .up { color: var(--up); } .down { color: var(--down); }
+  .two { grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .two { grid-template-columns: 1fr 1fr; } }
+  section { margin-top: 12px; }
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; background: var(--panel); color: var(--green); }
+  .pill.on { background: var(--leaf); color: #fff; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--panel); border-radius: 10px; padding: 8px 12px; font-size: 14px; }
+  .chip b { color: var(--green); }
+  .chip .x { color: var(--up); font-weight: 700; margin-left: 4px; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .tabs button { border: 1px solid var(--line); background: transparent; color: var(--ink); padding: 6px 12px; border-radius: 999px; font: inherit; font-size: 13px; cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--green); border-color: var(--green); color: var(--bg); }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; white-space: nowrap; }
+  td.num, th.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .bar { position: relative; height: 8px; background: var(--panel); border-radius: 4px; min-width: 80px; margin-top: 6px; }
+  .bar > span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--leaf); }
+  .bar > i { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--muted); }
+  .posts { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .post { display: flex; gap: 10px; align-items: flex-start; text-decoration: none; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+  .post img { width: 54px; height: 96px; object-fit: cover; border-radius: 8px; background: var(--panel); flex: none; }
+  .post .hook { font-weight: 600; font-size: 14px; }
+  .post .meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .post .nums { font-size: 13px; margin-top: 6px; }
+  .badge { font-size: 11px; font-weight: 700; padding: 1px 6px; border-radius: 6px; background: var(--gold); color: #fff; margin-left: 4px; }
+  svg { display: block; width: 100%; height: auto; }
+  .empty { padding: 24px; text-align: center; color: var(--muted); }
+  a { color: var(--leaf); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Measy TikTok performance</h1>
+    <div class="small muted" id="updated">Loading...</div>
+  </header>
+
+  <div class="grid kpis" id="kpis"></div>
+
+  <div class="grid two">
+    <div class="card"><h2>Followers</h2><div id="followers"></div></div>
+    <div class="card"><h2>Views gained per day</h2><div id="views"></div></div>
+  </div>
+
+  <section class="card">
+    <h2>Double down on <span class="pill" id="tuningPill"></span></h2>
+    <div class="small muted" id="tuningNote" style="margin:-4px 0 12px"></div>
+    <div class="chips" id="double"></div>
+  </section>
+
+  <section class="card">
+    <h2>What performs best</h2>
+    <div class="small muted" style="margin:-4px 0 10px">Posts are compared on their views at 3 days old. "vs typical" = how a group does against the account's typical post (1.0x = average; the line marks 1.0x).</div>
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="scroll"><table id="board"></table></div>
+  </section>
+
+  <section>
+    <h2 style="margin-top:18px">Top posts</h2>
+    <div class="posts" id="top"></div>
+  </section>
+
+  <section>
+    <h2 style="margin-top:18px">Latest posts</h2>
+    <div class="posts" id="recent"></div>
+  </section>
+
+  <section class="card">
+    <h2>What the bot is learning</h2>
+    <div id="learning"></div>
+  </section>
+</main>
+
+<script>
+const TABS = [["collection", "Theme"], ["angle", "Angle"], ["store", "Supermarket"], ["lead", "Lead dish"],
+              ["hour", "Time posted"], ["weekday", "Day"]];
+const fmt = n => n == null ? "–" : n >= 1e6 ? (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M"
+  : n >= 1e4 ? Math.round(n / 1e3) + "K" : n >= 1e3 ? (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K" : String(Math.round(n));
+const pct = x => x == null ? "–" : (x * 100).toFixed(1) + "%";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const day = iso => iso ? new Date(iso).toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : "";
+const when = iso => iso ? new Date(iso).toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "";
+
+function kpi(label, value, delta, cls) {
+  return `<div class="card kpi"><div class="label">${label}</div><div class="value">${value}</div>` +
+         (delta ? `<div class="delta ${cls || "muted"}">${delta}</div>` : "") + `</div>`;
+}
+
+function lineChart(points, key, color) {
+  if (points.length < 2) return `<div class="empty">Builds up from the daily stats run.</div>`;
+  const W = 520, H = 180, P = 28, vals = points.map(p => p[key] ?? 0);
+  const lo = Math.min(...vals), hi = Math.max(...vals), span = hi - lo || 1;
+  const x = i => P + i * (W - 2 * P) / (points.length - 1), y = v => H - P - (v - lo) * (H - 2 * P) / span;
+  const d = vals.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join(" ");
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${key} over time">
+    <path d="${d}" fill="none" stroke="${color}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="${P}" y="${H - 6}" font-size="12" fill="currentColor" opacity=".6">${day(points[0].date)}</text>
+    <text x="${W - P}" y="${H - 6}" font-size="12" fill="currentColor" opacity=".6" text-anchor="end">${day(points.at(-1).date)}</text>
+    <text x="${W - P}" y="${y(vals.at(-1)) - 8}" font-size="13" font-weight="700" fill="${color}" text-anchor="end">${fmt(vals.at(-1))}</text>
+  </svg>`;
+}
+
+function barChart(points) {
+  if (!points.length) return `<div class="empty">Builds up from the daily stats run.</div>`;
+  const W = 520, H = 180, P = 24, hi = Math.max(...points.map(p => p.views), 1), n = points.length;
+  const bw = (W - 2 * P) / n;
+  const bars = points.map((p, i) => {
+    const h = (H - 2 * P) * p.views / hi;
+    return `<rect x="${(P + i * bw + bw * 0.15).toFixed(1)}" y="${(H - P - h).toFixed(1)}" width="${(bw * 0.7).toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="var(--leaf)"><title>${day(p.date)}: ${fmt(p.views)} views</title></rect>`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="views per day">${bars}
+    <text x="${P}" y="${H - 6}" font-size="12" fill="currentColor" opacity=".6">${day(points[0].date)}</text>
+    <text x="${W - P}" y="${H - 6}" font-size="12" fill="currentColor" opacity=".6" text-anchor="end">${day(points.at(-1).date)}</text>
+    <text x="${W - P}" y="16" font-size="12" fill="currentColor" opacity=".6" text-anchor="end">max ${fmt(hi)}</text></svg>`;
+}
+
+function postCard(p) {
+  return `<a class="post" href="${esc(p.url || "#")}" target="_blank" rel="noopener">
+    ${p.cover ? `<img src="${esc(p.cover)}" alt="" loading="lazy">` : `<img alt="">`}
+    <div><div class="hook">${esc(p.hook)}${p.new ? `<span class="badge">NEW</span>` : ""}</div>
+    <div class="meta">${esc([p.store, p.collection].filter(Boolean).join(" · "))}${p.bot ? "" : " · before the bot"}<br>${when(p.posted)}</div>
+    <div class="nums">👁 <b>${fmt(p.views)}</b> · ❤ ${fmt(p.likes)} · 💬 ${fmt(p.comments)} · ↗ ${fmt(p.shares)}</div></div></a>`;
+}
+
+function board(rows) {
+  if (!rows || !rows.length) return `<tr><td class="empty">Needs posts that are at least 3 days old.</td></tr>`;
+  const hi = Math.max(2, ...rows.map(r => r.avg_ratio));
+  const head = `<tr><th>Name</th><th class="num">Posts</th><th class="num">Typical views</th><th>vs typical</th><th class="num">Engagement</th><th>Best post</th></tr>`;
+  return head + rows.map(r => `<tr>
+    <td>${esc(r.label)}${r.posts < 2 ? ` <span class="small muted">(1 post)</span>` : ""}</td>
+    <td class="num">${r.posts}</td><td class="num">${fmt(r.median_views)}</td>
+    <td><b class="${r.avg_ratio >= 1 ? "up" : "down"}">${r.avg_ratio.toFixed(2)}x</b>
+      <div class="bar"><span style="width:${(100 * r.avg_ratio / hi).toFixed(1)}%"></span><i style="left:${(100 / hi).toFixed(1)}%"></i></div></td>
+    <td class="num">${pct(r.engagement)}</td>
+    <td class="small">${r.best_url ? `<a href="${esc(r.best_url)}" target="_blank" rel="noopener">${esc(r.best_hook)}</a>` : esc(r.best_hook)}</td></tr>`).join("");
+}
+
+fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  const k = d.kpis;
+  document.getElementById("updated").textContent = "Updated " + when(d.updated);
+  const vd = k.views_prev_7d ? (k.views_7d - k.views_prev_7d) / k.views_prev_7d : null;
+  document.getElementById("kpis").innerHTML = [
+    kpi("Followers", fmt(k.followers), k.followers_7d != null ? (k.followers_7d >= 0 ? "+" : "") + fmt(k.followers_7d) + " this week" : "", k.followers_7d >= 0 ? "up" : "down"),
+    kpi("Views, last 7 days", fmt(k.views_7d), vd != null ? (vd >= 0 ? "▲ " : "▼ ") + Math.abs(vd * 100).toFixed(0) + "% vs week before" : "", vd >= 0 ? "up" : "down"),
+    kpi("Typical post (views at 3 days)", fmt(k.median_views_14), k.pre_bot_median ? "before the bot: " + fmt(k.pre_bot_median) : "last 14 posts"),
+    kpi("Engagement rate", pct(k.engagement_14), "likes + comments + shares / views"),
+    kpi("Bot posts tracked", fmt(k.posts_tracked), fmt(k.posts_scored) + " old enough to score"),
+    kpi("Total likes", fmt(k.likes), ""),
+  ].join("");
+  document.getElementById("followers").innerHTML = lineChart(d.account.filter(a => a.followers != null), "followers", "var(--green)");
+  document.getElementById("views").innerHTML = barChart(d.daily_views.slice(-30));
+
+  const t = d.tuning;
+  const pill = document.getElementById("tuningPill");
+  pill.textContent = t.active ? "auto-tuning on" : "collecting data";
+  pill.className = "pill" + (t.active ? " on" : "");
+  document.getElementById("tuningNote").textContent = t.active
+    ? `The bot is already leaning into these (${Math.round((1 - t.explore) * 100)}% of posts; the rest keep exploring).`
+    : `Auto-tuning starts once ${t.needed} posts are 3+ days old (${t.scored} so far). Early winners:`;
+  const names = { collection: "Theme", angle: "Angle", lead: "Lead dish", hour: "Posting time", store: "Supermarket" };
+  const chips = Object.entries(d.double_down).flatMap(([key, items]) =>
+    items.map(i => `<div class="chip">${names[key]}: <b>${esc(i.label)}</b><span class="x">${i.avg_ratio.toFixed(1)}x</span> <span class="small muted">(${i.posts} posts)</span></div>`));
+  document.getElementById("double").innerHTML = chips.join("") || `<div class="muted small">Nothing clear yet: needs a few posts per group.</div>`;
+
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = TABS.map(([key, label], i) => `<button role="tab" data-k="${key}" aria-selected="${i === 0}">${label}</button>`).join("");
+  const show = key => {
+    tabs.querySelectorAll("button").forEach(b => b.setAttribute("aria-selected", b.dataset.k === key));
+    document.getElementById("board").innerHTML = board(d.tables[key]);
+  };
+  tabs.addEventListener("click", e => e.target.dataset.k && show(e.target.dataset.k));
+  show(TABS[0][0]);
+
+  document.getElementById("top").innerHTML = d.top_posts.map(postCard).join("") || `<div class="card empty">No bot posts on TikTok yet.</div>`;
+  document.getElementById("recent").innerHTML = d.recent.map(postCard).join("") || `<div class="card empty">No posts yet.</div>`;
+
+  const m = t.multipliers || {};
+  const list = (key, label) => (m[key] || []).filter(x => x.posts >= 2).slice(0, 5)
+    .map(x => `<li>${esc(x.label)}: picked <b>${x.mult.toFixed(2)}x</b> as often <span class="small muted">(${x.posts} posts, avg ${x.avg_ratio.toFixed(2)}x)</span></li>`).join("");
+  const hooks = (t.top_hooks || []).map(h => `<li>${esc(h.hook)} <span class="small muted">(${fmt(h.views)} views)</span></li>`).join("");
+  document.getElementById("learning").innerHTML = (t.active ? "" : `<p class="muted small">Not tuning yet: these show what it will lean into.</p>`) +
+    `<div class="grid two"><div><h2 style="font-size:15px">Themes</h2><ul>${list("collection") || "<li class='muted'>–</li>"}</ul>
+     <h2 style="font-size:15px">Angles</h2><ul>${list("angle") || "<li class='muted'>–</li>"}</ul></div>
+     <div><h2 style="font-size:15px">Lead dishes</h2><ul>${list("lead") || "<li class='muted'>–</li>"}</ul>
+     <h2 style="font-size:15px">Best hooks (the writer copies their style)</h2><ul>${hooks || "<li class='muted'>–</li>"}</ul></div></div>`;
+}).catch(() => { document.getElementById("updated").textContent = "No data yet: the first stats run fills this page."; });
+</script>
+</body>
+</html>

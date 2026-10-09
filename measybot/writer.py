@@ -208,6 +208,13 @@ def load_examples(path: Path | None = None) -> list[tuple[int, str, str]]:
         parts = [p.strip() for p in line.split("|")]
         views = int(parts[0]) if parts[0].isdigit() else 0
         out.append((views, parts[1], parts[2] if len(parts) > 2 else ""))
+    # the bot's own best posts (from the TikTok stats) join the examples
+    from .tuning import load as load_tuning
+    seen = {normalise(h) for _, h, _ in out}
+    for t in load_tuning().get("top_hooks", []):
+        if normalise(t["hook"]) not in seen:
+            out.append((int(t.get("views", 0)), t["hook"], t.get("subline", "")))
+            seen.add(normalise(t["hook"]))
     return sorted(out, key=lambda e: -e[0])
 
 

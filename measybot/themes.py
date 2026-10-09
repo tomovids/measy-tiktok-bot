@@ -58,8 +58,12 @@ def angle_allowed(a: dict, day: date, slot: str) -> bool:
 
 
 def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], cfg: dict,
-           rng: random.Random, data: dict | None = None) -> Theme:
+           rng: random.Random, data: dict | None = None, boost: dict | None = None) -> Theme:
+    """`boost`: performance multipliers {"collection": {id: x}, "angle": {id: x}} (tuning.py)."""
     data = data or load()
+    boost = boost or {}
+    cw = boost.get("collection", {})
+    aw = boost.get("angle", {})
     posts = sorted(hist.accepted(), key=lambda p: (p["date"], p.get("sent_at", "")))
     last_group = hist.last_used("groups")
 
@@ -85,7 +89,7 @@ def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], 
                  if sum(1 for g in groups_for[c["id"]] if free(g)) >= MIN_DISHES
                  and (c["id"] not in coll_last or (day - coll_last[c["id"]]).days >= g_days)]
         if cands:
-            chosen_c = rng.choices(cands, weights=[c.get("weight", 1) for c in cands])[0]
+            chosen_c = rng.choices(cands, weights=[c.get("weight", 1) * cw.get(c["id"], 1.0) for c in cands])[0]
             break
     if chosen_c is None:
         chosen_c = next(c for c in data["collections"] if c["id"] == "anything")
@@ -102,7 +106,7 @@ def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], 
                 continue
             cands.append(a)
         if cands:
-            chosen_a = rng.choices(cands, weights=[a.get("weight", 1) for a in cands])[0]
+            chosen_a = rng.choices(cands, weights=[a.get("weight", 1) * aw.get(a["id"], 1.0) for a in cands])[0]
             break
     chosen_a = chosen_a or rng.choice(angles or data["angles"])
 

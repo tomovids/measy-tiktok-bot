@@ -167,6 +167,43 @@ def cmd_status(args, cfg) -> int:
     return 0
 
 
+def cmd_stats(args, cfg) -> int:
+    """Fetches the TikTok numbers, updates the tuning and rebuilds the dashboard data."""
+    from . import dashboard, stats, tuning
+    key = secret("TOKEN_KEY")
+    login = tokens.load(key)
+    needed = [s for s in ("user.info.stats", "video.list") if s not in login.get("scope", "")]
+    if needed:
+        log(f"The TikTok login doesn't have {', '.join(needed)} yet, so there are no stats to read. "
+            "Add those scopes to the TikTok app, then run `python -m measybot authorize` again. Skipping.")
+        return 0
+    tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
+    login = tt.refresh(login)
+    tokens.save(login, key)
+    account = tt.account_stats(login["access_token"])
+    videos = tt.videos(login["access_token"], max_pages=cfg.get("tracking", {}).get("video_pages", 10))
+    st = stats.update(stats.load(), account, videos, History.load())
+    stats.save(st)
+    tune = tuning.compute(st, cfg)
+    tuning.save(tune)
+    dashboard.write(dashboard.build(st, tune, cfg), cfg)
+    matched = sum(1 for v in st["videos"].values() if v.get("post"))
+    log(f"Followers {account.get('follower_count')}, {len(videos)} posts read, {matched} matched to the bot's "
+        f"drafts, {tune['scored_posts']} scored. Auto-tuning {'ON' if tune['active'] else 'not yet'}"
+        f" (needs {tune['needed']} scored posts).")
+    return 0
+
+
+def cmd_dashboard(args, cfg) -> int:
+    """Rebuilds the dashboard data from the saved stats (no TikTok calls)."""
+    from . import dashboard, stats, tuning
+    st = stats.load()
+    tune = tuning.compute(st, cfg)
+    dashboard.write(dashboard.build(st, tune, cfg), cfg)
+    log(f"Dashboard data written to {dashboard.folder(cfg) / 'data.json'}")
+    return 0
+
+
 def cmd_newkey(args, cfg) -> int:
     log(tokens.new_key())
     return 0
@@ -247,6 +284,8 @@ def main(argv: list[str] | None = None) -> int:
     st = sub.add_parser("status", help="show recent posts")
     st.add_argument("-n", type=int, default=10)
     sub.add_parser("newkey", help="print a new TOKEN_KEY")
+    sub.add_parser("stats", help="read the TikTok numbers, update the tuning and the dashboard (daily)")
+    sub.add_parser("dashboard", help="rebuild the dashboard data from the saved stats")
     lb = sub.add_parser("library", help="build the card-ready recipe library with OpenAI (one-off)")
     lb.add_argument("--only", help="comma-separated dish ids")
     ph = sub.add_parser("photos", help="make the AI food photos for the recipe cards (one-off)")
@@ -265,7 +304,8 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config()
     commands = {"build": cmd_build, "send": cmd_send, "dry-run": cmd_dry_run,
                 "authorize": cmd_authorize, "status": cmd_status, "newkey": cmd_newkey,
-                "library": cmd_library, "photos": cmd_photos, "cards": cmd_cards}
+                "library": cmd_library, "photos": cmd_photos, "cards": cmd_cards,
+                "stats": cmd_stats, "dashboard": cmd_dashboard}
     try:
         return commands[args.cmd](args, cfg)
     except (ConfigError, TikTokError, tokens.TokenError, OpenAIError, FileNotFoundError) as e:

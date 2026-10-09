@@ -9,6 +9,9 @@ import requests
 AUTH_URL = "https://www.tiktok.com/v2/auth/authorize/"
 TOKEN_URL = "https://open.tiktokapis.com/v2/oauth/token/"
 USER_INFO_URL = "https://open.tiktokapis.com/v2/user/info/"
+VIDEO_LIST_URL = "https://open.tiktokapis.com/v2/video/list/"
+VIDEO_FIELDS = ("id,create_time,title,video_description,view_count,like_count,comment_count,"
+                "share_count,share_url,cover_image_url,duration")
 INIT_URL = "https://open.tiktokapis.com/v2/post/publish/content/init/"
 STATUS_URL = "https://open.tiktokapis.com/v2/post/publish/status/fetch/"
 
@@ -21,8 +24,9 @@ HINTS = {
         "TikTok allows at most 5 waiting drafts in 24 hours. Open TikTok, post or delete the drafts "
         "in your inbox, then run the workflow again.",
     "scope_not_authorized":
-        "The app isn't allowed to upload drafts. Check the video.upload scope is added to your TikTok app, "
-        "then run `python -m measybot authorize` again. " + SETUP,
+        "The TikTok login is missing a permission (video.upload for drafts; user.info.stats and video.list "
+        "for the dashboard). Check the scopes on your TikTok app, then run `python -m measybot authorize` "
+        "again. " + SETUP,
     "access_token_invalid":
         "The TikTok login has expired or was removed. Run `python -m measybot authorize` again.",
     "invalid_grant":
@@ -103,6 +107,41 @@ class TikTok:
 
     def refresh(self, tokens: dict) -> dict:
         return self._token({"grant_type": "refresh_token", "refresh_token": tokens["refresh_token"]})
+
+    def account_stats(self, access_token: str) -> dict:
+        """Followers, total likes and post count (user.info.stats)."""
+        r = self.http.get(USER_INFO_URL, timeout=30, headers={"Authorization": f"Bearer {access_token}"},
+                          params={"fields": "open_id,display_name,follower_count,following_count,"
+                                            "likes_count,video_count"})
+        return self._read(r).get("user", {})
+
+    def videos(self, access_token: str, max_pages: int = 10) -> list[dict]:
+        """The account's public posts, newest first (video.list), up to max_pages x 20."""
+        out, cursor = [], None
+        for _ in range(max_pages):
+            body = {"max_count": 20}
+            if cursor:
+                body["cursor"] = cursor
+            r = self.http.post(VIDEO_LIST_URL, params={"fields": VIDEO_FIELDS}, json=body, timeout=30,
+                               headers={"Authorization": f"Bearer {access_token}",
+                                        "Content-Type": "application/json; charset=UTF-8"})
+            data = self._read(r)
+            out += data.get("videos", [])
+            if not data.get("has_more"):
+                break
+            cursor = data.get("cursor")
+        return out
+
+    @staticmethod
+    def _read(r) -> dict:
+        try:
+            data = r.json()
+        except ValueError:
+            raise TikTokError(f"http_{r.status_code}", r.text[:300])
+        err = data.get("error") or {}
+        if err.get("code", "ok") != "ok":
+            raise TikTokError(err.get("code"), err.get("message", ""), err.get("log_id", ""))
+        return data.get("data") or {}
 
     def display_name(self, access_token: str) -> str:
         """The connected account's display name (user.info.basic), to confirm the right account."""

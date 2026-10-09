@@ -6,7 +6,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import catalogue, cover, stage, stores, tags, themes, tokens, writer
+from . import catalogue, cover, stage, stores, tags, themes, tokens, tuning, writer
 from .history import History
 from .openai_api import OpenAI, OpenAIError
 from .picker import pick
@@ -19,9 +19,12 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     seed = f"{day}/{slot}" + ("/extra" if extra else "")
     store = stores.choose(hist, cfg, random.Random(f"{seed}/store"), index)
     dish_tags = tags.all_tags()
-    theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"))
+    boost = tuning.for_post(random.Random(f"{seed}/tune"))
+    theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"), boost=boost)
     log(f"Store: {store.name}. Theme: 5 {theme.label} / {theme.angle_text.replace('{store}', store.name)}")
-    lead = {g: tags.crave_score(t) for g, t in dish_tags.items()}
+    lead_mult = boost.get("lead", {})
+    lead = {g: tags.crave_score(t) + 4 * (lead_mult.get(g, 1.0) - 1) for g, t in dish_tags.items()}
+    log("Tuning: " + ("on (doubling down on what performs)" if boost else "off / exploring this post"))
     recipes = pick(catalogue.load_recipes(), hist, day, cfg, random.Random(f"{seed}/picker"),
                    allowed=theme.groups, caps_off=theme.caps_off, lead=lead)
     log("Recipes: " + "; ".join(r.dish for r in recipes))
@@ -44,6 +47,7 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     promo = hist.next_promo(catalogue.promo_files())
     meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign, "extra": extra,
             "slot": slot, "store": store.id, "theme": theme.record(), "question": words.question,
+            "tuned": bool(boost),
             "hook_score": words.score,
             "hook_candidates": words.candidates,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}

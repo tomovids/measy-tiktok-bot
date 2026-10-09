@@ -1,0 +1,47 @@
+{
+ "updated": "2026-10-09T00:43+00:00",
+ "kpis": {
+  "followers": null,
+  "followers_7d": null,
+  "likes": null,
+  "views_7d": 0,
+  "views_prev_7d": 0,
+  "posts_tracked": 0,
+  "posts_scored": 0,
+  "median_views_14": null,
+  "engagement_14": null,
+  "pre_bot_median": null,
+  "pre_bot_posts": 0
+ },
+ "account": [],
+ "daily_views": [],
+ "top_posts": [],
+ "recent": [],
+ "tables": {
+  "store": [],
+  "collection": [],
+  "angle": [],
+  "hour": [],
+  "weekday": [],
+  "lead": []
+ },
+ "double_down": {
+  "store": [],
+  "collection": [],
+  "angle": [],
+  "hour": [],
+  "lead": []
+ },
+ "tuning": {
+  "active": false,
+  "scored": 0,
+  "needed": 14,
+  "explore": 0.25,
+  "multipliers": {
+   "collection": [],
+   "angle": [],
+   "lead": []
+  },
+  "top_hooks": []
+ }
+}

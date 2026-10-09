@@ -162,4 +162,19 @@ ai_generated = true
 # Where GitHub Pages serves the slides. TikTok must have this address verified.
 pages_base_url = "https://tomovids.github.io/measy-tiktok-bot/"
 redirect_uri = "https://tomovids.github.io/measy-tiktok-bot/auth.html"
-scopes = ["user.info.basic", "video.upload"]
+scopes = ["user.info.basic", "video.upload", "user.info.stats", "video.list"]
+
+[tracking]
+# The dashboard lives at <pages_base_url><dashboard_dir>/ (not linked from anywhere).
+dashboard_dir = "insights-5c3xnv64"
+# How many pages of 20 posts to read each day.
+video_pages = 10
+# Auto-tuning: starts after this many posts are 3+ days old; a prior of `prior_posts` average
+# posts keeps one lucky post from swinging it; multipliers stay within min_mult..max_mult;
+# `explore` of posts ignore the tuning so new ideas keep getting tried.
+min_posts = 14
+prior_posts = 3
+min_mult = 0.5
+max_mult = 2.0
+explore = 0.25
+top_hooks = 6
