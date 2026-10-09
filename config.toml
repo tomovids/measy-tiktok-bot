@@ -194,6 +194,7 @@ name = "Measy"
 id = "mealswithmeasy"
 name = "Meals with Measy"
 handle = "@mealswithmeasy"
+paused = true    # while it's being switched to a US account
 post_times = ["09:30", "14:30"]
 store_plan = ["rotate", "rotate"]
 stores = ["tesco", "sainsburys", "asda", "lidl"]

@@ -109,6 +109,9 @@ def build_one(args, cfg: dict, acct: config.Account, others: list[History]) -> d
     times = post_times(cfg)
     done = hist.count_on(day)
     who = label(acct)
+    if acct.overrides.get("paused"):
+        log(f"{who}: paused in config.toml. Skipping.")
+        return None
     if not config.TOKEN_FILE.exists():
         log(f"{who}: TikTok isn't connected yet (no {config.TOKEN_FILE.relative_to(config.ROOT).as_posix()}; "
             f"run `python -m measybot authorize --account {acct.id}`). Skipping.")
