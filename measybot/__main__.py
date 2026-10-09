@@ -12,7 +12,7 @@ import secrets as pysecrets
 import sys
 import time
 import webbrowser
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -102,6 +102,20 @@ def cmd_build(args, base_cfg) -> int:
     return 1 if errors and not built else 0
 
 
+INBOX_FULL_RETRY_MIN = 120
+
+
+def inbox_full_wait(hist: History, now: datetime | None = None) -> int:
+    """Minutes left before retrying after TikTok's "too many waiting drafts" refusal (0 = go ahead).
+    Building a draft costs a new AI cover, so the bot doesn't retry every half hour."""
+    now = now or datetime.now(timezone.utc)
+    last = max(hist.posts, key=lambda p: p.get("sent_at") or "", default=None)
+    if not last or last.get("status") != "FAILED" or "too_many_pending" not in (last.get("error") or ""):
+        return 0
+    ago = (now - datetime.fromisoformat(last["sent_at"])).total_seconds() / 60
+    return max(0, round(INBOX_FULL_RETRY_MIN - ago))
+
+
 def build_one(args, cfg: dict, acct: config.Account, others: list[History]) -> dict | None:
     now = local_now(cfg)
     day = date.fromisoformat(args.date) if args.date else now.date()
@@ -129,6 +143,11 @@ def build_one(args, cfg: dict, acct: config.Account, others: list[History]) -> d
         if done >= due:
             nxt = times[done]
             log(f"{who}: it's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
+            return None
+        wait = inbox_full_wait(hist)
+        if wait:
+            log(f"{who}: TikTok said too many drafts are waiting in the inbox; trying again in about "
+                f"{wait} minutes (post or delete the drafts in TikTok to free a space).")
             return None
         index, name = done, f"{day.isoformat()}-{done + 1}"
     log(f"\n== {who}: draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)}) ==")

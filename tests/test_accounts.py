@@ -127,3 +127,15 @@ def test_us_cards_show_dollars(cfg, restore_account):
     assert card.money(1.5) == "$1.50"
     config.use_account(config.get_account(cfg, None))
     assert card.money(1.5) == "£1.50"
+
+
+def test_waits_after_tiktok_inbox_is_full():
+    from datetime import datetime, timezone
+    from measybot.__main__ import inbox_full_wait
+    hist = History()
+    hist.add({"date": "2026-10-09", "status": "FAILED", "sent_at": "2026-10-09T14:30:09+00:00",
+              "error": "TikTok error spam_risk_too_many_pending_share: ..."})
+    assert inbox_full_wait(hist, datetime(2026, 10, 9, 15, 0, tzinfo=timezone.utc)) == 90
+    assert inbox_full_wait(hist, datetime(2026, 10, 9, 16, 31, tzinfo=timezone.utc)) == 0
+    hist.add({"date": "2026-10-09", "status": "FAILED", "sent_at": "2026-10-09T15:00:00+00:00", "error": "other"})
+    assert inbox_full_wait(hist, datetime(2026, 10, 9, 15, 1, tzinfo=timezone.utc)) == 0
