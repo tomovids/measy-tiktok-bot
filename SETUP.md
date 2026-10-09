@@ -94,15 +94,16 @@ git add state/tiktok_token.enc; git commit -m "TikTok login"; git push
 
 The login lasts about a year; the bot warns in its log a month before it runs out. Repeat this step then.
 
-**Second account (@mealswithmeasy):** add it as a target user in the Sandbox too (step 5), then, with the
-browser logged in to TikTok as @mealswithmeasy (log out of Measy first):
+**Extra accounts (@mealswithmeasy, @ethaniscookingdaily):** add each as a target user in the Sandbox too
+(step 5), then, with the browser logged in to TikTok as that account (log out of the others first):
 
 ```
 .\.venv\Scripts\python.exe -m measybot authorize --account mealswithmeasy
 git add state/mealswithmeasy/tiktok_token.enc; git commit -m "TikTok login: mealswithmeasy"; git push
 ```
 
-Until that login exists the bot just skips this account.
+Same for `--account ethaniscookingdaily` (its login goes in `state/ethaniscookingdaily/`).
+Until an account's login exists the bot just skips that account.
 
 ## 7. First real draft
 

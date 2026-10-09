@@ -23,12 +23,13 @@ class PickError(Exception):
 def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
          rng: random.Random | None = None, allowed: set[str] | None = None,
          caps_off: set[str] | frozenset = frozenset(), lead: dict[str, int] | None = None,
-         avoid: set[str] | None = None) -> list[Recipe]:
+         avoid: set[str] | dict[str, int] | None = None) -> list[Recipe]:
     """Five dishes. `allowed` limits them to a theme's dishes; `caps_off` lifts the "protein" or
     "base" variety limit (a chicken theme can be all chicken); `lead` scores put the most
-    crave-worthy dish first; `avoid` = dishes another account posted recently (treated like
-    dishes posted today). A dish is never posted twice on the same day."""
-    avoid = avoid or set()
+    crave-worthy dish first; `avoid` = dishes other accounts posted recently, {dish: days ago}
+    (a set means today): they count as used by this account then. A dish is never posted twice on
+    the same day; if the other accounts leave too few dishes, their posts are ignored."""
+    avoid = avoid if isinstance(avoid, dict) else dict.fromkeys(avoid or (), 0)
     p = cfg["picker"]
     n = p["recipes_per_post"]
     rng = rng or random.Random(f"{today.isoformat()}/picker")
@@ -44,10 +45,9 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
     last_file = history.last_used("files")
 
     def age(g: str) -> int:
-        if g in avoid:
-            return 0
         d = last_group.get(g)
-        return NEVER_USED if d is None else (today - d).days
+        own = NEVER_USED if d is None else (today - d).days
+        return min(own, avoid.get(g, NEVER_USED))
 
     groups = sorted(by_group)  # stable order before the seeded shuffle of scores
     score = {g: age(g) + rng.uniform(0, p.get("jitter_days", 0)) for g in groups}
@@ -65,6 +65,8 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
         if len(chosen) == n:
             break
     else:
+        if avoid:
+            return pick(recipes, history, today, cfg, rng, allowed, caps_off, lead)
         raise PickError("Could not find five different dishes.")
 
     picks = [_least_used_image(by_group[g], last_file, rng) for g in chosen]

@@ -2,19 +2,22 @@ name: Daily TikTok draft
 
 on:
   schedule:
-    # Measy: 07:30, 12:00 and 16:30 UK time. Meals with Measy: 09:30 and 14:30 (config.toml).
-    # Each time has a summer (BST) and a winter (GMT) run; the bot only builds drafts that are due
-    # and not yet sent, for every account.
+    # UK times (config.toml): Measy 07:30, 12:00, 16:30; Meals with Measy 09:30, 14:30;
+    # Ethan Is Cooking Daily 11:00, 19:00. Each time has a summer (BST) and a winter (GMT) run;
+    # the bot only builds drafts that are due and not yet sent, for every account.
     - cron: "30 6 * * *"
     - cron: "30 7 * * *"
     - cron: "30 8 * * *"
     - cron: "30 9 * * *"
+    - cron: "0 10 * * *"
     - cron: "0 11 * * *"
     - cron: "0 12 * * *"
     - cron: "30 13 * * *"
     - cron: "30 14 * * *"
     - cron: "30 15 * * *"
     - cron: "30 16 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -30,7 +33,7 @@ on:
         type: string
         default: ""
       account:
-        description: "Only this account (measy or mealswithmeasy); empty = every account"
+        description: "Only this account (measy, mealswithmeasy or ethaniscookingdaily); empty = every account"
         type: string
         default: ""
 

@@ -74,7 +74,9 @@ def account_cfg(cfg: dict, acct: Account) -> dict:
     if "store_plan" in o:
         out.setdefault("store_rotation", {})["plan"] = o["store_plan"]
     if "stores" in o:
-        out["stores"] = [s for s in out.get("stores", []) if s["id"] in o["stores"]]
+        # the account's own order is its rotation order
+        by_id = {s["id"]: s for s in out.get("stores", [])}
+        out["stores"] = [by_id[i] for i in o["stores"] if i in by_id]
     if "dashboard_dir" in o:
         out.setdefault("tracking", {})["dashboard_dir"] = o["dashboard_dir"]
     out["account"] = {"id": acct.id, "name": acct.name, "handle": acct.handle, "primary": acct.primary}

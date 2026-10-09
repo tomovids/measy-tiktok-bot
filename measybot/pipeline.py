@@ -21,11 +21,14 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     today or yesterday and anything close to their recent hooks."""
     acct = cfg.get("account", {})
     seed = f"{day}/{slot}" + ("" if acct.get("primary", True) else f"/{acct.get('id')}") + ("/extra" if extra else "")
-    avoid, other_hooks = set(), []
+    avoid: dict[str, int] = {}          # dish -> days since another account posted it
+    other_hooks = []
     for h in others or []:
         for p in h.accepted():
-            if (day - date.fromisoformat(p["date"])).days <= 1:
-                avoid |= set(p.get("groups") or [])
+            ago = (day - date.fromisoformat(p["date"])).days
+            if 0 <= ago <= 1:
+                for g in p.get("groups") or []:
+                    avoid[g] = min(ago, avoid.get(g, ago))
         other_hooks += h.recent_hooks(30)
     store = stores.choose(hist, cfg, random.Random(f"{seed}/store"), index)
     dish_tags = tags.all_tags()

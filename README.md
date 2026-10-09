@@ -7,10 +7,12 @@ It runs on GitHub's servers, so your PC can be off. The 07:30 and 16:30 posts ar
 The recipe cards are the same for every store; the hook, the cover's store front and the hashtags change,
 and only Aldi posts make £ claims (the card prices are Aldi prices).
 
-A second account, **@mealswithmeasy**, gets 2 drafts a day (09:30 and 14:30) about Tesco, Sainsbury's,
-Asda and Lidl in turn. The accounts never post the same dish on the same or the next day and never
-share hooks. Each account has its own TikTok login, history, stats and dashboard (`config.toml
-[[accounts]]`; the second account's files are in `state/mealswithmeasy/`).
+Two more accounts get 2 drafts a day each about Tesco, Sainsbury's, Asda and Lidl in turn:
+**@mealswithmeasy** (09:30 and 14:30) and **@ethaniscookingdaily** (11:00 and 19:00, starting halfway
+round the stores so the two rarely match). No dish appears twice in a day across all the accounts,
+the accounts avoid each other's dishes from the day before when they can, and they never share
+hooks. Each account has its own TikTok login, history, stats and dashboard (`config.toml
+[[accounts]]`; the extra accounts' files are in `state/<id>/`).
 
 1. **Cover:** a fresh AI picture of the post's supermarket (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.

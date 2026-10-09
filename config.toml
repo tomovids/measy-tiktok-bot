@@ -198,3 +198,13 @@ post_times = ["09:30", "14:30"]
 store_plan = ["rotate", "rotate"]
 stores = ["tesco", "sainsburys", "asda", "lidl"]
 dashboard_dir = "insights-96dd4441"
+
+[[accounts]]
+id = "ethaniscookingdaily"
+name = "Ethan Is Cooking Daily"
+handle = "@ethaniscookingdaily"
+post_times = ["11:00", "19:00"]
+store_plan = ["rotate", "rotate"]
+# same stores as @mealswithmeasy, but starting halfway round, so the two rarely do the same store
+stores = ["asda", "lidl", "tesco", "sainsburys"]
+dashboard_dir = "insights-8ff4e01c"

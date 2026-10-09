@@ -71,3 +71,28 @@ def test_avoids_the_other_accounts_dishes(cfg):
     avoid = {r.group for r in first}
     second = pick(recipes, History(), day, cfg, random.Random(1), avoid=avoid)
     assert not avoid & {r.group for r in second}
+
+
+def test_accounts_start_on_different_stores(cfg):
+    firsts = []
+    for acct_id in ("mealswithmeasy", "ethaniscookingdaily"):
+        acfg = config.account_cfg(cfg, config.get_account(cfg, acct_id))
+        hist = History()
+        day = []
+        for i in range(2):
+            s = stores.choose(hist, acfg, random.Random(i), i)
+            day.append(s.id)
+            hist.add({"date": "2026-10-10", "store": s.id, "status": SENT})
+        firsts.append(set(day))
+    assert not firsts[0] & firsts[1]
+
+
+def test_yesterdays_dishes_elsewhere_are_only_avoided_when_possible(cfg):
+    recipes = load_recipes()
+    groups = {r.group for r in recipes}
+    # the other accounts used every dish yesterday: still five dishes
+    picks = pick(recipes, History(), date(2026, 10, 9), cfg, random.Random(2), avoid=dict.fromkeys(groups, 1))
+    assert len({r.group for r in picks}) == 5
+    # ...and all of them today: their posts are ignored rather than failing
+    picks = pick(recipes, History(), date(2026, 10, 9), cfg, random.Random(2), avoid=dict.fromkeys(groups, 0))
+    assert len({r.group for r in picks}) == 5
