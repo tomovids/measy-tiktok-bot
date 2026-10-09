@@ -18,20 +18,19 @@ from zoneinfo import ZoneInfo
 from . import config
 from .history import History
 
-STATS_FILE = config.STATE / "stats.json"
 SCORE_AGE_H = 72          # posts are compared on their views at this age
 KEEP_SNAPSHOTS_H = 14 * 24
 
 
 def load(path: Path | None = None) -> dict:
-    path = path or STATS_FILE
+    path = path or config.STATS_FILE
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
     return {"account": [], "videos": {}, "updated": None}
 
 
 def save(stats: dict, path: Path | None = None) -> None:
-    path = path or STATS_FILE
+    path = path or config.STATS_FILE
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(stats, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 

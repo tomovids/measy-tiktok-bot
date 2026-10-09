@@ -15,23 +15,34 @@ from .tiktok import TikTok, TikTokError, wait_for_urls
 
 def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | None,
                ai_image: bool = True, keep_spares: bool = True, save_background: bool = False,
-               log=print, extra: bool = False, slot: str = "morning", index: int = 0) -> dict:
-    seed = f"{day}/{slot}" + ("/extra" if extra else "")
+               log=print, extra: bool = False, slot: str = "morning", index: int = 0,
+               others: list[History] | None = None) -> dict:
+    """`others`: the other accounts' histories, so this account avoids the dishes they posted
+    today or yesterday and anything close to their recent hooks."""
+    acct = cfg.get("account", {})
+    seed = f"{day}/{slot}" + ("" if acct.get("primary", True) else f"/{acct.get('id')}") + ("/extra" if extra else "")
+    avoid, other_hooks = set(), []
+    for h in others or []:
+        for p in h.accepted():
+            if (day - date.fromisoformat(p["date"])).days <= 1:
+                avoid |= set(p.get("groups") or [])
+        other_hooks += h.recent_hooks(30)
     store = stores.choose(hist, cfg, random.Random(f"{seed}/store"), index)
     dish_tags = tags.all_tags()
     boost = tuning.for_post(random.Random(f"{seed}/tune"))
-    theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"), boost=boost)
+    theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"), boost=boost,
+                          avoid=avoid)
     log(f"Store: {store.name}. Theme: 5 {theme.label} / {theme.angle_text.replace('{store}', store.name)}")
     lead_mult = boost.get("lead", {})
     lead = {g: tags.crave_score(t) + 4 * (lead_mult.get(g, 1.0) - 1) for g, t in dish_tags.items()}
     log("Tuning: " + ("on (doubling down on what performs)" if boost else "off / exploring this post"))
     recipes = pick(catalogue.load_recipes(), hist, day, cfg, random.Random(f"{seed}/picker"),
-                   allowed=theme.groups, caps_off=theme.caps_off, lead=lead)
+                   allowed=theme.groups, caps_off=theme.caps_off, lead=lead, avoid=avoid)
     log("Recipes: " + "; ".join(r.dish for r in recipes))
 
-    used = {p["hook"] for p in hist.accepted() if p.get("hook")}
-    words = writer.write(recipes, hist.recent_hooks(60), cfg, ai, random.Random(f"{seed}/words"), log,
-                         day=day, theme=theme, used=used, slot=slot, store=store)
+    used = {p["hook"] for p in hist.accepted() if p.get("hook")} | set(other_hooks)
+    words = writer.write(recipes, hist.recent_hooks(60) + other_hooks, cfg, ai, random.Random(f"{seed}/words"),
+                         log, day=day, theme=theme, used=used, slot=slot, store=store)
     log(f"Hook ({words.source}{f', score {words.score}' if words.score else ''}): {words.hook}"
         + (f"  /  {words.subline}" if words.subline else ""))
     caption = writer.caption(words, recipes, cfg, theme, random.Random(f"{seed}/caption"), store)

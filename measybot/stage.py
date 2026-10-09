@@ -15,8 +15,9 @@ MAX_BYTES = 20 * 1024 * 1024
 
 
 def post_folder(day: date, site: Path | None = None, name: str | None = None) -> Path:
-    """site/p/<date>, or site/p/<name> for an extra test post (its own URLs, so no stale cache)."""
-    return (site or config.SITE) / "p" / (name or day.isoformat())
+    """site/p/[<account>/]<date>, or <name> for a numbered or extra test post (its own URLs, so no
+    stale cache). Accounts other than the first have their own subfolder."""
+    return (site or config.SITE) / "p" / config.POSTS_SUBDIR / (name or day.isoformat())
 
 
 def slide_ok(path: Path) -> bool:
@@ -52,7 +53,12 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, wor
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir(parents=True)
-    rel_root = rel_root or folder.parent.parent
+    if rel_root is None:
+        try:
+            folder.relative_to(config.SITE)
+            rel_root = config.SITE
+        except ValueError:          # dry runs into out/
+            rel_root = folder.parent.parent
 
     slides = [folder / "01.jpg"]
     cover.convert("RGB").save(slides[0], "JPEG", quality=92)

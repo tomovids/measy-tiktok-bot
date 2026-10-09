@@ -178,3 +178,23 @@ min_mult = 0.5
 max_mult = 2.0
 explore = 0.25
 top_hooks = 6
+
+# The TikTok accounts the bot makes drafts for. The first one (Measy) keeps its files in state/;
+# every other account has its own login, history, stats and dashboard in state/<id>/.
+# Each account can set its own post_times, store_plan, stores and dashboard_dir; anything not set
+# comes from the settings above. The two accounts never post the same dish on the same or the
+# next day, and never reuse each other's hooks.
+# Connect an account once with:  python -m measybot authorize --account <id>
+# Changing post_times? Add matching cron lines in .github/workflows/daily.yml.
+[[accounts]]
+id = "measy"
+name = "Measy"
+
+[[accounts]]
+id = "mealswithmeasy"
+name = "Meals with Measy"
+handle = "@mealswithmeasy"
+post_times = ["09:30", "14:30"]
+store_plan = ["rotate", "rotate"]
+stores = ["tesco", "sainsburys", "asda", "lidl"]
+dashboard_dir = "insights-96dd4441"

@@ -16,7 +16,6 @@ from pathlib import Path
 
 from . import config, stats
 
-TUNING_FILE = config.STATE / "tuning.json"
 DIMENSIONS = {"collection": "collection", "angle": "angle", "lead": "lead"}
 
 
@@ -51,14 +50,14 @@ def compute(st: dict, cfg: dict) -> dict:
 
 
 def load() -> dict:
-    if TUNING_FILE.exists():
-        return json.loads(TUNING_FILE.read_text(encoding="utf-8"))
+    if config.TUNING_FILE.exists():
+        return json.loads(config.TUNING_FILE.read_text(encoding="utf-8"))
     return {"active": False, "multipliers": {}, "top_hooks": [], "explore": 0.25}
 
 
 def save(t: dict) -> None:
-    TUNING_FILE.parent.mkdir(parents=True, exist_ok=True)
-    TUNING_FILE.write_text(json.dumps(t, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    config.TUNING_FILE.parent.mkdir(parents=True, exist_ok=True)
+    config.TUNING_FILE.write_text(json.dumps(t, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
 def for_post(rng: random.Random, t: dict | None = None) -> dict:

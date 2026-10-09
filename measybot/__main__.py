@@ -1,8 +1,12 @@
-"""Command line: python -m measybot <build|send|dry-run|authorize|status|newkey>."""
+"""Command line: python -m measybot <build|send|dry-run|authorize|status|stats|...> [--account ID].
+
+build / status / stats / dashboard / dry-run work on every account in config.toml unless
+--account picks one; authorize and send --post work on one account (default: the first)."""
 from __future__ import annotations
 
 import argparse
 import copy
+import json
 import os
 import secrets as pysecrets
 import sys
@@ -55,73 +59,146 @@ def slot_name(index: int, cfg: dict | None = None) -> str:
     return "morning" if hour < 11 else "midday" if hour < 14 else "afternoon"
 
 
-def cmd_build(args, cfg) -> int:
+MANIFEST = config.ROOT / "built.json"
+
+
+def selected_accounts(args, base_cfg: dict) -> list[config.Account]:
+    acct = getattr(args, "account", None)
+    return [config.get_account(base_cfg, acct)] if acct else config.accounts(base_cfg)
+
+
+def switch(acct: config.Account, base_cfg: dict) -> dict:
+    """Makes `acct` the current account and returns its settings."""
+    config.use_account(acct)
+    return config.account_cfg(base_cfg, acct)
+
+
+def other_histories(acct: config.Account, base_cfg: dict) -> list[History]:
+    return [History.load(a.state_dir / "history.json") for a in config.accounts(base_cfg) if a.id != acct.id]
+
+
+def label(acct: config.Account) -> str:
+    return acct.handle or acct.name
+
+
+def cmd_build(args, base_cfg) -> int:
+    """Builds every draft that is due, for every account (or just --account). The list of what was
+    built goes in built.json for `send`."""
+    github_output(built="false")
+    built, errors = [], 0
+    for acct in selected_accounts(args, base_cfg):
+        cfg = switch(acct, base_cfg)
+        try:
+            entry = build_one(args, cfg, acct, other_histories(acct, base_cfg))
+        except (TikTokError, tokens.TokenError, OpenAIError, FileNotFoundError, ValueError) as e:
+            log(f"ERROR building for {label(acct)}: {e}")
+            errors += 1
+            continue
+        if entry:
+            built.append(entry)
+    MANIFEST.write_text(json.dumps(built, indent=1) + "\n", encoding="utf-8")
+    if built:
+        github_output(built="true")
+    return 1 if errors and not built else 0
+
+
+def build_one(args, cfg: dict, acct: config.Account, others: list[History]) -> dict | None:
     now = local_now(cfg)
     day = date.fromisoformat(args.date) if args.date else now.date()
     hist = History.load()
     times = post_times(cfg)
     done = hist.count_on(day)
-    github_output(date=day.isoformat(), built="false")
+    who = label(acct)
     if not config.TOKEN_FILE.exists():
-        log("TikTok isn't connected yet (no state/tiktok_token.enc; see SETUP.md step 6). Skipping.")
-        return 0
+        log(f"{who}: TikTok isn't connected yet (no {config.TOKEN_FILE.relative_to(config.ROOT).as_posix()}; "
+            f"run `python -m measybot authorize --account {acct.id}`). Skipping.")
+        return None
     if args.again:
         index = (args.slot - 1) if args.slot else min(done, len(times) - 1)
         index = max(0, min(index, len(times) - 1))
         name = f"{day.isoformat()}-{now:%H%M%S}"
-        log("Extra test draft: it won't count as one of today's scheduled posts.")
+        log(f"{who}: extra test draft, it won't count as one of today's scheduled posts.")
     else:
         due = len(times) if (args.force or args.date) else sum(1 for t in times if (now.hour, now.minute) >= t)
         if done >= len(times):
-            log(f"All {len(times)} of today's drafts ({day}) were sent. Nothing to do.")
-            return 0
+            log(f"{who}: all {len(times)} of today's drafts ({day}) were sent. Nothing to do.")
+            return None
         if done >= due:
             nxt = times[done]
-            log(f"It's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
-            return 0
+            log(f"{who}: it's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
+            return None
         index, name = done, f"{day.isoformat()}-{done + 1}"
-    log(f"Building draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)})")
+    log(f"\n== {who}: draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)}) ==")
     build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log,
-               extra=args.again, slot=slot_name(index, cfg), index=index)
-    github_output(built="true", post=name)
-    return 0
+               extra=args.again, slot=slot_name(index, cfg), index=index, others=others)
+    return {"account": acct.id, "date": day.isoformat(), "post": name}
 
 
-def cmd_send(args, cfg) -> int:
-    day = date.fromisoformat(args.date) if args.date else local_now(cfg).date()
-    post = stage.load_post(stage.post_folder(day, name=args.post))
+def cmd_send(args, base_cfg) -> int:
+    """Sends what `build` made (built.json), or one post with --post (and --account)."""
+    if args.post:
+        acct = config.get_account(base_cfg, args.account)
+        day = args.date or local_now(base_cfg).date().isoformat()
+        entries = [{"account": acct.id, "date": day, "post": args.post}]
+    else:
+        entries = json.loads(MANIFEST.read_text(encoding="utf-8")) if MANIFEST.exists() else []
+    if not entries:
+        log("Nothing to send.")
+        return 0
     tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
-    send_post(post, cfg, History.load(), tt, secret("TOKEN_KEY"), log=log)
-    return 0
+    key = secret("TOKEN_KEY")
+    failed = 0
+    for e in entries:
+        acct = config.get_account(base_cfg, e["account"])
+        cfg = switch(acct, base_cfg)
+        log(f"\n== Sending to {label(acct)} ==")
+        try:
+            post = stage.load_post(stage.post_folder(date.fromisoformat(e["date"]), name=e["post"]))
+            send_post(post, cfg, History.load(), tt, key, log=log)
+        except (TikTokError, tokens.TokenError, FileNotFoundError) as err:
+            log(f"ERROR sending to {label(acct)}: {err}")
+            failed += 1
+    return 1 if failed else 0
 
 
-def cmd_dry_run(args, cfg) -> int:
+def cmd_dry_run(args, base_cfg) -> int:
     out = Path(args.out).resolve()
-    start = date.fromisoformat(args.start) if args.start else local_now(cfg).date()
+    start = date.fromisoformat(args.start) if args.start else local_now(base_cfg).date()
     ai = None if args.no_ai else openai_client(required=False)
     if ai is None:
         log("No OpenAI key (or --no-ai): using saved hooks and a placeholder background.")
-    hist = copy.deepcopy(History.load())
-    hist.path = None
+    hists = {}
+    for a in config.accounts(base_cfg):
+        h = copy.deepcopy(History.load(a.state_dir / "history.json"))
+        h.path = None
+        hists[a.id] = h
     for i in range(args.days):
         day = start + timedelta(days=i)
-        for index in range(len(post_times(cfg))):
-            log(f"\n== {day} {slot_name(index, cfg)} ==")
-            post = build_post(day, cfg, hist, out / f"{day.isoformat()}-{index + 1}", ai,
-                              ai_image=not args.no_image, keep_spares=False, save_background=True,
-                              log=log, slot=slot_name(index, cfg), index=index)
-            hist.add({**post, "status": SENT})   # pretend it was sent, so the next one moves on
+        for acct in selected_accounts(args, base_cfg):
+            cfg = switch(acct, base_cfg)
+            for index in range(len(post_times(cfg))):
+                log(f"\n== {label(acct)} {day} {slot_name(index, cfg)} ==")
+                folder = out / acct.posts_subdir / f"{day.isoformat()}-{index + 1}"
+                others = [h for k, h in hists.items() if k != acct.id]
+                post = build_post(day, cfg, hists[acct.id], folder, ai, ai_image=not args.no_image,
+                                  keep_spares=False, save_background=True, log=log,
+                                  slot=slot_name(index, cfg), index=index, others=others)
+                hists[acct.id].add({**post, "status": SENT})   # pretend it was sent, so the next one moves on
     log(f"\nSlides are in {out}")
     return 0
 
 
-def cmd_authorize(args, cfg) -> int:
+def cmd_authorize(args, base_cfg) -> int:
+    acct = config.get_account(base_cfg, args.account)
+    cfg = switch(acct, base_cfg)
+    who = label(acct)
     t = cfg["tiktok"]
     key = secret("TOKEN_KEY")
     tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
     state = pysecrets.token_urlsafe(12)
     url = tt.authorize_url(t["redirect_uri"], t["scopes"], state)
-    log("Opening TikTok in your browser. Log in as the Measy account and approve access.")
+    log(f"Opening TikTok in your browser. Log in as {who} and approve access.")
+    log("(If the browser is logged in to a different TikTok account, log out of it first.)")
     log(f"If nothing opens, go to:\n{url}\n")
     webbrowser.open(url)
     code = input("Paste the code shown on the page here: ").strip()
@@ -132,75 +209,94 @@ def cmd_authorize(args, cfg) -> int:
     try:
         name = tt.display_name(login["access_token"])
         log(f"Connected as: {name}" + ("" if name else " (no display name)"))
-        if name and input("Is this the Measy account? [y/n] ").strip().lower() not in ("y", "yes"):
-            log("Not saved. Log out of TikTok in the browser, log in as the Measy account and run authorize again.")
+        if name and input(f"Is this {who}? [y/n] ").strip().lower() not in ("y", "yes"):
+            log(f"Not saved. Log out of TikTok in the browser, log in as {who} and run authorize again.")
             return 1
     except TikTokError as e:
         log(f"(Couldn't read the account name: {e})")
     tokens.save(login, key)
-    log(f"Saved the login to {config.TOKEN_FILE.relative_to(config.ROOT)} (encrypted).")
-    log("Now commit and push it:  git add state/tiktok_token.enc && git commit -m \"TikTok login\" && git push")
+    path = config.TOKEN_FILE.relative_to(config.ROOT).as_posix()
+    log(f"Saved the login for {who} to {path} (encrypted).")
+    log(f"Now commit and push it:  git add {path} && git commit -m \"TikTok login\" && git push")
     return 0
 
 
-def cmd_status(args, cfg) -> int:
-    hist = History.load()
-    posts = sorted(hist.posts, key=lambda p: (p["date"], p.get("sent_at", "")))[-args.n:]
-    if not posts:
-        log("Nothing sent yet.")
-    for p in posts:
-        log(f"{p['date']}  {p.get('status', '?'):20s} {p.get('hook', '')}")
-        if p.get("error"):
-            log("    " + p["error"].splitlines()[0])
-    recipes = usable(catalogue.load_recipes(), cfg)
-    used = hist.last_used("groups")
-    groups = {r.group for r in recipes}
-    log(f"\n{len(used)} of {len(groups)} dishes posted at least once.")
+def cmd_status(args, base_cfg) -> int:
     key = os.environ.get("TOKEN_KEY")
-    if key and config.TOKEN_FILE.exists():
-        try:
-            login = tokens.load(key)
-            days = (login["refresh_expires_at"] - time.time()) / 86400
-            log(f"TikTok login valid for about {days:.0f} more days.")
-        except tokens.TokenError as e:
-            log(str(e))
+    for acct in selected_accounts(args, base_cfg):
+        cfg = switch(acct, base_cfg)
+        log(f"\n== {label(acct)} ==")
+        hist = History.load()
+        posts = sorted(hist.posts, key=lambda p: (p["date"], p.get("sent_at", "")))[-args.n:]
+        if not posts:
+            log("Nothing sent yet.")
+        for p in posts:
+            log(f"{p['date']}  {p.get('status', '?'):20s} {p.get('hook', '')}")
+            if p.get("error"):
+                log("    " + p["error"].splitlines()[0])
+        recipes = usable(catalogue.load_recipes(), cfg)
+        used = hist.last_used("groups")
+        log(f"{len(used)} of {len({r.group for r in recipes})} dishes posted at least once.")
+        if not config.TOKEN_FILE.exists():
+            log(f"Not connected to TikTok yet (run `python -m measybot authorize --account {acct.id}`).")
+        elif key:
+            try:
+                login = tokens.load(key)
+                days = (login["refresh_expires_at"] - time.time()) / 86400
+                log(f"TikTok login valid for about {days:.0f} more days.")
+            except tokens.TokenError as e:
+                log(str(e))
     return 0
 
 
-def cmd_stats(args, cfg) -> int:
-    """Fetches the TikTok numbers, updates the tuning and rebuilds the dashboard data."""
+def cmd_stats(args, base_cfg) -> int:
+    """Fetches the TikTok numbers, updates the tuning and rebuilds the dashboard, for each account."""
     from . import dashboard, stats, tuning
     key = secret("TOKEN_KEY")
-    login = tokens.load(key)
-    needed = [s for s in ("user.info.stats", "video.list") if s not in login.get("scope", "")]
-    if needed:
-        log(f"The TikTok login doesn't have {', '.join(needed)} yet, so there are no stats to read. "
-            "Add those scopes to the TikTok app, then run `python -m measybot authorize` again. Skipping.")
-        return 0
     tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
-    login = tt.refresh(login)
-    tokens.save(login, key)
-    account = tt.account_stats(login["access_token"])
-    videos = tt.videos(login["access_token"], max_pages=cfg.get("tracking", {}).get("video_pages", 10))
-    st = stats.update(stats.load(), account, videos, History.load())
-    stats.save(st)
-    tune = tuning.compute(st, cfg)
-    tuning.save(tune)
-    dashboard.write(dashboard.build(st, tune, cfg), cfg)
-    matched = sum(1 for v in st["videos"].values() if v.get("post"))
-    log(f"Followers {account.get('follower_count')}, {len(videos)} posts read, {matched} matched to the bot's "
-        f"drafts, {tune['scored_posts']} scored. Auto-tuning {'ON' if tune['active'] else 'not yet'}"
-        f" (needs {tune['needed']} scored posts).")
-    return 0
+    errors = 0
+    for acct in selected_accounts(args, base_cfg):
+        cfg = switch(acct, base_cfg)
+        who = label(acct)
+        if not config.TOKEN_FILE.exists():
+            log(f"{who}: not connected to TikTok yet. Skipping.")
+            continue
+        try:
+            login = tokens.load(key)
+            needed = [s for s in ("user.info.stats", "video.list") if s not in login.get("scope", "")]
+            if needed:
+                log(f"{who}: the TikTok login doesn't have {', '.join(needed)} yet. Run "
+                    f"`python -m measybot authorize --account {acct.id}` again. Skipping.")
+                continue
+            login = tt.refresh(login)
+            tokens.save(login, key)
+            account = tt.account_stats(login["access_token"])
+            videos = tt.videos(login["access_token"], max_pages=cfg.get("tracking", {}).get("video_pages", 10))
+        except (TikTokError, tokens.TokenError) as e:
+            log(f"ERROR reading the stats for {who}: {e}")
+            errors += 1
+            continue
+        st = stats.update(stats.load(), account, videos, History.load())
+        stats.save(st)
+        tune = tuning.compute(st, cfg)
+        tuning.save(tune)
+        dashboard.write(dashboard.build(st, tune, cfg), cfg)
+        matched = sum(1 for v in st["videos"].values() if v.get("post"))
+        log(f"{who}: followers {account.get('follower_count')}, {len(videos)} posts read, {matched} matched to "
+            f"the bot's drafts, {tune['scored_posts']} scored. Auto-tuning {'ON' if tune['active'] else 'not yet'}"
+            f" (needs {tune['needed']} scored posts).")
+    return 1 if errors else 0
 
 
-def cmd_dashboard(args, cfg) -> int:
+def cmd_dashboard(args, base_cfg) -> int:
     """Rebuilds the dashboard data from the saved stats (no TikTok calls)."""
     from . import dashboard, stats, tuning
-    st = stats.load()
-    tune = tuning.compute(st, cfg)
-    dashboard.write(dashboard.build(st, tune, cfg), cfg)
-    log(f"Dashboard data written to {dashboard.folder(cfg) / 'data.json'}")
+    for acct in selected_accounts(args, base_cfg):
+        cfg = switch(acct, base_cfg)
+        st = stats.load()
+        tune = tuning.compute(st, cfg)
+        dashboard.write(dashboard.build(st, tune, cfg), cfg)
+        log(f"{label(acct)}: dashboard data written to {dashboard.folder(cfg) / 'data.json'}")
     return 0
 
 
@@ -271,21 +367,28 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--again", action="store_true",
                    help="make another draft even if today's was already sent (for testing)")
     b.add_argument("--slot", type=int, help="with --again: which of the day's posts to copy (1, 2, 3...)")
+    b.add_argument("--account", help="only this account (default: every account)")
     s = sub.add_parser("send", help="send the built slides to TikTok drafts (step 2)")
     s.add_argument("--date")
-    s.add_argument("--post", help="folder name under site/p (default: the date)")
+    s.add_argument("--post", help="send one post: its folder name (default: everything build made)")
+    s.add_argument("--account", help="with --post: whose post (default: the first account)")
     d = sub.add_parser("dry-run", help="build some days of slides into a folder; nothing is sent")
     d.add_argument("--days", type=int, default=3)
     d.add_argument("--out", default="out")
     d.add_argument("--start", help="first date (default: today)")
     d.add_argument("--no-ai", action="store_true", help="don't call OpenAI at all")
     d.add_argument("--no-image", action="store_true", help="AI words but a placeholder cover picture")
-    sub.add_parser("authorize", help="log in to TikTok once (run on your PC)")
+    d.add_argument("--account", help="only this account (default: every account)")
+    au = sub.add_parser("authorize", help="log in to TikTok once (run on your PC)")
+    au.add_argument("--account", help="which account (default: the first)")
     st = sub.add_parser("status", help="show recent posts")
     st.add_argument("-n", type=int, default=10)
+    st.add_argument("--account", help="only this account")
     sub.add_parser("newkey", help="print a new TOKEN_KEY")
-    sub.add_parser("stats", help="read the TikTok numbers, update the tuning and the dashboard (daily)")
-    sub.add_parser("dashboard", help="rebuild the dashboard data from the saved stats")
+    sx = sub.add_parser("stats", help="read the TikTok numbers, update the tuning and the dashboard (daily)")
+    sx.add_argument("--account", help="only this account")
+    dx = sub.add_parser("dashboard", help="rebuild the dashboard data from the saved stats")
+    dx.add_argument("--account", help="only this account")
     lb = sub.add_parser("library", help="build the card-ready recipe library with OpenAI (one-off)")
     lb.add_argument("--only", help="comma-separated dish ids")
     ph = sub.add_parser("photos", help="make the AI food photos for the recipe cards (one-off)")

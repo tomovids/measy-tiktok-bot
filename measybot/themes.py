@@ -58,16 +58,21 @@ def angle_allowed(a: dict, day: date, slot: str) -> bool:
 
 
 def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], cfg: dict,
-           rng: random.Random, data: dict | None = None, boost: dict | None = None) -> Theme:
-    """`boost`: performance multipliers {"collection": {id: x}, "angle": {id: x}} (tuning.py)."""
+           rng: random.Random, data: dict | None = None, boost: dict | None = None,
+           avoid: set[str] | None = None) -> Theme:
+    """`boost`: performance multipliers {"collection": {id: x}, "angle": {id: x}} (tuning.py).
+    `avoid`: dishes another account posted recently (they don't count as available)."""
     data = data or load()
     boost = boost or {}
+    avoid = avoid or set()
     cw = boost.get("collection", {})
     aw = boost.get("angle", {})
     posts = sorted(hist.accepted(), key=lambda p: (p["date"], p.get("sent_at", "")))
     last_group = hist.last_used("groups")
 
     def free(g: str) -> bool:
+        if g in avoid:
+            return False
         d = last_group.get(g)
         return d is None or (day - d).days >= 1
 

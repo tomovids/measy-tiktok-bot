@@ -22,10 +22,13 @@ class PickError(Exception):
 
 def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
          rng: random.Random | None = None, allowed: set[str] | None = None,
-         caps_off: set[str] | frozenset = frozenset(), lead: dict[str, int] | None = None) -> list[Recipe]:
+         caps_off: set[str] | frozenset = frozenset(), lead: dict[str, int] | None = None,
+         avoid: set[str] | None = None) -> list[Recipe]:
     """Five dishes. `allowed` limits them to a theme's dishes; `caps_off` lifts the "protein" or
     "base" variety limit (a chicken theme can be all chicken); `lead` scores put the most
-    crave-worthy dish first. A dish is never posted twice on the same day."""
+    crave-worthy dish first; `avoid` = dishes another account posted recently (treated like
+    dishes posted today). A dish is never posted twice on the same day."""
+    avoid = avoid or set()
     p = cfg["picker"]
     n = p["recipes_per_post"]
     rng = rng or random.Random(f"{today.isoformat()}/picker")
@@ -41,6 +44,8 @@ def pick(recipes: list[Recipe], history: History, today: date, cfg: dict,
     last_file = history.last_used("files")
 
     def age(g: str) -> int:
+        if g in avoid:
+            return 0
         d = last_group.get(g)
         return NEVER_USED if d is None else (today - d).days
 

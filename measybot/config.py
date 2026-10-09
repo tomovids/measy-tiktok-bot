@@ -1,8 +1,16 @@
-"""Settings (config.toml), paths and secrets (.env locally, environment variables on GitHub)."""
+"""Settings (config.toml), accounts, paths and secrets (.env locally, environment variables on GitHub).
+
+Several TikTok accounts can be posted to ([[accounts]] in config.toml). The first account keeps
+its files in state/ (and its slides in site/p/); every other account has its own folder
+state/<id>/ (and site/p/<id>/). `use_account()` points the paths below at one account; every
+module reads them at call time, so the rest of the code works on "the current account".
+"""
 from __future__ import annotations
 
+import copy
 import os
 import tomllib
+from dataclasses import dataclass, field
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -11,10 +19,78 @@ IMAGES = ROOT / "images"
 RECIPE_DIR = IMAGES / "recipes"
 PROMO_DIR = IMAGES / "promo"
 STATE = ROOT / "state"
+SITE = ROOT / "site"
+
+# The current account's files (see use_account).
+ACCOUNT_DIR = STATE
 HISTORY_FILE = STATE / "history.json"
 TOKEN_FILE = STATE / "tiktok_token.enc"
 BACKGROUND_DIR = STATE / "backgrounds"
-SITE = ROOT / "site"
+STATS_FILE = STATE / "stats.json"
+TUNING_FILE = STATE / "tuning.json"
+POSTS_SUBDIR = ""          # "" or "<id>": slides go in site/p/<POSTS_SUBDIR>/
+
+
+@dataclass
+class Account:
+    id: str
+    name: str
+    handle: str = ""
+    primary: bool = True
+    overrides: dict = field(default_factory=dict)
+
+    @property
+    def state_dir(self) -> Path:
+        return STATE if self.primary else STATE / self.id
+
+    @property
+    def posts_subdir(self) -> str:
+        return "" if self.primary else self.id
+
+
+def accounts(cfg: dict) -> list[Account]:
+    rows = cfg.get("accounts") or [{"id": "measy", "name": "Measy"}]
+    return [Account(id=r["id"], name=r.get("name", r["id"]), handle=r.get("handle", ""), primary=(i == 0),
+                    overrides={k: v for k, v in r.items() if k not in ("id", "name", "handle")})
+            for i, r in enumerate(rows)]
+
+
+def get_account(cfg: dict, account_id: str | None) -> Account:
+    accs = accounts(cfg)
+    if not account_id:
+        return accs[0]
+    for a in accs:
+        if a.id == account_id or a.handle.lstrip("@") == account_id.lstrip("@"):
+            return a
+    raise ConfigError(f"No account '{account_id}' in config.toml (have: {', '.join(a.id for a in accs)}).")
+
+
+def account_cfg(cfg: dict, acct: Account) -> dict:
+    """config.toml with the account's own settings applied (times, store plan, stores, dashboard)."""
+    out = copy.deepcopy(cfg)
+    o = acct.overrides
+    if "post_times" in o:
+        out["schedule"]["post_times"] = o["post_times"]
+    if "store_plan" in o:
+        out.setdefault("store_rotation", {})["plan"] = o["store_plan"]
+    if "stores" in o:
+        out["stores"] = [s for s in out.get("stores", []) if s["id"] in o["stores"]]
+    if "dashboard_dir" in o:
+        out.setdefault("tracking", {})["dashboard_dir"] = o["dashboard_dir"]
+    out["account"] = {"id": acct.id, "name": acct.name, "handle": acct.handle, "primary": acct.primary}
+    return out
+
+
+def use_account(acct: Account) -> None:
+    """Points the state paths at this account's files."""
+    global ACCOUNT_DIR, HISTORY_FILE, TOKEN_FILE, BACKGROUND_DIR, STATS_FILE, TUNING_FILE, POSTS_SUBDIR
+    ACCOUNT_DIR = acct.state_dir
+    HISTORY_FILE = ACCOUNT_DIR / "history.json"
+    TOKEN_FILE = ACCOUNT_DIR / "tiktok_token.enc"
+    BACKGROUND_DIR = ACCOUNT_DIR / "backgrounds"
+    STATS_FILE = ACCOUNT_DIR / "stats.json"
+    TUNING_FILE = ACCOUNT_DIR / "tuning.json"
+    POSTS_SUBDIR = acct.posts_subdir
 
 
 class ConfigError(Exception):

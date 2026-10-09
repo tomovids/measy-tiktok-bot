@@ -7,6 +7,11 @@ It runs on GitHub's servers, so your PC can be off. The 07:30 and 16:30 posts ar
 The recipe cards are the same for every store; the hook, the cover's store front and the hashtags change,
 and only Aldi posts make £ claims (the card prices are Aldi prices).
 
+A second account, **@mealswithmeasy**, gets 2 drafts a day (09:30 and 14:30) about Tesco, Sainsbury's,
+Asda and Lidl in turn. The accounts never post the same dish on the same or the next day and never
+share hooks. Each account has its own TikTok login, history, stats and dashboard (`config.toml
+[[accounts]]`; the second account's files are in `state/mealswithmeasy/`).
+
 1. **Cover:** a fresh AI picture of the post's supermarket (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.
 2. **Slides 2-6:** five Measy recipe cards (an AI food photo + the full recipe, drawn by code from
@@ -26,11 +31,12 @@ Setup: see [SETUP.md](SETUP.md). Design: [docs/superpowers/specs](docs/superpowe
 
 ```
 python -m measybot dry-run --days 3     # build 3 days of slides into out\ (nothing is sent)
-python -m measybot status               # recent posts and the TikTok login's expiry
-python -m measybot authorize            # log in to TikTok (once a year)
+python -m measybot status               # recent posts and the TikTok login's expiry, per account
+python -m measybot authorize            # log in to TikTok (once a year); add --account mealswithmeasy
 python -m measybot build / send         # what the GitHub Action runs
 ```
 
+Every command except `authorize` covers all accounts; `--account <id>` picks one.
 On Windows use `.\.venv\Scripts\python.exe` instead of `python`. Tests: `.\.venv\Scripts\python.exe -m pytest`.
 
 ## Changing things

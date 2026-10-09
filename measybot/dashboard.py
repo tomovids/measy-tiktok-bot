@@ -115,6 +115,8 @@ def build(st: dict, tune: dict, cfg: dict, first_bot_day: str | None = None) -> 
         "lead": _table(rows, lambda r: r.get("lead"), labels["lead"]),
     }
     return {
+        "title": cfg.get("account", {}).get("name", "Measy") + " TikTok performance",
+        "handle": cfg.get("account", {}).get("handle", ""),
         "updated": st.get("updated") or datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "kpis": {
             "followers": now_f,
