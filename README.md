@@ -7,12 +7,21 @@ It runs on GitHub's servers, so your PC can be off. The 07:30 and 16:30 posts ar
 The recipe cards are the same for every store; the hook, the cover's store front and the hashtags change,
 and only Aldi posts make £ claims (the card prices are Aldi prices).
 
-Two more accounts get 2 drafts a day each about Tesco, Sainsbury's, Asda and Lidl in turn:
-**@mealswithmeasy** (09:30 and 14:30) and **@ethaniscookingdaily** (11:00 and 19:00, starting halfway
-round the stores so the two rarely match). No dish appears twice in a day across all the accounts,
-the accounts avoid each other's dishes from the day before when they can, and they never share
-hooks. Each account has its own TikTok login, history, stats and dashboard (`config.toml
-[[accounts]]`; the extra accounts' files are in `state/<id>/`).
+Two more accounts get 2 drafts a day each:
+- **@mealswithmeasy** is the US account: Walmart, Aldi (US) and Trader Joe's in turn, at 12:00 and 17:00
+  US Eastern. Everything is American: the hooks and captions (takeout, groceries...), the hashtags, the
+  cover (a US store and parking lot) and the recipe cards (US ingredient names and units, °F, $ prices
+  at typical Walmart / Aldi US prices, from `data/recipe_library_us.json`). `[regions.us]` in config.toml.
+- **@ethaniscookingdaily** (UK): Tesco, Sainsbury's, Asda and Lidl in turn, at 11:00 and 19:00.
+
+No dish appears twice in a day across the accounts, they avoid each other's dishes from the day
+before when they can, and they never share hooks. Each account has its own TikTok login, history,
+stats and tuning (`config.toml [[accounts]]`; the extra accounts' files are in `state/<id>/`).
+The GitHub workflow checks every 30 minutes and sends whatever is due.
+
+**Dashboard:** one page for every account (an overview with today's drafts and anything that needs
+attention, then a tab per account), at `<pages address>/insights-5c3xnv64/`. It's rebuilt by the
+stats run twice a day.
 
 1. **Cover:** a fresh AI picture of the post's supermarket (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.
@@ -34,7 +43,9 @@ Setup: see [SETUP.md](SETUP.md). Design: [docs/superpowers/specs](docs/superpowe
 ```
 python -m measybot dry-run --days 3     # build 3 days of slides into out\ (nothing is sent)
 python -m measybot status               # recent posts and the TikTok login's expiry, per account
-python -m measybot authorize            # log in to TikTok (once a year); add --account mealswithmeasy
+python -m measybot authorize            # log in to TikTok (once a year); add --account <id>
+python -m measybot dashboard            # rebuild the dashboard from the saved stats
+python -m measybot localize --region us # remake the US recipe cards (after changing the UK ones)
 python -m measybot build / send         # what the GitHub Action runs
 ```
 

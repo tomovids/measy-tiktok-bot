@@ -35,11 +35,10 @@ def test_second_account_has_its_own_files(cfg, restore_account):
 
 
 def test_account_settings(cfg):
-    acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
-    assert acfg["schedule"]["post_times"] == ["09:30", "14:30"]
+    acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
+    assert acfg["schedule"]["post_times"] == ["11:00", "19:00"]
     assert acfg["store_rotation"]["plan"] == ["rotate", "rotate"]
     assert {s.id for s in stores.load(acfg)} == {"tesco", "sainsburys", "asda", "lidl"}
-    assert acfg["tracking"]["dashboard_dir"] != cfg["tracking"]["dashboard_dir"]
     assert acfg["account"]["primary"] is False
     # the first account is unchanged
     main = config.account_cfg(cfg, config.get_account(cfg, None))
@@ -52,8 +51,8 @@ def test_unknown_account(cfg):
         config.get_account(cfg, "nobody")
 
 
-def test_second_account_never_uses_aldi(cfg):
-    acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
+def test_uk_tester_account_never_uses_aldi(cfg):
+    acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
     hist = History()
     seen = set()
     for i in range(8):
@@ -73,18 +72,30 @@ def test_avoids_the_other_accounts_dishes(cfg):
     assert not avoid & {r.group for r in second}
 
 
-def test_accounts_start_on_different_stores(cfg):
-    firsts = []
-    for acct_id in ("mealswithmeasy", "ethaniscookingdaily"):
-        acfg = config.account_cfg(cfg, config.get_account(cfg, acct_id))
-        hist = History()
-        day = []
-        for i in range(2):
-            s = stores.choose(hist, acfg, random.Random(i), i)
-            day.append(s.id)
-            hist.add({"date": "2026-10-10", "store": s.id, "status": SENT})
-        firsts.append(set(day))
-    assert not firsts[0] & firsts[1]
+def test_us_account(cfg):
+    acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
+    assert acfg["region"]["id"] == "us" and acfg["region"]["currency"] == "$"
+    assert acfg["schedule"]["timezone"] == "America/New_York"
+    assert [s.id for s in stores.load(acfg)] == ["walmart", "aldius", "traderjoes"]
+    assert "#ukfood" not in acfg["caption"]["hashtags"]
+    assert "parking lot" in acfg["cover"]["prompt"]
+    # UK accounts never see the US stores
+    for a in ("measy", "ethaniscookingdaily"):
+        ids = {s.id for s in stores.load(config.account_cfg(cfg, config.get_account(cfg, a)))}
+        assert not ids & {"walmart", "aldius", "traderjoes"}
+
+
+def test_dollar_claims(cfg):
+    from measybot import writer
+    acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
+    facts = writer.Facts(total_gbp=31.2, max_serving_gbp=2.4, max_time=25)
+    assert writer.claim_problems("5 dinners for under $35", facts, "$") == []
+    assert writer.claim_problems("5 dinners for under $20", facts, "$")
+    assert writer.claim_problems("5 dinners for under £35", facts, "$")    # wrong currency
+    assert writer.claim_problems("only 99 cents", facts, "$")
+    assert writer.load_fallbacks(region="us")
+    w = writer.fallback(facts, [], acfg, random.Random(1), store=stores.load(acfg)[0])
+    assert "Walmart" in w.hook and "takeaway" not in w.hook.lower()
 
 
 def test_yesterdays_dishes_elsewhere_are_only_avoided_when_possible(cfg):
@@ -96,3 +107,23 @@ def test_yesterdays_dishes_elsewhere_are_only_avoided_when_possible(cfg):
     # ...and all of them today: their posts are ignored rather than failing
     picks = pick(recipes, History(), date(2026, 10, 9), cfg, random.Random(2), avoid=dict.fromkeys(groups, 0))
     assert len({r.group for r in picks}) == 5
+
+
+def test_one_dashboard_for_every_account(cfg):
+    from measybot import dashboard
+    data = dashboard.build_all(cfg)
+    assert [a["id"] for a in data["accounts"]] == ["measy", "mealswithmeasy", "ethaniscookingdaily"]
+    us = data["accounts"][1]
+    assert us["currency"] == "$" and us["region"] == "us"
+    assert "ET" in us["drafts"]["next"]
+    assert config.HISTORY_FILE == config.STATE / "history.json"      # back on the first account
+
+
+def test_us_cards_show_dollars(cfg, restore_account):
+    from measybot import card, library
+    config.use_account(config.get_account(cfg, "mealswithmeasy"))
+    lib = library.load()
+    assert len(lib) == len(library.load("uk"))
+    assert card.money(1.5) == "$1.50"
+    config.use_account(config.get_account(cfg, None))
+    assert card.money(1.5) == "£1.50"

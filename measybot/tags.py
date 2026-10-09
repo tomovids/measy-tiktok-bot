@@ -110,4 +110,4 @@ def crave_score(tags: set[str]) -> int:
 
 def all_tags() -> dict[str, set[str]]:
     from . import library
-    return {g: tags_for(g, e) for g, e in library.load().items()}
+    return {g: tags_for(g, e) for g, e in library.load("uk").items()}   # tags come from the UK words and prices

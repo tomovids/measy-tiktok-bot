@@ -52,7 +52,8 @@ SIGN_COLOURS = {
     "red": lambda r, g, b: r > 170 and g < 70 and b < 80,
     "orange": lambda r, g, b: r > 210 and 80 < g < 170 and b < 70 and r - g > 60,
 }
-STORE_SIGN = {"aldi": "yellow", "lidl": "yellow", "asda": "green", "tesco": "red", "sainsburys": "orange"}
+STORE_SIGN = {"aldi": "yellow", "lidl": "yellow", "asda": "green", "tesco": "red", "sainsburys": "orange",
+              "aldius": "yellow", "walmart": "yellow", "traderjoes": "red"}   # Walmart: its yellow spark
 
 
 def find_sign(img: Image.Image, store: str = "aldi") -> tuple[int, int] | None:

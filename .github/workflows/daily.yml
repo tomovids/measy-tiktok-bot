@@ -2,22 +2,10 @@ name: Daily TikTok draft
 
 on:
   schedule:
-    # UK times (config.toml): Measy 07:30, 12:00, 16:30; Meals with Measy 09:30, 14:30;
-    # Ethan Is Cooking Daily 11:00, 19:00. Each time has a summer (BST) and a winter (GMT) run;
-    # the bot only builds drafts that are due and not yet sent, for every account.
-    - cron: "30 6 * * *"
-    - cron: "30 7 * * *"
-    - cron: "30 8 * * *"
-    - cron: "30 9 * * *"
-    - cron: "0 10 * * *"
-    - cron: "0 11 * * *"
-    - cron: "0 12 * * *"
-    - cron: "30 13 * * *"
-    - cron: "30 14 * * *"
-    - cron: "30 15 * * *"
-    - cron: "30 16 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 19 * * *"
+    # Every 30 minutes: each run builds whatever drafts are due (config.toml post_times, each account in
+    # its own time zone) and not yet sent, so a run GitHub skips or delays is caught up by the next one,
+    # and changing the times needs no change here. Runs with nothing due finish in under a minute.
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       force:

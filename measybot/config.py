@@ -29,6 +29,9 @@ BACKGROUND_DIR = STATE / "backgrounds"
 STATS_FILE = STATE / "stats.json"
 TUNING_FILE = STATE / "tuning.json"
 POSTS_SUBDIR = ""          # "" or "<id>": slides go in site/p/<POSTS_SUBDIR>/
+# The current account's audience ([regions.<id>] in config.toml; "uk" has no block, it's the default).
+REGION = "uk"
+CURRENCY = {"uk": "£", "us": "$"}
 
 
 @dataclass
@@ -79,13 +82,24 @@ def account_cfg(cfg: dict, acct: Account) -> dict:
         out["stores"] = [by_id[i] for i in o["stores"] if i in by_id]
     if "dashboard_dir" in o:
         out.setdefault("tracking", {})["dashboard_dir"] = o["dashboard_dir"]
+    region = o.get("region", "uk")
+    reg = copy.deepcopy(cfg.get("regions", {}).get(region, {}))
+    for section in ("caption", "words", "cover"):
+        out.setdefault(section, {}).update(reg.pop(section, {}))
+    if "timezone" in reg:
+        out["schedule"]["timezone"] = reg["timezone"]
+    if "timezone" in o:
+        out["schedule"]["timezone"] = o["timezone"]
+    # stores belong to a region (default uk); an account only ever sees its region's stores
+    out["stores"] = [s for s in out.get("stores", []) if s.get("region", "uk") == region]
+    out["region"] = {"id": region, "currency": CURRENCY.get(region, "£"), **reg}
     out["account"] = {"id": acct.id, "name": acct.name, "handle": acct.handle, "primary": acct.primary}
     return out
 
 
 def use_account(acct: Account) -> None:
     """Points the state paths at this account's files."""
-    global ACCOUNT_DIR, HISTORY_FILE, TOKEN_FILE, BACKGROUND_DIR, STATS_FILE, TUNING_FILE, POSTS_SUBDIR
+    global ACCOUNT_DIR, HISTORY_FILE, TOKEN_FILE, BACKGROUND_DIR, STATS_FILE, TUNING_FILE, POSTS_SUBDIR, REGION
     ACCOUNT_DIR = acct.state_dir
     HISTORY_FILE = ACCOUNT_DIR / "history.json"
     TOKEN_FILE = ACCOUNT_DIR / "tiktok_token.enc"
@@ -93,6 +107,11 @@ def use_account(acct: Account) -> None:
     STATS_FILE = ACCOUNT_DIR / "stats.json"
     TUNING_FILE = ACCOUNT_DIR / "tuning.json"
     POSTS_SUBDIR = acct.posts_subdir
+    REGION = acct.overrides.get("region", "uk")
+
+
+def currency() -> str:
+    return CURRENCY.get(REGION, "£")
 
 
 class ConfigError(Exception):

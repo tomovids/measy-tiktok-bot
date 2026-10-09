@@ -93,7 +93,7 @@ def usable(recipes: list[Recipe], cfg: dict) -> list[Recipe]:
     p = cfg["picker"]
     layouts = set(p.get("layouts") or [])
     return [r for r in recipes
-            if not (p.get("skip_dollar_cards") and r.currency == "USD")
+            if not (p.get("skip_dollar_cards") and r.currency == "USD" and r.layout != "card")
             and (not layouts or r.layout in layouts)]
 
 

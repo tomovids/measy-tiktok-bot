@@ -29,7 +29,10 @@ class Store:
 
 def load(cfg: dict) -> list[Store]:
     out = []
+    region = cfg.get("region", {}).get("id", "uk")
     for s in cfg.get("stores", []):
+        if s.get("region", "uk") != region:
+            continue
         out.append(Store(id=s["id"], name=s["name"], sign=s["sign"],
                          words=[w.lower() for w in s.get("words", [s["name"]])],
                          hashtags=list(s.get("hashtags", [])), price_claims=s.get("price_claims", False),

@@ -108,8 +108,8 @@ Until an account's login exists the bot just skips that account.
 ## 7. First real draft
 
 On GitHub: **Actions → Daily TikTok draft → Run workflow**. After a few minutes the TikTok app shows a
-notification: open it, add a sound, post. From then on it runs three times a day, at 07:30, 12:00 and 16:30, by itself
-(change the times in `config.toml` and the workflow).
+notification: open it, add a sound, post. From then on it runs by itself: the workflow checks every 30 minutes and
+sends each account's drafts once they're due (times in `config.toml`).
 
 ## If something goes wrong
 

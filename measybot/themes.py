@@ -63,6 +63,8 @@ def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], 
     """`boost`: performance multipliers {"collection": {id: x}, "angle": {id: x}} (tuning.py).
     `avoid`: dishes other accounts posted recently, {dish: days ago}; today's don't count as available."""
     data = data or load()
+    skip = set(cfg.get("region", {}).get("skip_collections", []))
+    collections = [c for c in data["collections"] if c["id"] not in skip]
     boost = boost or {}
     avoid = avoid if isinstance(avoid, dict) else dict.fromkeys(avoid or (), 0)
     cw = boost.get("collection", {})
@@ -86,18 +88,18 @@ def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], 
             pairs[(t["collection"], t.get("angle"))] = d
     recent_angles = [(p.get("theme") or {}).get("angle") for p in posts[-3:]]
 
-    groups_for = {c["id"]: {g for g, tg in dish_tags.items() if fits(tg, c)} for c in data["collections"]}
+    groups_for = {c["id"]: {g for g, tg in dish_tags.items() if fits(tg, c)} for c in collections}
     gap = cfg["picker"].get("collection_gap_days", 4)
     chosen_c = None
     for g_days in (gap, 2, 1, 0):
-        cands = [c for c in data["collections"]
+        cands = [c for c in collections
                  if sum(1 for g in groups_for[c["id"]] if free(g)) >= MIN_DISHES
                  and (c["id"] not in coll_last or (day - coll_last[c["id"]]).days >= g_days)]
         if cands:
             chosen_c = rng.choices(cands, weights=[c.get("weight", 1) * cw.get(c["id"], 1.0) for c in cands])[0]
             break
     if chosen_c is None:
-        chosen_c = next(c for c in data["collections"] if c["id"] == "anything")
+        chosen_c = next(c for c in collections if c["id"] == "anything")
 
     angles = [a for a in data["angles"] if angle_allowed(a, day, slot)]
     chosen_a = None

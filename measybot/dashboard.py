@@ -148,3 +148,98 @@ def write(data: dict, cfg: dict) -> None:
     out = folder(cfg)
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+# ---- every account on one page ------------------------------------------------------------------
+
+STATUS = {"SEND_TO_USER_INBOX": "In drafts", "PUBLISH_COMPLETE": "Posted", "FAILED": "Failed",
+          "PROCESSING_DOWNLOAD": "Sending", "PROCESSING_UPLOAD": "Sending"}
+FLAGS = {"uk": "🇬🇧", "us": "🇺🇸"}
+TZ_SHORT = {"Europe/London": "UK", "America/New_York": "ET"}
+
+
+def _drafts(hist, cfg: dict, labels: dict, now: datetime) -> dict:
+    from zoneinfo import ZoneInfo
+    tz = ZoneInfo(cfg["schedule"]["timezone"])
+    uk = ZoneInfo("Europe/London")
+    local = now.astimezone(tz)
+    times = [tuple(map(int, t.split(":"))) for t in cfg["schedule"]["post_times"]]
+    done = hist.count_on(local.date())
+    if done < len(times):
+        h, m = times[done]
+        nxt, day = local.replace(hour=h, minute=m, second=0, microsecond=0), "today"
+    else:
+        h, m = times[0]
+        nxt, day = (local + timedelta(days=1)).replace(hour=h, minute=m, second=0, microsecond=0), "tomorrow"
+    overdue = nxt <= local
+    short = TZ_SHORT.get(cfg["schedule"]["timezone"], "")
+    clock = f"{nxt:%H:%M}" + (f" {short} ({nxt.astimezone(uk):%H:%M} UK)" if short != "UK" else "")
+    nxt_txt = f"{clock} draft due now" if overdue else f"next {day} {clock}"
+    posts = sorted(hist.posts, key=lambda p: p.get("sent_at") or p.get("built_at") or p["date"], reverse=True)
+    rows = []
+    for p in posts[:30]:
+        th = p.get("theme") or {}
+        rows.append({"date": p["date"], "sent_at": p.get("sent_at"), "slot": p.get("slot"),
+                     "store": labels["store"].get(p.get("store"), p.get("store") or ""),
+                     "theme": labels["collection"].get(th.get("collection"), th.get("label") or ""),
+                     "hook": p.get("hook"), "subline": p.get("subline"), "score": p.get("hook_score"),
+                     "status": STATUS.get(p.get("status"), (p.get("status") or "").replace("_", " ").title()),
+                     "failed": p.get("status") == "FAILED", "test": bool(p.get("extra")),
+                     "error": _error(p.get("error"))})
+    return {"today": done, "per_day": len(times), "next": nxt_txt, "overdue": overdue, "local_date": local.date().isoformat(),
+            "times": cfg["schedule"]["post_times"], "timezone": short or cfg["schedule"]["timezone"],
+            "recent": rows}
+
+
+def _error(text: str | None) -> str | None:
+    if not text:
+        return None
+    if "too_many_pending" in text:
+        return "TikTok's limit of 5 waiting drafts was hit"
+    first = text.splitlines()[0]
+    return first.split(" (log id")[0][:160]
+
+
+def _login_days() -> float | None:
+    import os
+    import time
+    from . import tokens
+    key = os.environ.get("TOKEN_KEY")
+    if not key or not config.TOKEN_FILE.exists():
+        return None
+    try:
+        return round((tokens.load(key)["refresh_expires_at"] - time.time()) / 86400)
+    except tokens.TokenError:
+        return None
+
+
+def build_all(base_cfg: dict, now: datetime | None = None) -> dict:
+    """One dashboard for every account (written to the first account's dashboard folder)."""
+    from . import tuning
+    from .history import History
+    now = now or datetime.now(timezone.utc)
+    out = []
+    try:
+        for acct in config.accounts(base_cfg):
+            config.use_account(acct)
+            cfg = config.account_cfg(base_cfg, acct)
+            st = stats.load()
+            has_stats = bool(st.get("account"))
+            tune = tuning.compute(st, cfg)
+            region = cfg["region"]["id"]
+            out.append({
+                "id": acct.id, "name": acct.name, "handle": acct.handle, "region": region,
+                "flag": FLAGS.get(region, ""), "currency": cfg["region"]["currency"],
+                "connected": config.TOKEN_FILE.exists(), "paused": bool(acct.overrides.get("paused")),
+                "login_days": _login_days(),
+                "stores": [s.name for s in stores.load(cfg)],
+                "drafts": _drafts(History.load(), cfg, _labels(cfg), now),
+                "stats": build(st, tune, cfg) if has_stats else None,
+            })
+    finally:
+        config.use_account(config.accounts(base_cfg)[0])
+    return {"updated": now.isoformat(timespec="minutes"), "accounts": out}
+
+
+def write_all(base_cfg: dict) -> None:
+    write(build_all(base_cfg), config.account_cfg(base_cfg, config.accounts(base_cfg)[0]))

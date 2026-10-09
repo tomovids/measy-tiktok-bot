@@ -123,7 +123,7 @@ def fit_line(text: str, max_w: float, size: int = 56, min_size: int = 42):
 
 
 def money(x: float) -> str:
-    return f"£{x:.2f}"
+    return f"{config.currency()}{x:.2f}"
 
 
 # ---- pieces -----------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ def _price_badge(img: Image.Image, r: CardRecipe, cx: int, cy: int, radius: int 
     if r.per_serving is not None:
         d.text((cx, cy - 46), "only", font=font(CAVEAT, 40), fill=WHITE, anchor="ms")
         d.text((cx, cy + 22), money(r.per_serving), font=font(FRAUNCES, 66), fill=WHITE, anchor="ms")
-        d.text((cx, cy + 62), "a portion", font=font(SANS_BOLD, 26), fill=WHITE, anchor="ms")
+        d.text((cx, cy + 62), "per serving" if config.REGION == "us" else "a portion", font=font(SANS_BOLD, 26), fill=WHITE, anchor="ms")
     else:
         d.text((cx, cy - 20), "Total", font=font(CAVEAT, 40), fill=WHITE, anchor="ms")
         d.text((cx, cy + 40), money(r.total), font=font(FRAUNCES, 66), fill=WHITE, anchor="ms")

@@ -1,0 +1,31 @@
+# US accounts: used only when the AI writer fails. "Aldi" becomes the post's store.
+# One hook per line; "hook | second line" adds a sub-line. $ amounts and minutes are only used when
+# the day's recipes back the claim up.
+5 Aldi Dinners I'd Make on Repeat 😋
+5 Aldi Dinners Better Than Takeout 🍔
+5 Aldi Dinners for When You're About to Order Takeout 😩
+5 Aldi Meals for When You Have NO Idea What to Cook This Week 😭🛒
+5 Aldi Dinners to Send to Someone Who Never Knows What to Cook 😂
+5 Aldi Dinners for When You CANNOT Be Bothered to Cook 😭
+5 Aldi Dinners for When Your Bank Account Says "Absolutely Not" 😭💸
+5 Aldi Dinners That Taste Way Too Good for the Price 🤤
+5 Aldi Dinners My Family Actually Asks For Again 🙌
+5 Cheap Aldi Dinners That Don't Taste Cheap 👀
+5 Aldi Dinners to Get You Through the Week 🛒
+5 Aldi Dinners for When Payday Feels Years Away 😭💸
+5 Aldi Copycat Takeout Dinners You Need This Week 🍔🔥
+5 Aldi Dinners for People Who Hate Meal Planning 😩🛒
+5 Aldi Dinners Worth Skipping the Drive-Thru For 🔥
+5 Aldi Dinners That Feel Like a Treat 😍 | Big flavor, tiny budget 👀
+5 Aldi Dinners for Your Next Grocery Run 🛒💸
+5 Aldi Dinners That Make You Look Like You Can Cook 😂
+5 Aldi Dinners for a Cozy Night In 🫶
+5 Aldi Dinners I'm Obsessed With Right Now 🤤
+5 Aldi Dinners for When You're Too Tired to Think 😴
+5 Aldi Dinners Your Group Chat Needs to See 👀
+5 Aldi Dinners for Feeding the Whole Family 🙌
+5 Aldi Dinners to Screenshot for Later 👇
+5 Aldi Weeknight Dinners Ready in 30 Minutes or Less ⏰
+5 LAZY Aldi Dinners Ready in 20 Minutes or Less 😭⏰
+5 Aldi Dinners That Feel Like Takeout for Under $25 💵 | Big flavor, tiny budget 👀
+5 Aldi Dinners From ONE $40 Grocery Run 🛒💸

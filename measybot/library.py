@@ -16,6 +16,12 @@ from .openai_api import OpenAI, OpenAIError
 
 LIBRARY = config.DATA / "recipe_library.json"
 
+
+def library_file(region: str | None = None) -> Path:
+    """data/recipe_library.json (UK), or data/recipe_library_<region>.json (made by `localize`)."""
+    region = region or config.REGION
+    return LIBRARY if region == "uk" else config.DATA / f"recipe_library_{region}.json"
+
 SYSTEM = """You prepare recipes for Measy, a UK budget meal-planning app whose recipes are made from an
 Aldi UK shop. You turn a transcribed recipe card into a clean, card-ready recipe. British English.
 Answer with a JSON object only."""
@@ -135,5 +141,87 @@ def build(client: OpenAI, cfg: dict, only: list[str] | None = None, log=print, w
     return library
 
 
-def load() -> dict:
-    return json.loads(LIBRARY.read_text(encoding="utf-8")) if LIBRARY.exists() else {}
+def load(region: str | None = None) -> dict:
+    path = library_file(region)
+    if not path.exists():
+        if (region or config.REGION) != "uk":
+            raise FileNotFoundError(f"{path.name} is missing: run `python -m measybot localize --region "
+                                    f"{region or config.REGION}`.")
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+# ---- other countries ------------------------------------------------------------------------------
+
+US_SYSTEM = """You adapt UK recipes for Measy's American audience. You turn a card-ready UK recipe (Aldi UK
+prices in pounds) into the same dish for a US home cook shopping at Walmart or Aldi US. American English.
+Answer with a JSON object only."""
+
+US_RULES = """Rules:
+- Same dish, same number of ingredients and steps, same "serves", "prep_mins", "cook_mins", "calories".
+- "title": keep it unless it uses a British food word; then use the American one (mince -> ground beef,
+  jacket potato -> baked potato, chips -> fries, courgette -> zucchini, takeaway -> takeout). Max 40
+  characters. "subtitle": American English, max 40 characters, no emoji, prices or numbers.
+- "ingredients": each {"item", "qty", "price"}. "item": the American name (ground beef (93% lean), bell
+  pepper, cilantro, scallions, heavy cream, all-purpose flour, zucchini, cheddar, tomato paste, chicken
+  broth, rotisserie...), lower case, no preparation words. "qty": US units a shopper would buy or measure
+  (1 lb, 8 oz, 1 cup, 2 tbsp, 1 can (14 oz), 2), or null for pantry staples. Convert sensibly (500g mince
+  -> 1 lb ground beef, 400g tin -> 1 can (14 oz), 300ml cream -> 1 cup heavy cream).
+  "price": what that amount costs at Walmart / Aldi US in 2025-26, in US dollars (a number). Pantry
+  staples like salt, pepper or oil cost 0.05-0.20. Price realistically; never bend prices to a total.
+- "method": the same 4 or 5 steps, each {"title": 2-4 words, "text": at most 130 characters}, in
+  American English (skillet, stovetop, broil, oven in °F e.g. 400°F, cilantro...).
+- "tip": the same idea in American English, at most 110 characters.
+Return {"title", "subtitle", "serves", "prep_mins", "cook_mins", "calories", "ingredients", "method", "tip"}."""
+
+
+def localize(client: OpenAI, cfg: dict, region: str = "us", only: list[str] | None = None, log=print,
+             workers: int = 6) -> dict:
+    """Makes data/recipe_library_<region>.json from the UK library (US: American words, units, $)."""
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    if region != "us":
+        raise ValueError(f"No rules for region {region!r} yet.")
+    uk = load("uk")
+    path = library_file(region)
+    out = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    todo = [g for g in sorted(uk) if (g in only if only else g not in out)]
+    lock = threading.Lock()
+    previous = config.REGION
+    config.REGION = region          # check() draws the card with $ prices
+
+    def one(group: str) -> dict:
+        src = {k: v for k, v in uk[group].items() if k not in ("ai_filled", "group", "source_card")}
+        user = "UK recipe:\n" + json.dumps(src, ensure_ascii=False, indent=1) + "\n\n" + US_RULES
+        feedback = ""
+        for attempt in range(3):
+            entry = client.chat_json(cfg["openai"]["text_model"], US_SYSTEM, user + feedback)
+            for k in ("serves", "prep_mins", "cook_mins", "calories"):
+                entry[k] = uk[group].get(k)
+            problems = check(entry)
+            if not problems:
+                entry.update(group=group, source_card=uk[group].get("source_card"), localized_from="uk")
+                return entry
+            log(f"  {group}: attempt {attempt + 1} needs fixing: {'; '.join(problems)}")
+            feedback = ("\n\nYour last answer:\n" + json.dumps(entry, ensure_ascii=False)
+                        + "\nProblems: " + "; ".join(problems) + ". Fix them.")
+        raise OpenAIError(f"Couldn't adapt {group}.")
+
+    try:
+        with ThreadPoolExecutor(workers) as pool:
+            jobs = {pool.submit(one, g): g for g in todo}
+            for job in as_completed(jobs):
+                g = jobs[job]
+                try:
+                    entry = job.result()
+                except OpenAIError as e:
+                    log(f"FAILED {g}: {e}")
+                    continue
+                with lock:
+                    out[g] = entry
+                    path.write_text(json.dumps(dict(sorted(out.items())), ensure_ascii=False, indent=1) + "\n",
+                                    encoding="utf-8")
+                log(f"done {g}: {entry['title']} ({len(out)} of {len(uk)})")
+    finally:
+        config.REGION = previous
+    return out

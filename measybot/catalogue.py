@@ -86,6 +86,6 @@ def load_cards(rows: list[dict]) -> list[Recipe]:
         for photo in photos.photos_for(group):
             out.append(Recipe(
                 file=f"card:{photo.stem}", dish=e["title"], group=group, protein=m.get("protein"),
-                base=m.get("base"), currency="GBP", cost_total=total, cost_per_serving=None,
+                base=m.get("base"), currency="USD" if config.REGION == "us" else "GBP", cost_total=total, cost_per_serving=None,
                 serves=e.get("serves"), time_mins=mins, layout="card"))
     return out

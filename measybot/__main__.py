@@ -283,23 +283,20 @@ def cmd_stats(args, base_cfg) -> int:
         stats.save(st)
         tune = tuning.compute(st, cfg)
         tuning.save(tune)
-        dashboard.write(dashboard.build(st, tune, cfg), cfg)
         matched = sum(1 for v in st["videos"].values() if v.get("post"))
         log(f"{who}: followers {account.get('follower_count')}, {len(videos)} posts read, {matched} matched to "
             f"the bot's drafts, {tune['scored_posts']} scored. Auto-tuning {'ON' if tune['active'] else 'not yet'}"
             f" (needs {tune['needed']} scored posts).")
+    dashboard.write_all(base_cfg)
+    log(f"Dashboard updated for every account ({dashboard.folder(base_cfg) / 'data.json'}).")
     return 1 if errors else 0
 
 
 def cmd_dashboard(args, base_cfg) -> int:
-    """Rebuilds the dashboard data from the saved stats (no TikTok calls)."""
-    from . import dashboard, stats, tuning
-    for acct in selected_accounts(args, base_cfg):
-        cfg = switch(acct, base_cfg)
-        st = stats.load()
-        tune = tuning.compute(st, cfg)
-        dashboard.write(dashboard.build(st, tune, cfg), cfg)
-        log(f"{label(acct)}: dashboard data written to {dashboard.folder(cfg) / 'data.json'}")
+    """Rebuilds the dashboard data for every account from the saved stats (no TikTok calls)."""
+    from . import dashboard
+    dashboard.write_all(base_cfg)
+    log(f"Dashboard data written to {dashboard.folder(base_cfg) / 'data.json'}")
     return 0
 
 
@@ -317,6 +314,13 @@ def cmd_library(args, cfg) -> int:
     lib = library.build(openai_client(required=True), cfg, only=_only(args), log=log)
     filled = {g: e["ai_filled"] for g, e in lib.items() if e.get("ai_filled")}
     log(f"\n{len(lib)} recipes in data/recipe_library.json; {len(filled)} have AI-filled parts to check.")
+    return 0
+
+
+def cmd_localize(args, cfg) -> int:
+    from . import library
+    lib = library.localize(openai_client(required=True), cfg, args.region, only=_only(args), log=log)
+    log(f"{len(lib)} recipes in {library.library_file(args.region).name}")
     return 0
 
 
@@ -390,10 +394,12 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("newkey", help="print a new TOKEN_KEY")
     sx = sub.add_parser("stats", help="read the TikTok numbers, update the tuning and the dashboard (daily)")
     sx.add_argument("--account", help="only this account")
-    dx = sub.add_parser("dashboard", help="rebuild the dashboard data from the saved stats")
-    dx.add_argument("--account", help="only this account")
+    sub.add_parser("dashboard", help="rebuild the dashboard data from the saved stats")
     lb = sub.add_parser("library", help="build the card-ready recipe library with OpenAI (one-off)")
     lb.add_argument("--only", help="comma-separated dish ids")
+    lc = sub.add_parser("localize", help="make the recipe cards for another country (one-off, e.g. --region us)")
+    lc.add_argument("--region", default="us")
+    lc.add_argument("--only", help="comma-separated dish ids (redo just these)")
     ph = sub.add_parser("photos", help="make the AI food photos for the recipe cards (one-off)")
     ph.add_argument("--only", help="comma-separated dish ids")
     ph.add_argument("--variants", type=int, help="photos per dish (default from config)")
@@ -410,7 +416,7 @@ def main(argv: list[str] | None = None) -> int:
     cfg = load_config()
     commands = {"build": cmd_build, "send": cmd_send, "dry-run": cmd_dry_run,
                 "authorize": cmd_authorize, "status": cmd_status, "newkey": cmd_newkey,
-                "library": cmd_library, "photos": cmd_photos, "cards": cmd_cards,
+                "library": cmd_library, "localize": cmd_localize, "photos": cmd_photos, "cards": cmd_cards,
                 "stats": cmd_stats, "dashboard": cmd_dashboard}
     try:
         return commands[args.cmd](args, cfg)

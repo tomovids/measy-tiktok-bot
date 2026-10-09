@@ -1,8 +1,8 @@
 # Measy TikTok slideshow bot settings. Edit freely; the next run picks them up.
 
 [schedule]
-# One draft per time (UK time). GitHub may start a few minutes late. The GitHub workflow runs at
-# these times too: if you change them, change the cron lines in .github/workflows/daily.yml.
+# Measy's drafts: one per time (UK time). The GitHub workflow checks every 30 minutes, so a draft
+# arrives up to about half an hour after its time.
 post_times = ["07:30", "12:00", "16:30"]
 timezone = "Europe/London"
 
@@ -78,6 +78,34 @@ words = ["lidl"]
 sign = "the square Lidl logo sign (a yellow circle with a red ring and blue LIDL lettering, on a blue square)"
 hashtags = ["#lidl", "#lidluk", "#lidlfinds"]
 
+# US stores (region = "us"): only accounts with region = "us" use them. The US cards show typical
+# Walmart / Aldi US prices, so $ claims are allowed for those two, not for Trader Joe's.
+[[stores]]
+id = "walmart"
+region = "us"
+name = "Walmart"
+words = ["walmart"]
+sign = "the big blue Walmart lettering with the yellow spark logo, on a light facade"
+hashtags = ["#walmart", "#walmartfinds", "#walmartgroceries"]
+price_claims = true
+
+[[stores]]
+id = "aldius"
+region = "us"
+name = "Aldi"
+words = ["aldi"]
+sign = "the Aldi logo sign (blue ALDI lettering with orange, yellow and blue stripes)"
+hashtags = ["#aldi", "#aldifinds", "#aldiusa"]
+price_claims = true
+
+[[stores]]
+id = "traderjoes"
+region = "us"
+name = "Trader Joe's"
+words = ["trader joe"]
+sign = "the red Trader Joe's script lettering on the facade"
+hashtags = ["#traderjoes", "#traderjoesfinds", "#traderjoeshaul"]
+
 [cover]
 prompt = """Photorealistic photo of the outside of a UK {store} supermarket store front: {sign} \
 mounted high on the facade, large glass entrance doors, trolleys and a car park. {scene}. Tall vertical \
@@ -142,7 +170,8 @@ similar_threshold = 0.6
 # Words that must never appear in a hook, second line, intro or question (see data/brand.md).
 # The post's own supermarket is allowed; every other supermarket stays banned.
 avoid = ["aldi", "tesco", "lidl", "asda", "sainsbury", "morrisons", "waitrose", "iceland", "co-op",
-         "m&s", "healthy", "weight loss", "guilt-free", "guilt free", "detox", "skinny", "clean eating"]
+         "m&s", "walmart", "trader joe", "kroger", "costco", "publix", "whole foods",
+         "healthy", "weight loss", "guilt-free", "guilt free", "detox", "skinny", "clean eating"]
 
 [caption]
 cta = "Full recipes + the shopping list on the Measy app (link in bio) 📲"
@@ -166,7 +195,7 @@ scopes = ["user.info.basic", "video.upload", "user.info.stats", "video.list"]
 
 [tracking]
 # The dashboard lives at <pages_base_url><dashboard_dir>/ (not linked from anywhere).
-dashboard_dir = "insights-5c3xnv64"
+dashboard_dir = "insights-5c3xnv64"   # one page for every account
 # How many pages of 20 posts to read each day.
 video_pages = 10
 # Auto-tuning: starts after this many posts are 3+ days old; a prior of `prior_posts` average
@@ -181,11 +210,13 @@ top_hooks = 6
 
 # The TikTok accounts the bot makes drafts for. The first one (Measy) keeps its files in state/;
 # every other account has its own login, history, stats and dashboard in state/<id>/.
-# Each account can set its own post_times, store_plan, stores and dashboard_dir; anything not set
-# comes from the settings above. The two accounts never post the same dish on the same or the
-# next day, and never reuse each other's hooks.
+# Each account can set its own post_times, store_plan, stores and region ("uk" by
+# default, or "us": see [regions.us]); anything not set comes from the settings above. No dish is
+# posted twice in a day across the accounts, and they never reuse each other's hooks.
+# post_times are in the account's own time zone (UK, or US Eastern for a US account).
 # Connect an account once with:  python -m measybot authorize --account <id>
-# Changing post_times? Add matching cron lines in .github/workflows/daily.yml.
+# The GitHub workflow checks every 30 minutes, so post_times can change freely.
+# paused = true stops an account's drafts without deleting anything.
 [[accounts]]
 id = "measy"
 name = "Measy"
@@ -194,11 +225,10 @@ name = "Measy"
 id = "mealswithmeasy"
 name = "Meals with Measy"
 handle = "@mealswithmeasy"
-paused = true    # while it's being switched to a US account
-post_times = ["09:30", "14:30"]
+region = "us"
+post_times = ["12:00", "17:00"]
 store_plan = ["rotate", "rotate"]
-stores = ["tesco", "sainsburys", "asda", "lidl"]
-dashboard_dir = "insights-96dd4441"
+stores = ["walmart", "aldius", "traderjoes"]
 
 [[accounts]]
 id = "ethaniscookingdaily"
@@ -206,6 +236,47 @@ name = "Ethan Is Cooking Daily"
 handle = "@ethaniscookingdaily"
 post_times = ["11:00", "19:00"]
 store_plan = ["rotate", "rotate"]
-# same stores as @mealswithmeasy, but starting halfway round, so the two rarely do the same store
-stores = ["asda", "lidl", "tesco", "sainsburys"]
-dashboard_dir = "insights-8ff4e01c"
+stores = ["tesco", "sainsburys", "asda", "lidl"]
+
+# ---- US audience (accounts with region = "us") --------------------------------------------------
+# Everything here replaces the UK setting of the same name for those accounts. The recipe cards come
+# from data/recipe_library_us.json (American names, US units, Walmart / Aldi US prices in $), made by
+# `python -m measybot localize --region us`. Fallback hooks: data/hooks_fallback_us.txt.
+[regions.us]
+timezone = "America/New_York"
+# Themes that only make sense with UK prices.
+skip_collections = ["under-150", "under-2"]
+# British theme hashtags -> American ones.
+hashtag_swap = { "#fakeaway" = "#copycatrecipes", "#takeawayathome" = "#takeoutathome", "#mincerecipes" = "#groundbeefrecipes", "#cosydinner" = "#cozydinner" }
+voice = """IMPORTANT: this account is for an AMERICAN audience. Ignore the British English rule in the
+brand guide: write in natural American English, like a fun US food creator. American words: takeout
+(not takeaway), copycat / better than takeout (not fakeaway), groceries / grocery run / grocery haul
+(not the big shop), ground beef (not mince), fries (not chips), broke / tight budget (not skint),
+exhausted / wiped out (not knackered), dinner (never tea), mom (not mum), favorite / flavor / cozy.
+Money is in dollars ($). Relatable US moments: the end of the month before payday, feeding the family
+on a budget, college / first apartment, weeknight dinners after work, meal prep Sunday."""
+
+[regions.us.caption]
+save_lines = [
+  "💾 Save this for your next {store} run",
+  "💾 Save this so you're never stuck on dinner this week",
+  "💾 Save it, screenshot it, send it to whoever does the cooking",
+]
+hashtags = ["#budgetmeals", "#easydinner", "#dinnerideas", "#measy"]
+
+[regions.us.words]
+emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💵🍝🍗🌮🧀🍚😴🫶"
+
+[regions.us.cover]
+prompt = """Photorealistic photo of the outside of an American {store} store in the USA: {sign} \
+mounted high on the facade, large glass entrance doors, shopping carts and a big parking lot. {scene}. Tall \
+vertical composition: the whole {store} sign sits in the TOP THIRD of the picture and is fully visible; the \
+middle of the picture is plain facade or sky with nothing important in it (a caption will cover it); the \
+entrance and parking lot fill the bottom. Bright, inviting, high-end advertising photography. No people in \
+focus. No added text, captions, watermarks or words other than the {store} sign."""
+angles = [
+  "low angle from the parking lot looking up at the store",
+  "three-quarter view from the corner of the parking lot",
+  "straight-on view from across the parking lot, symmetrical",
+  "low angle close to the entrance, wide lens",
+]
