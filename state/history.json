@@ -365,6 +365,99 @@
    "publish_id": "p_inbox_url~v2.7694457614201145366",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T00:27:55+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
+   "subline": "Fakeaway vibes, zero faff 👀",
+   "title": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
+   "caption": "Sticky, saucy Sainsbury's dinners that taste expensive but won't break the bank — send to the group chat 😋💚\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sweet Chilli Chicken Rice Bowl\n3. Sticky BBQ Chicken Rice Bowls\n4. Sticky Hoisin Beef Flatbreads\n5. Sticky Maple Sausage Traybake\n\nWhich one are you trying first this weekend? 👀\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:sticky-maple-sausage-traybake-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-bbq-chicken-rice-bowls",
+    "sticky-hoisin-beef-flatbreads",
+    "sticky-maple-sausage-traybake"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Sticky Hoisin Beef Flatbreads",
+    "Sticky Maple Sausage Traybake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    348,
+    668
+   ],
+   "extra": true,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "sticky",
+    "angle": "taste-cheap",
+    "label": "sticky, saucy dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you trying first this weekend? 👀",
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Sticky, Saucy Dinners for When You're Knackered 😋",
+     "subline": "Cheap dinners that don't taste cheap 👀",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
+     "subline": "Fakeaway vibes, zero faff 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Sainsbury's Sticky Dinners — send to your other half 🙌",
+     "subline": "Dinner plans sorted for Friday night 😏",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Sainsbury's Sticky Meals Better Than a Takeaway 🤤",
+     "subline": "All the sauce, less faff 👀",
+     "score": 7.4
+    },
+    {
+     "hook": "5 Sainsbury's Saucy Dinners to Stop You Ordering In 😩",
+     "subline": "Save the takeaway for another night 👀",
+     "score": 7.9
+    },
+    {
+     "hook": "5 Sainsbury's Sticky Dinners For When You're Too Tired 😴",
+     "subline": "Saucy, sticky, zero fuss 👀",
+     "score": 6.9
+    }
+   ],
+   "built_at": "2026-10-09T00:32:04+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-013052/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694458860652120086",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T00:32:50+00:00"
   }
  ]
 }
