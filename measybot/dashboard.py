@@ -88,7 +88,10 @@ def build(st: dict, tune: dict, cfg: dict, first_bot_day: str | None = None) -> 
         p = v.get("post") or {}
         lt = v.get("latest") or {}
         v72 = stats.views_at(v)
-        return {"posted": v.get("posted"), "hook": p.get("hook") or v.get("title") or "(no title)",
+        title = (v.get("title") or "").split(" 1. ")[0].strip()
+        if len(title) > 110:
+            title = title[:107].rsplit(" ", 1)[0] + "..."
+        return {"posted": v.get("posted"), "hook": p.get("hook") or title or "(no title)",
                 "store": labels["store"].get(p.get("store"), p.get("store") or ""),
                 "collection": labels["collection"].get(p.get("collection"), p.get("collection") or ""),
                 "angle": labels["angle"].get(p.get("angle"), p.get("angle") or ""),
