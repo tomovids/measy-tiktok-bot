@@ -272,6 +272,99 @@
    "publish_id": "p_inbox_url~v2.7694444471110699030",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-08T23:37:56+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Asda Creamy Dinners That Beat a Takeaway 😋",
+   "subline": "",
+   "title": "5 Asda Creamy Dinners That Beat a Takeaway 😋",
+   "caption": "Friday lunch: plan a creamy fakeaway for tonight. 5 Asda dinners that’ll make staying in feel special 😋💚\n\n1. Garlic Sausage Rice Bowls\n2. Creamy Harissa Chicken Couscous\n3. Creamy Lemon Chicken Orzo\n4. Creamy Garlic Sausage Pasta\n5. Creamy Tuscan Chicken Pasta\n\nWhich one are you trying first this Friday night? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:garlic-sausage-rice-bowls-1",
+    "card:creamy-harissa-chicken-couscous-2",
+    "card:creamy-lemon-chicken-orzo-1",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:creamy-tuscan-chicken-pasta-1"
+   ],
+   "groups": [
+    "garlic-sausage-rice-bowls",
+    "creamy-harissa-chicken-couscous",
+    "creamy-lemon-chicken-orzo",
+    "creamy-garlic-sausage-pasta",
+    "creamy-tuscan-chicken-pasta"
+   ],
+   "dishes": [
+    "Garlic Sausage Rice Bowls",
+    "Creamy Harissa Chicken Couscous",
+    "Creamy Lemon Chicken Orzo",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Tuscan Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1376,
+    1528
+   ],
+   "extra": true,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "creamy",
+    "angle": "friday",
+    "label": "creamy dinners",
+    "angle_text": "Friday night fakeaway / Friday night in"
+   },
+   "question": "Which one are you trying first this Friday night? 👇",
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Creamy Dinners for When You're TOO TIRED 😩",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Creamy Dinners That Beat a Takeaway 😋",
+     "subline": "",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Asda Creamy Dinners for Friday Night In 💚",
+     "subline": "Fakeaway vibes, no queue 🫶",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Creamy Dinners — send this to your other half 👀",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Creamy Dinners That Feel Like a Treat 🤤",
+     "subline": "Proper comfort for the sofa 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Creamy Dinners for When You're Skint But Fancy 🍝",
+     "subline": "Fakeaway wins, payday can wait 💸",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-09T00:27:05+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-012605/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694457614201145366",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T00:27:55+00:00"
   }
  ]
 }
