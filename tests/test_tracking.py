@@ -109,3 +109,16 @@ def test_tiktok_video_list_paginates():
     tt = TikTok("k", "s", session=s)
     assert [v["id"] for v in tt.videos("tok")] == ["1", "2"]
     assert s.calls[1][2]["json"]["cursor"] == 123
+
+
+def test_match_by_caption_when_tiktok_replaces_the_title():
+    p = {**bot_post(5), "caption": "Thursday sorted: 5 Aldi dinners that feel like comfort food 😋\n\n1. Dish one",
+         "dishes": ["Loaded BBQ Beef Nachos", "Cheesy Cajun Chicken Wraps", "Sweet Chilli Beef Noodles"],
+         "sent_at": (NOW - timedelta(days=2)).isoformat()}
+    v = video(5, 100, 1, title="Thursday sorted: 5 Aldi dinners that feel like comfort food 😋 1. Dish one")
+    assert stats.match_post(v, [p], set()) == 0
+    by_dishes = video(6, 100, 1, title="New caption written by hand. 1. Loaded BBQ Beef Nachos 2. Cheesy Cajun "
+                                       "Chicken Wraps 3. Sweet Chilli Beef Noodles")
+    assert stats.match_post(by_dishes, [p], set()) == 0
+    old = video(7, 100, 30, title="Thursday sorted: 5 Aldi dinners that feel like comfort food 😋")
+    assert stats.match_post(old, [p], set()) is None   # posted before the draft existed

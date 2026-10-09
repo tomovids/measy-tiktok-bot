@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from statistics import median
 from zoneinfo import ZoneInfo
@@ -50,12 +50,28 @@ def post_key(p: dict) -> str:
 
 def match_post(video: dict, posts: list[dict], taken: set[str]) -> int | None:
     """Index of the bot post this TikTok post came from (its hook is in the title / caption)."""
+    # A posted slideshow's title is replaced by its caption, so the caption is the best signature:
+    # the bot's intro line, or most of its five dish names, or (if kept) the hook.
     text = (video.get("title") or "") + " " + (video.get("video_description") or "")
     nt = _norm(text)
     best, best_score = None, 0.0
+    created = datetime.fromtimestamp(int(video.get("create_time") or 0), timezone.utc)
     for i, p in enumerate(posts):
         if post_key(p) in taken or not p.get("hook"):
             continue
+        sent = p.get("sent_at") or p.get("built_at")
+        if sent:
+            try:
+                if created < datetime.fromisoformat(sent).astimezone(timezone.utc) - timedelta(hours=1):
+                    continue          # posted before this draft existed
+            except ValueError:
+                pass
+        intro = (p.get("caption") or "").split("\n")[0]
+        if len(_norm(intro)) >= 20 and _norm(intro)[:80] in nt:
+            return i
+        dishes = [d for d in (p.get("dishes") or []) if len(_norm(d)) >= 8]
+        if dishes and sum(1 for d in dishes if _norm(d) in nt) >= min(3, len(dishes)):
+            return i
         hook = p["hook"]
         if _norm(hook) and _norm(hook) in nt:
             return i

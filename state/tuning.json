@@ -1,0 +1,12 @@
+{
+ "active": false,
+ "scored_posts": 0,
+ "needed": 14,
+ "explore": 0.25,
+ "multipliers": {
+  "collection": {},
+  "angle": {},
+  "lead": {}
+ },
+ "top_hooks": []
+}
