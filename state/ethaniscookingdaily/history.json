@@ -73,6 +73,90 @@
    "publish_id": "p_inbox_url~v2.7694720344648828950",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T17:26:19+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
+   "subline": "Big flavour, tiny faff 🤤",
+   "title": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
+   "caption": "Friday night sorted: 5 spicy Sainsbury's dinners to stop you ordering a takeaway and actually make tea exciting 🤤🔥\n\n1. Creamy Cajun Chicken Flatbreads\n2. Chilli Beef Noodles\n3. Cheesy Taco Rice Skillet\n4. Cheesy Cajun Sausage Gnocchi\n5. Sticky Korean Beef Rice Bowls\n\nWhich one are you cooking first? Who are you sending this to? 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-2",
+    "card:chilli-beef-noodles-2",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:sticky-korean-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "chilli-beef-noodles",
+    "cheesy-taco-rice-skillet",
+    "cheesy-cajun-sausage-gnocchi",
+    "sticky-korean-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Chilli Beef Noodles",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Sticky Korean Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    420,
+    768
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "spicy",
+    "angle": "send",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you cooking first? Who are you sending this to? 👇",
+   "tuned": false,
+   "hook_score": 8.2,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's dinners to send to the person who never knows 😏🔥",
+     "subline": "Spicy dinners for the weekend 🍝",
+     "score": 7.2
+    },
+    {
+     "hook": "5 Sainsbury's dinners with a kick, better than a takeaway 🤤🔥",
+     "subline": "Friday night wins, no delivery needed 🙌",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
+     "subline": "Big flavour, tiny faff 🤤",
+     "score": 8.2
+    },
+    {
+     "hook": "5 Sainsbury's dinners — send to your housemate stat 😩👀",
+     "subline": "Your group chat needs this 👇",
+     "score": 7.7
+    }
+   ],
+   "built_at": "2026-10-09T21:54:44+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694789394486331414",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T21:55:46+00:00"
   }
  ]
 }

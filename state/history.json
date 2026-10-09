@@ -641,6 +641,90 @@
    "status": "FAILED",
    "error": "TikTok error spam_risk_too_many_pending_share: spam_risk_too_many_pending_share (log id 20261009143008A9AE04BDF381E7A64B52)\nTikTok allows at most 5 waiting drafts in 24 hours. Open TikTok, post or delete the drafts in your inbox, then run the workflow again.",
    "sent_at": "2026-10-09T14:30:09+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Tesco Dinners With a Kick For When You're Skint 😩🔥",
+   "subline": "Save this for your next Tesco shop 👀",
+   "title": "5 Tesco Dinners With a Kick For When You're Skint 😩🔥",
+   "caption": "Friday lunch sorted: 5 Tesco dinners that pack a spicy punch and beat a takeaway for flavour. Meal plans made easy. Good food. Less stress. 😏🔥\n\n1. Loaded Taco Jacket Potato\n2. Cheesy Taco Rice Skillet\n3. Creamy Cajun Chicken Flatbreads\n4. Cheesy Cajun Sausage Gnocchi\n5. Sticky Korean Beef Rice Bowls\n\nWhich one are you trying first this weekend? Tell us which one 😍\n💾 Save this for your next Tesco shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:sticky-korean-beef-rice-bowls-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "cheesy-taco-rice-skillet",
+    "creamy-cajun-chicken-flatbreads",
+    "cheesy-cajun-sausage-gnocchi",
+    "sticky-korean-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Cheesy Taco Rice Skillet",
+    "Creamy Cajun Chicken Flatbreads",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Sticky Korean Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    664,
+    792
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "spicy",
+    "angle": "takeaway",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you trying first this weekend? Tell us which one 😍",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Dinners With a Kick — Better Than a Takeaway 🔥😋",
+     "subline": "Big flavour, tiny effort 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Tesco Dinners With a Kick For When You're Skint 😩🔥",
+     "subline": "Save this for your next Tesco shop 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Dinners With a KICK — Send This to Your Mate 😂🔥",
+     "subline": "",
+     "score": 6.3
+    },
+    {
+     "hook": "5 Tesco Dinners That Beat a Takeaway and Pack a Punch 😏🔥",
+     "subline": "Fakeaway vibes, proper Tesco shop 👀",
+     "score": 7.7
+    }
+   ],
+   "built_at": "2026-10-09T21:52:29+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694789354283452419",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T21:55:23+00:00"
   }
  ]
 }
