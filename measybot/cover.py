@@ -79,27 +79,36 @@ def find_sign(img: Image.Image) -> tuple[int, int] | None:
     return round(top * scale), round((bottom + 1) * scale)
 
 
-def generate_background(client: OpenAI, scene: str, cfg: dict) -> tuple[Image.Image, str]:
+def generate_background(client: OpenAI, scene: str, cfg: dict, store=None) -> tuple[Image.Image, str]:
+    from .stores import default
+    store = store or default()
     o = cfg["openai"]
-    prompt = cfg["cover"]["prompt"].format(scene=scene)
+    prompt = cfg["cover"]["prompt"].format(scene=scene, store=store.name, sign=store.sign)
     data, model = client.image(o["image_models"], prompt, o["image_size"], o["image_quality"])
     return crop_portrait(Image.open(io.BytesIO(data))), model
 
 
-def keep_background(img: Image.Image, day: date, folder: Path | None = None) -> Path | None:
-    """Keeps the first few backgrounds as spares for days when image generation fails."""
+def _spares(folder: Path, store: str) -> list[Path]:
+    if not folder.exists():
+        return []
+    files = sorted(folder.glob("*.jpg"))
+    # files named <store>-<date>.jpg; older ones named just <date>.jpg are Aldi store fronts
+    return [p for p in files if p.stem.startswith(f"{store}-") or (store == "aldi" and p.stem[:1].isdigit())]
+
+
+def keep_background(img: Image.Image, day: date, folder: Path | None = None, store: str = "aldi") -> Path | None:
+    """Keeps the first few store fronts of each supermarket as spares for when image generation fails."""
     folder = folder or config.BACKGROUND_DIR
     folder.mkdir(parents=True, exist_ok=True)
-    if len(list(folder.glob("*.jpg"))) >= BACKGROUND_POOL:
+    if len(_spares(folder, store)) >= BACKGROUND_POOL:
         return None
-    path = folder / f"{day.isoformat()}.jpg"
+    path = folder / f"{store}-{day.isoformat()}.jpg"
     img.save(path, "JPEG", quality=88)
     return path
 
 
-def spare_background(rng: random.Random, folder: Path | None = None) -> Image.Image | None:
-    folder = folder or config.BACKGROUND_DIR
-    spares = sorted(folder.glob("*.jpg")) if folder.exists() else []
+def spare_background(rng: random.Random, folder: Path | None = None, store: str = "aldi") -> Image.Image | None:
+    spares = _spares(folder or config.BACKGROUND_DIR, store)
     return crop_portrait(Image.open(rng.choice(spares))) if spares else None
 
 

@@ -18,9 +18,10 @@ from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
 
-from . import config
+from . import config, stores
 from .catalogue import Recipe
 from .openai_api import OpenAI, OpenAIError
+from .stores import Store
 
 FALLBACK_INTROS = [
     "Saving these for this week 👇",
@@ -108,7 +109,7 @@ def claim_problems(text: str, facts: Facts) -> list[str]:
     return out
 
 
-def line_problems(text: str, max_len: int, facts: Facts, cfg: dict) -> list[str]:
+def line_problems(text: str, max_len: int, facts: Facts, cfg: dict, store: Store | None = None) -> list[str]:
     """Checks for a caption line (intro or question): length, emoji, brand words, claims."""
     out = []
     if not text:
@@ -118,7 +119,7 @@ def line_problems(text: str, max_len: int, facts: Facts, cfg: dict) -> list[str]
     allowed = set(cfg["words"]["emoji"])
     if any(is_emoji(c) and c not in allowed for c in text):
         out.append("unsupported emoji")
-    if any(a.lower() in text.lower() for a in cfg.get("brand", {}).get("avoid", [])):
+    if any(a in text.lower() for a in avoided(cfg, store)):
         out.append("a word the brand avoids")
     return out + claim_problems(text, facts)
 
@@ -127,9 +128,18 @@ def normalise(hook: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", hook.lower())
 
 
+STORE_WORDS = {"aldi", "tesco", "lidl", "asda", "sainsbury's", "sainsburys", "morrisons", "waitrose"}
+
+
 def _words(text: str) -> set[str]:
-    return set(re.findall(r"[a-z0-9£']+", text.lower())) - {"5", "aldi", "dinners", "for", "the", "a",
-                                                            "to", "of", "and", "you", "your", "i'd"}
+    return (set(re.findall(r"[a-z0-9£']+", text.lower()))
+            - {"5", "dinners", "for", "the", "a", "to", "of", "and", "you", "your", "i'd"} - STORE_WORDS)
+
+
+def avoided(cfg: dict, store: Store | None = None) -> list[str]:
+    """Brand-avoided words, minus the post's own supermarket."""
+    own = set((store or stores.default()).words)
+    return [a.lower() for a in cfg.get("brand", {}).get("avoid", []) if not any(o in a.lower() for o in own)]
 
 
 def too_similar(hook: str, recent: list[str], threshold: float) -> str | None:
@@ -142,7 +152,8 @@ def too_similar(hook: str, recent: list[str], threshold: float) -> str | None:
 
 
 def problems(w: Words, facts: Facts, recent: list[str], cfg: dict,
-             used: set[str] | None = None) -> list[str]:
+             used: set[str] | None = None, store: Store | None = None) -> list[str]:
+    store = store or stores.default()
     wc = cfg["words"]
     allowed = set(wc["emoji"])
     out = []
@@ -151,8 +162,8 @@ def problems(w: Words, facts: Facts, recent: list[str], cfg: dict,
         return ["the hook is empty"]
     if len(hook) > wc["max_hook_chars"]:
         out.append(f"the hook is {len(hook)} characters; keep it to {wc['max_hook_chars']}")
-    if "aldi" not in hook.lower():
-        out.append("the hook must mention Aldi")
+    if not store.mentioned_in(hook):
+        out.append(f"the hook must mention {store.name}")
     if not is_emoji(hook[-1]):
         out.append("the hook must end with an emoji")
     if len(sub) > wc["max_subline_chars"]:
@@ -170,7 +181,7 @@ def problems(w: Words, facts: Facts, recent: list[str], cfg: dict,
             out.append("use only these emoji: " + wc["emoji"] + " (not " + "".join(bad) + ")")
             break
     text = " ".join((hook, sub, w.intro, w.question)).lower()
-    avoid = [a for a in cfg.get("brand", {}).get("avoid", []) if a.lower() in text]
+    avoid = [a for a in avoided(cfg, store) if a in text]
     if avoid:
         out.append("don't mention " + ", ".join(avoid))
     for part in (hook, sub, w.intro, w.question):
@@ -216,9 +227,13 @@ def brand_guide() -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
 
 
-def _rules(facts: Facts, cfg: dict) -> str:
+def _rules(facts: Facts, cfg: dict, store: Store | None = None) -> str:
+    store = store or stores.default()
     wc = cfg["words"]
-    if facts.total_gbp is not None:
+    if not store.price_claims:
+        money = (f"Do NOT mention any prices or £ amounts (the cards show Aldi prices, and this post "
+                 f"is about {store.name}).")
+    elif facts.total_gbp is not None:
         money = (f"You may mention a £ amount only if it's at least £{math.ceil(facts.total_gbp)} "
                  f"for all five dinners together (the cards add up to £{facts.total_gbp:.2f})")
         if facts.max_serving_gbp is not None:
@@ -233,7 +248,8 @@ def _rules(facts: Facts, cfg: dict) -> str:
     else:
         time = "Do NOT mention cooking times or minutes."
     return f"""Rules for every hook:
-- At most {wc['max_hook_chars']} characters, mentions Aldi, ends with 1 or 2 emoji. If it states a number
+- At most {wc['max_hook_chars']} characters, mentions {store.name}, ends with 1 or 2 emoji. Never names any
+  other supermarket. If it states a number
   of dinners/meals it must be 5. Capitals for emphasis on one word at most.
 - "subline": an optional second line, at most {wc['max_subline_chars']} characters, ending with one emoji,
   or "" (about 4 in 10 posts have one).
@@ -246,23 +262,29 @@ def _rules(facts: Facts, cfg: dict) -> str:
 def _when(day: date | None, slot: str | None) -> str:
     if day is None:
         return ""
-    part = {"morning": "morning", "afternoon": "late afternoon"}.get(slot or "", "morning")
+    part = {"morning": "morning", "midday": "lunchtime", "afternoon": "late afternoon"}.get(slot or "", "morning")
     return (f"The post goes out on {day:%A} {part}. Only mention a day of the week if it's "
             f"{day:%A} or the coming weekend.")
 
 
-def _prompt(recipes, facts, examples, recent, theme, cfg, day, slot) -> tuple[str, str]:
+def _prompt(recipes, facts, examples, recent, theme, cfg, day, slot, store=None) -> tuple[str, str]:
+    store = store or stores.default()
     n = cfg["words"].get("candidates", 6)
     system = ("You write viral TikTok photo-slideshow covers for Measy, a UK meal-planning app with "
-              "budget recipes made from an Aldi shop. Every slideshow shows 5 Aldi dinners. Follow "
+              f"budget recipes. This post is about {store.name}: it shows 5 {store.name} dinners. Follow "
               "the brand guide. Answer with a JSON object only.\n\n" + brand_guide())
+    if store.id != "aldi":
+        system += (f"\n\nThe past hooks below are from Aldi posts; this post is about {store.name}, so use "
+                   f"{store.name} where they say Aldi.")
     ex = "\n".join(f"- {h}" + (f"  /  second line: {s}" if s else "") +
                    (f"  ({v:,} views)" if v else "") for v, h, s in examples)
     dishes = "\n".join(
-        f"- {r.dish}" + (f" (£{r.per_serving_gbp:.2f} a portion)" if r.per_serving_gbp else "")
+        f"- {r.dish}" + (f" (£{r.per_serving_gbp:.2f} a portion)"
+                         if r.per_serving_gbp and store.price_claims else "")
         + (f" ({r.time_mins} min)" if r.time_mins else "") for r in recipes)
     rec = "\n".join(f"- {h}" for h in recent) or "- (none yet)"
-    theme_txt = (f"Today's theme: 5 {theme.label}. Angle: {theme.angle_text}.\n"
+    theme_txt = (f"Today's theme: 5 {store.name} {theme.label}. "
+                 f"Angle: {theme.angle_text.replace('{store}', store.name)}.\n"
                  f"The hook must make the theme obvious.") if theme else ""
     user = f"""Past hooks from this account, best performers first:
 {ex}
@@ -276,7 +298,7 @@ The five dinners on the cards:
 Don't repeat or closely copy these recent hooks:
 {rec}
 
-{_rules(facts, cfg)}
+{_rules(facts, cfg, store)}
 
 Write {n} genuinely different hook candidates (different structures and emotional triggers: a pain
 point, a money detail, a "send this to" line, a takeaway comparison, a bold claim...). Then one caption
@@ -291,14 +313,17 @@ photo slideshow by how likely they are to stop the scroll and get saves, shares 
 viewers on a budget. Answer with a JSON object only."""
 
 
-def _judge(client: OpenAI, cfg: dict, cands: list[Words], examples, theme) -> tuple[int, list[float]]:
+def _judge(client: OpenAI, cfg: dict, cands: list[Words], examples, theme,
+           store: Store | None = None) -> tuple[int, list[float]]:
+    store = store or stores.default()
     top = "\n".join(f"- {h} ({v:,} views)" for v, h, _ in examples[:6] if v)
     listing = "\n".join(f"{i}. {w.hook}" + (f"  /  {w.subline}" if w.subline else "")
                         for i, w in enumerate(cands))
-    user = f"""This account's best performers, for reference:
+    angle = theme.angle_text.replace("{store}", store.name) if theme else ""
+    user = f"""This account's best performers (Aldi posts), for reference:
 {top}
 
-{"Theme: 5 " + theme.label + ", angle: " + theme.angle_text if theme else ""}
+This post is about {store.name}. {"Theme: 5 " + theme.label + ", angle: " + angle if theme else ""}
 
 Candidates:
 {listing}
@@ -327,11 +352,14 @@ Return {{"scores": [{{"i": 0, "overall": 7.5, "why": "..."}}, ...], "best": <ind
 
 def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | None,
           rng: random.Random, log=print, day: date | None = None, theme=None,
-          used: set[str] | None = None, slot: str | None = None) -> Words:
+          used: set[str] | None = None, slot: str | None = None, store: Store | None = None) -> Words:
+    store = store or stores.default()
     facts = facts_for(recipes)
+    if not store.price_claims:  # card prices are Aldi prices: no £ claims for other stores
+        facts = Facts(None, None, facts.max_time)
     if client is not None:
         examples = load_examples()
-        system, user = _prompt(recipes, facts, examples, recent, theme, cfg, day, slot)
+        system, user = _prompt(recipes, facts, examples, recent, theme, cfg, day, slot, store)
         feedback = ""
         for attempt in range(3):
             try:
@@ -341,16 +369,16 @@ def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | 
                 break
             intro = str(data.get("intro", "")).strip()
             question = str(data.get("question", "")).strip()
-            if line_problems(intro, 150, facts, cfg):
-                log(f"  intro swapped for a saved one ({'; '.join(line_problems(intro, 150, facts, cfg))})")
+            if line_problems(intro, 150, facts, cfg, store):
+                log(f"  intro swapped for a saved one ({'; '.join(line_problems(intro, 150, facts, cfg, store))})")
                 intro = rng.choice(FALLBACK_INTROS)
-            if line_problems(question, 100, facts, cfg):
+            if line_problems(question, 100, facts, cfg, store):
                 question = rng.choice(FALLBACK_QUESTIONS)
             cands, rejected = [], []
             for c in data.get("candidates", []) or []:
                 w = Words(hook=str(c.get("hook", "")).strip(), subline=str(c.get("subline", "") or "").strip(),
                           intro=intro, question=question, source="ai")
-                found = problems(w, facts, recent, cfg, used)
+                found = problems(w, facts, recent, cfg, used, store)
                 (rejected.append((w.hook, found)) if found else cands.append(w))
             for hook, found in rejected:
                 log(f"  rejected: {hook}  ({'; '.join(found)})")
@@ -358,7 +386,7 @@ def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | 
                 best, scores = 0, [None] * len(cands)
                 if len(cands) > 1:
                     try:
-                        best, scores = _judge(client, cfg, cands, examples, theme)
+                        best, scores = _judge(client, cfg, cands, examples, theme, store)
                     except OpenAIError as e:
                         log(f"Judge unavailable, taking the first good hook: {e}")
                 w = cands[best]
@@ -373,21 +401,23 @@ def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | 
                         + "\nEvery candidate broke a rule:\n"
                         + "\n".join(f"- {h}: {'; '.join(f)}" for h, f in rejected)
                         + "\nWrite new candidates that follow every rule.")
-    return fallback(facts, recent, cfg, rng, used)
+    return fallback(facts, recent, cfg, rng, used, store)
 
 
 def fallback(facts: Facts, recent: list[str], cfg: dict, rng: random.Random,
-             used: set[str] | None = None) -> Words:
-    options = load_fallbacks()
+             used: set[str] | None = None, store: Store | None = None) -> Words:
+    store = store or stores.default()
+    options = [(h.replace("Aldi", store.name), s.replace("Aldi", store.name)) for h, s in load_fallbacks()]
     rng.shuffle(options)
     intro = rng.choice(FALLBACK_INTROS)
     question = rng.choice(FALLBACK_QUESTIONS)
     for strict in (True, False):
         for hook, sub in options:
             w = Words(hook, sub, intro, source="fallback", question=question)
-            if not problems(w, facts, recent if strict else [], cfg, used if strict else None):
+            if not problems(w, facts, recent if strict else [], cfg, used if strict else None, store):
                 return w
-    return Words("5 Aldi Dinners I'd Make on Repeat 😋", "", intro, source="fallback", question=question)
+    return Words(f"5 {store.name} Dinners I'd Make on Repeat 😋", "", intro, source="fallback",
+                 question=question)
 
 
 def dish_name(r: Recipe) -> str:
@@ -397,7 +427,9 @@ def dish_name(r: Recipe) -> str:
     return name.rstrip(" .,!")
 
 
-def caption(w: Words, recipes: list[Recipe], cfg: dict, theme=None, rng: random.Random | None = None) -> str:
+def caption(w: Words, recipes: list[Recipe], cfg: dict, theme=None, rng: random.Random | None = None,
+            store: Store | None = None) -> str:
+    store = store or stores.default()
     c = cfg["caption"]
     rng = rng or random.Random(w.hook)
     lines = [w.intro, ""]
@@ -407,8 +439,9 @@ def caption(w: Words, recipes: list[Recipe], cfg: dict, theme=None, rng: random.
         lines.append(w.question)
     saves = c.get("save_lines") or []
     if saves:
-        lines.append(rng.choice(saves))
+        lines.append(rng.choice(saves).replace("{store}", store.name))
     lines += [c["cta"], ""]
-    tags = list(dict.fromkeys(c["hashtags"] + (theme.hashtags if theme else [])))[: c.get("max_hashtags", 10)]
+    tags = list(dict.fromkeys(store.hashtags + c["hashtags"] + (theme.hashtags if theme else [])))
+    tags = tags[: c.get("max_hashtags", 10)]
     lines.append(" ".join(tags))
     return "\n".join(lines).strip()

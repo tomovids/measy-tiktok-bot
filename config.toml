@@ -3,8 +3,14 @@
 [schedule]
 # One draft per time (UK time). GitHub may start a few minutes late. The GitHub workflow runs at
 # these times too: if you change them, change the cron lines in .github/workflows/daily.yml.
-post_times = ["07:30", "16:30"]
+post_times = ["07:30", "12:00", "16:30"]
 timezone = "Europe/London"
+
+[store_rotation]
+# Which supermarket each of the day's posts is about, in post_times order: a store id, or "rotate"
+# = the next of the other stores in turn (Tesco, Sainsbury's, Asda, Lidl). Two Aldi posts and one
+# tester post a day, to see how other supermarkets perform.
+plan = ["aldi", "rotate", "aldi"]
 
 [picker]
 recipes_per_post = 5
@@ -31,19 +37,59 @@ image_size = "1024x1536"
 # low (about 1c), medium (about 5c) or high (about 17-20c) per cover
 image_quality = "medium"
 
+# The supermarkets the posts rotate through (top 5 UK supermarkets by market share, all in the Measy
+# app). Each post is about one of them: its store front on the cover, its name in the hook, its
+# hashtags. The recipe cards are the same for every store. price_claims: £ claims allowed in the
+# hook (the card prices are Aldi prices, so only Aldi). Add Morrisons, Waitrose, Co-op or M&S the
+# same way.
+[[stores]]
+id = "tesco"
+name = "Tesco"
+words = ["tesco"]
+sign = "the big red TESCO lettering with the blue dashed stripes underneath, on a white panel"
+hashtags = ["#tesco", "#tescouk", "#tescofinds"]
+
+[[stores]]
+id = "sainsburys"
+name = "Sainsbury's"
+words = ["sainsbury"]
+sign = "the orange Sainsbury's lettering on the facade"
+hashtags = ["#sainsburys", "#sainsburysuk"]
+
+[[stores]]
+id = "asda"
+name = "Asda"
+words = ["asda"]
+sign = "the large green ASDA lettering on the facade"
+hashtags = ["#asda", "#asdauk", "#asdafinds"]
+
+[[stores]]
+id = "aldi"
+name = "Aldi"
+words = ["aldi"]
+sign = "the blue Aldi logo sign with its yellow, orange and red border"
+hashtags = ["#aldi", "#aldiuk", "#aldidinners"]
+price_claims = true
+
+[[stores]]
+id = "lidl"
+name = "Lidl"
+words = ["lidl"]
+sign = "the square Lidl logo sign (a yellow circle with a red ring and blue LIDL lettering, on a blue square)"
+hashtags = ["#lidl", "#lidluk", "#lidlfinds"]
+
 [cover]
-prompt = """Photorealistic photo of the outside of a UK Aldi supermarket store front: the blue Aldi logo \
-sign with its yellow, orange and red border mounted high on the facade, large glass entrance doors, \
-trolleys and a car park. {scene}. Tall vertical composition: the whole Aldi sign sits in the TOP THIRD \
-of the picture and is fully visible; the middle of the picture is plain facade or sky with nothing \
-important in it (a caption will cover it); the entrance and car park fill the bottom. Bright, inviting, \
-high-end advertising photography. No people in focus. No added text, captions, watermarks or words other \
-than the Aldi sign."""
+prompt = """Photorealistic photo of the outside of a UK {store} supermarket store front: {sign} \
+mounted high on the facade, large glass entrance doors, trolleys and a car park. {scene}. Tall vertical \
+composition: the whole {store} sign sits in the TOP THIRD of the picture and is fully visible; the middle \
+of the picture is plain facade or sky with nothing important in it (a caption will cover it); the \
+entrance and car park fill the bottom. Bright, inviting, high-end advertising photography. No people in \
+focus. No added text, captions, watermarks or words other than the {store} sign."""
 # The bot picks one sky and one camera angle per day (weighted), so covers vary but stay bright.
 skies = [
   { weight = 30, text = "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight" },
   { weight = 20, text = "Golden hour, warm low sun, orange and pink sky, long soft shadows" },
-  { weight = 15, text = "Blue-hour dusk, deep blue sky, the Aldi sign and shop windows glowing warmly" },
+  { weight = 15, text = "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly" },
   { weight = 10, text = "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine" },
   { weight = 10, text = "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground" },
   { weight = 8, text = "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky" },
@@ -94,18 +140,20 @@ similar_threshold = 0.6
 
 [brand]
 # Words that must never appear in a hook, second line, intro or question (see data/brand.md).
-avoid = ["tesco", "lidl", "asda", "sainsbury", "morrisons", "waitrose", "iceland", "co-op",
+# The post's own supermarket is allowed; every other supermarket stays banned.
+avoid = ["aldi", "tesco", "lidl", "asda", "sainsbury", "morrisons", "waitrose", "iceland", "co-op",
          "m&s", "healthy", "weight loss", "guilt-free", "guilt free", "detox", "skinny", "clean eating"]
 
 [caption]
 cta = "Full recipes + the shopping list on the Measy app (link in bio) 📲"
+# {store} becomes the post's supermarket.
 save_lines = [
-  "💾 Save this for your next Aldi shop",
+  "💾 Save this for your next {store} shop",
   "💾 Save this so you're not stuck for tea this week",
   "💾 Save it, screenshot it, send it to whoever does the cooking",
 ]
-# Always used; each theme adds its own two (max_hashtags in total).
-hashtags = ["#aldi", "#aldiuk", "#aldidinners", "#budgetmeals", "#easydinner", "#ukfood", "#measy"]
+# Always used, after the store's own tags (e.g. #aldi #aldiuk); each theme adds two more (max_hashtags in total).
+hashtags = ["#budgetmeals", "#easydinner", "#ukfood", "#measy"]
 max_hashtags = 9
 
 [tiktok]

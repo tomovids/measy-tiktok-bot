@@ -119,7 +119,7 @@ def test_prompt_states_the_rules_and_theme(cfg):
     writer.write(FIVE_PRICED, ["Old hook 😭"], cfg, client, random.Random(1), theme=theme, **QUIET)
     prompt = client.prompts[0]
     assert "£13" in prompt and "24 minutes" in prompt and "Old hook" in prompt
-    assert "5 cheesy dinners" in prompt and "skint until payday" in prompt
+    assert "5 Aldi cheesy dinners" in prompt and "skint until payday" in prompt
     unpriced = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔")])
     writer.write([recipe(i) for i in range(5)], [], cfg, unpriced, random.Random(1), **QUIET)
     assert "Do NOT mention any prices" in unpriced.prompts[0]

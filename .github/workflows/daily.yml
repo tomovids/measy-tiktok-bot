@@ -2,10 +2,12 @@ name: Daily TikTok draft
 
 on:
   schedule:
-    # The two drafts a day (config.toml post_times 07:30 and 16:30 UK time). Each time has a summer
-    # (BST) and a winter (GMT) run; the bot only builds a draft that is due and not yet sent.
+    # The three drafts a day (config.toml post_times 07:30, 12:00 and 16:30 UK time). Each time has a
+    # summer (BST) and a winter (GMT) run; the bot only builds a draft that is due and not yet sent.
     - cron: "30 6 * * *"
     - cron: "30 7 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
     - cron: "30 15 * * *"
     - cron: "30 16 * * *"
   workflow_dispatch:

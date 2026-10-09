@@ -5,7 +5,7 @@
 
 [[collections]]
 id = "anything"
-label = "a mix of the best Aldi dinners"
+label = "a mix of the best dinners"
 any = []
 weight = 3
 hashtags = ["#dinnerideas", "#mealideas"]
@@ -201,12 +201,12 @@ weight = 1
 
 [[angles]]
 id = "weekly-shop"
-text = "plan your weekly Aldi shop around these"
+text = "plan your weekly {store} shop around these"
 weight = 2
 
 [[angles]]
 id = "save"
-text = "save these for your next Aldi shop"
+text = "save these for your next {store} shop"
 weight = 2
 
 [[angles]]
@@ -254,7 +254,7 @@ days = ["Tue", "Wed", "Thu"]
 id = "tonight"
 text = "what to make tonight (deciding dinner right now)"
 weight = 3
-slots = ["afternoon"]
+slots = ["midday", "afternoon"]
 
 [[angles]]
 id = "plan-today"

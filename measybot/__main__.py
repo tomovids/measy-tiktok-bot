@@ -49,8 +49,10 @@ def post_times(cfg: dict) -> list[tuple[int, int]]:
     return [tuple(map(int, t.split(":"))) for t in times]
 
 
-def slot_name(index: int) -> str:
-    return "morning" if index == 0 else "afternoon"
+def slot_name(index: int, cfg: dict | None = None) -> str:
+    """morning / midday / afternoon, from the post's time (before 11:00 / before 14:00 / later)."""
+    hour = post_times(cfg)[index][0] if cfg else (7 if index == 0 else 16)
+    return "morning" if hour < 11 else "midday" if hour < 14 else "afternoon"
 
 
 def cmd_build(args, cfg) -> int:
@@ -76,9 +78,9 @@ def cmd_build(args, cfg) -> int:
             log(f"It's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
             return 0
         index, name = done, f"{day.isoformat()}-{done + 1}"
-    log(f"Building draft {index + 1} of {len(times)} for {day} ({slot_name(index)})")
+    log(f"Building draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)})")
     build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log,
-               extra=args.again, slot=slot_name(index))
+               extra=args.again, slot=slot_name(index, cfg), index=index)
     github_output(built="true", post=name)
     return 0
 
@@ -102,10 +104,10 @@ def cmd_dry_run(args, cfg) -> int:
     for i in range(args.days):
         day = start + timedelta(days=i)
         for index in range(len(post_times(cfg))):
-            log(f"\n== {day} {slot_name(index)} ==")
+            log(f"\n== {day} {slot_name(index, cfg)} ==")
             post = build_post(day, cfg, hist, out / f"{day.isoformat()}-{index + 1}", ai,
                               ai_image=not args.no_image, keep_spares=False, save_background=True,
-                              log=log, slot=slot_name(index))
+                              log=log, slot=slot_name(index, cfg), index=index)
             hist.add({**post, "status": SENT})   # pretend it was sent, so the next one moves on
     log(f"\nSlides are in {out}")
     return 0

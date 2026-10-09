@@ -41,3 +41,15 @@ viral, on-brand, unique ideas every day).
 Unit tests for tags (every collection has 6+ dishes), theme rules (rests, day limits, cap lifting), the
 tournament (retry, judge, no reuse, near copies, brand words, swapped intro), the caption and slot
 counting; a two-day dry run with real AI.
+
+## Update 2026-10-09: three posts a day and other supermarkets
+- `post_times = ["07:30", "12:00", "16:30"]`; slots morning / midday / afternoon; crons at 06:30, 07:30,
+  11:00, 12:00, 15:30, 16:30 UTC.
+- `[[stores]]` (Tesco, Sainsbury's, Asda, Aldi, Lidl: the top 5 UK supermarkets by market share, all in
+  the Measy app) with sign description, hashtags and `price_claims` (Aldi only).
+  `[store_rotation] plan = ["aldi", "rotate", "aldi"]`: two Aldi posts and one tester post a day; the
+  tester store is the one posted about longest ago (`measybot/stores.py`).
+- Same recipe cards for every store. The hook must name the post's store, may not name any other
+  (`[brand] avoid` minus the post's own store); non-Aldi hooks make no £ claims (time claims are fine).
+  Cover prompt uses `{store}` / `{sign}`; spare covers are kept per store; caption save line and the
+  angles use `{store}`; hashtags = the store's own + 4 base + the theme's 2.

@@ -1,10 +1,13 @@
 # Measy TikTok slideshow bot
 
-Twice a day (07:30 and 16:30 UK time) a GitHub Action makes a themed 7-slide TikTok photo slideshow
+Three times a day (07:30, 12:00 and 16:30 UK time) a GitHub Action makes a themed 7-slide TikTok photo slideshow
 and drops it into the Measy account's TikTok drafts. Open the notification, add a sound, post.
-It runs on GitHub's servers, so your PC can be off.
+It runs on GitHub's servers, so your PC can be off. The 07:30 and 16:30 posts are about Aldi; the
+12:00 "tester" post rotates through Tesco, Sainsbury's, Asda and Lidl (`config.toml [store_rotation]`).
+The recipe cards are the same for every store; the hook, the cover's store front and the hashtags change,
+and only Aldi posts make £ claims (the card prices are Aldi prices).
 
-1. **Cover:** a fresh AI picture of an Aldi store front (OpenAI GPT Image) with the day's hook in
+1. **Cover:** a fresh AI picture of the post's supermarket (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.
 2. **Slides 2-6:** five Measy recipe cards (an AI food photo + the full recipe, drawn by code from
    `data/recipe_library.json`) that fit the post's theme (e.g. "cheesy dinners" + "skint until payday",

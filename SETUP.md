@@ -97,7 +97,7 @@ The login lasts about a year; the bot warns in its log a month before it runs ou
 ## 7. First real draft
 
 On GitHub: **Actions → Daily TikTok draft → Run workflow**. After a few minutes the TikTok app shows a
-notification: open it, add a sound, post. From then on it runs twice a day, at 07:30 and 16:30, by itself
+notification: open it, add a sound, post. From then on it runs three times a day, at 07:30, 12:00 and 16:30, by itself
 (change the times in `config.toml` and the workflow).
 
 ## If something goes wrong
