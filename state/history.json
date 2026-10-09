@@ -458,6 +458,100 @@
    "publish_id": "p_inbox_url~v2.7694458860652120086",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T00:32:50+00:00"
+  },
+  {
+   "date": "2026-10-09",
+   "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
+   "subline": "Big flavour, less cost — plates cleared 💚",
+   "title": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
+   "caption": "Friday is for Mexican — Aldi tacos, quesadillas, burritos and nachos that feed the lot, stop the moaning and take 20 minutes 😋💸\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Cheesy Taco Quesadillas\n3. Cheesy Beef Taco Pasta\n4. Crispy Beef Burrito Bowls\n5. Buffalo Chicken Quesadillas\n\nWhich one are you trying first this weekend — tacos, quesadilla, burrito or nachos? 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:cheesy-taco-quesadillas-1",
+    "card:cheesy-beef-taco-pasta-1",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:buffalo-chicken-quesadillas-2"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-taco-quesadillas",
+    "cheesy-beef-taco-pasta",
+    "crispy-beef-burrito-bowls",
+    "buffalo-chicken-quesadillas"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Beef Taco Pasta",
+    "Crispy Beef Burrito Bowls",
+    "Buffalo Chicken Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    252,
+    656
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "family",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you trying first this weekend — tacos, quesadilla, burrito or nachos? 👇",
+   "tuned": false,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners That Stop the Family Moaning 😩",
+     "subline": "Tacos, quesadillas, nachos = peace 🌮",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners That Save You Cash 💸",
+     "subline": "Family feasts, ready in 20 minutes ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "Send to the mate who always orders takeaway — Aldi Mexican 😋",
+     "subline": "Cheesy tacos & quesadillas = peace 🌮",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
+     "subline": "Big flavour, less cost — plates cleared 💚",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners to Feed the Whole Crowd 👀",
+     "subline": "No moaning — empty plates in 20 minutes ⏰",
+     "score": 6.5
+    },
+    {
+     "hook": "FRIDAY Mexican Night — 5 Aldi Dinners to Try 🙌",
+     "subline": "Weekend feast for fussy eaters — 20 mins ⏰",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-09T13:35:12+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-09-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694660881338173462",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T13:36:01+00:00"
   }
  ]
 }
