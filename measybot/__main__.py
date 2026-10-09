@@ -66,7 +66,9 @@ def cmd_build(args, cfg) -> int:
         log("TikTok isn't connected yet (no state/tiktok_token.enc; see SETUP.md step 6). Skipping.")
         return 0
     if args.again:
-        index, name = min(done, len(times) - 1), f"{day.isoformat()}-{now:%H%M%S}"
+        index = (args.slot - 1) if args.slot else min(done, len(times) - 1)
+        index = max(0, min(index, len(times) - 1))
+        name = f"{day.isoformat()}-{now:%H%M%S}"
         log("Extra test draft: it won't count as one of today's scheduled posts.")
     else:
         due = len(times) if (args.force or args.date) else sum(1 for t in times if (now.hour, now.minute) >= t)
@@ -231,6 +233,7 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--force", action="store_true", help="build even before the posting time")
     b.add_argument("--again", action="store_true",
                    help="make another draft even if today's was already sent (for testing)")
+    b.add_argument("--slot", type=int, help="with --again: which of the day's posts to copy (1, 2, 3...)")
     s = sub.add_parser("send", help="send the built slides to TikTok drafts (step 2)")
     s.add_argument("--date")
     s.add_argument("--post", help="folder name under site/p (default: the date)")

@@ -20,6 +20,10 @@ on:
         description: "Send another draft even if today's was already sent (testing)"
         type: boolean
         default: false
+      slot:
+        description: "With 'again': which of the day's posts to copy (1 = 07:30 Aldi, 2 = 12:00 tester store, 3 = 16:30 Aldi)"
+        type: string
+        default: ""
 
 permissions:
   contents: read
@@ -45,7 +49,7 @@ jobs:
 
       - name: Build today's slides
         id: build
-        run: python -m measybot build ${{ inputs.force && '--force' || '' }} ${{ inputs.again && '--again' || '' }}
+        run: python -m measybot build ${{ inputs.force && '--force' || '' }} ${{ inputs.again && '--again' || '' }} ${{ inputs.slot && format('--slot {0}', inputs.slot) || '' }}
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
