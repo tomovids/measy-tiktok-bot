@@ -1,0 +1,88 @@
+{
+ "posts": [
+  {
+   "date": "2026-10-09",
+   "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
+   "subline": "End-of-month lifesavers you gotta try 👀",
+   "title": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
+   "caption": "End of the month and payday's weeks away? These 5 Walmart-loaded potato dinners will keep you full and broke-proof 👀💸\n\n1. Cheesy BBQ Loaded Fries\n2. Creamy Tomato Potato Bake\n3. Cheesy Beef & Bean Loaded Potatoes\n4. Garlic Butter Sausage & Veggie Skillet\n5. Cheesy Buffalo Chicken Potato Skins\n\nWhich one are you making first this weekend? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #loadedfries #copycatrecipes",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:creamy-tomato-potato-bake-2",
+    "card:cheesy-beef-bean-loaded-potatoes-1",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:cheesy-buffalo-chicken-potato-skins-2"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-tomato-potato-bake",
+    "cheesy-beef-bean-loaded-potatoes",
+    "garlic-butter-sausage-veggie-skillet",
+    "cheesy-buffalo-chicken-potato-skins"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Tomato Potato Bake",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Cheesy Buffalo Chicken Potato Skins"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    0,
+    264
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "walmart",
+   "theme": {
+    "collection": "loaded",
+    "angle": "payday",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you making first this weekend? 👀",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
+     "subline": "End-of-month lifesavers you gotta try 👀",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Walmart Loaded Dinners — send to your broke roommate 😂💸",
+     "subline": "Weekend comfort food without the takeout 🍔",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Loaded Dinners for When You're Wiped Out 😩🧀",
+     "subline": "Low-effort, high-comfort meals 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Dinners From ONE Grocery Run 🙌💸",
+     "subline": "One trip, five loaded potato wins 🍗",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-09T17:23:30+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-09-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694719865910921239",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T17:24:19+00:00"
+  }
+ ]
+}
