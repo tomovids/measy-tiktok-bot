@@ -1,0 +1,78 @@
+{
+ "posts": [
+  {
+   "date": "2026-10-09",
+   "hook": "5 Tesco Asian Dinners When You're Too Knackered to Order 😩🍝",
+   "subline": "Zero effort, max comfort 🙌",
+   "title": "5 Tesco Asian Dinners When You're Too Knackered to Order 😩🍝",
+   "caption": "Dark nights call for sticky, saucy Tesco dinners — cosy flavours for a Friday night in. Good food. Less stress. 😋🍚\n\n1. Crispy Sweet Chilli Halloumi Burgers\n2. Sticky Teriyaki Sausage Rice Bowls\n3. Crispy Sweet Chilli Chicken Noodles\n4. Honey Soy Beef Noodles\n5. Sticky Beef Noodles\n\nWhich one would you try first this weekend? 👀\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:crispy-sweet-chilli-chicken-noodles-2",
+    "card:honey-soy-beef-noodles-2",
+    "card:sticky-beef-noodles-2"
+   ],
+   "groups": [
+    "crispy-sweet-chilli-halloumi-burgers",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "crispy-sweet-chilli-chicken-noodles",
+    "honey-soy-beef-noodles",
+    "sticky-beef-noodles"
+   ],
+   "dishes": [
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Crispy Sweet Chilli Chicken Noodles",
+    "Honey Soy Beef Noodles",
+    "Sticky Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    596,
+    692
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "asian",
+    "angle": "cosy",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one would you try first this weekend? 👀",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Asian Dinners for Cosy Dark Evenings 🤤🍚",
+     "subline": "All the sticky, saucy comfort you need 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Asian Dinners When You're Too Knackered to Order 😩🍝",
+     "subline": "Zero effort, max comfort 🙌",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-10-09T17:25:32+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-09-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694720344648828950",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-09T17:26:19+00:00"
+  }
+ ]
+}
