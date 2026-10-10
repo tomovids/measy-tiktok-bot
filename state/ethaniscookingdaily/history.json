@@ -157,6 +157,95 @@
    "publish_id": "p_inbox_url~v2.7694789394486331414",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T21:55:46+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",
+   "subline": "Stay in, treat yourself, save cash 💸",
+   "title": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",
+   "caption": "Saturday lunch: heading out? DON'T. 5 Asda dinners that feel like a night out but cost way less — full recipes + shopping list in the app 😋🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Sweet Chilli Beef Noodles\n3. Garlic Butter Flatbreads\n4. Sticky Honey Garlic Chicken Rice Bowls\n5. Sticky Beef Rice Bowls\n\nWhich one are you making first this weekend? 🍝\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:sweet-chilli-beef-noodles-1",
+    "card:garlic-butter-flatbreads-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2",
+    "card:sticky-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "sweet-chilli-beef-noodles",
+    "garlic-butter-flatbreads",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "sticky-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Sweet Chilli Beef Noodles",
+    "Garlic Butter Flatbreads",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Sticky Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    288,
+    616
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "under-2",
+    "angle": "saturday",
+    "label": "dinners under £2 a portion",
+    "angle_text": "Saturday night in, better than going out"
+   },
+   "question": "Which one are you making first this weekend? 🍝",
+   "tuned": false,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Dinners That Feel Like a Night Out 😏🍝",
+     "subline": "Cosy night in, big flavour, tiny budget 💸",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Dinners For a CHEAP Saturday Night In 😋🔥",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Dinners That Stop You Ordering In 😩🍔",
+     "subline": "Less faff than a takeaway, honestly 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Dinners to Send Your Mates When Knackered 😂👀",
+     "subline": "Send it to the group chat, do it 😂",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",
+     "subline": "Stay in, treat yourself, save cash 💸",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-10T14:42:04+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695049294714685462",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T14:43:02+00:00"
   }
  ]
 }
