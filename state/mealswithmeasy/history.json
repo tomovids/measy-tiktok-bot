@@ -266,6 +266,100 @@
    "publish_id": "p_inbox_url~v2.7695120080091301910",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-10T19:18:04+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
+   "subline": "Dinner solved in one grocery run 🙌",
+   "title": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
+   "caption": "Can't decide what's for dinner? These 5 Walmart chicken dinners save the week — easy, flavorful, and perfect for when you're wiped out 🙌🍗\n\n1. Cheesy Cajun Chicken Wraps\n2. Cheesy Buffalo Chicken Potato Skins\n3. Crispy Sweet Chili Chicken Noodles\n4. Garlic Parmesan Chicken Flatbreads\n5. Sweet Chili Chicken Rice Bowl\n\nWhich one are you trying first? Pick a number 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-2",
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:crispy-sweet-chilli-chicken-noodles-1",
+    "card:garlic-parmesan-chicken-flatbreads-2",
+    "card:sweet-chilli-chicken-rice-bowl-2"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "cheesy-buffalo-chicken-potato-skins",
+    "crispy-sweet-chilli-chicken-noodles",
+    "garlic-parmesan-chicken-flatbreads",
+    "sweet-chilli-chicken-rice-bowl"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Crispy Sweet Chili Chicken Noodles",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Sweet Chili Chicken Rice Bowl"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1224,
+    1424
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "chicken",
+    "angle": "no-idea",
+    "label": "chicken dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you trying first? Pick a number 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
+     "subline": "Dinner solved in one grocery run 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Walmart chicken dinners to stretch your groceries 💸",
+     "subline": "Cheap, filling, and tasty 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Too wiped out to cook? 5 Walmart chicken options 😴🍗",
+     "subline": "No fuss, max flavor 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your roomie: 5 Walmart chicken wins 👀🍗",
+     "subline": "Perfect for weeknight indecision 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "Skip the takeout: 5 Walmart chicken dinners that hit 🤤🍗",
+     "subline": "Better than ordering in? Maybe. 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart chicken dinners for when you CANNOT decide 😳🍗",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-10T22:54:03+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695175719256868886",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T22:54:47+00:00"
   }
  ]
 }
