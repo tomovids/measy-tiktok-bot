@@ -725,6 +725,100 @@
    "publish_id": "p_inbox_url~v2.7694789354283452419",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T21:55:23+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
+   "subline": "Comfort carbs that don't need effort 😋",
+   "title": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
+   "caption": "Too knackered to cook after a long week? These 5 Aldi pasta dinners are lazy, creamy lifesavers for your Saturday night 😋🍝\n\n1. Creamy Garlic Chicken Gnocchi\n2. Creamy Pesto Chicken Gnocchi\n3. Creamy Tomato Chicken Pasta\n4. One-Pan Smoky Beef Orzo\n5. Creamy Tomato Pasta\n\nWhich one would you make first? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:creamy-tomato-chicken-pasta-2",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:creamy-tomato-pasta-2"
+   ],
+   "groups": [
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-tomato-chicken-pasta",
+    "one-pan-smoky-beef-orzo",
+    "creamy-tomato-pasta"
+   ],
+   "dishes": [
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Tomato Chicken Pasta",
+    "One-Pan Smoky Beef Orzo",
+    "Creamy Tomato Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    368,
+    772
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "pasta",
+    "angle": "tired",
+    "label": "pasta dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Pasta Dinners for When You're Too Tired to Cook 😴🍝",
+     "subline": "Lazy creamy recipes for knackered nights 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Pasta Meals That Beat Ordering In 😏🍝",
+     "subline": "Send this to the mate who always orders 😳",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners Ready Without a Fuss 😩🍝",
+     "subline": "No chopping marathon, promise 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
+     "subline": "Comfort carbs that don't need effort 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners: Pasta Edition for Lazy Weekends 😴🍝",
+     "subline": "Saturday sorted — minimal effort 🙌",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dishes That Feel Like a Fakeaway 😏🍝",
+     "subline": "Creamy comfort, no takeaway queue 🤤",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-10T08:24:32+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7694952166113232918",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T08:25:23+00:00"
   }
  ]
 }
