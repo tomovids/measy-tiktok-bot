@@ -908,6 +908,95 @@
    "publish_id": "p_inbox_url~v2.7695049259100145686",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-10T14:42:49+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "5 Aldi Saucy Asian Dinners Even Picky Kids Will Love 😍",
+   "subline": "No moans, more pudding 🍝",
+   "title": "5 Aldi Saucy Asian Dinners Even Picky Kids Will Love 😍",
+   "caption": "This Saturday’s tea sorted — 5 Aldi Asian dinners that stop the family moaning and save you faff 😋🛒\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sweet Chilli Chicken Noodles\n3. Crispy Sweet Chilli Chicken Bowls\n4. Honey Chilli Chicken Noodles\n5. Sweet Chilli Halloumi Wraps\n\nWhich one are you cooking first this weekend? 👀\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sweet-chilli-chicken-noodles-1",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:sweet-chilli-halloumi-wraps-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sweet-chilli-chicken-noodles",
+    "crispy-sweet-chilli-chicken-bowls",
+    "honey-chilli-chicken-noodles",
+    "sweet-chilli-halloumi-wraps"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sweet Chilli Chicken Noodles",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Honey Chilli Chicken Noodles",
+    "Sweet Chilli Halloumi Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    296,
+    700
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "asian",
+    "angle": "family",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you cooking first this weekend? 👀",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Asian Dinners That’ll STOP Family Moans 😏",
+     "subline": "Feed everyone without the fuss 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Meals That Stretch Your Dinner Money 😳💸",
+     "subline": "Big flavour, tiny budget 🍚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Asian Meals — send this to your other half 🙌",
+     "subline": "No moaning, just seconds 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Saucy Asian Dinners Even Picky Kids Will Love 😍",
+     "subline": "No moans, more pudding 🍝",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Asian Dinners Ready in 25 Minutes or Less ⏰",
+     "subline": "Perfect for a Saturday night 😴",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-10T19:14:55+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-10-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695120080091203606",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T19:17:51+00:00"
   }
  ]
 }

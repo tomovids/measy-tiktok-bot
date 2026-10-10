@@ -172,6 +172,100 @@
    "publish_id": "p_inbox_url~v2.7694789394486315030",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-09T21:55:35+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "Can't Decide? 5 Trader Joe's Pastas to Choose Tonight 👀🍝",
+   "subline": "Pick one, text the group, then cook it 😍",
+   "title": "Can't Decide? 5 Trader Joe's Pastas to Choose Tonight 👀🍝",
+   "caption": "Can't decide what's for dinner? 5 Trader Joe's pasta dinners you can pick tonight or this weekend — big flavor, zero fuss. 😋🍝\n\n1. Cheesy Beef Taco Pasta\n2. One-Pan Tomato Chicken Orzo\n3. Creamy Tuscan Chicken Pasta\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Creamy Garlic Sausage Pasta\n\nWhich one are you making first? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-beef-taco-pasta-2",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:creamy-tuscan-chicken-pasta-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:creamy-garlic-sausage-pasta-1"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "one-pan-tomato-chicken-orzo",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "One-Pan Tomato Chicken Orzo",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    768,
+    868
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "pasta",
+    "angle": "tonight",
+    "label": "pasta dinners",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Pasta Dinners for When You're Too Tired 😩🍝",
+     "subline": "Comfort dinners for the end of the month 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Pasta Meals That Stretch Your Grocery Run 💸🍝",
+     "subline": "Big flavor, tiny budget 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Trader Joe's Pasta Dinners — Send to Your Roommate 😂🍝",
+     "subline": "Perfect for 'what's for dinner?' texts 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Trader Joe's Pastas Better Than Takeout Tonight 😋🔥",
+     "subline": "Cozy, saucy, and way more satisfying 😏",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Pasta Recipes That Feel Like Restaurant Meals 😳🍝",
+     "subline": "Weekend upgrade for Saturday lunch 🙌",
+     "score": 5.0
+    },
+    {
+     "hook": "Can't Decide? 5 Trader Joe's Pastas to Choose Tonight 👀🍝",
+     "subline": "Pick one, text the group, then cook it 😍",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-10T19:15:59+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-10-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695120080091301910",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T19:18:04+00:00"
   }
  ]
 }

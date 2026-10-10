@@ -246,6 +246,95 @@
    "publish_id": "p_inbox_url~v2.7695049294714685462",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-10T14:43:02+00:00"
+  },
+  {
+   "date": "2026-10-10",
+   "hook": "5 Lidl Cheesy Dinners to Stretch You Until Payday 💸🧀",
+   "subline": "End-of-month heroes that taste like luxe 😳",
+   "title": "5 Lidl Cheesy Dinners to Stretch You Until Payday 💸🧀",
+   "caption": "Proper skint till payday? These 5 cheesy Lidl dinners need zero drama and full-on comfort 😋🧀\n\n1. Loaded BBQ Beef Nachos\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Garlic Butter Chicken & Rice\n4. Crispy Beef Taco Rice Bowls\n5. Sweet Chilli Halloumi Wraps\n\nWhich one are you trying first this weekend? 😋\n💾 Save this for your next Lidl shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:garlic-butter-chicken-and-rice-1",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:sweet-chilli-halloumi-wraps-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-butter-chicken-and-rice",
+    "crispy-beef-taco-rice-bowls",
+    "sweet-chilli-halloumi-wraps"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Butter Chicken & Rice",
+    "Crispy Beef Taco Rice Bowls",
+    "Sweet Chilli Halloumi Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1012,
+    1208
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "payday",
+    "label": "cheesy dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first this weekend? 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Cheesy Dinners for When You're Properly Skint 😩🧀",
+     "subline": "Big cheese vibes, tiny bank balance 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Cheesy Dinners to Send to Your Other Half 😂🧀",
+     "subline": "Two portions, one shopping list 😳",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Cheesy Dinners That Feel Like a Fakeaway 😏🧀",
+     "subline": "Comfort food, less stress 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Cheesy Dinners to Stretch You Until Payday 💸🧀",
+     "subline": "End-of-month heroes that taste like luxe 😳",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Lidl Cheesy Dinners for This Weekend When You're Skint 😭🧀",
+     "subline": "Saturday tea sorted without the takeaway 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-10T19:17:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-10-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695120068606314518",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-10T19:18:17+00:00"
   }
  ]
 }
