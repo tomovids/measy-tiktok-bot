@@ -429,6 +429,95 @@
    "publish_id": "p_inbox_url~v2.7695434241445971990",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T15:36:54+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "hook": "5 Sainsbury's fakeaways for when you're skint 💸😩",
+   "subline": "Feels like a takeaway, costs less 😏",
+   "title": "5 Sainsbury's fakeaways for when you're skint 💸😩",
+   "caption": "No idea what to make for tea? Here are 5 Sainsbury's fakeaways to save Sunday night — proper tasty, no takeaway queue 🍔😋\n\n1. Cheesy Beef & Bean Loaded Potatoes\n2. Buffalo Chicken Quesadillas\n3. Crispy Beef Burrito Bowls\n4. Garlic-Butter Chicken Flatbreads\n5. Creamy Peri-Peri Chicken Pasta\n\nWhich one are you making tonight? 👀\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:cheesy-beef-bean-loaded-potatoes-1",
+    "card:buffalo-chicken-quesadillas-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:creamy-peri-peri-chicken-pasta-1"
+   ],
+   "groups": [
+    "cheesy-beef-bean-loaded-potatoes",
+    "buffalo-chicken-quesadillas",
+    "crispy-beef-burrito-bowls",
+    "garlic-butter-chicken-flatbreads",
+    "creamy-peri-peri-chicken-pasta"
+   ],
+   "dishes": [
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Buffalo Chicken Quesadillas",
+    "Crispy Beef Burrito Bowls",
+    "Garlic-Butter Chicken Flatbreads",
+    "Creamy Peri-Peri Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    412,
+    700
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "no-idea",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making tonight? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "No idea what to cook? 5 Sainsbury's fakeaways 😩🍔",
+     "subline": "Big flavour, tiny effort 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's fakeaways for when you're skint 💸😩",
+     "subline": "Feels like a takeaway, costs less 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "Send this to the takeaway-lover: 5 Sainsbury's 🍔😂",
+     "subline": "Fakeaways you can actually make at home 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "Sunday night? 5 Sainsbury's fakeaways for dinner 😴🍗",
+     "subline": "Perfect for a lazy end to the weekend 🙌",
+     "score": 5.5
+    },
+    {
+     "hook": "Too knackered to think? 5 Sainsbury's fakeaways 😩🍔",
+     "subline": "No fuss, big taste 🛒",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-11T19:43:48+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-11-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695497866718267414",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-11T19:45:00+00:00"
   }
  ]
 }

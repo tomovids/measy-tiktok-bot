@@ -1170,6 +1170,100 @@
    "publish_id": "p_inbox_url~v2.7695434317991888918",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T15:36:42+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "hook": "5 Aldi Rice Bowls for When You're Too Knackered to Cook 🍚😩",
+   "subline": "Save for your next Aldi shop 🛒",
+   "title": "5 Aldi Rice Bowls for When You're Too Knackered to Cook 🍚😩",
+   "caption": "Save this for your next Aldi shop: 5 rice bowls to rescue dinner, cheaper than a takeaway and properly satisfying 🛒🍚\n\n1. Sticky Korean Beef Rice Bowls\n2. Sticky BBQ Beef Rice Bowls\n3. Crispy Beef Burrito Bowls\n4. Garlic Sausage Rice Bowls\n5. Cheesy Taco Rice Skillet\n\nWhich rice bowl are you trying first? 🍚\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:garlic-sausage-rice-bowls-2",
+    "card:cheesy-taco-rice-skillet-2"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "sticky-bbq-beef-rice-bowls",
+    "crispy-beef-burrito-bowls",
+    "garlic-sausage-rice-bowls",
+    "cheesy-taco-rice-skillet"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Sticky BBQ Beef Rice Bowls",
+    "Crispy Beef Burrito Bowls",
+    "Garlic Sausage Rice Bowls",
+    "Cheesy Taco Rice Skillet"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    900,
+    1172
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "rice",
+    "angle": "save",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which rice bowl are you trying first? 🍚",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls for When You're Too Knackered to Cook 🍚😩",
+     "subline": "Save for your next Aldi shop 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Rice Bowls That Stretch Your Shopping 🛒💸",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi Rice Bowls 👀🍚",
+     "subline": "Send to your flatmate who can't decide 👀",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Rice Bowls Better Than a Takeaway 😏🍚",
+     "subline": "Skip the takeaway tonight 😏",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Rice Bowls From Aldi That Feel Like a Treat 😋🍚",
+     "subline": "Cheap, cosy and VERY filling 😳",
+     "score": 7.0
+    },
+    {
+     "hook": "Sunday? 5 Aldi Rice Bowls to Save for the Week 🍚🛒",
+     "subline": "",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-11T19:41:47+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695497812600293398",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-11T19:44:34+00:00"
   }
  ]
 }

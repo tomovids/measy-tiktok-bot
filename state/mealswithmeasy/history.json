@@ -360,6 +360,100 @@
    "publish_id": "p_inbox_url~v2.7695175719256868886",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-10T22:54:47+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "hook": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
+   "subline": "Cozy, cheesy nights as it gets darker 😋",
+   "title": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
+   "caption": "Sunday lunch pick-me-up: 5 cheesy Aldi dinners to warm up the darker nights — cozy, quick, and totally worth ordering in instead 😋🧀\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy Taco Rice Skillet\n3. Crispy Sweet Chili Halloumi Burgers\n4. Creamy Lemon Chicken Orzo\n5. Crispy Bean Quesadillas\n\nWhich one are you making first? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #cheesy #comfortfood",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:crispy-bean-quesadillas-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-taco-rice-skillet",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "creamy-lemon-chicken-orzo",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy Taco Rice Skillet",
+    "Crispy Sweet Chili Halloumi Burgers",
+    "Creamy Lemon Chicken Orzo",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    340,
+    668
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldius",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "cosy",
+    "label": "cheesy dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
+     "subline": "Cozy, cheesy nights as it gets darker 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners to Stretch Your Grocery Run 💸🧀",
+     "subline": "Comfort food for tight budgets 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "Send to your roommate: 5 Cheesy Aldi Dinners 👇🧀",
+     "subline": "Perfect for cozy weekend nights 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "Craving takeout? 5 Aldi Cheesy Dinners to Stop You 😋💸",
+     "subline": "Faster than delivery, comfier than pizza 🍝",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners That Fix a Cold, Dark Sunday 😍🧀",
+     "subline": "Cozy, cheesy, and super simple 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners for Cozy Weeknights in 30 mins 🍚🧀",
+     "subline": "Dinner sorted before you crash 😴",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-11T19:42:53+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-11-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695497866718201878",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-11T19:44:47+00:00"
   }
  ]
 }
