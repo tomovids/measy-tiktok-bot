@@ -1086,6 +1086,90 @@
    "publish_id": "p_inbox_url~v2.7695327520245516310",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T08:42:17+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "hook": "Send this to your flatmate: 5 Asda Italian dinners 👀🍝",
+   "subline": "Sunday reset — everyone's dinner sorted 🫶",
+   "title": "Send this to your flatmate: 5 Asda Italian dinners 👀🍝",
+   "caption": "Sunday reset — sort the week's dinners in one go with 5 Asda Italian-style meals. Ready in 20 minutes, perfect for batch-cooking and lazy nights 😏🍝\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Cheesy Tomato Pasta\n3. Creamy Garlic Chicken Orzo\n4. Garlic Butter Sausage Pasta\n5. Cheesy Cajun Sausage Gnocchi\n\nWhich one are you cooking first this week? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-garlic-chicken-orzo-1",
+    "card:garlic-butter-sausage-pasta-2",
+    "card:cheesy-cajun-sausage-gnocchi-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "cheesy-tomato-pasta",
+    "creamy-garlic-chicken-orzo",
+    "garlic-butter-sausage-pasta",
+    "cheesy-cajun-sausage-gnocchi"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Cheesy Tomato Pasta",
+    "Creamy Garlic Chicken Orzo",
+    "Garlic Butter Sausage Pasta",
+    "Cheesy Cajun Sausage Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    560,
+    800
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "italian",
+    "angle": "sunday-reset",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "Sunday reset: sort the week's dinners now"
+   },
+   "question": "Which one are you cooking first this week? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "Sunday reset: 5 Asda Italian dinners 🍝",
+     "subline": "Sort the week's dinners in 20 minutes ⏰",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Asda Italian Meals When You're Skint But Hungry 😭🍝",
+     "subline": "Big flavour, tiny effort 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Pasta & Gnocchi Dinners to Batch Cook 🛒🍝",
+     "subline": "Meal-prep friendly, ready in 20 minutes ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Asda Italian dinners 👀🍝",
+     "subline": "Sunday reset — everyone's dinner sorted 🫶",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-11T15:34:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695434317991888918",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-11T15:36:42+00:00"
   }
  ]
 }
