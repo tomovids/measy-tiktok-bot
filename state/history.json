@@ -997,6 +997,95 @@
    "publish_id": "p_inbox_url~v2.7695120080091203606",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-10T19:17:51+00:00"
+  },
+  {
+   "date": "2026-10-11",
+   "hook": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
+   "subline": "Stretch your dinner budget and smile 👀",
+   "title": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
+   "caption": "Payday's ages away? These 5 Aldi sausage dinners will stretch your shop, save you cash and stop you ordering a takeaway. Meal plans made easy. 😋💸\n\n1. BBQ Sausage Loaded Potatoes\n2. Garlic Butter Sausage & Veggie Skillet\n3. Sticky Honey Garlic Sausage Bowls\n4. Honey Soy Sausage Noodle Bowls\n5. Sticky Teriyaki Sausage Rice Bowls\n\nWhich one are you making this week — pick one! 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-1",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:sticky-honey-garlic-sausage-rice-2",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "garlic-butter-sausage-veggie-skillet",
+    "sticky-honey-garlic-sausage-rice",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-teriyaki-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    496,
+    848
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "sausage",
+    "angle": "payday",
+    "label": "sausage dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you making this week — pick one! 👇",
+   "tuned": false,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sausage Meals Better Than a Takeaway 😏🍔",
+     "subline": "Cheaper, quicker, tastier 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 LAZY Aldi Sausage Dinners for When You're Knackered 😴🍗",
+     "subline": "No faff, loads of flavour 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
+     "subline": "Stretch your dinner budget and smile 👀",
+     "score": 9.5
+    },
+    {
+     "hook": "5 Aldi Sausage Meals to Send Your Flatmate 😂👀",
+     "subline": "Make their next big shop easier 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners That Stretch to the Weekend 🙌💷",
+     "subline": "Save these for Sunday tea 🍚",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-11T08:41:27+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-11-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695327520245516310",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-11T08:42:17+00:00"
   }
  ]
 }
