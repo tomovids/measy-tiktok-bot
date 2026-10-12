@@ -518,6 +518,100 @@
    "publish_id": "p_inbox_url~v2.7695497866718267414",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T19:45:00+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "hook": "Send this to your flatmate: 5 Asda wrap fakeaways 🙌🌮",
+   "subline": "They'll think you've ordered in 😂",
+   "title": "Send this to your flatmate: 5 Asda wrap fakeaways 🙌🌮",
+   "caption": "Monday lunch sorted: 5 Asda wraps, flatbreads & quesadillas that beat a takeaway — tasty, cheesy and easier than ordering in 😋💸\n\n1. Cheesy Cajun Chicken Wraps\n2. Sweet Chilli Halloumi Wraps\n3. Cheesy Beef & Pepper Stuffed Flatbreads\n4. Garlic Parmesan Chicken Flatbreads\n5. Cheesy Pepperoni Pizza Wraps\n\nWhich one are you making first? Rate them out of 10! 🤤\n💾 Save this for your next Asda shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-2",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:garlic-parmesan-chicken-flatbreads-2",
+    "card:cheesy-pepperoni-pizza-wraps-2"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "sweet-chilli-halloumi-wraps",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-parmesan-chicken-flatbreads",
+    "cheesy-pepperoni-pizza-wraps"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Sweet Chilli Halloumi Wraps",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Cheesy Pepperoni Pizza Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    296,
+    724
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "handheld",
+    "angle": "takeaway",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making first? Rate them out of 10! 🤤",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Wraps & Flatbreads Better Than a Takeaway 🤤💸",
+     "subline": "Cheesy, quick and proper tasty 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "Monday lunch: 5 Asda wraps to beat a takeaway 😋🌮",
+     "subline": "",
+     "score": 5.5
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Asda wrap fakeaways 🙌🌮",
+     "subline": "They'll think you've ordered in 😂",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Asda quesadillas & wraps that beat a takeaway 😏🔥",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda wrap dinners for when you're skint but hungry 💸🌮",
+     "subline": "More flavour than a takeaway 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Asda cheesy pizza wraps, flatbreads & more 🤤🧀",
+     "subline": "Fakeaway vibes, cheaper than takeaway 💸",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-12T10:39:45+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695729076128172054",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-12T10:40:44+00:00"
   }
  ]
 }

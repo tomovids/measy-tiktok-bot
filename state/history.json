@@ -1264,6 +1264,95 @@
    "publish_id": "p_inbox_url~v2.7695497812600293398",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T19:44:34+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "hook": "5 Aldi dinners that are a hug in a bowl 😍🧀",
+   "subline": "For when cooking feels like too much 😭",
+   "title": "5 Aldi dinners that are a hug in a bowl 😍🧀",
+   "caption": "Monday morning and already knackered? 5 cosy Aldi dinners to make tonight stupidly easy. Good food. Less stress. 😋🛒\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Creamy Tomato Potato Bake\n3. Cheesy Beef & Pepper Stuffed Flatbreads\n4. Garlic Butter Chicken & Rice\n5. Creamy Garlic Chicken Pasta\n\nWhich one are you making first? Tell us your pick 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:creamy-tomato-potato-bake-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:garlic-butter-chicken-and-rice-2",
+    "card:creamy-garlic-chicken-pasta-2"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "creamy-tomato-potato-bake",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-butter-chicken-and-rice",
+    "creamy-garlic-chicken-pasta"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Creamy Tomato Potato Bake",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Garlic Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    0,
+    740
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "comfort",
+    "angle": "tired",
+    "label": "cosy comfort food",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? Tell us your pick 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "Too knackered to cook? 5 Aldi cosy dinners for tonight 😩🍗",
+     "subline": "Comfort food that fixes a rubbish day 😴",
+     "score": 8.2
+    },
+    {
+     "hook": "5 Aldi cosy dinners that won't break the bank 💸😋",
+     "subline": "Tiny budget, big flavour 👀",
+     "score": 6.8
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi comfort meals 👀🥲",
+     "subline": "",
+     "score": 7.4
+    },
+    {
+     "hook": "5 Aldi dinners that are a hug in a bowl 😍🧀",
+     "subline": "For when cooking feels like too much 😭",
+     "score": 8.5
+    },
+    {
+     "hook": "Monday sorted: 5 Aldi cosy dinners for when you're knackered 😩👀",
+     "subline": "Save this for the week ahead 👇",
+     "score": 7.7
+    }
+   ],
+   "built_at": "2026-10-12T10:38:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695729094448711702",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-12T10:40:31+00:00"
   }
  ]
 }
