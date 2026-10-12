@@ -612,6 +612,95 @@
    "publish_id": "p_inbox_url~v2.7695729076128172054",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-12T10:40:44+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "hook": "Skint till payday? 5 Lidl dinners that feel like a hug 😋🧀",
+   "subline": "Proper comfort food 🙌",
+   "title": "Skint till payday? 5 Lidl dinners that feel like a hug 😋🧀",
+   "caption": "Skint till payday? Monday dinner slump sorted with 5 cosy Lidl meals that feel like a hug — proper comfort, no faff. 😋🛒\n\n1. Cheesy Beef Taco Pasta\n2. Creamy Sun-Dried Tomato Chicken Orzo\n3. One-Pan Smoky Beef Orzo\n4. Creamy Tomato Pasta\n5. Creamy Garlic Chicken Gnocchi\n\nWhich one are you trying first? Rate them out of 10! 😋\n💾 Save this for your next Lidl shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-beef-taco-pasta-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:one-pan-smoky-beef-orzo-2",
+    "card:creamy-tomato-pasta-1",
+    "card:creamy-garlic-chicken-gnocchi-2"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "one-pan-smoky-beef-orzo",
+    "creamy-tomato-pasta",
+    "creamy-garlic-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "One-Pan Smoky Beef Orzo",
+    "Creamy Tomato Pasta",
+    "Creamy Garlic Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    456,
+    712
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "comfort",
+    "angle": "payday",
+    "label": "cosy comfort food",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first? Rate them out of 10! 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl cosy dinners for the end-of-month slump 😩🍝",
+     "subline": "Proper comfort, no faff 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "Skint till payday? 5 Lidl dinners that feel like a hug 😋🧀",
+     "subline": "Proper comfort food 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Lidl cosy meals 👀🍝",
+     "subline": "End-of-month lifesavers 😩",
+     "score": 8.0
+    },
+    {
+     "hook": "Turn Monday into cosy-night: 5 Lidl meals 😴🫶",
+     "subline": "Dinner sorted till payday 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Lidl dinners for when your bank's on red 😭💸",
+     "subline": "Comfort that's not faffy 🧀",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-12T20:17:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-12-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695878274299316227",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-12T20:19:07+00:00"
   }
  ]
 }

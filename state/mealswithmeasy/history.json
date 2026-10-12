@@ -543,6 +543,100 @@
    "publish_id": "p_inbox_url~v2.7695557362644404246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-11T23:37:08+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "hook": "5 Walmart Rice Bowls That Outsmart Takeout 😋💸",
+   "subline": "Cheap dinners that don't taste cheap 😏",
+   "title": "5 Walmart Rice Bowls That Outsmart Takeout 😋💸",
+   "caption": "End-of-month dinner panic? These 5 Walmart rice bowls are cheap, cozy, and actually taste like a treat 🙌🍚\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky BBQ Chicken Rice Bowls\n3. Crispy Beef Taco Rice Bowls\n4. Crispy Sweet Chili Chicken Bowls\n5. Sticky Honey Garlic Chicken Rice Bowls\n\nWhich one are you making first this week? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #ricebowl #copycatrecipes",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-bbq-chicken-rice-bowls",
+    "crispy-beef-taco-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sticky-honey-garlic-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Crispy Beef Taco Rice Bowls",
+    "Crispy Sweet Chili Chicken Bowls",
+    "Sticky Honey Garlic Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    372,
+    556
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "walmart",
+   "theme": {
+    "collection": "rice",
+    "angle": "taste-cheap",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Rice Bowls for When You're Broke & Tired 😭🍚",
+     "subline": "Big taste, tiny grocery run 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "Send this to your roommate: 5 Walmart Rice Bowls 🙌🍚",
+     "subline": "Quick, cozy, grocery-friendly 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Walmart Rice Bowls That Outsmart Takeout 😋💸",
+     "subline": "Cheap dinners that don't taste cheap 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Walmart Rice Bowls That Taste Like a Restaurant 😳🍚",
+     "subline": "No fancy skills required 🔥",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Rice Bowls For Weeknights You're Exhausted 😴🍚",
+     "subline": "Comfort in a bowl, fast(ish) 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Walmart Rice Bowls To Stretch Your Grocery Run 💸🍚",
+     "subline": "Keep takeout in the past 💵",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-12T20:16:11+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695877993063024662",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-12T20:18:55+00:00"
   }
  ]
 }
