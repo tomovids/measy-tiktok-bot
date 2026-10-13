@@ -73,29 +73,28 @@ def switch(acct: config.Account, base_cfg: dict) -> dict:
     return config.account_cfg(base_cfg, acct)
 
 
-def other_histories(acct: config.Account, base_cfg: dict) -> list[History]:
-    return [History.load(a.state_dir / "history.json") for a in config.accounts(base_cfg) if a.id != acct.id]
-
-
 def label(acct: config.Account) -> str:
     return acct.handle or acct.name
 
 
 def cmd_build(args, base_cfg) -> int:
     """Builds every draft that is due, for every account (or just --account). The list of what was
-    built goes in built.json for `send`."""
+    built goes in built.json for `send`.
+
+    GitHub runs the schedule far less often than asked (sometimes hours apart), so one run catches
+    up on everything that's due, including yesterday's missing drafts before today's first one."""
     github_output(built="false")
     built, errors = [], 0
+    # every account's history, kept in memory: drafts built in this run count straight away, so
+    # the next draft (this account's or another's) doesn't repeat their dishes or hooks
+    hists = {a.id: History.load(a.state_dir / "history.json") for a in config.accounts(base_cfg)}
     for acct in selected_accounts(args, base_cfg):
         cfg = switch(acct, base_cfg)
         try:
-            entry = build_one(args, cfg, acct, other_histories(acct, base_cfg))
+            built += build_due(args, cfg, acct, hists)
         except (TikTokError, tokens.TokenError, OpenAIError, FileNotFoundError, ValueError) as e:
             log(f"ERROR building for {label(acct)}: {e}")
             errors += 1
-            continue
-        if entry:
-            built.append(entry)
     MANIFEST.write_text(json.dumps(built, indent=1) + "\n", encoding="utf-8")
     if built:
         github_output(built="true")
@@ -116,44 +115,59 @@ def inbox_full_wait(hist: History, now: datetime | None = None) -> int:
     return max(0, round(INBOX_FULL_RETRY_MIN - ago))
 
 
-def build_one(args, cfg: dict, acct: config.Account, others: list[History]) -> dict | None:
+def build_due(args, cfg: dict, acct: config.Account, hists: dict[str, History]) -> list[dict]:
+    """Every draft this account is due (or one extra test draft with --again)."""
     now = local_now(cfg)
-    day = date.fromisoformat(args.date) if args.date else now.date()
-    hist = History.load()
+    today = date.fromisoformat(args.date) if args.date else now.date()
+    hist = hists[acct.id]
+    others = [h for k, h in hists.items() if k != acct.id]
     times = post_times(cfg)
-    done = hist.count_on(day)
     who = label(acct)
     if acct.overrides.get("paused"):
         log(f"{who}: paused in config.toml. Skipping.")
-        return None
+        return []
     if not config.TOKEN_FILE.exists():
         log(f"{who}: TikTok isn't connected yet (no {config.TOKEN_FILE.relative_to(config.ROOT).as_posix()}; "
             f"run `python -m measybot authorize --account {acct.id}`). Skipping.")
-        return None
+        return []
+
+    def build(day: date, index: int, name: str) -> dict:
+        log(f"\n== {who}: draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)}) ==")
+        post = build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True),
+                          log=log, extra=args.again, slot=slot_name(index, cfg), index=index, others=others)
+        hist.add({**post, "status": SENT})       # in memory only: `send` records the real result
+        return {"account": acct.id, "date": day.isoformat(), "post": name}
+
     if args.again:
+        done = hist.count_on(today)
         index = (args.slot - 1) if args.slot else min(done, len(times) - 1)
         index = max(0, min(index, len(times) - 1))
-        name = f"{day.isoformat()}-{now:%H%M%S}"
         log(f"{who}: extra test draft, it won't count as one of today's scheduled posts.")
-    else:
-        due = len(times) if (args.force or args.date) else sum(1 for t in times if (now.hour, now.minute) >= t)
+        return [build(today, index, f"{today.isoformat()}-{now:%H%M%S}")]
+
+    # (day, how many of its drafts are due by now); yesterday's leftovers only before today's first draft
+    days = []
+    if not (args.force or args.date) and (now.hour, now.minute) < times[0]:
+        days.append((today - timedelta(days=1), len(times)))
+    days.append((today, len(times) if (args.force or args.date)
+                 else sum(1 for t in times if (now.hour, now.minute) >= t)))
+    out = []
+    for day, due in days:
+        while (done := hist.count_on(day)) < due:
+            wait = inbox_full_wait(hist)
+            if wait:
+                log(f"{who}: TikTok said too many drafts are waiting in the inbox; trying again in about "
+                    f"{wait} minutes (post or delete the drafts in TikTok to free a space).")
+                return out
+            out.append(build(day, done, f"{day.isoformat()}-{done + 1}"))
+    if not out:
+        done = hist.count_on(today)
         if done >= len(times):
-            log(f"{who}: all {len(times)} of today's drafts ({day}) were sent. Nothing to do.")
-            return None
-        if done >= due:
+            log(f"{who}: all {len(times)} of today's drafts ({today}) were sent. Nothing to do.")
+        else:
             nxt = times[done]
             log(f"{who}: it's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
-            return None
-        wait = inbox_full_wait(hist)
-        if wait:
-            log(f"{who}: TikTok said too many drafts are waiting in the inbox; trying again in about "
-                f"{wait} minutes (post or delete the drafts in TikTok to free a space).")
-            return None
-        index, name = done, f"{day.isoformat()}-{done + 1}"
-    log(f"\n== {who}: draft {index + 1} of {len(times)} for {day} ({slot_name(index, cfg)}) ==")
-    build_post(day, cfg, hist, stage.post_folder(day, name=name), openai_client(required=True), log=log,
-               extra=args.again, slot=slot_name(index, cfg), index=index, others=others)
-    return {"account": acct.id, "date": day.isoformat(), "post": name}
+    return out
 
 
 def cmd_send(args, base_cfg) -> int:
@@ -169,15 +183,25 @@ def cmd_send(args, base_cfg) -> int:
         return 0
     tt = TikTok(secret("TIKTOK_CLIENT_KEY"), secret("TIKTOK_CLIENT_SECRET"))
     key = secret("TOKEN_KEY")
-    failed = 0
+    failed, inbox_full = 0, set()
     for e in entries:
         acct = config.get_account(base_cfg, e["account"])
+        if acct.id in inbox_full:
+            log(f"\n{label(acct)}: inbox still full, {e['post']} waits for a later run.")
+            continue
         cfg = switch(acct, base_cfg)
         log(f"\n== Sending to {label(acct)} ==")
         try:
             post = stage.load_post(stage.post_folder(date.fromisoformat(e["date"]), name=e["post"]))
             send_post(post, cfg, History.load(), tt, key, log=log)
         except (TikTokError, tokens.TokenError, FileNotFoundError) as err:
+            if "too_many_pending" in str(err):
+                # not a fault: the account has 5 drafts waiting. The bot retries later and the
+                # dashboard shows it, so this doesn't fail the run (no failure email).
+                inbox_full.add(acct.id)
+                log(f"::warning::{label(acct)}: TikTok's inbox is full (5 drafts waiting). Post or delete "
+                    "some in TikTok; the bot tries again in 2 hours.")
+                continue
             log(f"ERROR sending to {label(acct)}: {err}")
             failed += 1
     return 1 if failed else 0

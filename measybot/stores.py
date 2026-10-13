@@ -49,11 +49,13 @@ def by_id(cfg: dict, store_id: str) -> Store:
     return next((s for s in load(cfg) if s.id == store_id), default())
 
 
-def choose(hist: History, cfg: dict, rng: random.Random, index: int = 0) -> Store:
+def choose(hist: History, cfg: dict, rng: random.Random, index: int = 0,
+           taken: set[str] | frozenset = frozenset()) -> Store:
     """The store for the day's post number `index` (0-based) from [store_rotation] plan.
 
     A fixed id gives that store; "rotate" (or no plan) gives the next store in turn: the one whose
-    last post is oldest, never-used first, from the stores the plan doesn't fix.
+    last post is oldest, never-used first, from the stores the plan doesn't fix. `taken`: stores
+    another account already posted about today; "rotate" picks one of those only if nothing else is left.
     """
     stores = load(cfg)
     plan = cfg.get("store_rotation", {}).get("plan") or []
@@ -69,7 +71,7 @@ def choose(hist: History, cfg: dict, rng: random.Random, index: int = 0) -> Stor
     for i, p in enumerate(posts):
         last[p.get("store", "aldi")] = i
     # the store used longest ago; ties go in config order, so the rotation is always the same
-    return min(stores, key=lambda s: last.get(s.id, -1))
+    return min(stores, key=lambda s: (s.id in taken, last.get(s.id, -1)))
 
 
 def all_words(cfg: dict) -> set[str]:

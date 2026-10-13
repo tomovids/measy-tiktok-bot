@@ -214,7 +214,7 @@ function attention() {
     if (a.login_days != null && a.login_days < 30) out.push(["🔑", `${s}: TikTok login runs out in ${a.login_days} days. Run authorize again.`]);
     const failed = a.drafts.recent.filter(r => r.failed && r.date === a.drafts.local_date && !r.test);
     failed.forEach(r => out.push(["⚠️", `${s}: today's ${esc(r.slot || "")} draft failed${r.error ? ` <span class="small muted">(${esc(r.error)})</span>` : ""}. ${/pending/i.test(r.error || "") ? "Post or delete the drafts waiting in TikTok; the bot retries on its next run." : "The bot retries on its next run."}`]));
-    if (!a.paused && a.connected && a.drafts.overdue) out.push(["⏰", `${s}: the ${esc(a.drafts.next.replace(" draft due now", ""))} draft is due; it goes out on the next run (every 30 minutes).`]);
+    if (!a.paused && a.connected && a.drafts.overdue) out.push(["⏰", `${s}: the ${esc(a.drafts.next.replace(" draft due now", ""))} draft is due; it goes out on the next hourly run.`]);
   });
   return out.length ? out.map(([ic, t]) => `<div class="alert"><div class="ic">${ic}</div><div>${t}</div></div>`).join("")
     : `<div class="alert"><div class="ic">✅</div><div>All good: every account is connected and on schedule.</div></div>`;

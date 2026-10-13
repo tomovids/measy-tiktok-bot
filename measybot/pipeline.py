@@ -23,14 +23,17 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     seed = f"{day}/{slot}" + ("" if acct.get("primary", True) else f"/{acct.get('id')}") + ("/extra" if extra else "")
     avoid: dict[str, int] = {}          # dish -> days since another account posted it
     other_hooks = []
+    taken = set()                        # stores another account posted about today
     for h in others or []:
         for p in h.accepted():
             ago = (day - date.fromisoformat(p["date"])).days
+            if ago == 0 and not acct.get("primary", True) and p.get("store"):
+                taken.add(p["store"])
             if 0 <= ago <= 1:
                 for g in p.get("groups") or []:
                     avoid[g] = min(ago, avoid.get(g, ago))
         other_hooks += h.recent_hooks(30)
-    store = stores.choose(hist, cfg, random.Random(f"{seed}/store"), index)
+    store = stores.choose(hist, cfg, random.Random(f"{seed}/store"), index, taken)
     dish_tags = tags.all_tags()
     boost = tuning.for_post(random.Random(f"{seed}/tune"))
     theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"), boost=boost,

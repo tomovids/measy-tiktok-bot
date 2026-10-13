@@ -37,8 +37,8 @@ def test_second_account_has_its_own_files(cfg, restore_account):
 def test_account_settings(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
     assert acfg["schedule"]["post_times"] == ["11:00", "19:00"]
-    assert acfg["store_rotation"]["plan"] == ["rotate", "rotate"]
-    assert {s.id for s in stores.load(acfg)} == {"tesco", "sainsburys", "asda", "lidl"}
+    assert acfg["store_rotation"]["plan"] == ["aldi", "rotate"]
+    assert {s.id for s in stores.load(acfg)} == {"tesco", "sainsburys", "asda", "aldi", "lidl"}
     assert acfg["account"]["primary"] is False
     # the first account is unchanged
     main = config.account_cfg(cfg, config.get_account(cfg, None))
@@ -51,16 +51,21 @@ def test_unknown_account(cfg):
         config.get_account(cfg, "nobody")
 
 
-def test_uk_tester_account_never_uses_aldi(cfg):
+def test_ethan_leans_on_aldi_and_tests_other_stores(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
     hist = History()
-    seen = set()
-    for i in range(8):
-        s = stores.choose(hist, acfg, random.Random(i), i % 2)
-        seen.add(s.id)
-        hist.add({"date": f"2026-10-{10 + i // 2:02d}", "store": s.id, "status": SENT})
-    assert "aldi" not in seen
-    assert seen == {"tesco", "sainsburys", "asda", "lidl"}
+    tested = []
+    for d in range(8):
+        for i in range(2):
+            s = stores.choose(hist, acfg, random.Random(d), i)
+            if i == 0:
+                assert s.id == "aldi"
+            else:
+                tested.append(s.id)
+            hist.add({"date": f"2026-10-{10 + d:02d}", "store": s.id, "status": SENT})
+    assert tested == ["tesco", "sainsburys", "asda", "lidl"] * 2
+    # the store Measy tested today is skipped
+    assert stores.choose(hist, acfg, random.Random(9), 1, taken={"tesco"}).id == "sainsburys"
 
 
 def test_avoids_the_other_accounts_dishes(cfg):
@@ -139,3 +144,46 @@ def test_waits_after_tiktok_inbox_is_full():
     assert inbox_full_wait(hist, datetime(2026, 10, 9, 16, 31, tzinfo=timezone.utc)) == 0
     hist.add({"date": "2026-10-09", "status": "FAILED", "sent_at": "2026-10-09T15:00:00+00:00", "error": "other"})
     assert inbox_full_wait(hist, datetime(2026, 10, 9, 15, 1, tzinfo=timezone.utc)) == 0
+
+
+def _fake_build(monkeypatch, now):
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    import measybot.__main__ as m
+    made = []
+
+    def fake_build_post(day, cfg, hist, folder, ai, **kw):
+        made.append((cfg["account"]["id"], day.isoformat(), kw["index"]))
+        return {"date": day.isoformat(), "groups": [f"dish-{len(made)}"], "hook": f"hook {len(made)}",
+                "store": "aldi", "slot": kw["slot"], "extra": kw.get("extra", False)}
+
+    monkeypatch.setattr(m, "build_post", fake_build_post)
+    monkeypatch.setattr(m, "openai_client", lambda required: None)
+    monkeypatch.setattr(m, "local_now", lambda cfg: datetime.fromisoformat(now).astimezone(
+        ZoneInfo(cfg["schedule"]["timezone"])))
+    return m, made
+
+
+def test_one_run_catches_up_every_due_draft(cfg, monkeypatch, restore_account):
+    import argparse
+    m, made = _fake_build(monkeypatch, "2026-10-13T18:00:00+01:00")    # 18:00 UK: all 3 Measy slots due
+    acct = config.get_account(cfg, "measy")
+    acfg = m.switch(acct, cfg)
+    hists = {a.id: History() for a in config.accounts(cfg)}
+    args = argparse.Namespace(date=None, force=False, again=False, slot=None)
+    out = m.build_due(args, acfg, acct, hists)
+    assert [e["post"] for e in out] == ["2026-10-13-1", "2026-10-13-2", "2026-10-13-3"]
+    assert [i for _, _, i in made] == [0, 1, 2]
+    assert m.build_due(args, acfg, acct, hists) == []          # nothing left
+
+
+def test_early_run_sends_yesterdays_missing_drafts(cfg, monkeypatch, restore_account):
+    import argparse
+    m, made = _fake_build(monkeypatch, "2026-10-13T03:00:00+01:00")    # 03:00 UK, before 07:30
+    acct = config.get_account(cfg, "measy")
+    acfg = m.switch(acct, cfg)
+    hists = {a.id: History() for a in config.accounts(cfg)}
+    hists["measy"].add({"date": "2026-10-12", "status": SENT})          # only 1 of 3 went out yesterday
+    args = argparse.Namespace(date=None, force=False, again=False, slot=None)
+    out = m.build_due(args, acfg, acct, hists)
+    assert [e["post"] for e in out] == ["2026-10-12-2", "2026-10-12-3"]

@@ -1,8 +1,8 @@
 # Measy TikTok slideshow bot settings. Edit freely; the next run picks them up.
 
 [schedule]
-# Measy's drafts: one per time (UK time). The GitHub workflow checks every 30 minutes, so a draft
-# arrives up to about half an hour after its time.
+# Measy's drafts: one per time (UK time). The GitHub workflow checks once an hour (GitHub often runs it late), so a draft
+# can arrive a while after its time; a late run sends every draft that is due.
 post_times = ["07:30", "12:00", "16:30"]
 timezone = "Europe/London"
 
@@ -215,7 +215,7 @@ top_hooks = 6
 # posted twice in a day across the accounts, and they never reuse each other's hooks.
 # post_times are in the account's own time zone (UK, or US Eastern for a US account).
 # Connect an account once with:  python -m measybot authorize --account <id>
-# The GitHub workflow checks every 30 minutes, so post_times can change freely.
+# The GitHub workflow checks hourly, so post_times can change freely.
 # paused = true stops an account's drafts without deleting anything.
 [[accounts]]
 id = "measy"
@@ -235,8 +235,10 @@ id = "ethaniscookingdaily"
 name = "Ethan Is Cooking Daily"
 handle = "@ethaniscookingdaily"
 post_times = ["11:00", "19:00"]
-store_plan = ["rotate", "rotate"]
-stores = ["tesco", "sainsburys", "asda", "lidl"]
+# Leans on Aldi like Measy (Aldi drives the traffic): Aldi at 11:00, a tester store at 19:00 (it
+# skips the store Measy tested that day, so the two accounts test different stores).
+store_plan = ["aldi", "rotate"]
+stores = ["tesco", "sainsburys", "asda", "aldi", "lidl"]
 
 # ---- US audience (accounts with region = "us") --------------------------------------------------
 # Everything here replaces the UK setting of the same name for those accounts. The recipe cards come

@@ -17,7 +17,7 @@ Two more accounts get 2 drafts a day each:
 No dish appears twice in a day across the accounts, they avoid each other's dishes from the day
 before when they can, and they never share hooks. Each account has its own TikTok login, history,
 stats and tuning (`config.toml [[accounts]]`; the extra accounts' files are in `state/<id>/`).
-The GitHub workflow checks every 30 minutes and sends whatever is due.
+The GitHub workflow checks once an hour and sends everything that is due (GitHub often runs it late or skips runs; the next run catches up, including the previous evening's drafts).
 
 **Dashboard:** one page for every account (an overview with today's drafts and anything that needs
 attention, then a tab per account), at `<pages address>/insights-5c3xnv64/`. It's rebuilt by the

@@ -2,10 +2,10 @@ name: Daily TikTok draft
 
 on:
   schedule:
-    # Every 30 minutes: each run builds whatever drafts are due (config.toml post_times, each account in
-    # its own time zone) and not yet sent, so a run GitHub skips or delays is caught up by the next one,
-    # and changing the times needs no change here. Runs with nothing due finish in under a minute.
-    - cron: "7,37 * * * *"
+    # Once an hour: each run builds every draft that's due (config.toml post_times, each account in its
+    # own time zone) and not yet sent, so a run GitHub skips or delays is made up by the next one.
+    # Runs with nothing due finish in under a minute.
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -110,5 +110,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state
           git diff --cached --quiet || git commit -m "Drafts $(date -u +%F)"
-          git pull --rebase
-          git push
+          # GitHub sometimes rejects a push for a moment (or another run just pushed): try a few times
+          for i in 1 2 3 4; do
+            git pull --rebase && git push && exit 0
+            sleep $((i * 20))
+          done
+          exit 1
