@@ -637,6 +637,100 @@
    "publish_id": "p_inbox_url~v2.7695877993063024662",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-12T20:18:55+00:00"
+  },
+  {
+   "date": "2026-10-12",
+   "hook": "5 Aldi Sausage Dinners Better Than Takeout 🤤🍝",
+   "subline": "Feel like takeout, cost like cooking 👀",
+   "title": "5 Aldi Sausage Dinners Better Than Takeout 🤤🍝",
+   "caption": "Stuck deciding dinner right now? 5 Aldi sausage dinners to fix tonight — save the grocery list in the Measy app. 😋🛒\n\n1. Sticky Teriyaki Sausage Rice Bowls\n2. Sticky Maple Sausage Sheet Pan\n3. Honey Soy Sausage Noodle Bowls\n4. Creamy Garlic Sausage Pasta\n5. Sticky Honey Garlic Sausage Bowls\n\nWhich one should I make tonight? Vote 1–5 👀\n💾 Save this for your next Aldi run\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:sticky-honey-garlic-sausage-rice-1"
+   ],
+   "groups": [
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-maple-sausage-traybake",
+    "honey-soy-sausage-noodle-bowls",
+    "creamy-garlic-sausage-pasta",
+    "sticky-honey-garlic-sausage-rice"
+   ],
+   "dishes": [
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Maple Sausage Sheet Pan",
+    "Honey Soy Sausage Noodle Bowls",
+    "Creamy Garlic Sausage Pasta",
+    "Sticky Honey Garlic Sausage Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    244,
+    640
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "sausage",
+    "angle": "tonight",
+    "label": "sausage dinners",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one should I make tonight? Vote 1–5 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sausage Dinners When Payday Feels Ages Away 😩💸",
+     "subline": "Big flavor, tiny grocery run 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "Can't decide? 5 Aldi Sausage Meals Tonight 👀😋",
+     "subline": "Send this to your roommate 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners Better Than Takeout 🤤🍝",
+     "subline": "Feel like takeout, cost like cooking 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 LAZY Aldi Sausage Dinners for Weeknights 😴🍗",
+     "subline": "Minimal effort, max comfort 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners You Can Make in Minutes 😳🍚",
+     "subline": "Perfect for when you're wiped out 😭",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your partner: 5 Aldi Sausage Meals 👀💚",
+     "subline": "Dinner decisions = solved 🙌",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-13T02:14:03+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-12-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7695968886407301142",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-13T02:14:46+00:00"
   }
  ]
 }
