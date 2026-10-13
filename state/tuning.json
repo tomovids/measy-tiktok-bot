@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 4,
+ "scored_posts": 6,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -14,6 +14,16 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.05
+   },
+   "under-150": {
+    "mult": 1.58,
+    "posts": 1,
+    "avg_ratio": 3.32
+   },
+   "creamy": {
+    "mult": 0.81,
+    "posts": 1,
+    "avg_ratio": 0.26
    }
   },
   "angle": {
@@ -26,6 +36,16 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.05
+   },
+   "save": {
+    "mult": 1.58,
+    "posts": 1,
+    "avg_ratio": 3.32
+   },
+   "friday": {
+    "mult": 0.81,
+    "posts": 1,
+    "avg_ratio": 0.26
    }
   },
   "lead": {
@@ -48,10 +68,26 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.05
+   },
+   "bbq-sausage-loaded-potatoes": {
+    "mult": 1.58,
+    "posts": 1,
+    "avg_ratio": 3.32
+   },
+   "garlic-sausage-rice-bowls": {
+    "mult": 0.81,
+    "posts": 1,
+    "avg_ratio": 0.26
    }
   }
  },
  "top_hooks": [
+  {
+   "hook": "5 Aldi dinners under £1.50 a portion 👀💸",
+   "subline": "Save these for your next Aldi shop 🛒",
+   "views": 24004,
+   "store": "aldi"
+  },
   {
    "hook": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
    "subline": "Comfort food that actually hits the spot 👀",
@@ -61,20 +97,26 @@
   {
    "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
    "subline": "Big flavour, less cost — plates cleared 💚",
-   "views": 7623,
+   "views": 7618,
    "store": "aldi"
   },
   {
    "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
    "subline": "Big flavour, tiny weekend budget 👀",
-   "views": 6847,
+   "views": 6852,
    "store": "aldi"
   },
   {
    "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
    "subline": "Fakeaway vibes, zero faff 👀",
-   "views": 4859,
+   "views": 4868,
    "store": "sainsburys"
+  },
+  {
+   "hook": "5 Asda Creamy Dinners That Beat a Takeaway 😋",
+   "subline": "",
+   "views": 1857,
+   "store": "asda"
   }
  ]
 }

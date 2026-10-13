@@ -1,28 +1,43 @@
 {
  "active": false,
- "scored_posts": 1,
+ "scored_posts": 2,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "spicy": {
-    "mult": 1.0,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 1.13
+   },
+   "under-2": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
    }
   },
   "angle": {
    "send": {
-    "mult": 1.0,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 1.13
+   },
+   "saturday": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.0,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 1.13
+   },
+   "cheesy-bbq-loaded-potatoes": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
    }
   }
  },
@@ -30,8 +45,14 @@
   {
    "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
    "subline": "Big flavour, tiny faff 🤤",
-   "views": 1970,
+   "views": 1948,
    "store": "sainsburys"
+  },
+  {
+   "hook": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",
+   "subline": "Stay in, treat yourself, save cash 💸",
+   "views": 1488,
+   "store": "asda"
   }
  ]
 }

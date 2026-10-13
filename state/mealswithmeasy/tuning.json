@@ -1,36 +1,57 @@
 {
  "active": false,
- "scored_posts": 1,
+ "scored_posts": 2,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "loaded": {
-    "mult": 1.0,
+    "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.44
+   },
+   "creamy": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.56
    }
   },
   "angle": {
    "payday": {
-    "mult": 1.0,
+    "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.44
+   },
+   "takeaway": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.56
    }
   },
   "lead": {
    "cheesy-bbq-chicken-loaded-fries": {
-    "mult": 1.0,
+    "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.44
+   },
+   "creamy-cajun-chicken-flatbreads": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.56
    }
   }
  },
  "top_hooks": [
   {
+   "hook": "5 Aldi Creamy Dinners Better Than a Takeout Run 😏",
+   "subline": "",
+   "views": 1210,
+   "store": "aldius"
+  },
+  {
    "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
    "subline": "End-of-month lifesavers you gotta try 👀",
-   "views": 345,
+   "views": 343,
    "store": "walmart"
   }
  ]
