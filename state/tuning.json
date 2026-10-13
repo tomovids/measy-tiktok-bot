@@ -1,38 +1,53 @@
 {
  "active": false,
- "scored_posts": 3,
+ "scored_posts": 4,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "sticky": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
+   },
+   "mexican": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
    }
   },
   "angle": {
    "taste-cheap": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
+   },
+   "family": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
    }
   },
   "lead": {
    "loaded-bbq-beef-nachos": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.14
+    "avg_ratio": 1.09
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
    },
    "crispy-bean-quesadillas": {
-    "mult": 1.0,
+    "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.95
+   },
+   "cheesy-bbq-pulled-chicken-nachos": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
    }
   }
  },
@@ -40,19 +55,25 @@
   {
    "hook": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
    "subline": "Comfort food that actually hits the spot 👀",
-   "views": 7884,
+   "views": 7883,
+   "store": "aldi"
+  },
+  {
+   "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
+   "subline": "Big flavour, less cost — plates cleared 💚",
+   "views": 7623,
    "store": "aldi"
   },
   {
    "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
    "subline": "Big flavour, tiny weekend budget 👀",
-   "views": 6923,
+   "views": 6847,
    "store": "aldi"
   },
   {
    "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
    "subline": "Fakeaway vibes, zero faff 👀",
-   "views": 4887,
+   "views": 4859,
    "store": "sainsburys"
   }
  ]

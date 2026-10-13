@@ -1,12 +1,37 @@
 {
  "active": false,
- "scored_posts": 0,
+ "scored_posts": 1,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
-  "collection": {},
-  "angle": {},
-  "lead": {}
+  "collection": {
+   "loaded": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  },
+  "angle": {
+   "payday": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  },
+  "lead": {
+   "cheesy-bbq-chicken-loaded-fries": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  }
  },
- "top_hooks": []
+ "top_hooks": [
+  {
+   "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
+   "subline": "End-of-month lifesavers you gotta try 👀",
+   "views": 345,
+   "store": "walmart"
+  }
+ ]
 }

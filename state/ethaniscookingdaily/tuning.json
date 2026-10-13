@@ -1,12 +1,37 @@
 {
  "active": false,
- "scored_posts": 0,
+ "scored_posts": 1,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
-  "collection": {},
-  "angle": {},
-  "lead": {}
+  "collection": {
+   "spicy": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  },
+  "angle": {
+   "send": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  },
+  "lead": {
+   "creamy-cajun-chicken-flatbreads": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  }
  },
- "top_hooks": []
+ "top_hooks": [
+  {
+   "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
+   "subline": "Big flavour, tiny faff 🤤",
+   "views": 1970,
+   "store": "sainsburys"
+  }
+ ]
 }
