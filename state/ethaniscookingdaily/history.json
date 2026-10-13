@@ -701,6 +701,100 @@
    "publish_id": "p_inbox_url~v2.7695878274299316227",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-12T20:19:07+00:00"
+  },
+  {
+   "date": "2026-10-13",
+   "hook": "5 Aldi Mexican Dinners That Make a Takeaway Look Expensive 🤤🌮",
+   "subline": "Fakeaway vibes without the bill 💸",
+   "title": "5 Aldi Mexican Dinners That Make a Takeaway Look Expensive 🤤🌮",
+   "caption": "Mexican night, sorted. Save these 5 Aldi dinners for your next shop — big flavour, tiny fuss. 😋🛒\n\n1. Buffalo Chicken Quesadillas\n2. Cheesy Taco Quesadillas\n3. Crispy Bean Quesadillas\n4. Cheesy Taco Rice Skillet\n5. Crispy Beef Burrito Bowls\n\nWhich one are you cooking first this week? 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:buffalo-chicken-quesadillas-1",
+    "card:cheesy-taco-quesadillas-1",
+    "card:crispy-bean-quesadillas-1",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:crispy-beef-burrito-bowls-1"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "cheesy-taco-quesadillas",
+    "crispy-bean-quesadillas",
+    "cheesy-taco-rice-skillet",
+    "crispy-beef-burrito-bowls"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Cheesy Taco Quesadillas",
+    "Crispy Bean Quesadillas",
+    "Cheesy Taco Rice Skillet",
+    "Crispy Beef Burrito Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    316,
+    680
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "save",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you cooking first this week? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners for When Payday's Ages Away 😭🌮",
+     "subline": "Cheap, cheesy, and proper filling 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners That Make a Takeaway Look Expensive 🤤🌮",
+     "subline": "Fakeaway vibes without the bill 💸",
+     "score": 9.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi Mexican Nights 🙌🌮",
+     "subline": "Everyone will fight over the quesadillas 💚",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners From Stuff You Probably Already Have 😏🌮",
+     "subline": "Stretch your shop and skip the stress 🛒",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners — one is £2.60 a portion 😳🌮",
+     "subline": "Cheap meals that STILL feel like a treat 🧀",
+     "score": 8.0
+    },
+    {
+     "hook": "Save these Aldi Mexican Dinners for the weekend 👀🌮",
+     "subline": "Perfect for a cosy Saturday night 🤤",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-13T10:32:28+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696098469404559363",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-13T10:33:53+00:00"
   }
  ]
 }
