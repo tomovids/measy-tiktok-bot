@@ -1,12 +1,59 @@
 {
  "active": false,
- "scored_posts": 0,
+ "scored_posts": 3,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
-  "collection": {},
-  "angle": {},
-  "lead": {}
+  "collection": {
+   "sticky": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
+   }
+  },
+  "angle": {
+   "taste-cheap": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
+   }
+  },
+  "lead": {
+   "loaded-bbq-beef-nachos": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.14
+   },
+   "sticky-garlic-beef-loaded-fries": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
+   },
+   "crispy-bean-quesadillas": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
+   }
+  }
  },
- "top_hooks": []
+ "top_hooks": [
+  {
+   "hook": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
+   "subline": "Comfort food that actually hits the spot 👀",
+   "views": 7884,
+   "store": "aldi"
+  },
+  {
+   "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
+   "subline": "Big flavour, tiny weekend budget 👀",
+   "views": 6923,
+   "store": "aldi"
+  },
+  {
+   "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
+   "subline": "Fakeaway vibes, zero faff 👀",
+   "views": 4887,
+   "store": "sainsburys"
+  }
+ ]
 }
