@@ -6,6 +6,11 @@ on:
     # own time zone) and not yet sent, so a run GitHub skips or delays is made up by the next one.
     # Runs with nothing due finish in under a minute.
     - cron: "17 * * * *"
+    # plus just after the 06:30 and 16:00 drafts are due (summer and winter time)
+    - cron: "35 5 * * *"
+    - cron: "35 6 * * *"
+    - cron: "5 15 * * *"
+    - cron: "5 16 * * *"
   workflow_dispatch:
     inputs:
       force:

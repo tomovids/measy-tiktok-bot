@@ -1,18 +1,19 @@
 # Measy TikTok slideshow bot
 
-Three times a day (07:30, 12:00 and 16:30 UK time) a GitHub Action makes a themed 7-slide TikTok photo slideshow
+Three times a day (06:30, 12:00 and 16:00 UK time) a GitHub Action makes a themed 7-slide TikTok photo slideshow
 and drops it into the Measy account's TikTok drafts. Open the notification, add a sound, post.
-It runs on GitHub's servers, so your PC can be off. The 07:30 and 16:30 posts are about Aldi; the
+It runs on GitHub's servers, so your PC can be off. The 06:30 and 16:00 posts are about Aldi; the
 12:00 "tester" post rotates through Tesco, Sainsbury's, Asda and Lidl (`config.toml [store_rotation]`).
 The recipe cards are the same for every store; the hook, the cover's store front and the hashtags change,
 and only Aldi posts make £ claims (the card prices are Aldi prices).
 
 Two more accounts get 2 drafts a day each:
-- **@mealswithmeasy** is the US account: Walmart, Aldi (US) and Trader Joe's in turn, at 12:00 and 17:00
-  US Eastern. Everything is American: the hooks and captions (takeout, groceries...), the hashtags, the
+- **@mealswithmeasy** is the US account: Walmart, Aldi (US) and Trader Joe's in turn, at 06:30 and 16:00
+  UK time. Everything is American: the hooks and captions (takeout, groceries...), the hashtags, the
   cover (a US store and parking lot) and the recipe cards (US ingredient names and units, °F, $ prices
   at typical Walmart / Aldi US prices, from `data/recipe_library_us.json`). `[regions.us]` in config.toml.
-- **@ethaniscookingdaily** (UK): Tesco, Sainsbury's, Asda and Lidl in turn, at 11:00 and 19:00.
+- **@ethaniscookingdaily** (UK): Aldi at 06:30, and at 16:00 a tester store (Tesco, Sainsbury's, Asda or
+  Lidl in turn, never the one Measy tested that day).
 
 No dish appears twice in a day across the accounts, they avoid each other's dishes from the day
 before when they can, and they never share hooks. Each account has its own TikTok login, history,

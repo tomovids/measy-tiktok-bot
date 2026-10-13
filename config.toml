@@ -3,7 +3,7 @@
 [schedule]
 # Measy's drafts: one per time (UK time). The GitHub workflow checks once an hour (GitHub often runs it late), so a draft
 # can arrive a while after its time; a late run sends every draft that is due.
-post_times = ["07:30", "12:00", "16:30"]
+post_times = ["06:30", "12:00", "16:00"]
 timezone = "Europe/London"
 
 [store_rotation]
@@ -213,7 +213,7 @@ top_hooks = 6
 # Each account can set its own post_times, store_plan, stores and region ("uk" by
 # default, or "us": see [regions.us]); anything not set comes from the settings above. No dish is
 # posted twice in a day across the accounts, and they never reuse each other's hooks.
-# post_times are in the account's own time zone (UK, or US Eastern for a US account).
+# post_times are in the account's time zone (UK unless it sets another; a US account defaults to US Eastern).
 # Connect an account once with:  python -m measybot authorize --account <id>
 # The GitHub workflow checks hourly, so post_times can change freely.
 # paused = true stops an account's drafts without deleting anything.
@@ -226,7 +226,9 @@ id = "mealswithmeasy"
 name = "Meals with Measy"
 handle = "@mealswithmeasy"
 region = "us"
-post_times = ["12:00", "17:00"]
+# US audience, but drafts arrive on UK time like the other accounts (06:30 and 16:00 UK).
+timezone = "Europe/London"
+post_times = ["06:30", "16:00"]
 store_plan = ["rotate", "rotate"]
 stores = ["walmart", "aldius", "traderjoes"]
 
@@ -234,8 +236,8 @@ stores = ["walmart", "aldius", "traderjoes"]
 id = "ethaniscookingdaily"
 name = "Ethan Is Cooking Daily"
 handle = "@ethaniscookingdaily"
-post_times = ["11:00", "19:00"]
-# Leans on Aldi like Measy (Aldi drives the traffic): Aldi at 11:00, a tester store at 19:00 (it
+post_times = ["06:30", "16:00"]
+# Leans on Aldi like Measy (Aldi drives the traffic): Aldi at 06:30, a tester store at 16:00 (it
 # skips the store Measy tested that day, so the two accounts test different stores).
 store_plan = ["aldi", "rotate"]
 stores = ["tesco", "sainsburys", "asda", "aldi", "lidl"]

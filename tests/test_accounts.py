@@ -36,7 +36,7 @@ def test_second_account_has_its_own_files(cfg, restore_account):
 
 def test_account_settings(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
-    assert acfg["schedule"]["post_times"] == ["11:00", "19:00"]
+    assert acfg["schedule"]["post_times"] == ["06:30", "16:00"]
     assert acfg["store_rotation"]["plan"] == ["aldi", "rotate"]
     assert {s.id for s in stores.load(acfg)} == {"tesco", "sainsburys", "asda", "aldi", "lidl"}
     assert acfg["account"]["primary"] is False
@@ -80,7 +80,8 @@ def test_avoids_the_other_accounts_dishes(cfg):
 def test_us_account(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
     assert acfg["region"]["id"] == "us" and acfg["region"]["currency"] == "$"
-    assert acfg["schedule"]["timezone"] == "America/New_York"
+    assert acfg["schedule"]["timezone"] == "Europe/London"          # drafts on UK time
+    assert acfg["schedule"]["post_times"] == ["06:30", "16:00"]
     assert [s.id for s in stores.load(acfg)] == ["walmart", "aldius", "traderjoes"]
     assert "#ukfood" not in acfg["caption"]["hashtags"]
     assert "parking lot" in acfg["cover"]["prompt"]
@@ -120,7 +121,7 @@ def test_one_dashboard_for_every_account(cfg):
     assert [a["id"] for a in data["accounts"]] == ["measy", "mealswithmeasy", "ethaniscookingdaily"]
     us = data["accounts"][1]
     assert us["currency"] == "$" and us["region"] == "us"
-    assert "ET" in us["drafts"]["next"]
+    assert us["drafts"]["times"] == ["06:30", "16:00"]
     assert config.HISTORY_FILE == config.STATE / "history.json"      # back on the first account
 
 
