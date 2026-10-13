@@ -795,6 +795,100 @@
    "publish_id": "p_inbox_url~v2.7696098469404559363",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-13T10:33:53+00:00"
+  },
+  {
+   "date": "2026-10-13",
+   "hook": "Skint? 5 Sainsbury's rice bowls till payday 😭🍚",
+   "subline": "Big flavour, tiny faff 😋",
+   "title": "Skint? 5 Sainsbury's rice bowls till payday 😭🍚",
+   "caption": "Rice bowls on repeat: 5 Sainsbury's dinners that always go down well — perfect for Tuesday tea 😋🍚\n\n1. Sticky Korean Beef Rice Bowls\n2. Creamy Garlic Chicken Rice\n3. Sweet Chilli Chicken Rice Bowl\n4. Garlic Sausage Rice Bowls\n5. Sticky BBQ Beef Rice Bowls\n\nWhich one are you cooking first? Drop the number 👇\n💾 Save this for your next Sainsbury's shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-2",
+    "card:creamy-garlic-chicken-rice-1",
+    "card:sweet-chilli-chicken-rice-bowl-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:sticky-bbq-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "creamy-garlic-chicken-rice",
+    "sweet-chilli-chicken-rice-bowl",
+    "garlic-sausage-rice-bowls",
+    "sticky-bbq-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Creamy Garlic Chicken Rice",
+    "Sweet Chilli Chicken Rice Bowl",
+    "Garlic Sausage Rice Bowls",
+    "Sticky BBQ Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    748,
+    876
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "rice",
+    "angle": "repeat",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you cooking first? Drop the number 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "Too knackered? 5 Sainsbury's rice bowls for tea 😩🍚",
+     "subline": "Dinner that always goes down well 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "Skint? 5 Sainsbury's rice bowls till payday 😭🍚",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Sainsbury's rice bowls 🙌🍚",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's rice bowls that beat a takeaway 🤤🍚",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's rice bowls I'd eat every week 😍🍚",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "Tuesday tea sorted: 5 Sainsbury's rice bowls 👀🍚",
+     "subline": "Perfect midweek go-tos 😋",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-13T18:22:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-13-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696219619467577366",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-13T18:23:52+00:00"
   }
  ]
 }
