@@ -909,6 +909,100 @@
    "publish_id": "p_inbox_url~v2.7696219619467511830",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-13T18:23:40+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "5 Aldi Dinners If You Have ZERO Energy 😭👀",
+   "subline": "Send this to your exhausted roommate 😩",
+   "title": "5 Aldi Dinners If You Have ZERO Energy 😭👀",
+   "caption": "Totally wiped after work? These 5 Aldi beef dinners take the fuss out of dinner so you can flop on the couch. Good food. Less stress. 😋💸\n\n1. Loaded BBQ Beef Nachos\n2. One-Pan Smoky Beef Orzo\n3. Crispy Beef Taco Rice Bowls\n4. Cheesy Beef & Pepper Stuffed Flatbreads\n5. Sticky Hoisin Beef Flatbreads\n\nWhich one would you try first? Pick a number 👀\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #groundbeefrecipes #beefrecipes",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:sticky-hoisin-beef-flatbreads-2"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "one-pan-smoky-beef-orzo",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "sticky-hoisin-beef-flatbreads"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "One-Pan Smoky Beef Orzo",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Sticky Hoisin Beef Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    248,
+    528
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "beef",
+    "angle": "tired",
+    "label": "beef mince and beef dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you try first? Pick a number 👀",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners When You're Too Tired to Cook 😩🍔",
+     "subline": "Dinner without the drama 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Meals Better Than Takeout 🤤💸",
+     "subline": "Copycat takeout—less effort 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners If You Have ZERO Energy 😭👀",
+     "subline": "Send this to your exhausted roommate 😩",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Ground Beef Dinners for Midweek Wins 🔥🍚",
+     "subline": "Comfort food that cooks fast 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi One-Pan Beef Dinners for Wed Night ⏰😏",
+     "subline": "Minimal dishes, max flavor ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners That Save You Time & Cash 💸😍",
+     "subline": "Perfect for when you're wiped out 😴",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-14T07:36:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696424003321825303",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T07:38:27+00:00"
   }
  ]
 }

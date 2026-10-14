@@ -1709,6 +1709,90 @@
    "publish_id": "p_inbox_url~v2.7696219451435386902",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-13T18:23:17+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "Skint till payday? 5 Aldi meals that stretch 😭💸",
+   "subline": "Big flavour, tiny effort 👀",
+   "title": "Skint till payday? 5 Aldi meals that stretch 😭💸",
+   "caption": "Save these 5 Aldi dinners for your next shop — big flavour, tiny faff. Meal plans made easy. Good food. Less stress. 😋🛒\n\n1. Cheesy Cajun Chicken Wraps\n2. Creamy Lemon Chicken Orzo\n3. Crispy Sweet Chilli Chicken Noodles\n4. Cheesy Beef Taco Pasta\n5. Sticky Beef Rice Bowls\n\nWhich one would you try first? Tell us below 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2",
+    "card:cheesy-beef-taco-pasta-2",
+    "card:sticky-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "creamy-lemon-chicken-orzo",
+    "crispy-sweet-chilli-chicken-noodles",
+    "cheesy-beef-taco-pasta",
+    "sticky-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Creamy Lemon Chicken Orzo",
+    "Crispy Sweet Chilli Chicken Noodles",
+    "Cheesy Beef Taco Pasta",
+    "Sticky Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    456,
+    808
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "anything",
+    "angle": "save",
+    "label": "a mix of the best dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one would you try first? Tell us below 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "Skint till payday? 5 Aldi meals that stretch 😭💸",
+     "subline": "Big flavour, tiny effort 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "Too knackered to cook? 5 Aldi dinners sorted 😴🍝",
+     "subline": "No faff, proper tasty 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "Fancy a fakeaway? 5 Aldi dinners that hit it 🤤🍝",
+     "subline": "Fakeaway vibes, zero faff 🍝",
+     "score": 7.5
+    },
+    {
+     "hook": "5 nights sorted: Aldi dinners that save you time 😏🛒",
+     "subline": "Save these for your next big shop 🛒",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-14T07:34:58+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696424376111007766",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T07:38:15+00:00"
   }
  ]
 }

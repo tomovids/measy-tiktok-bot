@@ -889,6 +889,85 @@
    "publish_id": "p_inbox_url~v2.7696219619467577366",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-13T18:23:52+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "5 Aldi noodle dinners for a skint midweek 💸",
+   "subline": "Save this for your next Aldi shop 🛒",
+   "title": "5 Aldi noodle dinners for a skint midweek 💸",
+   "caption": "Midweek and nothing planned? These 5 Aldi noodle dinners will rescue your Wednesday — quick, saucy and proper tasty. Meal plans made easy. 😋💸\n\n1. Honey Chilli Chicken Noodles\n2. Sweet Chilli Chicken Noodles\n3. Chilli Beef Noodles\n4. Honey Soy Sausage Noodle Bowls\n5. Sticky Beef Noodles\n\nWhich noodle bowl are you trying this Wednesday? 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #noodles #stirfry",
+   "files": [
+    "card:honey-chilli-chicken-noodles-2",
+    "card:sweet-chilli-chicken-noodles-1",
+    "card:chilli-beef-noodles-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-beef-noodles-1"
+   ],
+   "groups": [
+    "honey-chilli-chicken-noodles",
+    "sweet-chilli-chicken-noodles",
+    "chilli-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-beef-noodles"
+   ],
+   "dishes": [
+    "Honey Chilli Chicken Noodles",
+    "Sweet Chilli Chicken Noodles",
+    "Chilli Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    148,
+    708
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "noodles",
+    "angle": "midweek",
+    "label": "noodle dinners",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which noodle bowl are you trying this Wednesday? 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "Wednesday noodles: 5 Aldi dinners for midweek slump 😩🍝",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi noodle dinners for a skint midweek 💸",
+     "subline": "Save this for your next Aldi shop 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "Midweek rescue: 5 Aldi noodle bowls to skip a takeaway 😳💸",
+     "subline": "",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-14T07:37:24+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696424336625813526",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T07:38:40+00:00"
   }
  ]
 }
