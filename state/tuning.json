@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 7,
+ "scored_posts": 9,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -29,6 +29,16 @@
     "mult": 0.93,
     "posts": 1,
     "avg_ratio": 0.73
+   },
+   "sausage": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.47
+   },
+   "italian": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.46
    }
   },
   "angle": {
@@ -56,6 +66,16 @@
     "mult": 0.93,
     "posts": 1,
     "avg_ratio": 0.73
+   },
+   "payday": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.47
+   },
+   "sunday-reset": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.46
    }
   },
   "lead": {
@@ -80,9 +100,9 @@
     "avg_ratio": 1.11
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.63,
-    "posts": 1,
-    "avg_ratio": 3.5
+    "mult": 1.59,
+    "posts": 2,
+    "avg_ratio": 2.49
    },
    "garlic-sausage-rice-bowls": {
     "mult": 0.82,
@@ -93,6 +113,11 @@
     "mult": 0.93,
     "posts": 1,
     "avg_ratio": 0.73
+   },
+   "hot-honey-chicken-flatbread-pizzas": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.46
    }
   }
  },
@@ -101,6 +126,12 @@
    "hook": "5 Aldi dinners under £1.50 a portion 👀💸",
    "subline": "Save these for your next Aldi shop 🛒",
    "views": 24004,
+   "store": "aldi"
+  },
+  {
+   "hook": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
+   "subline": "Stretch your dinner budget and smile 👀",
+   "views": 10072,
    "store": "aldi"
   },
   {
@@ -124,14 +155,8 @@
   {
    "hook": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
    "subline": "Comfort carbs that don't need effort 😋",
-   "views": 5002,
+   "views": 5032,
    "store": "aldi"
-  },
-  {
-   "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
-   "subline": "Fakeaway vibes, zero faff 👀",
-   "views": 4868,
-   "store": "sainsburys"
   }
  ]
 }
