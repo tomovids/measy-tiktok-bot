@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 2,
+ "scored_posts": 3,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -8,36 +8,51 @@
    "loaded": {
     "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 0.44
+    "avg_ratio": 0.45
    },
    "creamy": {
-    "mult": 1.14,
+    "mult": 1.15,
     "posts": 1,
-    "avg_ratio": 1.56
+    "avg_ratio": 1.6
+   },
+   "chicken": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
    }
   },
   "angle": {
    "payday": {
     "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 0.44
+    "avg_ratio": 0.45
    },
    "takeaway": {
-    "mult": 1.14,
+    "mult": 1.15,
     "posts": 1,
-    "avg_ratio": 1.56
+    "avg_ratio": 1.6
+   },
+   "no-idea": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
    }
   },
   "lead": {
    "cheesy-bbq-chicken-loaded-fries": {
     "mult": 0.86,
     "posts": 1,
-    "avg_ratio": 0.44
+    "avg_ratio": 0.45
    },
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.14,
+    "mult": 1.15,
     "posts": 1,
-    "avg_ratio": 1.56
+    "avg_ratio": 1.6
+   },
+   "cheesy-cajun-chicken-wraps": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
    }
   }
  },
@@ -47,6 +62,12 @@
    "subline": "",
    "views": 1210,
    "store": "aldius"
+  },
+  {
+   "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
+   "subline": "Dinner solved in one grocery run 🙌",
+   "views": 758,
+   "store": "walmart"
   },
   {
    "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",

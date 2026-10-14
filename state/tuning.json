@@ -1,83 +1,98 @@
 {
  "active": false,
- "scored_posts": 6,
+ "scored_posts": 7,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "sticky": {
-    "mult": 0.92,
+    "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.71
    },
    "mexican": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.11
    },
    "under-150": {
-    "mult": 1.58,
+    "mult": 1.63,
     "posts": 1,
-    "avg_ratio": 3.32
+    "avg_ratio": 3.5
    },
    "creamy": {
-    "mult": 0.81,
+    "mult": 0.82,
     "posts": 1,
-    "avg_ratio": 0.26
+    "avg_ratio": 0.27
+   },
+   "pasta": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.73
    }
   },
   "angle": {
    "taste-cheap": {
-    "mult": 0.92,
+    "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.71
    },
    "family": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.11
    },
    "save": {
-    "mult": 1.58,
+    "mult": 1.63,
     "posts": 1,
-    "avg_ratio": 3.32
+    "avg_ratio": 3.5
    },
    "friday": {
-    "mult": 0.81,
+    "mult": 0.82,
     "posts": 1,
-    "avg_ratio": 0.26
+    "avg_ratio": 0.27
+   },
+   "tired": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.73
    }
   },
   "lead": {
    "loaded-bbq-beef-nachos": {
-    "mult": 1.02,
+    "mult": 1.04,
     "posts": 1,
-    "avg_ratio": 1.09
+    "avg_ratio": 1.15
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 0.92,
+    "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.71
    },
    "crispy-bean-quesadillas": {
-    "mult": 0.99,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 0.95
+    "avg_ratio": 1.0
    },
    "cheesy-bbq-pulled-chicken-nachos": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.11
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.58,
+    "mult": 1.63,
     "posts": 1,
-    "avg_ratio": 3.32
+    "avg_ratio": 3.5
    },
    "garlic-sausage-rice-bowls": {
-    "mult": 0.81,
+    "mult": 0.82,
     "posts": 1,
-    "avg_ratio": 0.26
+    "avg_ratio": 0.27
+   },
+   "creamy-garlic-chicken-gnocchi": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.73
    }
   }
  },
@@ -107,16 +122,16 @@
    "store": "aldi"
   },
   {
+   "hook": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
+   "subline": "Comfort carbs that don't need effort 😋",
+   "views": 5002,
+   "store": "aldi"
+  },
+  {
    "hook": "5 Sainsbury's Saucy Meals That Feel Like a Takeaway 😏💸",
    "subline": "Fakeaway vibes, zero faff 👀",
    "views": 4868,
    "store": "sainsburys"
-  },
-  {
-   "hook": "5 Asda Creamy Dinners That Beat a Takeaway 😋",
-   "subline": "",
-   "views": 1857,
-   "store": "asda"
   }
  ]
 }

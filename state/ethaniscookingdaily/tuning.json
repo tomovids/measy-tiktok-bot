@@ -1,47 +1,68 @@
 {
  "active": false,
- "scored_posts": 2,
+ "scored_posts": 3,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "spicy": {
-    "mult": 1.03,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.0
    },
    "under-2": {
-    "mult": 0.97,
+    "mult": 0.94,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.76
+   },
+   "cheesy": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.33
    }
   },
   "angle": {
    "send": {
-    "mult": 1.03,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.0
    },
    "saturday": {
-    "mult": 0.97,
+    "mult": 0.94,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.76
+   },
+   "payday": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.33
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.03,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.0
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 0.97,
+    "mult": 0.94,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.76
+   },
+   "loaded-bbq-beef-nachos": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.33
    }
   }
  },
  "top_hooks": [
+  {
+   "hook": "5 Lidl Cheesy Dinners to Stretch You Until Payday 💸🧀",
+   "subline": "End-of-month heroes that taste like luxe 😳",
+   "views": 2583,
+   "store": "lidl"
+  },
   {
    "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
    "subline": "Big flavour, tiny faff 🤤",
