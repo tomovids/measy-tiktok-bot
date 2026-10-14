@@ -1003,6 +1003,90 @@
    "publish_id": "p_inbox_url~v2.7696424003321825303",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T07:38:27+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "5 Trader Joe's Chicken Dinners to Stretch Your Grocery Run 💸🛒",
+   "subline": "Fills the fridge, saves your week 💚",
+   "title": "5 Trader Joe's Chicken Dinners to Stretch Your Grocery Run 💸🛒",
+   "caption": "Running low on energy (or cash)? Plan your Trader Joe's grocery run around 5 chicken dinners that save the week 😋💸\n\n1. Cheesy BBQ Loaded Potatoes\n2. One-Pan Tomato Chicken Orzo\n3. Garlic Butter Chicken & Rice\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Creamy Garlic Chicken Gnocchi\n\nWhich one would you make first? 👇\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:one-pan-tomato-chicken-orzo-2",
+    "card:garlic-butter-chicken-and-rice-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:creamy-garlic-chicken-gnocchi-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "one-pan-tomato-chicken-orzo",
+    "garlic-butter-chicken-and-rice",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-garlic-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "One-Pan Tomato Chicken Orzo",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Garlic Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    600,
+    776
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "chicken",
+    "angle": "weekly-shop",
+    "label": "chicken dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Chicken Dinners When You're Broke 😭💸",
+     "subline": "Plan one grocery run around them 🍗",
+     "score": 7.5
+    },
+    {
+     "hook": "Send this to your roommate: 5 Trader Joe's chicken dinners 👀🍗",
+     "subline": "Weeknight wins your whole apartment 🫶",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners for When You're Wiped Out 😩😴",
+     "subline": "Comfort food without the fuss 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners to Stretch Your Grocery Run 💸🛒",
+     "subline": "Fills the fridge, saves your week 💚",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-14T16:43:28+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-14-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696565473869236246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T16:45:37+00:00"
   }
  ]
 }

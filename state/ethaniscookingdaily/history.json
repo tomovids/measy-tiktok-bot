@@ -968,6 +968,90 @@
    "publish_id": "p_inbox_url~v2.7696424336625813526",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T07:38:40+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "5 Tesco Asian Dinners That Stop Family Moaning 😏🍚",
+   "subline": "Big flavour, zero fuss 👀",
+   "title": "5 Tesco Asian Dinners That Stop Family Moaning 😏🍚",
+   "caption": "Saucy, sticky, family-friendly: 5 Tesco Asian dinners to stop the moaning and get plates cleared. Save for tonight 🙌🍚\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Crispy Sweet Chilli Chicken Bowls\n3. Sweet Chilli Beef Noodles\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Honey Soy Beef Noodles\n\nWhich one are you trying first? Pick 1–5 or tell us what you'd add 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:honey-soy-beef-noodles-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sweet-chilli-beef-noodles",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "honey-soy-beef-noodles"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Sweet Chilli Beef Noodles",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Honey Soy Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    508,
+    620
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "tesco",
+   "theme": {
+    "collection": "asian",
+    "angle": "family",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you trying first? Pick 1–5 or tell us what you'd add 👀",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Asian Dinners That Stop Family Moaning 😏🍚",
+     "subline": "Big flavour, zero fuss 👀",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Tesco Fakeaway Meals Your Kids Will ACTUALLY Eat 🤤🍗",
+     "subline": "No tears, just seconds all round 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Saucy Noodle Dinners That Feel Like a Treat 😍🍝",
+     "subline": "Midweek winners that everyone asks for 🫶",
+     "score": 7.0
+    },
+    {
+     "hook": "Wednesday: 5 Tesco Asian Dinners to End the 'What's for tea?' 😳🍗",
+     "subline": "",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-14T16:44:33+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-14-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696565473869350934",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T16:45:50+00:00"
   }
  ]
 }
