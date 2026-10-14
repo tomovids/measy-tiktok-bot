@@ -1793,6 +1793,95 @@
    "publish_id": "p_inbox_url~v2.7696424376111007766",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T07:38:15+00:00"
+  },
+  {
+   "date": "2026-10-14",
+   "hook": "Too knackered to think? 5 Sainsbury's quesadillas 😴🍗",
+   "subline": "Cheesy, crunchy, zero faff 🤤",
+   "title": "Too knackered to think? 5 Sainsbury's quesadillas 😴🍗",
+   "caption": "No idea what's for tea? These 5 Sainsbury's wraps, flatbreads and quesadillas rescue your midweek dinner — big flavour, zero faff 😋💸\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Crispy Sweet Chilli Halloumi Burgers\n3. Cheesy Pepperoni Pizza Wraps\n4. Garlic Parmesan Chicken Flatbreads\n5. Crispy Bean Quesadillas\n\nWhich one would you make first? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:crispy-bean-quesadillas-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "cheesy-pepperoni-pizza-wraps",
+    "garlic-parmesan-chicken-flatbreads",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    260,
+    448
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "handheld",
+    "angle": "no-idea",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "No idea what to make? 5 Sainsbury's wraps for tonight 😩🍔",
+     "subline": "Wraps, flatbreads & quesadillas sorted 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's wraps that taste like takeaway 😏🍔",
+     "subline": "Fakeaway vibes, zero faff 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's flatbreads to save your midweek dinner 😳🧀",
+     "subline": "Big flavour, tiny effort 😍",
+     "score": 7.0
+    },
+    {
+     "hook": "Too knackered to think? 5 Sainsbury's quesadillas 😴🍗",
+     "subline": "Cheesy, crunchy, zero faff 🤤",
+     "score": 9.0
+    },
+    {
+     "hook": "Wednesday panic? 5 Sainsbury's wraps to the rescue 😩🍔",
+     "subline": "Midweek meals you can actually make 🙌",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-14T12:19:50+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-14-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696497216147720194",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-14T12:21:08+00:00"
   }
  ]
 }
