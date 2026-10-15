@@ -8,7 +8,7 @@
    "spicy": {
     "mult": 1.01,
     "posts": 1,
-    "avg_ratio": 1.04
+    "avg_ratio": 1.03
    },
    "under-2": {
     "mult": 0.95,
@@ -23,14 +23,14 @@
    "fakeaway": {
     "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 0.96
+    "avg_ratio": 0.97
    }
   },
   "angle": {
    "send": {
     "mult": 1.01,
     "posts": 1,
-    "avg_ratio": 1.04
+    "avg_ratio": 1.03
    },
    "saturday": {
     "mult": 0.95,
@@ -45,14 +45,14 @@
    "no-idea": {
     "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 0.96
+    "avg_ratio": 0.97
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
     "mult": 1.01,
     "posts": 1,
-    "avg_ratio": 1.04
+    "avg_ratio": 1.03
    },
    "cheesy-bbq-loaded-potatoes": {
     "mult": 0.95,
@@ -67,7 +67,7 @@
    "cheesy-beef-bean-loaded-potatoes": {
     "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 0.96
+    "avg_ratio": 0.97
    }
   }
  },
@@ -87,7 +87,7 @@
   {
    "hook": "5 Sainsbury's fakeaways for when you're skint 💸😩",
    "subline": "Feels like a takeaway, costs less 😏",
-   "views": 1812,
+   "views": 1819,
    "store": "sainsburys"
   },
   {

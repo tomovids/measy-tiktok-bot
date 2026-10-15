@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 10,
+ "scored_posts": 11,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -13,12 +13,12 @@
    "mexican": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.12
+    "avg_ratio": 1.11
    },
    "under-150": {
     "mult": 1.63,
     "posts": 1,
-    "avg_ratio": 3.52
+    "avg_ratio": 3.5
    },
    "creamy": {
     "mult": 0.82,
@@ -28,12 +28,12 @@
    "pasta": {
     "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.74
+    "avg_ratio": 0.73
    },
    "sausage": {
     "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.48
+    "avg_ratio": 1.47
    },
    "italian": {
     "mult": 0.86,
@@ -44,6 +44,11 @@
     "mult": 1.0,
     "posts": 1,
     "avg_ratio": 0.99
+   },
+   "comfort": {
+    "mult": 1.11,
+    "posts": 1,
+    "avg_ratio": 1.46
    }
   },
   "angle": {
@@ -55,12 +60,12 @@
    "family": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.12
+    "avg_ratio": 1.11
    },
    "save": {
     "mult": 1.5,
     "posts": 2,
-    "avg_ratio": 2.26
+    "avg_ratio": 2.25
    },
    "friday": {
     "mult": 0.82,
@@ -68,14 +73,14 @@
     "avg_ratio": 0.27
    },
    "tired": {
-    "mult": 0.93,
-    "posts": 1,
-    "avg_ratio": 0.74
+    "mult": 1.04,
+    "posts": 2,
+    "avg_ratio": 1.1
    },
    "payday": {
     "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.48
+    "avg_ratio": 1.47
    },
    "sunday-reset": {
     "mult": 0.86,
@@ -87,7 +92,7 @@
    "loaded-bbq-beef-nachos": {
     "mult": 1.04,
     "posts": 1,
-    "avg_ratio": 1.16
+    "avg_ratio": 1.15
    },
    "sticky-garlic-beef-loaded-fries": {
     "mult": 0.93,
@@ -97,17 +102,17 @@
    "crispy-bean-quesadillas": {
     "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.01
+    "avg_ratio": 1.0
    },
    "cheesy-bbq-pulled-chicken-nachos": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.12
+    "avg_ratio": 1.11
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.6,
+    "mult": 1.59,
     "posts": 2,
-    "avg_ratio": 2.5
+    "avg_ratio": 2.49
    },
    "garlic-sausage-rice-bowls": {
     "mult": 0.82,
@@ -117,7 +122,7 @@
    "creamy-garlic-chicken-gnocchi": {
     "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.74
+    "avg_ratio": 0.73
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.86,
@@ -128,6 +133,11 @@
     "mult": 1.0,
     "posts": 1,
     "avg_ratio": 0.99
+   },
+   "cheesy-buffalo-chicken-potato-skins": {
+    "mult": 1.11,
+    "posts": 1,
+    "avg_ratio": 1.46
    }
   }
  },
@@ -142,6 +152,12 @@
    "hook": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
    "subline": "Stretch your dinner budget and smile 👀",
    "views": 10072,
+   "store": "aldi"
+  },
+  {
+   "hook": "5 Aldi dinners that are a hug in a bowl 😍🧀",
+   "subline": "For when cooking feels like too much 😭",
+   "views": 9996,
    "store": "aldi"
   },
   {
@@ -160,12 +176,6 @@
    "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
    "subline": "Big flavour, tiny weekend budget 👀",
    "views": 6852,
-   "store": "aldi"
-  },
-  {
-   "hook": "5 Aldi Rice Bowls for When You're Too Knackered to Cook 🍚😩",
-   "subline": "Save for your next Aldi shop 🛒",
-   "views": 6772,
    "store": "aldi"
   }
  ]
