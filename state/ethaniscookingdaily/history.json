@@ -1052,6 +1052,95 @@
    "publish_id": "p_inbox_url~v2.7696565473869350934",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T16:45:50+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "5 Aldi Italian Dinners from a £35 shop 🛒💸",
+   "subline": "One shop, five pasta nights 😋",
+   "title": "5 Aldi Italian Dinners from a £35 shop 🛒💸",
+   "caption": "Your weekly shop just got easier 🛒\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Creamy Garlic Chicken Pasta\n3. Creamy Pesto Chicken Gnocchi\n4. Cheesy Tomato Pasta\n5. Garlic Butter Sausage Pasta\n\nWhich one are you cooking first this week? 🍝\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:garlic-butter-sausage-pasta-1"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-garlic-chicken-pasta",
+    "creamy-pesto-chicken-gnocchi",
+    "cheesy-tomato-pasta",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Pesto Chicken Gnocchi",
+    "Cheesy Tomato Pasta",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    400,
+    792
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "italian",
+    "angle": "weekly-shop",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you cooking first this week? 🍝",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Italian Dinners from a £35 shop 🛒💸",
+     "subline": "One shop, five pasta nights 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners to End 'What’s for tea?' 😩🍝",
+     "subline": "Plan your week in one go 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Italian dinners your housemate will fight over 😏🍝",
+     "subline": "Send this before the group chat erupts 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Creamy Italian Dinners for Proper Weeknight Wins 😋🍝",
+     "subline": "Easy to cook, even when knackered 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners to Make This Weekend Feel Proper 🍝🛒",
+     "subline": "Plan your Aldi shop now 😏",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-15T05:55:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696769258549692438",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T05:57:05+00:00"
   }
  ]
 }

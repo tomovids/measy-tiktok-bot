@@ -1976,6 +1976,85 @@
    "publish_id": "p_inbox_url~v2.7696565473869105174",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T16:45:23+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "5 Aldi Fakeaway Asian Dinners That Still Feel Proper 🤤🍚",
+   "subline": "Better than ordering in 😋",
+   "title": "5 Aldi Fakeaway Asian Dinners That Still Feel Proper 🤤🍚",
+   "caption": "Sort tonight’s dinner before work: 5 Aldi Asian-style meals with big flavour and hardly any fuss. Meal plans made easy. 😋\n\n1. Sticky Korean Beef Rice Bowls\n2. Sweet Chilli Chicken Rice Bowl\n3. Sticky Hoisin Beef Flatbreads\n4. Sweet Chilli Beef Noodles\n5. Crispy Sweet Chilli Halloumi Burgers\n\nWhich one would you try first? Pick 1-5 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-2",
+    "card:sweet-chilli-chicken-rice-bowl-1",
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:sweet-chilli-beef-noodles-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-hoisin-beef-flatbreads",
+    "sweet-chilli-beef-noodles",
+    "crispy-sweet-chilli-halloumi-burgers"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky Hoisin Beef Flatbreads",
+    "Sweet Chilli Beef Noodles",
+    "Crispy Sweet Chilli Halloumi Burgers"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    360,
+    668
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "asian",
+    "angle": "plan-today",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one would you try first? Pick 1-5 👇",
+   "tuned": false,
+   "hook_score": 8.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Asian Dinners Cheaper Than a Takeaway 😏💸",
+     "subline": "Big flavour, tiny spend 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Fakeaway Asian Dinners That Still Feel Proper 🤤🍚",
+     "subline": "Better than ordering in 😋",
+     "score": 8.8
+    },
+    {
+     "hook": "Thursday sorted: 5 Aldi Asian Dinners for Tonight 👀😋",
+     "subline": "Sort dinner before you even get to work 👀",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-15T05:53:59+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696769161087059990",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T05:56:39+00:00"
   }
  ]
 }

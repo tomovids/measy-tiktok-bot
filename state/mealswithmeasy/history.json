@@ -1087,6 +1087,97 @@
    "publish_id": "p_inbox_url~v2.7696565473869236246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-14T16:45:37+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "5 Walmart Mexican Meals I'd Make on Repeat 🔥🌮",
+   "subline": "Weeknight winners, every time 😋",
+   "title": "5 Walmart Mexican Meals I'd Make on Repeat 🔥🌮",
+   "caption": "Low-effort, high-flavor Mexican dinners from Walmart that you'll actually make on repeat — weeknights just got easier 😋💸\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Cheesy Taco Rice Skillet\n3. Cheesy Taco Quesadillas\n4. Buffalo Chicken Quesadillas\n5. Crispy Beef Burrito Bowls\n\nWhich one would you make first? Tell us 👇\n💾 Save this for your next Walmart run\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:buffalo-chicken-quesadillas-1",
+    "card:crispy-beef-burrito-bowls-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-taco-rice-skillet",
+    "cheesy-taco-quesadillas",
+    "buffalo-chicken-quesadillas",
+    "crispy-beef-burrito-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Taco Quesadillas",
+    "Buffalo Chicken Quesadillas",
+    "Crispy Beef Burrito Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": null,
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "mexican",
+    "angle": "repeat",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you make first? Tell us 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Mexican Dinners When You're Too Tired to Cook 😩🌮",
+     "subline": "Weeknight dinners that actually happen 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Mexican Dinners That Stretch Your Grocery Run 💸🌮",
+     "subline": "Feed a crowd without the stress 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "Send this to your roommate: 5 Walmart Taco Nights 👀🌮",
+     "subline": "Perfect for sharing (or not) 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Mexican Meals Better Than Takeout 🤤🌮",
+     "subline": "All the takeout vibes, less cash 🤤",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart Mexican Meals I'd Make on Repeat 🔥🌮",
+     "subline": "Weeknight winners, every time 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "Thursday = Fiesta: 5 Walmart Mexican Dinners 😋🌮",
+     "subline": "Make Thursday feel like weekend vibes 🫶",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-15T05:54:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696769258549676054",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T05:56:52+00:00"
   }
  ]
 }
