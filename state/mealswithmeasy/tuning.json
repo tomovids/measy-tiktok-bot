@@ -1,58 +1,73 @@
 {
  "active": false,
- "scored_posts": 3,
+ "scored_posts": 4,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "loaded": {
-    "mult": 0.86,
+    "mult": 0.85,
     "posts": 1,
-    "avg_ratio": 0.45
+    "avg_ratio": 0.42
    },
    "creamy": {
-    "mult": 1.15,
+    "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.47
    },
    "chicken": {
-    "mult": 1.0,
+    "mult": 0.98,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.92
+   },
+   "fakeaway": {
+    "mult": 1.02,
+    "posts": 1,
+    "avg_ratio": 1.08
    }
   },
   "angle": {
    "payday": {
-    "mult": 0.86,
+    "mult": 0.85,
     "posts": 1,
-    "avg_ratio": 0.45
+    "avg_ratio": 0.42
    },
    "takeaway": {
-    "mult": 1.15,
+    "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.47
    },
    "no-idea": {
-    "mult": 1.0,
+    "mult": 0.98,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.92
+   },
+   "weekly-shop": {
+    "mult": 1.02,
+    "posts": 1,
+    "avg_ratio": 1.08
    }
   },
   "lead": {
    "cheesy-bbq-chicken-loaded-fries": {
-    "mult": 0.86,
+    "mult": 0.85,
     "posts": 1,
-    "avg_ratio": 0.45
+    "avg_ratio": 0.42
    },
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.15,
+    "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.47
    },
    "cheesy-cajun-chicken-wraps": {
-    "mult": 1.0,
+    "mult": 0.98,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.92
+   },
+   "loaded-taco-jacket-potato": {
+    "mult": 1.02,
+    "posts": 1,
+    "avg_ratio": 1.08
    }
   }
  },
@@ -62,6 +77,12 @@
    "subline": "",
    "views": 1210,
    "store": "aldius"
+  },
+  {
+   "hook": "5 Trader Joe's Meals That Beat a Takeout Run 🤤🔥",
+   "subline": "Weekend copycats you'll actually make 😳",
+   "views": 890,
+   "store": "traderjoes"
   },
   {
    "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",

@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 9,
+ "scored_posts": 10,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -13,12 +13,12 @@
    "mexican": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.11
+    "avg_ratio": 1.12
    },
    "under-150": {
     "mult": 1.63,
     "posts": 1,
-    "avg_ratio": 3.5
+    "avg_ratio": 3.52
    },
    "creamy": {
     "mult": 0.82,
@@ -28,17 +28,22 @@
    "pasta": {
     "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.73
+    "avg_ratio": 0.74
    },
    "sausage": {
     "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.47
+    "avg_ratio": 1.48
    },
    "italian": {
     "mult": 0.86,
     "posts": 1,
     "avg_ratio": 0.46
+   },
+   "rice": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 0.99
    }
   },
   "angle": {
@@ -50,12 +55,12 @@
    "family": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.11
+    "avg_ratio": 1.12
    },
    "save": {
-    "mult": 1.63,
-    "posts": 1,
-    "avg_ratio": 3.5
+    "mult": 1.5,
+    "posts": 2,
+    "avg_ratio": 2.26
    },
    "friday": {
     "mult": 0.82,
@@ -65,12 +70,12 @@
    "tired": {
     "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.73
+    "avg_ratio": 0.74
    },
    "payday": {
     "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.47
+    "avg_ratio": 1.48
    },
    "sunday-reset": {
     "mult": 0.86,
@@ -82,7 +87,7 @@
    "loaded-bbq-beef-nachos": {
     "mult": 1.04,
     "posts": 1,
-    "avg_ratio": 1.15
+    "avg_ratio": 1.16
    },
    "sticky-garlic-beef-loaded-fries": {
     "mult": 0.93,
@@ -92,17 +97,17 @@
    "crispy-bean-quesadillas": {
     "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 1.01
    },
    "cheesy-bbq-pulled-chicken-nachos": {
     "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.11
+    "avg_ratio": 1.12
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.59,
+    "mult": 1.6,
     "posts": 2,
-    "avg_ratio": 2.49
+    "avg_ratio": 2.5
    },
    "garlic-sausage-rice-bowls": {
     "mult": 0.82,
@@ -112,12 +117,17 @@
    "creamy-garlic-chicken-gnocchi": {
     "mult": 0.93,
     "posts": 1,
-    "avg_ratio": 0.73
+    "avg_ratio": 0.74
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.86,
     "posts": 1,
     "avg_ratio": 0.46
+   },
+   "sticky-korean-beef-rice-bowls": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 0.99
    }
   }
  },
@@ -153,9 +163,9 @@
    "store": "aldi"
   },
   {
-   "hook": "5 Aldi Pasta Meals for When You're Properly Knackered 😭🍝",
-   "subline": "Comfort carbs that don't need effort 😋",
-   "views": 5032,
+   "hook": "5 Aldi Rice Bowls for When You're Too Knackered to Cook 🍚😩",
+   "subline": "Save for your next Aldi shop 🛒",
+   "views": 6772,
    "store": "aldi"
   }
  ]
