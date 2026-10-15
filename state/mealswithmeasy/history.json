@@ -1178,6 +1178,90 @@
    "publish_id": "p_inbox_url~v2.7696769258549676054",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T05:56:52+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "5 Aldi Dinners That FIX a Rough Night 😏🧀",
+   "subline": "Comfort food that actually shows up 😋",
+   "title": "5 Aldi Dinners That FIX a Rough Night 😏🧀",
+   "caption": "Cozy comfort food from Aldi to save dinner tonight — send this to whoever never knows what to cook 🫶😋\n\n1. BBQ Sausage Loaded Potatoes\n2. Cheesy Beef & Bean Loaded Potatoes\n3. Creamy Peri-Peri Chicken Pasta\n4. Cheesy BBQ Loaded Fries\n5. Creamy Harissa Chicken Couscous\n\nWhich one would you cook first? Tell us below 👀\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #comfortfood #cozydinner",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:creamy-harissa-chicken-couscous-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "cheesy-beef-bean-loaded-potatoes",
+    "creamy-peri-peri-chicken-pasta",
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    668,
+    992
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "comfort",
+    "angle": "send",
+    "label": "cosy comfort food",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one would you cook first? Tell us below 👀",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Comfort Dinners for When You Can't Be Bothered 😩🍝",
+     "subline": "Cozy, cheesy, zero thinking required 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Cozy Meals That Stretch a Grocery Run 💸🛒",
+     "subline": "Big flavor, tiny budget 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners That FIX a Rough Night 😏🧀",
+     "subline": "Comfort food that actually shows up 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "Thursday night saved: 5 Aldi Cozy Dinners 😴🍝",
+     "subline": "Perfect for a comfy weekend start 🫶",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-15T16:59:05+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-15-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696940726407989271",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T17:01:28+00:00"
   }
  ]
 }

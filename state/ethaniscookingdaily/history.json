@@ -1141,6 +1141,95 @@
    "publish_id": "p_inbox_url~v2.7696769258549692438",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T05:57:05+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "Skint but starving? 5 Lidl meals ready in 20 mins 😭💸",
+   "subline": "No faff, just dinner and less stress 😋",
+   "title": "Skint but starving? 5 Lidl meals ready in 20 mins 😭💸",
+   "caption": "Five Lidl dinners you can make in 20 minutes or less — send this to whoever never knows what's for tea 😋🙌\n\n1. Creamy Cajun Chicken Flatbreads\n2. Sticky BBQ Beef Rice Bowls\n3. Garlic-Butter Chicken Flatbreads\n4. Sticky Honey Garlic Sausage Bowls\n5. Sticky Honey Garlic Chicken Rice Bowls\n\nWhich one should we make first? Tell us which gets your vote 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:sticky-bbq-beef-rice-bowls-2",
+    "card:garlic-butter-chicken-flatbreads-1",
+    "card:sticky-honey-garlic-sausage-rice-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "sticky-bbq-beef-rice-bowls",
+    "garlic-butter-chicken-flatbreads",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-honey-garlic-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Sticky BBQ Beef Rice Bowls",
+    "Garlic-Butter Chicken Flatbreads",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky Honey Garlic Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    856,
+    1040
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "quick",
+    "angle": "send",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one should we make first? Tell us which gets your vote 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "Skint but starving? 5 Lidl meals ready in 20 mins 😭💸",
+     "subline": "No faff, just dinner and less stress 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "Send this to your other half: 5 Lidl dinners in 20 mins 👀🫶",
+     "subline": "The group chat needs this tonight 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl dinners ready in 20 minutes — better than a takeaway 😏🍝",
+     "subline": "Fakeaway vibes, zero delivery faff 😍",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl 20-minute dinners that feel like a treat 😋😍",
+     "subline": "Ready fast, tastes luxe 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "Make Thursday easy: 5 Lidl dinners in 20 mins 💚🍗",
+     "subline": "Perfect for when you're proper knackered 😴",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-15T17:00:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-15-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696940770921629718",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T17:01:40+00:00"
   }
  ]
 }

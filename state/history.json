@@ -2144,6 +2144,95 @@
    "publish_id": "p_inbox_url~v2.7696853812618971158",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T11:24:55+00:00"
+  },
+  {
+   "date": "2026-10-15",
+   "hook": "5 Aldi Italian Dinners for When You're Properly Knackered 😩🍝",
+   "subline": "Send this to the person who never cooks 😏",
+   "title": "5 Aldi Italian Dinners for When You're Properly Knackered 😩🍝",
+   "caption": "Sending this to the friend who never knows what to make for tea — 5 Italian-style meals from Aldi that always sort dinner out 😋👇\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Creamy Garlic Chicken Gnocchi\n3. Creamy Tomato Pasta\n4. Cheesy Pepperoni Pizza Wraps\n5. Creamy Tuscan Chicken Pasta\n\nWhich one are you making first — and who gets the recipe sent? 🙌\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:creamy-tomato-pasta-2",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:creamy-tuscan-chicken-pasta-1"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-tomato-pasta",
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-tuscan-chicken-pasta"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Tomato Pasta",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Tuscan Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    252,
+    592
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "italian",
+    "angle": "send",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you making first — and who gets the recipe sent? 🙌",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Italian Dinners for When You're Properly Knackered 😩🍝",
+     "subline": "Send this to the person who never cooks 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners That Stretch Your Dinner Cash 💸🍝",
+     "subline": "Cheap, cheesy and quick to make 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your housemate: 5 Aldi Italian wins 🙌🍝",
+     "subline": "Perfect for the 'I can't decide' person 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners Even Your Fussiest Pal Will Love 😋🍝",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "Make Thursday Italian: 5 Aldi Dinners 😍🍝",
+     "subline": "Ready in 20 minutes or less for tea ⏰",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-15T16:58:00+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-15-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7696940701577414679",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-15T17:01:15+00:00"
   }
  ]
 }
