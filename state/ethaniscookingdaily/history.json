@@ -1319,6 +1319,95 @@
    "publish_id": "p_inbox_url~v2.7697200409068554262",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-16T09:49:43+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "hook": "5 Asda creamy dinners for when you're TOO TIRED 😩🍝",
+   "subline": "Comfort cooking with zero faff 😋",
+   "title": "5 Asda creamy dinners for when you're TOO TIRED 😩🍝",
+   "caption": "Creamy dinners from Asda to save your Friday night — big flavour, tiny faff. Save these for your next Asda shop 😋💚\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Creamy Tomato Pasta\n3. Creamy Lemon Chicken Orzo\n4. Garlic Sausage Rice Bowls\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you cooking first? Tell us 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:creamy-tomato-pasta-2",
+    "card:creamy-lemon-chicken-orzo-1",
+    "card:garlic-sausage-rice-bowls-2",
+    "card:one-pan-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "creamy-tomato-pasta",
+    "creamy-lemon-chicken-orzo",
+    "garlic-sausage-rice-bowls",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Creamy Tomato Pasta",
+    "Creamy Lemon Chicken Orzo",
+    "Garlic Sausage Rice Bowls",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    348,
+    516
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "asda",
+   "theme": {
+    "collection": "creamy",
+    "angle": "save",
+    "label": "creamy dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you cooking first? Tell us 👇",
+   "tuned": false,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda creamy dinners for when you're TOO TIRED 😩🍝",
+     "subline": "Comfort cooking with zero faff 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Asda creamy dinners that save your weekend 💸😋",
+     "subline": "Perfect for a cosy night in 💚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda creamy dinners your mates will fight over 🤤🙌",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda CREAMY dinners that feel like a hug 😍🧀",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda creamy dinners to save your Friday night 🤤🍝",
+     "subline": "",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-16T18:45:52+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697338784870041623",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-16T18:47:07+00:00"
   }
  ]
 }

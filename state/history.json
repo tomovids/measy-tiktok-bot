@@ -2411,6 +2411,85 @@
    "publish_id": "p_inbox_url~v2.7697232253558097942",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-16T11:53:51+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "hook": "5 Aldi Sticky, Saucy Dinners for Friday Night In 🤤🍚",
+   "subline": "Fakeaway feels. No takeaway guilt 😋",
+   "title": "5 Aldi Sticky, Saucy Dinners for Friday Night In 🤤🍚",
+   "caption": "Friday night in = fakeaway time. 5 sticky, saucy Aldi dinners to make tonight that feel restaurant but won’t wreck the bank 🤤💸\n\n1. Sticky Garlic Beef Loaded Fries\n2. Honey Soy Beef Noodles\n3. Sticky Beef Rice Bowls\n4. Honey Chilli Chicken Noodles\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich one are you making first this weekend? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:honey-soy-beef-noodles-2",
+    "card:sticky-beef-rice-bowls-2",
+    "card:honey-chilli-chicken-noodles-2",
+    "card:crispy-sweet-chilli-chicken-noodles-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "honey-soy-beef-noodles",
+    "sticky-beef-rice-bowls",
+    "honey-chilli-chicken-noodles",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Honey Soy Beef Noodles",
+    "Sticky Beef Rice Bowls",
+    "Honey Chilli Chicken Noodles",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    352,
+    672
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "friday",
+    "label": "sticky, saucy dinners",
+    "angle_text": "Friday night fakeaway / Friday night in"
+   },
+   "question": "Which one are you making first this weekend? 👀",
+   "tuned": false,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners for Friday Night In 🤤🍚",
+     "subline": "Fakeaway feels. No takeaway guilt 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Saucy Dinners That Feel Fancy, Not Pricey 😏💸",
+     "subline": "Big flavour, tiny spend 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky Nights That Feel Like a Restaurant 😏🤤",
+     "subline": "Weekend vibes, without the bill 👀",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-16T18:43:28+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697338634492266518",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-16T18:46:42+00:00"
   }
  ]
 }
