@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 4,
+ "scored_posts": 6,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -24,6 +24,16 @@
     "mult": 0.99,
     "posts": 1,
     "avg_ratio": 0.97
+   },
+   "quick": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
+   },
+   "rice": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.55
    }
   },
   "angle": {
@@ -46,6 +56,16 @@
     "mult": 0.99,
     "posts": 1,
     "avg_ratio": 0.97
+   },
+   "tonight": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
+   },
+   "repeat": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.55
    }
   },
   "lead": {
@@ -68,10 +88,26 @@
     "mult": 0.99,
     "posts": 1,
     "avg_ratio": 0.97
+   },
+   "cheesy-bbq-pulled-chicken-nachos": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.87
+   },
+   "sticky-korean-beef-rice-bowls": {
+    "mult": 1.14,
+    "posts": 1,
+    "avg_ratio": 1.55
    }
   }
  },
  "top_hooks": [
+  {
+   "hook": "Skint? 5 Sainsbury's rice bowls till payday 😭🍚",
+   "subline": "Big flavour, tiny faff 😋",
+   "views": 2914,
+   "store": "sainsburys"
+  },
   {
    "hook": "5 Lidl Cheesy Dinners to Stretch You Until Payday 💸🧀",
    "subline": "End-of-month heroes that taste like luxe 😳",
@@ -89,6 +125,12 @@
    "subline": "Feels like a takeaway, costs less 😏",
    "views": 1819,
    "store": "sainsburys"
+  },
+  {
+   "hook": "Too knackered to think? 5 Tesco dinners in 20 mins 😩🍗",
+   "subline": "Dinner decided. Save your energy 😂",
+   "views": 1634,
+   "store": "tesco"
   },
   {
    "hook": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",

@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 4,
+ "scored_posts": 6,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -24,6 +24,16 @@
     "mult": 1.02,
     "posts": 1,
     "avg_ratio": 1.08
+   },
+   "cheesy": {
+    "mult": 1.22,
+    "posts": 1,
+    "avg_ratio": 1.86
+   },
+   "italian": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.82
    }
   },
   "angle": {
@@ -46,6 +56,16 @@
     "mult": 1.02,
     "posts": 1,
     "avg_ratio": 1.08
+   },
+   "cosy": {
+    "mult": 1.22,
+    "posts": 1,
+    "avg_ratio": 1.86
+   },
+   "save": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.82
    }
   },
   "lead": {
@@ -68,10 +88,26 @@
     "mult": 1.02,
     "posts": 1,
     "avg_ratio": 1.08
+   },
+   "sticky-garlic-beef-loaded-fries": {
+    "mult": 1.22,
+    "posts": 1,
+    "avg_ratio": 1.86
+   },
+   "hot-honey-chicken-flatbread-pizzas": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.82
    }
   }
  },
  "top_hooks": [
+  {
+   "hook": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
+   "subline": "Cozy, cheesy nights as it gets darker 😋",
+   "views": 1536,
+   "store": "aldius"
+  },
   {
    "hook": "5 Aldi Creamy Dinners Better Than a Takeout Run 😏",
    "subline": "",
@@ -88,6 +124,12 @@
    "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
    "subline": "Dinner solved in one grocery run 🙌",
    "views": 758,
+   "store": "walmart"
+  },
+  {
+   "hook": "5 Walmart Italian Dinners to Stretch You Till Payday 💸🍝",
+   "subline": "Save this for your next grocery run 🛒",
+   "views": 679,
    "store": "walmart"
   },
   {
