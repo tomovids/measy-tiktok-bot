@@ -2233,6 +2233,90 @@
    "publish_id": "p_inbox_url~v2.7696940701577414679",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T17:01:15+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "hook": "Too tired to cook? 5 Aldi fakeaways sorted 😩🍝",
+   "subline": "Fancy flavours, zero effort 😋",
+   "title": "Too tired to cook? 5 Aldi fakeaways sorted 😩🍝",
+   "caption": "Knackered after work? These 5 Aldi fakeaways are proper tasty and dead easy — perfect for tonight or the weekend 😩🍔\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Teriyaki Sausage Rice Bowls\n3. Crispy Beef Taco Rice Bowls\n4. Honey Soy Sausage Noodle Bowls\n5. Sweet Chilli Chicken Noodles\n\nWhich fakeaway are you trying first? 🤤\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "crispy-beef-taco-rice-bowls",
+    "honey-soy-sausage-noodle-bowls",
+    "sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Crispy Beef Taco Rice Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    172,
+    620
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "tired",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which fakeaway are you trying first? 🤤",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi fakeaways that cost way less than a takeaway 😋💸",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi fakeaways that BEAT a takeaway, no joke 🤤🍔",
+     "subline": "Fakeaway vibes, less cash 💸",
+     "score": 6.0
+    },
+    {
+     "hook": "Too tired to cook? 5 Aldi fakeaways sorted 😩🍝",
+     "subline": "Fancy flavours, zero effort 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi fakeaways for a Friday night cheat tea 😏🍗",
+     "subline": "Weekend energy = fakeaway & sofa 🫶",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-16T09:46:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-16-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697200402697766934",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-16T09:49:18+00:00"
   }
  ]
 }

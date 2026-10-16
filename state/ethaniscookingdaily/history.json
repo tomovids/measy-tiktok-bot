@@ -1230,6 +1230,95 @@
    "publish_id": "p_inbox_url~v2.7696940770921629718",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T17:01:40+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "hook": "5 Aldi loaded dinners when you CANNOT be bothered 😭🍝",
+   "subline": "Properly loaded, barely any effort 😋",
+   "title": "5 Aldi loaded dinners when you CANNOT be bothered 😭🍝",
+   "caption": "Too knackered to cook? These 5 Aldi loaded dinners are weekend winners — big flavour, tiny faff. Save for when you're proper tired 😩😋\n\n1. Loaded Taco Jacket Potato\n2. Sticky Maple Sausage Traybake\n3. Garlic Butter Sausage & Veggie Skillet\n4. Sticky Chicken Loaded Fries\n5. Creamy Tomato Potato Bake\n\nWhich one are you making first? Tell us below 🙌\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:sticky-chicken-loaded-fries-2",
+    "card:creamy-tomato-potato-bake-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "sticky-maple-sausage-traybake",
+    "garlic-butter-sausage-veggie-skillet",
+    "sticky-chicken-loaded-fries",
+    "creamy-tomato-potato-bake"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Sticky Maple Sausage Traybake",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Sticky Chicken Loaded Fries",
+    "Creamy Tomato Potato Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    312,
+    616
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "loaded",
+    "angle": "tired",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? Tell us below 🙌",
+   "tuned": false,
+   "hook_score": 8.3,
+   "hook_candidates": [
+    {
+     "hook": "Too knackered? 5 Aldi loaded dinners for Friday 😩🍔",
+     "subline": "Send this to your flatmate 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi loaded dinners that'll save you cash 💸🤤",
+     "subline": "Big flavour, tiny faff 😏",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi loaded dinners to FIX a rubbish day 😍💚",
+     "subline": "Comfort food that needs zero effort 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "Send to your mates: 5 Aldi loaded dinners 🙌👀",
+     "subline": "Weekend hacks for when you're knackered 😩",
+     "score": 6.7
+    },
+    {
+     "hook": "5 Aldi loaded dinners when you CANNOT be bothered 😭🍝",
+     "subline": "Properly loaded, barely any effort 😋",
+     "score": 8.3
+    }
+   ],
+   "built_at": "2026-10-16T09:48:34+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-16-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697200409068554262",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-16T09:49:43+00:00"
   }
  ]
 }

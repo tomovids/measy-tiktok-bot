@@ -1262,6 +1262,95 @@
    "publish_id": "p_inbox_url~v2.7696940726407989271",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-15T17:01:28+00:00"
+  },
+  {
+   "date": "2026-10-16",
+   "hook": "5 Trader Joe's Flatbreads That Give Cold Nights a Hug 🫶😍",
+   "subline": "Weekend comfort that actually delivers 😍",
+   "title": "5 Trader Joe's Flatbreads That Give Cold Nights a Hug 🫶😍",
+   "caption": "Cozy up this Friday — 5 Trader Joe's wraps, flatbreads & quesadillas for warm, budget-friendly comfort at home 😋🧀\n\n1. Cheesy Cajun Chicken Wraps\n2. Crispy Bean Quesadillas\n3. Garlic Butter Flatbreads\n4. Sweet Chili Halloumi Wraps\n5. Garlic Parmesan Chicken Flatbreads\n\nWhich one are you making this weekend? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #wraps #flatbread",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:crispy-bean-quesadillas-2",
+    "card:garlic-butter-flatbreads-2",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:garlic-parmesan-chicken-flatbreads-1"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "crispy-bean-quesadillas",
+    "garlic-butter-flatbreads",
+    "sweet-chilli-halloumi-wraps",
+    "garlic-parmesan-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Crispy Bean Quesadillas",
+    "Garlic Butter Flatbreads",
+    "Sweet Chili Halloumi Wraps",
+    "Garlic Parmesan Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    620,
+    852
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "handheld",
+    "angle": "cosy",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making this weekend? 👀",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Wraps That Stretch Your Grocery Run 💸😋",
+     "subline": "Stretch your groceries, not your wallet 💸",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your roommate: 5 Trader Joe's Wraps 👀🙌",
+     "subline": "Perfect for sharing with your roomie 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Wraps Better Than Your Usual Takeout 🤤💸",
+     "subline": "Takeout vibes, cheaper and warmer 🤤",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Flatbreads That Give Cold Nights a Hug 🫶😍",
+     "subline": "Weekend comfort that actually delivers 😍",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Trader Joe's Wraps for When You're Too Tired to Cook 😩🍗",
+     "subline": "Zero faff dinners when you're wiped 😩",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-16T09:47:27+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-16-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697200410431424534",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-16T09:49:31+00:00"
   }
  ]
 }
