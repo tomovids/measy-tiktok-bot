@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 6,
+ "scored_posts": 8,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -16,9 +16,9 @@
     "avg_ratio": 1.47
    },
    "chicken": {
-    "mult": 0.98,
-    "posts": 1,
-    "avg_ratio": 0.92
+    "mult": 0.95,
+    "posts": 2,
+    "avg_ratio": 0.89
    },
    "fakeaway": {
     "mult": 1.02,
@@ -34,6 +34,11 @@
     "mult": 0.96,
     "posts": 1,
     "avg_ratio": 0.82
+   },
+   "beef": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.34
    }
   },
   "angle": {
@@ -53,9 +58,9 @@
     "avg_ratio": 0.92
    },
    "weekly-shop": {
-    "mult": 1.02,
-    "posts": 1,
-    "avg_ratio": 1.08
+    "mult": 0.99,
+    "posts": 2,
+    "avg_ratio": 0.97
    },
    "cosy": {
     "mult": 1.22,
@@ -66,6 +71,11 @@
     "mult": 0.96,
     "posts": 1,
     "avg_ratio": 0.82
+   },
+   "tired": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.34
    }
   },
   "lead": {
@@ -98,6 +108,16 @@
     "mult": 0.96,
     "posts": 1,
     "avg_ratio": 0.82
+   },
+   "loaded-bbq-beef-nachos": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.34
+   },
+   "cheesy-bbq-loaded-potatoes": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.85
    }
   }
  },
@@ -115,6 +135,12 @@
    "store": "aldius"
   },
   {
+   "hook": "5 Aldi Dinners If You Have ZERO Energy 😭👀",
+   "subline": "Send this to your exhausted roommate 😩",
+   "views": 1101,
+   "store": "aldius"
+  },
+  {
    "hook": "5 Trader Joe's Meals That Beat a Takeout Run 🤤🔥",
    "subline": "Weekend copycats you'll actually make 😳",
    "views": 890,
@@ -127,16 +153,10 @@
    "store": "walmart"
   },
   {
-   "hook": "5 Walmart Italian Dinners to Stretch You Till Payday 💸🍝",
-   "subline": "Save this for your next grocery run 🛒",
-   "views": 679,
-   "store": "walmart"
-  },
-  {
-   "hook": "5 Walmart Loaded Dinners That Beat Takeout 🤤💸",
-   "subline": "End-of-month lifesavers you gotta try 👀",
-   "views": 343,
-   "store": "walmart"
+   "hook": "5 Trader Joe's Chicken Dinners to Stretch Your Grocery Run 💸🛒",
+   "subline": "Fills the fridge, saves your week 💚",
+   "views": 700,
+   "store": "traderjoes"
   }
  ]
 }

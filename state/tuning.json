@@ -1,6 +1,6 @@
 {
- "active": false,
- "scored_posts": 13,
+ "active": true,
+ "scored_posts": 15,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -59,6 +59,16 @@
     "mult": 0.82,
     "posts": 1,
     "avg_ratio": 0.27
+   },
+   "anything": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.32
+   },
+   "veggie": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.45
    }
   },
   "angle": {
@@ -73,9 +83,9 @@
     "avg_ratio": 1.12
    },
    "save": {
-    "mult": 1.5,
-    "posts": 2,
-    "avg_ratio": 2.26
+    "mult": 1.47,
+    "posts": 3,
+    "avg_ratio": 1.95
    },
    "friday": {
     "mult": 0.82,
@@ -106,6 +116,11 @@
     "mult": 0.82,
     "posts": 1,
     "avg_ratio": 0.27
+   },
+   "repeat": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.45
    }
   },
   "lead": {
@@ -163,6 +178,16 @@
     "mult": 0.82,
     "posts": 1,
     "avg_ratio": 0.27
+   },
+   "cheesy-cajun-chicken-wraps": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.32
+   },
+   "garlic-butter-flatbreads": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.45
    }
   }
  },
@@ -186,6 +211,12 @@
    "store": "aldi"
   },
   {
+   "hook": "Skint till payday? 5 Aldi meals that stretch 😭💸",
+   "subline": "Big flavour, tiny effort 👀",
+   "views": 8970,
+   "store": "aldi"
+  },
+  {
    "hook": "5 Aldi Dinners to Make Thursday Feel Like a Treat 😍🍗",
    "subline": "Comfort food that actually hits the spot 👀",
    "views": 7883,
@@ -195,12 +226,6 @@
    "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
    "subline": "Big flavour, less cost — plates cleared 💚",
    "views": 7618,
-   "store": "aldi"
-  },
-  {
-   "hook": "5 Aldi Dinners to Make Friday Night Proper 🤤💸",
-   "subline": "Big flavour, tiny weekend budget 👀",
-   "views": 6852,
    "store": "aldi"
   }
  ]

@@ -1,103 +1,133 @@
 {
  "active": false,
- "scored_posts": 6,
+ "scored_posts": 8,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "spicy": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.03
+    "avg_ratio": 1.13
    },
    "under-2": {
-    "mult": 0.95,
-    "posts": 1,
-    "avg_ratio": 0.79
-   },
-   "cheesy": {
-    "mult": 1.09,
-    "posts": 1,
-    "avg_ratio": 1.37
-   },
-   "fakeaway": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.97
-   },
-   "quick": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.86
+   },
+   "cheesy": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.5
+   },
+   "fakeaway": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
+   },
+   "quick": {
+    "mult": 0.99,
+    "posts": 1,
+    "avg_ratio": 0.95
    },
    "rice": {
-    "mult": 1.14,
+    "mult": 1.17,
     "posts": 1,
-    "avg_ratio": 1.55
+    "avg_ratio": 1.69
+   },
+   "noodles": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.88
+   },
+   "asian": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
    }
   },
   "angle": {
    "send": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.03
+    "avg_ratio": 1.13
    },
    "saturday": {
-    "mult": 0.95,
-    "posts": 1,
-    "avg_ratio": 0.79
-   },
-   "payday": {
-    "mult": 1.09,
-    "posts": 1,
-    "avg_ratio": 1.37
-   },
-   "no-idea": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.97
-   },
-   "tonight": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.86
+   },
+   "payday": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.5
+   },
+   "no-idea": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
+   },
+   "tonight": {
+    "mult": 0.99,
+    "posts": 1,
+    "avg_ratio": 0.95
    },
    "repeat": {
-    "mult": 1.14,
+    "mult": 1.17,
     "posts": 1,
-    "avg_ratio": 1.55
+    "avg_ratio": 1.69
+   },
+   "midweek": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.88
+   },
+   "family": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.01,
+    "mult": 1.03,
     "posts": 1,
-    "avg_ratio": 1.03
+    "avg_ratio": 1.13
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 0.95,
-    "posts": 1,
-    "avg_ratio": 0.79
-   },
-   "loaded-bbq-beef-nachos": {
-    "mult": 1.09,
-    "posts": 1,
-    "avg_ratio": 1.37
-   },
-   "cheesy-beef-bean-loaded-potatoes": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.97
-   },
-   "cheesy-bbq-pulled-chicken-nachos": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.87
+    "avg_ratio": 0.86
+   },
+   "loaded-bbq-beef-nachos": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.5
+   },
+   "cheesy-beef-bean-loaded-potatoes": {
+    "mult": 1.01,
+    "posts": 1,
+    "avg_ratio": 1.05
+   },
+   "cheesy-bbq-pulled-chicken-nachos": {
+    "mult": 0.99,
+    "posts": 1,
+    "avg_ratio": 0.95
    },
    "sticky-korean-beef-rice-bowls": {
-    "mult": 1.14,
+    "mult": 1.17,
     "posts": 1,
-    "avg_ratio": 1.55
+    "avg_ratio": 1.69
+   },
+   "honey-chilli-chicken-noodles": {
+    "mult": 0.97,
+    "posts": 1,
+    "avg_ratio": 0.88
+   },
+   "sticky-korean-bbq-chicken-loaded-fries": {
+    "mult": 0.93,
+    "posts": 1,
+    "avg_ratio": 0.71
    }
   }
  },
@@ -133,10 +163,10 @@
    "store": "tesco"
   },
   {
-   "hook": "5 Asda Dinners That Make Saturday Night Proper 🤤💚",
-   "subline": "Stay in, treat yourself, save cash 💸",
-   "views": 1488,
-   "store": "asda"
+   "hook": "5 Aldi noodle dinners for a skint midweek 💸",
+   "subline": "Save this for your next Aldi shop 🛒",
+   "views": 1522,
+   "store": "aldi"
   }
  ]
 }
