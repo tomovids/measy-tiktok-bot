@@ -2574,6 +2574,85 @@
    "publish_id": "p_inbox_url~v2.7697506004690585622",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T05:38:34+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "5 Tesco Meals to Stretch Your Dinner Budget 😩💸",
+   "subline": "Save these for your next Tesco shop 🛒",
+   "title": "5 Tesco Meals to Stretch Your Dinner Budget 😩💸",
+   "caption": "Saturday lunch sorted: 5 Tesco beef dinners to save your wallet and your evening 😋💸\n\n1. Cheesy Beef Taco Pasta\n2. Chilli Beef Noodles\n3. One-Pan Smoky Beef Orzo\n4. Cheesy Taco Quesadillas\n5. Cheesy Beef & Pepper Stuffed Flatbreads\n\nWhich one should I make first? Vote 1–5 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:cheesy-beef-taco-pasta-1",
+    "card:chilli-beef-noodles-2",
+    "card:one-pan-smoky-beef-orzo-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "chilli-beef-noodles",
+    "one-pan-smoky-beef-orzo",
+    "cheesy-taco-quesadillas",
+    "cheesy-beef-pepper-stuffed-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "Chilli Beef Noodles",
+    "One-Pan Smoky Beef Orzo",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Beef & Pepper Stuffed Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    244,
+    404
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "beef",
+    "angle": "save",
+    "label": "beef mince and beef dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one should I make first? Vote 1–5 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Beef Dinners to Save Your Weekend 😋🛒",
+     "subline": "Big flavour, tiny effort 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Tesco Meals to Stretch Your Dinner Budget 😩💸",
+     "subline": "Save these for your next Tesco shop 🛒",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Beef Dinners You Can Knock Up Fast 😳🛒",
+     "subline": "Cheesy tacos, quesadillas and more 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-17T11:08:36+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697592149848033282",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T11:09:23+00:00"
   }
  ]
 }
