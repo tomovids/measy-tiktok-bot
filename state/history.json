@@ -2653,6 +2653,90 @@
    "publish_id": "p_inbox_url~v2.7697592149848033282",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T11:09:23+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "5 Aldi cosy dinners that won't wreck your budget 💸😋",
+   "subline": "Cheap comforts to save you cash 💸",
+   "title": "5 Aldi cosy dinners that won't wreck your budget 💸😋",
+   "caption": "Weekend cosy dinner plan: shuffle your Aldi shop so every night feels like a warm hug — creamy, cheesy and proper comforting 😍🛒\n\n1. Buffalo Chicken Quesadillas\n2. Creamy Garlic Chicken Pasta\n3. Creamy Sun-Dried Tomato Chicken Orzo\n4. Creamy Pesto Chicken Gnocchi\n5. Cheesy Cajun Sausage Gnocchi\n\nWhich one are you making first this weekend? 😋\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:buffalo-chicken-quesadillas-1",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:creamy-pesto-chicken-gnocchi-1",
+    "card:cheesy-cajun-sausage-gnocchi-1"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "creamy-garlic-chicken-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-pesto-chicken-gnocchi",
+    "cheesy-cajun-sausage-gnocchi"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Pesto Chicken Gnocchi",
+    "Cheesy Cajun Sausage Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    380,
+    772
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "comfort",
+    "angle": "weekly-shop",
+    "label": "cosy comfort food",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you making first this weekend? 😋",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi cosy dinners for when you're knackered 😭🧀",
+     "subline": "Big cosy flavour, tiny effort 🧀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi cosy dinners that won't wreck your budget 💸😋",
+     "subline": "Cheap comforts to save you cash 💸",
+     "score": 8.5
+    },
+    {
+     "hook": "Plan your weekly Aldi shop: 5 cosy dinners 😍🛒",
+     "subline": "Save these for your next Aldi shop 🛒",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi cosy meals for a cosy weekend in 😏🫶",
+     "subline": "Perfect for a cosy Saturday night 😏",
+     "score": 5.8
+    }
+   ],
+   "built_at": "2026-10-17T17:08:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-17-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697685330883299350",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T17:11:34+00:00"
   }
  ]
 }

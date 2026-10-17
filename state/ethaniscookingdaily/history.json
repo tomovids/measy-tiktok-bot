@@ -1492,6 +1492,100 @@
    "publish_id": "p_inbox_url~v2.7697506366159636483",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T05:38:57+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "Skip the takeaway: 5 Sainsbury's dinners with a kick 🍔🔥",
+   "subline": "Proper flavour, tiny fuss 😋",
+   "title": "Skip the takeaway: 5 Sainsbury's dinners with a kick 🍔🔥",
+   "caption": "Too knackered for a takeaway? These Sainsbury's spicy dinners taste like a treat — zero faff, proper flavour. Meal plans made easy. 😋🔥\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Creamy Harissa Chicken Couscous\n3. Creamy Peri-Peri Chicken Pasta\n4. Sticky Korean Beef Rice Bowls\n5. Sweet Chilli Beef Noodles\n\nWhich one are you making first this weekend? 👀\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:creamy-harissa-chicken-couscous-2",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:sweet-chilli-beef-noodles-1"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-harissa-chicken-couscous",
+    "creamy-peri-peri-chicken-pasta",
+    "sticky-korean-beef-rice-bowls",
+    "sweet-chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Harissa Chicken Couscous",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Sticky Korean Beef Rice Bowls",
+    "Sweet Chilli Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    768,
+    892
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "spicy",
+    "angle": "taste-cheap",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you making first this weekend? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's spicy dinners for when payday's too far 😭🔥",
+     "subline": "Big flavour, tiny faff 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Sainsbury's dinners that feel posh, not pricey 😏💸",
+     "subline": "Feels like a takeaway, costs less 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Sainsbury's spice hits 👀🔥",
+     "subline": "Weekend dinner sorted 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "Skip the takeaway: 5 Sainsbury's dinners with a kick 🍔🔥",
+     "subline": "Proper flavour, tiny fuss 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's spicy meals that'll wake up your week 🤯😋",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Sainsbury's Saturday night dinners with a kick 😏🔥",
+     "subline": "Stay in, feel treated 😍",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-17T17:10:46+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697685450987964438",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T17:11:59+00:00"
   }
  ]
 }

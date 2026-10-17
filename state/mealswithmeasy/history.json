@@ -1534,6 +1534,95 @@
    "publish_id": "p_inbox_url~v2.7697506409142929411",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T05:38:46+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "No idea what to cook tonight? 5 Trader Joe's cheesy dinners 😩🧀",
+   "subline": "Big flavor, zero brainpower 👀",
+   "title": "No idea what to cook tonight? 5 Trader Joe's cheesy dinners 😩🧀",
+   "caption": "No idea what's for dinner? Five cheesy Trader Joe's meals to the rescue — big flavor, tiny effort. Save this for your next grocery run 😋🧀\n\n1. Creamy Cajun Chicken Flatbreads\n2. Cheesy Pepperoni Pizza Wraps\n3. Creamy Garlic Sausage Pasta\n4. Creamy Tuscan Chicken Pasta\n5. Creamy Garlic Chicken Orzo\n\nWhich one are you making first? Tell us below 👇\n💾 Save this for your next Trader Joe's run\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #cheesy #comfortfood",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:creamy-garlic-sausage-pasta-1",
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:creamy-garlic-chicken-orzo-1"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-garlic-sausage-pasta",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-garlic-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Garlic Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    812,
+    896
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "no-idea",
+    "label": "cheesy dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first? Tell us below 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "No idea what to cook tonight? 5 Trader Joe's cheesy dinners 😩🧀",
+     "subline": "Big flavor, zero brainpower 👀",
+     "score": 8.5
+    },
+    {
+     "hook": "Send this to your roommate: 5 Trader Joe's cheesy dinners 😂🧀",
+     "subline": "Group chat dinner plan sorted 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's cheesy takeout copycats 🤤🧀",
+     "subline": "All the takeout vibes, less effort 🤤",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's cheesy dinners for a lazy Saturday night 😋🧀",
+     "subline": "Perfect weekend comfort 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Trader Joe's cheesy dinners for when you're wiped out 😴🧀",
+     "subline": "Ready to rescue your weeknight 😴",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-10-17T17:09:48+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697685373841082390",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T17:11:46+00:00"
   }
  ]
 }
