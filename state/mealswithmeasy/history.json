@@ -1445,6 +1445,95 @@
    "publish_id": "p_inbox_url~v2.7697338751235786774",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-16T18:46:55+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "5 Aldi Rice Bowls That Taste Like a Takeout Date 🤤🍚",
+   "subline": "",
+   "title": "5 Aldi Rice Bowls That Taste Like a Takeout Date 🤤🍚",
+   "caption": "Your next grocery run just got easier 🛒\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Honey Garlic Sausage Bowls\n3. Sticky Teriyaki Sausage Rice Bowls\n4. Creamy Garlic Chicken Rice\n5. Cheesy Taco Rice Skillet\n\nWhich bowl are you making first this weekend? 🍚\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #ricebowl #copycatrecipes",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:sticky-honey-garlic-sausage-rice-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:creamy-garlic-chicken-rice-1",
+    "card:cheesy-taco-rice-skillet-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "creamy-garlic-chicken-rice",
+    "cheesy-taco-rice-skillet"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Creamy Garlic Chicken Rice",
+    "Cheesy Taco Rice Skillet"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    232,
+    664
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "rice",
+    "angle": "date-night",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "a date night in that costs less than a cocktail"
+   },
+   "question": "Which bowl are you making first this weekend? 🍚",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls for a Date Night Cheaper Than a Cocktail 🍚😏",
+     "subline": "Perfect Saturday night in for two 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Sticky Rice Bowls to Save You Takeout Cash 💸🍚",
+     "subline": "Send to your date-night partner 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls That Taste Like a Takeout Date 🤤🍚",
+     "subline": "",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Sticky Saucy Rice Dinners for a Cozy Date Night 😋🍚",
+     "subline": "Weekend plans: kitchen + cheap cocktails 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls to Impress Without Breaking Bank 😳🍚",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-17T05:36:44+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-17-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697506409142929411",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T05:38:46+00:00"
   }
  ]
 }

@@ -1408,6 +1408,90 @@
    "publish_id": "p_inbox_url~v2.7697338784870041623",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-16T18:47:07+00:00"
+  },
+  {
+   "date": "2026-10-17",
+   "hook": "Too tired for a takeaway? 5 Aldi fakeaways 😩💸",
+   "subline": "All the flavour, no delivery faff 🙌",
+   "title": "Too tired for a takeaway? 5 Aldi fakeaways 😩💸",
+   "caption": "Cosy weekend in? Make takeaway-style dinners at home with 5 Aldi fakeaways — less faff, more cheese. 😋🔥\n\n1. BBQ Sausage Loaded Potatoes\n2. Cheesy BBQ Pulled Chicken Nachos\n3. Cheesy Beef & Bean Loaded Potatoes\n4. Cheesy BBQ Loaded Fries\n5. Loaded BBQ Beef Nachos\n\nWhich one are you making first this weekend? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-1",
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:loaded-bbq-beef-nachos-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-beef-bean-loaded-potatoes",
+    "cheesy-bbq-chicken-loaded-fries",
+    "loaded-bbq-beef-nachos"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Cheesy BBQ Loaded Fries",
+    "Loaded BBQ Beef Nachos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    356,
+    852
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "cosy",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first this weekend? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi fakeaways for cosy nights in 😋🔥",
+     "subline": "Weekend dinner wins that beat a takeaway 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi fakeaways that beat a takeaway tonight 😏🤤",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "Saturday night sorted: 5 Aldi fakeaways 😴🍗",
+     "subline": "Cosy, cheesy, zero takeaway faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Too tired for a takeaway? 5 Aldi fakeaways 😩💸",
+     "subline": "All the flavour, no delivery faff 🙌",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-17T05:37:51+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-17-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697506366159636483",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-17T05:38:57+00:00"
   }
  ]
 }
