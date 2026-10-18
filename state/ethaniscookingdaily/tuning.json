@@ -1,133 +1,148 @@
 {
  "active": false,
- "scored_posts": 8,
+ "scored_posts": 9,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "spicy": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.07
    },
    "under-2": {
-    "mult": 0.97,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.86
+    "avg_ratio": 0.82
    },
    "cheesy": {
-    "mult": 1.12,
+    "mult": 1.11,
     "posts": 1,
-    "avg_ratio": 1.5
+    "avg_ratio": 1.42
    },
    "fakeaway": {
-    "mult": 1.01,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.0
    },
    "quick": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.95
-   },
-   "rice": {
-    "mult": 1.17,
-    "posts": 1,
-    "avg_ratio": 1.69
-   },
-   "noodles": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.88
+    "avg_ratio": 0.9
+   },
+   "rice": {
+    "mult": 1.15,
+    "posts": 1,
+    "avg_ratio": 1.6
+   },
+   "noodles": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.84
    },
    "asian": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
+   },
+   "italian": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.1
    }
   },
   "angle": {
    "send": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.07
    },
    "saturday": {
-    "mult": 0.97,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.86
+    "avg_ratio": 0.82
    },
    "payday": {
-    "mult": 1.12,
+    "mult": 1.11,
     "posts": 1,
-    "avg_ratio": 1.5
+    "avg_ratio": 1.42
    },
    "no-idea": {
-    "mult": 1.01,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.0
    },
    "tonight": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.95
-   },
-   "repeat": {
-    "mult": 1.17,
-    "posts": 1,
-    "avg_ratio": 1.69
-   },
-   "midweek": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.88
+    "avg_ratio": 0.9
+   },
+   "repeat": {
+    "mult": 1.15,
+    "posts": 1,
+    "avg_ratio": 1.6
+   },
+   "midweek": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.84
    },
    "family": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
+   },
+   "weekly-shop": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.1
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.13
+    "avg_ratio": 1.07
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 0.97,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.86
+    "avg_ratio": 0.82
    },
    "loaded-bbq-beef-nachos": {
-    "mult": 1.12,
+    "mult": 1.11,
     "posts": 1,
-    "avg_ratio": 1.5
+    "avg_ratio": 1.42
    },
    "cheesy-beef-bean-loaded-potatoes": {
-    "mult": 1.01,
+    "mult": 1.0,
     "posts": 1,
-    "avg_ratio": 1.05
+    "avg_ratio": 1.0
    },
    "cheesy-bbq-pulled-chicken-nachos": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.95
-   },
-   "sticky-korean-beef-rice-bowls": {
-    "mult": 1.17,
-    "posts": 1,
-    "avg_ratio": 1.69
-   },
-   "honey-chilli-chicken-noodles": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.88
+    "avg_ratio": 0.9
+   },
+   "sticky-korean-beef-rice-bowls": {
+    "mult": 1.15,
+    "posts": 1,
+    "avg_ratio": 1.6
+   },
+   "honey-chilli-chicken-noodles": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.84
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 1,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.67
+   },
+   "cheesy-cajun-sausage-gnocchi": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.1
    }
   }
  },
@@ -143,6 +158,12 @@
    "subline": "End-of-month heroes that taste like luxe 😳",
    "views": 2585,
    "store": "lidl"
+  },
+  {
+   "hook": "5 Aldi Italian Dinners from a £35 shop 🛒💸",
+   "subline": "One shop, five pasta nights 😋",
+   "views": 2009,
+   "store": "aldi"
   },
   {
    "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
@@ -161,12 +182,6 @@
    "subline": "Dinner decided. Save your energy 😂",
    "views": 1634,
    "store": "tesco"
-  },
-  {
-   "hook": "5 Aldi noodle dinners for a skint midweek 💸",
-   "subline": "Save this for your next Aldi shop 🛒",
-   "views": 1522,
-   "store": "aldi"
   }
  ]
 }
