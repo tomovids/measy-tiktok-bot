@@ -1623,6 +1623,100 @@
    "publish_id": "p_inbox_url~v2.7697685373841082390",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T17:11:46+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "5 Walmart pasta dinners cheaper than takeout 😳💸",
+   "subline": "Stretch your groceries, feed everyone 🙌",
+   "title": "5 Walmart pasta dinners cheaper than takeout 😳💸",
+   "caption": "Save these 5 pasta dinners for your next Walmart grocery run — creamy, low-effort, and perfect for a hungry night in 🍝🙌\n\n1. Creamy Tomato Chicken Pasta\n2. Creamy Lemon Chicken Orzo\n3. Creamy Garlic Chicken Gnocchi\n4. Creamy Tomato Pasta\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you making first? 🍝\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:creamy-lemon-chicken-orzo-1",
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-tomato-pasta-1",
+    "card:one-pan-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "creamy-tomato-chicken-pasta",
+    "creamy-lemon-chicken-orzo",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-tomato-pasta",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Tomato Chicken Pasta",
+    "Creamy Lemon Chicken Orzo",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Tomato Pasta",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    368,
+    520
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "pasta",
+    "angle": "save",
+    "label": "pasta dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making first? 🍝",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart pasta dinners for when payday's nowhere in sight 😭💸",
+     "subline": "Save for your next Walmart run 🍝",
+     "score": 8.0
+    },
+    {
+     "hook": "Sunday dinner solved: 5 Walmart pasta dinners 🍝🙌",
+     "subline": "Big flavor, tiny effort 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart creamy pastas that'll fix your week 😏🍝",
+     "subline": "Comfort food that beats takeout 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your partner: 5 Walmart pasta rescues 👀🍝",
+     "subline": "When you have ZERO energy 😩",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart pasta dinners cheaper than takeout 😳💸",
+     "subline": "Stretch your groceries, feed everyone 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Walmart one-pan pasta dinners for lazy nights 😴🍝",
+     "subline": "Less washing up, more Netflix 🍝",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-18T09:35:40+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697939503269267478",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T09:37:58+00:00"
   }
  ]
 }

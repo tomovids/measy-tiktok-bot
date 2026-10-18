@@ -2737,6 +2737,95 @@
    "publish_id": "p_inbox_url~v2.7697685330883299350",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T17:11:34+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "Skint till payday? 5 Aldi Dinners That Pack Heat 😭🔥",
+   "subline": "Save these for your next Aldi shop 👀",
+   "title": "Skint till payday? 5 Aldi Dinners That Pack Heat 😭🔥",
+   "caption": "Skint till payday this Sunday? These 5 Aldi spicy dinners bring big flavour on a tiny budget — save them for the next shop 😩🔥\n\n1. Loaded Taco Jacket Potato\n2. Cheesy Cajun Chicken Wraps\n3. Cheesy Cajun Sausage Gnocchi\n4. Cheesy Taco Quesadillas\n5. Cheesy Buffalo Chicken Potato Skins\n\nWhich one are you trying first? Pick a number and drop a 🔥\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-cajun-chicken-wraps-2",
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:cheesy-taco-quesadillas-1",
+    "card:cheesy-buffalo-chicken-potato-skins-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "cheesy-cajun-chicken-wraps",
+    "cheesy-cajun-sausage-gnocchi",
+    "cheesy-taco-quesadillas",
+    "cheesy-buffalo-chicken-potato-skins"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Cheesy Cajun Chicken Wraps",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Buffalo Chicken Potato Skins"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    448,
+    752
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "spicy",
+    "angle": "payday",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first? Pick a number and drop a 🔥",
+   "tuned": true,
+   "hook_score": 9.3,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners With a Kick Till Payday 😩🔥",
+     "subline": "Spicy, cheap and proper comforting 👀",
+     "score": 8.2
+    },
+    {
+     "hook": "Skint till payday? 5 Aldi Dinners That Pack Heat 😭🔥",
+     "subline": "Save these for your next Aldi shop 👀",
+     "score": 9.3
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners to Stop You Ordering Takeaway 😏💸",
+     "subline": "All the flavour, less faff 👀",
+     "score": 8.2
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners To Rescue a Skint Weekend 😩🔥",
+     "subline": "Weekend dinner plans: solved 👀",
+     "score": 8.3
+    },
+    {
+     "hook": "Sunday spice: 5 Aldi Dinners With Proper Kick 😋🔥",
+     "subline": "Perfect for a skint Sunday swap 🙌",
+     "score": 7.2
+    }
+   ],
+   "built_at": "2026-10-18T09:34:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697939381751187478",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T09:37:45+00:00"
   }
  ]
 }

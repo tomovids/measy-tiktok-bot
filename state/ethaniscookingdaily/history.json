@@ -1586,6 +1586,100 @@
    "publish_id": "p_inbox_url~v2.7697685450987964438",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-17T17:11:59+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "Skint student? 5 Aldi cheesy dinners 😭🧀",
+   "subline": "Big melty dinners, tiny spend 😭",
+   "title": "Skint student? 5 Aldi cheesy dinners 😭🧀",
+   "caption": "First flat or solo student? These 5 Aldi cheesy dinners are melty, cheap and zero-faff — perfect for a Sunday night. Save it 😋🧀\n\n1. Sticky Garlic Beef Loaded Fries\n2. Crispy Beef Taco Rice Bowls\n3. Garlic Butter Flatbreads\n4. Crispy Sweet Chilli Halloumi Burgers\n5. Garlic Butter Halloumi Couscous\n\nWhich one are you cooking first? Tell us your pick 😏\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:garlic-butter-flatbreads-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:garlic-butter-halloumi-couscous-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "crispy-beef-taco-rice-bowls",
+    "garlic-butter-flatbreads",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "garlic-butter-halloumi-couscous"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Crispy Beef Taco Rice Bowls",
+    "Garlic Butter Flatbreads",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Garlic Butter Halloumi Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    288,
+    740
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "students",
+    "label": "cheesy dinners",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one are you cooking first? Tell us your pick 😏",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners for Your First Flat 😋🧀",
+     "subline": "Student-friendly, zero faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Skint student? 5 Aldi cheesy dinners 😭🧀",
+     "subline": "Big melty dinners, tiny spend 😭",
+     "score": 9.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi cheesy wins 🙌🧀",
+     "subline": "Share the rota — no dinner fights 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "Too knackered? 5 Aldi cheesy fakeaways 😩🧀",
+     "subline": "Sunday night rescue 😩",
+     "score": 6.0
+    },
+    {
+     "hook": "Living alone? 5 Aldi cheesy dinners for one 😏🧀",
+     "subline": "Portion-perfect, no waste 😏",
+     "score": 5.0
+    },
+    {
+     "hook": "Student kitchen hero: 5 Aldi cheesy dinners 😳🧀",
+     "subline": "",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-18T09:36:59+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-18-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697939590753847318",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T09:38:10+00:00"
   }
  ]
 }
