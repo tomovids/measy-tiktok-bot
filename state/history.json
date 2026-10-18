@@ -2905,6 +2905,80 @@
    "publish_id": "p_inbox_url~v2.7697971254913304598",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T11:41:09+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "No idea what's for tea? 5 Aldi sausage dinners 😩🍝",
+   "subline": "Ready in 25 mins or less ⏰",
+   "title": "No idea what's for tea? 5 Aldi sausage dinners 😩🍝",
+   "caption": "Sunday evening and no idea what's for tea? 5 Aldi sausage dinners to sort tonight — cheap, quick and proper tasty 😩🍚\n\n1. BBQ Sausage Loaded Potatoes\n2. Garlic Butter Sausage & Veggie Skillet\n3. Honey Soy Sausage Noodle Bowls\n4. Cheesy Pepperoni Pizza Wraps\n5. Garlic Sausage Rice Bowls\n\nWhich one would you cook first? Rate them out of 10! 🤤\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:garlic-butter-sausage-veggie-skillet-2",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:garlic-sausage-rice-bowls-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "garlic-butter-sausage-veggie-skillet",
+    "honey-soy-sausage-noodle-bowls",
+    "cheesy-pepperoni-pizza-wraps",
+    "garlic-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Honey Soy Sausage Noodle Bowls",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Garlic Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    528,
+    868
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "sausage",
+    "angle": "no-idea",
+    "label": "sausage dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one would you cook first? Rate them out of 10! 🤤",
+   "tuned": false,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "No idea what's for tea? 5 Aldi sausage dinners 😩🍝",
+     "subline": "Ready in 25 mins or less ⏰",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi sausage dinners to stretch your shop 😭💸",
+     "subline": "Save these for your next Aldi shop 👀",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-18T17:21:12+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698059873111541782",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T17:24:33+00:00"
   }
  ]
 }

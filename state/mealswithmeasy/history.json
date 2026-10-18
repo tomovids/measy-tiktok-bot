@@ -1717,6 +1717,95 @@
    "publish_id": "p_inbox_url~v2.7697939503269267478",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T09:37:58+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "Plan your Aldi shop around these 5 creamy wins 🛒😋",
+   "subline": "Stock once, creamy dinners all week 👀",
+   "title": "Plan your Aldi shop around these 5 creamy wins 🛒😋",
+   "caption": "Sunday dinner plan: creamy, budget-friendly meals you can build your Aldi grocery run around 😋🛒\n\n1. Creamy Cajun Chicken Flatbreads\n2. Garlic Butter Chicken & Rice\n3. Creamy Garlic Chicken Pasta\n4. Cheesy Tomato Pasta\n5. Buffalo Chicken Quesadillas\n\nWhich one are you cooking first this week? 😍\n💾 Save this for your next Aldi run\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #creamypasta #comfortfood",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-2",
+    "card:garlic-butter-chicken-and-rice-1",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:cheesy-tomato-pasta-1",
+    "card:buffalo-chicken-quesadillas-2"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "garlic-butter-chicken-and-rice",
+    "creamy-garlic-chicken-pasta",
+    "cheesy-tomato-pasta",
+    "buffalo-chicken-quesadillas"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Garlic Chicken Pasta",
+    "Cheesy Tomato Pasta",
+    "Buffalo Chicken Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    256,
+    664
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "creamy",
+    "angle": "weekly-shop",
+    "label": "creamy dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you cooking first this week? 😍",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Creamy Dinners for When You're Broke 😭🧀",
+     "subline": "Big comfort, tiny grocery run 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "Send this to your roommate: 5 Aldi creamy wins 😋👇",
+     "subline": "Perfect for lazy weekend dinners 🫶",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Creamy Dinners for When You're Exhausted 😩🍝",
+     "subline": "Wiped out but still want creamy comfort 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Creamy Dinners That Make Weeknights Easy 😏🤤",
+     "subline": "Weeknight dinners, zero fuss 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "Plan your Aldi shop around these 5 creamy wins 🛒😋",
+     "subline": "Stock once, creamy dinners all week 👀",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-18T17:22:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-18-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698059835446708246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T17:24:46+00:00"
   }
  ]
 }
