@@ -2826,6 +2826,85 @@
    "publish_id": "p_inbox_url~v2.7697939381751187478",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T09:37:45+00:00"
+  },
+  {
+   "date": "2026-10-18",
+   "hook": "5 Sainsbury's dinners that STOP the 'what's for tea' moan 😩👀",
+   "subline": "Perfect for a fuss-free weekend 😏",
+   "title": "5 Sainsbury's dinners that STOP the 'what's for tea' moan 😩👀",
+   "caption": "Sunday lunch sorted: 5 Sainsbury's dinners the whole family will actually eat — and they'll stop moaning at tea 🛒😋\n\n1. Sticky Chicken Loaded Fries\n2. Sticky Maple Sausage Traybake\n3. Garlic-Butter Chicken Flatbreads\n4. Creamy Tomato Potato Bake\n5. Crispy Bean Quesadillas\n\nWhich one are you trying first this week? 👀\n💾 Save this for your next Sainsbury's shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-chicken-loaded-fries-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:garlic-butter-chicken-flatbreads-1",
+    "card:creamy-tomato-potato-bake-1",
+    "card:crispy-bean-quesadillas-1"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "sticky-maple-sausage-traybake",
+    "garlic-butter-chicken-flatbreads",
+    "creamy-tomato-potato-bake",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Sticky Maple Sausage Traybake",
+    "Garlic-Butter Chicken Flatbreads",
+    "Creamy Tomato Potato Bake",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    276,
+    524
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "under-2",
+    "angle": "family",
+    "label": "dinners under £2 a portion",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you trying first this week? 👀",
+   "tuned": true,
+   "hook_score": 7.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's dinners that STOP the 'what's for tea' moan 😩👀",
+     "subline": "Perfect for a fuss-free weekend 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to the one who always moans: 5 Sainsbury's 🙌🍚",
+     "subline": "Feed the whole lot with no complaints 😏",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Sainsbury's family meals nobody will moan about 😋🫶",
+     "subline": "",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-18T11:40:13+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-18-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7697971254913304598",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-18T11:41:09+00:00"
   }
  ]
 }
