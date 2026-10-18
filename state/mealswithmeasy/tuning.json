@@ -1,138 +1,153 @@
 {
  "active": false,
- "scored_posts": 9,
+ "scored_posts": 10,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "loaded": {
-    "mult": 0.86,
+    "mult": 0.85,
     "posts": 1,
-    "avg_ratio": 0.45
+    "avg_ratio": 0.42
    },
    "creamy": {
-    "mult": 1.15,
+    "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.47
    },
    "chicken": {
-    "mult": 0.98,
+    "mult": 0.95,
     "posts": 2,
-    "avg_ratio": 0.96
+    "avg_ratio": 0.89
    },
    "fakeaway": {
-    "mult": 1.04,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.17
+    "avg_ratio": 1.08
    },
    "cheesy": {
-    "mult": 1.26,
+    "mult": 1.22,
     "posts": 1,
-    "avg_ratio": 2.03
+    "avg_ratio": 1.86
    },
    "italian": {
-    "mult": 0.97,
+    "mult": 0.96,
     "posts": 1,
-    "avg_ratio": 0.9
+    "avg_ratio": 0.82
    },
    "beef": {
-    "mult": 1.11,
+    "mult": 1.08,
     "posts": 1,
-    "avg_ratio": 1.45
+    "avg_ratio": 1.34
    },
    "mexican": {
-    "mult": 0.98,
+    "mult": 0.96,
     "posts": 1,
-    "avg_ratio": 0.91
+    "avg_ratio": 0.84
+   },
+   "comfort": {
+    "mult": 1.18,
+    "posts": 1,
+    "avg_ratio": 1.73
    }
   },
   "angle": {
    "payday": {
-    "mult": 0.86,
+    "mult": 0.85,
     "posts": 1,
-    "avg_ratio": 0.45
+    "avg_ratio": 0.42
    },
    "takeaway": {
-    "mult": 1.15,
+    "mult": 1.12,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.47
    },
    "no-idea": {
-    "mult": 1.0,
-    "posts": 1,
-    "avg_ratio": 1.0
-   },
-   "weekly-shop": {
-    "mult": 1.02,
-    "posts": 2,
-    "avg_ratio": 1.05
-   },
-   "cosy": {
-    "mult": 1.26,
-    "posts": 1,
-    "avg_ratio": 2.03
-   },
-   "save": {
-    "mult": 0.97,
-    "posts": 1,
-    "avg_ratio": 0.9
-   },
-   "tired": {
-    "mult": 1.11,
-    "posts": 1,
-    "avg_ratio": 1.45
-   },
-   "repeat": {
-    "mult": 0.98,
-    "posts": 1,
-    "avg_ratio": 0.91
-   }
-  },
-  "lead": {
-   "cheesy-bbq-chicken-loaded-fries": {
-    "mult": 0.86,
-    "posts": 1,
-    "avg_ratio": 0.45
-   },
-   "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.15,
-    "posts": 1,
-    "avg_ratio": 1.6
-   },
-   "cheesy-cajun-chicken-wraps": {
-    "mult": 1.0,
-    "posts": 1,
-    "avg_ratio": 1.0
-   },
-   "loaded-taco-jacket-potato": {
-    "mult": 1.04,
-    "posts": 1,
-    "avg_ratio": 1.17
-   },
-   "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.26,
-    "posts": 1,
-    "avg_ratio": 2.03
-   },
-   "hot-honey-chicken-flatbread-pizzas": {
-    "mult": 0.97,
-    "posts": 1,
-    "avg_ratio": 0.9
-   },
-   "loaded-bbq-beef-nachos": {
-    "mult": 1.11,
-    "posts": 1,
-    "avg_ratio": 1.45
-   },
-   "cheesy-bbq-loaded-potatoes": {
     "mult": 0.98,
     "posts": 1,
     "avg_ratio": 0.92
    },
-   "cheesy-bbq-pulled-chicken-nachos": {
+   "weekly-shop": {
+    "mult": 0.99,
+    "posts": 2,
+    "avg_ratio": 0.97
+   },
+   "cosy": {
+    "mult": 1.22,
+    "posts": 1,
+    "avg_ratio": 1.86
+   },
+   "save": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.82
+   },
+   "tired": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.34
+   },
+   "repeat": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.84
+   },
+   "send": {
+    "mult": 1.18,
+    "posts": 1,
+    "avg_ratio": 1.73
+   }
+  },
+  "lead": {
+   "cheesy-bbq-chicken-loaded-fries": {
+    "mult": 0.85,
+    "posts": 1,
+    "avg_ratio": 0.42
+   },
+   "creamy-cajun-chicken-flatbreads": {
+    "mult": 1.12,
+    "posts": 1,
+    "avg_ratio": 1.47
+   },
+   "cheesy-cajun-chicken-wraps": {
     "mult": 0.98,
     "posts": 1,
-    "avg_ratio": 0.91
+    "avg_ratio": 0.92
+   },
+   "loaded-taco-jacket-potato": {
+    "mult": 1.02,
+    "posts": 1,
+    "avg_ratio": 1.08
+   },
+   "sticky-garlic-beef-loaded-fries": {
+    "mult": 1.22,
+    "posts": 1,
+    "avg_ratio": 1.86
+   },
+   "hot-honey-chicken-flatbread-pizzas": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.82
+   },
+   "loaded-bbq-beef-nachos": {
+    "mult": 1.08,
+    "posts": 1,
+    "avg_ratio": 1.34
+   },
+   "cheesy-bbq-loaded-potatoes": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.85
+   },
+   "cheesy-bbq-pulled-chicken-nachos": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.84
+   },
+   "bbq-sausage-loaded-potatoes": {
+    "mult": 1.18,
+    "posts": 1,
+    "avg_ratio": 1.73
    }
   }
  },
@@ -141,6 +156,12 @@
    "hook": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
    "subline": "Cozy, cheesy nights as it gets darker 😋",
    "views": 1536,
+   "store": "aldius"
+  },
+  {
+   "hook": "5 Aldi Dinners That FIX a Rough Night 😏🧀",
+   "subline": "Comfort food that actually shows up 😋",
+   "views": 1424,
    "store": "aldius"
   },
   {
@@ -166,12 +187,6 @@
    "subline": "Dinner solved in one grocery run 🙌",
    "views": 758,
    "store": "walmart"
-  },
-  {
-   "hook": "5 Trader Joe's Chicken Dinners to Stretch Your Grocery Run 💸🛒",
-   "subline": "Fills the fridge, saves your week 💚",
-   "views": 700,
-   "store": "traderjoes"
   }
  ]
 }

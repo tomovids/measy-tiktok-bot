@@ -1,148 +1,148 @@
 {
  "active": false,
- "scored_posts": 9,
+ "scored_posts": 10,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "spicy": {
-    "mult": 1.02,
+    "mult": 1.01,
     "posts": 1,
-    "avg_ratio": 1.07
+    "avg_ratio": 1.03
    },
    "under-2": {
     "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.82
+    "avg_ratio": 0.79
    },
    "cheesy": {
-    "mult": 1.11,
+    "mult": 1.09,
     "posts": 1,
-    "avg_ratio": 1.42
+    "avg_ratio": 1.37
    },
    "fakeaway": {
-    "mult": 1.0,
+    "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.97
    },
    "quick": {
-    "mult": 0.97,
-    "posts": 1,
-    "avg_ratio": 0.9
+    "mult": 1.05,
+    "posts": 2,
+    "avg_ratio": 1.12
    },
    "rice": {
-    "mult": 1.15,
+    "mult": 1.14,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.55
    },
    "noodles": {
-    "mult": 0.96,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.84
+    "avg_ratio": 0.81
    },
    "asian": {
-    "mult": 0.92,
+    "mult": 0.91,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.65
    },
    "italian": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.1
+    "avg_ratio": 1.08
    }
   },
   "angle": {
    "send": {
-    "mult": 1.02,
-    "posts": 1,
-    "avg_ratio": 1.07
+    "mult": 1.08,
+    "posts": 2,
+    "avg_ratio": 1.2
    },
    "saturday": {
     "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.82
+    "avg_ratio": 0.79
    },
    "payday": {
-    "mult": 1.11,
+    "mult": 1.09,
     "posts": 1,
-    "avg_ratio": 1.42
+    "avg_ratio": 1.37
    },
    "no-idea": {
-    "mult": 1.0,
+    "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.97
    },
    "tonight": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.9
+    "avg_ratio": 0.87
    },
    "repeat": {
-    "mult": 1.15,
+    "mult": 1.14,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.55
    },
    "midweek": {
-    "mult": 0.96,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.84
+    "avg_ratio": 0.81
    },
    "family": {
-    "mult": 0.92,
+    "mult": 0.91,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.65
    },
    "weekly-shop": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.1
+    "avg_ratio": 1.08
    }
   },
   "lead": {
    "creamy-cajun-chicken-flatbreads": {
-    "mult": 1.02,
-    "posts": 1,
-    "avg_ratio": 1.07
+    "mult": 1.08,
+    "posts": 2,
+    "avg_ratio": 1.2
    },
    "cheesy-bbq-loaded-potatoes": {
     "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.82
+    "avg_ratio": 0.79
    },
    "loaded-bbq-beef-nachos": {
-    "mult": 1.11,
+    "mult": 1.09,
     "posts": 1,
-    "avg_ratio": 1.42
+    "avg_ratio": 1.37
    },
    "cheesy-beef-bean-loaded-potatoes": {
-    "mult": 1.0,
+    "mult": 0.99,
     "posts": 1,
-    "avg_ratio": 1.0
+    "avg_ratio": 0.97
    },
    "cheesy-bbq-pulled-chicken-nachos": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.9
+    "avg_ratio": 0.87
    },
    "sticky-korean-beef-rice-bowls": {
-    "mult": 1.15,
+    "mult": 1.14,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.55
    },
    "honey-chilli-chicken-noodles": {
-    "mult": 0.96,
+    "mult": 0.95,
     "posts": 1,
-    "avg_ratio": 0.84
+    "avg_ratio": 0.81
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
-    "mult": 0.92,
+    "mult": 0.91,
     "posts": 1,
-    "avg_ratio": 0.67
+    "avg_ratio": 0.65
    },
    "cheesy-cajun-sausage-gnocchi": {
-    "mult": 1.03,
+    "mult": 1.02,
     "posts": 1,
-    "avg_ratio": 1.1
+    "avg_ratio": 1.08
    }
   }
  },
@@ -160,9 +160,15 @@
    "store": "lidl"
   },
   {
+   "hook": "Skint but starving? 5 Lidl meals ready in 20 mins 😭💸",
+   "subline": "No faff, just dinner and less stress 😋",
+   "views": 2571,
+   "store": "lidl"
+  },
+  {
    "hook": "5 Aldi Italian Dinners from a £35 shop 🛒💸",
    "subline": "One shop, five pasta nights 😋",
-   "views": 2009,
+   "views": 2030,
    "store": "aldi"
   },
   {
@@ -176,12 +182,6 @@
    "subline": "Feels like a takeaway, costs less 😏",
    "views": 1819,
    "store": "sainsburys"
-  },
-  {
-   "hook": "Too knackered to think? 5 Tesco dinners in 20 mins 😩🍗",
-   "subline": "Dinner decided. Save your energy 😂",
-   "views": 1634,
-   "store": "tesco"
   }
  ]
 }
