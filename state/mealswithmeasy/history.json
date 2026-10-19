@@ -1806,6 +1806,90 @@
    "publish_id": "p_inbox_url~v2.7698059835446708246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T17:24:46+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "5 Trader Joe's Chicken Rice Bowls That End Dinner Fights 🍚😏",
+   "subline": "",
+   "title": "5 Trader Joe's Chicken Rice Bowls That End Dinner Fights 🍚😏",
+   "caption": "Monday morning: 5 Trader Joe's chicken dinners that actually feed the whole family without the moaning—full recipes + shopping list in Measy 🙌🍗\n\n1. Cheesy BBQ Loaded Potatoes\n2. Honey Chili Chicken Noodles\n3. Creamy Pesto Chicken Gnocchi\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Sticky Honey Garlic Chicken Rice Bowls\n\nWhich one should you make first this week? 👀\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:honey-chilli-chicken-noodles-2",
+    "card:creamy-pesto-chicken-gnocchi-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "honey-chilli-chicken-noodles",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "sticky-honey-garlic-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Honey Chili Chicken Noodles",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Sticky Honey Garlic Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    940,
+    1012
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "chicken",
+    "angle": "family",
+    "label": "chicken dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one should you make first this week? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Chicken Meals When You're Broke & Tired 💸😩",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "Send this to your partner: 5 Trader Joe's Chicken Wins 👀🍗",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Rice Bowls That End Dinner Fights 🍚😏",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Trader Joe's Sticky, Cheesy Chicken Dinners You'll Repeat 😋💚",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-19T06:13:44+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698258375888652310",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T06:15:54+00:00"
   }
  ]
 }

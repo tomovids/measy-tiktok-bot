@@ -1759,6 +1759,90 @@
    "publish_id": "p_inbox_url~v2.7698059873111771158",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T17:24:58+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "Skint Monday? 5 Aldi meals under £1.50 a portion 😭🍚",
+   "subline": "Ready in 30 minutes or less ⏰",
+   "title": "Skint Monday? 5 Aldi meals under £1.50 a portion 😭🍚",
+   "caption": "Monday hack: five Aldi dinners under £1.50 a portion to start the week without blowing the budget 😋💸\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Creamy Garlic Sausage Pasta\n3. Sticky BBQ Beef Rice Bowls\n4. Sweet Chilli Halloumi Wraps\n5. Sticky Teriyaki Sausage Rice Bowls\n\nWhich one are you trying first this week? 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:creamy-garlic-sausage-pasta-1",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "creamy-garlic-sausage-pasta",
+    "sticky-bbq-beef-rice-bowls",
+    "sweet-chilli-halloumi-wraps",
+    "sticky-teriyaki-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Creamy Garlic Sausage Pasta",
+    "Sticky BBQ Beef Rice Bowls",
+    "Sweet Chilli Halloumi Wraps",
+    "Sticky Teriyaki Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    340,
+    700
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "monday",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one are you trying first this week? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion — Monday sorted 😋💸",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "Skint Monday? 5 Aldi meals under £1.50 a portion 😭🍚",
+     "subline": "Ready in 30 minutes or less ⏰",
+     "score": 9.0
+    },
+    {
+     "hook": "Skip the takeaway: 5 Aldi dinners under £1.50 a portion 🤤🍔",
+     "subline": "Aldi flavours, takeaway vibes 🍚",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion that feel like a treat 😍🛒",
+     "subline": "Save for your next Aldi shop 🛒",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-19T06:14:53+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698258586215958550",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T06:16:06+00:00"
   }
  ]
 }

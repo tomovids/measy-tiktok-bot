@@ -2979,6 +2979,95 @@
    "publish_id": "p_inbox_url~v2.7698059873111541782",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-18T17:24:33+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "5 Aldi cheesy dinners to FIX a knackered night 😏🧀",
+   "subline": "Dinner sorted when you can't be bothered 😏",
+   "title": "5 Aldi cheesy dinners to FIX a knackered night 😏🧀",
+   "caption": "Too knackered to cook but still want gooey cheese? These 5 Aldi dinners are easy, filling and barely any effort — save them for tonight 😩🧀\n\n1. Loaded BBQ Beef Nachos\n2. Cheesy BBQ Loaded Fries\n3. Creamy Peri-Peri Chicken Pasta\n4. Cheesy Taco Rice Skillet\n5. Cheesy Beef & Bean Loaded Potatoes\n\nWhich one are you making first this week? Tell us 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:loaded-bbq-beef-nachos-1",
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:cheesy-beef-bean-loaded-potatoes-2"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-peri-peri-chicken-pasta",
+    "cheesy-taco-rice-skillet",
+    "cheesy-beef-bean-loaded-potatoes"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Beef & Bean Loaded Potatoes"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    212,
+    632
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "tired",
+    "label": "cheesy dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first this week? Tell us 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi cheesy dinners for when you're TOO KNACKERED 😩🧀",
+     "subline": "Comfort food for proper knackered nights 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi cheesy dinners that don't wreck your wallet 😋🧀",
+     "subline": "Big cheese, small effort 🧀",
+     "score": 6.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi cheesy lifesavers 😂🧀",
+     "subline": "The group chat needs this 😂",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Aldi cheesy dinners to FIX a knackered night 😏🧀",
+     "subline": "Dinner sorted when you can't be bothered 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "Monday and knackered? 5 Aldi cheesy cheats 😭🧀",
+     "subline": "Mondays = cheese therapy 🧀",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-19T06:12:33+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698258429646751766",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T06:15:41+00:00"
   }
  ]
 }
