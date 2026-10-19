@@ -3142,6 +3142,85 @@
    "publish_id": "p_inbox_url~v2.7698333628442691606",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T11:06:49+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "5 Aldi Pastas That Feel Like a Restaurant Meal 😍🍝",
+   "subline": "But cheaper than a takeaway 💸",
+   "title": "5 Aldi Pastas That Feel Like a Restaurant Meal 😍🍝",
+   "caption": "Too knackered for a takeaway? These 5 Aldi pasta dinners taste like one but cost less — proper midweek winners 😋🍝\n\n1. Creamy Tomato Pasta\n2. One-Pan Smoky Beef Orzo\n3. Creamy Garlic Chicken Gnocchi\n4. Creamy Lemon Chicken Orzo\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you making first this week? 👀\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-tomato-pasta-1",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-lemon-chicken-orzo-1",
+    "card:one-pan-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "creamy-tomato-pasta",
+    "one-pan-smoky-beef-orzo",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-lemon-chicken-orzo",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Tomato Pasta",
+    "One-Pan Smoky Beef Orzo",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Lemon Chicken Orzo",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    396,
+    728
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "pasta",
+    "angle": "takeaway",
+    "label": "pasta dinners",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": true,
+   "hook_score": 8.7,
+   "hook_candidates": [
+    {
+     "hook": "Skint and knackered? 5 Aldi pasta lifesavers 😭💸",
+     "subline": "Dinner sorted in less faff 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Pastas That Feel Like a Restaurant Meal 😍🍝",
+     "subline": "But cheaper than a takeaway 💸",
+     "score": 8.7
+    },
+    {
+     "hook": "Stretch your Aldi shop: 5 pasta wins 😳🛒",
+     "subline": "Save for the weekend treat 💷",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-19T19:19:53+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-19-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698461339135707158",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T19:23:29+00:00"
   }
  ]
 }

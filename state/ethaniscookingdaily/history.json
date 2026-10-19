@@ -1843,6 +1843,90 @@
    "publish_id": "p_inbox_url~v2.7698258586215958550",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T06:16:06+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "5 Lidl Dinners to End Dinner Drama TONIGHT 😏🍗",
+   "subline": "Ready in 25 minutes or less 🍚",
+   "title": "5 Lidl Dinners to End Dinner Drama TONIGHT 😏🍗",
+   "caption": "Monday night saved: 5 Lidl dinners that stop the moaning and actually feed the lot. Big flavours, tiny faff — send to whoever does the tea tonight 😋\n\n1. Sticky Hoisin Beef Flatbreads\n2. Crispy Beef Burrito Bowls\n3. Sticky Beef Rice Bowls\n4. Cheesy Beef & Pepper Stuffed Flatbreads\n5. Sweet Chilli Chicken Rice Bowl\n\nWhich one would you try first? 👇\n💾 Save this for your next Lidl shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:sticky-beef-rice-bowls-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:sweet-chilli-chicken-rice-bowl-2"
+   ],
+   "groups": [
+    "sticky-hoisin-beef-flatbreads",
+    "crispy-beef-burrito-bowls",
+    "sticky-beef-rice-bowls",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "sweet-chilli-chicken-rice-bowl"
+   ],
+   "dishes": [
+    "Sticky Hoisin Beef Flatbreads",
+    "Crispy Beef Burrito Bowls",
+    "Sticky Beef Rice Bowls",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Sweet Chilli Chicken Rice Bowl"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    428,
+    724
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "anything",
+    "angle": "family",
+    "label": "a mix of the best dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would you try first? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "Send this to your other half: 5 Lidl Wins 🙌😋",
+     "subline": "No more 'what's for tea' fights 😩",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Dinners That Beat a Takeaway 😍💚",
+     "subline": "Family-approved, less faff 🤤",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Dinners to End Dinner Drama TONIGHT 😏🍗",
+     "subline": "Ready in 25 minutes or less 🍚",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Lidl Dinners That Please Picky Eaters 😋👀",
+     "subline": "Cheesy, sticky and properly filling 😍",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-19T19:22:07+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-19-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698461476159424534",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T19:23:53+00:00"
   }
  ]
 }

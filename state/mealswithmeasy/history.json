@@ -1890,6 +1890,100 @@
    "publish_id": "p_inbox_url~v2.7698258375888652310",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T06:15:54+00:00"
+  },
+  {
+   "date": "2026-10-19",
+   "hook": "5 Walmart Vegetarian Dinners For When You're Wiped Out 😴🍝",
+   "subline": "Ready in 20 minutes or less 😋",
+   "title": "5 Walmart Vegetarian Dinners For When You're Wiped Out 😴🍝",
+   "caption": "Five Walmart meat-free dinners I actually make on repeat — weeknight-friendly and ready in 20 minutes or less 😋🛒\n\n1. Crispy Bean Quesadillas\n2. Creamy Tomato Potato Bake\n3. Crispy Sweet Chili Halloumi Burgers\n4. Garlic Butter Flatbreads\n5. Cheesy Tomato Pasta\n\nWhich one are you trying first? Rate it out of 10 👇\n💾 Save this so you're never stuck on dinner this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:crispy-bean-quesadillas-1",
+    "card:creamy-tomato-potato-bake-2",
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:garlic-butter-flatbreads-1",
+    "card:cheesy-tomato-pasta-2"
+   ],
+   "groups": [
+    "crispy-bean-quesadillas",
+    "creamy-tomato-potato-bake",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "garlic-butter-flatbreads",
+    "cheesy-tomato-pasta"
+   ],
+   "dishes": [
+    "Crispy Bean Quesadillas",
+    "Creamy Tomato Potato Bake",
+    "Crispy Sweet Chili Halloumi Burgers",
+    "Garlic Butter Flatbreads",
+    "Cheesy Tomato Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1448,
+    1520
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "veggie",
+    "angle": "repeat",
+    "label": "meat-free dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you trying first? Rate it out of 10 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Meat-Free Dinners That Never Disappoint 😋🛒",
+     "subline": "Weeknight heroes you'll actually cook 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "No idea what to cook? 5 Walmart veggie rescues 😩🙌",
+     "subline": "Send this to your roommate who panics 😭",
+     "score": 5.0
+    },
+    {
+     "hook": "Takeout who needs to show up? 5 Walmart veggie wins 💸😋",
+     "subline": "All comfort, none of the ordering stress 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Vegetarian Dinners For When You're Wiped Out 😴🍝",
+     "subline": "Ready in 20 minutes or less 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "Send this to your partner: 5 Walmart meat-free faves 👀💚",
+     "subline": "",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Walmart Meat-Free Dinners That Always Get Applause 😋🍝",
+     "subline": "Comfort food that's actually simple 🙌",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-19T19:21:08+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-19-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698461407037704214",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-19T19:23:41+00:00"
   }
  ]
 }
