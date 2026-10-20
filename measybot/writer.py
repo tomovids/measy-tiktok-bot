@@ -23,11 +23,14 @@ from .catalogue import Recipe
 from .openai_api import OpenAI, OpenAIError
 from .stores import Store
 
+# Every big Measy post before the bot opened its caption with "💾 SAVE this for..." (saves and shares
+# are what made them spread), so every caption does.
+SAVE_OPENER = "💾 SAVE this for"
 FALLBACK_INTROS = [
-    "Saving these for this week 👇",
-    "Cheap, easy and actually tasty 🤤",
-    "Your weekly shop just got easier 🛒",
-    "Proof that budget dinners don't have to be boring 🔥",
+    "💾 SAVE this for your next {store} shop 🛒",
+    "💾 SAVE this for the week before payday 😭🛒",
+    "💾 SAVE this for when you CANNOT be bothered to cook 😭⏰",
+    "💾 SAVE this for the next time you're about to order a takeaway 😭🍔",
 ]
 FALLBACK_QUESTIONS = [
     "Which one are you making first? 👇",
@@ -36,10 +39,10 @@ FALLBACK_QUESTIONS = [
     "What would you add to number 3? 👇",
 ]
 US_FALLBACK_INTROS = [
-    "Saving these for this week 👇",
-    "Cheap, easy and actually tasty 🤤",
-    "Your next grocery run just got easier 🛒",
-    "Proof that budget dinners don't have to be boring 🔥",
+    "💾 SAVE this for your next {store} run 🛒",
+    "💾 SAVE this for the week before payday 😭🛒",
+    "💾 SAVE this for when you CANNOT be bothered to cook 😭⏰",
+    "💾 SAVE this for the next time you're about to order takeout 😭🍔",
 ]
 US_FALLBACK_QUESTIONS = [
     "Which one are you making first? 👇",
@@ -289,6 +292,9 @@ def _rules(facts: Facts, cfg: dict, store: Store | None = None) -> str:
     else:
         time = "Do NOT mention cooking times or minutes."
     return f"""Rules for every hook:
+- Use the structure of this account's best performers: start with "5 {store.name}" and the dish word
+  ("5 {store.name} Dinners...", "5 LAZY {store.name} dinners...", "5 {store.name} Meals I'd Make If..."),
+  then the promise. Never open with a question or a one-word lead-in like "Skint?" or "Too tired?".
 - At most {wc['max_hook_chars']} characters, mentions {store.name}, ends with 1 or 2 emoji. Never names any
   other supermarket. If it states a number
   of dinners/meals it must be 5. Capitals for emphasis on one word at most.
@@ -353,7 +359,10 @@ Don't repeat or closely copy these recent hooks:
 
 Write {n} genuinely different hook candidates (different structures and emotional triggers: a pain
 point, a money detail, a "send this to" line, a takeaway comparison, a bold claim...). Then one caption
-"intro" line (max 150 characters, 1-2 emoji, don't list the dishes) and one "question" that gets people
+"intro" line that starts with exactly "💾 SAVE this for" and says when or why to save it, like this
+account's biggest posts: "💾 SAVE this for when you CANNOT be bothered to cook 😭⏰", "💾 SAVE this for the
+week before payday 😭🛒", "💾 SAVE this for the next time you're about to order takeaway 😭🍜" (max 150
+characters, 1-2 emoji at the end, don't list the dishes); and one "question" that gets people
 commenting (max 100 characters, ends with an emoji).
 Return: {{"candidates": [{{"hook": "...", "subline": "..."}}, ...], "intro": "...", "question": "..."}}"""
     return system, user
@@ -424,9 +433,11 @@ def write(recipes: list[Recipe], recent: list[str], cfg: dict, client: OpenAI | 
                 break
             intro = str(data.get("intro", "")).strip()
             question = str(data.get("question", "")).strip()
+            if not intro.startswith(SAVE_OPENER):
+                intro = ""
             if line_problems(intro, 150, facts, cfg, store):
                 log(f"  intro swapped for a saved one ({'; '.join(line_problems(intro, 150, facts, cfg, store))})")
-                intro = rng.choice(intros(cfg))
+                intro = rng.choice(intros(cfg)).replace("{store}", store.name)
             if line_problems(question, 100, facts, cfg, store):
                 question = rng.choice(questions(cfg))
             cands, rejected = [], []
@@ -466,7 +477,7 @@ def fallback(facts: Facts, recent: list[str], cfg: dict, rng: random.Random,
     options = [(h.replace("Aldi", store.name), s.replace("Aldi", store.name))
                for h, s in load_fallbacks(region=region)]
     rng.shuffle(options)
-    intro = rng.choice(intros(cfg))
+    intro = rng.choice(intros(cfg)).replace("{store}", store.name)
     question = rng.choice(questions(cfg))
     for strict in (True, False):
         for hook, sub in options:
@@ -494,9 +505,6 @@ def caption(w: Words, recipes: list[Recipe], cfg: dict, theme=None, rng: random.
     lines += [""]
     if w.question:
         lines.append(w.question)
-    saves = c.get("save_lines") or []
-    if saves:
-        lines.append(rng.choice(saves).replace("{store}", store.name))
     lines += [c["cta"], ""]
     swap = cfg.get("region", {}).get("hashtag_swap", {})
     theme_tags = [swap.get(t, t) for t in (theme.hashtags if theme else [])]

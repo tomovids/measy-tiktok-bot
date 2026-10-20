@@ -160,7 +160,7 @@ variants = 2
 max_hook_chars = 64
 max_subline_chars = 42
 # Emoji the writer may use (all draw cleanly on the cover).
-emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💷🍝🍗🌮🧀🍚😴🫶"
+emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💷🍝🍗🌮🧀🍚😴🫶💾🍜"
 # Hook tournament: how many hooks the writer drafts per post (the judge picks the best).
 candidates = 6
 # A hook sharing this share of its words with one of the last 60 hooks is rejected.
@@ -175,12 +175,6 @@ avoid = ["aldi", "tesco", "lidl", "asda", "sainsbury", "morrisons", "waitrose", 
 
 [caption]
 cta = "Full recipes + the shopping list on the Measy app (link in bio) 📲"
-# {store} becomes the post's supermarket.
-save_lines = [
-  "💾 Save this for your next {store} shop",
-  "💾 Save this so you're not stuck for tea this week",
-  "💾 Save it, screenshot it, send it to whoever does the cooking",
-]
 # Always used, after the store's own tags (e.g. #aldi #aldiuk); each theme adds two more (max_hashtags in total).
 hashtags = ["#budgetmeals", "#easydinner", "#ukfood", "#measy"]
 max_hashtags = 9
@@ -261,15 +255,10 @@ Money is in dollars ($). Relatable US moments: the end of the month before payda
 on a budget, college / first apartment, weeknight dinners after work, meal prep Sunday."""
 
 [regions.us.caption]
-save_lines = [
-  "💾 Save this for your next {store} run",
-  "💾 Save this so you're never stuck on dinner this week",
-  "💾 Save it, screenshot it, send it to whoever does the cooking",
-]
 hashtags = ["#budgetmeals", "#easydinner", "#dinnerideas", "#measy"]
 
 [regions.us.words]
-emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💵🍝🍗🌮🧀🍚😴🫶"
+emoji = "😭😂😋😏😩😳👀💸🛒🍔⏰🔥🤤🙌👇💚😍🥲🤯💵🍝🍗🌮🧀🍚😴🫶💾🍜"
 
 [regions.us.cover]
 prompt = """Photorealistic photo of the outside of an American {store} store in the USA: {sign} \

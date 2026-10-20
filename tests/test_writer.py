@@ -16,7 +16,7 @@ FIVE_PRICED = [recipe(i, total=2.5, mins=20 + i) for i in range(5)]  # £12.50, 
 QUIET = dict(log=lambda m: None)
 
 
-def answer(*hooks, intro="Which one first? 👀", question="Rate these out of 10 👀"):
+def answer(*hooks, intro="💾 SAVE this for the week before payday 😭🛒", question="Rate these out of 10 👀"):
     return {"candidates": [{"hook": h, "subline": ""} for h in hooks], "intro": intro, "question": question}
 
 
@@ -91,7 +91,7 @@ def test_write_retries_until_valid(cfg):
     client = StubClient([bad, good])
     w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
     assert w.source == "ai" and w.hook == "5 Aldi Dinners Better Than a Takeaway 🍔"
-    assert w.intro == "Which one first? 👀" and w.question == "Rate these out of 10 👀"
+    assert w.intro == "💾 SAVE this for the week before payday 😭🛒" and w.question == "Rate these out of 10 👀"
     assert "broke a rule" in client.prompts[1]
 
 
@@ -152,11 +152,12 @@ def test_fallback_list_is_valid(cfg):
 # ---- caption ----------------------------------------------------------------------------------
 
 def test_caption(cfg):
-    w = Words("5 Aldi Dinners 😋", "", "Saving these 👇", "sunny", "ai", question="Which one first? 👇")
+    w = Words("5 Aldi Dinners 😋", "", "💾 SAVE this for your next Aldi shop 🛒", "sunny", "ai",
+              question="Which one first? 👇")
     text = writer.caption(w, FIVE_PRICED, cfg)
-    assert text.startswith("Saving these 👇")
+    assert text.startswith("💾 SAVE this for your next Aldi shop 🛒")
     assert "1. Dish number 0" in text and "5. Dish number 4" in text
-    assert "Which one first? 👇" in text and "💾" in text
+    assert "Which one first? 👇" in text and text.count("💾") == 1     # the save line isn't repeated
     assert "#measy" in text and cfg["caption"]["cta"] in text
     assert len([t for t in text.split() if t.startswith("#")]) <= cfg["caption"]["max_hashtags"]
 
@@ -165,7 +166,22 @@ def test_bad_intro_is_swapped_not_fatal(cfg):
     long_intro = "word " * 60
     client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔", intro=long_intro)])
     w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
-    assert w.hook == "5 Aldi Dinners Better Than a Takeaway 🍔" and w.intro in writer.FALLBACK_INTROS
+    assert w.hook == "5 Aldi Dinners Better Than a Takeaway 🍔"
+    assert w.intro in [i.replace("{store}", "Aldi") for i in writer.FALLBACK_INTROS]
+
+
+def test_every_caption_opens_with_save_this(cfg):
+    client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔", intro="Sunday and no idea what's for tea? 😩")])
+    w = writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
+    assert w.intro.startswith("💾 SAVE this for")
+    w = writer.fallback(facts_for(FIVE_PRICED), [], cfg, random.Random(2))
+    assert w.intro.startswith("💾 SAVE this for") and "{store}" not in w.intro
+
+
+def test_prompt_asks_for_the_proven_hook_shape(cfg):
+    client = StubClient([answer("5 Aldi Dinners Better Than a Takeaway 🍔")])
+    writer.write(FIVE_PRICED, [], cfg, client, random.Random(1), **QUIET)
+    assert "Never open with a question" in client.prompts[0] and "💾 SAVE this for" in client.prompts[0]
 
 
 def test_second_line_must_add_something(cfg):
