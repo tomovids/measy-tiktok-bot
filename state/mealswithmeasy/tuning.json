@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 11,
+ "scored_posts": 13,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -54,6 +54,16 @@
     "mult": 0.92,
     "posts": 1,
     "avg_ratio": 0.66
+   },
+   "asian": {
+    "mult": 0.84,
+    "posts": 1,
+    "avg_ratio": 0.36
+   },
+   "rice": {
+    "mult": 1.24,
+    "posts": 1,
+    "avg_ratio": 1.94
    }
   },
   "angle": {
@@ -88,9 +98,9 @@
     "avg_ratio": 0.9
    },
    "tired": {
-    "mult": 1.11,
-    "posts": 1,
-    "avg_ratio": 1.45
+    "mult": 0.96,
+    "posts": 2,
+    "avg_ratio": 0.91
    },
    "repeat": {
     "mult": 0.98,
@@ -101,6 +111,11 @@
     "mult": 1.22,
     "posts": 1,
     "avg_ratio": 1.88
+   },
+   "date-night": {
+    "mult": 1.24,
+    "posts": 1,
+    "avg_ratio": 1.94
    }
   },
   "lead": {
@@ -153,6 +168,16 @@
     "mult": 1.22,
     "posts": 1,
     "avg_ratio": 1.88
+   },
+   "sweet-chilli-beef-noodles": {
+    "mult": 0.84,
+    "posts": 1,
+    "avg_ratio": 0.36
+   },
+   "sticky-korean-bbq-chicken-loaded-fries": {
+    "mult": 1.24,
+    "posts": 1,
+    "avg_ratio": 1.94
    }
   }
  },
@@ -161,6 +186,12 @@
    "hook": "5 Aldi Cheesy Dinners for When You're Broke & Exhausted 😭🧀",
    "subline": "Cozy, cheesy nights as it gets darker 😋",
    "views": 1536,
+   "store": "aldius"
+  },
+  {
+   "hook": "5 Aldi Rice Bowls That Taste Like a Takeout Date 🤤🍚",
+   "subline": "",
+   "views": 1471,
    "store": "aldius"
   },
   {
@@ -186,12 +217,6 @@
    "subline": "Weekend copycats you'll actually make 😳",
    "views": 890,
    "store": "traderjoes"
-  },
-  {
-   "hook": "No idea what to make? 5 Walmart chicken dinners 😩🍗",
-   "subline": "Dinner solved in one grocery run 🙌",
-   "views": 758,
-   "store": "walmart"
   }
  ]
 }

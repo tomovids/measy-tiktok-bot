@@ -1,6 +1,6 @@
 {
  "active": false,
- "scored_posts": 11,
+ "scored_posts": 13,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -21,9 +21,9 @@
     "avg_ratio": 1.33
    },
    "fakeaway": {
-    "mult": 0.98,
-    "posts": 1,
-    "avg_ratio": 0.93
+    "mult": 1.12,
+    "posts": 2,
+    "avg_ratio": 1.29
    },
    "quick": {
     "mult": 1.03,
@@ -54,6 +54,11 @@
     "mult": 1.05,
     "posts": 1,
     "avg_ratio": 1.2
+   },
+   "creamy": {
+    "mult": 0.87,
+    "posts": 1,
+    "avg_ratio": 0.48
    }
   },
   "angle": {
@@ -106,6 +111,16 @@
     "mult": 1.05,
     "posts": 1,
     "avg_ratio": 1.2
+   },
+   "save": {
+    "mult": 0.87,
+    "posts": 1,
+    "avg_ratio": 0.48
+   },
+   "cosy": {
+    "mult": 1.16,
+    "posts": 1,
+    "avg_ratio": 1.65
    }
   },
   "lead": {
@@ -158,10 +173,26 @@
     "mult": 1.05,
     "posts": 1,
     "avg_ratio": 1.2
+   },
+   "cheesy-buffalo-chicken-potato-skins": {
+    "mult": 0.87,
+    "posts": 1,
+    "avg_ratio": 0.48
+   },
+   "bbq-sausage-loaded-potatoes": {
+    "mult": 1.16,
+    "posts": 1,
+    "avg_ratio": 1.65
    }
   }
  },
  "top_hooks": [
+  {
+   "hook": "Too tired for a takeaway? 5 Aldi fakeaways 😩💸",
+   "subline": "All the flavour, no delivery faff 🙌",
+   "views": 3210,
+   "store": "aldi"
+  },
   {
    "hook": "Skint? 5 Sainsbury's rice bowls till payday 😭🍚",
    "subline": "Big flavour, tiny faff 😋",
@@ -191,12 +222,6 @@
    "subline": "One shop, five pasta nights 😋",
    "views": 2030,
    "store": "aldi"
-  },
-  {
-   "hook": "5 Sainsbury's spicy dinners that won't kill your bank 💸😋",
-   "subline": "Big flavour, tiny faff 🤤",
-   "views": 1948,
-   "store": "sainsburys"
   }
  ]
 }

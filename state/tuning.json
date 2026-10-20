@@ -1,14 +1,14 @@
 {
  "active": true,
- "scored_posts": 20,
+ "scored_posts": 22,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "sticky": {
-    "mult": 1.0,
-    "posts": 1,
-    "avg_ratio": 0.98
+    "mult": 1.11,
+    "posts": 2,
+    "avg_ratio": 1.26
    },
    "mexican": {
     "mult": 1.13,
@@ -84,6 +84,11 @@
     "mult": 0.9,
     "posts": 1,
     "avg_ratio": 0.61
+   },
+   "beef": {
+    "mult": 0.84,
+    "posts": 1,
+    "avg_ratio": 0.35
    }
   },
   "angle": {
@@ -98,14 +103,14 @@
     "avg_ratio": 1.54
    },
    "save": {
-    "mult": 1.84,
-    "posts": 3,
-    "avg_ratio": 2.68
+    "mult": 1.63,
+    "posts": 4,
+    "avg_ratio": 2.1
    },
    "friday": {
-    "mult": 0.84,
-    "posts": 1,
-    "avg_ratio": 0.38
+    "mult": 0.98,
+    "posts": 2,
+    "avg_ratio": 0.96
    },
    "tired": {
     "mult": 1.11,
@@ -160,9 +165,9 @@
     "avg_ratio": 1.59
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.05,
-    "posts": 2,
-    "avg_ratio": 1.14
+    "mult": 1.14,
+    "posts": 3,
+    "avg_ratio": 1.27
    },
    "crispy-bean-quesadillas": {
     "mult": 1.1,
@@ -223,6 +228,11 @@
     "mult": 0.9,
     "posts": 1,
     "avg_ratio": 0.61
+   },
+   "cheesy-beef-taco-pasta": {
+    "mult": 0.84,
+    "posts": 1,
+    "avg_ratio": 0.35
    }
   }
  },
@@ -258,9 +268,9 @@
    "store": "aldi"
   },
   {
-   "hook": "5 Aldi Mexican Dinners Better Than a Takeaway 🤤",
-   "subline": "Big flavour, less cost — plates cleared 💚",
-   "views": 7618,
+   "hook": "5 Aldi Sticky, Saucy Dinners for Friday Night In 🤤🍚",
+   "subline": "Fakeaway feels. No takeaway guilt 😋",
+   "views": 7651,
    "store": "aldi"
   }
  ]
