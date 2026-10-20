@@ -2016,6 +2016,95 @@
    "publish_id": "p_inbox_url~v2.7698688978614061078",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-20T10:05:31+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "hook": "5 Asda beef meals when your bank says NO 😩💸",
+   "subline": "Send to your mates who're skint 🙌",
+   "title": "5 Asda beef meals when your bank says NO 😩💸",
+   "caption": "Skint till payday and can't be bothered to order a takeaway? These 5 Asda beef dinners will save tea and your evening 😋💸\n\n1. Cheesy Beef Taco Pasta\n2. One-Pan Smoky Beef Orzo\n3. Crispy Beef Burrito Bowls\n4. Sticky BBQ Beef Rice Bowls\n5. Sticky Hoisin Beef Flatbreads\n\nWhich one are you trying first this week? 👀\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:cheesy-beef-taco-pasta-1",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:sticky-bbq-beef-rice-bowls-2",
+    "card:sticky-hoisin-beef-flatbreads-1"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "one-pan-smoky-beef-orzo",
+    "crispy-beef-burrito-bowls",
+    "sticky-bbq-beef-rice-bowls",
+    "sticky-hoisin-beef-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "One-Pan Smoky Beef Orzo",
+    "Crispy Beef Burrito Bowls",
+    "Sticky BBQ Beef Rice Bowls",
+    "Sticky Hoisin Beef Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    556,
+    752
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "asda",
+   "theme": {
+    "collection": "beef",
+    "angle": "payday",
+    "label": "beef mince and beef dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first this week? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "Skint till payday? 5 Asda beef dinners that save tea 😭💸",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda beef meals when your bank says NO 😩💸",
+     "subline": "Send to your mates who're skint 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Asda beef dinners better than a takeaway 🤤💸",
+     "subline": "Fakeaway flavours, less faff 😏",
+     "score": 6.0
+    },
+    {
+     "hook": "Too knackered to cook? 5 Asda beef lifesavers 😩🍝",
+     "subline": "Ready in a flash, minimal washing up 😋",
+     "score": 5.0
+    },
+    {
+     "hook": "End-of-month hero: 5 Asda beef dinners that stretch 💸🛒",
+     "subline": "Stretch your shop, feed the lot 😳",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-20T15:05:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698766794781116438",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-20T15:07:41+00:00"
   }
  ]
 }
