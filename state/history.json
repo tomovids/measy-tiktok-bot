@@ -3295,6 +3295,100 @@
    "publish_id": "p_inbox_url~v2.7698688859479459862",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-20T10:05:07+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "hook": "5 Lidl Saucy Dinners When Your Bank Balance Says NO 😭💸",
+   "subline": "Big flavour, tiny effort 👀",
+   "title": "5 Lidl Saucy Dinners When Your Bank Balance Says NO 😭💸",
+   "caption": "Tuesday slump? 5 Lidl sticky, saucy dinners to rescue midweek — proper comfort with zero fuss 😋\n\n1. Sticky Chicken Loaded Fries\n2. Sticky BBQ Chicken Rice Bowls\n3. Crispy Sweet Chilli Chicken Bowls\n4. Honey Soy Sausage Noodle Bowls\n5. Sticky Maple Sausage Traybake\n\nWhich one are you trying first? Vote 1–5 😋\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-maple-sausage-traybake-2"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "sticky-bbq-chicken-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-maple-sausage-traybake"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Maple Sausage Traybake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    564,
+    764
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "sticky",
+    "angle": "midweek",
+    "label": "sticky, saucy dinners",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you trying first? Vote 1–5 😋",
+   "tuned": true,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Sticky Dinners to Rescue Midweek 😩🍚",
+     "subline": "Too knackered? Send to your flatmate 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Saucy Dinners When Your Bank Balance Says NO 😭💸",
+     "subline": "Big flavour, tiny effort 👀",
+     "score": 9.5
+    },
+    {
+     "hook": "5 Lidl Sticky Meals That Beat a Takeaway 😏🤤",
+     "subline": "Better than delivery, less faff 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Lidl Sticky Wins 🙌😋",
+     "subline": "Midweek slump? Dinner drama sorted 😩",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Lidl Sticky, Saucy Dinners That Cheer You Up 😍🍗",
+     "subline": "A proper midweek pick-me-up 👀",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Lidl Saucy Dinners for When There's Nothing Left 😭💸",
+     "subline": "When your fridge is basically empty 😩",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-20T12:04:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698719711793727510",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-20T12:04:54+00:00"
   }
  ]
 }
