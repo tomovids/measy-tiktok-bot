@@ -3221,6 +3221,80 @@
    "publish_id": "p_inbox_url~v2.7698461339135707158",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T19:23:29+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "hook": "5 Aldi dinners ready in 20 mins — better than a takeaway 🤤💸",
+   "subline": "Fakeaway vibes, less faff 🤤",
+   "title": "5 Aldi dinners ready in 20 mins — better than a takeaway 🤤💸",
+   "caption": "Too knackered for dinner but hate a takeaway? Save these 5 Aldi dinners — all ready in 20 minutes or less — for your next shop 😩🛒\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Sticky Beef Noodles\n3. Creamy Cajun Chicken Flatbreads\n4. Sweet Chilli Beef Noodles\n5. Sticky Honey Garlic Sausage Bowls\n\nWhich one would you make first? 👇\n💾 Save this so you're not stuck for tea this week\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:sticky-beef-noodles-1",
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:sticky-honey-garlic-sausage-rice-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "sticky-beef-noodles",
+    "creamy-cajun-chicken-flatbreads",
+    "sweet-chilli-beef-noodles",
+    "sticky-honey-garlic-sausage-rice"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Sticky Beef Noodles",
+    "Creamy Cajun Chicken Flatbreads",
+    "Sweet Chilli Beef Noodles",
+    "Sticky Honey Garlic Sausage Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    332,
+    716
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "save",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": true,
+   "hook_score": 8.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi dinners ready in 20 minutes or less 😩🍝",
+     "subline": "Save these for your next Aldi shop 🛒",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi dinners ready in 20 mins — better than a takeaway 🤤💸",
+     "subline": "Fakeaway vibes, less faff 🤤",
+     "score": 8.8
+    }
+   ],
+   "built_at": "2026-10-20T10:01:24+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-20-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698688859479459862",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-20T10:05:07+00:00"
   }
  ]
 }

@@ -1984,6 +1984,90 @@
    "publish_id": "p_inbox_url~v2.7698461407037704214",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T19:23:41+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "hook": "5 Aldi Beef Dinners That Taste Like a Restaurant 😏🍝",
+   "subline": "No fancy ingredients, big flavor 😋",
+   "title": "5 Aldi Beef Dinners That Taste Like a Restaurant 😏🍝",
+   "caption": "Five Aldi beef dinners that taste WAY more expensive than they are — big flavor, zero drama. Save these for your next grocery run 😋💸\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sticky Korean Beef Rice Bowls\n3. Loaded Taco Baked Potato\n4. Honey Soy Beef Noodles\n5. Chili Beef Noodles\n\nWhich one are you making first? Tell me below 👇\n💾 Save it, screenshot it, send it to whoever does the cooking\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #groundbeefrecipes #beefrecipes",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:loaded-taco-jacket-potato-1",
+    "card:honey-soy-beef-noodles-1",
+    "card:chilli-beef-noodles-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sticky-korean-beef-rice-bowls",
+    "loaded-taco-jacket-potato",
+    "honey-soy-beef-noodles",
+    "chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sticky Korean Beef Rice Bowls",
+    "Loaded Taco Baked Potato",
+    "Honey Soy Beef Noodles",
+    "Chili Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    764,
+    1016
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "beef",
+    "angle": "taste-cheap",
+    "label": "beef mince and beef dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you making first? Tell me below 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners for When You're Broke Till Payday 😭💸",
+     "subline": "Comfort food that stretches your shop 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Beef Meals That Stretch One Grocery Run 💸🍝",
+     "subline": "Five dinners from simple staples 😋",
+     "score": 7.2
+    },
+    {
+     "hook": "Send this to your roommate: 5 Aldi beef wins 👀🍔",
+     "subline": "Perfect when you're too tired to think 😩",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners That Taste Like a Restaurant 😏🍝",
+     "subline": "No fancy ingredients, big flavor 😋",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-10-20T10:02:58+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-20-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698688938836215830",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-20T10:05:19+00:00"
   }
  ]
 }

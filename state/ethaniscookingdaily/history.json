@@ -1927,6 +1927,95 @@
    "publish_id": "p_inbox_url~v2.7698461476159424534",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-19T19:23:53+00:00"
+  },
+  {
+   "date": "2026-10-20",
+   "hook": "5 Aldi Mexican Dinners That Beat a Takeaway 🤤💸",
+   "subline": "Same vibes, way cheaper 😋",
+   "title": "5 Aldi Mexican Dinners That Beat a Takeaway 🤤💸",
+   "caption": "Midweek slump? Sort Tuesday tea with 5 Mexican-style dinners from Aldi — big flavour, zero faff. Save this for your next shop. 😋🌮\n\n1. Buffalo Chicken Quesadillas\n2. Crispy Bean Quesadillas\n3. Crispy Beef Taco Rice Bowls\n4. Cheesy Taco Quesadillas\n5. Cheesy Taco Rice Skillet\n\nWhich one are you making first this week? 👇\n💾 Save this for your next Aldi shop\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:buffalo-chicken-quesadillas-2",
+    "card:crispy-bean-quesadillas-2",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:cheesy-taco-quesadillas-2",
+    "card:cheesy-taco-rice-skillet-1"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "crispy-bean-quesadillas",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-taco-quesadillas",
+    "cheesy-taco-rice-skillet"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Crispy Bean Quesadillas",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Taco Rice Skillet"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    592,
+    884
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "midweek",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you making first this week? 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners for Midweek Slump 🌮😩",
+     "subline": "Tacos & quesadillas to save midweek 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "Send this to your flatmate: 5 Aldi Taco Nights 🌮🙌",
+     "subline": "Perfect when no one can decide 😏",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners That Beat a Takeaway 🤤💸",
+     "subline": "Same vibes, way cheaper 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Quesadillas & Tacos to Save Your Week 😳🌮",
+     "subline": "Cheese + crunch = midweek winner 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "Tuesday night sorted: 5 Aldi Mexican Meals 🌮😴",
+     "subline": "No faff, just flavour to lift the night 😋",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-20T10:04:23+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-20-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698688978614061078",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-20T10:05:31+00:00"
   }
  ]
 }
