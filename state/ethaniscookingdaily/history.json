@@ -2105,6 +2105,85 @@
    "publish_id": "p_inbox_url~v2.7698766794781116438",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-20T15:07:41+00:00"
+  },
+  {
+   "date": "2026-10-21",
+   "hook": "5 Aldi Rice Bowls That Outdo a Takeaway 🤤",
+   "subline": "Skip delivery, save cash 💸",
+   "title": "5 Aldi Rice Bowls That Outdo a Takeaway 🤤",
+   "caption": "💾 SAVE this for when you're too knackered to order a takeaway 😭🍚\n\n1. Sweet Chilli Chicken Rice Bowl\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Garlic Sausage Rice Bowls\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Sticky Beef Rice Bowls\n\nWhich one are you trying first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-rice-bowl-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:sticky-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "garlic-sausage-rice-bowls",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Garlic Sausage Rice Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    160,
+    584
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "rice",
+    "angle": "taste-cheap",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you trying first? Tell us below 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls That Fix Midweek Dinner Drama 😩🍚",
+     "subline": "No faff, all the flavour 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Rice Bowls That Outdo a Takeaway 🤤",
+     "subline": "Skip delivery, save cash 💸",
+     "score": 9.0
+    },
+    {
+     "hook": "5 LAZY Aldi Rice Bowls for Properly Knackered Nights 😴🍚",
+     "subline": "Sticky, saucy, barely any effort 😋",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-21T06:03:47+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-21-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698997961652553750",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-21T06:05:03+00:00"
   }
  ]
 }

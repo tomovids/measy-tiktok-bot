@@ -3483,6 +3483,90 @@
    "publish_id": "p_inbox_url~v2.7698766683485390870",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-20T15:07:13+00:00"
+  },
+  {
+   "date": "2026-10-21",
+   "hook": "5 Aldi creamy dinners to plan your weekly shop around 🛒😋",
+   "subline": "Build your Aldi list in one go 🛒",
+   "title": "5 Aldi creamy dinners to plan your weekly shop around 🛒😋",
+   "caption": "💾 SAVE this for midweek when you're knackered and need creamy dinners 😭🛒\n\n1. Cheesy Tomato Pasta\n2. Creamy Sun-Dried Tomato Chicken Orzo\n3. Garlic Butter Chicken & Rice\n4. Creamy Pesto Chicken Gnocchi\n5. Creamy Garlic Sausage Pasta\n\nWhich one would you make first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:garlic-butter-chicken-and-rice-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:creamy-garlic-sausage-pasta-2"
+   ],
+   "groups": [
+    "cheesy-tomato-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "garlic-butter-chicken-and-rice",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy Tomato Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    244,
+    716
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "creamy",
+    "angle": "weekly-shop",
+    "label": "creamy dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you make first? 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi creamy dinners that saved my bank 😭💸",
+     "subline": "Cheap and comforting 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners your flatmate needs 🙌😋",
+     "subline": "Send it to the group chat 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi creamy dinners that taste like restaurant food 😍🍝",
+     "subline": "Dinner that impresses with zero faff 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners to plan your weekly shop around 🛒😋",
+     "subline": "Build your Aldi list in one go 🛒",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-21T06:01:12+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7698997878741796886",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-21T06:04:38+00:00"
   }
  ]
 }
