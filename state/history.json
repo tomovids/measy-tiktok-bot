@@ -3656,6 +3656,100 @@
    "publish_id": "p_inbox_url~v2.7699085547402299414",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-21T11:45:11+00:00"
+  },
+  {
+   "date": "2026-10-21",
+   "hook": "5 Aldi Dinners That Beat a Takeaway on a Studio Budget 😏🍔",
+   "subline": "Treat night without the spend 👀",
+   "title": "5 Aldi Dinners That Beat a Takeaway on a Studio Budget 😏🍔",
+   "caption": "💾 SAVE this for when you're living alone, skint and too tired to think about tea 😭🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Honey Chilli Chicken Noodles\n3. One-Pan Tomato Chicken Orzo\n4. Creamy Tomato Potato Bake\n5. Garlic Butter Sausage Pasta\n\nWhich one would you make first in your student kitchen? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:one-pan-tomato-chicken-orzo-2",
+    "card:creamy-tomato-potato-bake-2",
+    "card:garlic-butter-sausage-pasta-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "honey-chilli-chicken-noodles",
+    "one-pan-tomato-chicken-orzo",
+    "creamy-tomato-potato-bake",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Honey Chilli Chicken Noodles",
+    "One-Pan Tomato Chicken Orzo",
+    "Creamy Tomato Potato Bake",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    192,
+    680
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "students",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one would you make first in your student kitchen? 😋",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners for Students Living Alone and Broke 😭💸",
+     "subline": "Tiny shop, big flavour 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make in a Tiny Student Flat 😩🍝",
+     "subline": "For one-pot wins and no faff 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway on a Studio Budget 😏🍔",
+     "subline": "Treat night without the spend 👀",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Dinners When You're Living Solo & Skint 😭🛒",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners To Stop the 'What's For Tea?' Panic 😩🙌",
+     "subline": "Send this to your flatmate 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Cheap Dinners That Make Cooking Less Boring 😋🍚",
+     "subline": "",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-21T17:09:27+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699169953043449878",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-21T17:12:56+00:00"
   }
  ]
 }
