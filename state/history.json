@@ -3567,6 +3567,95 @@
    "publish_id": "p_inbox_url~v2.7698997878741796886",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-21T06:04:38+00:00"
+  },
+  {
+   "date": "2026-10-21",
+   "hook": "5 Tesco Dinners To Make Tonight Instead of Ordering Takeaway 😏🍔",
+   "subline": "Proper comfort food, no delivery faff 😋",
+   "title": "5 Tesco Dinners To Make Tonight Instead of Ordering Takeaway 😏🍔",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to decide what's for tea tonight 😭⏰\n\n1. Cheesy Beef & Pepper Stuffed Flatbreads\n2. Garlic Butter Halloumi Couscous\n3. Creamy Garlic Chicken Pasta\n4. Sweet Chilli Halloumi Wraps\n5. Garlic Butter Flatbreads\n\nWhich one are you making tonight? Drop 1-5 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:garlic-butter-halloumi-couscous-2",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:garlic-butter-flatbreads-2"
+   ],
+   "groups": [
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-butter-halloumi-couscous",
+    "creamy-garlic-chicken-pasta",
+    "sweet-chilli-halloumi-wraps",
+    "garlic-butter-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Butter Halloumi Couscous",
+    "Creamy Garlic Chicken Pasta",
+    "Sweet Chilli Halloumi Wraps",
+    "Garlic Butter Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    624,
+    892
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "comfort",
+    "angle": "tonight",
+    "label": "cosy comfort food",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making tonight? Drop 1-5 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Dinners When You Have NO Idea What’s For Tea Tonight 😩🍝",
+     "subline": "Cosy, foolproof meals to pick tonight 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Dinners To Make Tonight Instead of Ordering Takeaway 😏🍔",
+     "subline": "Proper comfort food, no delivery faff 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Cosy Dinners To Make Wednesday Feel Like a Hug 😍🧀",
+     "subline": "Comfort food for when you're knackered 😴",
+     "score": 6.0
+    },
+    {
+     "hook": "5 LAZY Tesco Dinners For When You’re Properly Knackered 😭😴",
+     "subline": "Minimal effort, max comfort 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Dinners That Feel Like a Hug in a Bowl Tonight 🫶🍚",
+     "subline": "Cheesy, saucy, garlicky — pick one 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-21T11:44:18+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-21-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699085547402299414",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-21T11:45:11+00:00"
   }
  ]
 }
