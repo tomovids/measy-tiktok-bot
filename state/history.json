@@ -3834,6 +3834,90 @@
    "publish_id": "p_inbox_url~v2.7699433142558279702",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-22T10:13:31+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Sainsbury's Loaded Fakeaways From One Shop 🛒😳",
+   "subline": "Stretch your shop. Dinner solved 🙌",
+   "title": "5 Sainsbury's Loaded Fakeaways From One Shop 🛒😳",
+   "caption": "💾 SAVE this for the next time you're about to order a takeaway 😩🍔\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sticky Korean Beef Rice Bowls\n3. Garlic-Butter Chicken Flatbreads\n4. Crispy Beef Burrito Bowls\n5. Buffalo Chicken Quesadillas\n\nWhich fakeaway are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:sticky-korean-beef-rice-bowls-2",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:buffalo-chicken-quesadillas-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sticky-korean-beef-rice-bowls",
+    "garlic-butter-chicken-flatbreads",
+    "crispy-beef-burrito-bowls",
+    "buffalo-chicken-quesadillas"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sticky Korean Beef Rice Bowls",
+    "Garlic-Butter Chicken Flatbreads",
+    "Crispy Beef Burrito Bowls",
+    "Buffalo Chicken Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    340,
+    656
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "save",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which fakeaway are you making first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Fakeaways for When You're About to Order 😩🍔",
+     "subline": "Skip the takeaway, proper fakeaway night 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's Stickiest, Sauciest Fakeaways 🤤🔥",
+     "subline": "Perfect weekend dinners (send to mates) 🙌",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's Fakeaways I'd Make on Repeat 😍🍗",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's Loaded Fakeaways From One Shop 🛒😳",
+     "subline": "Stretch your shop. Dinner solved 🙌",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-22T12:19:49+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699465857143113750",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T12:20:49+00:00"
   }
  ]
 }
