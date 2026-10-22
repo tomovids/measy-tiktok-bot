@@ -3918,6 +3918,90 @@
    "publish_id": "p_inbox_url~v2.7699465857143113750",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-22T12:20:49+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Aldi Wraps For When You're Properly Skint 😭😩",
+   "subline": "Cheap dinners that actually hit 👀",
+   "title": "5 Aldi Wraps For When You're Properly Skint 😭😩",
+   "caption": "💾 SAVE this for when you're counting pennies till payday 😭💸\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Garlic Butter Flatbreads\n4. Cheesy Taco Quesadillas\n5. Cheesy Pepperoni Pizza Wraps\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:garlic-butter-flatbreads-1",
+    "card:cheesy-taco-quesadillas-2",
+    "card:cheesy-pepperoni-pizza-wraps-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-butter-flatbreads",
+    "cheesy-taco-quesadillas",
+    "cheesy-pepperoni-pizza-wraps"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Butter Flatbreads",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Pepperoni Pizza Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    244,
+    564
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "handheld",
+    "angle": "payday",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Wraps That Save You Cash & Time 💸😏",
+     "subline": "Cheap, cheesy and ready quick 🧀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Wraps To Send Your Flatmate 😂👀",
+     "subline": "Stop the 'what's for tea?' drama 👇",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Wraps For When You're Properly Skint 😭😩",
+     "subline": "Cheap dinners that actually hit 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Wraps To Rescue Your Bank Before Payday 😭💸",
+     "subline": "Save these for the weekend tea plan 👀",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-22T15:15:27+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699511767554131970",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T15:18:52+00:00"
   }
  ]
 }

@@ -2362,6 +2362,95 @@
    "publish_id": "p_inbox_url~v2.7699433201311254550",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-22T10:13:57+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Tesco Saucy Dinners Better Than a Takeaway 🤤🍚",
+   "subline": "Fakeaway vibes, no delivery faff 🙌",
+   "title": "5 Tesco Saucy Dinners Better Than a Takeaway 🤤🍚",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Sweet Chilli Chicken Noodles\n2. Sticky Beef Noodles\n3. Sticky BBQ Chicken Rice Bowls\n4. Crispy Sweet Chilli Chicken Bowls\n5. Sweet Chilli Chicken Rice Bowl\n\nWho are you sending this to first — partner, flatmate or the group chat? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-noodles-1",
+    "card:sticky-beef-noodles-2",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:sweet-chilli-chicken-rice-bowl-2"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-noodles",
+    "sticky-beef-noodles",
+    "sticky-bbq-chicken-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sweet-chilli-chicken-rice-bowl"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Noodles",
+    "Sticky Beef Noodles",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Sweet Chilli Chicken Rice Bowl"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    288,
+    500
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "tesco",
+   "theme": {
+    "collection": "sticky",
+    "angle": "send",
+    "label": "sticky, saucy dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Who are you sending this to first — partner, flatmate or the group chat? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Sticky Dinners to Send Your Housemate 🤤🍜",
+     "subline": "Fixes the 'what's for tea' moan 👀",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Tesco Saucy Dinners Better Than a Takeaway 🤤🍚",
+     "subline": "Fakeaway vibes, no delivery faff 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Tesco Saucy Dinners That Stretch Your Evening 😏💸",
+     "subline": "Big flavours, small effort 🍚",
+     "score": 5.7
+    },
+    {
+     "hook": "5 Tesco Sticky Dinners to Send Your Other Half 😭🍗",
+     "subline": "They never know what's for tea 👀",
+     "score": 7.2
+    },
+    {
+     "hook": "5 Tesco Sticky Dinners for a Proper Weekend In 🤤🍝",
+     "subline": "Cosy, saucy, zero faff 🫶",
+     "score": 6.3
+    }
+   ],
+   "built_at": "2026-10-22T15:17:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699511888900147222",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T15:19:17+00:00"
   }
  ]
 }
