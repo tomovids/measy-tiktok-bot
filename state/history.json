@@ -3750,6 +3750,90 @@
    "publish_id": "p_inbox_url~v2.7699169953043449878",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-21T17:12:56+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Aldi Dinners I'd Make on Repeat When Broke & Tired 😭💸",
+   "subline": "Comfort + bang-for-buck 👀",
+   "title": "5 Aldi Dinners I'd Make on Repeat When Broke & Tired 😭💸",
+   "caption": "💾 SAVE this for the next time you have ZERO idea what's for tea 😭🍜\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Sticky BBQ Beef Rice Bowls\n3. Sticky Hoisin Beef Flatbreads\n4. Crispy Beef Taco Rice Bowls\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich one are you trying first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "sticky-bbq-beef-rice-bowls",
+    "sticky-hoisin-beef-flatbreads",
+    "crispy-beef-taco-rice-bowls",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Sticky BBQ Beef Rice Bowls",
+    "Sticky Hoisin Beef Flatbreads",
+    "Crispy Beef Taco Rice Bowls",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    356,
+    736
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "anything",
+    "angle": "no-idea",
+    "label": "a mix of the best dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you trying first? Tell us below 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway and Feel Proper 😏🍔",
+     "subline": "Cheaper and cosier 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Fix the 'I Can't Be Bothered' Mood 😭🙌",
+     "subline": "Low effort, big payoff 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners to Rescue Your Weeknight Tonight 😳🍚",
+     "subline": "Send to the group chat 👇",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners I'd Make on Repeat When Broke & Tired 😭💸",
+     "subline": "Comfort + bang-for-buck 👀",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-22T10:09:18+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-22-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699433142558279702",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T10:13:31+00:00"
   }
  ]
 }

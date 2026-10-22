@@ -2273,6 +2273,95 @@
    "publish_id": "p_inbox_url~v2.7699170088331610114",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-21T17:13:19+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Aldi Dinners with a Kick for When You're Properly Knackered 😩🔥",
+   "subline": "No faff spicy dinners to lift your night 😋",
+   "title": "5 Aldi Dinners with a Kick for When You're Properly Knackered 😩🔥",
+   "caption": "💾 SAVE this for after a long day when you just can't be bothered to cook 😭🔥\n\n1. Loaded Taco Jacket Potato\n2. Creamy Cajun Chicken Flatbreads\n3. Sweet Chilli Beef Noodles\n4. Cheesy Cajun Chicken Wraps\n5. Creamy Harissa Chicken Couscous\n\nWhich one would you make first when you're knackered? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:creamy-cajun-chicken-flatbreads-2",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:creamy-harissa-chicken-couscous-1"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "creamy-cajun-chicken-flatbreads",
+    "sweet-chilli-beef-noodles",
+    "cheesy-cajun-chicken-wraps",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Creamy Cajun Chicken Flatbreads",
+    "Sweet Chilli Beef Noodles",
+    "Cheesy Cajun Chicken Wraps",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    288,
+    736
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "spicy",
+    "angle": "tired",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you make first when you're knackered? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners with a Kick for When You're Properly Knackered 😩🔥",
+     "subline": "No faff spicy dinners to lift your night 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners That Save You From Takeaway Cost 😏💸",
+     "subline": "Big flavour, tiny effort for pennies 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway When You're Too Wiped 😋🍔",
+     "subline": "Fakeaway flavours, zero delivery faff 🤤",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Aldi Dinners That Still Pack a Spicy Punch 😴🔥",
+     "subline": "Minimal effort, maximum kick after work 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Hot Dinners for When You Can't Be Bothered 😩🔥",
+     "subline": "Spice, speed and barely any faff 🙌",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-22T10:12:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-22-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699433201311254550",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T10:13:57+00:00"
   }
  ]
 }

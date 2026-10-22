@@ -2330,6 +2330,95 @@
    "publish_id": "p_inbox_url~v2.7699170147814082562",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-21T17:13:08+00:00"
+  },
+  {
+   "date": "2026-10-22",
+   "hook": "5 Trader Joe's Sausage Dinners When Your Wallet Says NO 😭💸",
+   "subline": "Cozy dinners that don't hurt your budget 😋",
+   "title": "5 Trader Joe's Sausage Dinners When Your Wallet Says NO 😭💸",
+   "caption": "💾 SAVE this for the next chilly night you almost order takeout 😭🍚\n\n1. Honey Soy Sausage Noodle Bowls\n2. Sticky Honey Garlic Sausage Bowls\n3. Sticky Maple Sausage Sheet Pan\n4. Garlic Butter Sausage & Veggie Skillet\n5. Sticky Teriyaki Sausage Rice Bowls\n\nWhich one are you trying first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-honey-garlic-sausage-rice-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1"
+   ],
+   "groups": [
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-maple-sausage-traybake",
+    "garlic-butter-sausage-veggie-skillet",
+    "sticky-teriyaki-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky Maple Sausage Sheet Pan",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Sticky Teriyaki Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    952,
+    1028
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "sausage",
+    "angle": "cosy",
+    "label": "sausage dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you trying first? 👀",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Sausage Dinners When Your Wallet Says NO 😭💸",
+     "subline": "Cozy dinners that don't hurt your budget 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Sausage Dinners for Cozy Cold Nights 😍🍝",
+     "subline": "Perfect for chilly weeknights 🫶",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Sausage Dinners to Send Your Roommate 😂👀",
+     "subline": "Send to the roommate who never decides 😂",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's LAZY Sausage Dinners for When You're Wiped 😩🍝",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Trader Joe's Sausage Dinners From One Grocery Run 👀🛒",
+     "subline": "5 meals. 1 easy grocery run 👀",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-22T10:10:46+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-22-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699433172743751702",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-22T10:13:44+00:00"
   }
  ]
 }
