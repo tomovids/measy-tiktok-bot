@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 24,
+ "scored_posts": 26,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -56,9 +56,9 @@
     "avg_ratio": 1.23
    },
    "spicy": {
-    "mult": 0.84,
-    "posts": 1,
-    "avg_ratio": 0.36
+    "mult": 0.95,
+    "posts": 2,
+    "avg_ratio": 0.88
    },
    "anything": {
     "mult": 1.18,
@@ -94,6 +94,11 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.03
+   },
+   "cheesy": {
+    "mult": 0.86,
+    "posts": 1,
+    "avg_ratio": 0.44
    }
   },
   "angle": {
@@ -118,14 +123,14 @@
     "avg_ratio": 0.91
    },
    "tired": {
-    "mult": 1.08,
-    "posts": 3,
-    "avg_ratio": 1.15
+    "mult": 0.99,
+    "posts": 4,
+    "avg_ratio": 0.98
    },
    "payday": {
-    "mult": 1.23,
-    "posts": 1,
-    "avg_ratio": 1.93
+    "mult": 1.27,
+    "posts": 2,
+    "avg_ratio": 1.67
    },
    "sunday-reset": {
     "mult": 0.9,
@@ -165,9 +170,9 @@
   },
   "lead": {
    "loaded-bbq-beef-nachos": {
-    "mult": 1.13,
-    "posts": 1,
-    "avg_ratio": 1.51
+    "mult": 0.99,
+    "posts": 2,
+    "avg_ratio": 0.97
    },
    "sticky-garlic-beef-loaded-fries": {
     "mult": 1.1,
@@ -248,6 +253,11 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.03
+   },
+   "loaded-taco-jacket-potato": {
+    "mult": 1.1,
+    "posts": 1,
+    "avg_ratio": 1.4
    }
   }
  },

@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 14,
+ "scored_posts": 15,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -28,7 +28,7 @@
    "cheesy": {
     "mult": 1.11,
     "posts": 2,
-    "avg_ratio": 1.27
+    "avg_ratio": 1.26
    },
    "italian": {
     "mult": 0.98,
@@ -64,6 +64,11 @@
     "mult": 1.25,
     "posts": 1,
     "avg_ratio": 2.02
+   },
+   "pasta": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
    }
   },
   "angle": {
@@ -93,9 +98,9 @@
     "avg_ratio": 1.4
    },
    "save": {
-    "mult": 0.98,
-    "posts": 1,
-    "avg_ratio": 0.93
+    "mult": 0.99,
+    "posts": 2,
+    "avg_ratio": 0.97
    },
    "tired": {
     "mult": 0.98,
@@ -142,7 +147,7 @@
    "sticky-garlic-beef-loaded-fries": {
     "mult": 1.28,
     "posts": 1,
-    "avg_ratio": 2.11
+    "avg_ratio": 2.1
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.98,
@@ -178,6 +183,11 @@
     "mult": 1.25,
     "posts": 1,
     "avg_ratio": 2.02
+   },
+   "creamy-tomato-chicken-pasta": {
+    "mult": 1.0,
+    "posts": 1,
+    "avg_ratio": 1.0
    }
   }
  },
