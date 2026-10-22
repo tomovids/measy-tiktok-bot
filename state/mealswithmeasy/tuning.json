@@ -63,7 +63,7 @@
    "rice": {
     "mult": 1.25,
     "posts": 1,
-    "avg_ratio": 2.02
+    "avg_ratio": 2.01
    },
    "pasta": {
     "mult": 1.0,
@@ -100,7 +100,7 @@
    "save": {
     "mult": 0.99,
     "posts": 2,
-    "avg_ratio": 0.97
+    "avg_ratio": 0.96
    },
    "tired": {
     "mult": 0.98,
@@ -120,7 +120,7 @@
    "date-night": {
     "mult": 1.25,
     "posts": 1,
-    "avg_ratio": 2.02
+    "avg_ratio": 2.01
    }
   },
   "lead": {
@@ -182,7 +182,7 @@
    "sticky-korean-bbq-chicken-loaded-fries": {
     "mult": 1.25,
     "posts": 1,
-    "avg_ratio": 2.02
+    "avg_ratio": 2.01
    },
    "creamy-tomato-chicken-pasta": {
     "mult": 1.0,
