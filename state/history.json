@@ -4002,6 +4002,85 @@
    "publish_id": "p_inbox_url~v2.7699511767554131970",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-22T15:18:52+00:00"
+  },
+  {
+   "date": "2026-10-23",
+   "hook": "5 Aldi Dinners If You're Skint — All Under £1.93 a Portion 😭💸",
+   "subline": "Cosy dinners for dark, knackered nights 💚",
+   "title": "5 Aldi Dinners If You're Skint — All Under £1.93 a Portion 😭💸",
+   "caption": "💾 SAVE this for the weekend when it's dark, you're knackered and payday's ages away 😭💸\n\n1. BBQ Sausage Loaded Potatoes\n2. Crispy Sweet Chilli Halloumi Burgers\n3. Honey Soy Beef Noodles\n4. Sticky Beef Rice Bowls\n5. Sticky Korean BBQ Chicken Loaded Fries\n\nWhich one are you making first this weekend? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:honey-soy-beef-noodles-1",
+    "card:sticky-beef-rice-bowls-1",
+    "card:sticky-korean-bbq-chicken-loaded-fries-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "honey-soy-beef-noodles",
+    "sticky-beef-rice-bowls",
+    "sticky-korean-bbq-chicken-loaded-fries"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Honey Soy Beef Noodles",
+    "Sticky Beef Rice Bowls",
+    "Sticky Korean BBQ Chicken Loaded Fries"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    372,
+    668
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "cosy",
+    "label": "dinners under £2 a portion",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first this weekend? 👀",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners If You're Skint — All Under £1.93 a Portion 😭💸",
+     "subline": "Cosy dinners for dark, knackered nights 💚",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners — All Under £1.93 a Portion for Cosy Nights 😋🍚",
+     "subline": "Save these for a cosy weekend in 💸",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Aldi dinners — All Under £1.93 a Portion 😴😋",
+     "subline": "Minimal effort, maximum cosy vibes 💚",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-23T07:28:05+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-23-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699762429429319702",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-23T07:31:18+00:00"
   }
  ]
 }

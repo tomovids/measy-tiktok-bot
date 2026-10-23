@@ -2451,6 +2451,85 @@
    "publish_id": "p_inbox_url~v2.7699511888900147222",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-22T15:19:17+00:00"
+  },
+  {
+   "date": "2026-10-23",
+   "hook": "5 Aldi creamy dinners to send your other half 😂",
+   "subline": "They'll actually stop moaning about tea 🙌",
+   "title": "5 Aldi creamy dinners to send your other half 😂",
+   "caption": "💾 SAVE this for when the whole family's moaning about tea this weekend 😭🛒\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Creamy Sun-Dried Tomato Chicken Orzo\n3. Creamy Garlic Chicken Orzo\n4. Garlic Butter Sausage Pasta\n5. Cheesy Tomato Pasta\n\nWhich one are you making first? Rate them out of 10 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:creamy-garlic-chicken-orzo-2",
+    "card:garlic-butter-sausage-pasta-2",
+    "card:cheesy-tomato-pasta-1"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-garlic-chicken-orzo",
+    "garlic-butter-sausage-pasta",
+    "cheesy-tomato-pasta"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Garlic Chicken Orzo",
+    "Garlic Butter Sausage Pasta",
+    "Cheesy Tomato Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    172,
+    632
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "creamy",
+    "angle": "family",
+    "label": "creamy dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you making first? Rate them out of 10 😋",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi creamy dinners to send your other half 😂",
+     "subline": "They'll actually stop moaning about tea 🙌",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners that feel like a hug 🫶",
+     "subline": "Comfort food without the fuss 🧀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners for the weekend crowd 😍",
+     "subline": "Friday night sorted, no delivery faff 🍝",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-23T07:30:27+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699762479911602198",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-23T07:31:44+00:00"
   }
  ]
 }
