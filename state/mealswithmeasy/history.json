@@ -2587,6 +2587,80 @@
    "publish_id": "p_inbox_url~v2.7699762439822542870",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-23T07:31:31+00:00"
+  },
+  {
+   "date": "2026-10-23",
+   "hook": "5 Trader Joe's Saucy Dinners To Send Your Roommate 😂",
+   "subline": "End the \"what's for dinner\" debate 👀",
+   "title": "5 Trader Joe's Saucy Dinners To Send Your Roommate 😂",
+   "caption": "💾 SAVE this for when you're about to order takeout tonight 😩🍜\n\n1. Honey Chili Chicken Noodles\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Crispy Sweet Chili Chicken Bowls\n4. Honey Soy Sausage Noodle Bowls\n5. Sticky Maple Sausage Sheet Pan\n\nWhich one are you trying first tonight? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #stickychicken #copycatrecipes",
+   "files": [
+    "card:honey-chilli-chicken-noodles-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:sticky-maple-sausage-traybake-2"
+   ],
+   "groups": [
+    "honey-chilli-chicken-noodles",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-maple-sausage-traybake"
+   ],
+   "dishes": [
+    "Honey Chili Chicken Noodles",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Crispy Sweet Chili Chicken Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Maple Sausage Sheet Pan"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    992,
+    1052
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "sticky",
+    "angle": "tonight",
+    "label": "sticky, saucy dinners",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you trying first tonight? 👀",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Sticky Dinners to Make Tonight 🤤",
+     "subline": "Syrupy, saucy, and DONE tonight 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Saucy Dinners To Send Your Roommate 😂",
+     "subline": "End the \"what's for dinner\" debate 👀",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-23T18:20:00+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-23-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699930294203697174",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-23T18:23:21+00:00"
   }
  ]
 }

@@ -2530,6 +2530,95 @@
    "publish_id": "p_inbox_url~v2.7699762479911602198",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-23T07:31:44+00:00"
+  },
+  {
+   "date": "2026-10-23",
+   "hook": "5 Lidl cosy dinners to stretch your shop 💸🛒",
+   "subline": "More meal, less faff 😋",
+   "title": "5 Lidl cosy dinners to stretch your shop 💸🛒",
+   "caption": "💾 SAVE this for your next Lidl shop — cosy dinners for a Friday night or the weekend 😍🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Creamy Garlic Chicken Pasta\n3. Creamy Tomato Potato Bake\n4. Sweet Chilli Halloumi Wraps\n5. Hot Honey Chicken Flatbread Pizzas\n\nWhich one are you making first this weekend? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:creamy-tomato-potato-bake-1",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:hot-honey-chicken-flatbread-pizzas-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "creamy-garlic-chicken-pasta",
+    "creamy-tomato-potato-bake",
+    "sweet-chilli-halloumi-wraps",
+    "hot-honey-chicken-flatbread-pizzas"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Tomato Potato Bake",
+    "Sweet Chilli Halloumi Wraps",
+    "Hot Honey Chicken Flatbread Pizzas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    320,
+    636
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "comfort",
+    "angle": "save",
+    "label": "cosy comfort food",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making first this weekend? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl cosy dinners for when you're TOO knackered to cook 😩🍝",
+     "subline": "Cuddly, cheap comfort in 5 recipes 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl cosy dinners to stretch your shop 💸🛒",
+     "subline": "More meal, less faff 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Lidl cosy dinners to send your flatmate 🙌😏",
+     "subline": "Stop the 'what's for tea' moan 😏",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Lidl cosy dinners for a Friday night in 😍🫶",
+     "subline": "Weekend comfort without the faff 😋",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Lidl cosy dinners to plan your next shop 🛒😴",
+     "subline": "",
+     "score": 5.0
+    }
+   ],
+   "built_at": "2026-10-23T18:21:03+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-23-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7699930411903862787",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-23T18:23:33+00:00"
   }
  ]
 }
