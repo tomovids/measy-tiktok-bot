@@ -4338,6 +4338,90 @@
    "publish_id": "p_inbox_url~v2.7700107570261936150",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-24T05:53:25+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Lidl Sticky, Saucy Dinners — Send to Your Housemate 😂🍚",
+   "subline": "The group chat needs this 🙌",
+   "title": "5 Lidl Sticky, Saucy Dinners — Send to Your Housemate 😂🍚",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Sweet Chilli Chicken Noodles\n2. Sticky Honey Garlic Sausage Bowls\n3. Sweet Chilli Chicken Rice Bowl\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Sticky Beef Noodles\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-noodles-2",
+    "card:sticky-honey-garlic-sausage-rice-2",
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:sticky-beef-noodles-2"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-noodles",
+    "sticky-honey-garlic-sausage-rice",
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-beef-noodles"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Noodles",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    576,
+    828
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "sticky",
+    "angle": "send",
+    "label": "sticky, saucy dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Sticky Dinners for When Your Bank Says NO 😭💸",
+     "subline": "Fakeaway flavours, tiny effort 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl Sticky, Saucy Dinners — Send to Your Housemate 😂🍚",
+     "subline": "The group chat needs this 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Lidl Saucy Dinners That'll Fix Dinner Drama NOW 😳🍗",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Sticky, Saucy Dinners to Save Your Saturday Night 😍🍜",
+     "subline": "Saturday night fakeaway, no queue 👀",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-24T11:32:51+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700195891781847062",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T11:33:44+00:00"
   }
  ]
 }
