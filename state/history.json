@@ -4254,6 +4254,90 @@
    "publish_id": "p_inbox_url~v2.7699930167413737494",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-23T18:23:08+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Aldi Cheesy Dinners When Payday's Ages Away 😭🧀",
+   "subline": "Stretchy comfort for a skint week 🛒",
+   "title": "5 Aldi Cheesy Dinners When Payday's Ages Away 😭🧀",
+   "caption": "💾 SAVE this for your next Aldi shop — cheesy dinners when you're knackered 😭🛒\n\n1. Cheesy Cajun Chicken Wraps\n2. One-Pan Smoky Beef Orzo\n3. Cheesy Beef Taco Pasta\n4. Garlic Sausage Rice Bowls\n5. Cheesy Beef & Bean Loaded Potatoes\n\nWhich one would you make first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:one-pan-smoky-beef-orzo-2",
+    "card:cheesy-beef-taco-pasta-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:cheesy-beef-bean-loaded-potatoes-1"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "one-pan-smoky-beef-orzo",
+    "cheesy-beef-taco-pasta",
+    "garlic-sausage-rice-bowls",
+    "cheesy-beef-bean-loaded-potatoes"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "One-Pan Smoky Beef Orzo",
+    "Cheesy Beef Taco Pasta",
+    "Garlic Sausage Rice Bowls",
+    "Cheesy Beef & Bean Loaded Potatoes"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    224,
+    496
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "save",
+    "label": "cheesy dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners When Payday's Ages Away 😭🧀",
+     "subline": "Stretchy comfort for a skint week 🛒",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners to Send to Your Flatmate 😂🧀",
+     "subline": "Make the group chat decide 👇",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners You Can Make This Weekend 😍🧀",
+     "subline": "Saturday night, no takeaway needed 🛒",
+     "score": 7.1
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners That Fix 'What's for tea?' 😏🧀",
+     "subline": "Dinner solved. No thinking required 👀",
+     "score": 8.2
+    }
+   ],
+   "built_at": "2026-10-24T05:49:38+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700107570261936150",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T05:53:25+00:00"
   }
  ]
 }

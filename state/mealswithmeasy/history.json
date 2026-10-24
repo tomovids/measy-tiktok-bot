@@ -2661,6 +2661,85 @@
    "publish_id": "p_inbox_url~v2.7699930294203697174",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-23T18:23:21+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Walmart Cozy Dinners That Feel Like Takeout 😋🤤",
+   "subline": "Save for your next grocery run 🛒",
+   "title": "5 Walmart Cozy Dinners That Feel Like Takeout 😋🤤",
+   "caption": "💾 SAVE this for your next Walmart grocery run — cozy dinners for the week before payday 😭🛒\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Cheesy Taco Quesadillas\n4. Crispy Beef Taco Rice Bowls\n5. Garlic Butter Halloumi Couscous\n\nWhich one are you trying first? Pick a number 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #comfortfood #cozydinner",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:cheesy-taco-quesadillas-1",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:garlic-butter-halloumi-couscous-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "cheesy-taco-quesadillas",
+    "crispy-beef-taco-rice-bowls",
+    "garlic-butter-halloumi-couscous"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Cheesy Taco Quesadillas",
+    "Crispy Beef Taco Rice Bowls",
+    "Garlic Butter Halloumi Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1104,
+    1324
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "comfort",
+    "angle": "save",
+    "label": "cosy comfort food",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you trying first? Pick a number 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Cozy Dinners for the Week Before Payday 😭💸",
+     "subline": "Big comfort, tiny fuss 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart Cozy Dinners That Feel Like Takeout 😋🤤",
+     "subline": "Save for your next grocery run 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Walmart Cozy Dinners When You're Too Exhausted to Order In 😩🍗",
+     "subline": "When you're wiped out but still hungry 😩",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-24T05:51:14+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700107655926695939",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T05:53:38+00:00"
   }
  ]
 }

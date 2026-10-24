@@ -2619,6 +2619,90 @@
    "publish_id": "p_inbox_url~v2.7699930411903862787",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-23T18:23:33+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Aldi LAZY Chicken Dinners for When You're Done 😴🍗",
+   "subline": "Zero faff, max comfort 😋",
+   "title": "5 Aldi LAZY Chicken Dinners for When You're Done 😴🍗",
+   "caption": "💾 SAVE this for when you're too knackered to cook tonight 😭😴\n\n1. Cheesy BBQ Loaded Fries\n2. Creamy Garlic Chicken Rice\n3. Cheesy Buffalo Chicken Potato Skins\n4. Creamy Tomato Chicken Pasta\n5. Garlic-Butter Chicken Flatbreads\n\nWhich one would you make first? 🍗\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:creamy-garlic-chicken-rice-2",
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:creamy-tomato-chicken-pasta-2",
+    "card:garlic-butter-chicken-flatbreads-2"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-garlic-chicken-rice",
+    "cheesy-buffalo-chicken-potato-skins",
+    "creamy-tomato-chicken-pasta",
+    "garlic-butter-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Garlic Chicken Rice",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Creamy Tomato Chicken Pasta",
+    "Garlic-Butter Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    180,
+    664
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "chicken",
+    "angle": "tired",
+    "label": "chicken dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you make first? 🍗",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Chicken Dinners That Stretch a Weekend Shop 💸🍗",
+     "subline": "Cheap comfort for a knackered night 😭",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners To Send Your Flatmate 😂🍗",
+     "subline": "When neither of you can be bothered 😭",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners That Fix a Rough Day 🤤🍗",
+     "subline": "One-pan wins for when you're wiped 😴",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi LAZY Chicken Dinners for When You're Done 😴🍗",
+     "subline": "Zero faff, max comfort 😋",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-24T05:52:32+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700107839079532566",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T05:53:51+00:00"
   }
  ]
 }
