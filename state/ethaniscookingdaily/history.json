@@ -2703,6 +2703,100 @@
    "publish_id": "p_inbox_url~v2.7700107839079532566",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-24T05:53:51+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Asda Meat-Free Dinners Better Than a Takeaway 🤤🍝",
+   "subline": "Skip delivery, save the faff 😏",
+   "title": "5 Asda Meat-Free Dinners Better Than a Takeaway 🤤🍝",
+   "caption": "💾 SAVE this for when you have NO idea what's for tea this week 😭🛒\n\n1. Crispy Bean Quesadillas\n2. Creamy Tomato Potato Bake\n3. Sweet Chilli Halloumi Wraps\n4. Cheesy Tomato Pasta\n5. Creamy Tomato Pasta\n\nWhich one are you cooking first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:crispy-bean-quesadillas-2",
+    "card:creamy-tomato-potato-bake-2",
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-tomato-pasta-1"
+   ],
+   "groups": [
+    "crispy-bean-quesadillas",
+    "creamy-tomato-potato-bake",
+    "sweet-chilli-halloumi-wraps",
+    "cheesy-tomato-pasta",
+    "creamy-tomato-pasta"
+   ],
+   "dishes": [
+    "Crispy Bean Quesadillas",
+    "Creamy Tomato Potato Bake",
+    "Sweet Chilli Halloumi Wraps",
+    "Cheesy Tomato Pasta",
+    "Creamy Tomato Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    416,
+    692
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "asda",
+   "theme": {
+    "collection": "veggie",
+    "angle": "no-idea",
+    "label": "meat-free dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you cooking first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Dinners for When You Have NO Idea What to Cook 😩🍝",
+     "subline": "Ready in 20 minutes or less 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Meat-Free Meals That Stretch Your Shop 💸😋",
+     "subline": "",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Asda Dinners to Send Your Flatmate When You Can't Decide 😂🛒",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Meat-Free Dinners Better Than a Takeaway 🤤🍝",
+     "subline": "Skip delivery, save the faff 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 LAZY Asda dinners ready in 20 minutes or less 😴⏰",
+     "subline": "Perfect for when you're knackered 😭",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Dinners for This Weekend When You Can't Be Bothered 😩🫶",
+     "subline": "Send to your weekend group chat 🙌",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-24T18:03:48+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-24-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700296851597543446",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T18:05:01+00:00"
   }
  ]
 }

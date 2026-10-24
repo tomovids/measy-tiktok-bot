@@ -2740,6 +2740,95 @@
    "publish_id": "p_inbox_url~v2.7700107655926695939",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-24T05:53:38+00:00"
+  },
+  {
+   "date": "2026-10-24",
+   "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
+   "subline": "Takeout taste without the price 😋",
+   "title": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
+   "caption": "💾 SAVE this for when payday's still miles away and you're too wiped out to cook 😭🛒\n\n1. Sweet Chili Beef Noodles\n2. Sticky Hoisin Beef Flatbreads\n3. Garlic Butter Flatbreads\n4. Chili Beef Noodles\n5. Crispy Beef Burrito Bowls\n\nWhich one would you try first? Tell us below 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #copycatrecipes #takeoutathome",
+   "files": [
+    "card:sweet-chilli-beef-noodles-1",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:garlic-butter-flatbreads-2",
+    "card:chilli-beef-noodles-1",
+    "card:crispy-beef-burrito-bowls-2"
+   ],
+   "groups": [
+    "sweet-chilli-beef-noodles",
+    "sticky-hoisin-beef-flatbreads",
+    "garlic-butter-flatbreads",
+    "chilli-beef-noodles",
+    "crispy-beef-burrito-bowls"
+   ],
+   "dishes": [
+    "Sweet Chili Beef Noodles",
+    "Sticky Hoisin Beef Flatbreads",
+    "Garlic Butter Flatbreads",
+    "Chili Beef Noodles",
+    "Crispy Beef Burrito Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1280,
+    1436
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "students",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one would you try first? Tell us below 😂",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Takeout Copycats for When You're Broke & Exhausted 😭💸",
+     "subline": "Student & first-flat dinners that hit 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
+     "subline": "Takeout taste without the price 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Sat Night Takeout Copycats for One Person 😋🍚",
+     "subline": "Saturday night wins for your first flat 😩",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Aldi Easy Takeout Copycats When You're Too Wiped Out 😩🤤",
+     "subline": "Quick, low-fuss dinners for one 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Cheap Takeout Copycats to Save Your Weekend 😳🛒",
+     "subline": "Send this to your housemate 🙌",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-10-24T18:02:09+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-24-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700296821121599510",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-24T18:04:49+00:00"
   }
  ]
 }
