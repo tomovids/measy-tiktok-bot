@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 17,
+ "scored_posts": 18,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -21,9 +21,9 @@
     "avg_ratio": 0.99
    },
    "fakeaway": {
-    "mult": 1.04,
-    "posts": 1,
-    "avg_ratio": 1.17
+    "mult": 1.03,
+    "posts": 2,
+    "avg_ratio": 1.09
    },
    "cheesy": {
     "mult": 1.09,
@@ -33,7 +33,7 @@
    "italian": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.9
+    "avg_ratio": 0.89
    },
    "beef": {
     "mult": 1.27,
@@ -61,7 +61,7 @@
     "avg_ratio": 0.36
    },
    "rice": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -103,9 +103,9 @@
     "avg_ratio": 0.93
    },
    "tired": {
-    "mult": 0.96,
-    "posts": 2,
-    "avg_ratio": 0.91
+    "mult": 0.97,
+    "posts": 3,
+    "avg_ratio": 0.94
    },
    "repeat": {
     "mult": 0.98,
@@ -118,7 +118,7 @@
     "avg_ratio": 1.88
    },
    "date-night": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -162,7 +162,7 @@
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.97,
     "posts": 1,
-    "avg_ratio": 0.9
+    "avg_ratio": 0.89
    },
    "loaded-bbq-beef-nachos": {
     "mult": 1.11,
@@ -180,9 +180,9 @@
     "avg_ratio": 0.91
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.22,
-    "posts": 1,
-    "avg_ratio": 1.88
+    "mult": 1.18,
+    "posts": 2,
+    "avg_ratio": 1.44
    },
    "sweet-chilli-beef-noodles": {
     "mult": 0.84,
@@ -190,7 +190,7 @@
     "avg_ratio": 0.36
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
