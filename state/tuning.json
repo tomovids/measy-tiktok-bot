@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 32,
+ "scored_posts": 33,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -17,8 +17,8 @@
    },
    "under-150": {
     "mult": 2.0,
-    "posts": 1,
-    "avg_ratio": 7.68
+    "posts": 2,
+    "avg_ratio": 4.55
    },
    "creamy": {
     "mult": 0.8,
@@ -148,9 +148,9 @@
     "avg_ratio": 1.17
    },
    "students": {
-    "mult": 0.9,
-    "posts": 1,
-    "avg_ratio": 0.6
+    "mult": 1.0,
+    "posts": 2,
+    "avg_ratio": 1.01
    },
    "repeat": {
     "mult": 1.0,
@@ -288,6 +288,11 @@
     "mult": 0.85,
     "posts": 1,
     "avg_ratio": 0.42
+   },
+   "cheesy-bbq-loaded-potatoes": {
+    "mult": 1.1,
+    "posts": 1,
+    "avg_ratio": 1.42
    }
   }
  },
