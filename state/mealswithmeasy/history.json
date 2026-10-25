@@ -2903,6 +2903,95 @@
    "publish_id": "p_inbox_url~v2.7700544285699147798",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-25T10:05:17+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Walmart LAZY Creamy Dinners — ready in 30 minutes ⏰",
+   "subline": "Perfect for when you're wiped out ⏰",
+   "title": "5 Walmart LAZY Creamy Dinners — ready in 30 minutes ⏰",
+   "caption": "💾 SAVE this for the week before payday 😭💸\n\n1. Creamy Peri-Peri Chicken Pasta\n2. Garlic Sausage Rice Bowls\n3. Creamy Pesto Chicken Gnocchi\n4. Cheesy Tomato Pasta\n5. Creamy Sun-Dried Tomato Chicken Orzo\n\nWhich one would you make first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #creamypasta #comfortfood",
+   "files": [
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:garlic-sausage-rice-bowls-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:cheesy-tomato-pasta-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2"
+   ],
+   "groups": [
+    "creamy-peri-peri-chicken-pasta",
+    "garlic-sausage-rice-bowls",
+    "creamy-pesto-chicken-gnocchi",
+    "cheesy-tomato-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Peri-Peri Chicken Pasta",
+    "Garlic Sausage Rice Bowls",
+    "Creamy Pesto Chicken Gnocchi",
+    "Cheesy Tomato Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    584,
+    1104
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "creamy",
+    "angle": "send",
+    "label": "creamy dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one would you make first? 👀",
+   "tuned": true,
+   "hook_score": 8.7,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Creamy Dinners for When You're Exhausted 😭",
+     "subline": "Comfort food that actually shows up 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Creamy Dinners That Stretch Your Grocery Run 💸",
+     "subline": "Big flavour, small effort 💸",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Walmart Creamy Dinners — send this to your roommate 😂",
+     "subline": "Send to the person who never decides 😂",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Walmart Creamy Dinners to Impress Your Date 😏",
+     "subline": "Fancy vibes, zero fuss 😏",
+     "score": 6.3
+    },
+    {
+     "hook": "5 Walmart LAZY Creamy Dinners — ready in 30 minutes ⏰",
+     "subline": "Perfect for when you're wiped out ⏰",
+     "score": 8.7
+    }
+   ],
+   "built_at": "2026-10-25T16:15:22+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700640185944213526",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T16:18:05+00:00"
   }
  ]
 }

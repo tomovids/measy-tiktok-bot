@@ -2886,6 +2886,90 @@
    "publish_id": "p_inbox_url~v2.7700544361452357654",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-25T10:05:30+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Sainsbury's Wraps, Flatbreads & Quesadillas for NO moaning 😋",
+   "subline": "Feed the lot without the faff 🙌",
+   "title": "5 Sainsbury's Wraps, Flatbreads & Quesadillas for NO moaning 😋",
+   "caption": "💾 SAVE this for when you need a quick Sunday tea that feeds the lot without the moaning 😋🙌\n\n1. Loaded BBQ Beef Nachos\n2. Sticky Hoisin Beef Flatbreads\n3. Crispy Bean Quesadillas\n4. Crispy Sweet Chilli Halloumi Burgers\n5. Cheesy Pepperoni Pizza Wraps\n\nWhich one would stop your family's moaning? 😏\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:crispy-bean-quesadillas-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:cheesy-pepperoni-pizza-wraps-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "sticky-hoisin-beef-flatbreads",
+    "crispy-bean-quesadillas",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "cheesy-pepperoni-pizza-wraps"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Sticky Hoisin Beef Flatbreads",
+    "Crispy Bean Quesadillas",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Cheesy Pepperoni Pizza Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    708,
+    980
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "handheld",
+    "angle": "family",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would stop your family's moaning? 😏",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Wraps, Flatbreads & Quesadillas That Save Sunday 😏",
+     "subline": "Family-approved, zero moans 🙌",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's Wraps, Flatbreads & Quesadillas for NO moaning 😋",
+     "subline": "Feed the lot without the faff 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's Wraps, Flatbreads & Quesadillas Beat a Takeaway 💸",
+     "subline": "Skip delivery, keep the flavour 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's Wraps, Flatbreads & Quesadillas I'd Make 😍",
+     "subline": "Repeat-worthy and barely any faff 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-25T16:16:43+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-25-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700640185944295446",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T16:18:17+00:00"
   }
  ]
 }

@@ -4595,6 +4595,174 @@
    "publish_id": "p_inbox_url~v2.7700544188421048342",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-25T10:05:04+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Tesco Gnocchi & Pasta Dinners That Impress Your Mates 😍🍝",
+   "subline": "Perfect for Sunday lunch or a cosy night 🧀",
+   "title": "5 Tesco Gnocchi & Pasta Dinners That Impress Your Mates 😍🍝",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍝\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Creamy Garlic Chicken Gnocchi\n3. Cheesy Cajun Sausage Gnocchi\n4. Creamy Garlic Chicken Pasta\n5. Creamy Garlic Chicken Orzo\n\nWhich one's going on your Tesco list first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:creamy-garlic-chicken-orzo-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-garlic-chicken-gnocchi",
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-garlic-chicken-pasta",
+    "creamy-garlic-chicken-orzo"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Garlic Chicken Gnocchi",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Garlic Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    504,
+    616
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "italian",
+    "angle": "save",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one's going on your Tesco list first? 👀",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Pasta Dinners to Send to Your Flatmate 😂🍝",
+     "subline": "Stop the 'what's for tea' moan 😂",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Gnocchi & Pasta Dinners That Impress Your Mates 😍🍝",
+     "subline": "Perfect for Sunday lunch or a cosy night 🧀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Italian-style Dinners From Pasta to Gnocchi 👀🍝",
+     "subline": "All creamy, cheesy winners 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-25T16:12:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700640181602568214",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T16:17:39+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Aldi Rice Bowls Ready in 25 Minutes or Less ⏰🍚",
+   "subline": "Sunday reset: plan dinners in one go ⏰",
+   "title": "5 Aldi Rice Bowls Ready in 25 Minutes or Less ⏰🍚",
+   "caption": "💾 SAVE this for your Sunday reset — plan the week's dinners in one go 😭🍚\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Sticky Korean Beef Rice Bowls\n4. Crispy Sweet Chilli Chicken Bowls\n5. Sticky BBQ Beef Rice Bowls\n\nWhich bowl are you cooking first this week? 👀🍚\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1",
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:sticky-bbq-beef-rice-bowls-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "sticky-korean-beef-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sticky-bbq-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Sticky Korean Beef Rice Bowls",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Sticky BBQ Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    112,
+    528
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "rice",
+    "angle": "sunday-reset",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "Sunday reset: sort the week's dinners now"
+   },
+   "question": "Which bowl are you cooking first this week? 👀🍚",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls to Plan Your Week 😋🍚",
+     "subline": "Sunday reset: sort next week's dinners 🍚",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Rice Dinners to Send Your Flatmate 😂🍚",
+     "subline": "Fix the 'what's for tea' panic 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls Better Than a Takeaway 🤤🍚",
+     "subline": "Perfect fakeaway for the weekend 😏",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Rice Bowls Ready in 25 Minutes or Less ⏰🍚",
+     "subline": "Sunday reset: plan dinners in one go ⏰",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls To Rescue Your Week 😭🍚",
+     "subline": "Sort your dinners now and breathe 😭",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-25T16:14:00+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700640181602617366",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T16:17:52+00:00"
   }
  ]
 }
