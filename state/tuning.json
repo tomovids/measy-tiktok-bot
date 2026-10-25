@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 33,
+ "scored_posts": 34,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -61,9 +61,9 @@
     "avg_ratio": 1.46
    },
    "anything": {
-    "mult": 1.47,
-    "posts": 1,
-    "avg_ratio": 2.87
+    "mult": 1.5,
+    "posts": 2,
+    "avg_ratio": 2.26
    },
    "veggie": {
     "mult": 1.0,
@@ -143,9 +143,9 @@
     "avg_ratio": 1.0
    },
    "no-idea": {
-    "mult": 1.09,
-    "posts": 3,
-    "avg_ratio": 1.17
+    "mult": 1.17,
+    "posts": 4,
+    "avg_ratio": 1.29
    },
    "students": {
     "mult": 1.0,
@@ -230,9 +230,9 @@
     "avg_ratio": 1.38
    },
    "cheesy-buffalo-chicken-potato-skins": {
-    "mult": 1.55,
-    "posts": 1,
-    "avg_ratio": 3.2
+    "mult": 1.57,
+    "posts": 2,
+    "avg_ratio": 2.42
    },
    "creamy-cajun-chicken-flatbreads": {
     "mult": 0.9,
@@ -290,7 +290,7 @@
     "avg_ratio": 0.42
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 1.1,
+    "mult": 1.11,
     "posts": 1,
     "avg_ratio": 1.42
    }
