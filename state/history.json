@@ -4516,6 +4516,85 @@
    "publish_id": "p_inbox_url~v2.7700296730172262422",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-24T18:04:38+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Aldi Loaded Dinners Ready to Impress Your Mates 😍🍗",
+   "subline": "Weekend fakeaway that saves you cash 💸",
+   "title": "5 Aldi Loaded Dinners Ready to Impress Your Mates 😍🍗",
+   "caption": "💾 SAVE this for your Sunday fakeaway — cheaper than a takeaway and zero faff 🤤🛒\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy BBQ Loaded Potatoes\n3. Sticky Maple Sausage Traybake\n4. Sticky Chicken Loaded Fries\n5. Garlic Butter Sausage & Veggie Skillet\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:sticky-chicken-loaded-fries-1",
+    "card:garlic-butter-sausage-veggie-skillet-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-bbq-loaded-potatoes",
+    "sticky-maple-sausage-traybake",
+    "sticky-chicken-loaded-fries",
+    "garlic-butter-sausage-veggie-skillet"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy BBQ Loaded Potatoes",
+    "Sticky Maple Sausage Traybake",
+    "Sticky Chicken Loaded Fries",
+    "Garlic Butter Sausage & Veggie Skillet"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    320,
+    780
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "loaded",
+    "angle": "takeaway",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Loaded Meals for When You're Properly Hangry 😩🤤",
+     "subline": "Saucy, cheesy, totally worth it 🧀",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Sticky Loaded Dinners for a Night In 😏🤤",
+     "subline": "Sticky, messy, proper dinner 🤤",
+     "score": 5.7
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners Ready to Impress Your Mates 😍🍗",
+     "subline": "Weekend fakeaway that saves you cash 💸",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-25T10:01:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-25-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700544188421048342",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T10:05:04+00:00"
   }
  ]
 }

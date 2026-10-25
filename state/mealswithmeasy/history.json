@@ -2829,6 +2829,80 @@
    "publish_id": "p_inbox_url~v2.7700296821121599510",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-24T18:04:49+00:00"
+  },
+  {
+   "date": "2026-10-25",
+   "hook": "5 Trader Joe's Meals I'd Make If I'm Broke Till Payday 😭💸",
+   "subline": "Stretch your grocery run this week 🛒",
+   "title": "5 Trader Joe's Meals I'd Make If I'm Broke Till Payday 😭💸",
+   "caption": "💾 SAVE this for the next time you're about to order takeout 😭🍜\n\n1. Buffalo Chicken Quesadillas\n2. Creamy Lemon Chicken Orzo\n3. Sticky Beef Rice Bowls\n4. Cheesy Taco Rice Skillet\n5. Garlic Butter Sausage Pasta\n\nWhich one are you trying first? Tell me your pick 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #mealideas",
+   "files": [
+    "card:buffalo-chicken-quesadillas-1",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:sticky-beef-rice-bowls-2",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:garlic-butter-sausage-pasta-2"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "creamy-lemon-chicken-orzo",
+    "sticky-beef-rice-bowls",
+    "cheesy-taco-rice-skillet",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Creamy Lemon Chicken Orzo",
+    "Sticky Beef Rice Bowls",
+    "Cheesy Taco Rice Skillet",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    784,
+    860
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "anything",
+    "angle": "takeaway",
+    "label": "a mix of the best dinners",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you trying first? Tell me your pick 😋",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Weeknight Dinners for Broke Nights 😭💸",
+     "subline": "All ready in 30 mins or less ⏰",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Trader Joe's Meals I'd Make If I'm Broke Till Payday 😭💸",
+     "subline": "Stretch your grocery run this week 🛒",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-10-25T10:03:05+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-25-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700544285699147798",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-25T10:05:17+00:00"
   }
  ]
 }
