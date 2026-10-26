@@ -4931,6 +4931,85 @@
    "publish_id": "p_inbox_url~v2.7700959110816679939",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-26T12:56:03+00:00"
+  },
+  {
+   "date": "2026-10-26",
+   "hook": "5 Aldi Dinners to Start the Week Fast & Cheap 💸",
+   "subline": "Monday supper sorted in 20 minutes ⏰",
+   "title": "5 Aldi Dinners to Start the Week Fast & Cheap 💸",
+   "caption": "💾 SAVE this for when Monday hits and you’re too knackered to think about dinner 😭⏰\n\n1. Cheesy Taco Quesadillas\n2. Garlic Butter Flatbreads\n3. Crispy Beef Burrito Bowls\n4. Creamy Tomato Potato Bake\n5. Garlic-Butter Chicken Flatbreads\n\nWhich one are you cooking first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-taco-quesadillas-1",
+    "card:garlic-butter-flatbreads-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:creamy-tomato-potato-bake-1",
+    "card:garlic-butter-chicken-flatbreads-1"
+   ],
+   "groups": [
+    "cheesy-taco-quesadillas",
+    "garlic-butter-flatbreads",
+    "crispy-beef-burrito-bowls",
+    "creamy-tomato-potato-bake",
+    "garlic-butter-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Cheesy Taco Quesadillas",
+    "Garlic Butter Flatbreads",
+    "Crispy Beef Burrito Bowls",
+    "Creamy Tomato Potato Bake",
+    "Garlic-Butter Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    304,
+    736
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "monday",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one are you cooking first this week? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners to Fix Your Monday Night 😋",
+     "subline": "Ready in 20 minutes or less ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Save Time & Cash 💸",
+     "subline": "20-minute dinners you can actually make ⏰",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners to Start the Week Fast & Cheap 💸",
+     "subline": "Monday supper sorted in 20 minutes ⏰",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-26T19:16:41+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701058347948853270",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-26T19:20:22+00:00"
   }
  ]
 }
