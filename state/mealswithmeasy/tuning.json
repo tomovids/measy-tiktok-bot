@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 21,
+ "scored_posts": 22,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -16,9 +16,9 @@
     "avg_ratio": 1.6
    },
    "chicken": {
-    "mult": 0.99,
-    "posts": 3,
-    "avg_ratio": 0.99
+    "mult": 1.01,
+    "posts": 4,
+    "avg_ratio": 1.02
    },
    "fakeaway": {
     "mult": 1.03,
@@ -28,7 +28,7 @@
    "cheesy": {
     "mult": 1.07,
     "posts": 3,
-    "avg_ratio": 1.15
+    "avg_ratio": 1.14
    },
    "italian": {
     "mult": 0.97,
@@ -61,7 +61,7 @@
     "avg_ratio": 0.36
    },
    "rice": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -113,12 +113,12 @@
     "avg_ratio": 0.91
    },
    "send": {
-    "mult": 1.22,
-    "posts": 1,
-    "avg_ratio": 1.88
+    "mult": 1.2,
+    "posts": 2,
+    "avg_ratio": 1.49
    },
    "date-night": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -155,7 +155,7 @@
     "avg_ratio": 1.17
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.39,
+    "mult": 1.38,
     "posts": 2,
     "avg_ratio": 1.96
    },
@@ -203,6 +203,11 @@
     "mult": 1.0,
     "posts": 1,
     "avg_ratio": 1.0
+   },
+   "sticky-chicken-loaded-fries": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.1
    }
   }
  },
