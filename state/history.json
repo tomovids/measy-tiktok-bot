@@ -4763,6 +4763,90 @@
    "publish_id": "p_inbox_url~v2.7700640181602617366",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-25T16:17:52+00:00"
+  },
+  {
+   "date": "2026-10-26",
+   "hook": "5 Aldi Fakeaway Dinners — top one's £3.29 a portion 😳🍔",
+   "subline": "Better than a takeaway, cheaper to make 😏",
+   "title": "5 Aldi Fakeaway Dinners — top one's £3.29 a portion 😳🍔",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Chilli Beef Noodles\n3. Honey Soy Sausage Noodle Bowls\n4. Cheesy BBQ Loaded Fries\n5. Crispy Beef Taco Rice Bowls\n\nWhich fakeaway are you trying first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:chilli-beef-noodles-1",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:crispy-beef-taco-rice-bowls-1"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "chilli-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "cheesy-bbq-chicken-loaded-fries",
+    "crispy-beef-taco-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Chilli Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Cheesy BBQ Loaded Fries",
+    "Crispy Beef Taco Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    356,
+    660
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "taste-cheap",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which fakeaway are you trying first? Tell us below 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Fakeaway Dinners — top one's £3.29 a portion 😳🍔",
+     "subline": "Better than a takeaway, cheaper to make 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners to Send Your Flatmate 😂🛒",
+     "subline": "Share with your housemate 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners That FEEL Like Takeaway 😋🍜",
+     "subline": "Same vibes, no queue 😏",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners to Brighten Your Monday 😍🍜",
+     "subline": "Make tonight feel like takeaway 😋",
+     "score": 5.0
+    }
+   ],
+   "built_at": "2026-10-26T11:25:22+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700937054095706134",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-26T11:29:48+00:00"
   }
  ]
 }

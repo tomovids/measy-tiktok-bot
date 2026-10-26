@@ -2992,6 +2992,95 @@
    "publish_id": "p_inbox_url~v2.7700640185944213526",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-25T16:18:05+00:00"
+  },
+  {
+   "date": "2026-10-26",
+   "hook": "5 Aldi Sausage Dinners From One Pack 👀🛒",
+   "subline": "Stretch one pack into five dinners 💸",
+   "title": "5 Aldi Sausage Dinners From One Pack 👀🛒",
+   "caption": "💾 SAVE this for Monday night when payday's still far away 😭💸\n\n1. BBQ Sausage Loaded Potatoes\n2. Sticky Honey Garlic Sausage Bowls\n3. Sticky Maple Sausage Sheet Pan\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Cheesy Cajun Sausage Gnocchi\n\nWhich one are you making this Monday? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:sticky-honey-garlic-sausage-rice-2",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:cheesy-cajun-sausage-gnocchi-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-maple-sausage-traybake",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "cheesy-cajun-sausage-gnocchi"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky Maple Sausage Sheet Pan",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Cheesy Cajun Sausage Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    592,
+    920
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "sausage",
+    "angle": "monday",
+    "label": "sausage dinners",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one are you making this Monday? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sausage Dinners to Fix Monday Night 😩🍚",
+     "subline": "Start the week without breaking the bank 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners Your Roommate Needs 😂🍝",
+     "subline": "Send this to the person who never cooks 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners From One Pack 👀🛒",
+     "subline": "Stretch one pack into five dinners 💸",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi LAZY Sausage Dinners for When You're Wiped Out 😴🍚",
+     "subline": "Quick dinners that still feel fancy 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners That Hit Different 😋🧀",
+     "subline": "Comfort food without draining your week 👀",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-26T11:27:24+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-26-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700937089038256150",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-26T11:30:00+00:00"
   }
  ]
 }
