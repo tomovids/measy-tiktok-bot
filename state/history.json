@@ -4847,6 +4847,90 @@
    "publish_id": "p_inbox_url~v2.7700937054095706134",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-26T11:29:48+00:00"
+  },
+  {
+   "date": "2026-10-26",
+   "hook": "5 Sainsbury's Dinners to Send Your Housemate Who NEVER Knows 😂",
+   "subline": "Stop the 'what's for tea' moan 🫶",
+   "title": "5 Sainsbury's Dinners to Send Your Housemate Who NEVER Knows 😂",
+   "caption": "💾 SAVE this for when your housemate texts 'what's for tea?' 😂\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Garlic Butter Halloumi Couscous\n3. Sweet Chilli Beef Noodles\n4. Sweet Chilli Halloumi Wraps\n5. Creamy Garlic Chicken Rice\n\nWhich one should I make first — pick a number 1–5! 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:garlic-butter-halloumi-couscous-1",
+    "card:sweet-chilli-beef-noodles-1",
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:creamy-garlic-chicken-rice-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "garlic-butter-halloumi-couscous",
+    "sweet-chilli-beef-noodles",
+    "sweet-chilli-halloumi-wraps",
+    "creamy-garlic-chicken-rice"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Garlic Butter Halloumi Couscous",
+    "Sweet Chilli Beef Noodles",
+    "Sweet Chilli Halloumi Wraps",
+    "Creamy Garlic Chicken Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    644,
+    804
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "anything",
+    "angle": "send",
+    "label": "a mix of the best dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one should I make first — pick a number 1–5! 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Dinners to Send Your Housemate Who NEVER Knows 😂",
+     "subline": "Stop the 'what's for tea' moan 🫶",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's Dinners That Rescue a Knackered Night 😴",
+     "subline": "Proper comfort food that actually hits 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's Dinners to Make This Weekend Feel Like a Treat 😍",
+     "subline": "Fakeaway vibes without the takeaway 👀",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Sainsbury's Dinners That Look Fancier Than They Are 😳",
+     "subline": "Impress the mates with zero effort 👀",
+     "score": 7.6
+    }
+   ],
+   "built_at": "2026-10-26T12:55:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-26-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7700959110816679939",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-26T12:56:03+00:00"
   }
  ]
 }
