@@ -5089,6 +5089,90 @@
    "publish_id": "p_inbox_url~v2.7701251664829057026",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T07:51:40+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "hook": "5 Asda Creamy Meals I'd Make If I'm Skint 😩",
+   "subline": "Save these for the end of the week 🛒",
+   "title": "5 Asda Creamy Meals I'd Make If I'm Skint 😩",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Buffalo Chicken Quesadillas\n2. Creamy Harissa Chicken Couscous\n3. Creamy Pesto Chicken Gnocchi\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Creamy Tomato Chicken Pasta\n\nWhich one are you cooking first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:buffalo-chicken-quesadillas-2",
+    "card:creamy-harissa-chicken-couscous-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:creamy-tomato-chicken-pasta-1"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "creamy-harissa-chicken-couscous",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-tomato-chicken-pasta"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Creamy Harissa Chicken Couscous",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Tomato Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    316,
+    624
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "creamy",
+    "angle": "payday",
+    "label": "creamy dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you cooking first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Creamy Meals I'd Make If I'm Skint 😩",
+     "subline": "Save these for the end of the week 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Asda Creamy Dinners to Send Your Housemate 😂",
+     "subline": "Stop the 'what's for tea' moan 👀",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Asda Creamy Dinners You Can Make on Repeat 😍",
+     "subline": "Comfort food that actually hits the spot 👀",
+     "score": 6.2
+    },
+    {
+     "hook": "5 LAZY Asda Creamy Dinners That Still Impress 😏",
+     "subline": "Minimal faff, maximum taste 👀",
+     "score": 6.7
+    }
+   ],
+   "built_at": "2026-10-27T12:38:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701326139456800790",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-27T12:39:28+00:00"
   }
  ]
 }
