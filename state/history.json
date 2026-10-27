@@ -5010,6 +5010,85 @@
    "publish_id": "p_inbox_url~v2.7701058347948853270",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-26T19:20:22+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "hook": "5 Aldi Dinners Better Than a Takeaway — all £1.93 a portion 😩💸",
+   "subline": "Proper takeaway vibes, cheaper 😋",
+   "title": "5 Aldi Dinners Better Than a Takeaway — all £1.93 a portion 😩💸",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Honey Soy Beef Noodles\n2. Garlic Butter Sausage Pasta\n3. Honey Chilli Chicken Noodles\n4. One-Pan Tomato Chicken Orzo\n5. Cheesy Tomato Pasta\n\nWhich one would you try first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:honey-soy-beef-noodles-2",
+    "card:garlic-butter-sausage-pasta-2",
+    "card:honey-chilli-chicken-noodles-2",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:cheesy-tomato-pasta-1"
+   ],
+   "groups": [
+    "honey-soy-beef-noodles",
+    "garlic-butter-sausage-pasta",
+    "honey-chilli-chicken-noodles",
+    "one-pan-tomato-chicken-orzo",
+    "cheesy-tomato-pasta"
+   ],
+   "dishes": [
+    "Honey Soy Beef Noodles",
+    "Garlic Butter Sausage Pasta",
+    "Honey Chilli Chicken Noodles",
+    "One-Pan Tomato Chicken Orzo",
+    "Cheesy Tomato Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1228,
+    1504
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "takeaway",
+    "label": "dinners under £2 a portion",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one would you try first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners All £1.93 a portion or less 😏💸",
+     "subline": "Big flavour, tiny price 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners Better Than a Takeaway — all £1.93 a portion 😩💸",
+     "subline": "Proper takeaway vibes, cheaper 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners Your Group Chat Needs — £1.93 a portion 😋💸",
+     "subline": "Your flatmate needs this 😂",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-27T07:48:23+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701251664829057026",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-27T07:51:40+00:00"
   }
  ]
 }

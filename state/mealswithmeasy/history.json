@@ -3160,6 +3160,90 @@
    "publish_id": "p_inbox_url~v2.7701058408304429078",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-26T19:20:36+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "hook": "5 Walmart Cheesy Dinners That Make Takeout Look Lazy 😏🧀",
+   "subline": "Better flavor, less cash 👀",
+   "title": "5 Walmart Cheesy Dinners That Make Takeout Look Lazy 😏🧀",
+   "caption": "💾 SAVE this for the week before payday — when takeout is tempting but cash is low 😭🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Crispy Sweet Chili Halloumi Burgers\n3. Crispy Bean Quesadillas\n4. Creamy Cajun Chicken Flatbreads\n5. Creamy Garlic Sausage Pasta\n\nWhich one should you make first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #cheesy #comfortfood",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:crispy-bean-quesadillas-2",
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:creamy-garlic-sausage-pasta-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "crispy-bean-quesadillas",
+    "creamy-cajun-chicken-flatbreads",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Crispy Sweet Chili Halloumi Burgers",
+    "Crispy Bean Quesadillas",
+    "Creamy Cajun Chicken Flatbreads",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1252,
+    1384
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "payday",
+    "label": "cheesy dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one should you make first? 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart LAZY Cheesy Dinners To Rescue You 😩🧀",
+     "subline": "Send this to your exhausted roommate 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Cheesy Dinners To Send Your Roommate 😂🧀",
+     "subline": "Which would your roommate steal? 😂",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Cheesy Dinners That Make Takeout Look Lazy 😏🧀",
+     "subline": "Better flavor, less cash 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Walmart Cheesy Dinners That Feed a Crowd on a Budget 😋🧀",
+     "subline": "Big comfort without the big bill 💸",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-27T07:49:33+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701251851924080662",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-27T07:51:52+00:00"
   }
  ]
 }
