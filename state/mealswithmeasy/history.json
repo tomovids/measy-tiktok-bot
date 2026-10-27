@@ -3244,6 +3244,100 @@
    "publish_id": "p_inbox_url~v2.7701251851924080662",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T07:51:52+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "hook": "5 Aldi Sticky Beef Dinners That Always Hit 😏🔥",
+   "subline": "Send to the person who orders takeout 😂",
+   "title": "5 Aldi Sticky Beef Dinners That Always Hit 😏🔥",
+   "caption": "💾 SAVE this for when you're about to order takeout 😭🍜\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sticky Beef Rice Bowls\n3. Sticky Beef Noodles\n4. Sticky BBQ Beef Rice Bowls\n5. Sticky Hoisin Beef Flatbreads\n\nWhich one would you make first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #groundbeefrecipes #beefrecipes",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:sticky-beef-rice-bowls-1",
+    "card:sticky-beef-noodles-1",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:sticky-hoisin-beef-flatbreads-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sticky-beef-rice-bowls",
+    "sticky-beef-noodles",
+    "sticky-bbq-beef-rice-bowls",
+    "sticky-hoisin-beef-flatbreads"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sticky Beef Rice Bowls",
+    "Sticky Beef Noodles",
+    "Sticky BBQ Beef Rice Bowls",
+    "Sticky Hoisin Beef Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    628,
+    888
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "beef",
+    "angle": "repeat",
+    "label": "beef mince and beef dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you make first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners I'd Make on Repeat 😋🍚",
+     "subline": "Repeat nights: less stress, more flavor 😍",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky Beef Dinners That Always Hit 😏🔥",
+     "subline": "Send to the person who orders takeout 😂",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Ground Beef Meals for Lazy Weeknights 😴🍝",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Beef Meals Better Than Takeout 😏💸",
+     "subline": "Saucy, simple, and goes down a treat 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky Beef Rice & Noodle Dinners 🤤🍜",
+     "subline": "Repeat-worthy weeknight winners 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners Your Roommate Will Beg For 😂🍗",
+     "subline": "",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-10-27T19:59:44+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-27-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701440233405876246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-27T20:01:59+00:00"
   }
  ]
 }

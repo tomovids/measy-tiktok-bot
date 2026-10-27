@@ -5173,6 +5173,95 @@
    "publish_id": "p_inbox_url~v2.7701326139456800790",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T12:39:28+00:00"
+  },
+  {
+   "date": "2026-10-27",
+   "hook": "5 Aldi Cheesy Mexican Dinners That Rescue a Knackered Night 🤤🧀",
+   "subline": "Big flavour, tiny effort 👀",
+   "title": "5 Aldi Cheesy Mexican Dinners That Rescue a Knackered Night 🤤🧀",
+   "caption": "💾 SAVE this for when you're too knackered to cook but still want takeaway vibes 😭🌮\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Cheesy Taco Rice Skillet\n3. Cheesy Taco Quesadillas\n4. Loaded BBQ Beef Nachos\n5. Crispy Beef Taco Rice Bowls\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:cheesy-taco-quesadillas-2",
+    "card:loaded-bbq-beef-nachos-1",
+    "card:crispy-beef-taco-rice-bowls-2"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "cheesy-taco-rice-skillet",
+    "cheesy-taco-quesadillas",
+    "loaded-bbq-beef-nachos",
+    "crispy-beef-taco-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Taco Quesadillas",
+    "Loaded BBQ Beef Nachos",
+    "Crispy Beef Taco Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    380,
+    724
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "tired",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican-Style Dinners to Stop Takeaway Tonight 🤤🌮",
+     "subline": "Ready when you're too tired 😴",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Taco & Quesadilla Dinners for a Lazy Tuesday 😴🌮",
+     "subline": "Ready in 30 minutes or less ⏰",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Cheesy Mexican Dinners That Rescue a Knackered Night 🤤🧀",
+     "subline": "Big flavour, tiny effort 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Nacho, Taco & Burrito Dinners for the Knackered 😩🔥",
+     "subline": "Send this to your housemate 😂",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Fakeaway Mexican Dinners When You Can't Be Bothered 😭🌮",
+     "subline": "Cheesy, saucy, stupidly easy 😏",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-27T19:58:31+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-27-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701440181488011286",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-27T20:01:47+00:00"
   }
  ]
 }
