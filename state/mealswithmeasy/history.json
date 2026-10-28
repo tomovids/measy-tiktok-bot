@@ -3422,6 +3422,90 @@
    "publish_id": "p_inbox_url~v2.7701680544694175766",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-28T11:34:56+00:00"
+  },
+  {
+   "date": "2026-10-28",
+   "hook": "5 Walmart Creamy Pastas That DON'T Taste Cheap 😩🍝",
+   "subline": "Creamy, cheesy, actually impressive 😏",
+   "title": "5 Walmart Creamy Pastas That DON'T Taste Cheap 😩🍝",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Creamy Peri-Peri Chicken Pasta\n2. Cheesy Cajun Sausage Gnocchi\n3. Garlic Butter Sausage Pasta\n4. Creamy Pesto Chicken Gnocchi\n5. Creamy Sun-Dried Tomato Chicken Orzo\n\nWhich one are you making first? Pick 1–5, go! 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:garlic-butter-sausage-pasta-1",
+    "card:creamy-pesto-chicken-gnocchi-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "creamy-peri-peri-chicken-pasta",
+    "cheesy-cajun-sausage-gnocchi",
+    "garlic-butter-sausage-pasta",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-sun-dried-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Peri-Peri Chicken Pasta",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Garlic Butter Sausage Pasta",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Sun-Dried Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    800,
+    852
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "pasta",
+    "angle": "taste-cheap",
+    "label": "pasta dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you making first? Pick 1–5, go! 😋",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Pasta Dinners to Send Your Roommate 😂🍝",
+     "subline": "They'll stop ordering takeout, promise 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Creamy Pastas That DON'T Taste Cheap 😩🍝",
+     "subline": "Creamy, cheesy, actually impressive 😏",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Walmart Pasta Dinners for a Midweek Rescue 😩🍝",
+     "subline": "One's ready in 30 minutes ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Gnocchi & Orzo Pastas I'd Make on Repeat 😋🍝",
+     "subline": "Comfort dinners your wallet likes 💸",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-28T18:52:47+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701794385788422166",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-28T18:57:04+00:00"
   }
  ]
 }
