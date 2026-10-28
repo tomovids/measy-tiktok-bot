@@ -3338,6 +3338,90 @@
    "publish_id": "p_inbox_url~v2.7701440233405876246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T20:01:59+00:00"
+  },
+  {
+   "date": "2026-10-28",
+   "hook": "5 Trader Joe's Cozy Comfort Dinners for Dark Nights 🫶",
+   "subline": "Warm, creamy dinners that give a hug 😋",
+   "title": "5 Trader Joe's Cozy Comfort Dinners for Dark Nights 🫶",
+   "caption": "💾 SAVE this for when it's cold out and you want a cozy, creamy dinner night 🫶😋\n\n1. Cheesy Cajun Chicken Wraps\n2. Sweet Chili Halloumi Wraps\n3. Creamy Garlic Chicken Pasta\n4. Creamy Tomato Pasta\n5. Creamy Tomato Potato Bake\n\nWhich one are you making first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #comfortfood #cozydinner",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:creamy-tomato-pasta-2",
+    "card:creamy-tomato-potato-bake-1"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "sweet-chilli-halloumi-wraps",
+    "creamy-garlic-chicken-pasta",
+    "creamy-tomato-pasta",
+    "creamy-tomato-potato-bake"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Sweet Chili Halloumi Wraps",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Tomato Pasta",
+    "Creamy Tomato Potato Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1052,
+    1184
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "comfort",
+    "angle": "cosy",
+    "label": "cosy comfort food",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first? Tell us 👇",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Cozy Dinners to DM Your Housemate 😂",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Trader Joe's Dinners for When You're Exhausted 😩",
+     "subline": "Perfect for nights you're wiped out 😴",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Dinners When You're Broke Till Payday 😭💸",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Cozy Comfort Dinners for Dark Nights 🫶",
+     "subline": "Warm, creamy dinners that give a hug 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-28T11:32:21+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-28-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701680544694175766",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-28T11:34:56+00:00"
   }
  ]
 }

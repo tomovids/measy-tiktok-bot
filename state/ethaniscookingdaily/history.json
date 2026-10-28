@@ -3326,6 +3326,95 @@
    "publish_id": "p_inbox_url~v2.7701440320252643350",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T20:02:10+00:00"
+  },
+  {
+   "date": "2026-10-28",
+   "hook": "5 Aldi Dinners: fakeaways to sort tonight before work 😏🍜",
+   "subline": "Sort tea before you leave the house 🔥",
+   "title": "5 Aldi Dinners: fakeaways to sort tonight before work 😏🍜",
+   "caption": "💾 SAVE this for when you need tonight's tea sorted before work 😭🍜\n\n1. Sticky Chicken Loaded Fries\n2. Crispy Beef Burrito Bowls\n3. Honey Soy Sausage Noodle Bowls\n4. Garlic Butter Flatbreads\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich fakeaway are you making tonight? 🍜\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:garlic-butter-flatbreads-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "crispy-beef-burrito-bowls",
+    "honey-soy-sausage-noodle-bowls",
+    "garlic-butter-flatbreads",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Crispy Beef Burrito Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Garlic Butter Flatbreads",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    280,
+    724
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "plan-today",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which fakeaway are you making tonight? 🍜",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners: fakeaways to sort tonight before work 😏🍜",
+     "subline": "Sort tea before you leave the house 🔥",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Are Proper Fakeaways 😋🍔",
+     "subline": "Big flavour, tiny faff 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make Before Ordering Takeaway 😩🍜",
+     "subline": "Send this to your takeaway-loving mate 😂",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway on Price 😳💸",
+     "subline": "",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners To Send Your Housemate Who Orders In 😂🍔",
+     "subline": "Sort tonight's tea before work 👀",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-28T11:33:49+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-28-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701680660620691478",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-28T11:35:08+00:00"
   }
  ]
 }

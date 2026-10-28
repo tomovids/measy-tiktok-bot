@@ -5262,6 +5262,90 @@
    "publish_id": "p_inbox_url~v2.7701440181488011286",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-27T20:01:47+00:00"
+  },
+  {
+   "date": "2026-10-28",
+   "hook": "5 LAZY Aldi Cheesy Dinners for When You're Knackered 😩🧀",
+   "subline": "Comfort food with hardly any faff 😴",
+   "title": "5 LAZY Aldi Cheesy Dinners for When You're Knackered 😩🧀",
+   "caption": "💾 SAVE this for when it gets darker and you want melty comfort 😍🧀\n\n1. BBQ Sausage Loaded Potatoes\n2. Garlic Butter Chicken & Rice\n3. Creamy Tuscan Chicken Pasta\n4. Loaded Taco Jacket Potato\n5. Cheesy Pepperoni Pizza Wraps\n\nWhich one are you making first this week? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:garlic-butter-chicken-and-rice-1",
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-pepperoni-pizza-wraps-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "garlic-butter-chicken-and-rice",
+    "creamy-tuscan-chicken-pasta",
+    "loaded-taco-jacket-potato",
+    "cheesy-pepperoni-pizza-wraps"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Tuscan Chicken Pasta",
+    "Loaded Taco Jacket Potato",
+    "Cheesy Pepperoni Pizza Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    200,
+    504
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "cosy",
+    "label": "cheesy dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first this week? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners to Warm Up Dark Nights 😍🧀",
+     "subline": "Cosy, melty dinners for midweek tea 🍝",
+     "score": 7.5
+    },
+    {
+     "hook": "5 LAZY Aldi Cheesy Dinners for When You're Knackered 😩🧀",
+     "subline": "Comfort food with hardly any faff 😴",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners to Make Wednesday Feel Special 😋🧀",
+     "subline": "Perfect midweek cosy swap 🫶",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners to Send to Someone Who LOVES Cheese 😂🧀",
+     "subline": "Tag your cheese-obsessed mate 👇",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-28T11:31:09+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-28-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7701680544694061078",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-28T11:34:43+00:00"
   }
  ]
 }
