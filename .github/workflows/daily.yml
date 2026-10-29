@@ -16,7 +16,7 @@ on:
     - cron: "5 13 * * *"
   workflow_dispatch:
     inputs:
-      # cron-job.org starts this at the exact posting times (06:31, 12:01, 16:01 UK) and only what's due is sent.
+      # Manual or outside-timer runs only send what's due (config.toml send_early_hours) unless force is ticked.
       force:
         description: "Make ALL of today's drafts now, even before their times"
         type: boolean
