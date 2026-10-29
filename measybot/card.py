@@ -354,10 +354,73 @@ def _layout(r: CardRecipe, photo: Image.Image, photo_h: int, min_size: int) -> I
     return img
 
 
-def render_for(file: str) -> Image.Image:
-    """Draws the card for a picked recipe whose file is 'card:<dish>-<n>'."""
+# ---- the light card: the photo does the talking ------------------------------------------------
+
+LIGHT_PHOTO_H = 1330      # full-bleed photo at the top
+LIGHT_PANEL_TOP = 1250    # the cream panel overlaps the photo a little
+
+
+def render_light(r: CardRecipe, photo: Image.Image) -> Image.Image:
+    """A big full-bleed photo, the dish name, three quick facts and the price; the full recipe is in
+    the app. Far less to read than the full card."""
+    img = Image.new("RGB", (W, H), CREAM)
+    p = photo.convert("RGB")
+    scale = max(W / p.width, LIGHT_PHOTO_H / p.height)
+    p = p.resize((round(p.width * scale), round(p.height * scale)), Image.LANCZOS)
+    left, top = (p.width - W) // 2, (p.height - LIGHT_PHOTO_H) // 2
+    img.paste(p.crop((left, top, left + W, top + LIGHT_PHOTO_H)), (0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([0, LIGHT_PANEL_TOP, W, H + 60], radius=56, fill=CREAM)
+    _price_badge(img, r, W - M - 128, LIGHT_PANEL_TOP - 84)    # on the photo, clear of the title
+
+    # title: Fraunces Black, up to 2 lines, shrinks to fit
+    size = 100
+    while True:
+        tf = font(FRAUNCES, size)
+        lines = wrap(r.title, tf, W - 2 * M)
+        if len(lines) <= 2 or size <= 64:
+            break
+        size -= 4
+    y = LIGHT_PANEL_TOP + 110 + size * 0.2
+    for i, line in enumerate(lines[:2]):
+        if i:
+            y += round(size * 0.98)
+        d.text((M, y), line, font=tf, fill=GREEN, anchor="ls")
+    if r.subtitle:
+        sub, sf = fit_line(r.subtitle, W - 2 * M, size=52)
+        y += 72
+        d.text((M + 4, y), sub, font=sf, fill=INK, anchor="ls")
+
+    facts = []
+    mins = (r.prep_mins or 0) + (r.cook_mins or 0)
+    if mins:
+        facts.append(("Ready in", f"{mins} mins"))
+    if r.serves:
+        facts.append(("Serves", str(r.serves)))
+    if r.calories:
+        facts.append(("Calories", str(r.calories)))
+    if facts:
+        top, gap = round(y) + 44, 16
+        w = (W - 2 * M - gap * (len(facts) - 1)) / len(facts)
+        for i, (label, value) in enumerate(facts):
+            x = M + i * (w + gap)
+            d.rounded_rectangle([x, top, x + w, top + 104], radius=22, fill=PANEL)
+            d.text((x + w / 2, top + 38), label, font=font(SANS, 28), fill=MUTED, anchor="ms")
+            d.text((x + w / 2, top + 86), value, font=font(SANS_BOLD, 40), fill=GREEN, anchor="ms")
+
+    foot = H - 70
+    _logo(img, M, foot - 62, 70)
+    d.text((W - M, foot - 12), "full recipe in the app", font=font(CAVEAT, 50), fill=GREEN, anchor="rs")
+    return img
+
+
+def render_for(file: str, style: str | None = None) -> Image.Image:
+    """Draws the card for a picked recipe whose file is 'card:<dish>-<n>', in the [cards] style
+    from config.toml: "light" (photo, name, quick facts) or "full" (the whole recipe)."""
     from . import library, photos
     stem = file.split(":", 1)[1]
     group = stem.rsplit("-", 1)[0]
     entry = library.load()[group]
-    return render(CardRecipe.from_dict(entry), Image.open(photos.PHOTO_DIR / f"{stem}.jpg"))
+    style = style or config.load_config().get("cards", {}).get("style", "full")
+    draw = render_light if style == "light" else render
+    return draw(CardRecipe.from_dict(entry), Image.open(photos.PHOTO_DIR / f"{stem}.jpg"))

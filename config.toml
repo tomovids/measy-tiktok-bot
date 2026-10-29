@@ -139,6 +139,10 @@ text_y = 0.47
 max_width = 0.88
 
 [cards]
+# How the recipe slides look: "light" = a big photo, the dish name, ready-in / serves / calories and the
+# price per portion, with the full recipe in the Measy app (much less text); "full" = the whole recipe
+# (ingredients and method) on the slide.
+style = "light"
 # The AI food photo on each recipe card (made once per dish, kept in images/photos/).
 photo_prompt = """Ultra-appetising advertising food photograph of {dish}, made with {ingredients}. \
 {angle}. A generous, heaped portion that looks irresistible: glossy sauce, {cheese}, crispy golden \

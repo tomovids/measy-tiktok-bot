@@ -48,3 +48,14 @@ def test_too_long_recipe_raises():
     d = dict(ENTRY, method=[{"title": "Step", "text": "word " * 60}] * 5)
     with pytest.raises(ValueError):
         card.render(CardRecipe.from_dict(d), PHOTO)
+
+
+def test_light_card_for_real_dishes():
+    from measybot import card, library, photos
+    lib = library.load()
+    for group in sorted(lib)[:12]:
+        shots = photos.photos_for(group)
+        if not shots:
+            continue
+        img = card.render_light(card.CardRecipe.from_dict(lib[group]), Image.open(shots[0]))
+        assert img.size == (card.W, card.H)

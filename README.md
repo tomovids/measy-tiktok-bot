@@ -26,8 +26,9 @@ stats run twice a day.
 
 1. **Cover:** a fresh AI picture of the post's supermarket (OpenAI GPT Image) with the day's hook in
    TikTok-style white caption boxes and `>>>>`.
-2. **Slides 2-6:** five Measy recipe cards (an AI food photo + the full recipe, drawn by code from
-   `data/recipe_library.json`) that fit the post's theme (e.g. "cheesy dinners" + "skint until payday",
+2. **Slides 2-6:** five Measy recipe cards, drawn by code from `data/recipe_library.json`: a big AI food
+   photo, the dish name, ready-in / serves / calories and the price per portion, with the full recipe
+   in the Measy app (`config.toml [cards] style = "light"`; `"full"` puts the whole recipe on the slide) that fit the post's theme (e.g. "cheesy dinners" + "skint until payday",
    `data/themes.toml`); the most crave-worthy dish leads, dishes rotate evenly, never twice in a day.
 3. **Slide 7:** the next promo slide from `images/promo/` (drop more in to rotate them).
 
