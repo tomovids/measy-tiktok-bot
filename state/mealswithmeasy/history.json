@@ -3506,6 +3506,95 @@
    "publish_id": "p_inbox_url~v2.7701794385788422166",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-28T18:57:04+00:00"
+  },
+  {
+   "date": "2026-10-29",
+   "hook": "5 Aldi Creamy Dinners for When You're Broke 😭💸",
+   "subline": "Save these for your next grocery run 🛒",
+   "title": "5 Aldi Creamy Dinners for When You're Broke 😭💸",
+   "caption": "💾 SAVE this for your next Aldi grocery run — creamy dinners when payday's weeks away 😭🛒\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Creamy Harissa Chicken Couscous\n3. Cheesy Tomato Pasta\n4. Creamy Garlic Chicken Gnocchi\n5. Creamy Tomato Chicken Pasta\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:creamy-harissa-chicken-couscous-1",
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-tomato-chicken-pasta-1"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "creamy-harissa-chicken-couscous",
+    "cheesy-tomato-pasta",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-tomato-chicken-pasta"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Creamy Harissa Chicken Couscous",
+    "Cheesy Tomato Pasta",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Tomato Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1292,
+    1528
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "creamy",
+    "angle": "save",
+    "label": "creamy dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Creamy Dinners for When You're Broke 😭💸",
+     "subline": "Save these for your next grocery run 🛒",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi LAZY Creamy Dinners for Wiped-Out Nights 😴🍝",
+     "subline": "Ready in 35 minutes or less ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Creamy Dinners to Send Your Roommate 😂🧀",
+     "subline": "Fixes dinner drama in one pan 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Creamy Chicken Dinners That Feel Fancy 😍🍗",
+     "subline": "",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Creamy Pasta & Gnocchi Dinners to Try Tonight 😋🍝",
+     "subline": "Weekend-level comfort, midweek price 👀",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-10-29T09:56:14+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702027136924289046",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-29T09:59:37+00:00"
   }
  ]
 }

@@ -5519,6 +5519,90 @@
    "publish_id": "p_inbox_url~v2.7701794385788356630",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-28T18:56:51+00:00"
+  },
+  {
+   "date": "2026-10-29",
+   "hook": "5 Aldi Dinners That Fix 'Can't Be Bothered' Nights 😴🙌",
+   "subline": "Comfort food without the faff 😍",
+   "title": "5 Aldi Dinners That Fix 'Can't Be Bothered' Nights 😴🙌",
+   "caption": "💾 SAVE this for when you CANNOT be bothered after a proper long shift 😩🍝\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy Beef & Bean Loaded Potatoes\n3. Garlic Butter Sausage & Veggie Skillet\n4. Sticky Korean BBQ Chicken Loaded Fries\n5. Sticky Maple Sausage Traybake\n\nWhich one would you make first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:garlic-butter-sausage-veggie-skillet-2",
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sticky-maple-sausage-traybake-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-beef-bean-loaded-potatoes",
+    "garlic-butter-sausage-veggie-skillet",
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-maple-sausage-traybake"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Maple Sausage Traybake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    296,
+    592
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "loaded",
+    "angle": "tired",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you make first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners That Feel Like a Takeaway, Cheap Night In 😏💸",
+     "subline": "Big taste, tiny budget 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners to Send Your Mate 😂👀",
+     "subline": "Send this to your flatmate 😂",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Dinners That Fix 'Can't Be Bothered' Nights 😴🙌",
+     "subline": "Comfort food without the faff 😍",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners to Start the Weekend Early 😍🍗",
+     "subline": "Thursday sorted — treat night soon 😏",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-29T09:54:36+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-29-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702026881290455062",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-29T09:59:25+00:00"
   }
  ]
 }
