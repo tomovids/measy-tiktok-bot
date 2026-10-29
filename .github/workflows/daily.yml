@@ -6,11 +6,14 @@ on:
     # own time zone) and not yet sent, so a run GitHub skips or delays is made up by the next one.
     # Runs with nothing due finish in under a minute.
     - cron: "17 * * * *"
-    # plus just after the 06:30 and 16:00 drafts are due (summer and winter time)
-    - cron: "35 5 * * *"
-    - cron: "35 6 * * *"
-    - cron: "5 15 * * *"
-    - cron: "5 16 * * *"
+    # plus just after each draft's send window opens (config.toml send_early_hours: 22:30 the evening
+    # before the 06:30 draft, 09:00 for 12:00, 13:00 for 16:00, UK time), in summer and winter time
+    - cron: "35 21 * * *"
+    - cron: "35 22 * * *"
+    - cron: "5 8 * * *"
+    - cron: "5 9 * * *"
+    - cron: "5 12 * * *"
+    - cron: "5 13 * * *"
   workflow_dispatch:
     inputs:
       # cron-job.org starts this at the exact posting times (06:31, 12:01, 16:01 UK) and only what's due is sent.
