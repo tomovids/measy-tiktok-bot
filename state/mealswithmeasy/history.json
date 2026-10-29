@@ -3595,6 +3595,95 @@
    "publish_id": "p_inbox_url~v2.7702027136924289046",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-29T09:59:37+00:00"
+  },
+  {
+   "date": "2026-10-29",
+   "hook": "5 Trader Joe's Creamy Pasta Fixes for a Wiped-Out Night 😩🧀",
+   "subline": "Ready while you collapse on the couch 😋",
+   "title": "5 Trader Joe's Creamy Pasta Fixes for a Wiped-Out Night 😩🧀",
+   "caption": "💾 SAVE this for when you're TOO tired to cook or order takeout 😩🍝\n\n1. Garlic Parmesan Chicken Flatbreads\n2. Creamy Sun-Dried Tomato Chicken Orzo\n3. Creamy Tomato Pasta\n4. Creamy Garlic Chicken Pasta\n5. Garlic Butter Sausage Pasta\n\nWhich one are you making tonight? Pick 1–5 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:creamy-tomato-pasta-1",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:garlic-butter-sausage-pasta-2"
+   ],
+   "groups": [
+    "garlic-parmesan-chicken-flatbreads",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-tomato-pasta",
+    "creamy-garlic-chicken-pasta",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "Garlic Parmesan Chicken Flatbreads",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Tomato Pasta",
+    "Creamy Garlic Chicken Pasta",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    300,
+    556
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "italian",
+    "angle": "tired",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making tonight? Pick 1–5 😋",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Italian Dinners When Payday Feels Ages Away 😭💸",
+     "subline": "Cheap, cozy, zero brain power 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's LAZY Italian Dinners for Exhausted Nights 😴🍝",
+     "subline": "Send this to your exhausted roommate 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Creamy Pasta Fixes for a Wiped-Out Night 😩🧀",
+     "subline": "Ready while you collapse on the couch 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Trader Joe's Dinners Ready in 30 Minutes or Less ⏰🍝",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Garlic & Creamy Dinners to Save Your Night 😋🍝",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-10-29T16:56:22+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-29-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702135142995298326",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-29T16:59:05+00:00"
   }
  ]
 }
