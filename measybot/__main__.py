@@ -145,12 +145,31 @@ def build_due(args, cfg: dict, acct: config.Account, hists: dict[str, History]) 
         log(f"{who}: extra test draft, it won't count as one of today's scheduled posts.")
         return [build(today, index, f"{today.isoformat()}-{now:%H%M%S}")]
 
+    # Drafts are posted by hand at their times, so each one is sent early enough to be waiting in the
+    # inbox: [schedule] send_early_hours before its time (the morning one the evening before). GitHub
+    # runs the hourly check late or skips it, so a draft sent exactly on time would arrive hours late.
+    early = cfg["schedule"].get("send_early_hours") or [0]
+
+    def opens(day: date, i: int) -> datetime:
+        h, m = times[i]
+        return (datetime(day.year, day.month, day.day, h, m, tzinfo=now.tzinfo)
+                - timedelta(hours=early[min(i, len(early) - 1)]))
+
+    def due_count(day: date) -> int:
+        n = 0
+        while n < len(times) and now >= opens(day, n):
+            n += 1
+        return n
+
     # (day, how many of its drafts are due by now); yesterday's leftovers only before today's first draft
     days = []
-    if not (args.force or args.date) and (now.hour, now.minute) < times[0]:
-        days.append((today - timedelta(days=1), len(times)))
-    days.append((today, len(times) if (args.force or args.date)
-                 else sum(1 for t in times if (now.hour, now.minute) >= t)))
+    if args.force or args.date:
+        days.append((today, len(times)))
+    else:
+        if (now.hour, now.minute) < times[0]:
+            days.append((today - timedelta(days=1), len(times)))
+        days.append((today, due_count(today)))
+        days.append((today + timedelta(days=1), due_count(today + timedelta(days=1))))
     out = []
     for day, due in days:
         while (done := hist.count_on(day)) < due:
@@ -166,7 +185,8 @@ def build_due(args, cfg: dict, acct: config.Account, hists: dict[str, History]) 
             log(f"{who}: all {len(times)} of today's drafts ({today}) were sent. Nothing to do.")
         else:
             nxt = times[done]
-            log(f"{who}: it's {now:%H:%M}; the next draft is due at {nxt[0]:02d}:{nxt[1]:02d}. Nothing to do yet.")
+            log(f"{who}: it's {now:%H:%M}; the {nxt[0]:02d}:{nxt[1]:02d} draft goes out from "
+                f"{opens(today, done):%H:%M}. Nothing to do yet.")
     return out
 
 

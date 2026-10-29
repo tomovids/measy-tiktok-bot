@@ -180,11 +180,30 @@ def test_one_run_catches_up_every_due_draft(cfg, monkeypatch, restore_account):
 
 def test_early_run_sends_yesterdays_missing_drafts(cfg, monkeypatch, restore_account):
     import argparse
-    m, made = _fake_build(monkeypatch, "2026-10-13T03:00:00+01:00")    # 03:00 UK, before 07:30
+    m, made = _fake_build(monkeypatch, "2026-10-13T03:00:00+01:00")    # 03:00 UK, before 06:30
     acct = config.get_account(cfg, "measy")
     acfg = m.switch(acct, cfg)
     hists = {a.id: History() for a in config.accounts(cfg)}
     hists["measy"].add({"date": "2026-10-12", "status": SENT})          # only 1 of 3 went out yesterday
     args = argparse.Namespace(date=None, force=False, again=False, slot=None)
     out = m.build_due(args, acfg, acct, hists)
-    assert [e["post"] for e in out] == ["2026-10-12-2", "2026-10-12-3"]
+    # yesterday's two missing drafts, and today's 06:30 one (it's sent from 22:30 the evening before)
+    assert [e["post"] for e in out] == ["2026-10-12-2", "2026-10-12-3", "2026-10-13-1"]
+
+
+def test_drafts_go_out_early_enough_to_be_waiting(cfg, monkeypatch, restore_account):
+    import argparse
+    args = argparse.Namespace(date=None, force=False, again=False, slot=None)
+    acct = config.get_account(cfg, "measy")
+    # 22:45 UK: today's three are done; tomorrow's 06:30 draft is sent tonight
+    m, made = _fake_build(monkeypatch, "2026-10-13T22:45:00+01:00")
+    acfg = m.switch(acct, cfg)
+    hists = {a.id: History() for a in config.accounts(cfg)}
+    for i in range(3):
+        hists["measy"].add({"date": "2026-10-13", "status": SENT})
+    assert [e["post"] for e in m.build_due(args, acfg, acct, hists)] == ["2026-10-14-1"]
+    # 09:10 next day: the 12:00 draft is already out (from 09:00), the 16:00 one isn't yet (from 13:00)
+    m, made = _fake_build(monkeypatch, "2026-10-14T09:10:00+01:00")
+    assert [e["post"] for e in m.build_due(args, acfg, acct, hists)] == ["2026-10-14-2"]
+    m, made = _fake_build(monkeypatch, "2026-10-14T13:05:00+01:00")
+    assert [e["post"] for e in m.build_due(args, acfg, acct, hists)] == ["2026-10-14-3"]

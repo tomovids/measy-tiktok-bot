@@ -4,6 +4,11 @@
 # Measy's drafts: one per time (UK time). The GitHub workflow checks once an hour (GitHub often runs it late), so a draft
 # can arrive a while after its time; a late run sends every draft that is due.
 post_times = ["06:30", "12:00", "16:00"]
+# The drafts are posted by hand at those times, so each is sent this many hours BEFORE its time to be
+# waiting in the inbox (GitHub runs the bot late, often by hours): the 06:30 one from 22:30 the
+# evening before, the others 3 hours ahead. One number per draft; accounts with fewer drafts use the
+# first ones (the last number covers any extra).
+send_early_hours = [8, 3, 3]
 timezone = "Europe/London"
 
 [store_rotation]
