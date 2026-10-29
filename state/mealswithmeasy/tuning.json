@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 23,
+ "scored_posts": 24,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -21,14 +21,14 @@
     "avg_ratio": 1.02
    },
    "fakeaway": {
-    "mult": 1.03,
-    "posts": 2,
-    "avg_ratio": 1.09
+    "mult": 1.14,
+    "posts": 3,
+    "avg_ratio": 1.27
    },
    "cheesy": {
     "mult": 1.07,
     "posts": 3,
-    "avg_ratio": 1.15
+    "avg_ratio": 1.14
    },
    "italian": {
     "mult": 0.97,
@@ -61,7 +61,7 @@
     "avg_ratio": 0.36
    },
    "rice": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -118,7 +118,7 @@
     "avg_ratio": 1.49
    },
    "date-night": {
-    "mult": 1.24,
+    "mult": 1.23,
     "posts": 1,
     "avg_ratio": 1.94
    },
@@ -131,6 +131,11 @@
     "mult": 1.18,
     "posts": 2,
     "avg_ratio": 1.45
+   },
+   "students": {
+    "mult": 1.16,
+    "posts": 1,
+    "avg_ratio": 1.64
    }
   },
   "lead": {
@@ -155,7 +160,7 @@
     "avg_ratio": 1.17
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.39,
+    "mult": 1.38,
     "posts": 2,
     "avg_ratio": 1.96
    },
@@ -185,9 +190,9 @@
     "avg_ratio": 1.44
    },
    "sweet-chilli-beef-noodles": {
-    "mult": 0.84,
-    "posts": 1,
-    "avg_ratio": 0.36
+    "mult": 1.0,
+    "posts": 2,
+    "avg_ratio": 1.0
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
     "mult": 1.11,
@@ -237,15 +242,15 @@
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Creamy Dinners Better Than a Takeout Run 😏",
-   "subline": "",
-   "views": 1210,
+   "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
+   "subline": "Takeout taste without the price 😋",
+   "views": 1246,
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Dinners If You Have ZERO Energy 😭👀",
-   "subline": "Send this to your exhausted roommate 😩",
-   "views": 1101,
+   "hook": "5 Aldi Creamy Dinners Better Than a Takeout Run 😏",
+   "subline": "",
+   "views": 1210,
    "store": "aldius"
   }
  ]
