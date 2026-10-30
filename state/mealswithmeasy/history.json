@@ -3684,6 +3684,75 @@
    "publish_id": "p_inbox_url~v2.7702135142995298326",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-29T16:59:05+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Walmart Meals to Save Your Friday Night From Takeout 🙌🍝",
+   "subline": "Perfect weekend dinner wins 😍",
+   "title": "5 Walmart Meals to Save Your Friday Night From Takeout 🙌🍝",
+   "caption": "💾 SAVE this for when you can't decide what to make this weekend 😭🍜\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Sweet Chili Chicken Noodles\n3. Creamy Garlic Chicken Orzo\n4. Cheesy Pepperoni Pizza Wraps\n5. Honey Soy Beef Noodles\n\nWho are you sending this to first — roommate, partner, or the group chat? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #mealideas",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:sweet-chilli-chicken-noodles-2",
+    "card:creamy-garlic-chicken-orzo-1",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:honey-soy-beef-noodles-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "sweet-chilli-chicken-noodles",
+    "creamy-garlic-chicken-orzo",
+    "cheesy-pepperoni-pizza-wraps",
+    "honey-soy-beef-noodles"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Sweet Chili Chicken Noodles",
+    "Creamy Garlic Chicken Orzo",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Honey Soy Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1296,
+    1412
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "anything",
+    "angle": "send",
+    "label": "a mix of the best dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Who are you sending this to first — roommate, partner, or the group chat? 😂",
+   "tuned": true,
+   "hook_score": null,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Meals to Save Your Friday Night From Takeout 🙌🍝",
+     "subline": "Perfect weekend dinner wins 😍",
+     "score": null
+    }
+   ],
+   "built_at": "2026-10-30T01:21:40+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702264713597634582",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T01:24:11+00:00"
   }
  ]
 }

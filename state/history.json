@@ -5776,6 +5776,95 @@
    "publish_id": "p_inbox_url~v2.7702135145368881174",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-29T16:58:54+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Aldi Rice Bowls from £2.77 a portion 😳🍚",
+   "subline": "Cheap, saucy and proper tasty 😋",
+   "title": "5 Aldi Rice Bowls from £2.77 a portion 😳🍚",
+   "caption": "💾 SAVE this for when someone can NEVER decide what's for tea 😭🍚\n\n1. Sweet Chilli Chicken Rice Bowl\n2. Sticky Honey Garlic Sausage Bowls\n3. Creamy Garlic Chicken Rice\n4. Crispy Sweet Chilli Chicken Bowls\n5. Sticky Teriyaki Sausage Rice Bowls\n\nWhich one would you make first — and who gets the link? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-rice-bowl-1",
+    "card:sticky-honey-garlic-sausage-rice-1",
+    "card:creamy-garlic-chicken-rice-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-2"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-honey-garlic-sausage-rice",
+    "creamy-garlic-chicken-rice",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sticky-teriyaki-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Creamy Garlic Chicken Rice",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    364,
+    736
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "rice",
+    "angle": "send",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one would you make first — and who gets the link? 😂",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls for When You Can't Be Bothered 😩🍚",
+     "subline": "Perfect for the mate who flakes on tea 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Rice Bowls from £2.77 a portion 😳🍚",
+     "subline": "Cheap, saucy and proper tasty 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls to Send Your Other Half 😂🍚",
+     "subline": "Perfect when they ask 'what's for tea?' 😭",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls To Rescue Your Friday Night In 🤤🍚",
+     "subline": "Fakeaway vibes without the delivery fee 💸",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls That Stop 'What's for Tea' Fights 👀🍚",
+     "subline": "Send to the housemate who never decides 😂",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-30T01:20:43+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702264698410043414",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T01:23:58+00:00"
   }
  ]
 }

@@ -3652,6 +3652,100 @@
    "publish_id": "p_inbox_url~v2.7702135279566538774",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-29T16:59:17+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Aldi cosy meat-free dinners for dark, chilly nights 🧀",
+   "subline": "Warm, cheesy and low effort 😋",
+   "title": "5 Aldi cosy meat-free dinners for dark, chilly nights 🧀",
+   "caption": "💾 SAVE this for cosy Friday nights or the weekend when it's cold and dark 😭🫶\n\n1. Garlic Butter Flatbreads\n2. Garlic Butter Halloumi Couscous\n3. Cheesy Tomato Pasta\n4. Sweet Chilli Halloumi Wraps\n5. Creamy Tomato Potato Bake\n\nWhich one are you cooking first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:garlic-butter-flatbreads-1",
+    "card:garlic-butter-halloumi-couscous-2",
+    "card:cheesy-tomato-pasta-1",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:creamy-tomato-potato-bake-1"
+   ],
+   "groups": [
+    "garlic-butter-flatbreads",
+    "garlic-butter-halloumi-couscous",
+    "cheesy-tomato-pasta",
+    "sweet-chilli-halloumi-wraps",
+    "creamy-tomato-potato-bake"
+   ],
+   "dishes": [
+    "Garlic Butter Flatbreads",
+    "Garlic Butter Halloumi Couscous",
+    "Cheesy Tomato Pasta",
+    "Sweet Chilli Halloumi Wraps",
+    "Creamy Tomato Potato Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    312,
+    620
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "veggie",
+    "angle": "cosy",
+    "label": "meat-free dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you cooking first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi meat-free dinners that hug you on cold nights 🫶",
+     "subline": "Ready in 20 minutes or less 🍝",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi meat-free dinners for when you're skint 😭💸",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi veggie dinners to send to your flatmate 😂",
+     "subline": "Cosy night-in winners 🫶",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi meat-free dinners that beat a takeaway 😏",
+     "subline": "All the comfort, less delivery faff 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Aldi meat-free dinners for proper cosy nights 😴",
+     "subline": "Ready in 20 minutes or less 🍝",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi cosy meat-free dinners for dark, chilly nights 🧀",
+     "subline": "Warm, cheesy and low effort 😋",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-10-30T01:23:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-30-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702264698410076182",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T01:24:23+00:00"
   }
  ]
 }
