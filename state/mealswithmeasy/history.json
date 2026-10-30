@@ -3753,6 +3753,100 @@
    "publish_id": "p_inbox_url~v2.7702264713597634582",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-30T01:24:11+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Aldi Takeout Copycats: Tacos, Quesadillas & More 😏🌮",
+   "subline": "Send this to your roommate 😂",
+   "title": "5 Aldi Takeout Copycats: Tacos, Quesadillas & More 😏🌮",
+   "caption": "💾 SAVE this for Friday night in when you want takeout vibes without the price 🤤💸\n\n1. Loaded Taco Baked Potato\n2. Cheesy Taco Rice Skillet\n3. Crispy Beef Taco Rice Bowls\n4. Crispy Beef Burrito Bowls\n5. Cheesy Beef Taco Pasta\n\nWhich one are you making this Friday? 🌮\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:cheesy-beef-taco-pasta-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "cheesy-taco-rice-skillet",
+    "crispy-beef-taco-rice-bowls",
+    "crispy-beef-burrito-bowls",
+    "cheesy-beef-taco-pasta"
+   ],
+   "dishes": [
+    "Loaded Taco Baked Potato",
+    "Cheesy Taco Rice Skillet",
+    "Crispy Beef Taco Rice Bowls",
+    "Crispy Beef Burrito Bowls",
+    "Cheesy Beef Taco Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    536,
+    816
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "mexican",
+    "angle": "friday",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "Friday night fakeaway / Friday night in"
+   },
+   "question": "Which one are you making this Friday? 🌮",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Taco & Burrito Dinners for Friday Night In 🤤🌮",
+     "subline": "Friday fake-takeout, but cheaper 💸",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican Meals That Save Your Paycheck This Weekend 😭💸",
+     "subline": "Big flavors, small effort 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Taco Dinners for When You're Wiped Out 😩🧀",
+     "subline": "",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Takeout Copycats: Tacos, Quesadillas & More 😏🌮",
+     "subline": "Send this to your roommate 😂",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Taco Rice, Burrito Bowls & Quesadillas 😍🛒",
+     "subline": "All Friday-night winners 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners to Stop You Ordering Takeout 😳🔥",
+     "subline": "Skip ordering in, cook at home 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-30T15:04:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-30-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702477598210721814",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T15:07:24+00:00"
   }
  ]
 }

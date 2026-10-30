@@ -5865,6 +5865,169 @@
    "publish_id": "p_inbox_url~v2.7702264698410043414",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-30T01:23:58+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Sainsbury's Dinners Ready in 20 Minutes or Less 😩⏰",
+   "subline": "Perfect for nights you're too knackered 😴",
+   "title": "5 Sainsbury's Dinners Ready in 20 Minutes or Less 😩⏰",
+   "caption": "💾 SAVE this for when you're too knackered to cook after work 😭⏰\n\n1. Cheesy BBQ Loaded Fries\n2. Sticky Beef Noodles\n3. Cheesy Cajun Sausage Gnocchi\n4. Crispy Sweet Chilli Chicken Noodles\n5. Cheesy Cajun Chicken Wraps\n\nWhich one are you making first tonight? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:sticky-beef-noodles-1",
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2",
+    "card:cheesy-cajun-chicken-wraps-2"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "sticky-beef-noodles",
+    "cheesy-cajun-sausage-gnocchi",
+    "crispy-sweet-chilli-chicken-noodles",
+    "cheesy-cajun-chicken-wraps"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Sticky Beef Noodles",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Crispy Sweet Chilli Chicken Noodles",
+    "Cheesy Cajun Chicken Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1228,
+    1536
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "quick",
+    "angle": "tired",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first tonight? 👇",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Dinners Ready in 20 Minutes or Less 😩⏰",
+     "subline": "Perfect for nights you're too knackered 😴",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's Dinners When You Can't Be Bothered 😭🍝",
+     "subline": "Fakeaway vibes, effort = ZERO 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's Dinners to Save Your Friday Night 😍🍔",
+     "subline": "Keep the takeaway for tomorrow 🤤",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Sainsbury's 20-Min Dinners for When You're DONE 😴⏰",
+     "subline": "",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-30T15:00:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702477481693186070",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T15:06:59+00:00"
+  },
+  {
+   "date": "2026-10-30",
+   "hook": "5 Aldi Sausage Dinners That Stop Family Moaning 😏",
+   "subline": "Feed the lot with zero moans 👀",
+   "title": "5 Aldi Sausage Dinners That Stop Family Moaning 😏",
+   "caption": "💾 SAVE this for Friday night when everyone's hungry and you're knackered 😂\n\n1. Honey Soy Sausage Noodle Bowls\n2. Sticky Maple Sausage Traybake\n3. Garlic Sausage Rice Bowls\n4. Garlic Butter Sausage & Veggie Skillet\n5. Creamy Garlic Sausage Pasta\n\nWhich one would your lot moan least about? 😏\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #sausagerecipes #comfortfood",
+   "files": [
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:creamy-garlic-sausage-pasta-2"
+   ],
+   "groups": [
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-maple-sausage-traybake",
+    "garlic-sausage-rice-bowls",
+    "garlic-butter-sausage-veggie-skillet",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Maple Sausage Traybake",
+    "Garlic Sausage Rice Bowls",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    276,
+    612
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "sausage",
+    "angle": "family",
+    "label": "sausage dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would your lot moan least about? 😏",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sausage Dinners That Stop Family Moaning 😏",
+     "subline": "Feed the lot with zero moans 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Sausage Meals to Save Your Friday Night 😋",
+     "subline": "Perfect for a cosy Friday in 💚",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Sausage Dinners That Feel Like a Treat 😍",
+     "subline": "No faff, big smiles at the table 🍝",
+     "score": 7.1
+    }
+   ],
+   "built_at": "2026-10-30T15:02:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-30-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702477510521341974",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-30T15:07:11+00:00"
   }
  ]
 }
