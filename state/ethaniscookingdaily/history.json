@@ -3830,6 +3830,85 @@
    "publish_id": "p_inbox_url~v2.7702477611091593238",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-30T15:07:36+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "hook": "5 Aldi Loaded Dinners That Save You From a Takeaway 💸🍔",
+   "subline": "Big flavour, tiny faff 😋",
+   "title": "5 Aldi Loaded Dinners That Save You From a Takeaway 💸🍔",
+   "caption": "💾 SAVE this for Saturday night when you're about to order a takeaway 😩🍔\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy Beef & Bean Loaded Potatoes\n3. Cheesy Buffalo Chicken Potato Skins\n4. Cheesy BBQ Loaded Potatoes\n5. BBQ Sausage Loaded Potatoes\n\nWhich one are you making first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:bbq-sausage-loaded-potatoes-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-beef-bean-loaded-potatoes",
+    "cheesy-buffalo-chicken-potato-skins",
+    "cheesy-bbq-loaded-potatoes",
+    "bbq-sausage-loaded-potatoes"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Cheesy BBQ Loaded Potatoes",
+    "BBQ Sausage Loaded Potatoes"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    272,
+    704
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "loaded",
+    "angle": "plan-today",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one are you making first? 😋",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Loaded Dinners That Save You From a Takeaway 💸🍔",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners to Send to Your Housemate 😂🛒",
+     "subline": "Shareable (or hoard them) 🤤",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners to Make This Saturday Night 😍🍔",
+     "subline": "Weekend dinner, sorted 😩",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-31T00:48:54+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702627434541336598",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-31T00:50:13+00:00"
   }
  ]
 }

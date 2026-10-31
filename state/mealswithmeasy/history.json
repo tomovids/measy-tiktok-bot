@@ -3847,6 +3847,90 @@
    "publish_id": "p_inbox_url~v2.7702477598210721814",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-30T15:07:24+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "hook": "5 Trader Joe's Chicken Dinners for Your First Apartment 😏🍗",
+   "subline": "Solo recipes that actually taste good 😋",
+   "title": "5 Trader Joe's Chicken Dinners for Your First Apartment 😏🍗",
+   "caption": "💾 SAVE this for when you're on a student budget or living solo 😭🛒\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. One-Pan Tomato Chicken Orzo\n3. Garlic-Butter Chicken Flatbreads\n4. Sticky BBQ Chicken Rice Bowls\n5. Cheesy BBQ Pulled Chicken Nachos\n\nWhich one are you making first? 🤤\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:garlic-butter-chicken-flatbreads-1",
+    "card:sticky-bbq-chicken-rice-bowls-1",
+    "card:cheesy-bbq-pulled-chicken-nachos-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "one-pan-tomato-chicken-orzo",
+    "garlic-butter-chicken-flatbreads",
+    "sticky-bbq-chicken-rice-bowls",
+    "cheesy-bbq-pulled-chicken-nachos"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "One-Pan Tomato Chicken Orzo",
+    "Garlic-Butter Chicken Flatbreads",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Cheesy BBQ Pulled Chicken Nachos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    632,
+    864
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "chicken",
+    "angle": "students",
+    "label": "chicken dinners",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one are you making first? 🤤",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Chicken Dinners for Broke, Wiped-Out Nights 😭🍗",
+     "subline": "Student-friendly, tiny-effort wins 🍚",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners for Your First Apartment 😏🍗",
+     "subline": "Solo recipes that actually taste good 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners That Impress Your Friends 😍🍗",
+     "subline": "Dinner that gets roommate applause 😍",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Cheesy Chicken Dinners for Tiny Budgets 😭🧀",
+     "subline": "Cheesy, saucy, total comfort food 🧀",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-10-31T00:47:36+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-10-31-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702627445354104854",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-31T00:50:01+00:00"
   }
  ]
 }
