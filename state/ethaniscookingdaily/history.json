@@ -3909,6 +3909,90 @@
    "publish_id": "p_inbox_url~v2.7702627434541336598",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-31T00:50:13+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "hook": "5 Lidl Italian-style Dinners That Feel Like Going Out 🤤🍝",
+   "subline": "Cosy, cheesy and proper impressive 😏",
+   "title": "5 Lidl Italian-style Dinners That Feel Like Going Out 🤤🍝",
+   "caption": "💾 SAVE this for your Saturday night in — when takeaway feels like too much faff 😭🍝\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Creamy Pesto Chicken Gnocchi\n3. Creamy Garlic Chicken Pasta\n4. Cheesy Beef Taco Pasta\n5. Cheesy Pepperoni Pizza Wraps\n\nWhich one are you cooking first this weekend? Tell us 😍\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:cheesy-beef-taco-pasta-1",
+    "card:cheesy-pepperoni-pizza-wraps-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-garlic-chicken-pasta",
+    "cheesy-beef-taco-pasta",
+    "cheesy-pepperoni-pizza-wraps"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Garlic Chicken Pasta",
+    "Cheesy Beef Taco Pasta",
+    "Cheesy Pepperoni Pizza Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    508,
+    764
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "italian",
+    "angle": "saturday",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "Saturday night in, better than going out"
+   },
+   "question": "Which one are you cooking first this weekend? Tell us 😍",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Pasta Nights For When You're Properly Knackered 😩🍝",
+     "subline": "Quick, cosy and zero faff 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl Saturday Night Italian Meals to Impress Your Mates 😍🍝",
+     "subline": "Share this with your flatmate 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Lidl Gnocchi & Pasta Dinners If You're Skint 😭🧀",
+     "subline": "Comfort food that stretches a shop 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Italian-style Dinners That Feel Like Going Out 🤤🍝",
+     "subline": "Cosy, cheesy and proper impressive 😏",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-10-31T13:41:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-10-31-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702826641957079062",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-31T13:43:38+00:00"
   }
  ]
 }

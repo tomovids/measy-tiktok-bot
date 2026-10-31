@@ -6117,6 +6117,169 @@
    "publish_id": "p_inbox_url~v2.7702627472319301654",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-31T00:49:48+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "hook": "5 Asda Fakeaways That Beat a Takeaway Tonight 😏🍜",
+   "subline": "Weekend fakeaways, cheaper & tastier 😋",
+   "title": "5 Asda Fakeaways That Beat a Takeaway Tonight 😏🍜",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Loaded BBQ Beef Nachos\n2. Sweet Chilli Beef Noodles\n3. Garlic Parmesan Chicken Flatbreads\n4. Sticky Hoisin Beef Flatbreads\n5. Crispy Sweet Chilli Halloumi Burgers\n\nWhich one are you making tonight — rate them out of 10? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:sweet-chilli-beef-noodles-1",
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "sweet-chilli-beef-noodles",
+    "garlic-parmesan-chicken-flatbreads",
+    "sticky-hoisin-beef-flatbreads",
+    "crispy-sweet-chilli-halloumi-burgers"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Sweet Chilli Beef Noodles",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Sticky Hoisin Beef Flatbreads",
+    "Crispy Sweet Chilli Halloumi Burgers"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    496,
+    688
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "takeaway",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making tonight — rate them out of 10? 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Fakeaways That Beat a Takeaway Tonight 😏🍜",
+     "subline": "Weekend fakeaways, cheaper & tastier 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Asda Dinners to Stop You Ordering Takeaway 😩🍔",
+     "subline": "Send this to your flatmate 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Asda Dinners That Feel Like a Takeaway 😏🍝",
+     "subline": "No effort, big flavour 🤤",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Takeaway Copycats to Save Your Weekend 🤤🍜",
+     "subline": "Better than ordering in, trust us 😏",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-10-31T13:38:13+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702826484175702038",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-31T13:43:03+00:00"
+  },
+  {
+   "date": "2026-10-31",
+   "hook": "5 Aldi Wraps to Rescue Your Weekend In 😏🙌",
+   "subline": "Quick comfort for dark, knackered nights 😩",
+   "title": "5 Aldi Wraps to Rescue Your Weekend In 😏🙌",
+   "caption": "💾 SAVE this for a cosy Saturday night in when you just want cheesy comfort 😋🫶\n\n1. Creamy Cajun Chicken Flatbreads\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Crispy Bean Quesadillas\n4. Cheesy Taco Quesadillas\n5. Buffalo Chicken Quesadillas\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:crispy-bean-quesadillas-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:buffalo-chicken-quesadillas-2"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "crispy-bean-quesadillas",
+    "cheesy-taco-quesadillas",
+    "buffalo-chicken-quesadillas"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Crispy Bean Quesadillas",
+    "Cheesy Taco Quesadillas",
+    "Buffalo Chicken Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    516,
+    860
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "handheld",
+    "angle": "cosy",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Flatbreads That Feel Like a Proper Treat 😍🍗",
+     "subline": "Cosy, cheesy and no faff 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Quesadillas for a Cosy Saturday Night 😏🧀",
+     "subline": "Perfect for staying in this weekend 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Wraps to Rescue Your Weekend In 😏🙌",
+     "subline": "Quick comfort for dark, knackered nights 😩",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-10-31T13:39:18+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-10-31-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702826641956882454",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-10-31T13:43:14+00:00"
   }
  ]
 }
