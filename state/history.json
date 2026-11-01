@@ -6364,6 +6364,85 @@
    "publish_id": "p_inbox_url~v2.7702992636491450390",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-01T00:29:28+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Lidl Dinners for Properly Knackered Nights 😴🍚",
+   "subline": "When cooking feels like too much 😩",
+   "title": "5 Lidl Dinners for Properly Knackered Nights 😴🍚",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook after a long day 😭🍚\n\n1. Crispy Beef Taco Rice Bowls\n2. Creamy Harissa Chicken Couscous\n3. Sweet Chilli Chicken Noodles\n4. Honey Soy Beef Noodles\n5. Creamy Garlic Chicken Gnocchi\n\nWhich one are you cooking first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:creamy-harissa-chicken-couscous-1",
+    "card:sweet-chilli-chicken-noodles-1",
+    "card:honey-soy-beef-noodles-2",
+    "card:creamy-garlic-chicken-gnocchi-2"
+   ],
+   "groups": [
+    "crispy-beef-taco-rice-bowls",
+    "creamy-harissa-chicken-couscous",
+    "sweet-chilli-chicken-noodles",
+    "honey-soy-beef-noodles",
+    "creamy-garlic-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Crispy Beef Taco Rice Bowls",
+    "Creamy Harissa Chicken Couscous",
+    "Sweet Chilli Chicken Noodles",
+    "Honey Soy Beef Noodles",
+    "Creamy Garlic Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    436,
+    740
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "anything",
+    "angle": "tired",
+    "label": "a mix of the best dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you cooking first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Dinners for Properly Knackered Nights 😴🍚",
+     "subline": "When cooking feels like too much 😩",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Lidl Dinners That Feel Like a FAKEAWAY 🤤🍜",
+     "subline": "All the takeout vibes, none of the faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Lidl dinners for nights you can't be bothered 😭😴",
+     "subline": "Minimal effort, maximum comfort food 🙌",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-11-01T09:13:31+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703128397312182294",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T09:14:12+00:00"
   }
  ]
 }
