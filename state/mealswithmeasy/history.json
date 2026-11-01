@@ -4099,6 +4099,90 @@
    "publish_id": "p_inbox_url~v2.7702993204789938198",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-01T00:29:41+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Trader Joe's Cheesy Meals to Send Your Roommate 😂🧀",
+   "subline": "Because they never know what to cook 👀",
+   "title": "5 Trader Joe's Cheesy Meals to Send Your Roommate 😂🧀",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Loaded BBQ Beef Nachos\n2. Garlic Butter Sausage Pasta\n3. Creamy Garlic Chicken Rice\n4. Cheesy Buffalo Chicken Potato Skins\n5. Cheesy BBQ Pulled Chicken Nachos\n\nWhich one are you making first? Who needs this in the group chat? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #cheesy #comfortfood",
+   "files": [
+    "card:loaded-bbq-beef-nachos-1",
+    "card:garlic-butter-sausage-pasta-1",
+    "card:creamy-garlic-chicken-rice-1",
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:cheesy-bbq-pulled-chicken-nachos-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "garlic-butter-sausage-pasta",
+    "creamy-garlic-chicken-rice",
+    "cheesy-buffalo-chicken-potato-skins",
+    "cheesy-bbq-pulled-chicken-nachos"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Garlic Butter Sausage Pasta",
+    "Creamy Garlic Chicken Rice",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Cheesy BBQ Pulled Chicken Nachos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    740,
+    880
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "send",
+    "label": "cheesy dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you making first? Who needs this in the group chat? 😂",
+   "tuned": true,
+   "hook_score": 7.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Cheesy Dinners for When You Can't Decide 😩🧀",
+     "subline": "Send this to the person who never knows 👀",
+     "score": 7.3
+    },
+    {
+     "hook": "5 Trader Joe's Cheesy Meals to Send Your Roommate 😂🧀",
+     "subline": "Because they never know what to cook 👀",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Trader Joe's Cheesy Dinners for the Week Before Payday 💸🧀",
+     "subline": "Stretch your grocery run 🛒",
+     "score": 7.2
+    },
+    {
+     "hook": "5 Trader Joe's Cheesy Dinners to Text Your Plus-One 😏🧀",
+     "subline": "Impress without ordering takeout 🤤",
+     "score": 6.3
+    }
+   ],
+   "built_at": "2026-11-01T14:59:28+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703218638899316758",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T15:03:00+00:00"
   }
  ]
 }

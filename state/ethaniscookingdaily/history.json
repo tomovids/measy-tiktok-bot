@@ -4077,6 +4077,85 @@
    "publish_id": "p_inbox_url~v2.7702993204789987350",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-01T00:29:53+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Asda Dinners to Do Your Sunday Reset — Sorted 🙌💚",
+   "subline": "Plan five sticky dinners for a calm week 😋",
+   "title": "5 Asda Dinners to Do Your Sunday Reset — Sorted 🙌💚",
+   "caption": "💾 SAVE this for your Sunday reset before the week starts 😭🛒\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Teriyaki Sausage Rice Bowls\n3. Sticky Honey Garlic Chicken Rice Bowls\n4. Cheesy Beef & Bean Loaded Potatoes\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you cooking first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1",
+    "card:cheesy-beef-bean-loaded-potatoes-1",
+    "card:one-pan-tomato-chicken-orzo-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "cheesy-beef-bean-loaded-potatoes",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    480,
+    672
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "asda",
+   "theme": {
+    "collection": "under-150",
+    "angle": "sunday-reset",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "Sunday reset: sort the week's dinners now"
+   },
+   "question": "Which one are you cooking first? 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Meals to Send Your Housemate Who NEVER Plans 😂🍝",
+     "subline": "They need these sticky fakeaways ASAP 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Asda dinners That Look Fancy, Need Zero Effort 😴🧀",
+     "subline": "Sticky, cheesy, saucy — cheat nights 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Asda Dinners to Do Your Sunday Reset — Sorted 🙌💚",
+     "subline": "Plan five sticky dinners for a calm week 😋",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-01T15:00:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703218660596860950",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T15:03:12+00:00"
   }
  ]
 }
