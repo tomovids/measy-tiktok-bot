@@ -6280,6 +6280,90 @@
    "publish_id": "p_inbox_url~v2.7702826641956882454",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-31T13:43:14+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Aldi Dinners When You Have NO Idea — Under £2 a portion 😩🍝",
+   "subline": "Dinner sorted when you can't be bothered 😩",
+   "title": "5 Aldi Dinners When You Have NO Idea — Under £2 a portion 😩🍝",
+   "caption": "💾 SAVE this for when you have NO idea what's for tea tonight 😭🍜\n\n1. Sticky Chicken Loaded Fries\n2. Creamy Tomato Potato Bake\n3. Sweet Chilli Halloumi Wraps\n4. Honey Chilli Chicken Noodles\n5. Creamy Garlic Chicken Orzo\n\nWhich one are you trying first this week? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:creamy-tomato-potato-bake-2",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:creamy-garlic-chicken-orzo-2"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "creamy-tomato-potato-bake",
+    "sweet-chilli-halloumi-wraps",
+    "honey-chilli-chicken-noodles",
+    "creamy-garlic-chicken-orzo"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Creamy Tomato Potato Bake",
+    "Sweet Chilli Halloumi Wraps",
+    "Honey Chilli Chicken Noodles",
+    "Creamy Garlic Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    460,
+    792
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "no-idea",
+    "label": "dinners under £2 a portion",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you trying first this week? 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Under £2 a portion When You're Skint 😭💸",
+     "subline": "Save these for your next Aldi shop 🛒",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners When You Have NO Idea — Under £2 a portion 😩🍝",
+     "subline": "Dinner sorted when you can't be bothered 😩",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners Better Than a Takeaway — Under £2 a portion 😏🍜",
+     "subline": "Skip the takeaway without the faff 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Weekend Dinners Under £2 a portion 😍🛒",
+     "subline": "Perfect for Sunday prep 😴",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-01T00:25:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-01-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702992636491450390",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T00:29:28+00:00"
   }
  ]
 }

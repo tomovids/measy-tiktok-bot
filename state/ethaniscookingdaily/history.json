@@ -3993,6 +3993,90 @@
    "publish_id": "p_inbox_url~v2.7702826641957079062",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-31T13:43:38+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Aldi LAZY Cheesy Dinners — Zero Drama 😴🧀",
+   "subline": "Properly lazy meals. Zero faff 🫶",
+   "title": "5 Aldi LAZY Cheesy Dinners — Zero Drama 😴🧀",
+   "caption": "💾 SAVE this for when you come home knackered and CAN'T be bothered to cook 😭🧀\n\n1. Loaded Taco Jacket Potato\n2. Creamy Tomato Chicken Pasta\n3. Cheesy Cajun Chicken Wraps\n4. Garlic Sausage Rice Bowls\n5. Cheesy Cajun Sausage Gnocchi\n\nWhich one are you making first? Rate them out of 10 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:loaded-taco-jacket-potato-2",
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:cheesy-cajun-chicken-wraps-2",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:cheesy-cajun-sausage-gnocchi-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "creamy-tomato-chicken-pasta",
+    "cheesy-cajun-chicken-wraps",
+    "garlic-sausage-rice-bowls",
+    "cheesy-cajun-sausage-gnocchi"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Creamy Tomato Chicken Pasta",
+    "Cheesy Cajun Chicken Wraps",
+    "Garlic Sausage Rice Bowls",
+    "Cheesy Cajun Sausage Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    440,
+    756
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "tired",
+    "label": "cheesy dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? Rate them out of 10 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners That Save You Cash 😏💸",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners To Send Your Flatmate 😂🧀",
+     "subline": "Send to your housemate who never cooks 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi LAZY Cheesy Dinners — Zero Drama 😴🧀",
+     "subline": "Properly lazy meals. Zero faff 🫶",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners You Can Whack Together in Minutes 😋🧀",
+     "subline": "",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-01T00:28:38+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-01-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702993204789987350",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T00:29:53+00:00"
   }
  ]
 }

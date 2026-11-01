@@ -4015,6 +4015,90 @@
    "publish_id": "p_inbox_url~v2.7702826799947974678",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-10-31T13:43:27+00:00"
+  },
+  {
+   "date": "2026-11-01",
+   "hook": "5 Aldi Meat-Free Meals When Your Wallet Says NO 😭💸",
+   "subline": "Cheap comfort that actually tastes good 😏",
+   "title": "5 Aldi Meat-Free Meals When Your Wallet Says NO 😭💸",
+   "caption": "💾 SAVE this for the next time you're about to order takeout 😭🍜\n\n1. Crispy Sweet Chili Halloumi Burgers\n2. Garlic Butter Halloumi Couscous\n3. Cheesy Tomato Pasta\n4. Garlic Butter Flatbreads\n5. Crispy Bean Quesadillas\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:garlic-butter-halloumi-couscous-2",
+    "card:cheesy-tomato-pasta-1",
+    "card:garlic-butter-flatbreads-1",
+    "card:crispy-bean-quesadillas-1"
+   ],
+   "groups": [
+    "crispy-sweet-chilli-halloumi-burgers",
+    "garlic-butter-halloumi-couscous",
+    "cheesy-tomato-pasta",
+    "garlic-butter-flatbreads",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Crispy Sweet Chili Halloumi Burgers",
+    "Garlic Butter Halloumi Couscous",
+    "Cheesy Tomato Pasta",
+    "Garlic Butter Flatbreads",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    280,
+    732
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "veggie",
+    "angle": "takeaway",
+    "label": "meat-free dinners",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Meat-Free Dinners That Beat Takeout 😋💸",
+     "subline": "Big flavor, tiny fuss 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Meat-Free Meals When Your Wallet Says NO 😭💸",
+     "subline": "Cheap comfort that actually tastes good 😏",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Vegetarian Dinners That Taste Like Takeout 🤤😏",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Weekend Meat-Free Dinners That Beat Takeout 😍🧀",
+     "subline": "Perfect for lazy Sunday cooking 😴",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-01T00:26:55+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-01-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7702993204789938198",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-01T00:29:41+00:00"
   }
  ]
 }
