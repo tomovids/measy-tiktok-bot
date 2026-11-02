@@ -4156,6 +4156,80 @@
    "publish_id": "p_inbox_url~v2.7703218660596860950",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-01T15:03:12+00:00"
+  },
+  {
+   "date": "2026-11-02",
+   "hook": "5 Aldi creamy dinners that feel like a takeaway 🤤💸",
+   "subline": "Big flavour, tiny faff 👀",
+   "title": "5 Aldi creamy dinners that feel like a takeaway 🤤💸",
+   "caption": "💾 SAVE this for when you need dinner sorted before work 😭⏰\n\n1. Creamy Cajun Chicken Flatbreads\n2. Creamy Tomato Potato Bake\n3. Buffalo Chicken Quesadillas\n4. Garlic Parmesan Chicken Flatbreads\n5. Garlic Sausage Rice Bowls\n\nWhich creamy one are you cooking first? 🤤\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:creamy-tomato-potato-bake-2",
+    "card:buffalo-chicken-quesadillas-1",
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:garlic-sausage-rice-bowls-2"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "creamy-tomato-potato-bake",
+    "buffalo-chicken-quesadillas",
+    "garlic-parmesan-chicken-flatbreads",
+    "garlic-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Creamy Tomato Potato Bake",
+    "Buffalo Chicken Quesadillas",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Garlic Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    228,
+    588
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "creamy",
+    "angle": "plan-today",
+    "label": "creamy dinners",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which creamy one are you cooking first? 🤤",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi creamy dinners for a proper knackered Monday 😩",
+     "subline": "Start the week with comfort food 🙌",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners that feel like a takeaway 🤤💸",
+     "subline": "Big flavour, tiny faff 👀",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-02T00:43:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-02-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703367742438803478",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-02T00:45:03+00:00"
   }
  ]
 }

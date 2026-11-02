@@ -6517,6 +6517,100 @@
    "publish_id": "p_inbox_url~v2.7703218579386648598",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-01T15:02:47+00:00"
+  },
+  {
+   "date": "2026-11-02",
+   "hook": "5 Aldi Chicken Dinners — top one's £2.61 a portion 😳🍗",
+   "subline": "Cosy, saucy and worth it 👀",
+   "title": "5 Aldi Chicken Dinners — top one's £2.61 a portion 😳🍗",
+   "caption": "💾 SAVE this for cosy, dark nights when you can't be bothered to cook 😭🫶\n\n1. Cheesy BBQ Loaded Potatoes\n2. Garlic-Butter Chicken Flatbreads\n3. Hot Honey Chicken Flatbread Pizzas\n4. Creamy Garlic Chicken Pasta\n5. Creamy Pesto Chicken Gnocchi\n\nWhich one are you trying first? 🍗\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:creamy-pesto-chicken-gnocchi-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "garlic-butter-chicken-flatbreads",
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-garlic-chicken-pasta",
+    "creamy-pesto-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Garlic-Butter Chicken Flatbreads",
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Pesto Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    384,
+    696
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "chicken",
+    "angle": "cosy",
+    "label": "chicken dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you trying first? 🍗",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Chicken Dinners for Dark, Cosy Nights 😍🍗",
+     "subline": "Big comfort, tiny effort 💚",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners — top one's £2.61 a portion 😳🍗",
+     "subline": "Cosy, saucy and worth it 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners to Send Your Housemate 😂🍗",
+     "subline": "Send this to your flatmate 😂",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners to Cure Your Takeaway Crave 🤤🍗",
+     "subline": "Fakeaway vibes, zero delivery fee 🤤",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners That RESCUE a Knackered Night 😩🍗",
+     "subline": "Dinner AND a hug for your bank balance 🫶",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners to Cheer a Monday Night 😋🍗",
+     "subline": "Make Monday cosy — duvet & dinner 👀",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-02T00:40:50+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703367742438721558",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-02T00:44:37+00:00"
   }
  ]
 }
