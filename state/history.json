@@ -6611,6 +6611,174 @@
    "publish_id": "p_inbox_url~v2.7703367742438721558",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-02T00:44:37+00:00"
+  },
+  {
+   "date": "2026-11-02",
+   "hook": "5 Tesco Dinners to Rescue a Knackered Monday 😩🍜",
+   "subline": "Asian-style comfort for tonight 👀",
+   "title": "5 Tesco Dinners to Rescue a Knackered Monday 😩🍜",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to decide what's for tea tonight 😭🍜\n\n1. Sticky Korean Beef Rice Bowls\n2. Sweet Chilli Chicken Rice Bowl\n3. Chilli Beef Noodles\n4. Honey Soy Sausage Noodle Bowls\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich one are you making tonight? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:chilli-beef-noodles-1",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:crispy-sweet-chilli-chicken-noodles-1"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "sweet-chilli-chicken-rice-bowl",
+    "chilli-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Sweet Chilli Chicken Rice Bowl",
+    "Chilli Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    592,
+    724
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "asian",
+    "angle": "tonight",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making tonight? 👀",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Asian-style dinners that beat a takeaway 😏🍚",
+     "subline": "Send to your flatmate 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Tesco Meals I'd Make If I Had NO Idea What's for tea 😭🍜",
+     "subline": "Sticky, saucy, ready quick 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Tesco Dinners That Turn Noodles Into a Proper Dinner 😋🍝",
+     "subline": "Send this to your other half 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Tesco Dinners to Rescue a Knackered Monday 😩🍜",
+     "subline": "Asian-style comfort for tonight 👀",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-02T18:12:32+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703640002265139222",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-02T18:18:40+00:00"
+  },
+  {
+   "date": "2026-11-02",
+   "hook": "5 Aldi Dinners When You Have NO Idea What's for Tea 😭",
+   "subline": "Beef mince rescues the week in 25 mins 😋",
+   "title": "5 Aldi Dinners When You Have NO Idea What's for Tea 😭",
+   "caption": "💾 SAVE this for when you have NO idea what's for tea this week 😭🍚\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sticky Beef Rice Bowls\n3. Crispy Beef Burrito Bowls\n4. One-Pan Smoky Beef Orzo\n5. Sticky BBQ Beef Rice Bowls\n\nWhich one would you pick for tonight? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:sticky-beef-rice-bowls-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:one-pan-smoky-beef-orzo-2",
+    "card:sticky-bbq-beef-rice-bowls-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sticky-beef-rice-bowls",
+    "crispy-beef-burrito-bowls",
+    "one-pan-smoky-beef-orzo",
+    "sticky-bbq-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sticky Beef Rice Bowls",
+    "Crispy Beef Burrito Bowls",
+    "One-Pan Smoky Beef Orzo",
+    "Sticky BBQ Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1364,
+    1536
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "beef",
+    "angle": "no-idea",
+    "label": "beef mince and beef dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one would you pick for tonight? 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners When You Have NO Idea What's for Tea 😭",
+     "subline": "Beef mince rescues the week in 25 mins 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Beef Meals to Send Your Other Half 😂",
+     "subline": "",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners to Rescue Your Monday Night 😩",
+     "subline": "Perfect for when you're knackered 😴",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners That Stretch Your Weeknight Shop 👀",
+     "subline": "Big flavour, tiny effort 👀",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-02T18:14:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-02-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703640093306783766",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-02T18:18:52+00:00"
   }
  ]
 }
