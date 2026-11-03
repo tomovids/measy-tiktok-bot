@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 30,
+ "scored_posts": 31,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -46,9 +46,9 @@
     "avg_ratio": 0.79
    },
    "italian": {
-    "mult": 1.08,
-    "posts": 1,
-    "avg_ratio": 1.31
+    "mult": 1.07,
+    "posts": 2,
+    "avg_ratio": 1.16
    },
    "loaded": {
     "mult": 1.13,
@@ -103,9 +103,9 @@
     "avg_ratio": 1.08
    },
    "saturday": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.96
+    "mult": 1.0,
+    "posts": 2,
+    "avg_ratio": 0.99
    },
    "payday": {
     "mult": 1.11,
@@ -231,7 +231,7 @@
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 1.01,
-    "posts": 1,
+    "posts": 2,
     "avg_ratio": 1.02
    },
    "sticky-garlic-beef-loaded-fries": {
@@ -292,7 +292,7 @@
    "garlic-butter-flatbreads": {
     "mult": 0.94,
     "posts": 1,
-    "avg_ratio": 0.77
+    "avg_ratio": 0.76
    }
   }
  },
