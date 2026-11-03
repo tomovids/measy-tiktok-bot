@@ -4403,6 +4403,80 @@
    "publish_id": "p_inbox_url~v2.7703744712386906134",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-03T01:06:57+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Tesco Dinners That Beat a Takeaway — SAUCE FTW 😏🍜",
+   "subline": "",
+   "title": "5 Tesco Dinners That Beat a Takeaway — SAUCE FTW 😏🍜",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook tonight 😩🍜\n\n1. Sticky Chicken Loaded Fries\n2. Sticky Maple Sausage Traybake\n3. Sticky Beef Rice Bowls\n4. Sticky Hoisin Beef Flatbreads\n5. Sweet Chilli Chicken Noodles\n\nWhich one are you making first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:sticky-beef-rice-bowls-2",
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "sticky-maple-sausage-traybake",
+    "sticky-beef-rice-bowls",
+    "sticky-hoisin-beef-flatbreads",
+    "sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Sticky Maple Sausage Traybake",
+    "Sticky Beef Rice Bowls",
+    "Sticky Hoisin Beef Flatbreads",
+    "Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    544,
+    640
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "tesco",
+   "theme": {
+    "collection": "sticky",
+    "angle": "no-idea",
+    "label": "sticky, saucy dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Dinners I'd Make If I'm Properly Skint 😭💸",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Tesco Dinners That Beat a Takeaway — SAUCE FTW 😏🍜",
+     "subline": "",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-03T16:14:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-03-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703979715039709206",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T16:16:32+00:00"
   }
  ]
 }

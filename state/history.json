@@ -6868,6 +6868,184 @@
    "publish_id": "p_inbox_url~v2.7703744634153076758",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-03T01:06:33+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Sainsbury's noodle dinners ready in 25 minutes ⏰🍜",
+   "subline": "Perfect for a knackered Tuesday 😴",
+   "title": "5 Sainsbury's noodle dinners ready in 25 minutes ⏰🍜",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook tonight 😭🍜\n\n1. Sweet Chilli Beef Noodles\n2. Honey Soy Sausage Noodle Bowls\n3. Honey Soy Beef Noodles\n4. Sticky Beef Noodles\n5. Honey Chilli Chicken Noodles\n\nWhich one would you try first? Tell us 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #noodles #stirfry",
+   "files": [
+    "card:sweet-chilli-beef-noodles-2",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:honey-soy-beef-noodles-1",
+    "card:sticky-beef-noodles-2",
+    "card:honey-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sweet-chilli-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "honey-soy-beef-noodles",
+    "sticky-beef-noodles",
+    "honey-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sweet Chilli Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Honey Soy Beef Noodles",
+    "Sticky Beef Noodles",
+    "Honey Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    692,
+    828
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "noodles",
+    "angle": "tired",
+    "label": "noodle dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you try first? Tell us 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's noodle dinners cheaper than a takeaway 😏🍜",
+     "subline": "Send this to your flatmate 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Sainsbury's noodle dinners to stop you ordering a takeaway 😂🍜",
+     "subline": "Better than ordering in 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's noodle dinners ready in 25 minutes ⏰🍜",
+     "subline": "Perfect for a knackered Tuesday 😴",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's LAZY noodle dinners when you can't be bothered 😏🍜",
+     "subline": "",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-03T16:07:24+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703979482805372950",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T16:15:54+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Aldi Dinners That Bring the Heat, Not the Bill 😩🔥",
+   "subline": "",
+   "title": "5 Aldi Dinners That Bring the Heat, Not the Bill 😩🔥",
+   "caption": "💾 SAVE this for the next time you're about to order a takeaway 😭🍜\n\n1. Loaded Taco Jacket Potato\n2. Crispy Beef Taco Rice Bowls\n3. Cheesy Buffalo Chicken Potato Skins\n4. Cheesy Cajun Chicken Wraps\n5. Creamy Harissa Chicken Couscous\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-2",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:cheesy-cajun-chicken-wraps-1",
+    "card:creamy-harissa-chicken-couscous-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-buffalo-chicken-potato-skins",
+    "cheesy-cajun-chicken-wraps",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Cheesy Cajun Chicken Wraps",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1068,
+    1428
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "spicy",
+    "angle": "repeat",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners with a Kick I'd Make on REPEAT 🔥😋",
+     "subline": "Always hits the spot 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Bring the Heat, Not the Bill 😩🔥",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners to Send Your Housemate Who Loves Spice 😂🔥",
+     "subline": "Send this to the spicy stan in your life 😂",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway on Spice 😏🔥",
+     "subline": "Way better than takeaway night 🤤",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Midweek Dinners That Add Proper Kick 🔥🙌",
+     "subline": "Perfect for a Tuesday tea 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Aldi dinners with a Kick for Knackered Nights 😴🔥",
+     "subline": "Low fuss, big heat 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-03T16:09:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703979483820410902",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T16:16:07+00:00"
   }
  ]
 }

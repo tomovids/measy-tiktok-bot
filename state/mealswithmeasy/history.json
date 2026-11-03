@@ -4430,6 +4430,100 @@
    "publish_id": "p_inbox_url~v2.7703744712386840598",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-03T01:06:45+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Walmart Wraps I'd Make If I Had ZERO Energy 😴🛒",
+   "subline": "No-guess weeknight winners 🙌",
+   "title": "5 Walmart Wraps I'd Make If I Had ZERO Energy 😴🛒",
+   "caption": "💾 SAVE this for when you have NO idea what's for dinner 😭🛒\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Cheesy Pepperoni Pizza Wraps\n3. Sweet Chili Halloumi Wraps\n4. Garlic-Butter Chicken Flatbreads\n5. Cheesy Taco Quesadillas\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #wraps #flatbread",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:cheesy-taco-quesadillas-1"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "cheesy-pepperoni-pizza-wraps",
+    "sweet-chilli-halloumi-wraps",
+    "garlic-butter-chicken-flatbreads",
+    "cheesy-taco-quesadillas"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Sweet Chili Halloumi Wraps",
+    "Garlic-Butter Chicken Flatbreads",
+    "Cheesy Taco Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    836,
+    892
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "handheld",
+    "angle": "no-idea",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Wraps & Flatbreads for When You Can't Decide 😩🍔",
+     "subline": "Ready in 20 minutes or less 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Quesadillas & Wraps That Beat Takeout 😏🍗",
+     "subline": "Cheesy, fast weeknight winners 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart Cheesy Flatbreads to Fix 'I Don't Know Dinner' 😭🧀",
+     "subline": "Send this to your roommate 😂",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Walmart Wraps I'd Make If I Had ZERO Energy 😴🛒",
+     "subline": "No-guess weeknight winners 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Walmart Flatbreads That Make Ordering Out Look Lazy 😏💸",
+     "subline": "Hot honey + garlic-butter hits 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Wraps to Rescue Your Tuesday Night 😩🍔",
+     "subline": "Quick, cheesy, no-brainer meals 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-03T16:11:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703979512778164246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T16:16:20+00:00"
   }
  ]
 }
