@@ -6779,6 +6779,95 @@
    "publish_id": "p_inbox_url~v2.7703640093306783766",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-02T18:18:52+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Aldi Sticky, Saucy Dinners That Beat a Takeaway 🤤",
+   "subline": "Big flavour, zero drama 😏",
+   "title": "5 Aldi Sticky, Saucy Dinners That Beat a Takeaway 🤤",
+   "caption": "💾 SAVE this for when the whole family's moaning about dinner 😩🍚\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Teriyaki Sausage Rice Bowls\n3. Sticky Honey Garlic Sausage Bowls\n4. Sticky BBQ Chicken Rice Bowls\n5. Sticky Honey Garlic Chicken Rice Bowls\n\nWhich one are you cooking first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:sticky-honey-garlic-sausage-rice-2",
+    "card:sticky-bbq-chicken-rice-bowls-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-bbq-chicken-rice-bowls",
+    "sticky-honey-garlic-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Sticky Honey Garlic Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    164,
+    608
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "family",
+    "label": "sticky, saucy dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you cooking first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky Dinners to Make Everyone Eat 😋",
+     "subline": "Ready in 30 minutes or less 🍚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners That Beat a Takeaway 🤤",
+     "subline": "Big flavour, zero drama 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Saucy Meals Everyone Will Actually Eat 😏",
+     "subline": "",
+     "score": 0.0
+    },
+    {
+     "hook": "5 Aldi Sticky Chicken & Sausage Dinners That Impress 😋",
+     "subline": "Cheap, saucy family wins 💸",
+     "score": 0.0
+    },
+    {
+     "hook": "5 Aldi Saucy Dinners That Save Your Tuesday Night 😩🍗",
+     "subline": "Perfect for a proper knackered weeknight 😴",
+     "score": 0.0
+    }
+   ],
+   "built_at": "2026-11-03T01:02:05+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-03-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703744634153076758",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T01:06:33+00:00"
   }
  ]
 }

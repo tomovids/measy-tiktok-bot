@@ -4341,6 +4341,95 @@
    "publish_id": "p_inbox_url~v2.7703640093861234710",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-02T18:19:04+00:00"
+  },
+  {
+   "date": "2026-11-03",
+   "hook": "5 Trader Joe's Creamy Dinners That Make Takeout Jealous 🤤🍝",
+   "subline": "Comfort food, no delivery wait 😋",
+   "title": "5 Trader Joe's Creamy Dinners That Make Takeout Jealous 🤤🍝",
+   "caption": "💾 SAVE this for the week you're about to order takeout — family dinner, no moaning 😭🍝\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Garlic Butter Chicken & Rice\n3. Creamy Tuscan Chicken Pasta\n4. Creamy Garlic Sausage Pasta\n5. Creamy Garlic Chicken Gnocchi\n\nWhich one should you make first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:garlic-butter-chicken-and-rice-1",
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:creamy-garlic-sausage-pasta-1",
+    "card:creamy-garlic-chicken-gnocchi-1"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "garlic-butter-chicken-and-rice",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-garlic-sausage-pasta",
+    "creamy-garlic-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Garlic Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1184,
+    1312
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "creamy",
+    "angle": "family",
+    "label": "creamy dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one should you make first? Tell us below 😋",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Creamy Dinners That End Dinner Drama 😏🧀",
+     "subline": "Family-friendly, no moaning allowed 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Creamy Dinners That Make Takeout Jealous 🤤🍝",
+     "subline": "Comfort food, no delivery wait 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Creamy Dinners To Send Your Partner 😂🧀",
+     "subline": "No one can complain after these 🙌",
+     "score": 5.0
+    },
+    {
+     "hook": "5 LAZY Trader Joe's Creamy Dinners Ready to Impress 😴🍝",
+     "subline": "Dinner done without the moaning 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Creamy Dinners That Feed The Whole Fam 😳🍚",
+     "subline": "Kid-approved, grown-ups satisfied 😏",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-03T01:03:46+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-03-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7703744712386840598",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-03T01:06:45+00:00"
   }
  ]
 }
