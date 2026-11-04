@@ -4613,6 +4613,95 @@
    "publish_id": "p_inbox_url~v2.7704125148386854934",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-04T01:42:47+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "hook": "5 Trader Joe's Chicken Dinners I'd Make on Repeat 😋🍗",
+   "subline": "Family favorites that always hit 😋",
+   "title": "5 Trader Joe's Chicken Dinners I'd Make on Repeat 😋🍗",
+   "caption": "💾 SAVE this for when you want dinners on repeat this week 😋🍗\n\n1. Cheesy BBQ Loaded Potatoes\n2. Creamy Pesto Chicken Gnocchi\n3. Crispy Sweet Chili Chicken Noodles\n4. Cheesy BBQ Loaded Fries\n5. Creamy Garlic Chicken Pasta\n\nWhich one would you make first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:crispy-sweet-chilli-chicken-noodles-1",
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:creamy-garlic-chicken-pasta-1"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "creamy-pesto-chicken-gnocchi",
+    "crispy-sweet-chilli-chicken-noodles",
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-garlic-chicken-pasta"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Creamy Pesto Chicken Gnocchi",
+    "Crispy Sweet Chili Chicken Noodles",
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Garlic Chicken Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    736,
+    816
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "chicken",
+    "angle": "repeat",
+    "label": "chicken dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you make first? Tell us below 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Chicken Dinners I'd Make on Repeat 😋🍗",
+     "subline": "Family favorites that always hit 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners for When Payday's Ages Away 😭💸",
+     "subline": "Stretch your grocery run 😩",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners That Always Get Praise 😏🍗",
+     "subline": "The meals guests actually ask for 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Trader Joe's Chicken Dinners for Wiped-Out Nights 😴🍗",
+     "subline": "Minimal fuss, max flavor 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Chicken Dinners That Save Your Weeknight 😩🍗",
+     "subline": "Dinner solved for busy Wednesdays 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-04T16:13:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704352119944284182",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-04T16:22:30+00:00"
   }
  ]
 }

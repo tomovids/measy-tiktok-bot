@@ -7202,6 +7202,171 @@
    "status": "FAILED",
    "error": "TikTok error photo_pull_failed: TikTok could not make the draft\nTikTok couldn't download the slides from GitHub Pages. Run the workflow again; if it keeps happening, check the Pages site is up.",
    "sent_at": "2026-11-04T10:51:44+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "hook": "5 Asda Rice Bowls When You're Properly Skint Midweek 😭💸",
+   "subline": "Saucy dinners to stretch your shop 💚",
+   "title": "5 Asda Rice Bowls When You're Properly Skint Midweek 😭💸",
+   "caption": "💾 SAVE this for when Wednesday hits and you've got ZERO ideas for tea 😭🍚\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky BBQ Chicken Rice Bowls\n3. Sticky Teriyaki Sausage Rice Bowls\n4. Crispy Beef Taco Rice Bowls\n5. Creamy Garlic Chicken Rice\n\nWhich one are you making tonight? Rate them out of 10 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:creamy-garlic-chicken-rice-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-bbq-chicken-rice-bowls",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "crispy-beef-taco-rice-bowls",
+    "creamy-garlic-chicken-rice"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Crispy Beef Taco Rice Bowls",
+    "Creamy Garlic Chicken Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": null,
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "rice",
+    "angle": "midweek",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you making tonight? Rate them out of 10 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Rice Bowls to Rescue Your Wednesday Night 😩🍚",
+     "subline": "Midweek slump sorted 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Dinners to Stop the 'what's for tea' Drama 😂🍚",
+     "subline": "Rice bowls that taste like a takeaway 🤤",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Rice Bowls When You're Properly Skint Midweek 😭💸",
+     "subline": "Saucy dinners to stretch your shop 💚",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Asda Sticky Rice Bowls That Beat a Takeaway 😏🍚",
+     "subline": "Loaded fries + bowls = midweek win 😋",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Asda LAZY Rice Bowls for When You're Done 😴🍚",
+     "subline": "Minimal effort, maximum comfort 😍",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Asda Fakeaway Rice Bowls That Feel Decent 😏🍚",
+     "subline": "Send to your pals who always order in 👀",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-04T16:11:02+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704352057287346198",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-04T16:22:05+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "hook": "5 Aldi Creamy Dinners for a Wiped-Out Wednesday 😴",
+   "subline": "",
+   "title": "5 Aldi Creamy Dinners for a Wiped-Out Wednesday 😴",
+   "caption": "💾 SAVE this for when you're too knackered to decide what's for tea 😭😴\n\n1. Buffalo Chicken Quesadillas\n2. Creamy Peri-Peri Chicken Pasta\n3. Garlic Parmesan Chicken Flatbreads\n4. Creamy Cajun Chicken Flatbreads\n5. Creamy Lemon Chicken Orzo\n\nWhich creamy one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:buffalo-chicken-quesadillas-1",
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:garlic-parmesan-chicken-flatbreads-2",
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:creamy-lemon-chicken-orzo-2"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "creamy-peri-peri-chicken-pasta",
+    "garlic-parmesan-chicken-flatbreads",
+    "creamy-cajun-chicken-flatbreads",
+    "creamy-lemon-chicken-orzo"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Creamy Cajun Chicken Flatbreads",
+    "Creamy Lemon Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    296,
+    552
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "creamy",
+    "angle": "no-idea",
+    "label": "creamy dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which creamy one are you making first? 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Creamy Dinners to Send Your Flatmate 😂",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Creamy Dinners for a Wiped-Out Wednesday 😴",
+     "subline": "",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-04T16:12:23+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-04-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704352211304056854",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-04T16:22:17+00:00"
   }
  ]
 }

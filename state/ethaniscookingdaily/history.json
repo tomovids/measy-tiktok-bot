@@ -4566,6 +4566,85 @@
    "publish_id": "p_inbox_url~v2.7704125055585257494",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-04T01:42:59+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "hook": "5 Lidl One-Pan Italian Dinners to Stretch Your Shop 💸🛒",
+   "subline": "Less washing up, more pasta 😋",
+   "title": "5 Lidl One-Pan Italian Dinners to Stretch Your Shop 💸🛒",
+   "caption": "💾 SAVE this for your next Lidl shop when takeaway looks tempting 😭🍝\n\n1. Cheesy Pepperoni Pizza Wraps\n2. Creamy Garlic Chicken Gnocchi\n3. Creamy Garlic Sausage Pasta\n4. Cheesy Cajun Sausage Gnocchi\n5. One-Pan Smoky Beef Orzo\n\nWhich one are you making first? Pick one! 🍝\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:one-pan-smoky-beef-orzo-2"
+   ],
+   "groups": [
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-garlic-sausage-pasta",
+    "cheesy-cajun-sausage-gnocchi",
+    "one-pan-smoky-beef-orzo"
+   ],
+   "dishes": [
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Garlic Sausage Pasta",
+    "Cheesy Cajun Sausage Gnocchi",
+    "One-Pan Smoky Beef Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    276,
+    628
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "italian",
+    "angle": "save",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making first? Pick one! 🍝",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Pasta & Gnocchi Dinners to Send Your Flatmate 😂🍝",
+     "subline": "Stop the 'what's for tea?' moaning 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl LAZY Italian Dinners Ready in 25 Minutes or Less ⏰🍝",
+     "subline": "Perfect for a wiped-out Wednesday 😴",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl One-Pan Italian Dinners to Stretch Your Shop 💸🛒",
+     "subline": "Less washing up, more pasta 😋",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-04T16:14:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-04-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704352211304220694",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-04T16:22:42+00:00"
   }
  ]
 }
