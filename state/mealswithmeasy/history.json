@@ -4524,6 +4524,95 @@
    "publish_id": "p_inbox_url~v2.7703979512778164246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-03T16:16:20+00:00"
+  },
+  {
+   "date": "2026-11-04",
+   "hook": "5 Aldi Rice Bowls to RESCUE Your Midweek Dinner 🙌🍚",
+   "subline": "All ready in 25 minutes or less ⏰",
+   "title": "5 Aldi Rice Bowls to RESCUE Your Midweek Dinner 🙌🍚",
+   "caption": "💾 SAVE this for when it's only Wednesday and payday feels miles away 😭💸\n\n1. Sticky Korean Beef Rice Bowls\n2. Crispy Beef Burrito Bowls\n3. Garlic Sausage Rice Bowls\n4. Sweet Chili Chicken Rice Bowl\n5. Crispy Sweet Chili Chicken Bowls\n\nWhich one are you making first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #ricebowl #copycatrecipes",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:crispy-sweet-chilli-chicken-bowls-2"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "crispy-beef-burrito-bowls",
+    "garlic-sausage-rice-bowls",
+    "sweet-chilli-chicken-rice-bowl",
+    "crispy-sweet-chilli-chicken-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Crispy Beef Burrito Bowls",
+    "Garlic Sausage Rice Bowls",
+    "Sweet Chili Chicken Rice Bowl",
+    "Crispy Sweet Chili Chicken Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    640,
+    868
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "rice",
+    "angle": "midweek",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Rice Bowls That STRETCH Your Grocery Run 💸🍚",
+     "subline": "More dinner, less grocery stress 💸",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls to Send Your ROOMMATE 😂🍚",
+     "subline": "For the roommate who never cooks 😂",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls That Feel Like a Cheat Meal 😋🍚",
+     "subline": "Indulgent flavors, zero delivery drama 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls to RESCUE Your Midweek Dinner 🙌🍚",
+     "subline": "All ready in 25 minutes or less ⏰",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Rice Bowls to SAVE Your Wednesday 😴🍚",
+     "subline": "When it's only Wednesday but you're done 😩",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-04T01:40:13+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-04-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704125148386854934",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-04T01:42:47+00:00"
   }
  ]
 }
