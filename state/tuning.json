@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 48,
+ "scored_posts": 49,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -101,9 +101,9 @@
     "avg_ratio": 0.61
    },
    "chicken": {
-    "mult": 0.84,
-    "posts": 2,
-    "avg_ratio": 0.61
+    "mult": 1.0,
+    "posts": 3,
+    "avg_ratio": 1.0
    },
    "quick": {
     "mult": 1.0,
@@ -188,9 +188,9 @@
     "avg_ratio": 1.13
    },
    "cosy": {
-    "mult": 1.51,
-    "posts": 2,
-    "avg_ratio": 2.27
+    "mult": 1.55,
+    "posts": 3,
+    "avg_ratio": 2.1
    },
    "monday": {
     "mult": 1.0,
@@ -310,9 +310,9 @@
     "avg_ratio": 0.5
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 1.18,
-    "posts": 1,
-    "avg_ratio": 1.7
+    "mult": 1.29,
+    "posts": 2,
+    "avg_ratio": 1.74
    },
    "creamy-peri-peri-chicken-pasta": {
     "mult": 0.87,
