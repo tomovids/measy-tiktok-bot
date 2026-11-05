@@ -7451,6 +7451,164 @@
    "publish_id": "p_inbox_url~v2.7704476369283991574",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T00:26:41+00:00"
+  },
+  {
+   "date": "2026-11-05",
+   "hook": "5 Lidl Cheesy Mexican Dinners Better Than a Takeaway 😍🧀",
+   "subline": "Fakeaway vibes, zero drama 🙌",
+   "title": "5 Lidl Cheesy Mexican Dinners Better Than a Takeaway 😍🧀",
+   "caption": "💾 SAVE this for your weekend fakeaway plan 😏🌮\n\n1. Loaded BBQ Beef Nachos\n2. Buffalo Chicken Quesadillas\n3. Crispy Bean Quesadillas\n4. Crispy Beef Taco Rice Bowls\n5. Cheesy Taco Quesadillas\n\nWhich one are you making first? Rate it out of 10 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:loaded-bbq-beef-nachos-1",
+    "card:buffalo-chicken-quesadillas-2",
+    "card:crispy-bean-quesadillas-1",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:cheesy-taco-quesadillas-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "buffalo-chicken-quesadillas",
+    "crispy-bean-quesadillas",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-taco-quesadillas"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Buffalo Chicken Quesadillas",
+    "Crispy Bean Quesadillas",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Taco Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    416,
+    692
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "mexican",
+    "angle": "weekly-shop",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you making first? Rate it out of 10 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Tacos, Quesadillas & Nachos for Knockout Nights 😋🌮",
+     "subline": "Send this to your housemate 😂",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl Cheesy Mexican Dinners Better Than a Takeaway 😍🧀",
+     "subline": "Fakeaway vibes, zero drama 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Lidl Nachos, Tacos & Quesadillas to Save Tonight 😩🌮",
+     "subline": "The group's chat needs this 😂",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-05T16:25:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704725249485752342",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T16:30:00+00:00"
+  },
+  {
+   "date": "2026-11-05",
+   "hook": "5 Aldi Dinners Under £1.50 a Portion That Stop the Moaning 😏",
+   "subline": "Feed the lot without drama 😂",
+   "title": "5 Aldi Dinners Under £1.50 a Portion That Stop the Moaning 😏",
+   "caption": "💾 SAVE this for when the whole family's knackered and skint 😭🛒\n\n1. Sticky Chicken Loaded Fries\n2. Creamy Tomato Potato Bake\n3. Sweet Chilli Halloumi Wraps\n4. Cheesy Beef & Bean Loaded Potatoes\n5. Garlic Butter Chicken & Rice\n\nWhich one would stop the moaning at your place? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-chicken-loaded-fries-1",
+    "card:creamy-tomato-potato-bake-1",
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:cheesy-beef-bean-loaded-potatoes-1",
+    "card:garlic-butter-chicken-and-rice-1"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "creamy-tomato-potato-bake",
+    "sweet-chilli-halloumi-wraps",
+    "cheesy-beef-bean-loaded-potatoes",
+    "garlic-butter-chicken-and-rice"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Creamy Tomato Potato Bake",
+    "Sweet Chilli Halloumi Wraps",
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Garlic Butter Chicken & Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    456,
+    764
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "family",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would stop the moaning at your place? 😂",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Under £1.50 a Portion That Stop the Moaning 😏",
+     "subline": "Feed the lot without drama 😂",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Family Dinners Under £1.50 a Portion — No Fuss 👀",
+     "subline": "No 'what's for tea' groans 😩",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals Under £1.50 a Portion to Please Fussy Eaters 😋",
+     "subline": "Proper tasty, proper cheap 💸",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-05T16:26:21+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-05-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704725287631816706",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T16:30:12+00:00"
   }
  ]
 }
