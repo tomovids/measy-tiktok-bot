@@ -4702,6 +4702,95 @@
    "publish_id": "p_inbox_url~v2.7704352119944284182",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-04T16:22:30+00:00"
+  },
+  {
+   "date": "2026-11-05",
+   "hook": "5 Walmart Italian Dinners to Decide Dinner Before Work 😏🍝",
+   "subline": "Pick dinner on your coffee break 👀",
+   "title": "5 Walmart Italian Dinners to Decide Dinner Before Work 😏🍝",
+   "caption": "💾 SAVE this for when you need dinner sorted before work 😩👀\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Creamy Garlic Sausage Pasta\n3. Creamy Tomato Chicken Pasta\n4. Cheesy Tomato Pasta\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you making first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:creamy-tomato-chicken-pasta-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:one-pan-tomato-chicken-orzo-2"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-garlic-sausage-pasta",
+    "creamy-tomato-chicken-pasta",
+    "cheesy-tomato-pasta",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Tomato Chicken Pasta",
+    "Cheesy Tomato Pasta",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1252,
+    1444
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "italian",
+    "angle": "plan-today",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one are you making first? Tell us 👇",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Italian Dinners to Decide Dinner Before Work 😏🍝",
+     "subline": "Pick dinner on your coffee break 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Walmart Dinners I'd Make If Payday's Still Weeks Away 😭🛒",
+     "subline": "Stretch your grocery run 💸",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Walmart dinners to Fix Tonight's Dinner Drama 😴🍝",
+     "subline": "Zero fuss, max flavor 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Dinners to Send Your Roommate Tonight 😂🍝",
+     "subline": "Your group chat needs this 👇",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart One-Pan Italian Meals That Save Your Evening 🙌🍝",
+     "subline": "One pan. No washing up 🙌",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-05T00:24:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-05-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704476393723267094",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T00:26:54+00:00"
   }
  ]
 }
