@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 49,
+ "scored_posts": 50,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -46,9 +46,9 @@
     "avg_ratio": 2.9
    },
    "comfort": {
-    "mult": 1.83,
-    "posts": 2,
-    "avg_ratio": 3.07
+    "mult": 1.66,
+    "posts": 3,
+    "avg_ratio": 2.33
    },
    "loaded": {
     "mult": 1.15,
@@ -198,8 +198,8 @@
     "avg_ratio": 1.0
    },
    "tonight": {
-    "mult": 0.96,
-    "posts": 1,
+    "mult": 0.94,
+    "posts": 2,
     "avg_ratio": 0.86
    }
   },
@@ -338,6 +338,11 @@
     "mult": 2.0,
     "posts": 1,
     "avg_ratio": 5.31
+   },
+   "cheesy-beef-pepper-stuffed-flatbreads": {
+    "mult": 0.96,
+    "posts": 1,
+    "avg_ratio": 0.85
    }
   }
  },

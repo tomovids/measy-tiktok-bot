@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 30,
+ "scored_posts": 31,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -66,8 +66,8 @@
     "avg_ratio": 1.98
    },
    "pasta": {
-    "mult": 0.98,
-    "posts": 2,
+    "mult": 0.97,
+    "posts": 3,
     "avg_ratio": 0.95
    },
    "sticky": {
@@ -138,9 +138,9 @@
     "avg_ratio": 1.3
    },
    "students": {
-    "mult": 1.13,
-    "posts": 2,
-    "avg_ratio": 1.31
+    "mult": 1.09,
+    "posts": 3,
+    "avg_ratio": 1.19
    },
    "tonight": {
     "mult": 1.0,
@@ -230,9 +230,9 @@
     "avg_ratio": 1.02
    },
    "creamy-peri-peri-chicken-pasta": {
-    "mult": 0.85,
-    "posts": 2,
-    "avg_ratio": 0.63
+    "mult": 0.86,
+    "posts": 3,
+    "avg_ratio": 0.73
    },
    "cheesy-buffalo-chicken-potato-skins": {
     "mult": 1.14,
