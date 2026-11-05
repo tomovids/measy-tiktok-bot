@@ -4813,6 +4813,95 @@
    "publish_id": "p_inbox_url~v2.7704725585699833878",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T16:30:36+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 Aldi fakeaways that stop 'what's for tea?' 😩🍔",
+   "subline": "",
+   "title": "5 Aldi fakeaways that stop 'what's for tea?' 😩🍔",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Cheesy BBQ Loaded Fries\n2. Honey Soy Beef Noodles\n3. Crispy Beef Burrito Bowls\n4. Creamy Peri-Peri Chicken Pasta\n5. Chilli Beef Noodles\n\nWhich fakeaway are you making first? Rate them out of 10 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:honey-soy-beef-noodles-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:chilli-beef-noodles-1"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "honey-soy-beef-noodles",
+    "crispy-beef-burrito-bowls",
+    "creamy-peri-peri-chicken-pasta",
+    "chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Honey Soy Beef Noodles",
+    "Crispy Beef Burrito Bowls",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Chilli Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    612,
+    872
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "family",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which fakeaway are you making first? Rate them out of 10 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi fakeaways to STOP the family moaning 😏🍜",
+     "subline": "Feed the lot. No moaning 🙌",
+     "score": 8.8
+    },
+    {
+     "hook": "5 Aldi Friday fakeaways for the weekend crew 🙌🍝",
+     "subline": "Proper takeaway vibes at home 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi fakeaways that stop 'what's for tea?' 😩🍔",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi meals that taste like takeaway, not the bill 😋",
+     "subline": "Save this for a weekend win 🙌",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi fakeaway hits to send your other half 😂🙌",
+     "subline": "They'll stop you ordering in 👀",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-11-05T22:44:51+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704822180588095510",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T22:46:24+00:00"
   }
  ]
 }

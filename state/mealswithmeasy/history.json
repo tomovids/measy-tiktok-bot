@@ -4875,6 +4875,90 @@
    "publish_id": "p_inbox_url~v2.7704725526376056834",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T16:30:24+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 LAZY Trader Joe's Mexican Dinners That Actually Hit 😋🌮",
+   "subline": "Ready when you're exhausted 😴",
+   "title": "5 LAZY Trader Joe's Mexican Dinners That Actually Hit 😋🌮",
+   "caption": "💾 SAVE this for your next Trader Joe's grocery run — last-minute dinners when you're wiped out or payday's a long way off 😭🛒\n\n1. Buffalo Chicken Quesadillas\n2. Cheesy Beef Taco Pasta\n3. Cheesy Taco Quesadillas\n4. Cheesy Taco Rice Skillet\n5. Crispy Bean Quesadillas\n\nWhich one are you making first? Tell us below 🌮\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:buffalo-chicken-quesadillas-2",
+    "card:cheesy-beef-taco-pasta-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:crispy-bean-quesadillas-2"
+   ],
+   "groups": [
+    "buffalo-chicken-quesadillas",
+    "cheesy-beef-taco-pasta",
+    "cheesy-taco-quesadillas",
+    "cheesy-taco-rice-skillet",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Buffalo Chicken Quesadillas",
+    "Cheesy Beef Taco Pasta",
+    "Cheesy Taco Quesadillas",
+    "Cheesy Taco Rice Skillet",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1088,
+    1180
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "mexican",
+    "angle": "save",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making first? Tell us below 🌮",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Mexican Dinners That Stretch Your Grocery Run 💸🌮",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Mexican Dinners to Send Your Roommate 😂🌮",
+     "subline": "Your roommate will thank you 😂",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Trader Joe's Mexican Dinners to Save Your Friday Night 🙌🌮",
+     "subline": "Perfect for Friday night. Zero drama 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Trader Joe's Mexican Dinners That Actually Hit 😋🌮",
+     "subline": "Ready when you're exhausted 😴",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-05T22:43:39+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-06-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704822126570063894",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T22:46:12+00:00"
   }
  ]
 }

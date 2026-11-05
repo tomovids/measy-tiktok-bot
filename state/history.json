@@ -7609,6 +7609,100 @@
    "publish_id": "p_inbox_url~v2.7704725287631816706",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T16:30:12+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 Aldi Meals in 20 Minutes That Beat a Takeaway 😏🍔",
+   "subline": "Fakeaway vibes, proper cheap 😳",
+   "title": "5 Aldi Meals in 20 Minutes That Beat a Takeaway 😏🍔",
+   "caption": "💾 SAVE this for when you're skint and knackered — dinner in 20 😭🛒\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Creamy Tomato Pasta\n3. Cheesy Pepperoni Pizza Wraps\n4. Creamy Garlic Chicken Orzo\n5. Crispy Sweet Chilli Chicken Bowls\n\nWhich one are you making first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:creamy-tomato-pasta-2",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:creamy-garlic-chicken-orzo-1",
+    "card:crispy-sweet-chilli-chicken-bowls-2"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-tomato-pasta",
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-garlic-chicken-orzo",
+    "crispy-sweet-chilli-chicken-bowls"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Tomato Pasta",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Garlic Chicken Orzo",
+    "Crispy Sweet Chilli Chicken Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1208,
+    1536
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "students",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Ready in 20 Minutes for When You're Knackered 😴⏰",
+     "subline": "Zero faff, max flavour 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals in 20 Minutes for Students on a Budget 😭🍝",
+     "subline": "Cheap, student-friendly recipes 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners in 20 Minutes — Send to Your Flatmate 😂🛒",
+     "subline": "",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Meals in 20 Minutes That Beat a Takeaway 😏🍔",
+     "subline": "Fakeaway vibes, proper cheap 😳",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners in 20 Minutes — Perfect for First Flats 😍🙌",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners in 20 Minutes — Weekend Ready 😴🍗",
+     "subline": "Friday sorted — dinner in 20 ⏰",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-05T22:42:03+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7704822126569949206",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-05T22:46:00+00:00"
   }
  ]
 }
