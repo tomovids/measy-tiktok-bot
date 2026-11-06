@@ -7703,6 +7703,85 @@
    "publish_id": "p_inbox_url~v2.7704822126569949206",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T22:46:00+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 Tesco Dinners To Stop Your 'What's for tea?' Panic 😩🍚",
+   "subline": "Send to the one who never cooks 😂",
+   "title": "5 Tesco Dinners To Stop Your 'What's for tea?' Panic 😩🍚",
+   "caption": "💾 SAVE this for Friday night when no one knows what's for tea 😩🍜\n\n1. Crispy Sweet Chilli Halloumi Burgers\n2. Sticky Maple Sausage Traybake\n3. Garlic Butter Sausage Pasta\n4. Creamy Garlic Chicken Gnocchi\n5. Garlic Sausage Rice Bowls\n\nWho are you sending this to — other half, housemate or mum? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:garlic-butter-sausage-pasta-2",
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:garlic-sausage-rice-bowls-2"
+   ],
+   "groups": [
+    "crispy-sweet-chilli-halloumi-burgers",
+    "sticky-maple-sausage-traybake",
+    "garlic-butter-sausage-pasta",
+    "creamy-garlic-chicken-gnocchi",
+    "garlic-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Sticky Maple Sausage Traybake",
+    "Garlic Butter Sausage Pasta",
+    "Creamy Garlic Chicken Gnocchi",
+    "Garlic Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    456,
+    580
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "comfort",
+    "angle": "send",
+    "label": "cosy comfort food",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Who are you sending this to — other half, housemate or mum? 😂",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Dinners To Stop Your 'What's for tea?' Panic 😩🍚",
+     "subline": "Send to the one who never cooks 😂",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Dinners To Send Your Other Half Who NEVER Knows 😂💚",
+     "subline": "The group chat needs this, honestly 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Tesco dinners for when you CANNOT be bothered 😴🙌",
+     "subline": "Minimal effort, max cosy 😂",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-06T12:03:40+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705028329249769494",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-06T12:05:27+00:00"
   }
  ]
 }
