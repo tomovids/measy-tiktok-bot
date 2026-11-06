@@ -4902,6 +4902,90 @@
    "publish_id": "p_inbox_url~v2.7704822180588095510",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-05T22:46:24+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 Sainsbury's creamy dinners I'd pick over a takeaway 🍝",
+   "subline": "Takeaway vibes, fraction of the faff 😏",
+   "title": "5 Sainsbury's creamy dinners I'd pick over a takeaway 🍝",
+   "caption": "💾 SAVE this for your Friday night when you can't be bothered to cook 😭🍝\n\n1. Garlic Parmesan Chicken Flatbreads\n2. Creamy Sun-Dried Tomato Chicken Orzo\n3. Creamy Lemon Chicken Orzo\n4. Creamy Garlic Chicken Pasta\n5. Creamy Pesto Chicken Gnocchi\n\nWhich one would you make first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:garlic-parmesan-chicken-flatbreads-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:creamy-pesto-chicken-gnocchi-1"
+   ],
+   "groups": [
+    "garlic-parmesan-chicken-flatbreads",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "creamy-lemon-chicken-orzo",
+    "creamy-garlic-chicken-pasta",
+    "creamy-pesto-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Garlic Parmesan Chicken Flatbreads",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Creamy Lemon Chicken Orzo",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Pesto Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    340,
+    772
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "creamy",
+    "angle": "repeat",
+    "label": "creamy dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you make first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's creamy dinners to send your flatmate 😂",
+     "subline": "Make them cook dinner for once 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Sainsbury's creamy dinners for when you're proper knackered 😩",
+     "subline": "Comfort without the effort 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's creamy dinners I'd pick over a takeaway 🍝",
+     "subline": "Takeaway vibes, fraction of the faff 😏",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Sainsbury's creamy dinners to save for the weekend 😍",
+     "subline": "Cosy, creamy and crowd-pleasing 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-06T15:55:43+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-06-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705087844556998678",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-06T15:56:58+00:00"
   }
  ]
 }

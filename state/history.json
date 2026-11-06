@@ -7782,6 +7782,90 @@
    "publish_id": "p_inbox_url~v2.7705028329249769494",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-06T12:05:27+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "hook": "5 Aldi Dinners That Keep Dinner Under £2 a portion 😩🍚",
+   "subline": "Big flavour, tiny budget 😋",
+   "title": "5 Aldi Dinners That Keep Dinner Under £2 a portion 😩🍚",
+   "caption": "💾 SAVE this for your next Aldi shop — dinners under £2 a portion when payday's ages away 😭🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Sticky BBQ Chicken Rice Bowls\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Sticky Beef Rice Bowls\n\nWhich one are you making this weekend? Which one first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2",
+    "card:sticky-bbq-chicken-rice-bowls-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:sticky-beef-rice-bowls-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "sticky-bbq-chicken-rice-bowls",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    564,
+    852
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "save",
+    "label": "dinners under £2 a portion",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you making this weekend? Which one first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Under £2 a portion to Save Your Weekend 😭💸",
+     "subline": "Save this for your next Aldi shop 🛒",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Keep Dinner Under £2 a portion 😩🍚",
+     "subline": "Big flavour, tiny budget 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Dinners to SEND Your Flatmate — Dinner Sorted 😏😂",
+     "subline": "Send this to your other half 😂",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Rice Bowls Under £2 a portion That ACTUALLY Hit 🤤🍚",
+     "subline": "Saucy, cheap and done quick 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-06T15:53:04+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-06-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705087584644532246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-06T15:56:34+00:00"
   }
  ]
 }
