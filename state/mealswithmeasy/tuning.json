@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 31,
+ "scored_posts": 32,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -46,9 +46,9 @@
     "avg_ratio": 0.93
    },
    "comfort": {
-    "mult": 1.05,
-    "posts": 2,
-    "avg_ratio": 1.12
+    "mult": 1.17,
+    "posts": 3,
+    "avg_ratio": 1.34
    },
    "handheld": {
     "mult": 0.92,
@@ -113,9 +113,9 @@
     "avg_ratio": 0.96
    },
    "repeat": {
-    "mult": 0.98,
-    "posts": 1,
-    "avg_ratio": 0.93
+    "mult": 1.14,
+    "posts": 2,
+    "avg_ratio": 1.36
    },
    "send": {
     "mult": 1.06,
@@ -195,9 +195,9 @@
     "avg_ratio": 0.63
    },
    "bbq-sausage-loaded-potatoes": {
-    "mult": 1.19,
-    "posts": 2,
-    "avg_ratio": 1.47
+    "mult": 1.29,
+    "posts": 3,
+    "avg_ratio": 1.58
    },
    "sweet-chilli-beef-noodles": {
     "mult": 1.01,
@@ -272,15 +272,15 @@
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
-   "subline": "Takeout taste without the price 😋",
-   "views": 1246,
+   "hook": "5 Aldi Dinners for When You're Too Tired to Cook 😩🍚",
+   "subline": "Cozy dinners I'd make on repeat 😋",
+   "views": 1328,
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Creamy Dinners Better Than a Takeout Run 😏",
-   "subline": "",
-   "views": 1210,
+   "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
+   "subline": "Takeout taste without the price 😋",
+   "views": 1246,
    "store": "aldius"
   }
  ]

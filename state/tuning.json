@@ -1,14 +1,14 @@
 {
  "active": true,
- "scored_posts": 50,
+ "scored_posts": 51,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "sticky": {
-    "mult": 1.49,
-    "posts": 4,
-    "avg_ratio": 1.85
+    "mult": 1.46,
+    "posts": 5,
+    "avg_ratio": 1.73
    },
    "mexican": {
     "mult": 1.48,
@@ -118,9 +118,9 @@
     "avg_ratio": 1.75
    },
    "family": {
-    "mult": 1.6,
-    "posts": 2,
-    "avg_ratio": 2.49
+    "mult": 1.54,
+    "posts": 3,
+    "avg_ratio": 2.08
    },
    "save": {
     "mult": 2.0,
@@ -270,9 +270,9 @@
     "avg_ratio": 1.18
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
-    "mult": 1.04,
-    "posts": 1,
-    "avg_ratio": 1.16
+    "mult": 1.08,
+    "posts": 2,
+    "avg_ratio": 1.2
    },
    "cheesy-beef-taco-pasta": {
     "mult": 0.91,
