@@ -4986,6 +4986,100 @@
    "publish_id": "p_inbox_url~v2.7705087844556998678",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-06T15:56:58+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "hook": "5 Aldi Mexican-Style Dinners That Stretch Your Shop 💸🌮",
+   "subline": "More meal, less spending 😏",
+   "title": "5 Aldi Mexican-Style Dinners That Stretch Your Shop 💸🌮",
+   "caption": "💾 SAVE this for the next time you're about to order a takeaway — cheap Mexican that doesn't taste cheap 🤤🌮\n\n1. Loaded BBQ Beef Nachos\n2. Buffalo Chicken Quesadillas\n3. Cheesy BBQ Pulled Chicken Nachos\n4. Crispy Beef Taco Rice Bowls\n5. Cheesy Beef Taco Pasta\n\nWhich one are you making first? 🌮\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:loaded-bbq-beef-nachos-1",
+    "card:buffalo-chicken-quesadillas-2",
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:cheesy-beef-taco-pasta-2"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "buffalo-chicken-quesadillas",
+    "cheesy-bbq-pulled-chicken-nachos",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-beef-taco-pasta"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Buffalo Chicken Quesadillas",
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Beef Taco Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    480,
+    796
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "taste-cheap",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you making first? 🌮",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners for When You're Too Knackered 😩🌮",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican-Style Dinners That Stretch Your Shop 💸🌮",
+     "subline": "More meal, less spending 😏",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners to Send Your Housemate 😂🌮",
+     "subline": "No moaning, just tacos 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners That Taste Like a Treat 🤤🌮",
+     "subline": "Feels fancy, costs tiny 😋",
+     "score": 7.4
+    },
+    {
+     "hook": "5 LAZY Aldi Mexican Dinners Ready in 20 Minutes 😴🌮",
+     "subline": "Weekend dinner, zero drama 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners to Make This Weekend 🤤🌮",
+     "subline": "Perfect for a Saturday night 😏",
+     "score": 5.8
+    }
+   ],
+   "built_at": "2026-11-07T00:08:38+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705214684341520406",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-07T00:09:55+00:00"
   }
  ]
 }

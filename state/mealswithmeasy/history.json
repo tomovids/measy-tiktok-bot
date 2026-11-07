@@ -5048,6 +5048,95 @@
    "publish_id": "p_inbox_url~v2.7705087825896572950",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-06T15:56:46+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "hook": "5 Aldi Saucy Dinners to Plan Your Grocery Run 🛒😋",
+   "subline": "Build your week around these flavors 🍚",
+   "title": "5 Aldi Saucy Dinners to Plan Your Grocery Run 🛒😋",
+   "caption": "💾 SAVE this for the next time you're about to order takeout 😭🍜\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Sticky Honey Garlic Sausage Bowls\n3. Sticky BBQ Beef Rice Bowls\n4. Crispy Sweet Chili Chicken Noodles\n5. Honey Chili Chicken Noodles\n\nWhich one would you make first? Tell us your top pick 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #stickychicken #copycatrecipes",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:sticky-honey-garlic-sausage-rice-1",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:crispy-sweet-chilli-chicken-noodles-2",
+    "card:honey-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "sticky-honey-garlic-sausage-rice",
+    "sticky-bbq-beef-rice-bowls",
+    "crispy-sweet-chilli-chicken-noodles",
+    "honey-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Sticky Honey Garlic Sausage Bowls",
+    "Sticky BBQ Beef Rice Bowls",
+    "Crispy Sweet Chili Chicken Noodles",
+    "Honey Chili Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1176,
+    1364
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "sticky",
+    "angle": "weekly-shop",
+    "label": "sticky, saucy dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you make first? Tell us your top pick 😋",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky Dinners to Stop You Ordering Takeout 😩🍜",
+     "subline": "Big saucy wins from one grocery run 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Sticky Dinner Ideas to Send Your Roommate 😂🍝",
+     "subline": "The group chat needs this one 👀",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Sticky Bowls That Make Takeout Jealous 🤤😏",
+     "subline": "Sauce that wins every time 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Saucy Dinners to Plan Your Grocery Run 🛒😋",
+     "subline": "Build your week around these flavors 🍚",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Sticky Dinners for a Lazy Saturday Night 😋🙌",
+     "subline": "Weekend comfort without the cost 💸",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-07T00:07:44+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-07-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705214684341471254",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-07T00:09:43+00:00"
   }
  ]
 }

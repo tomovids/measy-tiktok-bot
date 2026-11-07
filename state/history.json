@@ -7866,6 +7866,85 @@
    "publish_id": "p_inbox_url~v2.7705087584644532246",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-06T15:56:34+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "hook": "5 Aldi Fakeaway Dinners Cheaper Than a Takeaway 💸🤤",
+   "subline": "Save cash, proper takeaway vibes 👀",
+   "title": "5 Aldi Fakeaway Dinners Cheaper Than a Takeaway 💸🤤",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Sticky Garlic Beef Loaded Fries\n2. Sticky Hoisin Beef Flatbreads\n3. Sweet Chilli Chicken Noodles\n4. Cheesy Beef & Pepper Stuffed Flatbreads\n5. Honey Soy Sausage Noodle Bowls\n\nWhich fakeaway are you trying first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-2",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:sweet-chilli-chicken-noodles-2",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:honey-soy-sausage-noodle-bowls-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "sticky-hoisin-beef-flatbreads",
+    "sweet-chilli-chicken-noodles",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "honey-soy-sausage-noodle-bowls"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Sticky Hoisin Beef Flatbreads",
+    "Sweet Chilli Chicken Noodles",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Honey Soy Sausage Noodle Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    440,
+    812
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "no-idea",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which fakeaway are you trying first? 👇",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Fakeaway Dinners To Save Your Saturday 😏🍜",
+     "subline": "Ready in 25 minutes or less 🍝",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners Cheaper Than a Takeaway 💸🤤",
+     "subline": "Save cash, proper takeaway vibes 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners That Taste Like Takeaway 😋🤤",
+     "subline": "No one will guess you made them 👀",
+     "score": 7.2
+    }
+   ],
+   "built_at": "2026-11-07T00:06:47+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705214542573602839",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-07T00:09:30+00:00"
   }
  ]
 }
