@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 33,
+ "scored_posts": 34,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -61,9 +61,9 @@
     "avg_ratio": 0.38
    },
    "rice": {
-    "mult": 1.25,
-    "posts": 1,
-    "avg_ratio": 2.01
+    "mult": 1.37,
+    "posts": 2,
+    "avg_ratio": 1.92
    },
    "pasta": {
     "mult": 0.98,
@@ -146,6 +146,11 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.03
+   },
+   "midweek": {
+    "mult": 1.21,
+    "posts": 1,
+    "avg_ratio": 1.82
    }
   },
   "lead": {
@@ -240,9 +245,9 @@
     "avg_ratio": 1.6
    },
    "sticky-korean-beef-rice-bowls": {
-    "mult": 0.99,
-    "posts": 1,
-    "avg_ratio": 0.95
+    "mult": 1.15,
+    "posts": 2,
+    "avg_ratio": 1.39
    }
   }
  },
@@ -272,15 +277,15 @@
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Dinners for When You're Too Tired to Cook 😩🍚",
-   "subline": "Cozy dinners I'd make on repeat 😋",
-   "views": 1327,
+   "hook": "5 Aldi Rice Bowls to RESCUE Your Midweek Dinner 🙌🍚",
+   "subline": "All ready in 25 minutes or less ⏰",
+   "views": 1331,
    "store": "aldius"
   },
   {
-   "hook": "5 Aldi Takeout Dinners That Beat Ordering In 😏🍜",
-   "subline": "Takeout taste without the price 😋",
-   "views": 1246,
+   "hook": "5 Aldi Dinners for When You're Too Tired to Cook 😩🍚",
+   "subline": "Cozy dinners I'd make on repeat 😋",
+   "views": 1327,
    "store": "aldius"
   }
  ]
