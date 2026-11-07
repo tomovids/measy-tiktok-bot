@@ -5080,6 +5080,95 @@
    "publish_id": "p_inbox_url~v2.7705214684341520406",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-07T00:09:55+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "hook": "5 LAZY Tesco Beef Dinners That Feel Like a Takeaway 😳🤤",
+   "subline": "Zero drama, proper flavour 🙌",
+   "title": "5 LAZY Tesco Beef Dinners That Feel Like a Takeaway 😳🤤",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook after a long day 😭😴\n\n1. Loaded Taco Jacket Potato\n2. Chilli Beef Noodles\n3. Crispy Beef Burrito Bowls\n4. Cheesy Taco Rice Skillet\n5. Cheesy Taco Quesadillas\n\nWhich one are you trying first this weekend? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:chilli-beef-noodles-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:cheesy-taco-quesadillas-1"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "chilli-beef-noodles",
+    "crispy-beef-burrito-bowls",
+    "cheesy-taco-rice-skillet",
+    "cheesy-taco-quesadillas"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Chilli Beef Noodles",
+    "Crispy Beef Burrito Bowls",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Taco Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    392,
+    480
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "tesco",
+   "theme": {
+    "collection": "beef",
+    "angle": "tired",
+    "label": "beef mince and beef dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you trying first this weekend? 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Beef Dinners for When You're Too Knackered to Cook 😩🍝",
+     "subline": "Big flavour, zero faff 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Beef Dinners to Send Your Other Half When You're Done 😴😂",
+     "subline": "They can sort one night 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Tesco Beef Dinners That Feel Like a Takeaway 😳🤤",
+     "subline": "Zero drama, proper flavour 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Tesco beef dinners for a proper Saturday night in 😏🍝",
+     "subline": "Weekend fakeaway vibes, no delivery faff 😋",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Tesco Beef Meals I'd Make If I'm Properly Knackered 😩🛒",
+     "subline": "No faff, all flavour 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-07T14:54:30+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-07-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705442952558184470",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-07T14:55:26+00:00"
   }
  ]
 }

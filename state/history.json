@@ -8039,6 +8039,95 @@
    "publish_id": "p_inbox_url~v2.7705412406645737494",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-07T12:56:54+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "hook": "5 Aldi Sticky, Saucy Dinners to Skip the Takeaway 🤤",
+   "subline": "",
+   "title": "5 Aldi Sticky, Saucy Dinners to Skip the Takeaway 🤤",
+   "caption": "💾 SAVE this for your next Aldi shop — sticky, saucy dinners sorted 😭🛒\n\n1. Sweet Chilli Chicken Rice Bowl\n2. Sticky Maple Sausage Traybake\n3. Hot Honey Chicken Flatbread Pizzas\n4. Crispy Sweet Chilli Chicken Bowls\n5. Honey Soy Beef Noodles\n\nWhich one are you trying first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-rice-bowl-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:hot-honey-chicken-flatbread-pizzas-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:honey-soy-beef-noodles-2"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-maple-sausage-traybake",
+    "hot-honey-chicken-flatbread-pizzas",
+    "crispy-sweet-chilli-chicken-bowls",
+    "honey-soy-beef-noodles"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Rice Bowl",
+    "Sticky Maple Sausage Traybake",
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Honey Soy Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1400,
+    1536
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "weekly-shop",
+    "label": "sticky, saucy dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you trying first? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners for When You're Knackered 😩",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners That Save Your Weekend Cash 💸",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners to Skip the Takeaway 🤤",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners You'll Make on Repeat 😋",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Dinners to Plan Your Weekly Shop 🛒",
+     "subline": "Perfect for the weekend 😏",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-07T14:52:00+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-07-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705442952558168086",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-07T14:55:03+00:00"
   }
  ]
 }
