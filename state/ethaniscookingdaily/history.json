@@ -5169,6 +5169,85 @@
    "publish_id": "p_inbox_url~v2.7705442952558184470",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-07T14:55:26+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "hook": "5 Aldi LAZY Cheesy Dinners — Dinner Sorted Before Work 😋🧀",
+   "subline": "Decide dinner before you even leave 👀",
+   "title": "5 Aldi LAZY Cheesy Dinners — Dinner Sorted Before Work 😋🧀",
+   "caption": "💾 SAVE this for sorting Sunday night dinner before a busy week 😩🧀\n\n1. BBQ Sausage Loaded Potatoes\n2. Cheesy Tomato Pasta\n3. Garlic Butter Halloumi Couscous\n4. Creamy Tomato Chicken Pasta\n5. Garlic Butter Chicken & Rice\n\nWhich one would you make tonight? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:garlic-butter-halloumi-couscous-1",
+    "card:creamy-tomato-chicken-pasta-2",
+    "card:garlic-butter-chicken-and-rice-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "cheesy-tomato-pasta",
+    "garlic-butter-halloumi-couscous",
+    "creamy-tomato-chicken-pasta",
+    "garlic-butter-chicken-and-rice"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Cheesy Tomato Pasta",
+    "Garlic Butter Halloumi Couscous",
+    "Creamy Tomato Chicken Pasta",
+    "Garlic Butter Chicken & Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1316,
+    1536
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "plan-today",
+    "label": "cheesy dinners",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one would you make tonight? 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners to Pick Before You Go to Work 😋🧀",
+     "subline": "Sort tonight's tea before your shift 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi LAZY Cheesy Dinners — Dinner Sorted Before Work 😋🧀",
+     "subline": "Decide dinner before you even leave 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Cheesy Meals to Rescue Your Sunday Night 😍🧀",
+     "subline": "Sunday night cosy, weeknight easy 😍",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-08T00:56:47+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-08-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705597547045423126",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-08T00:58:04+00:00"
   }
  ]
 }

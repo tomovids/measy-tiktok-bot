@@ -8128,6 +8128,100 @@
    "publish_id": "p_inbox_url~v2.7705442952558168086",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-07T14:55:03+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "hook": "5 Aldi creamy dinners your mum would actually cook 😍🍝",
+   "subline": "Send to the family group chat 👇",
+   "title": "5 Aldi creamy dinners your mum would actually cook 😍🍝",
+   "caption": "💾 SAVE this for when someone NEVER knows what to cook 😂\n\n1. Creamy Tuscan Chicken Pasta\n2. Creamy Pesto Chicken Gnocchi\n3. Creamy Garlic Chicken Rice\n4. Creamy Garlic Sausage Pasta\n5. Creamy Harissa Chicken Couscous\n\nWhich one would you send to your flatmate first? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:creamy-garlic-chicken-rice-2",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:creamy-harissa-chicken-couscous-1"
+   ],
+   "groups": [
+    "creamy-tuscan-chicken-pasta",
+    "creamy-pesto-chicken-gnocchi",
+    "creamy-garlic-chicken-rice",
+    "creamy-garlic-sausage-pasta",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Pesto Chicken Gnocchi",
+    "Creamy Garlic Chicken Rice",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    156,
+    616
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "creamy",
+    "angle": "send",
+    "label": "creamy dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one would you send to your flatmate first? 😂",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi creamy dinners to send your flatmate 😂🍝",
+     "subline": "Perfect when nobody knows what's for tea 😩",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi creamy dinners that'll make takeaways jealous 🤤🍚",
+     "subline": "More flavour, less cash 👀",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi creamy dinners for when you're properly knackered 😴🧀",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners your mum would actually cook 😍🍝",
+     "subline": "Send to the family group chat 👇",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi creamy dinners that fix 'what's for tea?' panic 😭🙌",
+     "subline": "Dinner sorted in cosy, saucy bowls 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi creamy dinners to save your Sunday night 😭🫶",
+     "subline": "Weekend dinners that feel like a hug 💚",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-08T00:54:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705597547045373974",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-08T00:57:39+00:00"
   }
  ]
 }
