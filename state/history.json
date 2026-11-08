@@ -8222,6 +8222,184 @@
    "publish_id": "p_inbox_url~v2.7705597547045373974",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-08T00:57:39+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "hook": "5 Asda Meals I'd Make If I'm Properly Knackered 😴🍜",
+   "subline": "Dinner sorted, no faff 😋",
+   "title": "5 Asda Meals I'd Make If I'm Properly Knackered 😴🍜",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook tonight 😭🍚\n\n1. Sticky Teriyaki Sausage Rice Bowls\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Sticky BBQ Chicken Rice Bowls\n4. Sticky Beef Rice Bowls\n5. Garlic Sausage Rice Bowls\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:sticky-beef-rice-bowls-1",
+    "card:garlic-sausage-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "sticky-bbq-chicken-rice-bowls",
+    "sticky-beef-rice-bowls",
+    "garlic-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Sticky Beef Rice Bowls",
+    "Garlic Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    500,
+    692
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "rice",
+    "angle": "tired",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 LAZY Asda dinners to skip ordering in 😩🤤",
+     "subline": "Send this to your flatmate 😂",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Sticky Rice Bowls that beat a takeaway 🤤🍚",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Asda Meals I'd Make If I'm Properly Knackered 😴🍜",
+     "subline": "Dinner sorted, no faff 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Asda Rice Bowls to Rescue Your Sunday Evening 😴🍚",
+     "subline": "Too knackered to reheat? Sorted 😭",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-08T15:00:30+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705817524436322326",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-08T15:08:11+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "hook": "5 Aldi Quesadillas & Wraps To Pick Tonight — no faff 🙌😋",
+   "subline": "Sort tea fast, no drama 💚",
+   "title": "5 Aldi Quesadillas & Wraps To Pick Tonight — no faff 🙌😋",
+   "caption": "💾 SAVE this for when you can't decide what's for tea tonight 😭👀\n\n1. Garlic Parmesan Chicken Flatbreads\n2. Crispy Sweet Chilli Halloumi Burgers\n3. Crispy Bean Quesadillas\n4. Cheesy Pepperoni Pizza Wraps\n5. Garlic-Butter Chicken Flatbreads\n\nWhich one are you making tonight? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-1",
+    "card:crispy-bean-quesadillas-2",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:garlic-butter-chicken-flatbreads-1"
+   ],
+   "groups": [
+    "garlic-parmesan-chicken-flatbreads",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "crispy-bean-quesadillas",
+    "cheesy-pepperoni-pizza-wraps",
+    "garlic-butter-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Garlic Parmesan Chicken Flatbreads",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Crispy Bean Quesadillas",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Garlic-Butter Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    376,
+    780
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "handheld",
+    "angle": "tonight",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making tonight? Tell us below 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi LAZY wraps for when you're too knackered to cook 😩🫶",
+     "subline": "Zero faff. Properly tasty 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway on taste & price 🤤💸",
+     "subline": "Skip the app, make these tonight 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals to send your housemate who NEVER decides 😂👀",
+     "subline": "Problem solved. Group chat ready 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners For Your Sunday night plan 😋💚",
+     "subline": "Weekend rescue: quick, cheesy, lazy 😏",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Aldi Flatbreads That Feel Like a FAKEAWAY 😏🤤",
+     "subline": "All the takeaway vibes, less washing up 🍔",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Quesadillas & Wraps To Pick Tonight — no faff 🙌😋",
+     "subline": "Sort tea fast, no drama 💚",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-08T15:02:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-08-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705817562495617046",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-08T15:08:23+00:00"
   }
  ]
 }

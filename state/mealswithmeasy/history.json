@@ -5300,6 +5300,90 @@
    "publish_id": "p_inbox_url~v2.7705597761256736771",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-08T00:57:51+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "hook": "5 Aldi Chicken Meals That Beat Ordering Takeout 😋🍗",
+   "subline": "",
+   "title": "5 Aldi Chicken Meals That Beat Ordering Takeout 😋🍗",
+   "caption": "💾 SAVE this for when you're about to order takeout 😭🍗\n\n1. Cheesy BBQ Loaded Potatoes\n2. Cheesy BBQ Loaded Fries\n3. Creamy Garlic Chicken Pasta\n4. Creamy Garlic Chicken Gnocchi\n5. Creamy Lemon Chicken Orzo\n\nWhich one are you trying first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:creamy-garlic-chicken-gnocchi-2",
+    "card:creamy-lemon-chicken-orzo-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-garlic-chicken-pasta",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-lemon-chicken-orzo"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Lemon Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    156,
+    632
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "chicken",
+    "angle": "taste-cheap",
+    "label": "chicken dinners",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you trying first? 😋",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Chicken Dinners to Save Your Weekend 😭🧀",
+     "subline": "Cozy, cheesy, zero drama 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi LAZY Chicken dinners for wiped-out nights 😴🍗",
+     "subline": "Ready fast, tastes like effort 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Chicken Meals That Beat Ordering Takeout 😋🍗",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Weekend Chicken Dinners to Make This Sunday 😏🛒",
+     "subline": "Send to your housemate 😂",
+     "score": 5.0
+    }
+   ],
+   "built_at": "2026-11-08T15:06:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-08-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705817626357958678",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-08T15:08:36+00:00"
   }
  ]
 }
