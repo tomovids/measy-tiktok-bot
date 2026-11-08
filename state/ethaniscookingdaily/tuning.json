@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 35,
+ "scored_posts": 36,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -76,9 +76,9 @@
     "avg_ratio": 1.0
    },
    "chicken": {
-    "mult": 0.85,
-    "posts": 1,
-    "avg_ratio": 0.39
+    "mult": 0.94,
+    "posts": 2,
+    "avg_ratio": 0.85
    },
    "comfort": {
     "mult": 1.24,
@@ -158,9 +158,9 @@
     "avg_ratio": 1.21
    },
    "cosy": {
-    "mult": 1.23,
-    "posts": 2,
-    "avg_ratio": 1.57
+    "mult": 1.24,
+    "posts": 3,
+    "avg_ratio": 1.49
    },
    "taste-cheap": {
     "mult": 1.14,
@@ -230,9 +230,9 @@
     "avg_ratio": 1.4
    },
    "cheesy-buffalo-chicken-potato-skins": {
-    "mult": 0.92,
-    "posts": 1,
-    "avg_ratio": 0.68
+    "mult": 1.0,
+    "posts": 2,
+    "avg_ratio": 0.99
    },
    "bbq-sausage-loaded-potatoes": {
     "mult": 1.32,
