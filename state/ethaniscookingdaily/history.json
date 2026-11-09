@@ -5495,6 +5495,90 @@
    "publish_id": "p_inbox_url~v2.7706244907853350935",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T18:46:46+00:00"
+  },
+  {
+   "date": "2026-11-10",
+   "hook": "5 Aldi Fakeaways That Save You Takeaway Money 💸",
+   "subline": "Same flavour, less wallet panic 😭",
+   "title": "5 Aldi Fakeaways That Save You Takeaway Money 💸",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Cheesy BBQ Loaded Potatoes\n2. Cheesy Pepperoni Pizza Wraps\n3. Crispy Sweet Chilli Chicken Bowls\n4. Sticky Teriyaki Sausage Rice Bowls\n5. Sticky Beef Noodles\n\nWhich one would you make first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:sticky-teriyaki-sausage-rice-bowls-2",
+    "card:sticky-beef-noodles-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "cheesy-pepperoni-pizza-wraps",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "sticky-beef-noodles"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Sticky Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    100,
+    628
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "repeat",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": true,
+   "hook_score": 8.7,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Fakeaways for When You're Properly Knackered 😩",
+     "subline": "Ready quick, zero delivery faff 🍜",
+     "score": 8.7
+    },
+    {
+     "hook": "5 Aldi Fakeaways That Save You Takeaway Money 💸",
+     "subline": "Same flavour, less wallet panic 😭",
+     "score": 8.7
+    },
+    {
+     "hook": "5 Aldi Fakeaways That NEVER Disappoint 😏",
+     "subline": "Sticky, cheesy, saucy — all of it 🤤",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Fakeaways That Go Down Every Time 🤤",
+     "subline": "Perfect for the weekend or midweek 😍",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-09T23:02:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-10-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706311171728525315",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T23:03:50+00:00"
   }
  ]
 }

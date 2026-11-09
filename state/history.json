@@ -8677,6 +8677,85 @@
    "publish_id": "p_inbox_url~v2.7706244684116576278",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T18:46:18+00:00"
+  },
+  {
+   "date": "2026-11-10",
+   "hook": "5 Aldi Dinners Under £2 a Portion for Proper Midweek Slumps 😭",
+   "subline": "Save these for the midweek slump 😩",
+   "title": "5 Aldi Dinners Under £2 a Portion for Proper Midweek Slumps 😭",
+   "caption": "💾 SAVE this for when the midweek slump hits and you're skint 😭🛒\n\n1. BBQ Sausage Loaded Potatoes\n2. Sticky Honey Garlic Sausage Bowls\n3. One-Pan Tomato Chicken Orzo\n4. Creamy Garlic Chicken Orzo\n5. Garlic Butter Chicken & Rice\n\nWhich one are you cooking first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:sticky-honey-garlic-sausage-rice-1",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:creamy-garlic-chicken-orzo-2",
+    "card:garlic-butter-chicken-and-rice-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "sticky-honey-garlic-sausage-rice",
+    "one-pan-tomato-chicken-orzo",
+    "creamy-garlic-chicken-orzo",
+    "garlic-butter-chicken-and-rice"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Sticky Honey Garlic Sausage Bowls",
+    "One-Pan Tomato Chicken Orzo",
+    "Creamy Garlic Chicken Orzo",
+    "Garlic Butter Chicken & Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    536,
+    900
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "midweek",
+    "label": "dinners under £2 a portion",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you cooking first? 👀",
+   "tuned": true,
+   "hook_score": 7.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Under £2 a Portion for Proper Midweek Slumps 😭",
+     "subline": "Save these for the midweek slump 😩",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners Cheaper Than a Takeaway — Under £2 a Portion 😏",
+     "subline": "Fakeaway vibes, no delivery fee 🍔",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Rescue You When You Can't Be Bothered 😴",
+     "subline": "",
+     "score": 5.0
+    }
+   ],
+   "built_at": "2026-11-09T22:59:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706310941474015254",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T23:03:25+00:00"
   }
  ]
 }
