@@ -8400,6 +8400,100 @@
    "publish_id": "p_inbox_url~v2.7705817562495617046",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-08T15:08:23+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "hook": "5 Aldi Spicy Dinners That'll Stop Dinner Drama Tonight 😏🔥",
+   "subline": "Proper flavour, no faff 🙌",
+   "title": "5 Aldi Spicy Dinners That'll Stop Dinner Drama Tonight 😏🔥",
+   "caption": "💾 SAVE this for when everyone's moaning about dinner — bring the heat and peace to the table 😩🔥\n\n1. Loaded Taco Jacket Potato\n2. Cheesy Taco Rice Skillet\n3. Creamy Cajun Chicken Flatbreads\n4. Cheesy Buffalo Chicken Potato Skins\n5. Chilli Beef Noodles\n\nWhich one are you making first to stop the moaning? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:creamy-cajun-chicken-flatbreads-2",
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:chilli-beef-noodles-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "cheesy-taco-rice-skillet",
+    "creamy-cajun-chicken-flatbreads",
+    "cheesy-buffalo-chicken-potato-skins",
+    "chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Cheesy Taco Rice Skillet",
+    "Creamy Cajun Chicken Flatbreads",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Chilli Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    348,
+    776
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "spicy",
+    "angle": "family",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you making first to stop the moaning? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners to Rescue Your Monday Night With a Kick 😩🔥",
+     "subline": "Spicy, family-friendly and zero moaning 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners That'll Stop Dinner Drama Tonight 😏🔥",
+     "subline": "Proper flavour, no faff 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway on Spice 🤤🔥",
+     "subline": "Cheaper than a takeaway, big flavour 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners to Send Your Housemate Who LOVES Heat 😂🔥",
+     "subline": "Easy recipes that stop the moaning 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners to Feed the Whole Family 😍🔥",
+     "subline": "No moaning, just seconds all round 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Spicy Dinners — Big Heat, Little Drama 👀🔥",
+     "subline": "",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-09T00:51:41+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7705968658597709846",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T00:56:30+00:00"
   }
  ]
 }
