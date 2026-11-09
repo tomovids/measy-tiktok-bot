@@ -5473,6 +5473,90 @@
    "publish_id": "p_inbox_url~v2.7705968658597742614",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T00:56:43+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "hook": "5 Walmart Dinners That Beat Takeout Tonight 😏",
+   "subline": "Spicy comfort without delivery 👀",
+   "title": "5 Walmart Dinners That Beat Takeout Tonight 😏",
+   "caption": "💾 SAVE this for when you CANNOT decide dinner tonight 😩🔥\n\n1. Creamy Peri-Peri Chicken Pasta\n2. Crispy Beef Taco Rice Bowls\n3. Sweet Chili Beef Noodles\n4. Cheesy Taco Quesadillas\n5. Creamy Harissa Chicken Couscous\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #spicyfood #copycatrecipes",
+   "files": [
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:crispy-beef-taco-rice-bowls-2",
+    "card:sweet-chilli-beef-noodles-1",
+    "card:cheesy-taco-quesadillas-1",
+    "card:creamy-harissa-chicken-couscous-2"
+   ],
+   "groups": [
+    "creamy-peri-peri-chicken-pasta",
+    "crispy-beef-taco-rice-bowls",
+    "sweet-chilli-beef-noodles",
+    "cheesy-taco-quesadillas",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Creamy Peri-Peri Chicken Pasta",
+    "Crispy Beef Taco Rice Bowls",
+    "Sweet Chili Beef Noodles",
+    "Cheesy Taco Quesadillas",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    828,
+    976
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "spicy",
+    "angle": "tonight",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": true,
+   "hook_score": 8.3,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Dinners to Decide Dinner NOW 🔥",
+     "subline": "Spicy, quick, no fuss 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Dinners That Beat Takeout Tonight 😏",
+     "subline": "Spicy comfort without delivery 👀",
+     "score": 8.3
+    },
+    {
+     "hook": "5 Walmart Dinners That ACTUALLY Kick 🍝",
+     "subline": "Real spice, zero fuss 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart LAZY dinners with a kick 😩🔥",
+     "subline": "Perfect for when you're wiped out 😴",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-09T18:43:45+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-09-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706244684116690966",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T18:46:32+00:00"
   }
  ]
 }

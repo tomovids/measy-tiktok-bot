@@ -5411,6 +5411,90 @@
    "publish_id": "p_inbox_url~v2.7705968658597808150",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T00:56:55+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "hook": "5 Asda Meat-Free Dinners to Stretch You Till Payday 💸",
+   "subline": "Skint but starving? Big flavour 😋",
+   "title": "5 Asda Meat-Free Dinners to Stretch You Till Payday 💸",
+   "caption": "💾 SAVE this for when payday is ages away and you're proper skint 😭💸\n\n1. Sweet Chilli Halloumi Wraps\n2. Garlic Butter Halloumi Couscous\n3. Cheesy Tomato Pasta\n4. Garlic Butter Flatbreads\n5. Crispy Bean Quesadillas\n\nWhich one are you trying first? Tell us 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:sweet-chilli-halloumi-wraps-1",
+    "card:garlic-butter-halloumi-couscous-2",
+    "card:cheesy-tomato-pasta-1",
+    "card:garlic-butter-flatbreads-1",
+    "card:crispy-bean-quesadillas-1"
+   ],
+   "groups": [
+    "sweet-chilli-halloumi-wraps",
+    "garlic-butter-halloumi-couscous",
+    "cheesy-tomato-pasta",
+    "garlic-butter-flatbreads",
+    "crispy-bean-quesadillas"
+   ],
+   "dishes": [
+    "Sweet Chilli Halloumi Wraps",
+    "Garlic Butter Halloumi Couscous",
+    "Cheesy Tomato Pasta",
+    "Garlic Butter Flatbreads",
+    "Crispy Bean Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    240,
+    544
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "asda",
+   "theme": {
+    "collection": "veggie",
+    "angle": "payday",
+    "label": "meat-free dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first? Tell us 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Meat-Free Dinners to Stretch You Till Payday 💸",
+     "subline": "Skint but starving? Big flavour 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Asda Halloumi & Cheesy Dinners That Stop Takeaway Moaning 😏🧀",
+     "subline": "Send this to your housemate 🙌",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Asda Meat-Free Fakeaways That Beat Ordering In 😏🍝",
+     "subline": "All the flavour, no delivery faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Dinners I'd Make When My Bank's Properly Skint 😭",
+     "subline": "Proper end-of-month winners 😋",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-09T18:45:09+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-09-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706244907853350935",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T18:46:46+00:00"
   }
  ]
 }

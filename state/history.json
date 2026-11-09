@@ -8494,6 +8494,189 @@
    "publish_id": "p_inbox_url~v2.7705968658597709846",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T00:56:30+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "hook": "5 Lidl Dinners That Beat a Takeaway on Monday 😏🍔",
+   "subline": "Fakeaways without the faff 🙌",
+   "title": "5 Lidl Dinners That Beat a Takeaway on Monday 😏🍔",
+   "caption": "💾 SAVE this for when you want to start the week without blowing the budget 😩💸\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Cheesy Beef Taco Pasta\n3. Honey Chilli Chicken Noodles\n4. Crispy Beef Burrito Bowls\n5. Sticky BBQ Beef Rice Bowls\n\nWhich one are you making first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:cheesy-beef-taco-pasta-2",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:sticky-bbq-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "cheesy-beef-taco-pasta",
+    "honey-chilli-chicken-noodles",
+    "crispy-beef-burrito-bowls",
+    "sticky-bbq-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Cheesy Beef Taco Pasta",
+    "Honey Chilli Chicken Noodles",
+    "Crispy Beef Burrito Bowls",
+    "Sticky BBQ Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    264,
+    532
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "anything",
+    "angle": "monday",
+    "label": "a mix of the best dinners",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one are you making first this week? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Dinners to Start Monday Without Blowing the Budget 😩💸",
+     "subline": "Big flavour, tiny Monday shop 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Lidl Meals for When You're Properly Knackered 😴🍜",
+     "subline": "Send to your housemate who never knows 😏",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Dinners That Beat a Takeaway on Monday 😏🍔",
+     "subline": "Fakeaways without the faff 🙌",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Lidl Meals to Send Your Group Chat When You're Skint 😂💸",
+     "subline": "Five saucy dinners for a knackered night 😍",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Loaded Dinners to Rescue Your Monday Night 😍🍝",
+     "subline": "Dinner sorted before work 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Dinners That Keep Your Weeknight Budget in Check 💸😋",
+     "subline": "Perfect for the week before payday 😭",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-09T18:40:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706244671747459094",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T18:46:03+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "hook": "5 Aldi Loaded Meals That Stretch Your Shop 💸🤤",
+   "subline": "Big flavour, tiny budget 👀",
+   "title": "5 Aldi Loaded Meals That Stretch Your Shop 💸🤤",
+   "caption": "💾 SAVE this for when you want fakeaway vibes without the faff or the bill 😭💸\n\n1. Sticky Chicken Loaded Fries\n2. Loaded BBQ Beef Nachos\n3. Garlic Butter Sausage & Veggie Skillet\n4. Cheesy BBQ Pulled Chicken Nachos\n5. Sticky Maple Sausage Traybake\n\nWhich one are you making first this week? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:loaded-bbq-beef-nachos-2",
+    "card:garlic-butter-sausage-veggie-skillet-1",
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:sticky-maple-sausage-traybake-2"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "loaded-bbq-beef-nachos",
+    "garlic-butter-sausage-veggie-skillet",
+    "cheesy-bbq-pulled-chicken-nachos",
+    "sticky-maple-sausage-traybake"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Loaded BBQ Beef Nachos",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Sticky Maple Sausage Traybake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    448,
+    764
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "loaded",
+    "angle": "weekly-shop",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you making first this week? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Loaded Dinners for When You're Knackered 😭🍔",
+     "subline": "Plan your weekly Aldi shop around them 🛒",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Loaded Meals That Stretch Your Shop 💸🤤",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners to Send Your Housemate 😂🍚",
+     "subline": "Make them cook one night 👇",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners To Salvage Your Monday 😩🍔",
+     "subline": "Because you deserve a proper tea 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Loaded Dinners for a Weekend of Fakeaway Vibes 😏🍔",
+     "subline": "",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-09T18:42:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-09-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706244684116576278",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-09T18:46:18+00:00"
   }
  ]
 }
