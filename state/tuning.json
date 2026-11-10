@@ -36,7 +36,7 @@
     "avg_ratio": 2.16
    },
    "italian": {
-    "mult": 1.05,
+    "mult": 1.06,
     "posts": 4,
     "avg_ratio": 1.1
    },
@@ -125,7 +125,7 @@
    "save": {
     "mult": 2.0,
     "posts": 6,
-    "avg_ratio": 2.9
+    "avg_ratio": 2.91
    },
    "friday": {
     "mult": 1.25,
@@ -287,7 +287,7 @@
    "sticky-chicken-loaded-fries": {
     "mult": 2.0,
     "posts": 4,
-    "avg_ratio": 2.85
+    "avg_ratio": 2.84
    },
    "loaded-taco-jacket-potato": {
     "mult": 1.23,
@@ -373,7 +373,7 @@
   {
    "hook": "5 Aldi Dinners Under £1.50 a Portion That Stop the Moaning 😏",
    "subline": "Feed the lot without drama 😂",
-   "views": 10981,
+   "views": 10969,
    "store": "aldi"
   },
   {
