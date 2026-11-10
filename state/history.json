@@ -8840,6 +8840,95 @@
    "publish_id": "p_inbox_url~v2.7706476611184707606",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-10T09:45:38+00:00"
+  },
+  {
+   "date": "2026-11-10",
+   "hook": "5 Aldi Honey, Hoisin & Chilli Dinners to Stop Takeaway 👀",
+   "subline": "Send to the 'what's for tea' person 😂",
+   "title": "5 Aldi Honey, Hoisin & Chilli Dinners to Stop Takeaway 👀",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook this week 😭🍜\n\n1. Sweet Chilli Chicken Rice Bowl\n2. Honey Chilli Chicken Noodles\n3. Honey Soy Beef Noodles\n4. Honey Soy Sausage Noodle Bowls\n5. Sticky Hoisin Beef Flatbreads\n\nWhich one are you sending to the group chat? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:honey-chilli-chicken-noodles-2",
+    "card:honey-soy-beef-noodles-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-hoisin-beef-flatbreads-1"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-rice-bowl",
+    "honey-chilli-chicken-noodles",
+    "honey-soy-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-hoisin-beef-flatbreads"
+   ],
+   "dishes": [
+    "Sweet Chilli Chicken Rice Bowl",
+    "Honey Chilli Chicken Noodles",
+    "Honey Soy Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Hoisin Beef Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    444,
+    776
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "asian",
+    "angle": "send",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you sending to the group chat? 😂",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Asian-style Dinners to Send to Your Housemate 😂",
+     "subline": "Send this to the person who never knows 😂",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Noodle & Rice Dinners for Knackered Nights 😴",
+     "subline": "Ready in 25 minutes or less 🍜",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Honey, Hoisin & Chilli Dinners to Stop Takeaway 👀",
+     "subline": "Send to the 'what's for tea' person 😂",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Asian Dinners That Rescue a Knackered Tuesday 😭",
+     "subline": "Midweek fakeaways, sorted 😋",
+     "score": 8.2
+    },
+    {
+     "hook": "5 Aldi Saucy Flatbreads, Noodles & Rice to Impress Mates 😍",
+     "subline": "Send to the one who never cooks 👀",
+     "score": 7.3
+    }
+   ],
+   "built_at": "2026-11-10T16:23:15+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706579850388097046",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-10T16:26:46+00:00"
   }
  ]
 }
