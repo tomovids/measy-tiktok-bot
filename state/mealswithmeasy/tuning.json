@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 37,
+ "scored_posts": 38,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -8,12 +8,12 @@
    "loaded": {
     "mult": 0.85,
     "posts": 3,
-    "avg_ratio": 0.71
+    "avg_ratio": 0.7
    },
    "creamy": {
     "mult": 1.1,
     "posts": 3,
-    "avg_ratio": 1.2
+    "avg_ratio": 1.19
    },
    "chicken": {
     "mult": 1.02,
@@ -38,20 +38,20 @@
    "beef": {
     "mult": 1.24,
     "posts": 3,
-    "avg_ratio": 1.48
+    "avg_ratio": 1.47
    },
    "mexican": {
-    "mult": 0.99,
+    "mult": 0.98,
     "posts": 1,
     "avg_ratio": 0.94
    },
    "comfort": {
     "mult": 1.18,
     "posts": 3,
-    "avg_ratio": 1.37
+    "avg_ratio": 1.36
    },
    "handheld": {
-    "mult": 0.93,
+    "mult": 0.92,
     "posts": 2,
     "avg_ratio": 0.81
    },
@@ -63,7 +63,7 @@
    "rice": {
     "mult": 1.37,
     "posts": 2,
-    "avg_ratio": 1.92
+    "avg_ratio": 1.91
    },
    "pasta": {
     "mult": 0.98,
@@ -79,6 +79,11 @@
     "mult": 1.33,
     "posts": 1,
     "avg_ratio": 2.31
+   },
+   "veggie": {
+    "mult": 1.1,
+    "posts": 1,
+    "avg_ratio": 1.39
    }
   },
   "angle": {
@@ -88,9 +93,9 @@
     "avg_ratio": 0.71
    },
    "takeaway": {
-    "mult": 1.33,
-    "posts": 3,
-    "avg_ratio": 1.66
+    "mult": 1.34,
+    "posts": 4,
+    "avg_ratio": 1.59
    },
    "no-idea": {
     "mult": 0.9,
@@ -98,14 +103,14 @@
     "avg_ratio": 0.8
    },
    "weekly-shop": {
-    "mult": 1.04,
+    "mult": 1.03,
     "posts": 2,
     "avg_ratio": 1.09
    },
    "cosy": {
     "mult": 1.16,
     "posts": 2,
-    "avg_ratio": 1.4
+    "avg_ratio": 1.39
    },
    "save": {
     "mult": 0.94,
@@ -140,12 +145,12 @@
    "taste-cheap": {
     "mult": 1.16,
     "posts": 3,
-    "avg_ratio": 1.32
+    "avg_ratio": 1.31
    },
    "students": {
     "mult": 1.1,
     "posts": 3,
-    "avg_ratio": 1.21
+    "avg_ratio": 1.2
    },
    "tonight": {
     "mult": 1.01,
@@ -153,7 +158,7 @@
     "avg_ratio": 1.03
    },
    "midweek": {
-    "mult": 1.21,
+    "mult": 1.2,
     "posts": 1,
     "avg_ratio": 1.82
    }
@@ -170,7 +175,7 @@
     "avg_ratio": 1.04
    },
    "cheesy-cajun-chicken-wraps": {
-    "mult": 0.95,
+    "mult": 0.94,
     "posts": 2,
     "avg_ratio": 0.86
    },
@@ -182,20 +187,20 @@
    "sticky-garlic-beef-loaded-fries": {
     "mult": 1.41,
     "posts": 2,
-    "avg_ratio": 2.04
+    "avg_ratio": 2.03
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.98,
     "posts": 3,
-    "avg_ratio": 0.96
+    "avg_ratio": 0.95
    },
    "loaded-bbq-beef-nachos": {
     "mult": 1.1,
     "posts": 2,
-    "avg_ratio": 1.26
+    "avg_ratio": 1.25
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 1.01,
+    "mult": 1.0,
     "posts": 3,
     "avg_ratio": 1.01
    },
@@ -217,7 +222,7 @@
    "sticky-korean-bbq-chicken-loaded-fries": {
     "mult": 1.1,
     "posts": 3,
-    "avg_ratio": 1.21
+    "avg_ratio": 1.2
    },
    "creamy-tomato-chicken-pasta": {
     "mult": 1.0,
@@ -247,17 +252,22 @@
    "cheesy-buffalo-chicken-potato-skins": {
     "mult": 1.15,
     "posts": 1,
-    "avg_ratio": 1.6
+    "avg_ratio": 1.59
    },
    "sticky-korean-beef-rice-bowls": {
     "mult": 1.15,
     "posts": 2,
-    "avg_ratio": 1.39
+    "avg_ratio": 1.38
    },
    "buffalo-chicken-quesadillas": {
     "mult": 1.33,
     "posts": 1,
     "avg_ratio": 2.31
+   },
+   "crispy-sweet-chilli-halloumi-burgers": {
+    "mult": 1.1,
+    "posts": 1,
+    "avg_ratio": 1.39
    }
   }
  },

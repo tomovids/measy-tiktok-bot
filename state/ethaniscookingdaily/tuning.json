@@ -56,7 +56,7 @@
     "avg_ratio": 1.76
    },
    "creamy": {
-    "mult": 0.8,
+    "mult": 0.79,
     "posts": 4,
     "avg_ratio": 0.64
    },
@@ -275,7 +275,7 @@
     "avg_ratio": 0.58
    },
    "garlic-parmesan-chicken-flatbreads": {
-    "mult": 0.84,
+    "mult": 0.83,
     "posts": 2,
     "avg_ratio": 0.59
    },
