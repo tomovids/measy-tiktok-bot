@@ -8756,6 +8756,90 @@
    "publish_id": "p_inbox_url~v2.7706310941474015254",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-09T23:03:25+00:00"
+  },
+  {
+   "date": "2026-11-10",
+   "hook": "5 Tesco Dinners That Feel Like a Hug in a Bowl 🫶😋",
+   "subline": "Proper cosy family meals, no moaning 😋",
+   "title": "5 Tesco Dinners That Feel Like a Hug in a Bowl 🫶😋",
+   "caption": "💾 SAVE this for when the whole family needs dinner without the drama 😭🛒\n\n1. Cheesy BBQ Loaded Fries\n2. Creamy Garlic Chicken Pasta\n3. Cheesy Cajun Sausage Gnocchi\n4. Creamy Tomato Chicken Pasta\n5. Creamy Sun-Dried Tomato Chicken Orzo\n\nWhich one would you make first? Tell us which you'd pick 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-2",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "creamy-garlic-chicken-pasta",
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-tomato-chicken-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Creamy Garlic Chicken Pasta",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Tomato Chicken Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    272,
+    572
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "comfort",
+    "angle": "family",
+    "label": "cosy comfort food",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would you make first? Tell us which you'd pick 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Cosy Dinners That End Dinner Moans 😏🧀",
+     "subline": "Feed the fam with zero grumbles 😋",
+     "score": 7.7
+    },
+    {
+     "hook": "5 Tesco Dinners To Send Your Housemate 😂🍝",
+     "subline": "Stop the 'what's for tea?' texts 👀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Tesco Dinners That Feel Like a Hug in a Bowl 🫶😋",
+     "subline": "Proper cosy family meals, no moaning 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Family Dinners That Stop Dinner Drama 😏🍗",
+     "subline": "Everyone eats and nobody moans 😋",
+     "score": 7.8
+    }
+   ],
+   "built_at": "2026-11-10T09:44:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-10-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706476611184707606",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-10T09:45:38+00:00"
   }
  ]
 }
