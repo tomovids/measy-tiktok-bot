@@ -8929,6 +8929,90 @@
    "publish_id": "p_inbox_url~v2.7706579850388097046",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-10T16:26:46+00:00"
+  },
+  {
+   "date": "2026-11-11",
+   "hook": "5 Aldi Fakeaways That Rescue a Midweek Knackered Night 👀💸",
+   "subline": "Cheap, quick(ish) and mega satisfying 🍜",
+   "title": "5 Aldi Fakeaways That Rescue a Midweek Knackered Night 👀💸",
+   "caption": "💾 SAVE this for when it's dark and you're about to order a takeaway 😭🍜\n\n1. Cheesy Cajun Chicken Wraps\n2. Sweet Chilli Halloumi Wraps\n3. Cheesy Taco Quesadillas\n4. Creamy Peri-Peri Chicken Pasta\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich fakeaway are you trying first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:cheesy-cajun-chicken-wraps-2",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "cheesy-cajun-chicken-wraps",
+    "sweet-chilli-halloumi-wraps",
+    "cheesy-taco-quesadillas",
+    "creamy-peri-peri-chicken-pasta",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Cheesy Cajun Chicken Wraps",
+    "Sweet Chilli Halloumi Wraps",
+    "Cheesy Taco Quesadillas",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1164,
+    1380
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "cosy",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which fakeaway are you trying first? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners for When You're Too Knackered to Order In 😩🍜",
+     "subline": "Cosy fakeaways for dark, chilly nights 🫶",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Fakeaways to Skip Ordering In Tonight 🤤🍗",
+     "subline": "Saucy, cosy and proper tasty 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners I'd Pick on a Cold Night Instead of a Takeaway 😏🧀",
+     "subline": "Comfort food without the delivery time 👀",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Fakeaways That Rescue a Midweek Knackered Night 👀💸",
+     "subline": "Cheap, quick(ish) and mega satisfying 🍜",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-10T23:16:41+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706686179084601367",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-10T23:20:07+00:00"
   }
  ]
 }
