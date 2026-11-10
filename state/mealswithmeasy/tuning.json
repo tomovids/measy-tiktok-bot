@@ -1,14 +1,14 @@
 {
  "active": true,
- "scored_posts": 36,
+ "scored_posts": 37,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
   "collection": {
    "loaded": {
-    "mult": 0.82,
-    "posts": 2,
-    "avg_ratio": 0.56
+    "mult": 0.85,
+    "posts": 3,
+    "avg_ratio": 0.71
    },
    "creamy": {
     "mult": 1.1,
@@ -114,8 +114,8 @@
    },
    "tired": {
     "mult": 0.99,
-    "posts": 3,
-    "avg_ratio": 0.97
+    "posts": 4,
+    "avg_ratio": 0.98
    },
    "repeat": {
     "mult": 1.12,
@@ -190,9 +190,9 @@
     "avg_ratio": 0.96
    },
    "loaded-bbq-beef-nachos": {
-    "mult": 1.13,
-    "posts": 1,
-    "avg_ratio": 1.51
+    "mult": 1.1,
+    "posts": 2,
+    "avg_ratio": 1.26
    },
    "cheesy-bbq-loaded-potatoes": {
     "mult": 1.01,
