@@ -9102,6 +9102,95 @@
    "publish_id": "p_inbox_url~v2.7706864845177817110",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-11T10:52:37+00:00"
+  },
+  {
+   "date": "2026-11-11",
+   "hook": "5 Aldi Beef Dinners That Beat a Takeaway 🤤",
+   "subline": "Loaded, sticky and proper tasty 😋",
+   "title": "5 Aldi Beef Dinners That Beat a Takeaway 🤤",
+   "caption": "💾 SAVE this for when the whole family's hungry and knackered — dinner sorted, no moaning 😭🛒\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Sticky Beef Noodles\n4. Loaded BBQ Beef Nachos\n5. One-Pan Smoky Beef Orzo\n\nWhich one would stop the moaning at your house? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:sticky-beef-noodles-2",
+    "card:loaded-bbq-beef-nachos-1",
+    "card:one-pan-smoky-beef-orzo-2"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "sticky-beef-noodles",
+    "loaded-bbq-beef-nachos",
+    "one-pan-smoky-beef-orzo"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Sticky Beef Noodles",
+    "Loaded BBQ Beef Nachos",
+    "One-Pan Smoky Beef Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    324,
+    672
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "beef",
+    "angle": "family",
+    "label": "beef mince and beef dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would stop the moaning at your house? 😂",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners That Feed The Whole Family — NO FUSS 😏",
+     "subline": "Feed the lot without the moaning 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners That Beat a Takeaway 🤤",
+     "subline": "Loaded, sticky and proper tasty 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners To Send Your Other Half 😂",
+     "subline": "When they ask 'what's for tea?' 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Mince Meals That STOP Dinner Drama 🤯",
+     "subline": "Feed hungry teens. No drama 😩",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners For This Weekend — Feed the Lot 😍",
+     "subline": "Turn weekend moaning into 'more please' 👀",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-11T16:04:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-11-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7706946086913050646",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-11T16:07:39+00:00"
   }
  ]
 }
