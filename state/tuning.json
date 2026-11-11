@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 58,
+ "scored_posts": 59,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -86,9 +86,9 @@
     "avg_ratio": 1.21
    },
    "beef": {
-    "mult": 0.87,
-    "posts": 2,
-    "avg_ratio": 0.67
+    "mult": 0.83,
+    "posts": 3,
+    "avg_ratio": 0.66
    },
    "under-2": {
     "mult": 2.0,
@@ -178,9 +178,9 @@
     "avg_ratio": 0.91
    },
    "takeaway": {
-    "mult": 0.7,
-    "posts": 2,
-    "avg_ratio": 0.25
+    "mult": 0.69,
+    "posts": 3,
+    "avg_ratio": 0.37
    },
    "midweek": {
     "mult": 0.97,
@@ -348,6 +348,11 @@
     "mult": 1.01,
     "posts": 1,
     "avg_ratio": 1.05
+   },
+   "cheesy-beef-bean-loaded-potatoes": {
+    "mult": 0.91,
+    "posts": 1,
+    "avg_ratio": 0.62
    }
   }
  },
