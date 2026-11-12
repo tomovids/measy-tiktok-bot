@@ -5831,6 +5831,95 @@
    "publish_id": "p_inbox_url~v2.7706946239019206678",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-11T16:08:04+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "hook": "5 Aldi Pasta Dinners for When Your Bank Says NO 😭💸",
+   "subline": "Dinner that stretches your shop 👀",
+   "title": "5 Aldi Pasta Dinners for When Your Bank Says NO 😭💸",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Creamy Tomato Pasta\n2. Creamy Garlic Chicken Orzo\n3. Creamy Lemon Chicken Orzo\n4. Creamy Garlic Chicken Pasta\n5. Creamy Sun-Dried Tomato Chicken Orzo\n\nWhich one are you making first? 🍝\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-tomato-pasta-1",
+    "card:creamy-garlic-chicken-orzo-2",
+    "card:creamy-lemon-chicken-orzo-1",
+    "card:creamy-garlic-chicken-pasta-2",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2"
+   ],
+   "groups": [
+    "creamy-tomato-pasta",
+    "creamy-garlic-chicken-orzo",
+    "creamy-lemon-chicken-orzo",
+    "creamy-garlic-chicken-pasta",
+    "creamy-sun-dried-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Creamy Tomato Pasta",
+    "Creamy Garlic Chicken Orzo",
+    "Creamy Lemon Chicken Orzo",
+    "Creamy Garlic Chicken Pasta",
+    "Creamy Sun-Dried Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    296,
+    712
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "pasta",
+    "angle": "payday",
+    "label": "pasta dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you making first? 🍝",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Pasta Dinners Till Payday That Actually Hit 😭💸",
+     "subline": "Cheap, creamy, proper comfort 🍝",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners for When Your Bank Says NO 😭💸",
+     "subline": "Dinner that stretches your shop 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners To Drop In The Group Chat 😂🍝",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Creamy Pasta Dinners That Rescue Tonight 😏🍝",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners When You're Too Knackered to Order In 😴🍝",
+     "subline": "No faff, all the flavour 😋",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-12T01:34:46+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707091992358160406",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T01:35:52+00:00"
   }
  ]
 }

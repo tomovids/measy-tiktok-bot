@@ -9191,6 +9191,85 @@
    "publish_id": "p_inbox_url~v2.7706946086913050646",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-11T16:07:39+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "hook": "5 Aldi Wraps That Save You Takeaway Cash 💸",
+   "subline": "Better than ordering in 😏",
+   "title": "5 Aldi Wraps That Save You Takeaway Cash 💸",
+   "caption": "💾 SAVE this for when you're about to order takeaway 😭🤤\n\n1. Creamy Cajun Chicken Flatbreads\n2. Crispy Sweet Chilli Halloumi Burgers\n3. Garlic-Butter Chicken Flatbreads\n4. Sticky Hoisin Beef Flatbreads\n5. Garlic Parmesan Chicken Flatbreads\n\nWhich one would you make first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:garlic-parmesan-chicken-flatbreads-2"
+   ],
+   "groups": [
+    "creamy-cajun-chicken-flatbreads",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "garlic-butter-chicken-flatbreads",
+    "sticky-hoisin-beef-flatbreads",
+    "garlic-parmesan-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Creamy Cajun Chicken Flatbreads",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Garlic-Butter Chicken Flatbreads",
+    "Sticky Hoisin Beef Flatbreads",
+    "Garlic Parmesan Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    356,
+    684
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "handheld",
+    "angle": "taste-cheap",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": false,
+   "hook_score": 9.3,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Wraps to Rescue a Knackered Night 😩",
+     "subline": "No faff, full flavour 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Wraps That Save You Takeaway Cash 💸",
+     "subline": "Better than ordering in 😏",
+     "score": 9.3
+    },
+    {
+     "hook": "5 Aldi Quesadillas for Your Weekend In 🙌",
+     "subline": "Perfect with chips & a film 🍔",
+     "score": 6.3
+    }
+   ],
+   "built_at": "2026-11-12T01:31:24+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707092070023841814",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T01:35:29+00:00"
   }
  ]
 }

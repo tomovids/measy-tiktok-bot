@@ -5868,6 +5868,90 @@
    "publish_id": "p_inbox_url~v2.7706946157981435926",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-11T16:07:52+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "hook": "5 Trader Joe's Meals Better Than Takeout Tonight 😏🍜",
+   "subline": "Midweek comfort that actually shows up 😋",
+   "title": "5 Trader Joe's Meals Better Than Takeout Tonight 😏🍜",
+   "caption": "💾 SAVE this for when midweek hits and your fridge is empty — dinner sorted 😭🛒\n\n1. BBQ Sausage Loaded Potatoes\n2. Creamy Tuscan Chicken Pasta\n3. Garlic Butter Chicken & Rice\n4. Creamy Pesto Chicken Gnocchi\n5. Cheesy Cajun Sausage Gnocchi\n\nWhich one are you making first? Rate it out of 10! 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #comfortfood #cozydinner",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-1",
+    "card:creamy-tuscan-chicken-pasta-2",
+    "card:garlic-butter-chicken-and-rice-2",
+    "card:creamy-pesto-chicken-gnocchi-1",
+    "card:cheesy-cajun-sausage-gnocchi-2"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "creamy-tuscan-chicken-pasta",
+    "garlic-butter-chicken-and-rice",
+    "creamy-pesto-chicken-gnocchi",
+    "cheesy-cajun-sausage-gnocchi"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Creamy Tuscan Chicken Pasta",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Pesto Chicken Gnocchi",
+    "Cheesy Cajun Sausage Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    264,
+    560
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "comfort",
+    "angle": "midweek",
+    "label": "cosy comfort food",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you making first? Rate it out of 10! 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Dinners That Rescue Your Midweek Slump 😭🍝",
+     "subline": "Cozy comfort food for midweek slump 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Meals Better Than Takeout Tonight 😏🍜",
+     "subline": "Midweek comfort that actually shows up 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Loaded Comfort Meals When You're Broke 😭🍗",
+     "subline": "Crowd-pleasers for midweek 😴",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Dinners I'd Make If I Had Nothing Left 😭👀",
+     "subline": "Feels like a hug in a bowl 🫶",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-12T01:33:11+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-12-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707092070024022038",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T01:35:40+00:00"
   }
  ]
 }
