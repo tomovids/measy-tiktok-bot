@@ -5920,6 +5920,90 @@
    "publish_id": "p_inbox_url~v2.7707091992358160406",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-12T01:35:52+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "hook": "5 Lidl Creamy Dinners If You're Skint Midweek 😭💸",
+   "subline": "Stretch your shop, not your patience 🙌",
+   "title": "5 Lidl Creamy Dinners If You're Skint Midweek 😭💸",
+   "caption": "💾 SAVE this for when midweek has drained you and you're about to order a takeaway 😭🍝\n\n1. Cheesy Buffalo Chicken Potato Skins\n2. Cheesy Tomato Pasta\n3. Creamy Tomato Chicken Pasta\n4. Garlic Sausage Rice Bowls\n5. One-Pan Tomato Chicken Orzo\n\nWhich one are you cooking first? 🍝\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #creamypasta #comfortfood",
+   "files": [
+    "card:cheesy-buffalo-chicken-potato-skins-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:one-pan-tomato-chicken-orzo-2"
+   ],
+   "groups": [
+    "cheesy-buffalo-chicken-potato-skins",
+    "cheesy-tomato-pasta",
+    "creamy-tomato-chicken-pasta",
+    "garlic-sausage-rice-bowls",
+    "one-pan-tomato-chicken-orzo"
+   ],
+   "dishes": [
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Cheesy Tomato Pasta",
+    "Creamy Tomato Chicken Pasta",
+    "Garlic Sausage Rice Bowls",
+    "One-Pan Tomato Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    248,
+    556
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "lidl",
+   "theme": {
+    "collection": "creamy",
+    "angle": "midweek",
+    "label": "creamy dinners",
+    "angle_text": "midweek slump: you've got nothing left by Wednesday"
+   },
+   "question": "Which one are you cooking first? 🍝",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Creamy Dinners for a Midweek Slump 😩🍝",
+     "subline": "Comfort food, zero faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Creamy Dinners to Send Your Housemate 😂🧀",
+     "subline": "Midweek heroes that taste luxe 😳",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Lidl Creamy Dinners When You're Properly Knackered 😴🍚",
+     "subline": "",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Lidl Creamy Dinners If You're Skint Midweek 😭💸",
+     "subline": "Stretch your shop, not your patience 🙌",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-12T16:49:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-12-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707328157560506390",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T16:50:20+00:00"
   }
  ]
 }

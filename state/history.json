@@ -9354,6 +9354,90 @@
    "publish_id": "p_inbox_url~v2.7707218918355650582",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-12T09:46:58+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "hook": "5 Aldi Meals I'd Plan Into My Weekly Shop — 20m 🛒😳",
+   "subline": "Add them to your weekly shop list 🛒",
+   "title": "5 Aldi Meals I'd Plan Into My Weekly Shop — 20m 🛒😳",
+   "caption": "💾 SAVE this for your next Aldi big shop — dinners ready in 20 minutes or less 😭🛒\n\n1. Cheesy BBQ Loaded Fries\n2. Sweet Chilli Beef Noodles\n3. Honey Soy Beef Noodles\n4. Honey Chilli Chicken Noodles\n5. Sticky Honey Garlic Sausage Bowls\n\nWhich one are you cooking first this week? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:honey-soy-beef-noodles-2",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:sticky-honey-garlic-sausage-rice-2"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "sweet-chilli-beef-noodles",
+    "honey-soy-beef-noodles",
+    "honey-chilli-chicken-noodles",
+    "sticky-honey-garlic-sausage-rice"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Sweet Chilli Beef Noodles",
+    "Honey Soy Beef Noodles",
+    "Honey Chilli Chicken Noodles",
+    "Sticky Honey Garlic Sausage Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1072,
+    1300
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "weekly-shop",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you cooking first this week? 👇",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners for Last-Minute Tea — 20m 😩",
+     "subline": "Dinner ready before you collapse 🍚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals I'd Plan Into My Weekly Shop — 20m 🛒😳",
+     "subline": "Add them to your weekly shop list 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Dinners to Send Your Housemate — 20m 😂👀",
+     "subline": "Send this to the 'what's for tea?' gang 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners Faster Than Ordering a Takeaway — 20m 🤯🍜",
+     "subline": "Weekend sorted in under 20 minutes 🍜",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-12T16:46:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-12-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707327885757384706",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T16:49:55+00:00"
   }
  ]
 }
