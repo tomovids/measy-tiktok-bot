@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 39,
+ "scored_posts": 40,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -36,9 +36,9 @@
     "avg_ratio": 0.95
    },
    "beef": {
-    "mult": 1.23,
-    "posts": 3,
-    "avg_ratio": 1.45
+    "mult": 1.28,
+    "posts": 4,
+    "avg_ratio": 1.49
    },
    "mexican": {
     "mult": 0.98,
@@ -123,9 +123,9 @@
     "avg_ratio": 0.96
    },
    "repeat": {
-    "mult": 1.11,
-    "posts": 3,
-    "avg_ratio": 1.23
+    "mult": 1.19,
+    "posts": 4,
+    "avg_ratio": 1.32
    },
    "send": {
     "mult": 1.06,
@@ -185,9 +185,9 @@
     "avg_ratio": 1.2
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.4,
-    "posts": 2,
-    "avg_ratio": 2.0
+    "mult": 1.44,
+    "posts": 3,
+    "avg_ratio": 1.87
    },
    "hot-honey-chicken-flatbread-pizzas": {
     "mult": 0.97,
