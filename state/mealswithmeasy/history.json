@@ -6031,6 +6031,100 @@
    "publish_id": "p_inbox_url~v2.7707328013376981014",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-12T16:50:07+00:00"
+  },
+  {
+   "date": "2026-11-13",
+   "hook": "5 Aldi Italian Dinners to Send Your Roommate When Broke 😂🍝",
+   "subline": "Tell them to stop ordering in 😂",
+   "title": "5 Aldi Italian Dinners to Send Your Roommate When Broke 😂🍝",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Creamy Peri-Peri Chicken Pasta\n2. Garlic Parmesan Chicken Flatbreads\n3. Cheesy Beef Taco Pasta\n4. One-Pan Tomato Chicken Orzo\n5. One-Pan Smoky Beef Orzo\n\nWhich one are you cooking first this week? 🍝\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:cheesy-beef-taco-pasta-1",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:one-pan-smoky-beef-orzo-1"
+   ],
+   "groups": [
+    "creamy-peri-peri-chicken-pasta",
+    "garlic-parmesan-chicken-flatbreads",
+    "cheesy-beef-taco-pasta",
+    "one-pan-tomato-chicken-orzo",
+    "one-pan-smoky-beef-orzo"
+   ],
+   "dishes": [
+    "Creamy Peri-Peri Chicken Pasta",
+    "Garlic Parmesan Chicken Flatbreads",
+    "Cheesy Beef Taco Pasta",
+    "One-Pan Tomato Chicken Orzo",
+    "One-Pan Smoky Beef Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1072,
+    1288
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "italian",
+    "angle": "payday",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you cooking first this week? 🍝",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Italian Dinners for When Payday’s Weeks Away 😭💸",
+     "subline": "End-of-month carb therapy 🍝",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners for the Broke Till Payday 😩🍝",
+     "subline": "Pasta that saves the takeaway cash 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Italian Dinners to Send Your Roommate When Broke 😂🍝",
+     "subline": "Tell them to stop ordering in 😂",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Friday Night Italian Dinners When You're Broke 😳🍝",
+     "subline": "Friday vibes, not the takeout tab 😍",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi One-Pan Italian Dinners for Broke Weeknights ⏰🍝",
+     "subline": "One-pan, less washing, more savings 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners That Feel Fancy but Don't Cost Much 😍🍝",
+     "subline": "Feels fancy, cost stays tiny 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-12T23:41:37+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707434206364715030",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-12T23:44:35+00:00"
   }
  ]
 }
