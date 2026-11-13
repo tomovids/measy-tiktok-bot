@@ -9507,6 +9507,179 @@
    "publish_id": "p_inbox_url~v2.7707434206250649622",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-12T23:44:23+00:00"
+  },
+  {
+   "date": "2026-11-13",
+   "hook": "5 Lidl Noodle Dinners That Stretch a Student Shop 💸🍜",
+   "subline": "Feed yourself and still have savings 🙌",
+   "title": "5 Lidl Noodle Dinners That Stretch a Student Shop 💸🍜",
+   "caption": "💾 SAVE this for when you're skint and have zero tea ideas 😭🍜\n\n1. Sweet Chilli Beef Noodles\n2. Chilli Beef Noodles\n3. Crispy Sweet Chilli Chicken Noodles\n4. Sticky Beef Noodles\n5. Honey Soy Beef Noodles\n\nWhich one would you make first in your flat? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #noodles #stirfry",
+   "files": [
+    "card:sweet-chilli-beef-noodles-1",
+    "card:chilli-beef-noodles-1",
+    "card:crispy-sweet-chilli-chicken-noodles-1",
+    "card:sticky-beef-noodles-1",
+    "card:honey-soy-beef-noodles-1"
+   ],
+   "groups": [
+    "sweet-chilli-beef-noodles",
+    "chilli-beef-noodles",
+    "crispy-sweet-chilli-chicken-noodles",
+    "sticky-beef-noodles",
+    "honey-soy-beef-noodles"
+   ],
+   "dishes": [
+    "Sweet Chilli Beef Noodles",
+    "Chilli Beef Noodles",
+    "Crispy Sweet Chilli Chicken Noodles",
+    "Sticky Beef Noodles",
+    "Honey Soy Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    476,
+    708
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "noodles",
+    "angle": "students",
+    "label": "noodle dinners",
+    "angle_text": "students / first flat / living alone on a budget"
+   },
+   "question": "Which one would you make first in your flat? 😋",
+   "tuned": false,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Noodle Dinners I'd Make in My First Flat 😋🍜",
+     "subline": "Singles-friendly, minimal washing up 🙌",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Lidl Noodle Meals to Send Your Flatmate 😂🍜",
+     "subline": "Send to the flatmate who NEVER knows 😂",
+     "score": 7.2
+    },
+    {
+     "hook": "5 Lidl Noodle Dinners Better Than a Takeaway 😏🍝",
+     "subline": "Saucy, sticky and ready to impress 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 LAZY Lidl Noodle Dinners — Ready in 20 Minutes ⏰😩",
+     "subline": "Ready before you hit the sofa 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Noodle Dinners That Stretch a Student Shop 💸🍜",
+     "subline": "Feed yourself and still have savings 🙌",
+     "score": 9.5
+    }
+   ],
+   "built_at": "2026-11-13T15:21:54+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707678083255502850",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-13T15:28:13+00:00"
+  },
+  {
+   "date": "2026-11-13",
+   "hook": "5 Aldi Dinners When You're Skint but Still Want Proper Tea 😭💸",
+   "subline": "Proper comfort under £1.50 a portion 😭",
+   "title": "5 Aldi Dinners When You're Skint but Still Want Proper Tea 😭💸",
+   "caption": "💾 SAVE this for the week before payday or a knackered Friday 😭🛒\n\n1. Sticky Chicken Loaded Fries\n2. Sticky Korean BBQ Chicken Loaded Fries\n3. Garlic Butter Flatbreads\n4. Sticky BBQ Beef Rice Bowls\n5. Sticky BBQ Chicken Rice Bowls\n\nWhich one are you trying this weekend? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-chicken-loaded-fries-1",
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:garlic-butter-flatbreads-2",
+    "card:sticky-bbq-beef-rice-bowls-2",
+    "card:sticky-bbq-chicken-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "garlic-butter-flatbreads",
+    "sticky-bbq-beef-rice-bowls",
+    "sticky-bbq-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Garlic Butter Flatbreads",
+    "Sticky BBQ Beef Rice Bowls",
+    "Sticky BBQ Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    508,
+    840
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "save",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you trying this weekend? 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners When You're Skint but Still Want Proper Tea 😭💸",
+     "subline": "Proper comfort under £1.50 a portion 😭",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners Under £1.50 a portion — dinner sorted 💸",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals to Send Your Housemate When You're Broke 😂💸",
+     "subline": "They need this in the group chat 😂",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Make Your Big Shop Go Further 🛒💸",
+     "subline": "Stretch your trolley without faff 🛒",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-13T15:23:18+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-13-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707678087986612246",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-13T15:28:26+00:00"
   }
  ]
 }

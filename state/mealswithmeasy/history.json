@@ -6125,6 +6125,95 @@
    "publish_id": "p_inbox_url~v2.7707434206364715030",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-12T23:44:35+00:00"
+  },
+  {
+   "date": "2026-11-13",
+   "hook": "5 Trader Joe's Pasta Dinners to Send Your Forgetful Partner 😂🍝",
+   "subline": "Stop the 'what's for dinner?' texts 😂",
+   "title": "5 Trader Joe's Pasta Dinners to Send Your Forgetful Partner 😂🍝",
+   "caption": "💾 SAVE this for the next time you're about to order takeout this weekend 😭🍝\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Creamy Garlic Chicken Gnocchi\n3. Creamy Tomato Pasta\n4. Creamy Tuscan Chicken Pasta\n5. Creamy Garlic Sausage Pasta\n\nWhich one are you making first? Tell us your pick 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-1",
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:creamy-tomato-pasta-2",
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:creamy-garlic-sausage-pasta-2"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-tomato-pasta",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Tomato Pasta",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    760,
+    828
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "pasta",
+    "angle": "send",
+    "label": "pasta dinners",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you making first? Tell us your pick 👇",
+   "tuned": true,
+   "hook_score": 8.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Creamy Pasta Dinners to Save Your Friday 😋🍝",
+     "subline": "Send this to the friend who never knows 😩",
+     "score": 5.8
+    },
+    {
+     "hook": "5 Trader Joe's Pasta Meals That Beat Ordering In Tonight 😏🍝",
+     "subline": "Cheesy, saucy, faster than delivery 🍜",
+     "score": 7.1
+    },
+    {
+     "hook": "5 Trader Joe's LAZY Pasta Dinners for Exhausted Weeknights 😴🍝",
+     "subline": "",
+     "score": 6.4
+    },
+    {
+     "hook": "5 Trader Joe's Gnocchi & Pasta Dinners Your Group Chat Needs 😂🍝",
+     "subline": "Decide dinner without the arguments 😂",
+     "score": 7.6
+    },
+    {
+     "hook": "5 Trader Joe's Pasta Dinners to Send Your Forgetful Partner 😂🍝",
+     "subline": "Stop the 'what's for dinner?' texts 😂",
+     "score": 8.8
+    }
+   ],
+   "built_at": "2026-11-13T15:25:23+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-13-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707678093980633110",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-13T15:28:38+00:00"
   }
  ]
 }
