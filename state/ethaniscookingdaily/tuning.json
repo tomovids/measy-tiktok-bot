@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 41,
+ "scored_posts": 42,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -21,9 +21,9 @@
     "avg_ratio": 1.52
    },
    "fakeaway": {
-    "mult": 1.21,
-    "posts": 3,
-    "avg_ratio": 1.42
+    "mult": 1.15,
+    "posts": 4,
+    "avg_ratio": 1.26
    },
    "quick": {
     "mult": 1.27,
@@ -113,9 +113,9 @@
     "avg_ratio": 1.23
    },
    "payday": {
-    "mult": 1.16,
-    "posts": 3,
-    "avg_ratio": 1.32
+    "mult": 1.1,
+    "posts": 4,
+    "avg_ratio": 1.18
    },
    "no-idea": {
     "mult": 0.96,
@@ -308,6 +308,11 @@
     "mult": 1.06,
     "posts": 1,
     "avg_ratio": 1.24
+   },
+   "sweet-chilli-beef-noodles": {
+    "mult": 0.94,
+    "posts": 1,
+    "avg_ratio": 0.77
    }
   }
  },
