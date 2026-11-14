@@ -6214,6 +6214,90 @@
    "publish_id": "p_inbox_url~v2.7707678093980633110",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-13T15:28:38+00:00"
+  },
+  {
+   "date": "2026-11-14",
+   "hook": "5 Walmart Date-Night Dinners Cheaper Than a Cocktail 😳🍝",
+   "subline": "Impress without overspending 🍝",
+   "title": "5 Walmart Date-Night Dinners Cheaper Than a Cocktail 😳🍝",
+   "caption": "💾 SAVE this for your weekend date night in — less than a cocktail 💸🍝\n\n1. Sticky Hoisin Beef Flatbreads\n2. Sticky Honey Garlic Chicken Rice Bowls\n3. Crispy Sweet Chili Chicken Bowls\n4. Sticky Maple Sausage Sheet Pan\n5. Garlic-Butter Chicken Flatbreads\n\nWhich one are you trying first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #mealideas",
+   "files": [
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:garlic-butter-chicken-flatbreads-1"
+   ],
+   "groups": [
+    "sticky-hoisin-beef-flatbreads",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "sticky-maple-sausage-traybake",
+    "garlic-butter-chicken-flatbreads"
+   ],
+   "dishes": [
+    "Sticky Hoisin Beef Flatbreads",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Crispy Sweet Chili Chicken Bowls",
+    "Sticky Maple Sausage Sheet Pan",
+    "Garlic-Butter Chicken Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1140,
+    1184
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "anything",
+    "angle": "date-night",
+    "label": "a mix of the best dinners",
+    "angle_text": "a date night in that costs less than a cocktail"
+   },
+   "question": "Which one are you trying first? 👀",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Date-Night Dinners Cheaper Than a Cocktail 😳🍝",
+     "subline": "Impress without overspending 🍝",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Walmart Dinners Better Than Takeout for Date Night 🤤🍜",
+     "subline": "Skip takeout, keep the flavor 🍜",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Walmart Dinners That Feel Like Dining Out at Home 🤤🍝",
+     "subline": "Restaurant vibes, zero drama 🍝",
+     "score": 6.0
+    },
+    {
+     "hook": "5 LAZY Walmart Date Night Dinners — ready in 40 mins or less 😴🍗",
+     "subline": "No fuss. Date night done 🍗",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-14T01:45:03+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-14-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7707836803872737302",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-14T01:47:29+00:00"
   }
  ]
 }
