@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 43,
+ "scored_posts": 44,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -104,13 +104,18 @@
     "mult": 0.9,
     "posts": 1,
     "avg_ratio": 0.61
+   },
+   "sausage": {
+    "mult": 1.05,
+    "posts": 1,
+    "avg_ratio": 1.19
    }
   },
   "angle": {
    "send": {
     "mult": 1.2,
-    "posts": 4,
-    "avg_ratio": 1.35
+    "posts": 5,
+    "avg_ratio": 1.32
    },
    "saturday": {
     "mult": 1.11,
@@ -323,6 +328,11 @@
     "mult": 0.95,
     "posts": 1,
     "avg_ratio": 0.79
+   },
+   "honey-soy-sausage-noodle-bowls": {
+    "mult": 1.05,
+    "posts": 1,
+    "avg_ratio": 1.19
    }
   }
  },

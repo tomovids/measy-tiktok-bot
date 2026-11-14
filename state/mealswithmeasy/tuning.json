@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 43,
+ "scored_posts": 44,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -26,9 +26,9 @@
     "avg_ratio": 1.24
    },
    "cheesy": {
-    "mult": 1.07,
-    "posts": 4,
-    "avg_ratio": 1.12
+    "mult": 1.04,
+    "posts": 5,
+    "avg_ratio": 1.07
    },
    "italian": {
     "mult": 0.97,
@@ -133,9 +133,9 @@
     "avg_ratio": 1.31
    },
    "send": {
-    "mult": 1.05,
-    "posts": 3,
-    "avg_ratio": 1.11
+    "mult": 1.03,
+    "posts": 4,
+    "avg_ratio": 1.05
    },
    "date-night": {
     "mult": 1.24,
@@ -200,9 +200,9 @@
     "avg_ratio": 0.93
    },
    "loaded-bbq-beef-nachos": {
-    "mult": 1.09,
-    "posts": 2,
-    "avg_ratio": 1.22
+    "mult": 1.05,
+    "posts": 3,
+    "avg_ratio": 1.1
    },
    "cheesy-bbq-loaded-potatoes": {
     "mult": 0.99,

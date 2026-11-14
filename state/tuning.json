@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 64,
+ "scored_posts": 65,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -81,9 +81,9 @@
     "avg_ratio": 0.62
    },
    "fakeaway": {
-    "mult": 1.21,
-    "posts": 3,
-    "avg_ratio": 1.42
+    "mult": 1.17,
+    "posts": 4,
+    "avg_ratio": 1.29
    },
    "beef": {
     "mult": 0.88,
@@ -193,9 +193,9 @@
     "avg_ratio": 1.11
    },
    "cosy": {
-    "mult": 1.59,
-    "posts": 3,
-    "avg_ratio": 2.18
+    "mult": 1.49,
+    "posts": 4,
+    "avg_ratio": 1.86
    },
    "monday": {
     "mult": 1.0,
@@ -265,9 +265,9 @@
     "avg_ratio": 0.68
    },
    "cheesy-cajun-chicken-wraps": {
-    "mult": 1.64,
-    "posts": 1,
-    "avg_ratio": 3.56
+    "mult": 1.49,
+    "posts": 2,
+    "avg_ratio": 2.23
    },
    "garlic-butter-flatbreads": {
     "mult": 1.06,
