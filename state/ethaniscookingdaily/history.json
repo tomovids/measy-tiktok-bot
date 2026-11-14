@@ -6266,6 +6266,85 @@
    "publish_id": "p_inbox_url~v2.7707836810764011542",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-14T01:47:41+00:00"
+  },
+  {
+   "date": "2026-11-14",
+   "hook": "5 Sainsbury's Dinners I'd Make If Payday's Far Off 😭🍜",
+   "subline": "Save the takeaway for payday 😏",
+   "title": "5 Sainsbury's Dinners I'd Make If Payday's Far Off 😭🍜",
+   "caption": "💾 SAVE this for your weekend noodle night 😋🍜\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Honey Soy Beef Noodles\n3. Sweet Chilli Chicken Noodles\n4. Sweet Chilli Beef Noodles\n5. Crispy Sweet Chilli Chicken Noodles\n\nWhich one would you try first? 🍜\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:honey-soy-beef-noodles-2",
+    "card:sweet-chilli-chicken-noodles-1",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "honey-soy-beef-noodles",
+    "sweet-chilli-chicken-noodles",
+    "sweet-chilli-beef-noodles",
+    "crispy-sweet-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Honey Soy Beef Noodles",
+    "Sweet Chilli Chicken Noodles",
+    "Sweet Chilli Beef Noodles",
+    "Crispy Sweet Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    436,
+    804
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "asian",
+    "angle": "repeat",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one would you try first? 🍜",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Asian Dinners for When You're Knackered 😩🍜",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's Dinners I'd Make If Payday's Far Off 😭🍜",
+     "subline": "Save the takeaway for payday 😏",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Sainsbury's Dinners I'd Cook On Repeat 😍🍜",
+     "subline": "Always goes down well 👀",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-14T15:01:04+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-14-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708042565556914179",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-14T15:02:20+00:00"
   }
  ]
 }
