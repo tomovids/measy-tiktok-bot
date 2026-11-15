@@ -6345,6 +6345,85 @@
    "publish_id": "p_inbox_url~v2.7708042565556914179",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-14T15:02:20+00:00"
+  },
+  {
+   "date": "2026-11-15",
+   "hook": "5 Aldi Sticky Dinners for Your Sunday Reset 🍜",
+   "subline": "Plan the week's dinners in one shop 🙌",
+   "title": "5 Aldi Sticky Dinners for Your Sunday Reset 🍜",
+   "caption": "💾 SAVE this for your Sunday reset — plan the week's dinners now 😭🛒\n\n1. Hot Honey Chicken Flatbread Pizzas\n2. Sticky Beef Noodles\n3. Honey Soy Sausage Noodle Bowls\n4. Sticky Maple Sausage Traybake\n5. Sticky Chicken Loaded Fries\n\nWhich sticky dinner are you trying first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:sticky-beef-noodles-1",
+    "card:honey-soy-sausage-noodle-bowls-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:sticky-chicken-loaded-fries-1"
+   ],
+   "groups": [
+    "hot-honey-chicken-flatbread-pizzas",
+    "sticky-beef-noodles",
+    "honey-soy-sausage-noodle-bowls",
+    "sticky-maple-sausage-traybake",
+    "sticky-chicken-loaded-fries"
+   ],
+   "dishes": [
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Sticky Beef Noodles",
+    "Honey Soy Sausage Noodle Bowls",
+    "Sticky Maple Sausage Traybake",
+    "Sticky Chicken Loaded Fries"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    340,
+    788
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "sunday-reset",
+    "label": "sticky, saucy dinners",
+    "angle_text": "Sunday reset: sort the week's dinners now"
+   },
+   "question": "Which sticky dinner are you trying first? 😋",
+   "tuned": true,
+   "hook_score": 8.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky Dinners When You're Skint but Starving 😭💸",
+     "subline": "Big sticky flavour, tiny faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky Meals to Send Your Other Half 😂",
+     "subline": "No delivery faff, just saucy wins 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Sticky Dinners for Your Sunday Reset 🍜",
+     "subline": "Plan the week's dinners in one shop 🙌",
+     "score": 8.8
+    }
+   ],
+   "built_at": "2026-11-15T01:19:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-15-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708201500366915606",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-15T01:20:21+00:00"
   }
  ]
 }
