@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 45,
+ "scored_posts": 46,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -12,8 +12,8 @@
    },
    "creamy": {
     "mult": 1.07,
-    "posts": 4,
-    "avg_ratio": 1.11
+    "posts": 5,
+    "avg_ratio": 1.12
    },
    "chicken": {
     "mult": 1.0,
@@ -143,9 +143,9 @@
     "avg_ratio": 1.94
    },
    "family": {
-    "mult": 1.01,
-    "posts": 1,
-    "avg_ratio": 1.05
+    "mult": 1.03,
+    "posts": 2,
+    "avg_ratio": 1.08
    },
    "taste-cheap": {
     "mult": 1.14,
@@ -283,6 +283,11 @@
     "mult": 1.11,
     "posts": 1,
     "avg_ratio": 1.45
+   },
+   "cheesy-cajun-sausage-gnocchi": {
+    "mult": 1.03,
+    "posts": 1,
+    "avg_ratio": 1.12
    }
   }
  },

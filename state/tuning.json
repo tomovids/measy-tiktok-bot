@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 65,
+ "scored_posts": 66,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -86,9 +86,9 @@
     "avg_ratio": 1.29
    },
    "beef": {
-    "mult": 0.88,
-    "posts": 3,
-    "avg_ratio": 0.77
+    "mult": 1.7,
+    "posts": 4,
+    "avg_ratio": 2.22
    },
    "under-2": {
     "mult": 2.0,
@@ -123,9 +123,9 @@
     "avg_ratio": 1.81
    },
    "family": {
-    "mult": 1.97,
-    "posts": 4,
-    "avg_ratio": 2.71
+    "mult": 2.0,
+    "posts": 5,
+    "avg_ratio": 3.48
    },
    "save": {
     "mult": 2.0,
@@ -215,9 +215,9 @@
     "avg_ratio": 2.02
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.52,
-    "posts": 5,
-    "avg_ratio": 1.84
+    "mult": 2.0,
+    "posts": 6,
+    "avg_ratio": 2.62
    },
    "crispy-bean-quesadillas": {
     "mult": 1.43,
@@ -374,6 +374,12 @@
    "store": "aldi"
   },
   {
+   "hook": "5 Aldi Beef Dinners That Beat a Takeaway 🤤",
+   "subline": "Loaded, sticky and proper tasty 😋",
+   "views": 16537,
+   "store": "aldi"
+  },
+  {
    "hook": "5 Aldi Dinners When You Have NO Idea — Under £2 a portion 😩🍝",
    "subline": "Dinner sorted when you can't be bothered 😩",
    "views": 13975,
@@ -395,12 +401,6 @@
    "hook": "5 Aldi Dinners If You're Skint — All Under £1.93 a Portion 😭💸",
    "subline": "Cosy dinners for dark, knackered nights 💚",
    "views": 10941,
-   "store": "aldi"
-  },
-  {
-   "hook": "5 Aldi Sausage Dinners If You're Skint Till Payday 💸😩",
-   "subline": "Stretch your dinner budget and smile 👀",
-   "views": 10072,
    "store": "aldi"
   }
  ]
