@@ -10184,6 +10184,90 @@
    "publish_id": "p_inbox_url~v2.7708423104158107670",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-15T15:39:24+00:00"
+  },
+  {
+   "date": "2026-11-16",
+   "hook": "5 Aldi Chicken Dinners to Start Monday Skint but Sorted 😭💸",
+   "subline": "Ready in 25 minutes or less ⏰",
+   "title": "5 Aldi Chicken Dinners to Start Monday Skint but Sorted 😭💸",
+   "caption": "💾 SAVE this for a knackered Monday when payday's ages away 😭🛒\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Garlic-Butter Chicken Flatbreads\n3. Creamy Garlic Chicken Rice\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Crispy Sweet Chilli Chicken Bowls\n\nWhich one will you cook first this week? 🍗\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-1",
+    "card:garlic-butter-chicken-flatbreads-1",
+    "card:creamy-garlic-chicken-rice-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "garlic-butter-chicken-flatbreads",
+    "creamy-garlic-chicken-rice",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "crispy-sweet-chilli-chicken-bowls"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Garlic-Butter Chicken Flatbreads",
+    "Creamy Garlic Chicken Rice",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Crispy Sweet Chilli Chicken Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1296,
+    1428
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "chicken",
+    "angle": "monday",
+    "label": "chicken dinners",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one will you cook first this week? 🍗",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Chicken Dinners to Start Monday Skint but Sorted 😭💸",
+     "subline": "Ready in 25 minutes or less ⏰",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Chicken Meals from £2.77 a portion 😳🍗",
+     "subline": "Big flavour, tiny bill 👀",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Aldi Chicken Dinners to SEND to your flatmate 😂🍗",
+     "subline": "Dinner decisions: sorted 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 LAZY Aldi chicken dinners ready in 25 minutes 😴🍗",
+     "subline": "No faff, max flavour 🙌",
+     "score": 6.8
+    }
+   ],
+   "built_at": "2026-11-16T01:22:16+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708574082824734742",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-16T01:25:47+00:00"
   }
  ]
 }

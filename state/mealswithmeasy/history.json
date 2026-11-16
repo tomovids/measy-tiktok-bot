@@ -6560,6 +6560,90 @@
    "publish_id": "p_inbox_url~v2.7708423063859267606",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-15T15:39:36+00:00"
+  },
+  {
+   "date": "2026-11-16",
+   "hook": "5 Aldi Creamy Dinners I'd Make On Repeat When Exhausted 😩🍗",
+   "subline": "Weeknight lifesavers when wiped out 😩",
+   "title": "5 Aldi Creamy Dinners I'd Make On Repeat When Exhausted 😩🍗",
+   "caption": "💾 SAVE this for when you're too wiped out to cook tonight 😭🍝\n\n1. Garlic Butter Sausage Pasta\n2. Creamy Garlic Chicken Orzo\n3. Garlic Sausage Rice Bowls\n4. Creamy Tomato Chicken Pasta\n5. Creamy Harissa Chicken Couscous\n\nWhich one are you trying first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #creamypasta #comfortfood",
+   "files": [
+    "card:garlic-butter-sausage-pasta-2",
+    "card:creamy-garlic-chicken-orzo-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:creamy-harissa-chicken-couscous-1"
+   ],
+   "groups": [
+    "garlic-butter-sausage-pasta",
+    "creamy-garlic-chicken-orzo",
+    "garlic-sausage-rice-bowls",
+    "creamy-tomato-chicken-pasta",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Garlic Butter Sausage Pasta",
+    "Creamy Garlic Chicken Orzo",
+    "Garlic Sausage Rice Bowls",
+    "Creamy Tomato Chicken Pasta",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    624,
+    896
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldius",
+   "theme": {
+    "collection": "creamy",
+    "angle": "tired",
+    "label": "creamy dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you trying first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi LAZY Creamy Dinners for Nights You're Wiped Out 😴🧀",
+     "subline": "Minimal dishes, max comfort 😴",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Creamy Meals to Fix a Night When You're Broke 😭💸",
+     "subline": "Feed the crew without breaking bank 💸",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Creamy Dinners to Send Your Roommate 😂🍝",
+     "subline": "Send this to your housemate 😂",
+     "score": 4.5
+    },
+    {
+     "hook": "5 Aldi Creamy Dinners I'd Make On Repeat When Exhausted 😩🍗",
+     "subline": "Weeknight lifesavers when wiped out 😩",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-16T01:23:34+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-16-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708573821251225622",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-16T01:26:01+00:00"
   }
  ]
 }
