@@ -6656,6 +6656,90 @@
    "publish_id": "p_inbox_url~v2.7708836990984194070",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-16T18:25:22+00:00"
+  },
+  {
+   "date": "2026-11-17",
+   "hook": "5 Aldi Cheesy Dinners When You're Skint but Want Melty Cheese 🧀🥲",
+   "subline": "",
+   "title": "5 Aldi Cheesy Dinners When You're Skint but Want Melty Cheese 🧀🥲",
+   "caption": "💾 SAVE this for your next Aldi shop — cheesy dinners to add to the trolley 😋🧀\n\n1. Cheesy BBQ Loaded Fries\n2. Cheesy Pepperoni Pizza Wraps\n3. Creamy Peri-Peri Chicken Pasta\n4. One-Pan Smoky Beef Orzo\n5. Creamy Garlic Sausage Pasta\n\nWhich one are you trying first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:cheesy-bbq-chicken-loaded-fries-1",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:creamy-garlic-sausage-pasta-2"
+   ],
+   "groups": [
+    "cheesy-bbq-chicken-loaded-fries",
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-peri-peri-chicken-pasta",
+    "one-pan-smoky-beef-orzo",
+    "creamy-garlic-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Fries",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Peri-Peri Chicken Pasta",
+    "One-Pan Smoky Beef Orzo",
+    "Creamy Garlic Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1420,
+    1536
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "save",
+    "label": "cheesy dinners",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you trying first? Tell us below 😋",
+   "tuned": true,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy Dinners for a Proper Midweek Cheese Fix 🧀😋",
+     "subline": "",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners to Rescue a Knackered Tuesday 🧀😩",
+     "subline": "Perfect Tuesday rescue, ready in 30 mins 🧀",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners When You're Skint but Want Melty Cheese 🧀🥲",
+     "subline": "",
+     "score": 9.5
+    },
+    {
+     "hook": "5 Aldi Cheesy Dinners That Stretch Your Shop and Your Mood 🧀💸",
+     "subline": "",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-16T22:55:21+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-17-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708906659359426582",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-16T22:56:40+00:00"
   }
  ]
 }

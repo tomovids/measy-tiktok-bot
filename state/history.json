@@ -10441,6 +10441,90 @@
    "publish_id": "p_inbox_url~v2.7708836733638592534",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-16T18:24:51+00:00"
+  },
+  {
+   "date": "2026-11-17",
+   "hook": "5 Aldi Sticky Dinners That Stretch Your Shop 😂💸",
+   "subline": "Feed the lot without ordering in 😏",
+   "title": "5 Aldi Sticky Dinners That Stretch Your Shop 😂💸",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Sticky Hoisin Beef Flatbreads\n2. Sticky Maple Sausage Traybake\n3. Sticky Beef Noodles\n4. Honey Chilli Chicken Noodles\n5. Sticky Beef Rice Bowls\n\nWhich one are you cooking first — rate them out of 10? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:sticky-maple-sausage-traybake-1",
+    "card:sticky-beef-noodles-2",
+    "card:honey-chilli-chicken-noodles-2",
+    "card:sticky-beef-rice-bowls-2"
+   ],
+   "groups": [
+    "sticky-hoisin-beef-flatbreads",
+    "sticky-maple-sausage-traybake",
+    "sticky-beef-noodles",
+    "honey-chilli-chicken-noodles",
+    "sticky-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Hoisin Beef Flatbreads",
+    "Sticky Maple Sausage Traybake",
+    "Sticky Beef Noodles",
+    "Honey Chilli Chicken Noodles",
+    "Sticky Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    416,
+    828
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "payday",
+    "label": "sticky, saucy dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you cooking first — rate them out of 10? 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Sticky Dinners — top one's £3.29 a portion 😳🍜",
+     "subline": "Sauce-heavy, wallet-friendly meals 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Sticky Dinners to Send Your Flatmate 😂",
+     "subline": "Send to your flatmate who never cooks 💷",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Sticky Dinners to Rescue Your Tuesday Night 😩🍜",
+     "subline": "Midweek saucy wins, ready in 20–40 mins 👀",
+     "score": 6.7
+    },
+    {
+     "hook": "5 Aldi Sticky Dinners That Stretch Your Shop 😂💸",
+     "subline": "Feed the lot without ordering in 😏",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-16T22:52:01+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-17-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708906665793308694",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-16T22:56:14+00:00"
   }
  ]
 }
