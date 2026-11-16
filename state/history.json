@@ -10268,6 +10268,85 @@
    "publish_id": "p_inbox_url~v2.7708574082824734742",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-16T01:25:47+00:00"
+  },
+  {
+   "date": "2026-11-16",
+   "hook": "5 Asda LAZY dinners with a Kick 😴🔥",
+   "subline": "Ready in 25 minutes or less ⏰",
+   "title": "5 Asda LAZY dinners with a Kick 😴🔥",
+   "caption": "💾 SAVE this for the next time you're about to order takeaway 😭🍜\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Cheesy Taco Quesadillas\n3. Sticky Korean Beef Rice Bowls\n4. Cheesy Cajun Sausage Gnocchi\n5. Crispy Beef Taco Rice Bowls\n\nWhich one are you trying first? Drop a number 1-5 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-2",
+    "card:cheesy-taco-quesadillas-2",
+    "card:sticky-korean-beef-rice-bowls-2",
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:crispy-beef-taco-rice-bowls-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "cheesy-taco-quesadillas",
+    "sticky-korean-beef-rice-bowls",
+    "cheesy-cajun-sausage-gnocchi",
+    "crispy-beef-taco-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Cheesy Taco Quesadillas",
+    "Sticky Korean Beef Rice Bowls",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Crispy Beef Taco Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    544,
+    824
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "spicy",
+    "angle": "takeaway",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you trying first? Drop a number 1-5 😋",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Dinners That Beat a Takeaway — With HEAT 😏🔥",
+     "subline": "Big flavour, tiny fuss 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Asda LAZY dinners with a Kick 😴🔥",
+     "subline": "Ready in 25 minutes or less ⏰",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Asda Spicy Dinners to Rescue Your Monday 😩🔥",
+     "subline": "Lunch plans sorted — send to your mate 👀",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-16T09:35:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-16-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7708700646559451138",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-16T09:36:08+00:00"
   }
  ]
 }
