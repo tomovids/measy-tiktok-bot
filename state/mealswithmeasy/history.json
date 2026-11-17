@@ -6807,6 +6807,100 @@
    "publish_id": "p_inbox_url~v2.7708906665793390614",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-16T22:56:27+00:00"
+  },
+  {
+   "date": "2026-11-17",
+   "hook": "5 Aldi Italian Dinners Better Than Takeout 🤤🍝",
+   "subline": "",
+   "title": "5 Aldi Italian Dinners Better Than Takeout 🤤🍝",
+   "caption": "💾 SAVE this for when you have NO idea what's for dinner 😩🍝\n\n1. Cheesy Cajun Sausage Gnocchi\n2. Creamy Tuscan Chicken Pasta\n3. Creamy Lemon Chicken Orzo\n4. One-Pan Tomato Chicken Orzo\n5. Garlic Butter Sausage Pasta\n\nWhich one would you make first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:creamy-tuscan-chicken-pasta-2",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:one-pan-tomato-chicken-orzo-2",
+    "card:garlic-butter-sausage-pasta-1"
+   ],
+   "groups": [
+    "cheesy-cajun-sausage-gnocchi",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-lemon-chicken-orzo",
+    "one-pan-tomato-chicken-orzo",
+    "garlic-butter-sausage-pasta"
+   ],
+   "dishes": [
+    "Cheesy Cajun Sausage Gnocchi",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Lemon Chicken Orzo",
+    "One-Pan Tomato Chicken Orzo",
+    "Garlic Butter Sausage Pasta"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    452,
+    696
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "italian",
+    "angle": "no-idea",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one would you make first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Italian Dinners for Nights You Have NO Idea 😩🍝",
+     "subline": "Pasta, gnocchi & orzo wins 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Pasta Dinners That Stretch Your Grocery Run 💸🍝",
+     "subline": "Stretch dinner without ordering in 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Italian Dinners to Send Your Roommate Who's Starving 😂🍝",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners Better Than Takeout 🤤🍝",
+     "subline": "",
+     "score": 8.5
+    },
+    {
+     "hook": "5 LAZY Aldi Italian Dinners for Nights You're Exhausted 😴🍝",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi One-Pot Italian Dinners to Rescue Tonight 😳🍝",
+     "subline": "One-pan, low stress 🙌",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-17T13:20:40+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-17-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709130160808675350",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-17T13:23:20+00:00"
   }
  ]
 }
