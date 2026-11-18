@@ -6901,6 +6901,85 @@
    "publish_id": "p_inbox_url~v2.7709130160808675350",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-17T13:23:20+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "hook": "5 Trader Joe's Dinners to Build Your Weekly Cart 🛒🍗",
+   "subline": "One Trader Joe's trip, five dinners 💚",
+   "title": "5 Trader Joe's Dinners to Build Your Weekly Cart 🛒🍗",
+   "caption": "💾 SAVE this for your next Trader Joe's grocery run 🛒💚\n\n1. Sticky Chicken Loaded Fries\n2. Crispy Sweet Chili Chicken Noodles\n3. Garlic Butter Chicken & Rice\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Sweet Chili Chicken Rice Bowl\n\nWhich one would you try first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:sticky-chicken-loaded-fries-2",
+    "card:crispy-sweet-chilli-chicken-noodles-1",
+    "card:garlic-butter-chicken-and-rice-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:sweet-chilli-chicken-rice-bowl-1"
+   ],
+   "groups": [
+    "sticky-chicken-loaded-fries",
+    "crispy-sweet-chilli-chicken-noodles",
+    "garlic-butter-chicken-and-rice",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "sweet-chilli-chicken-rice-bowl"
+   ],
+   "dishes": [
+    "Sticky Chicken Loaded Fries",
+    "Crispy Sweet Chili Chicken Noodles",
+    "Garlic Butter Chicken & Rice",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Sweet Chili Chicken Rice Bowl"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1012,
+    1128
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "chicken",
+    "angle": "weekly-shop",
+    "label": "chicken dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you try first this week? 👀",
+   "tuned": false,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Dinners for When Cooking Feels Impossible 😩🍗",
+     "subline": "Send to anyone wiped out tonight 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Dinners That Stretch Your Grocery Run 💸🍗",
+     "subline": "Plan your Trader Joe's run around these 💚",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Dinners to Build Your Weekly Cart 🛒🍗",
+     "subline": "One Trader Joe's trip, five dinners 💚",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-18T03:09:09+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709343529612642306",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-18T03:11:51+00:00"
   }
  ]
 }
