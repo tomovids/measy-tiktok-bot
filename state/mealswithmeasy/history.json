@@ -6980,6 +6980,95 @@
    "publish_id": "p_inbox_url~v2.7709343529612642306",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-18T03:11:51+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "hook": "5 Walmart Spicy Dinners If You're Broke Till Payday 😭🔥",
+   "subline": "Save on takeout, not on heat 👀",
+   "title": "5 Walmart Spicy Dinners If You're Broke Till Payday 😭🔥",
+   "caption": "💾 SAVE this for when someone in your house has NO idea what's for dinner 😭🍜\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Crispy Beef Taco Rice Bowls\n3. Cheesy Taco Rice Skillet\n4. Cheesy Taco Quesadillas\n5. Creamy Harissa Chicken Couscous\n\nWhich one are you sending to your group chat first? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #spicyfood #copycatrecipes",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:cheesy-taco-rice-skillet-1",
+    "card:cheesy-taco-quesadillas-2",
+    "card:creamy-harissa-chicken-couscous-2"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-taco-rice-skillet",
+    "cheesy-taco-quesadillas",
+    "creamy-harissa-chicken-couscous"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Taco Rice Skillet",
+    "Cheesy Taco Quesadillas",
+    "Creamy Harissa Chicken Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    796,
+    840
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "walmart",
+   "theme": {
+    "collection": "spicy",
+    "angle": "send",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you sending to your group chat first? 😂",
+   "tuned": true,
+   "hook_score": 7.9,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Spicy Dinners That Stop Takeout Tonight 😏🔥",
+     "subline": "Send this to someone who never cooks 😂",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Walmart Spicy Dinners That Stretch Your Grocery Run 😋🛒",
+     "subline": "Big flavor, small grocery fuss 👀",
+     "score": 6.6
+    },
+    {
+     "hook": "5 Walmart Dinners To Send Your Partner Who NEVER cooks 😂",
+     "subline": "Make their weeknight spicy 😋",
+     "score": 7.6
+    },
+    {
+     "hook": "5 Walmart Weeknight Dinners With a Kick — Ready Fast ⏰🔥",
+     "subline": "",
+     "score": 7.3
+    },
+    {
+     "hook": "5 Walmart Spicy Dinners If You're Broke Till Payday 😭🔥",
+     "subline": "Save on takeout, not on heat 👀",
+     "score": 7.9
+    }
+   ],
+   "built_at": "2026-11-18T13:02:12+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-18-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709496639928535062",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-18T13:05:00+00:00"
   }
  ]
 }

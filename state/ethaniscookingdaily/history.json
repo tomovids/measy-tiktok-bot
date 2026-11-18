@@ -6918,6 +6918,100 @@
    "publish_id": "p_inbox_url~v2.7709343342161578006",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-18T03:12:04+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "hook": "5 Sainsbury's Rice Bowls for When You're Properly Knackered 😩🍚",
+   "subline": "Big flavour, tiny faff 😋",
+   "title": "5 Sainsbury's Rice Bowls for When You're Properly Knackered 😩🍚",
+   "caption": "💾 SAVE this for when you wobble home knackered on a Wednesday and can't be bothered to cook 😭🍚\n\n1. Sticky Korean Beef Rice Bowls\n2. Sticky BBQ Chicken Rice Bowls\n3. Crispy Sweet Chilli Chicken Bowls\n4. Creamy Garlic Chicken Rice\n5. Crispy Beef Burrito Bowls\n\nWhich one would you try first? 🍚\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #ricebowl #fakeaway",
+   "files": [
+    "card:sticky-korean-beef-rice-bowls-2",
+    "card:sticky-bbq-chicken-rice-bowls-2",
+    "card:crispy-sweet-chilli-chicken-bowls-1",
+    "card:creamy-garlic-chicken-rice-2",
+    "card:crispy-beef-burrito-bowls-2"
+   ],
+   "groups": [
+    "sticky-korean-beef-rice-bowls",
+    "sticky-bbq-chicken-rice-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "creamy-garlic-chicken-rice",
+    "crispy-beef-burrito-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean Beef Rice Bowls",
+    "Sticky BBQ Chicken Rice Bowls",
+    "Crispy Sweet Chilli Chicken Bowls",
+    "Creamy Garlic Chicken Rice",
+    "Crispy Beef Burrito Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    436,
+    524
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "rice",
+    "angle": "tired",
+    "label": "rice bowls and rice dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you try first? 🍚",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Rice Bowls for When You're Properly Knackered 😩🍚",
+     "subline": "Big flavour, tiny faff 😋",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's Rice Dinners to Stop a Takeaway 😏🍚",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 LAZY Sainsbury's Rice Bowls Ready for Your Midweek Meltdown 😴🍚",
+     "subline": "Minimal chopping, max comfort 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Sainsbury's Rice Bowls I'd Make When I'm Too Knackered 😭🍚",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's Rice Bowls to Stretch Your Shop Till Payday 😭🍚",
+     "subline": "",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Sainsbury's Rice Bowls to SEND to Someone Who Can't Decide 😂🍚",
+     "subline": "",
+     "score": 4.5
+    }
+   ],
+   "built_at": "2026-11-18T13:03:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-18-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709496731045709846",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-18T13:05:12+00:00"
   }
  ]
 }

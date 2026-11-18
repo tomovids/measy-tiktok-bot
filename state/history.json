@@ -10752,6 +10752,80 @@
    "publish_id": "p_inbox_url~v2.7709343329888307202",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-18T03:11:38+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "hook": "5 Tesco Cheesy Dinners I'd Make Every Week 😍🧀",
+   "subline": "Melty, sloppy, no arguments 🧀",
+   "title": "5 Tesco Cheesy Dinners I'd Make Every Week 😍🧀",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Cheesy BBQ Loaded Potatoes\n2. Creamy Garlic Chicken Orzo\n3. Sweet Chilli Beef Noodles\n4. Cheesy Tomato Pasta\n5. Honey Soy Beef Noodles\n\nWhich one are you trying first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:cheesy-bbq-loaded-potatoes-2",
+    "card:creamy-garlic-chicken-orzo-1",
+    "card:sweet-chilli-beef-noodles-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:honey-soy-beef-noodles-2"
+   ],
+   "groups": [
+    "cheesy-bbq-loaded-potatoes",
+    "creamy-garlic-chicken-orzo",
+    "sweet-chilli-beef-noodles",
+    "cheesy-tomato-pasta",
+    "honey-soy-beef-noodles"
+   ],
+   "dishes": [
+    "Cheesy BBQ Loaded Potatoes",
+    "Creamy Garlic Chicken Orzo",
+    "Sweet Chilli Beef Noodles",
+    "Cheesy Tomato Pasta",
+    "Honey Soy Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    228,
+    424
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "under-2",
+    "angle": "repeat",
+    "label": "dinners under £2 a portion",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you trying first? Tell us 👇",
+   "tuned": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Cheesy Dinners I'd Make Every Week 😍🧀",
+     "subline": "Melty, sloppy, no arguments 🧀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 LAZY Tesco dinners For When You're Properly Knackered 😴🍝",
+     "subline": "Dinner sorted without faff 😴",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-18T13:00:43+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709496607263279126",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-18T13:04:47+00:00"
   }
  ]
 }
