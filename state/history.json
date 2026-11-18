@@ -10826,6 +10826,85 @@
    "publish_id": "p_inbox_url~v2.7709496607263279126",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-18T13:04:47+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "hook": "5 Aldi Fakeaway Dinners Under £1.50 a portion 🤤💸",
+   "subline": "Better than ordering in (honest) 😏",
+   "title": "5 Aldi Fakeaway Dinners Under £1.50 a portion 🤤💸",
+   "caption": "💾 SAVE this for cold, dark evenings when you're skint and knackered 😭🫶\n\n1. Cheesy Beef & Bean Loaded Potatoes\n2. Garlic-Butter Chicken Flatbreads\n3. Garlic Butter Sausage Pasta\n4. Creamy Peri-Peri Chicken Pasta\n5. Honey Chilli Chicken Noodles\n\nWhich one are you trying first this week? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:garlic-butter-sausage-pasta-2",
+    "card:creamy-peri-peri-chicken-pasta-2",
+    "card:honey-chilli-chicken-noodles-1"
+   ],
+   "groups": [
+    "cheesy-beef-bean-loaded-potatoes",
+    "garlic-butter-chicken-flatbreads",
+    "garlic-butter-sausage-pasta",
+    "creamy-peri-peri-chicken-pasta",
+    "honey-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Garlic-Butter Chicken Flatbreads",
+    "Garlic Butter Sausage Pasta",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Honey Chilli Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    236,
+    660
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "cosy",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you trying first this week? 😋",
+   "tuned": true,
+   "hook_score": 8.7,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cosy Dinners Under £1.50 a portion 🫶💸",
+     "subline": "Warm, cheap and proper tasty 😋",
+     "score": 8.2
+    },
+    {
+     "hook": "5 Aldi Fakeaway Dinners Under £1.50 a portion 🤤💸",
+     "subline": "Better than ordering in (honest) 😏",
+     "score": 8.7
+    },
+    {
+     "hook": "5 Aldi Midweek Dinners Under £1.50 a portion 😩🍝",
+     "subline": "Dinner sorted for knackered nights 😴",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-18T17:11:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-18-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709560561758898198",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-18T17:12:55+00:00"
   }
  ]
 }
