@@ -36,9 +36,9 @@
     "avg_ratio": 2.35
    },
    "italian": {
-    "mult": 1.7,
+    "mult": 1.69,
     "posts": 5,
-    "avg_ratio": 2.13
+    "avg_ratio": 2.1
    },
    "rice": {
     "mult": 1.76,
@@ -143,9 +143,9 @@
     "avg_ratio": 1.46
    },
    "payday": {
-    "mult": 1.94,
+    "mult": 1.92,
     "posts": 6,
-    "avg_ratio": 2.41
+    "avg_ratio": 2.38
    },
    "sunday-reset": {
     "mult": 1.04,
@@ -280,9 +280,9 @@
     "avg_ratio": 1.03
    },
    "cheesy-beef-taco-pasta": {
-    "mult": 1.9,
+    "mult": 1.87,
     "posts": 2,
-    "avg_ratio": 3.24
+    "avg_ratio": 3.17
    },
    "buffalo-chicken-quesadillas": {
     "mult": 1.11,
@@ -382,7 +382,7 @@
   {
    "hook": "5 Aldi Italian Dinners — top one's £3.10 a portion 😳🍝",
    "subline": "Fancy-feel, tiny damage 👀",
-   "views": 15797,
+   "views": 15375,
    "store": "aldi"
   },
   {
