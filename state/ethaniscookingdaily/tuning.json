@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 47,
+ "scored_posts": 48,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -71,9 +71,9 @@
     "avg_ratio": 1.17
    },
    "beef": {
-    "mult": 1.02,
-    "posts": 2,
-    "avg_ratio": 1.04
+    "mult": 1.05,
+    "posts": 3,
+    "avg_ratio": 1.1
    },
    "chicken": {
     "mult": 1.0,
@@ -173,9 +173,9 @@
     "avg_ratio": 1.43
    },
    "cosy": {
-    "mult": 1.37,
-    "posts": 3,
-    "avg_ratio": 1.75
+    "mult": 1.35,
+    "posts": 4,
+    "avg_ratio": 1.61
    },
    "taste-cheap": {
     "mult": 1.26,
@@ -270,9 +270,9 @@
     "avg_ratio": 1.34
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.13,
-    "posts": 1,
-    "avg_ratio": 1.52
+    "mult": 1.14,
+    "posts": 2,
+    "avg_ratio": 1.36
    },
    "sticky-hoisin-beef-flatbreads": {
     "mult": 0.99,
