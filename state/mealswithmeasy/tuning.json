@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 51,
+ "scored_posts": 52,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -11,9 +11,9 @@
     "avg_ratio": 0.68
    },
    "creamy": {
-    "mult": 1.07,
-    "posts": 5,
-    "avg_ratio": 1.12
+    "mult": 1.13,
+    "posts": 6,
+    "avg_ratio": 1.2
    },
    "chicken": {
     "mult": 1.0,
@@ -128,9 +128,9 @@
     "avg_ratio": 0.88
    },
    "tired": {
-    "mult": 0.97,
-    "posts": 5,
-    "avg_ratio": 0.96
+    "mult": 1.05,
+    "posts": 6,
+    "avg_ratio": 1.07
    },
    "repeat": {
     "mult": 1.16,
@@ -303,6 +303,11 @@
     "mult": 1.02,
     "posts": 1,
     "avg_ratio": 1.06
+   },
+   "garlic-butter-sausage-pasta": {
+    "mult": 1.16,
+    "posts": 1,
+    "avg_ratio": 1.63
    }
   }
  },
