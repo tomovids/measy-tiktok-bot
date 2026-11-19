@@ -10905,6 +10905,90 @@
    "publish_id": "p_inbox_url~v2.7709560561758898198",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-18T17:12:55+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "hook": "5 Aldi Dinners for When You're Skint and Need Comfort 😭🍗",
+   "subline": "",
+   "title": "5 Aldi Dinners for When You're Skint and Need Comfort 😭🍗",
+   "caption": "💾 SAVE this for your next Aldi shop — cosy dinners for dark nights 😍🛒\n\n1. Loaded BBQ Beef Nachos\n2. Creamy Tomato Chicken Pasta\n3. Cheesy Beef & Pepper Stuffed Flatbreads\n4. Garlic Parmesan Chicken Flatbreads\n5. One-Pan Smoky Beef Orzo\n\nWhich one are you trying first? Tell us below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:creamy-tomato-chicken-pasta-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:garlic-parmesan-chicken-flatbreads-1",
+    "card:one-pan-smoky-beef-orzo-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "creamy-tomato-chicken-pasta",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "garlic-parmesan-chicken-flatbreads",
+    "one-pan-smoky-beef-orzo"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Creamy Tomato Chicken Pasta",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Garlic Parmesan Chicken Flatbreads",
+    "One-Pan Smoky Beef Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1224,
+    1408
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "comfort",
+    "angle": "save",
+    "label": "cosy comfort food",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you trying first? Tell us below 😋",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners for When You're Skint and Need Comfort 😭🍗",
+     "subline": "",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi cosy comfort dinners to save for the weekend 😍🧀",
+     "subline": "Save these for your next Aldi shop 🛒",
+     "score": 5.5
+    },
+    {
+     "hook": "5 Aldi Dinners Your Flatmate Needs to See 😂🛒",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Stretch Your Shop and Hug Your Wallet 💸🫶",
+     "subline": "Big comfort, tiny faff 🧀",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-19T02:47:33+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709709495206922262",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-19T02:52:53+00:00"
   }
  ]
 }
