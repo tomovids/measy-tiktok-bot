@@ -7228,6 +7228,95 @@
    "status": "FAILED",
    "error": "TikTok error photo_pull_failed: TikTok could not make the draft\nTikTok couldn't download the slides from GitHub Pages. Run the workflow again; if it keeps happening, check the Pages site is up.",
    "sent_at": "2026-11-19T17:24:04+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "hook": "5 Trader Joe's Cozy Dinners When You're Wiped Out 😩🧀",
+   "subline": "Comfort food in 20 minutes 🍝",
+   "title": "5 Trader Joe's Cozy Dinners When You're Wiped Out 😩🧀",
+   "caption": "💾 SAVE this for chilly weeknights when you want cozy dinners in 20 minutes 😋🛒\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Sticky Beef Noodles\n3. Cheesy Beef Taco Pasta\n4. Sticky Honey Garlic Chicken Rice Bowls\n5. Buffalo Chicken Quesadillas\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:sticky-beef-noodles-1",
+    "card:cheesy-beef-taco-pasta-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-2",
+    "card:buffalo-chicken-quesadillas-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "sticky-beef-noodles",
+    "cheesy-beef-taco-pasta",
+    "sticky-honey-garlic-chicken-rice-bowls",
+    "buffalo-chicken-quesadillas"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Sticky Beef Noodles",
+    "Cheesy Beef Taco Pasta",
+    "Sticky Honey Garlic Chicken Rice Bowls",
+    "Buffalo Chicken Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1192,
+    1304
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "quick",
+    "angle": "cosy",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Dinners Ready in 20 Minutes for Dark Nights 😋🍜",
+     "subline": "Cozy, saucy and zero fuss 🍗",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Cozy Dinners When You're Wiped Out 😩🧀",
+     "subline": "Comfort food in 20 minutes 🍝",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Trader Joe's Dinners to Save a Broke Weeknight 😭🛒",
+     "subline": "Stretch your grocery run, still cozy 🍚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's LAZY Dinners Ready in 20 Minutes 😴🍜",
+     "subline": "Send this to your roommate 😂",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Trader Joe's Quesadillas & Noodles Ready in 20 Minutes 😍🍝",
+     "subline": "Perfect for chilly, rushed nights 🫶",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-19T18:12:07+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-19-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709946969904957462",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-19T18:12:52+00:00"
   }
  ]
 }
