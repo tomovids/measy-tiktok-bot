@@ -7101,6 +7101,85 @@
    "publish_id": "p_inbox_url~v2.7709709450508273686",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-19T02:53:18+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "hook": "5 Tesco Dinners That Feel Like a Takeaway (Minus Delivery) 😏🍜",
+   "subline": "",
+   "title": "5 Tesco Dinners That Feel Like a Takeaway (Minus Delivery) 😏🍜",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook tonight 😭🍜\n\n1. Chilli Beef Noodles\n2. Creamy Garlic Chicken Pasta\n3. Sticky Beef Rice Bowls\n4. Sticky BBQ Beef Rice Bowls\n5. Creamy Tomato Potato Bake\n\nWhich one are you making tonight? Pick one 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:chilli-beef-noodles-2",
+    "card:creamy-garlic-chicken-pasta-1",
+    "card:sticky-beef-rice-bowls-2",
+    "card:sticky-bbq-beef-rice-bowls-1",
+    "card:creamy-tomato-potato-bake-2"
+   ],
+   "groups": [
+    "chilli-beef-noodles",
+    "creamy-garlic-chicken-pasta",
+    "sticky-beef-rice-bowls",
+    "sticky-bbq-beef-rice-bowls",
+    "creamy-tomato-potato-bake"
+   ],
+   "dishes": [
+    "Chilli Beef Noodles",
+    "Creamy Garlic Chicken Pasta",
+    "Sticky Beef Rice Bowls",
+    "Sticky BBQ Beef Rice Bowls",
+    "Creamy Tomato Potato Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    708,
+    968
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "tesco",
+   "theme": {
+    "collection": "anything",
+    "angle": "tonight",
+    "label": "a mix of the best dinners",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you making tonight? Pick one 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Dinners to Decide What's for Tea Tonight 😩🍝",
+     "subline": "Pick one and stop panicking 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Tesco Dinners That Feel Like a Takeaway (Minus Delivery) 😏🍜",
+     "subline": "",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Tesco Dinners for a Knackered Thursday Night 😴🍝",
+     "subline": "Ready in 30 mins or less 😋",
+     "score": 7.5
+    }
+   ],
+   "built_at": "2026-11-19T17:20:59+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-19-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709934500947838998",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-19T17:24:17+00:00"
   }
  ]
 }

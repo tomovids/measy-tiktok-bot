@@ -11078,6 +11078,100 @@
    "publish_id": "p_inbox_url~v2.7709866662400460822",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-19T13:00:37+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "hook": "5 Aldi Fakeaways When You're Properly Knackered 😴🤤",
+   "subline": "Send to your flat chat — urgent 👇",
+   "title": "5 Aldi Fakeaways When You're Properly Knackered 😴🤤",
+   "caption": "💾 SAVE this for when you're knackered and can't be bothered 😭🍜\n\n1. Sticky Garlic Beef Loaded Fries\n2. Cheesy Buffalo Chicken Potato Skins\n3. Sweet Chilli Chicken Noodles\n4. Loaded Taco Jacket Potato\n5. Cheesy BBQ Loaded Fries\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #fakeaway #takeawayathome",
+   "files": [
+    "card:sticky-garlic-beef-loaded-fries-1",
+    "card:cheesy-buffalo-chicken-potato-skins-1",
+    "card:sweet-chilli-chicken-noodles-2",
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-bbq-chicken-loaded-fries-1"
+   ],
+   "groups": [
+    "sticky-garlic-beef-loaded-fries",
+    "cheesy-buffalo-chicken-potato-skins",
+    "sweet-chilli-chicken-noodles",
+    "loaded-taco-jacket-potato",
+    "cheesy-bbq-chicken-loaded-fries"
+   ],
+   "dishes": [
+    "Sticky Garlic Beef Loaded Fries",
+    "Cheesy Buffalo Chicken Potato Skins",
+    "Sweet Chilli Chicken Noodles",
+    "Loaded Taco Jacket Potato",
+    "Cheesy BBQ Loaded Fries"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    424,
+    744
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "tired",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Fakeaways to Rescue a Knackered Thursday 😩🍜",
+     "subline": "Thursday tea sorted with zero fuss 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Fakeaways When You're Properly Knackered 😴🤤",
+     "subline": "Send to your flat chat — urgent 👇",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Fakeaways That Fix a Too-Tired Night 😭🍝",
+     "subline": "Big flavour, tiny effort 😏",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi LAZY Fakeaways for When You're Done 😩🙌",
+     "subline": "No faff, max comfort 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Fakeaways to Stop You Ordering In 😏💸",
+     "subline": "Skip delivery, make this tonight 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Fakeaways That Feel Like a Takeaway for Less 😋💸",
+     "subline": "Proper comfort food without the queue 😏",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-19T17:17:43+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709934391615506454",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-19T17:23:51+00:00"
   }
  ]
 }
