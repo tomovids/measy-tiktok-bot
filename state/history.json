@@ -10989,6 +10989,95 @@
    "publish_id": "p_inbox_url~v2.7709709495206922262",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-19T02:52:53+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "hook": "5 Sainsbury's Pasta & Gnocchi Dinners When You're Knackered 😩🍝",
+   "subline": "Dinner sorted, no faff 🙌",
+   "title": "5 Sainsbury's Pasta & Gnocchi Dinners When You're Knackered 😩🍝",
+   "caption": "💾 SAVE this for when you're about to order a takeaway this weekend 😭🍝\n\n1. Creamy Garlic Chicken Gnocchi\n2. One-Pan Tomato Chicken Orzo\n3. Creamy Tuscan Chicken Pasta\n4. Creamy Lemon Chicken Orzo\n5. Creamy Pesto Chicken Gnocchi\n\nWhich one would you make first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:creamy-tuscan-chicken-pasta-1",
+    "card:creamy-lemon-chicken-orzo-2",
+    "card:creamy-pesto-chicken-gnocchi-2"
+   ],
+   "groups": [
+    "creamy-garlic-chicken-gnocchi",
+    "one-pan-tomato-chicken-orzo",
+    "creamy-tuscan-chicken-pasta",
+    "creamy-lemon-chicken-orzo",
+    "creamy-pesto-chicken-gnocchi"
+   ],
+   "dishes": [
+    "Creamy Garlic Chicken Gnocchi",
+    "One-Pan Tomato Chicken Orzo",
+    "Creamy Tuscan Chicken Pasta",
+    "Creamy Lemon Chicken Orzo",
+    "Creamy Pesto Chicken Gnocchi"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1240,
+    1376
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "italian",
+    "angle": "weekly-shop",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you make first? Tell us 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's Italian Dinners That Feel Like Takeaway 😏🍝",
+     "subline": "Big flavour, tiny stress 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's Pasta & Gnocchi Dinners When You're Knackered 😩🍝",
+     "subline": "Dinner sorted, no faff 🙌",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Sainsbury's One-Pot Italian Dinners to Skip the Takeaway 🤤🍝",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Sainsbury's Italian Dinners I'd Make If Payday's Ages Away 😭🛒",
+     "subline": "Save your bank balance, still tasty 😋",
+     "score": 6.3
+    },
+    {
+     "hook": "5 Sainsbury's Creamy Italian Dinners for Midweek Comfort 🧀🍝",
+     "subline": "Perfect for when you're knackered 😴",
+     "score": 5.7
+    }
+   ],
+   "built_at": "2026-11-19T12:59:35+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-19-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7709866662400460822",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-19T13:00:37+00:00"
   }
  ]
 }
