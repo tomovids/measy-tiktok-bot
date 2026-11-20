@@ -7317,6 +7317,90 @@
    "publish_id": "p_inbox_url~v2.7709946969904957462",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-19T18:12:52+00:00"
+  },
+  {
+   "date": "2026-11-20",
+   "hook": "5 Walmart Meals I'd Make After the Longest Day 😴🍚",
+   "subline": "No stress cooking, just big flavor 😏",
+   "title": "5 Walmart Meals I'd Make After the Longest Day 😴🍚",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook after work 😭🍚\n\n1. Cheesy Beef & Bean Loaded Potatoes\n2. Cheesy Tomato Pasta\n3. Cheesy Pepperoni Pizza Wraps\n4. Creamy Garlic Chicken Rice\n5. Sticky Teriyaki Sausage Rice Bowls\n\nWhich one do you want tonight? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #mealideas",
+   "files": [
+    "card:cheesy-beef-bean-loaded-potatoes-2",
+    "card:cheesy-tomato-pasta-2",
+    "card:cheesy-pepperoni-pizza-wraps-1",
+    "card:creamy-garlic-chicken-rice-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-2"
+   ],
+   "groups": [
+    "cheesy-beef-bean-loaded-potatoes",
+    "cheesy-tomato-pasta",
+    "cheesy-pepperoni-pizza-wraps",
+    "creamy-garlic-chicken-rice",
+    "sticky-teriyaki-sausage-rice-bowls"
+   ],
+   "dishes": [
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Cheesy Tomato Pasta",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Creamy Garlic Chicken Rice",
+    "Sticky Teriyaki Sausage Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    964,
+    1016
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "anything",
+    "angle": "tired",
+    "label": "a mix of the best dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one do you want tonight? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Easy Dinners to Avoid Ordering Takeout 🍝",
+     "subline": "Send this to your dinner group 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Meals I'd Make After the Longest Day 😴🍚",
+     "subline": "No stress cooking, just big flavor 😏",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Walmart Cheesy Dinners to Rescue Your Friday 😋",
+     "subline": "Friday night = melty, effortless wins 🧀",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Walmart Dinners To Send Your Roommate When You're Done 😂",
+     "subline": "They can pick one & rescue dinner 👀",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-20T02:34:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710076059223328790",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-20T02:37:26+00:00"
   }
  ]
 }
