@@ -11261,6 +11261,85 @@
    "publish_id": "p_inbox_url~v2.7710075690976331798",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T02:37:14+00:00"
+  },
+  {
+   "date": "2026-11-20",
+   "hook": "5 Asda Loaded Dinners That Taste Like a Takeaway 😋🤤",
+   "subline": "All the saucy, cheesy, sloppy vibes 🤤",
+   "title": "5 Asda Loaded Dinners That Taste Like a Takeaway 😋🤤",
+   "caption": "💾 SAVE this for Friday night in — fakeaway vibes, no delivery drama 😭🍜\n\n1. BBQ Sausage Loaded Potatoes\n2. Garlic Butter Sausage & Veggie Skillet\n3. Sticky Maple Sausage Traybake\n4. Cheesy BBQ Loaded Potatoes\n5. Sticky Korean BBQ Chicken Loaded Fries\n\nWhich one are you trying first? Tell us below 🍔\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#asda #asdauk #asdafinds #budgetmeals #easydinner #ukfood #measy #loadedfries #fakeaway",
+   "files": [
+    "card:bbq-sausage-loaded-potatoes-1",
+    "card:garlic-butter-sausage-veggie-skillet-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:cheesy-bbq-loaded-potatoes-1",
+    "card:sticky-korean-bbq-chicken-loaded-fries-1"
+   ],
+   "groups": [
+    "bbq-sausage-loaded-potatoes",
+    "garlic-butter-sausage-veggie-skillet",
+    "sticky-maple-sausage-traybake",
+    "cheesy-bbq-loaded-potatoes",
+    "sticky-korean-bbq-chicken-loaded-fries"
+   ],
+   "dishes": [
+    "BBQ Sausage Loaded Potatoes",
+    "Garlic Butter Sausage & Veggie Skillet",
+    "Sticky Maple Sausage Traybake",
+    "Cheesy BBQ Loaded Potatoes",
+    "Sticky Korean BBQ Chicken Loaded Fries"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    796,
+    1004
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "asda",
+   "theme": {
+    "collection": "loaded",
+    "angle": "friday",
+    "label": "loaded dinners (loaded fries, potatoes, nachos)",
+    "angle_text": "Friday night fakeaway / Friday night in"
+   },
+   "question": "Which one are you trying first? Tell us below 🍔",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Asda Loaded Dinners To SEND To Your Housemate 😂🧀",
+     "subline": "Tag the mate who never cooks 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Asda Loaded Dinners That Taste Like a Takeaway 😋🤤",
+     "subline": "All the saucy, cheesy, sloppy vibes 🤤",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Asda Friday Night Loaded Dinners For The Weekend 😳🙌",
+     "subline": "Perfect for a cosy night in 😍",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-20T11:29:51+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710214549022820374",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-20T11:30:43+00:00"
   }
  ]
 }
