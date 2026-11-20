@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 52,
+ "scored_posts": 53,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -71,9 +71,9 @@
     "avg_ratio": 0.93
    },
    "sticky": {
-    "mult": 1.0,
-    "posts": 1,
-    "avg_ratio": 1.0
+    "mult": 0.9,
+    "posts": 2,
+    "avg_ratio": 0.74
    },
    "anything": {
     "mult": 1.31,
@@ -113,9 +113,9 @@
     "avg_ratio": 0.77
    },
    "weekly-shop": {
-    "mult": 1.02,
-    "posts": 2,
-    "avg_ratio": 1.05
+    "mult": 0.93,
+    "posts": 3,
+    "avg_ratio": 0.87
    },
    "cosy": {
     "mult": 1.14,
@@ -230,9 +230,9 @@
     "avg_ratio": 1.0
    },
    "sticky-korean-bbq-chicken-loaded-fries": {
-    "mult": 1.08,
-    "posts": 3,
-    "avg_ratio": 1.17
+    "mult": 1.0,
+    "posts": 4,
+    "avg_ratio": 1.0
    },
    "creamy-tomato-chicken-pasta": {
     "mult": 0.99,
