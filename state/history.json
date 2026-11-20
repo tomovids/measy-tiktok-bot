@@ -11340,6 +11340,85 @@
    "publish_id": "p_inbox_url~v2.7710214549022820374",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T11:30:43+00:00"
+  },
+  {
+   "date": "2026-11-20",
+   "hook": "5 Aldi Beef Dinners Better Than a Takeaway 🤤💸",
+   "subline": "",
+   "title": "5 Aldi Beef Dinners Better Than a Takeaway 🤤💸",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Cheesy Beef Taco Pasta\n2. Sticky Korean Beef Rice Bowls\n3. Cheesy Beef & Pepper Stuffed Flatbreads\n4. Crispy Beef Burrito Bowls\n5. Chilli Beef Noodles\n\nWhich one are you trying first this weekend? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:cheesy-beef-taco-pasta-1",
+    "card:sticky-korean-beef-rice-bowls-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-2",
+    "card:crispy-beef-burrito-bowls-2",
+    "card:chilli-beef-noodles-1"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "sticky-korean-beef-rice-bowls",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "crispy-beef-burrito-bowls",
+    "chilli-beef-noodles"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "Sticky Korean Beef Rice Bowls",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Crispy Beef Burrito Bowls",
+    "Chilli Beef Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    344,
+    696
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "beef",
+    "angle": "payday",
+    "label": "beef mince and beef dinners",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you trying first this weekend? 👇",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners To Send Your Housemate 😂",
+     "subline": "No moaning, just food on the table 😏",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners Better Than a Takeaway 🤤💸",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners Ready in 25 Minutes or Less ⏰",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-20T16:55:22+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-20-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710298898572560406",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-20T16:58:35+00:00"
   }
  ]
 }

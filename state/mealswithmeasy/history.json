@@ -7401,6 +7401,90 @@
    "publish_id": "p_inbox_url~v2.7710076059223328790",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T02:37:26+00:00"
+  },
+  {
+   "date": "2026-11-20",
+   "hook": "5 Aldi Dinners When You're Broke Till Payday 😭💸",
+   "subline": "Stretch your grocery run, still tasty 👀",
+   "title": "5 Aldi Dinners When You're Broke Till Payday 😭💸",
+   "caption": "💾 SAVE this for the next time you're about to order takeout 😭🍜\n\n1. Creamy Peri-Peri Chicken Pasta\n2. Garlic-Butter Chicken Flatbreads\n3. Honey Soy Sausage Noodle Bowls\n4. Crispy Sweet Chili Chicken Bowls\n5. Honey Chili Chicken Noodles\n\nWhich one are you trying first? Drop a number below 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #copycatrecipes #takeoutathome",
+   "files": [
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:garlic-butter-chicken-flatbreads-2",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:crispy-sweet-chilli-chicken-bowls-2",
+    "card:honey-chilli-chicken-noodles-2"
+   ],
+   "groups": [
+    "creamy-peri-peri-chicken-pasta",
+    "garlic-butter-chicken-flatbreads",
+    "honey-soy-sausage-noodle-bowls",
+    "crispy-sweet-chilli-chicken-bowls",
+    "honey-chilli-chicken-noodles"
+   ],
+   "dishes": [
+    "Creamy Peri-Peri Chicken Pasta",
+    "Garlic-Butter Chicken Flatbreads",
+    "Honey Soy Sausage Noodle Bowls",
+    "Crispy Sweet Chili Chicken Bowls",
+    "Honey Chili Chicken Noodles"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    480,
+    752
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "fakeaway",
+    "angle": "taste-cheap",
+    "label": "fakeaways (takeaway-style dinners made at home)",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you trying first? Drop a number below 😋",
+   "tuned": true,
+   "hook_score": 8.7,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Takeout Copycats for the Weekend 😋🍝",
+     "subline": "Friday night dinner sorted 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners When You're Broke Till Payday 😭💸",
+     "subline": "Stretch your grocery run, still tasty 👀",
+     "score": 8.7
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make Instead of Ordering In 😏🤤",
+     "subline": "Takeout vibes, zero delivery drama 🙌",
+     "score": 7.2
+    },
+    {
+     "hook": "5 LAZY Aldi Dinners That Taste Like Takeout 😩🍚",
+     "subline": "Minimal effort, max comfort 😋",
+     "score": 7.8
+    }
+   ],
+   "built_at": "2026-11-20T16:56:36+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-20-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710298877047556118",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-20T16:58:49+00:00"
   }
  ]
 }
