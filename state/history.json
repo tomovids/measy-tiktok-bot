@@ -11676,6 +11676,85 @@
    "publish_id": "p_inbox_url~v2.7710657265509943318",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-21T16:08:46+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "hook": "5 Aldi Dinners Ready in 20 Minutes — NO faff 😩",
+   "subline": "Sorted before you even miss the sofa 🛒",
+   "title": "5 Aldi Dinners Ready in 20 Minutes — NO faff 😩",
+   "caption": "💾 SAVE this for when you're too knackered to cook this week 😩⏰\n\n1. Crispy Bean Quesadillas\n2. Cheesy Cajun Sausage Gnocchi\n3. Crispy Beef Taco Rice Bowls\n4. Cheesy Pepperoni Pizza Wraps\n5. Garlic Butter Halloumi Couscous\n\nWhich one are you trying first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:crispy-bean-quesadillas-1",
+    "card:cheesy-cajun-sausage-gnocchi-2",
+    "card:crispy-beef-taco-rice-bowls-1",
+    "card:cheesy-pepperoni-pizza-wraps-2",
+    "card:garlic-butter-halloumi-couscous-1"
+   ],
+   "groups": [
+    "crispy-bean-quesadillas",
+    "cheesy-cajun-sausage-gnocchi",
+    "crispy-beef-taco-rice-bowls",
+    "cheesy-pepperoni-pizza-wraps",
+    "garlic-butter-halloumi-couscous"
+   ],
+   "dishes": [
+    "Crispy Bean Quesadillas",
+    "Cheesy Cajun Sausage Gnocchi",
+    "Crispy Beef Taco Rice Bowls",
+    "Cheesy Pepperoni Pizza Wraps",
+    "Garlic Butter Halloumi Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    228,
+    596
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "save",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "save these for your next {store} shop"
+   },
+   "question": "Which one are you trying first this week? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Ready in 20 Minutes — NO faff 😩",
+     "subline": "Sorted before you even miss the sofa 🛒",
+     "score": 8.5
+    },
+    {
+     "hook": "5 LAZY Aldi dinners — dinner done in 20 minutes 😴",
+     "subline": "Zero drama. Maximum cheese 🧀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners for a Lazy Sunday — ready in 20 ⏰",
+     "subline": "Weekend tea, no faff 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-21T23:11:00+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710766548927219734",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T23:14:10+00:00"
   }
  ]
 }

@@ -7521,6 +7521,95 @@
    "publish_id": "p_inbox_url~v2.7710657317284677654",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-21T16:09:13+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "hook": "5 LAZY Aldi Italian Dinners for When You're Knackered 😴",
+   "subline": "Zero drama, full cheese 🙌",
+   "title": "5 LAZY Aldi Italian Dinners for When You're Knackered 😴",
+   "caption": "💾 SAVE this for the weekend you want easy Italian on repeat — perfect for a lazy Sunday 😭🍝\n\n1. Cheesy Beef Taco Pasta\n2. Creamy Tomato Chicken Pasta\n3. One-Pan Tomato Chicken Orzo\n4. Cheesy Tomato Pasta\n5. Creamy Lemon Chicken Orzo\n\nWhich one are you cooking first this Sunday? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:cheesy-beef-taco-pasta-2",
+    "card:creamy-tomato-chicken-pasta-2",
+    "card:one-pan-tomato-chicken-orzo-1",
+    "card:cheesy-tomato-pasta-2",
+    "card:creamy-lemon-chicken-orzo-2"
+   ],
+   "groups": [
+    "cheesy-beef-taco-pasta",
+    "creamy-tomato-chicken-pasta",
+    "one-pan-tomato-chicken-orzo",
+    "cheesy-tomato-pasta",
+    "creamy-lemon-chicken-orzo"
+   ],
+   "dishes": [
+    "Cheesy Beef Taco Pasta",
+    "Creamy Tomato Chicken Pasta",
+    "One-Pan Tomato Chicken Orzo",
+    "Cheesy Tomato Pasta",
+    "Creamy Lemon Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    140,
+    560
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "italian",
+    "angle": "repeat",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you cooking first this Sunday? 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Italian Dinners to Make on Repeat 😋",
+     "subline": "Pasta, gnocchi & orzo that always win 😍",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Italian Dinners That Save Your Weekend 💸",
+     "subline": "Cheap enough for a weekend treat 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Italian Dinners to Send Your Housemate 😂",
+     "subline": "",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make on Repeat — Italian Edition 😏",
+     "subline": "Never fails. Always cosy. 🍝",
+     "score": 8.5
+    },
+    {
+     "hook": "5 LAZY Aldi Italian Dinners for When You're Knackered 😴",
+     "subline": "Zero drama, full cheese 🙌",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-21T23:13:11+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-22-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710764157750167574",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T23:14:35+00:00"
   }
  ]
 }
