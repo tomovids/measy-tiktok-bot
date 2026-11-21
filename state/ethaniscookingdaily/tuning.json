@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 49,
+ "scored_posts": 51,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -66,9 +66,9 @@
     "avg_ratio": 1.03
    },
    "mexican": {
-    "mult": 1.05,
-    "posts": 1,
-    "avg_ratio": 1.19
+    "mult": 0.99,
+    "posts": 2,
+    "avg_ratio": 0.98
    },
    "beef": {
     "mult": 1.06,
@@ -81,9 +81,9 @@
     "avg_ratio": 1.01
    },
    "comfort": {
-    "mult": 1.34,
-    "posts": 1,
-    "avg_ratio": 2.34
+    "mult": 1.27,
+    "posts": 2,
+    "avg_ratio": 1.68
    },
    "veggie": {
     "mult": 0.97,
@@ -178,9 +178,9 @@
     "avg_ratio": 1.63
    },
    "taste-cheap": {
-    "mult": 1.27,
-    "posts": 3,
-    "avg_ratio": 1.53
+    "mult": 1.17,
+    "posts": 5,
+    "avg_ratio": 1.28
    },
    "students": {
     "mult": 1.13,
@@ -215,9 +215,9 @@
     "avg_ratio": 1.81
    },
    "loaded-bbq-beef-nachos": {
-    "mult": 1.16,
-    "posts": 3,
-    "avg_ratio": 1.31
+    "mult": 1.1,
+    "posts": 4,
+    "avg_ratio": 1.18
    },
    "cheesy-beef-bean-loaded-potatoes": {
     "mult": 1.08,
@@ -270,9 +270,9 @@
     "avg_ratio": 1.36
    },
    "sticky-garlic-beef-loaded-fries": {
-    "mult": 1.15,
-    "posts": 2,
-    "avg_ratio": 1.38
+    "mult": 1.13,
+    "posts": 3,
+    "avg_ratio": 1.26
    },
    "sticky-hoisin-beef-flatbreads": {
     "mult": 1.0,
