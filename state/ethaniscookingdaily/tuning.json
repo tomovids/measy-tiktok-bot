@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 52,
+ "scored_posts": 53,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -31,9 +31,9 @@
     "avg_ratio": 1.77
    },
    "rice": {
-    "mult": 1.22,
-    "posts": 4,
-    "avg_ratio": 1.39
+    "mult": 1.16,
+    "posts": 5,
+    "avg_ratio": 1.26
    },
    "noodles": {
     "mult": 1.07,
@@ -163,9 +163,9 @@
     "avg_ratio": 1.71
    },
    "tired": {
-    "mult": 1.24,
-    "posts": 5,
-    "avg_ratio": 1.38
+    "mult": 1.18,
+    "posts": 6,
+    "avg_ratio": 1.27
    },
    "save": {
     "mult": 1.21,
@@ -230,9 +230,9 @@
     "avg_ratio": 1.38
    },
    "sticky-korean-beef-rice-bowls": {
-    "mult": 1.36,
-    "posts": 1,
-    "avg_ratio": 2.45
+    "mult": 1.24,
+    "posts": 2,
+    "avg_ratio": 1.6
    },
    "honey-chilli-chicken-noodles": {
     "mult": 1.07,
