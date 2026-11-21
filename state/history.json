@@ -11508,6 +11508,95 @@
    "publish_id": "p_inbox_url~v2.7710431523895461910",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-21T01:33:43+00:00"
+  },
+  {
+   "date": "2026-11-21",
+   "hook": "5 Lidl Dinners To Decide What To Make Tonight 😋",
+   "subline": "Pick one, cook, done — no faff 👀",
+   "title": "5 Lidl Dinners To Decide What To Make Tonight 😋",
+   "caption": "💾 SAVE this for tonight when you can't be bothered to decide what's for tea 😭🍝\n\n1. Garlic Butter Flatbreads\n2. Creamy Garlic Sausage Pasta\n3. Creamy Tomato Pasta\n4. Garlic Sausage Rice Bowls\n5. Creamy Tomato Potato Bake\n\nWhich one are you trying first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#lidl #lidluk #lidlfinds #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:garlic-butter-flatbreads-2",
+    "card:creamy-garlic-sausage-pasta-2",
+    "card:creamy-tomato-pasta-2",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:creamy-tomato-potato-bake-2"
+   ],
+   "groups": [
+    "garlic-butter-flatbreads",
+    "creamy-garlic-sausage-pasta",
+    "creamy-tomato-pasta",
+    "garlic-sausage-rice-bowls",
+    "creamy-tomato-potato-bake"
+   ],
+   "dishes": [
+    "Garlic Butter Flatbreads",
+    "Creamy Garlic Sausage Pasta",
+    "Creamy Tomato Pasta",
+    "Garlic Sausage Rice Bowls",
+    "Creamy Tomato Potato Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    216,
+    664
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "lidl",
+   "theme": {
+    "collection": "anything",
+    "angle": "tonight",
+    "label": "a mix of the best dinners",
+    "angle_text": "what to make tonight (deciding dinner right now)"
+   },
+   "question": "Which one are you trying first? 👀",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Lidl Meals to Send Your Other Half When You're Knackered 😂",
+     "subline": "They take over tea. You earn the sofa 🙌",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Lidl Dinners To Decide What To Make Tonight 😋",
+     "subline": "Pick one, cook, done — no faff 👀",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Lidl Dinners That Feel Like a Fakeaway 😏",
+     "subline": "Takeaway vibes without the extra cost 💸",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Lidl Dinners That Rescue an 'I'm Ordering In' Night 😳💸",
+     "subline": "Quick, creamy and proper tasty 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Lidl Saturday Dinners That Sort Tonight's Tea 😋",
+     "subline": "Weekend dinner, zero drama 😂",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-21T09:44:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710558201787615255",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T09:44:46+00:00"
   }
  ]
 }
