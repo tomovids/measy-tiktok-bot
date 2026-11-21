@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 55,
+ "scored_posts": 56,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -16,9 +16,9 @@
     "avg_ratio": 1.2
    },
    "chicken": {
-    "mult": 1.0,
-    "posts": 6,
-    "avg_ratio": 1.0
+    "mult": 0.9,
+    "posts": 7,
+    "avg_ratio": 0.86
    },
    "fakeaway": {
     "mult": 1.14,
@@ -113,9 +113,9 @@
     "avg_ratio": 0.88
    },
    "weekly-shop": {
-    "mult": 0.93,
-    "posts": 3,
-    "avg_ratio": 0.87
+    "mult": 0.81,
+    "posts": 4,
+    "avg_ratio": 0.67
    },
    "cosy": {
     "mult": 1.03,
@@ -245,9 +245,9 @@
     "avg_ratio": 1.01
    },
    "sticky-chicken-loaded-fries": {
-    "mult": 1.03,
-    "posts": 1,
-    "avg_ratio": 1.11
+    "mult": 0.83,
+    "posts": 2,
+    "avg_ratio": 0.59
    },
    "honey-chilli-chicken-noodles": {
     "mult": 1.0,
