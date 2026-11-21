@@ -11419,6 +11419,95 @@
    "publish_id": "p_inbox_url~v2.7710298898572560406",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T16:58:35+00:00"
+  },
+  {
+   "date": "2026-11-21",
+   "hook": "5 Aldi Dinners with a Kick — top one's £2.58 a portion 😳🔥",
+   "subline": "",
+   "title": "5 Aldi Dinners with a Kick — top one's £2.58 a portion 😳🔥",
+   "caption": "💾 SAVE this for tonight — sort tea before you leave for work 😩👀\n\n1. Loaded Taco Jacket Potato\n2. Buffalo Chicken Quesadillas\n3. Hot Honey Chicken Flatbread Pizzas\n4. Creamy Cajun Chicken Flatbreads\n5. Cheesy Cajun Chicken Wraps\n\nWhich one are you making first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #spicyfood #fakeaway",
+   "files": [
+    "card:loaded-taco-jacket-potato-2",
+    "card:buffalo-chicken-quesadillas-1",
+    "card:hot-honey-chicken-flatbread-pizzas-1",
+    "card:creamy-cajun-chicken-flatbreads-1",
+    "card:cheesy-cajun-chicken-wraps-2"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "buffalo-chicken-quesadillas",
+    "hot-honey-chicken-flatbread-pizzas",
+    "creamy-cajun-chicken-flatbreads",
+    "cheesy-cajun-chicken-wraps"
+   ],
+   "dishes": [
+    "Loaded Taco Jacket Potato",
+    "Buffalo Chicken Quesadillas",
+    "Hot Honey Chicken Flatbread Pizzas",
+    "Creamy Cajun Chicken Flatbreads",
+    "Cheesy Cajun Chicken Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    624,
+    932
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "spicy",
+    "angle": "plan-today",
+    "label": "dinners with a kick (spicy)",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one are you making first? 😋",
+   "tuned": false,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Spicy Dinners to Sort Before You Leave for Work 😏🔥",
+     "subline": "Pick tonight's tea this Saturday — done 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners with a Kick to Plan Before Work 😩🔥",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners with a Kick — top one's £2.58 a portion 😳🔥",
+     "subline": "",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Saturday Night Dinners That Pack a Punch 😋🔥",
+     "subline": "",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners to Decide Before You Clock Off 👀🔥",
+     "subline": "Decide tea before work — weekend saved 😏",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-21T01:29:23+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-21-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710431523895461910",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T01:33:43+00:00"
   }
  ]
 }

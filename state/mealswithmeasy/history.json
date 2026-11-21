@@ -7485,6 +7485,90 @@
    "publish_id": "p_inbox_url~v2.7710298877047556118",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T16:58:49+00:00"
+  },
+  {
+   "date": "2026-11-21",
+   "hook": "5 Trader Joe's Saucy Dinners That Save You From Takeout 💸🍝",
+   "subline": "Feed the family without the moaning 🙌",
+   "title": "5 Trader Joe's Saucy Dinners That Save You From Takeout 💸🍝",
+   "caption": "💾 SAVE this for the weekend when you need dinner for the whole crew 😋🍜\n\n1. Crispy Sweet Chili Halloumi Burgers\n2. Sticky Beef Noodles\n3. Sticky Hoisin Beef Flatbreads\n4. Sweet Chili Chicken Noodles\n5. Sweet Chili Halloumi Wraps\n\nWhich one are you making this weekend? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #noodles #copycatrecipes",
+   "files": [
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:sticky-beef-noodles-2",
+    "card:sticky-hoisin-beef-flatbreads-1",
+    "card:sweet-chilli-chicken-noodles-2",
+    "card:sweet-chilli-halloumi-wraps-2"
+   ],
+   "groups": [
+    "crispy-sweet-chilli-halloumi-burgers",
+    "sticky-beef-noodles",
+    "sticky-hoisin-beef-flatbreads",
+    "sweet-chilli-chicken-noodles",
+    "sweet-chilli-halloumi-wraps"
+   ],
+   "dishes": [
+    "Crispy Sweet Chili Halloumi Burgers",
+    "Sticky Beef Noodles",
+    "Sticky Hoisin Beef Flatbreads",
+    "Sweet Chili Chicken Noodles",
+    "Sweet Chili Halloumi Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    852,
+    1068
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "asian",
+    "angle": "family",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one are you making this weekend? 👀",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Asian-Style Dinners That Feed The Whole Family 😋",
+     "subline": "No dinner moaning, just happy bowls 🍜",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Dinners to Send Your Partner 😂🍚",
+     "subline": "Perfect weeknight wins for two 🍜",
+     "score": 4.0
+    },
+    {
+     "hook": "5 Trader Joe's LAZY Asian Dinners for No-Effort Wins 😴🍜",
+     "subline": "Ready in 25 minutes or less ⏰",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Saucy Dinners That Save You From Takeout 💸🍝",
+     "subline": "Feed the family without the moaning 🙌",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-21T01:30:31+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-21-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710431523895560214",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T01:33:54+00:00"
   }
  ]
 }

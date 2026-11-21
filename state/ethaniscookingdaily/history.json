@@ -7348,6 +7348,90 @@
    "publish_id": "p_inbox_url~v2.7710298979283666966",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-20T16:59:02+00:00"
+  },
+  {
+   "date": "2026-11-21",
+   "hook": "5 Aldi Dinners Better Than a Takeaway — 20 minutes 😏",
+   "subline": "Cheaper than ordering in 💸",
+   "title": "5 Aldi Dinners Better Than a Takeaway — 20 minutes 😏",
+   "caption": "💾 SAVE this for the week before payday — dinners ready in 20 minutes or less 😭⏰\n\n1. Loaded BBQ Beef Nachos\n2. Creamy Garlic Chicken Gnocchi\n3. Creamy Tuscan Chicken Pasta\n4. Cheesy BBQ Pulled Chicken Nachos\n5. Sticky Honey Garlic Sausage Bowls\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quickdinner #20minutemeals",
+   "files": [
+    "card:loaded-bbq-beef-nachos-2",
+    "card:creamy-garlic-chicken-gnocchi-1",
+    "card:creamy-tuscan-chicken-pasta-2",
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:sticky-honey-garlic-sausage-rice-1"
+   ],
+   "groups": [
+    "loaded-bbq-beef-nachos",
+    "creamy-garlic-chicken-gnocchi",
+    "creamy-tuscan-chicken-pasta",
+    "cheesy-bbq-pulled-chicken-nachos",
+    "sticky-honey-garlic-sausage-rice"
+   ],
+   "dishes": [
+    "Loaded BBQ Beef Nachos",
+    "Creamy Garlic Chicken Gnocchi",
+    "Creamy Tuscan Chicken Pasta",
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Sticky Honey Garlic Sausage Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Clear spring morning, trees in fresh green leaf beside the car park, soft sunshine, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    264,
+    632
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "quick",
+    "angle": "payday",
+    "label": "dinners ready in 20 minutes or less",
+    "angle_text": "skint until payday / end of the month money is tight"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Meals to SEND to your housemate when skint 😂",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners Better Than a Takeaway — 20 minutes 😏",
+     "subline": "Cheaper than ordering in 💸",
+     "score": 8.5
+    },
+    {
+     "hook": "5 LAZY Aldi dinners ready in 20 minutes 😴⏰",
+     "subline": "When you're too tired but skint 😩",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make This Saturday If Skint 😏",
+     "subline": "Weekend dinners ready in 20 minutes ⏰",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-21T01:32:57+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-21-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710430056383776790",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-21T01:34:06+00:00"
   }
  ]
 }
