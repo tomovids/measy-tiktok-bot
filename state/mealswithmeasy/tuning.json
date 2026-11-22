@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 58,
+ "scored_posts": 59,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -94,6 +94,11 @@
     "mult": 1.04,
     "posts": 2,
     "avg_ratio": 1.09
+   },
+   "quick": {
+    "mult": 0.88,
+    "posts": 1,
+    "avg_ratio": 0.51
    }
   },
   "angle": {
@@ -118,9 +123,9 @@
     "avg_ratio": 0.68
    },
    "cosy": {
-    "mult": 1.04,
-    "posts": 3,
-    "avg_ratio": 1.08
+    "mult": 0.97,
+    "posts": 4,
+    "avg_ratio": 0.94
    },
    "save": {
     "mult": 0.93,
@@ -215,9 +220,9 @@
     "avg_ratio": 0.99
    },
    "cheesy-bbq-pulled-chicken-nachos": {
-    "mult": 0.87,
-    "posts": 3,
-    "avg_ratio": 0.73
+    "mult": 0.81,
+    "posts": 4,
+    "avg_ratio": 0.68
    },
    "bbq-sausage-loaded-potatoes": {
     "mult": 1.29,
