@@ -7727,6 +7727,90 @@
    "publish_id": "p_inbox_url~v2.7710766522760169494",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-21T23:14:22+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "hook": "5 Trader Joe's Dinners for Broke Weeknights That Actually Hit 😭🛒",
+   "subline": "Stretch your grocery run, skip delivery 🤤",
+   "title": "5 Trader Joe's Dinners for Broke Weeknights That Actually Hit 😭🛒",
+   "caption": "💾 SAVE this for the next time you're about to order takeout this week 😋🍝\n\n1. Garlic Parmesan Chicken Flatbreads\n2. Creamy Pesto Chicken Gnocchi\n3. One-Pan Smoky Beef Orzo\n4. Creamy Tomato Pasta\n5. Creamy Garlic Chicken Orzo\n\nWhich one are you making first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:garlic-parmesan-chicken-flatbreads-2",
+    "card:creamy-pesto-chicken-gnocchi-2",
+    "card:one-pan-smoky-beef-orzo-2",
+    "card:creamy-tomato-pasta-2",
+    "card:creamy-garlic-chicken-orzo-2"
+   ],
+   "groups": [
+    "garlic-parmesan-chicken-flatbreads",
+    "creamy-pesto-chicken-gnocchi",
+    "one-pan-smoky-beef-orzo",
+    "creamy-tomato-pasta",
+    "creamy-garlic-chicken-orzo"
+   ],
+   "dishes": [
+    "Garlic Parmesan Chicken Flatbreads",
+    "Creamy Pesto Chicken Gnocchi",
+    "One-Pan Smoky Beef Orzo",
+    "Creamy Tomato Pasta",
+    "Creamy Garlic Chicken Orzo"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    500,
+    772
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "italian",
+    "angle": "takeaway",
+    "label": "Italian-style dinners (pasta, gnocchi, orzo)",
+    "angle_text": "better than (and cheaper than) a takeaway"
+   },
+   "question": "Which one are you making first? 👀",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Pasta Dinners That Beat a Takeout Order 😋🍝",
+     "subline": "Ready in 25 minutes or less ⏰",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Trader Joe's Dinners for Broke Weeknights That Actually Hit 😭🛒",
+     "subline": "Stretch your grocery run, skip delivery 🤤",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Trader Joe's Sunday Italian Dinners for a Lazy Night 😴🍝",
+     "subline": "Perfect for a chilled end-of-weekend 🙌",
+     "score": 5.0
+    },
+    {
+     "hook": "5 Trader Joe's Dinners That Make Takeout Feel Extra 😳🍝",
+     "subline": "Send to your indecisive dinner buddy 😂",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-22T16:12:54+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-22-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711029610187900950",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-22T16:14:56+00:00"
   }
  ]
 }
