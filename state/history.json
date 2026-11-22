@@ -11755,6 +11755,95 @@
    "publish_id": "p_inbox_url~v2.7710766548927219734",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-21T23:14:10+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "hook": "5 Tesco Cheesy Fakeaway Dinners (No Delivery) 🤤🧀",
+   "subline": "All the melty bits, zero delivery drama 😏",
+   "title": "5 Tesco Cheesy Fakeaway Dinners (No Delivery) 🤤🧀",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook this week 😭🧀\n\n1. Cheesy Beef & Bean Loaded Potatoes\n2. Creamy Peri-Peri Chicken Pasta\n3. Cheesy Taco Quesadillas\n4. Creamy Sun-Dried Tomato Chicken Orzo\n5. Garlic Butter Chicken & Rice\n\nWhich one are you making first this week? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#tesco #tescouk #tescofinds #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:cheesy-beef-bean-loaded-potatoes-1",
+    "card:creamy-peri-peri-chicken-pasta-1",
+    "card:cheesy-taco-quesadillas-1",
+    "card:creamy-sun-dried-tomato-chicken-orzo-1",
+    "card:garlic-butter-chicken-and-rice-2"
+   ],
+   "groups": [
+    "cheesy-beef-bean-loaded-potatoes",
+    "creamy-peri-peri-chicken-pasta",
+    "cheesy-taco-quesadillas",
+    "creamy-sun-dried-tomato-chicken-orzo",
+    "garlic-butter-chicken-and-rice"
+   ],
+   "dishes": [
+    "Cheesy Beef & Bean Loaded Potatoes",
+    "Creamy Peri-Peri Chicken Pasta",
+    "Cheesy Taco Quesadillas",
+    "Creamy Sun-Dried Tomato Chicken Orzo",
+    "Garlic Butter Chicken & Rice"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    512,
+    652
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "tesco",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "no-idea",
+    "label": "cheesy dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first this week? 👇",
+   "tuned": true,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Tesco Cheesy Dinners for When You Have NO Idea 😩🧀",
+     "subline": "Melty, lazy, proper comfort food 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Tesco Cheesy Dinners to SEND to Your Housemates 😂🧀",
+     "subline": "Perfect for shared shops and lazy nights 😂",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Tesco Cheesy Fakeaway Dinners (No Delivery) 🤤🧀",
+     "subline": "All the melty bits, zero delivery drama 😏",
+     "score": 9.5
+    },
+    {
+     "hook": "5 Tesco Cheesy Dinners I'd Make on Repeat 😍🧀",
+     "subline": "Comfort food that actually feels fancy 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Tesco LAZY Cheesy Dinners for Properly Knackered Nights 😴🧀",
+     "subline": "Minimal faff, max melt-in-your-mouth 😋",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-22T11:15:30+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-22-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7710952894011312150",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-22T11:16:14+00:00"
   }
  ]
 }
