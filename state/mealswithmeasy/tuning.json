@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 59,
+ "scored_posts": 60,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -76,9 +76,9 @@
     "avg_ratio": 0.76
    },
    "anything": {
-    "mult": 1.32,
-    "posts": 1,
-    "avg_ratio": 2.28
+    "mult": 1.13,
+    "posts": 2,
+    "avg_ratio": 1.32
    },
    "veggie": {
     "mult": 1.17,
@@ -133,9 +133,9 @@
     "avg_ratio": 0.9
    },
    "tired": {
-    "mult": 1.06,
-    "posts": 6,
-    "avg_ratio": 1.09
+    "mult": 0.99,
+    "posts": 7,
+    "avg_ratio": 0.99
    },
    "repeat": {
     "mult": 1.17,
@@ -285,9 +285,9 @@
     "avg_ratio": 1.37
    },
    "cheesy-beef-bean-loaded-potatoes": {
-    "mult": 1.01,
-    "posts": 1,
-    "avg_ratio": 1.02
+    "mult": 0.88,
+    "posts": 2,
+    "avg_ratio": 0.7
    },
    "garlic-butter-flatbreads": {
     "mult": 1.12,

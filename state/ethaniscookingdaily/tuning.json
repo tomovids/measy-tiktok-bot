@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 55,
+ "scored_posts": 56,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -66,9 +66,9 @@
     "avg_ratio": 0.91
    },
    "mexican": {
-    "mult": 0.99,
-    "posts": 2,
-    "avg_ratio": 0.97
+    "mult": 0.97,
+    "posts": 3,
+    "avg_ratio": 0.93
    },
    "beef": {
     "mult": 1.05,
@@ -148,9 +148,9 @@
     "avg_ratio": 1.65
    },
    "midweek": {
-    "mult": 1.08,
-    "posts": 3,
-    "avg_ratio": 1.16
+    "mult": 1.05,
+    "posts": 4,
+    "avg_ratio": 1.08
    },
    "family": {
     "mult": 0.87,
@@ -280,9 +280,9 @@
     "avg_ratio": 0.98
    },
    "buffalo-chicken-quesadillas": {
-    "mult": 1.04,
-    "posts": 1,
-    "avg_ratio": 1.17
+    "mult": 1.0,
+    "posts": 2,
+    "avg_ratio": 1.01
    },
    "cheesy-beef-taco-pasta": {
     "mult": 1.05,

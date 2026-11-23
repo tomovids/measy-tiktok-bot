@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 67,
+ "scored_posts": 68,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -101,9 +101,9 @@
     "avg_ratio": 0.59
    },
    "chicken": {
-    "mult": 0.98,
-    "posts": 3,
-    "avg_ratio": 0.97
+    "mult": 1.0,
+    "posts": 4,
+    "avg_ratio": 1.0
    },
    "quick": {
     "mult": 0.99,
@@ -118,9 +118,9 @@
   },
   "angle": {
    "taste-cheap": {
-    "mult": 1.28,
-    "posts": 2,
-    "avg_ratio": 1.69
+    "mult": 1.25,
+    "posts": 3,
+    "avg_ratio": 1.49
    },
    "family": {
     "mult": 2.0,
@@ -291,8 +291,8 @@
    },
    "sticky-chicken-loaded-fries": {
     "mult": 2.0,
-    "posts": 4,
-    "avg_ratio": 3.1
+    "posts": 5,
+    "avg_ratio": 2.7
    },
    "loaded-taco-jacket-potato": {
     "mult": 1.26,
