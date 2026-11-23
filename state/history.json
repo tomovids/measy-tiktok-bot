@@ -11933,6 +11933,95 @@
    "publish_id": "p_inbox_url~v2.7711029610187868182",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-22T16:14:45+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Aldi Meals I'd Make If I Had NO Energy — under £2 a portion 😩💸",
+   "subline": "Send this to the indecisive one 😂",
+   "title": "5 Aldi Meals I'd Make If I Had NO Energy — under £2 a portion 😩💸",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook tonight 😭⏰\n\n1. Sweet Chilli Beef Noodles\n2. Crispy Sweet Chilli Halloumi Burgers\n3. Sticky Beef Rice Bowls\n4. Sweet Chilli Halloumi Wraps\n5. Sticky Honey Garlic Sausage Bowls\n\nWhich one are you making first? Rate it out of 10 in the comments 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sweet-chilli-beef-noodles-1",
+    "card:crispy-sweet-chilli-halloumi-burgers-2",
+    "card:sticky-beef-rice-bowls-1",
+    "card:sweet-chilli-halloumi-wraps-2",
+    "card:sticky-honey-garlic-sausage-rice-1"
+   ],
+   "groups": [
+    "sweet-chilli-beef-noodles",
+    "crispy-sweet-chilli-halloumi-burgers",
+    "sticky-beef-rice-bowls",
+    "sweet-chilli-halloumi-wraps",
+    "sticky-honey-garlic-sausage-rice"
+   ],
+   "dishes": [
+    "Sweet Chilli Beef Noodles",
+    "Crispy Sweet Chilli Halloumi Burgers",
+    "Sticky Beef Rice Bowls",
+    "Sweet Chilli Halloumi Wraps",
+    "Sticky Honey Garlic Sausage Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    320,
+    692
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "tired",
+    "label": "dinners under £2 a portion",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? Rate it out of 10 in the comments 😋",
+   "tuned": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners Under £2 a Portion — No Takeaway Needed 😭💸",
+     "subline": "Big flavour, zero faff 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners to SEND Your Housemate — under £2 a portion 😂",
+     "subline": "Tag them now before they order 🍜",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners Cheaper Than a Takeaway — under £2 a portion 😏💸",
+     "subline": "Same comfort, less drama 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi LAZY dinners Ready Fast & under £2 a portion 😴⏰",
+     "subline": "Zero faff, proper comfort 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make If I Had NO Energy — under £2 a portion 😩💸",
+     "subline": "Send this to the indecisive one 😂",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-23T00:16:50+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711154568373585923",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T00:20:26+00:00"
   }
  ]
 }

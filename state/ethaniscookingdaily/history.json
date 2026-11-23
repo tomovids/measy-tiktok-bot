@@ -7699,6 +7699,75 @@
    "publish_id": "p_inbox_url~v2.7711029684351584278",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-22T16:15:08+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Aldi Fakeaways That Stop You Ordering Tonight 😩🍗",
+   "subline": "Fakeaway vibes, proper pennies saved 💸",
+   "title": "5 Aldi Fakeaways That Stop You Ordering Tonight 😩🍗",
+   "caption": "💾 SAVE this for when you need to sort tonight's tea before work 😭⏰\n\n1. Sticky Korean BBQ Chicken Loaded Fries\n2. Honey Chilli Chicken Noodles\n3. Garlic Sausage Rice Bowls\n4. BBQ Sausage Loaded Potatoes\n5. Sticky Honey Garlic Chicken Rice Bowls\n\nWhich one are you making tonight? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:sticky-korean-bbq-chicken-loaded-fries-1",
+    "card:honey-chilli-chicken-noodles-1",
+    "card:garlic-sausage-rice-bowls-1",
+    "card:bbq-sausage-loaded-potatoes-2",
+    "card:sticky-honey-garlic-chicken-rice-bowls-1"
+   ],
+   "groups": [
+    "sticky-korean-bbq-chicken-loaded-fries",
+    "honey-chilli-chicken-noodles",
+    "garlic-sausage-rice-bowls",
+    "bbq-sausage-loaded-potatoes",
+    "sticky-honey-garlic-chicken-rice-bowls"
+   ],
+   "dishes": [
+    "Sticky Korean BBQ Chicken Loaded Fries",
+    "Honey Chilli Chicken Noodles",
+    "Garlic Sausage Rice Bowls",
+    "BBQ Sausage Loaded Potatoes",
+    "Sticky Honey Garlic Chicken Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Blue-hour dusk, deep blue sky, the store sign and shop windows glowing warmly, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    512,
+    1036
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "plan-today",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one are you making tonight? 👇",
+   "tuned": false,
+   "hook_score": null,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Fakeaways That Stop You Ordering Tonight 😩🍗",
+     "subline": "Fakeaway vibes, proper pennies saved 💸",
+     "score": null
+    }
+   ],
+   "built_at": "2026-11-23T00:19:45+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-23-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711154867045992470",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T00:20:51+00:00"
   }
  ]
 }

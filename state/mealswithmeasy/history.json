@@ -7811,6 +7811,85 @@
    "publish_id": "p_inbox_url~v2.7711029610187900950",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-22T16:14:56+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Walmart Dinners You'll Pretend You Ordered In 😏🍜",
+   "subline": "Takeout vibes, zero delivery drama 🤤",
+   "title": "5 Walmart Dinners You'll Pretend You Ordered In 😏🍜",
+   "caption": "💾 SAVE this for the next time you're too wiped out to cook 😭😴\n\n1. Sweet Chili Chicken Rice Bowl\n2. Sticky Maple Sausage Sheet Pan\n3. Crispy Sweet Chili Chicken Noodles\n4. Honey Soy Beef Noodles\n5. Sticky BBQ Beef Rice Bowls\n\nWhich one would you make first this week? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#walmart #walmartfinds #walmartgroceries #budgetmeals #easydinner #dinnerideas #measy #stickychicken #copycatrecipes",
+   "files": [
+    "card:sweet-chilli-chicken-rice-bowl-2",
+    "card:sticky-maple-sausage-traybake-2",
+    "card:crispy-sweet-chilli-chicken-noodles-2",
+    "card:honey-soy-beef-noodles-2",
+    "card:sticky-bbq-beef-rice-bowls-1"
+   ],
+   "groups": [
+    "sweet-chilli-chicken-rice-bowl",
+    "sticky-maple-sausage-traybake",
+    "crispy-sweet-chilli-chicken-noodles",
+    "honey-soy-beef-noodles",
+    "sticky-bbq-beef-rice-bowls"
+   ],
+   "dishes": [
+    "Sweet Chili Chicken Rice Bowl",
+    "Sticky Maple Sausage Sheet Pan",
+    "Crispy Sweet Chili Chicken Noodles",
+    "Honey Soy Beef Noodles",
+    "Sticky BBQ Beef Rice Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Crisp autumn afternoon, golden trees, blue sky, a few leaves on the ground, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    0,
+    520
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "walmart",
+   "theme": {
+    "collection": "sticky",
+    "angle": "tired",
+    "label": "sticky, saucy dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one would you make first this week? 😋",
+   "tuned": false,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Walmart Sticky & Saucy Dinners for Wiped-Out Nights 😩🤤",
+     "subline": "Big flavor, no delivery needed 🍜",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Walmart Dinners You'll Pretend You Ordered In 😏🍜",
+     "subline": "Takeout vibes, zero delivery drama 🤤",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Walmart LAZY dinners for nights you can't even 😴🍝",
+     "subline": "No-fuss saucy meals that taste bougie 🍗",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-23T00:18:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711154756734994454",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T00:20:39+00:00"
   }
  ]
 }
