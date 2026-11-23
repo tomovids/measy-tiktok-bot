@@ -59,9 +59,10 @@ def angle_allowed(a: dict, day: date, slot: str) -> bool:
 
 def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], cfg: dict,
            rng: random.Random, data: dict | None = None, boost: dict | None = None,
-           avoid: set[str] | dict[str, int] | None = None) -> Theme:
+           avoid: set[str] | dict[str, int] | None = None, price_ok: bool = True) -> Theme:
     """`boost`: performance multipliers {"collection": {id: x}, "angle": {id: x}} (tuning.py).
-    `avoid`: dishes other accounts posted recently, {dish: days ago}; today's don't count as available."""
+    `avoid`: dishes other accounts posted recently, {dish: days ago}; today's don't count as available.
+    `price_ok`: the post may name a price (angles with price = true need it)."""
     data = data or load()
     skip = set(cfg.get("region", {}).get("skip_collections", []))
     collections = [c for c in data["collections"] if c["id"] not in skip]
@@ -101,7 +102,7 @@ def choose(day: date, slot: str, hist: History, dish_tags: dict[str, set[str]], 
     if chosen_c is None:
         chosen_c = next(c for c in collections if c["id"] == "anything")
 
-    angles = [a for a in data["angles"] if angle_allowed(a, day, slot)]
+    angles = [a for a in data["angles"] if angle_allowed(a, day, slot) and (price_ok or not a.get("price"))]
     chosen_a = None
     for strict in (2, 1, 0):
         cands = []

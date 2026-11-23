@@ -141,6 +141,18 @@ def build(client: OpenAI, cfg: dict, only: list[str] | None = None, log=print, w
     return library
 
 
+_FRESH: dict[str, dict] = {}     # this run's brand-new dishes (fresh.py); never saved to the library
+
+
+def add_fresh(entry: dict) -> None:
+    _FRESH[entry["group"]] = entry
+
+
+def entry(group: str) -> dict:
+    """One dish: a brand-new one made for a post this run, or a library dish."""
+    return _FRESH.get(group) or load()[group]
+
+
 def load(region: str | None = None) -> dict:
     path = library_file(region)
     if not path.exists():

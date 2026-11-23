@@ -1,4 +1,7 @@
+import copy
 import random
+
+import pytest
 
 from measybot import stores, writer
 from measybot.catalogue import Recipe
@@ -9,14 +12,28 @@ FIVE = [Recipe(f"{i}.webp", f"Dish {i}", f"dish-{i}", "chicken", "rice", "GBP", 
         for i in range(5)]
 
 
-def test_plan_two_aldi_one_tester(cfg):
+@pytest.fixture
+def tester_cfg(cfg):
+    """A plan with a tester slot (Measy is all Aldi now; the rotation still works for plans that use it)."""
+    c = copy.deepcopy(cfg)
+    c["store_rotation"]["plan"] = ["aldi", "rotate", "aldi"]
+    return c
+
+
+def test_measy_is_all_aldi(cfg):
+    assert [stores.choose(History(), cfg, random.Random(1), i).id for i in range(2)] == ["aldi", "aldi"]
+
+
+def test_plan_two_aldi_one_tester(tester_cfg):
+    cfg = tester_cfg
     h = History()
     assert stores.choose(h, cfg, random.Random(1), 0).id == "aldi"
     assert stores.choose(h, cfg, random.Random(1), 2).id == "aldi"
     assert stores.choose(h, cfg, random.Random(1), 1).id in {"tesco", "sainsburys", "asda", "lidl"}
 
 
-def test_tester_stores_take_turns(cfg):
+def test_tester_stores_take_turns(tester_cfg):
+    cfg = tester_cfg
     h = History()
     seen = []
     for i in range(8):
@@ -26,7 +43,8 @@ def test_tester_stores_take_turns(cfg):
     assert seen == ["tesco", "sainsburys", "asda", "lidl"] * 2   # fixed order, repeating
 
 
-def test_test_drafts_dont_shift_the_rotation(cfg):
+def test_test_drafts_dont_shift_the_rotation(tester_cfg):
+    cfg = tester_cfg
     h = History([{"date": "2026-10-09", "store": "tesco", "status": SENT, "files": [], "groups": [],
                   "extra": True}])
     assert stores.choose(h, cfg, random.Random(1), 1).id == "tesco"

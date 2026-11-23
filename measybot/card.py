@@ -417,10 +417,66 @@ def render_light(r: CardRecipe, photo: Image.Image) -> Image.Image:
 def render_for(file: str, style: str | None = None) -> Image.Image:
     """Draws the card for a picked recipe whose file is 'card:<dish>-<n>', in the [cards] style
     from config.toml: "light" (photo, name, quick facts) or "full" (the whole recipe)."""
+    style = style or config.load_config().get("cards", {}).get("style", "full")
+    draw = render_light if style == "light" else render
+    return draw(*load_card(file))
+
+
+def load_card(file: str) -> tuple[CardRecipe, Image.Image]:
+    """The recipe and photo behind a card file 'card:<dish>-<n>'."""
     from . import library, photos
     stem = file.split(":", 1)[1]
     group = stem.rsplit("-", 1)[0]
-    entry = library.load()[group]
-    style = style or config.load_config().get("cards", {}).get("style", "full")
-    draw = render_light if style == "light" else render
-    return draw(CardRecipe.from_dict(entry), Image.open(photos.PHOTO_DIR / f"{stem}.jpg"))
+    return CardRecipe.from_dict(library.entry(group)), Image.open(photos.find(stem))
+
+
+# ---- the last slide: this post's shop -----------------------------------------------------------
+
+def render_shop(cards: list[tuple[CardRecipe, Image.Image]], store: str) -> Image.Image:
+    """The post's own five dinners as one shop (photo, name, price a portion, time) with the total and
+    the Measy app. Drawn from the post's dishes, so it's different on every post (one fixed ad slide on
+    every post looked like reused content to TikTok)."""
+    img = Image.new("RGB", (W, H), CREAM)
+    d = ImageDraw.Draw(img)
+    us = config.REGION == "us"
+    title = f"This week's {store} {'grocery haul' if us else 'shop'}"
+    size = 92
+    while font(FRAUNCES, size).getlength(title) > W - 2 * M and size > 60:
+        size -= 4
+    d.text((M, 190), title, font=font(FRAUNCES, size), fill=GREEN, anchor="ls")
+    d.text((M + 4, 262), "5 dinners, sorted", font=font(CAVEAT, 58), fill=INK, anchor="ls")
+
+    top, row, thumb = 320, 238, 200
+    for i, (r, photo) in enumerate(cards[:5]):
+        y = top + i * row
+        _photo(img, photo, (M, y, M + thumb, y + thumb), radius=28)
+        x = M + thumb + 34
+        tf = font(FRAUNCES, 50)
+        lines = wrap(r.title, tf, W - M - x)[:2]
+        ty = y + (62 if len(lines) == 2 else 92)
+        for j, line in enumerate(lines):
+            d.text((x, ty + j * 54), line, font=tf, fill=GREEN, anchor="ls")
+        facts = []
+        if r.per_serving is not None:
+            facts.append(f"{money(r.per_serving)} {'per serving' if us else 'a portion'}")
+        mins = (r.prep_mins or 0) + (r.cook_mins or 0)
+        if mins:
+            facts.append(f"{mins} mins")
+        d.text((x, ty + len(lines) * 54 + 10), "  ·  ".join(facts), font=font(SANS, 34), fill=MUTED,
+               anchor="ls")
+
+    totals = [r.total for r, _ in cards[:5]]
+    y = top + 5 * row + 14
+    if totals and all(t is not None for t in totals):
+        label = f"All 5 dinners: {money(sum(totals))}"
+        f = font(SANS_BOLD, 54)
+        w = f.getlength(label) + 96
+        d.rounded_rectangle([(W - w) / 2, y, (W + w) / 2, y + 104], radius=52, fill=GREEN)
+        d.text((W / 2, y + 70), label, font=f, fill=WHITE, anchor="ms")
+
+    foot = H - 92
+    lw = _logo(img, M, foot - 70, 80)
+    x = M + lw + 30
+    d.text((x, foot - 22), "Plan the week + get the", font=font(CAVEAT, 46), fill=GREEN, anchor="ls")
+    d.text((x, foot + 26), "shopping list in the app", font=font(CAVEAT, 46), fill=GREEN, anchor="ls")
+    return img

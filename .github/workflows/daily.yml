@@ -7,7 +7,8 @@ on:
     # Runs with nothing due finish in under a minute.
     - cron: "17 * * * *"
     # plus just after each draft's send window opens (config.toml send_early_hours: 22:30 the evening
-    # before the 06:30 draft, 09:00 for 12:00, 13:00 for 16:00, UK time), in summer and winter time
+    # before Measy's 06:30 draft, 04:00 for Ethan's 12:00, 08:00 / 13:00 for the 16:00 drafts, UK
+    # time), in summer and winter time
     - cron: "35 21 * * *"
     - cron: "35 22 * * *"
     - cron: "5 8 * * *"
@@ -26,13 +27,17 @@ on:
         type: boolean
         default: false
       slot:
-        description: "With 'again': which of the day's posts to copy (Measy: 1 = 07:30 Aldi, 2 = 12:00 tester store, 3 = 16:30 Aldi)"
+        description: "With 'again': which of the day's posts to copy (Measy: 1 = 06:30, 2 = 16:00)"
         type: string
         default: ""
       account:
         description: "Only this account (measy, mealswithmeasy or ethaniscookingdaily); empty = every account"
         type: string
         default: ""
+      preview:
+        description: "Only build, don't send to TikTok (the slides are in the run's 'workdir' download)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -78,7 +83,7 @@ jobs:
 
   send:
     needs: build
-    if: needs.build.outputs.built == 'true'
+    if: needs.build.outputs.built == 'true' && !inputs.preview
     runs-on: ubuntu-latest
     permissions:
       contents: write

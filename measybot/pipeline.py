@@ -6,7 +6,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import catalogue, cover, stage, stores, tags, themes, tokens, tuning, writer
+from . import catalogue, cover, fresh, stage, stores, tags, themes, tokens, tuning, writer
 from .history import History
 from .openai_api import OpenAI, OpenAIError
 from .picker import pick
@@ -37,13 +37,21 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     dish_tags = tags.all_tags()
     boost = tuning.for_post(random.Random(f"{seed}/tune"))
     theme = themes.choose(day, slot, hist, dish_tags, cfg, random.Random(f"{seed}/theme"), boost=boost,
-                          avoid=avoid)
+                          avoid=avoid, price_ok=store.price_claims and cfg["region"]["id"] == "uk")
     log(f"Store: {store.name}. Theme: 5 {theme.label} / {theme.angle_text.replace('{store}', store.name)}")
     lead_mult = boost.get("lead", {})
     lead = {g: tags.crave_score(t) + 4 * (lead_mult.get(g, 1.0) - 1) for g, t in dish_tags.items()}
     log("Tuning: " + ("on (doubling down on what performs)" if boost else "off / exploring this post"))
-    recipes = pick(catalogue.load_recipes(), hist, day, cfg, random.Random(f"{seed}/picker"),
-                   allowed=theme.groups, caps_off=theme.caps_off, lead=lead, avoid=avoid)
+    recipes = None
+    if cfg["cards"].get("fresh_dishes") and ai is not None and ai_image:
+        try:
+            recipes = fresh.make(ai, cfg, f"5 {store.name} {theme.label}", store,
+                                 fresh.posted_dishes([hist, *(others or [])]), seed, log)
+        except Exception as e:      # never lose a post over it: the library is always there
+            log(f"New dishes failed ({type(e).__name__}: {e}); using the recipe library instead.")
+    if recipes is None:
+        recipes = pick(catalogue.load_recipes(), hist, day, cfg, random.Random(f"{seed}/picker"),
+                       allowed=theme.groups, caps_off=theme.caps_off, lead=lead, avoid=avoid)
     log("Recipes: " + "; ".join(r.dish for r in recipes))
 
     used = {p["hook"] for p in hist.accepted() if p.get("hook")} | set(other_hooks)
@@ -61,10 +69,10 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     slide = cover.render(background, words.hook, words.subline, cfg, random.Random(f"{seed}/cover"),
                          avoid=sign)
 
-    promo = hist.next_promo(catalogue.promo_files())
+    promo = _shop_slide(recipes, store, log) or hist.next_promo(catalogue.promo_files())
     meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign, "extra": extra,
             "slot": slot, "store": store.id, "theme": theme.record(), "question": words.question,
-            "tuned": bool(boost),
+            "tuned": bool(boost), "fresh_dishes": recipes[0].group.startswith("new-"),
             "hook_score": words.score,
             "hook_candidates": words.candidates,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
@@ -73,6 +81,18 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
         background.save(folder / "background.jpg", "JPEG", quality=90)
     log(f"Built {len(post['slides'])} slides in {folder}")
     return post
+
+
+def _shop_slide(recipes, store, log):
+    """The last slide, drawn from this post's dishes (None: use the saved promo slide)."""
+    if not all(r.file.startswith("card:") for r in recipes):
+        return None
+    from .card import load_card, render_shop
+    try:
+        return render_shop([load_card(r.file) for r in recipes], store.name)
+    except (OSError, KeyError, ValueError) as e:
+        log(f"Couldn't draw the shop slide ({e}); using the promo slide.")
+        return None
 
 
 def _background(day: date, scene: str, cfg: dict, ai: OpenAI | None, log, store=None):

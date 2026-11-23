@@ -159,6 +159,14 @@ hashtags = ["#comfortfood", "#cosydinner"]
 
 # ---- angles --------------------------------------------------------------------------------
 
+# The account's biggest format ("A full week of Aldi dinners for £25"): the hook names the total for all
+# five dinners. price = true: only for stores whose prices the cards show (UK Aldi).
+[[angles]]
+id = "full-week"
+text = "a full week of {store} dinners for one total price"
+weight = 6
+price = true
+
 [[angles]]
 id = "payday"
 text = "skint until payday / end of the month money is tight"

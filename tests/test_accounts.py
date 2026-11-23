@@ -36,8 +36,8 @@ def test_second_account_has_its_own_files(cfg, restore_account):
 
 def test_account_settings(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
-    assert acfg["schedule"]["post_times"] == ["06:30", "16:00"]
-    assert acfg["store_rotation"]["plan"] == ["aldi", "rotate"]
+    assert acfg["schedule"]["post_times"] == ["12:00"]
+    assert acfg["store_rotation"]["plan"] == ["aldi"]
     assert {s.id for s in stores.load(acfg)} == {"tesco", "sainsburys", "asda", "aldi", "lidl"}
     assert acfg["account"]["primary"] is False
     # the first account is unchanged
@@ -53,6 +53,8 @@ def test_unknown_account(cfg):
 
 def test_ethan_leans_on_aldi_and_tests_other_stores(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "ethaniscookingdaily"))
+    assert stores.choose(History(), acfg, random.Random(1), 0).id == "aldi"
+    acfg["store_rotation"]["plan"] = ["aldi", "rotate"]          # with a tester slot, it rotates
     hist = History()
     tested = []
     for d in range(8):
@@ -81,7 +83,7 @@ def test_us_account(cfg):
     acfg = config.account_cfg(cfg, config.get_account(cfg, "mealswithmeasy"))
     assert acfg["region"]["id"] == "us" and acfg["region"]["currency"] == "$"
     assert acfg["schedule"]["timezone"] == "Europe/London"          # drafts on UK time
-    assert acfg["schedule"]["post_times"] == ["06:30", "16:00"]
+    assert acfg["schedule"]["post_times"] == ["16:00"]
     assert [s.id for s in stores.load(acfg)] == ["walmart", "aldius", "traderjoes"]
     assert "#ukfood" not in acfg["caption"]["hashtags"]
     assert "parking lot" in acfg["cover"]["prompt"]
@@ -121,7 +123,7 @@ def test_one_dashboard_for_every_account(cfg):
     assert [a["id"] for a in data["accounts"]] == ["measy", "mealswithmeasy", "ethaniscookingdaily"]
     us = data["accounts"][1]
     assert us["currency"] == "$" and us["region"] == "us"
-    assert us["drafts"]["times"] == ["06:30", "16:00"]
+    assert us["drafts"]["times"] == ["16:00"]
     assert config.HISTORY_FILE == config.STATE / "history.json"      # back on the first account
 
 
@@ -147,6 +149,10 @@ def test_waits_after_tiktok_inbox_is_full():
     assert inbox_full_wait(hist, datetime(2026, 10, 9, 15, 1, tzinfo=timezone.utc)) == 0
 
 
+THREE_A_DAY = {"post_times": ["06:30", "12:00", "16:00"], "send_early_hours": [8, 3, 3],
+               "timezone": "Europe/London"}
+
+
 def _fake_build(monkeypatch, now):
     from datetime import datetime
     from zoneinfo import ZoneInfo
@@ -170,6 +176,7 @@ def test_one_run_catches_up_every_due_draft(cfg, monkeypatch, restore_account):
     m, made = _fake_build(monkeypatch, "2026-10-13T18:00:00+01:00")    # 18:00 UK: all 3 Measy slots due
     acct = config.get_account(cfg, "measy")
     acfg = m.switch(acct, cfg)
+    acfg["schedule"] = dict(THREE_A_DAY)
     hists = {a.id: History() for a in config.accounts(cfg)}
     args = argparse.Namespace(date=None, force=False, again=False, slot=None)
     out = m.build_due(args, acfg, acct, hists)
@@ -183,6 +190,7 @@ def test_early_run_sends_yesterdays_missing_drafts(cfg, monkeypatch, restore_acc
     m, made = _fake_build(monkeypatch, "2026-10-13T03:00:00+01:00")    # 03:00 UK, before 06:30
     acct = config.get_account(cfg, "measy")
     acfg = m.switch(acct, cfg)
+    acfg["schedule"] = dict(THREE_A_DAY)
     hists = {a.id: History() for a in config.accounts(cfg)}
     hists["measy"].add({"date": "2026-10-12", "status": SENT})          # only 1 of 3 went out yesterday
     args = argparse.Namespace(date=None, force=False, again=False, slot=None)
@@ -198,6 +206,7 @@ def test_drafts_go_out_early_enough_to_be_waiting(cfg, monkeypatch, restore_acco
     # 22:45 UK: today's three are done; tomorrow's 06:30 draft is sent tonight
     m, made = _fake_build(monkeypatch, "2026-10-13T22:45:00+01:00")
     acfg = m.switch(acct, cfg)
+    acfg["schedule"] = dict(THREE_A_DAY)
     hists = {a.id: History() for a in config.accounts(cfg)}
     for i in range(3):
         hists["measy"].add({"date": "2026-10-13", "status": SENT})

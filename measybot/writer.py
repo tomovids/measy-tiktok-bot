@@ -270,7 +270,7 @@ def brand_guide() -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
 
 
-def _rules(facts: Facts, cfg: dict, store: Store | None = None) -> str:
+def _rules(facts: Facts, cfg: dict, store: Store | None = None, theme=None) -> str:
     store = store or stores.default()
     wc = cfg["words"]
     c = _cur(cfg)
@@ -291,10 +291,17 @@ def _rules(facts: Facts, cfg: dict, store: Store | None = None) -> str:
                 f"(the slowest dish takes {facts.max_time} minutes).")
     else:
         time = "Do NOT mention cooking times or minutes."
-    return f"""Rules for every hook:
-- Use the structure of this account's best performers: start with "5 {store.name}" and the dish word
+    if theme is not None and theme.angle == "full-week" and facts.total_gbp is not None and store.price_claims:
+        shape = (f"""- This post's angle is the account's biggest format: start every hook with "A full week of
+  {store.name} dinners for {c}N" or "Full week of {store.name} dinners for {c}N", where N is a whole number of at
+  least {math.ceil(facts.total_gbp)}, then 1 or 2 emoji (e.g. "A full week of {store.name} dinners for {c}{math.ceil(facts.total_gbp / 5) * 5} 😍🛒").
+  Vary the rest. Never open with a question.""")
+    else:
+        shape = f"""- Use the structure of this account's best performers: start with "5 {store.name}" and the dish word
   ("5 {store.name} Dinners...", "5 LAZY {store.name} dinners...", "5 {store.name} Meals I'd Make If..."),
-  then the promise. Never open with a question or a one-word lead-in like "Skint?" or "Too tired?".
+  then the promise. Never open with a question or a one-word lead-in like "Skint?" or "Too tired?"."""
+    return f"""Rules for every hook:
+{shape}
 - At most {wc['max_hook_chars']} characters, mentions {store.name}, ends with 1 or 2 emoji. Never names any
   other supermarket. If it states a number
   of dinners/meals it must be 5. Capitals for emphasis on one word at most.
@@ -355,7 +362,7 @@ The five dinners on the cards:
 Don't repeat or closely copy these recent hooks:
 {rec}
 
-{_rules(facts, cfg, store)}
+{_rules(facts, cfg, store, theme)}
 
 Write {n} genuinely different hook candidates (different structures and emotional triggers: a pain
 point, a money detail, a "send this to" line, a takeaway comparison, a bold claim...). Then one caption

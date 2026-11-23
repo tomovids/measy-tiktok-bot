@@ -48,7 +48,7 @@ def utf16_len(text: str) -> int:
     return len(text.encode("utf-16-le")) // 2
 
 
-def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, words, caption: str,
+def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path | Image.Image, words, caption: str,
           meta: dict, rel_root: Path | None = None) -> dict:
     if folder.exists():
         shutil.rmtree(folder)
@@ -70,7 +70,11 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, wor
             slides.append(dst)
         else:
             slides.append(copy_slide(r.path, folder / f"{i:02d}"))
-    slides.append(copy_slide(promo, folder / f"{len(recipes) + 2:02d}"))
+    if isinstance(promo, Image.Image):          # drawn for this post (card.render_shop)
+        slides.append(folder / f"{len(recipes) + 2:02d}.jpg")
+        promo.convert("RGB").save(slides[-1], "JPEG", quality=92)
+    else:
+        slides.append(copy_slide(promo, folder / f"{len(recipes) + 2:02d}"))
 
     title = words.hook
     while utf16_len(title) > 90:
@@ -85,7 +89,7 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, wor
         "files": [r.file for r in recipes],
         "groups": [r.group for r in recipes],
         "dishes": [r.dish for r in recipes],
-        "promo": promo.name,
+        "promo": "shop" if isinstance(promo, Image.Image) else promo.name,
         "words_source": words.source,
         **meta,
     }

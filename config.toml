@@ -3,19 +3,19 @@
 [schedule]
 # Measy's drafts: one per time (UK time). The GitHub workflow checks once an hour (GitHub often runs it late), so a draft
 # can arrive a while after its time; a late run sends every draft that is due.
-post_times = ["06:30", "12:00", "16:00"]
+post_times = ["06:30", "16:00"]
 # The drafts are posted by hand at those times, so each is sent this many hours BEFORE its time to be
-# waiting in the inbox (GitHub runs the bot late, often by hours): the 06:30 one from 22:30 the
-# evening before, the others 3 hours ahead. One number per draft; accounts with fewer drafts use the
+# waiting in the inbox (GitHub runs the bot late, often by hours): the first one 8 hours ahead (the
+# 06:30 one from 22:30 the evening before), the others 3 hours ahead. One number per draft; accounts with fewer drafts use the
 # first ones (the last number covers any extra).
-send_early_hours = [8, 3, 3]
+send_early_hours = [8, 3]
 timezone = "Europe/London"
 
 [store_rotation]
 # Which supermarket each of the day's posts is about, in post_times order: a store id, or "rotate"
-# = the next of the other stores in turn (Tesco, Sainsbury's, Asda, Lidl). Two Aldi posts and one
-# tester post a day, to see how other supermarkets perform.
-plan = ["aldi", "rotate", "aldi"]
+# = the next of the other stores in turn (Tesco, Sainsbury's, Asda, Lidl). Aldi drives the traffic,
+# so both of Measy's posts are Aldi.
+plan = ["aldi", "aldi"]
 
 [picker]
 recipes_per_post = 5
@@ -148,6 +148,10 @@ max_width = 0.88
 # price per portion, with the full recipe in the Measy app (much less text); "full" = the whole recipe
 # (ingredients and method) on the slide.
 style = "light"
+# Every post gets 5 brand-new dishes, each with a new AI photo (fresh.py), so no picture is ever posted
+# twice: TikTok hides reused pictures as "unoriginal content". About 25-30c a post in photos. false =
+# pick from the recipe library (its 140 photos get reused).
+fresh_dishes = true
 # The AI food photo on each recipe card (made once per dish, kept in images/photos/).
 photo_prompt = """Ultra-appetising advertising food photograph of {dish}, made with {ingredients}. \
 {angle}. A generous, heaped portion that looks irresistible: glossy sauce, {cheese}, crispy golden \
@@ -229,20 +233,19 @@ id = "mealswithmeasy"
 name = "Meals with Measy"
 handle = "@mealswithmeasy"
 region = "us"
-# US audience, but drafts arrive on UK time like the other accounts (06:30 and 16:00 UK).
+# US audience, but drafts arrive on UK time like the other accounts: one a day at 16:00 UK (11:00 ET).
 timezone = "Europe/London"
-post_times = ["06:30", "16:00"]
-store_plan = ["rotate", "rotate"]
+post_times = ["16:00"]
+store_plan = ["rotate"]
 stores = ["walmart", "aldius", "traderjoes"]
 
 [[accounts]]
 id = "ethaniscookingdaily"
 name = "Ethan Is Cooking Daily"
 handle = "@ethaniscookingdaily"
-post_times = ["06:30", "16:00"]
-# Leans on Aldi like Measy (Aldi drives the traffic): Aldi at 06:30, a tester store at 16:00 (it
-# skips the store Measy tested that day, so the two accounts test different stores).
-store_plan = ["aldi", "rotate"]
+# One a day at 12:00, Aldi like Measy (Aldi drives the traffic).
+post_times = ["12:00"]
+store_plan = ["aldi"]
 stores = ["tesco", "sainsburys", "asda", "aldi", "lidl"]
 
 # ---- US audience (accounts with region = "us") --------------------------------------------------
