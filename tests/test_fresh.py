@@ -37,6 +37,15 @@ def test_posted_dishes_covers_every_account_and_the_library():
     assert set(e["title"] for e in library.load().values()) <= set(got)
 
 
+def test_invent_rounds_numbers(cfg):
+    d = dish("Lemon Pepper Chicken Couscous")
+    d["calories"] = 469.1
+    got = fresh.invent(Stub([[d] + [dish(t) for t in ("Butter Bean Orzo", "Halloumi Fajita Traybake",
+                                                      "Smoky Chorizo Gnocchi Bake", "Honey Garlic Pork Noodles")]]),
+                       cfg, "5 Aldi dinners", stores.by_id(cfg, "aldi"), [], log=lambda *_: None)
+    assert got[0]["calories"] == 469
+
+
 def test_invent_retries_copies_and_bad_recipes(cfg):
     aldi = stores.by_id(cfg, "aldi")
     first = [dish("Lemon Pepper Chicken Couscous"), dish("Sticky Korean Chicken Loaded Fries"),
@@ -69,6 +78,7 @@ def test_make_gives_new_photos_and_drawable_cards(cfg, tmp_path, monkeypatch):
     assert card.render_for(recipes[0].file).size == (1080, 1920)
     shop = card.render_shop([card.load_card(r.file) for r in recipes], "Aldi")
     assert shop.size == (1080, 1920)
+    assert card.render_shop([card.load_card(r.file) for r in recipes], "Trader Joe's").size == (1080, 1920)
 
 
 def test_full_week_angle_only_where_prices_are_allowed(cfg):

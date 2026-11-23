@@ -94,6 +94,10 @@ def invent(client: OpenAI, cfg: dict, theme: str, store, avoid: list[str], n: in
         data = client.chat_json(cfg["openai"]["text_model"], system, user)
         rejected = []
         for e in (data.get("dishes") or [])[:need]:
+            if isinstance(e, dict):
+                for k in ("serves", "prep_mins", "cook_mins", "calories"):
+                    if isinstance(e.get(k), float):
+                        e[k] = round(e[k])          # the cards print whole numbers
             try:
                 problems = library.check(e) if isinstance(e, dict) else ["not a recipe"]
             except (KeyError, TypeError, AttributeError) as err:

@@ -439,10 +439,15 @@ def render_shop(cards: list[tuple[CardRecipe, Image.Image]], store: str) -> Imag
     img = Image.new("RGB", (W, H), CREAM)
     d = ImageDraw.Draw(img)
     us = config.REGION == "us"
-    title = f"This week's {store} {'grocery haul' if us else 'shop'}"
-    size = 92
-    while font(FRAUNCES, size).getlength(title) > W - 2 * M and size > 60:
-        size -= 4
+    shop = "grocery haul" if us else "shop"
+    # the longest title that fits big, shorter ones for long store names ("Trader Joe's")
+    for title in (f"This week's {store} {shop}", f"This week's {store} haul" if us else "", f"Your {store} {shop}",
+                  f"{store} {shop}"):
+        size = 92
+        while title and font(FRAUNCES, size).getlength(title) > W - 2 * M and size > 64:
+            size -= 4
+        if title and font(FRAUNCES, size).getlength(title) <= W - 2 * M:
+            break
     d.text((M, 190), title, font=font(FRAUNCES, size), fill=GREEN, anchor="ls")
     d.text((M + 4, 262), "5 dinners, sorted", font=font(CAVEAT, 58), fill=INK, anchor="ls")
 
