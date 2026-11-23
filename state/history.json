@@ -12185,6 +12185,81 @@
    "publish_id": "p_inbox_url~v2.7711461559620372502",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T20:10:11+00:00"
+  },
+  {
+   "date": "2026-11-24",
+   "hook": "5 Aldi Beef Dinners for Proper Cosy Nights 🫶",
+   "subline": "Dinner that'll hug you back 😍",
+   "title": "5 Aldi Beef Dinners for Proper Cosy Nights 🫶",
+   "caption": "💾 SAVE this for cosy dark nights when you want a beefy hug on a budget 😍💸\n\n1. Rustic Beef Stroganoff\n2. Smoky Beef Chilli\n3. Middle Eastern Beef Koftas\n4. Chorizo & Beef Gnocchi\n5. One-Skillet Cottage Pie\n\nWhich one are you making first this week? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:new-rustic-beef-stroganoff-62447-1",
+    "card:new-smoky-beef-chilli-57fa2-1",
+    "card:new-middle-eastern-beef-koftas-80437-1",
+    "card:new-chorizo-beef-gnocchi-8480f-1",
+    "card:new-one-skillet-cottage-pie-b4979-1"
+   ],
+   "groups": [
+    "new-rustic-beef-stroganoff-62447",
+    "new-smoky-beef-chilli-57fa2",
+    "new-middle-eastern-beef-koftas-80437",
+    "new-chorizo-beef-gnocchi-8480f",
+    "new-one-skillet-cottage-pie-b4979"
+   ],
+   "dishes": [
+    "Rustic Beef Stroganoff",
+    "Smoky Beef Chilli",
+    "Middle Eastern Beef Koftas",
+    "Chorizo & Beef Gnocchi",
+    "One-Skillet Cottage Pie"
+   ],
+   "promo": "shop",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    492,
+    856
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "beef",
+    "angle": "cosy",
+    "label": "beef mince and beef dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first this week? 😋",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners to Warm Up Dark Nights 😍",
+     "subline": "Cosy, saucy, proper comfort 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners for Proper Cosy Nights 🫶",
+     "subline": "Dinner that'll hug you back 😍",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-23T23:38:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711514750626252822",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T23:38:54+00:00"
   }
  ]
 }
