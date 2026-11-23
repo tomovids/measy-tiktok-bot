@@ -12022,6 +12022,169 @@
    "publish_id": "p_inbox_url~v2.7711154568373585923",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T00:20:26+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Sainsbury's cosy dinners to start Monday right 😍",
+   "subline": "Start the week without blowing the shop 💚",
+   "title": "5 Sainsbury's cosy dinners to start Monday right 😍",
+   "caption": "💾 SAVE this for when you start the week knackered but skint 😭🛒\n\n1. Cheesy BBQ Pulled Chicken Nachos\n2. Creamy Garlic Chicken Rice\n3. Cheesy Taco Rice Skillet\n4. Creamy Tuscan Chicken Pasta\n5. Loaded BBQ Beef Nachos\n\nWhich one are you trying this week? Which one first 🍝\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#sainsburys #sainsburysuk #budgetmeals #easydinner #ukfood #measy #comfortfood #cosydinner",
+   "files": [
+    "card:cheesy-bbq-pulled-chicken-nachos-2",
+    "card:creamy-garlic-chicken-rice-2",
+    "card:cheesy-taco-rice-skillet-2",
+    "card:creamy-tuscan-chicken-pasta-2",
+    "card:loaded-bbq-beef-nachos-1"
+   ],
+   "groups": [
+    "cheesy-bbq-pulled-chicken-nachos",
+    "creamy-garlic-chicken-rice",
+    "cheesy-taco-rice-skillet",
+    "creamy-tuscan-chicken-pasta",
+    "loaded-bbq-beef-nachos"
+   ],
+   "dishes": [
+    "Cheesy BBQ Pulled Chicken Nachos",
+    "Creamy Garlic Chicken Rice",
+    "Cheesy Taco Rice Skillet",
+    "Creamy Tuscan Chicken Pasta",
+    "Loaded BBQ Beef Nachos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    420,
+    684
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "sainsburys",
+   "theme": {
+    "collection": "comfort",
+    "angle": "monday",
+    "label": "cosy comfort food",
+    "angle_text": "Monday: start the week without blowing the budget"
+   },
+   "question": "Which one are you trying this week? Which one first 🍝",
+   "tuned": false,
+   "hook_score": 7.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Sainsbury's cosy dinners to start Monday right 😍",
+     "subline": "Start the week without blowing the shop 💚",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's cosy dinners that feel like a takeaway 😋",
+     "subline": "",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Sainsbury's cosy dinners for when you CANNOT be bothered 😭",
+     "subline": "",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-23T20:05:15+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711461414245992470",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T20:09:59+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Aldi Noodle & Rice Bowls That Stop You Ordering Takeaway 🤤🍚",
+   "subline": "Saucy, cheap and proper tasty 😋",
+   "title": "5 Aldi Noodle & Rice Bowls That Stop You Ordering Takeaway 🤤🍚",
+   "caption": "💾 SAVE this for when you have NO idea what's for tea or you're about to order takeaway 😩🍜\n\n1. Sticky Hoisin Beef Flatbreads\n2. Sticky Beef Noodles\n3. Sticky Teriyaki Sausage Rice Bowls\n4. Honey Soy Sausage Noodle Bowls\n5. Crispy Sweet Chilli Chicken Bowls\n\nWhich one are you making first? Pick one to try tonight 🍜\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #noodles #fakeaway",
+   "files": [
+    "card:sticky-hoisin-beef-flatbreads-2",
+    "card:sticky-beef-noodles-1",
+    "card:sticky-teriyaki-sausage-rice-bowls-1",
+    "card:honey-soy-sausage-noodle-bowls-1",
+    "card:crispy-sweet-chilli-chicken-bowls-2"
+   ],
+   "groups": [
+    "sticky-hoisin-beef-flatbreads",
+    "sticky-beef-noodles",
+    "sticky-teriyaki-sausage-rice-bowls",
+    "honey-soy-sausage-noodle-bowls",
+    "crispy-sweet-chilli-chicken-bowls"
+   ],
+   "dishes": [
+    "Sticky Hoisin Beef Flatbreads",
+    "Sticky Beef Noodles",
+    "Sticky Teriyaki Sausage Rice Bowls",
+    "Honey Soy Sausage Noodle Bowls",
+    "Crispy Sweet Chilli Chicken Bowls"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    192,
+    516
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "asian",
+    "angle": "no-idea",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first? Pick one to try tonight 🍜",
+   "tuned": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Asian Dinners When You Have NO Idea What’s for tea 😩🍜",
+     "subline": "Noodles, hoisin, teriyaki & sweet chilli 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Noodle & Rice Bowls That Stop You Ordering Takeaway 🤤🍚",
+     "subline": "Saucy, cheap and proper tasty 😋",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Sticky, Saucy Asian Dinners To Send Your Group Chat 😂🍜",
+     "subline": "Send this to your mates 😂",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Noodle Bowls That Stretch Your Shop and Beat Takeaway 💸🍜",
+     "subline": "Save cash, get saucy midweek 😏",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-23T20:06:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-23-3/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711461559620372502",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T20:10:11+00:00"
   }
  ]
 }

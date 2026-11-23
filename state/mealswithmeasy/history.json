@@ -7890,6 +7890,100 @@
    "publish_id": "p_inbox_url~v2.7711154756734994454",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T00:20:39+00:00"
+  },
+  {
+   "date": "2026-11-23",
+   "hook": "5 Aldi Dinners to Stretch Your Grocery Run When Broke 😭💸",
+   "subline": "Big flavor, tiny budget 👀",
+   "title": "5 Aldi Dinners to Stretch Your Grocery Run When Broke 😭💸",
+   "caption": "💾 SAVE this for when you have NO idea what to cook this week 😩🛒\n\n1. Loaded Taco Baked Potato\n2. Cheesy Beef & Pepper Stuffed Flatbreads\n3. Crispy Beef Burrito Bowls\n4. One-Pan Smoky Beef Orzo\n5. Cheesy Taco Quesadillas\n\nWhich one would you make first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #groundbeefrecipes #beefrecipes",
+   "files": [
+    "card:loaded-taco-jacket-potato-1",
+    "card:cheesy-beef-pepper-stuffed-flatbreads-1",
+    "card:crispy-beef-burrito-bowls-1",
+    "card:one-pan-smoky-beef-orzo-1",
+    "card:cheesy-taco-quesadillas-1"
+   ],
+   "groups": [
+    "loaded-taco-jacket-potato",
+    "cheesy-beef-pepper-stuffed-flatbreads",
+    "crispy-beef-burrito-bowls",
+    "one-pan-smoky-beef-orzo",
+    "cheesy-taco-quesadillas"
+   ],
+   "dishes": [
+    "Loaded Taco Baked Potato",
+    "Cheesy Beef & Pepper Stuffed Flatbreads",
+    "Crispy Beef Burrito Bowls",
+    "One-Pan Smoky Beef Orzo",
+    "Cheesy Taco Quesadillas"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, straight-on view from across the parking lot, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    476,
+    708
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "beef",
+    "angle": "no-idea",
+    "label": "beef mince and beef dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one would you make first? Tell us 👇",
+   "tuned": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Ground Beef Dinners That End Dinner Panic 😩",
+     "subline": "Dinner saved. Send to your housemates 👇",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners to Stretch Your Grocery Run When Broke 😭💸",
+     "subline": "Big flavor, tiny budget 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Beef Meals Your Group Chat Needs Tonight 😂",
+     "subline": "Quick wins everyone will thank you for 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Copycat Takeout Beef Dinners You Can Pull Off 😋",
+     "subline": "Better than delivery, less drama 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi One-Pan Smoky & Cheesy Beef Dinners 🙌",
+     "subline": "Less washing up, more dinner 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners To Choose Tonight When You're Exhausted 😴",
+     "subline": "",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-23T20:08:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-23-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711461744446916611",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-23T20:10:23+00:00"
   }
  ]
 }
