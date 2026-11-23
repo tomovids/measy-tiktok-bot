@@ -76,7 +76,8 @@ def posted_dishes(hists) -> list[str]:
 
 
 def invent(client: OpenAI, cfg: dict, theme: str, store, avoid: list[str], n: int = 5,
-           log=print) -> list[dict]:
+           log=print, loved: list[str] | None = None) -> list[dict]:
+    """`loved`: dishes from the account's most-viewed recent posts: new dishes with the same appeal."""
     us = config.REGION == "us"
     system = (SYSTEM_US if us else SYSTEM_UK).format(store=store.name)
     rules = RULES.format(n=n, theme=theme, store=store.name,
@@ -84,12 +85,17 @@ def invent(client: OpenAI, cfg: dict, theme: str, store, avoid: list[str], n: in
                          units='"1 lb", "8 oz", "1 can (14 oz)", "2 tbsp", "2"' if us
                          else '"500g", "2", "1 tbsp", "400g tin"',
                          staples="0.05-0.20" if us else "0.05-0.15")
+    hits = ""
+    if loved:
+        hits = ("Dishes from this account's most-viewed recent posts. Viewers loved these: make new dishes "
+                "with the same kind of appeal (the same comfort, flavours and price feel), never copies:\n"
+                + "\n".join(f"- {t}" for t in loved[:25]) + "\n\n")
     got: list[dict] = []
     feedback = ""
     for attempt in range(3):
         need = n - len(got)
         listing = "\n".join(f"- {t}" for t in (avoid[:250] + [g["title"] for g in got]))
-        user = (f"Already posted (don't repeat or closely copy):\n{listing}\n\n"
+        user = (hits + f"Already posted (don't repeat or closely copy):\n{listing}\n\n"
                 + rules.replace(f"Invent {n} ", f"Invent {need} ") + feedback)
         data = client.chat_json(cfg["openai"]["text_model"], system, user)
         rejected = []
@@ -119,9 +125,9 @@ def invent(client: OpenAI, cfg: dict, theme: str, store, avoid: list[str], n: in
 
 
 def make(client: OpenAI, cfg: dict, theme: str, store, avoid: list[str], seed: str,
-         log=print) -> list[Recipe]:
+         log=print, loved: list[str] | None = None) -> list[Recipe]:
     """Five new dishes with a new photo each, ready to draw as cards."""
-    entries = invent(client, cfg, theme, store, avoid, log=log)
+    entries = invent(client, cfg, theme, store, avoid + list(loved or []), log=log, loved=loved)
     rng = random.Random(f"{seed}/fresh")
     for e in entries:
         slug = "-".join(sorted(_words(e["title"]), key=e["title"].lower().find))[:40] or "dish"

@@ -99,3 +99,31 @@ def test_full_week_hook_rule(cfg):
     rules = writer._rules(facts, cfg, aldi, theme)
     assert "A full week of" in rules and "least 24" in rules
     assert 'start with "5 Aldi"' in writer._rules(facts, cfg, aldi)
+
+
+def test_winners_include_hand_made_posts():
+    from measybot import stats
+    st = {"videos": {
+        "1": {"posted": "2026-11-21T10:29+00:00", "latest": {"views": 63969},
+              "title": "💾 SAVE this for when you CANNOT be bothered to cook 😭⏰ 5 LAZY Aldi dinners ready in 20 "
+                       "minutes or less 🛒 🍗 Sticky BBQ Chicken Rice Bowls 🍝 Creamy Garlic Chicken Pasta\n"
+                       "Which one first? #aldimeals"},
+        "2": {"posted": "2026-11-14T15:00+00:00", "latest": {"views": 44674},
+              "post": {"hook": "5 Aldi Dinners When You're Skint", "dishes": ["Sticky Beef Noodles"]}},
+        "3": {"posted": "2026-04-01T10:00+00:00", "latest": {"views": 900000}, "title": "too old"}}}
+    from datetime import datetime, timezone
+    w = stats.winners(st, now=datetime(2026, 11, 23, tzinfo=timezone.utc))
+    assert [x["views"] for x in w] == [63969, 44674]
+    assert w[0]["hook"] == "5 LAZY Aldi dinners ready in 20 minutes or less" and not w[0]["bot"]
+    assert w[0]["dishes"] == ["Sticky BBQ Chicken Rice Bowls", "Creamy Garlic Chicken Pasta"]
+    assert w[1]["dishes"] == ["Sticky Beef Noodles"] and w[1]["bot"]
+
+
+def test_loved_dishes_reach_the_prompt_and_cant_be_copied(cfg):
+    stub = Stub([[dish("Sticky BBQ Chicken Rice Bowl")] + [dish(t) for t in (
+        "Butter Bean Orzo", "Halloumi Fajita Traybake", "Smoky Chorizo Gnocchi Bake", "Honey Garlic Pork Noodles")],
+        [dish("Lemon Pepper Chicken Couscous")]])
+    got = fresh.invent(stub, cfg, "5 Aldi dinners", stores.by_id(cfg, "aldi"), ["Sticky BBQ Chicken Rice Bowls"],
+                       log=lambda *_: None, loved=["Sticky BBQ Chicken Rice Bowls"])
+    assert "Viewers loved these" in stub.prompts[0] and "Sticky BBQ Chicken Rice Bowls" in stub.prompts[0]
+    assert "Sticky BBQ Chicken Rice Bowl" not in [g["title"] for g in got]

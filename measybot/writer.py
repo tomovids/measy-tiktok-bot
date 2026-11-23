@@ -244,10 +244,14 @@ def load_examples(path: Path | None = None) -> list[tuple[int, str, str]]:
         parts = [p.strip() for p in line.split("|")]
         views = int(parts[0]) if parts[0].isdigit() else 0
         out.append((views, parts[1], parts[2] if len(parts) > 2 else ""))
-    # the bot's own best posts (from the TikTok stats) join the examples
+    # the bot's own best posts (from the TikTok stats) join the examples, and so do the account's
+    # most-viewed recent posts, hand-made ones included (their caption's "5 ... dinners" line)
+    from . import stats
     from .tuning import load as load_tuning
     seen = {normalise(h) for _, h, _ in out}
-    for t in load_tuning().get("top_hooks", []):
+    recent = [{"hook": w["hook"], "subline": w["subline"], "views": w["views"]}
+              for w in stats.winners(stats.load()) if w["hook"]]
+    for t in load_tuning().get("top_hooks", []) + recent:
         if normalise(t["hook"]) not in seen:
             out.append((int(t.get("views", 0)), t["hook"], t.get("subline", "")))
             seen.add(normalise(t["hook"]))

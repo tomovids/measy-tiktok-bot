@@ -173,3 +173,48 @@ def scored_posts(stats: dict) -> list[dict]:
 
 def local_hour(iso: str, tz: str = "Europe/London") -> int:
     return datetime.fromisoformat(iso).astimezone(ZoneInfo(tz)).hour
+
+
+# ---- the account's winners, the bot's posts and hand-made ones ----------------------------------
+
+HOOK_LINE = re.compile(r"((?:an? )?(?:full week|\d+)\b[^.!?\n#*]*?\b(?:dinners?|meals?)\b"
+                       r"[^.!?\n#*\U0001F300-\U0001FAFF]{0,70})", re.I)
+DISH_SPLIT = re.compile(r"[*•\n]|\b\d\.\s|[\U0001F300-\U0001FAFF☀-➿]+")
+NOT_A_DISH = re.compile(r"SAVE|#|\?|!|Measy|Aldi|Tesco|Lidl|Asda|Sainsbury|Walmart|Trader|NEED|Which|Cheap|Easy|Budget")
+
+
+def caption_dishes(text: str) -> list[str]:
+    """Dish names listed in a caption ("* Lemon Pepper Chicken Couscous 🍋", "1. Sticky Beef Noodles")."""
+    out = []
+    for chunk in DISH_SPLIT.split(text or ""):
+        c = chunk.strip(" -–—,:")
+        words = c.split()
+        caps = sum(w[0].isupper() for w in words if w[0].isalpha())
+        if 2 <= len(words) <= 7 and caps >= len(words) - 1 and not NOT_A_DISH.search(c):
+            out.append(c)
+    return out
+
+
+def winners(st: dict, n: int = 10, days: int = 180, now: datetime | None = None) -> list[dict]:
+    """The most-viewed posts of the last `days`, whoever made them (the hand-made posts from before
+    the bot, with up to 2M views, and the uploader's count too): {"views", "hook", "subline",
+    "dishes", "bot"}. A hand-made post's hook is the "5 ... dinners" line of its caption (None if it
+    has none)."""
+    now = now or datetime.now(timezone.utc)
+    cutoff = (now - timedelta(days=days)).isoformat()
+    vids = [v for v in st.get("videos", {}).values() if (v.get("posted") or "") >= cutoff and v.get("latest")]
+    out = []
+    for v in sorted(vids, key=lambda v: -v["latest"]["views"])[:n]:
+        p = v.get("post")
+        if p:
+            out.append({"views": v["latest"]["views"], "hook": p.get("hook"), "subline": p.get("subline") or "",
+                        "dishes": p.get("dishes") or [], "bot": True})
+        else:
+            text = v.get("title") or v.get("description") or ""
+            m = HOOK_LINE.search(text)
+            hook = m.group(1) if m else None
+            if hook and text[m.end():m.end() + 1].isalpha():
+                hook = hook.rsplit(" ", 1)[0]          # cut off mid-word: drop the partial word
+            out.append({"views": v["latest"]["views"], "hook": hook.strip(" :,;-—") if hook else None, "subline": "",
+                        "dishes": caption_dishes(text), "bot": False})
+    return out

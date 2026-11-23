@@ -6,7 +6,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import catalogue, cover, fresh, stage, stores, tags, themes, tokens, tuning, writer
+from . import catalogue, cover, fresh, stage, stats, stores, tags, themes, tokens, tuning, writer
 from .history import History
 from .openai_api import OpenAI, OpenAIError
 from .picker import pick
@@ -45,8 +45,9 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     recipes = None
     if cfg["cards"].get("fresh_dishes") and ai is not None and ai_image:
         try:
+            loved = [d for w in stats.winners(stats.load()) for d in w["dishes"]]
             recipes = fresh.make(ai, cfg, f"5 {store.name} {theme.label}", store,
-                                 fresh.posted_dishes([hist, *(others or [])]), seed, log)
+                                 fresh.posted_dishes([hist, *(others or [])]), seed, log, loved=loved)
         except Exception as e:      # never lose a post over it: the library is always there
             log(f"New dishes failed ({type(e).__name__}: {e}); using the recipe library instead.")
     if recipes is None:
