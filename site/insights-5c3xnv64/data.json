@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:58+00:00",
+ "updated": "2026-11-24T04:03+00:00",
  "accounts": [
   {
    "id": "measy",
@@ -455,18 +455,18 @@
    "stats": {
     "title": "Measy TikTok performance",
     "handle": "",
-    "updated": "2026-11-24T03:58+00:00",
+    "updated": "2026-11-24T04:03+00:00",
     "kpis": {
      "followers": 57196,
      "followers_7d": 891,
-     "likes": 189589,
-     "views_7d": 247463,
+     "likes": 189590,
+     "views_7d": 247484,
      "views_prev_7d": 193874,
      "posts_tracked": 68,
      "posts_scored": 68,
      "median_views_14": 2707,
      "engagement_14": 0.0096,
-     "pre_bot_median": 63757,
+     "pre_bot_median": 63758,
      "pre_bot_posts": 50
     },
     "account": [
@@ -788,9 +788,9 @@
      {
       "date": "2026-11-24",
       "followers": 57196,
-      "likes": 189589,
+      "likes": 189590,
       "videos": 143,
-      "total_views": 10003143
+      "total_views": 10003164
      }
     ],
     "daily_views": [
@@ -972,7 +972,7 @@
      },
      {
       "date": "2026-11-24",
-      "views": 36860
+      "views": 36881
      }
     ],
     "top_posts": [
@@ -989,7 +989,7 @@
       "shares": 121,
       "engagement": 0.009948374803358962,
       "url": "https://www.tiktok.com/@measyappai/video/7708042198641544480?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a0a69b58b5e44081bdfd4a74fc33a4a5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0a028fe9&x-expires=1796785200&x-signature=6npGu8nCwYby6z4VmT7eQhZjvd8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a0a69b58b5e44081bdfd4a74fc33a4a5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=085c6239&x-expires=1796788800&x-signature=dEeq74cpu7vTaq7l%2BlJ5hqObdms%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1006,7 +1006,7 @@
       "shares": 229,
       "engagement": 0.023479867906807648,
       "url": "https://www.tiktok.com/@measyappai/video/7695035510904851745?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9295693fb19c427ba02605f6e18332b8~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a238e10e&x-expires=1796785200&x-signature=AVr0leX0HetHgI2Cy3TfZtc1XXA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9295693fb19c427ba02605f6e18332b8~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=1c362e03&x-expires=1796788800&x-signature=RYBjotsd5jWDab80Yhls4T7ZISs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1023,7 +1023,7 @@
       "shares": 114,
       "engagement": 0.020220344232556083,
       "url": "https://www.tiktok.com/@measyappai/video/7699911025021209888?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/b15eb548b7a34fb1b0908585dae2ac04~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5b25a0e6&x-expires=1796785200&x-signature=mVPJsfWhl%2BSTkPR%2FecPcTOovzBg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/b15eb548b7a34fb1b0908585dae2ac04~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=1d8c16ab&x-expires=1796788800&x-signature=qhz%2FsP9PhECecrGjC1ykR5kUfL8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -1040,7 +1040,7 @@
       "shares": 64,
       "engagement": 0.009451108687749909,
       "url": "https://www.tiktok.com/@measyappai/video/7707186070420475169?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/dadfec4943234feea93378ba7c234809~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=677a57a2&x-expires=1796785200&x-signature=YC6wtpUxSF7hLgaIMpnHQcjE1NQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/dadfec4943234feea93378ba7c234809~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=cb9efa2c&x-expires=1796788800&x-signature=XJxWW3qAQ8mouN4JfK8S24xkHi4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1057,7 +1057,7 @@
       "shares": 51,
       "engagement": 0.014317180616740088,
       "url": "https://www.tiktok.com/@measyappai/video/7695815100757839136?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cdb0e3a4612a4191960d00951430350d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=918843d1&x-expires=1796785200&x-signature=xku22nZ8N7LHkg%2FEl5gFjuvu1OE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cdb0e3a4612a4191960d00951430350d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2366afb7&x-expires=1796788800&x-signature=vKvcKWyIJ9QARBQfLy%2BpfIxbhxc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1074,7 +1074,7 @@
       "shares": 27,
       "engagement": 0.010926854351459056,
       "url": "https://www.tiktok.com/@measyappai/video/7703129137086467361?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/5f144c0da7794a4b95504e70ef3bf8da~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=850c7629&x-expires=1796785200&x-signature=b0B%2F7f8nyTd%2FdQcMSo0ykAjcHFs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/5f144c0da7794a4b95504e70ef3bf8da~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d7e39041&x-expires=1796788800&x-signature=DlFJKoBSW15rgGGD47XHOc18LjA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1091,7 +1091,7 @@
       "shares": 40,
       "engagement": 0.009347042328748832,
       "url": "https://www.tiktok.com/@measyappai/video/7702763138373913889?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/54879a39431b4d1bb0771300995e36f9~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bb50ca05&x-expires=1796785200&x-signature=iujDctVoZHbH0yjIcKlu101gtp8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/54879a39431b4d1bb0771300995e36f9~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=692df28b&x-expires=1796788800&x-signature=OBZpo3Q3qMZA%2BqFDr6Es0%2F%2F49Tw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1108,7 +1108,7 @@
       "shares": 60,
       "engagement": 0.020717070560354715,
       "url": "https://www.tiktok.com/@measyappai/video/7696473675557653792?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6c3ab81348e84bb081c05bcb9eea19de~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f78a3096&x-expires=1796785200&x-signature=o9F9DMh%2FbWemzu%2Fzv6qaiL%2FPBU8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6c3ab81348e84bb081c05bcb9eea19de~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2549e3d6&x-expires=1796788800&x-signature=aYlYG%2FMQL8VO67KeUn21EvVX690%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -1125,7 +1125,7 @@
       "shares": 31,
       "engagement": 0.01122707147375079,
       "url": "https://www.tiktok.com/@measyappai/video/7705408150630927648?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6b7bf1b96e2644ebb7551c162250a32f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8ec4a842&x-expires=1796785200&x-signature=kbW0ReEI1Vczo7y12ngywAG24Jo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6b7bf1b96e2644ebb7551c162250a32f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e387caae&x-expires=1796788800&x-signature=KnhExnrdsrIdz9ig3R2vpFcvqa4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1142,7 +1142,7 @@
       "shares": 44,
       "engagement": 0.015106941241949591,
       "url": "https://www.tiktok.com/@measyappai/video/7695423273248623905?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/24adf9ad91e8456c93195efe74273a94~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e7b79a7e&x-expires=1796785200&x-signature=VYQIDqvc3sAOEyiMWXMzeecczSE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/24adf9ad91e8456c93195efe74273a94~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e08e0eec&x-expires=1796788800&x-signature=7KV8KCkn90vI8nC%2FqVFqnKKOJLk%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1159,7 +1159,7 @@
       "shares": 48,
       "engagement": 0.01641907740422205,
       "url": "https://www.tiktok.com/@measyappai/video/7698129562252643617?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9f01285b71b044d1b988463c3f505c20~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5d588b2a&x-expires=1796785200&x-signature=wZ%2Fu%2BQ102kR24EMmyX5VXGNGbpk%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9f01285b71b044d1b988463c3f505c20~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0421c801&x-expires=1796788800&x-signature=Quo1pjvI3t89Y3IF3JyXh9V1cG4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1176,7 +1176,7 @@
       "shares": 17,
       "engagement": 0.011384502387073081,
       "url": "https://www.tiktok.com/@measyappai/video/7694744232120126752?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f767a7b3c6eb499f9179153a48dc3419~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=537d1cc7&x-expires=1796785200&x-signature=%2BjQ%2BV9r5ogS6uLHAupFHXLkgIcI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f767a7b3c6eb499f9179153a48dc3419~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0335ca7e&x-expires=1796788800&x-signature=Kh78GQSFGWE%2F1KAXxbZyVUKGpdY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -1186,14 +1186,14 @@
       "store": "Aldi",
       "collection": "",
       "angle": "",
-      "views": 10026,
+      "views": 10027,
       "views72": 7884,
       "likes": 142,
       "comments": 0,
       "shares": 39,
-      "engagement": 0.018053062038699382,
+      "engagement": 0.018051261593697018,
       "url": "https://www.tiktok.com/@measyappai/video/7694426858498133281?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bb1fc4a2394c4f57b10b146741aa2d6a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=fefd5243&x-expires=1796785200&x-signature=ABpvps0TRNp%2Fy1VTj%2BYmOQ3AWBE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bb1fc4a2394c4f57b10b146741aa2d6a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=66cc1a63&x-expires=1796788800&x-signature=t9Xe1DtuvNDwShzXvFpHs%2FZx2gI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -1210,7 +1210,7 @@
       "shares": 49,
       "engagement": 0.016440314510364547,
       "url": "https://www.tiktok.com/@measyappai/video/7694965987174550817?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/010a479936d0496682fb097003fe9e7d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=69f3cb93&x-expires=1796785200&x-signature=94%2Fx3l2AfP4DJxtOU7syJFfBKmI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/010a479936d0496682fb097003fe9e7d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b3eb5190&x-expires=1796788800&x-signature=xCXQsg2UsAIZu7ZoRlkje1u0cy4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1227,7 +1227,7 @@
       "shares": 40,
       "engagement": 0.0162771285475793,
       "url": "https://www.tiktok.com/@measyappai/video/7697607760367717664?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f10d4584f5374b3dab131d5a2c20ecfb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8471c0a9&x-expires=1796785200&x-signature=ID9Aa8pToKG9ws9Wdt%2FpThtjG7w%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f10d4584f5374b3dab131d5a2c20ecfb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=55ad5ab4&x-expires=1796788800&x-signature=HPpj6qVkt%2BIGphzvXNwQhEv5Wxc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
@@ -1246,7 +1246,7 @@
       "shares": 1,
       "engagement": 0.022988505747126436,
       "url": "https://www.tiktok.com/@measyappai/video/7711493891752594720?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/8548220804964ba7b05116543ce59bcf~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=89a3007f&x-expires=1796785200&x-signature=Fs62P34YsDETcHPbFFmolhy9zV8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/8548220804964ba7b05116543ce59bcf~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=be509a19&x-expires=1796788800&x-signature=trtTRpOOiyoItznj0bTcoWUWQqw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": true
      },
@@ -1263,7 +1263,7 @@
       "shares": 3,
       "engagement": 0.013986013986013986,
       "url": "https://www.tiktok.com/@measyappai/video/7711356041283374368?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e41e4a4245e045a28366299954b032b5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=41b5b43a&x-expires=1796785200&x-signature=MDCq1rfObcuKjHotS98AirGJQkU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e41e4a4245e045a28366299954b032b5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=220a61df&x-expires=1796788800&x-signature=3VLFahM26tKEmHmz9Zhf%2FCZel4s%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": true
      },
@@ -1280,7 +1280,7 @@
       "shares": 8,
       "engagement": 0.021202361782071927,
       "url": "https://www.tiktok.com/@measyappai/video/7711063056259894561?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3b60bf6aa42a4644b0162ec75f13c986~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=4ae820c4&x-expires=1796785200&x-signature=accPTTbnIHw4RbONXaY9J7w19%2Fo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3b60bf6aa42a4644b0162ec75f13c986~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c8998803&x-expires=1796788800&x-signature=ndY7OGhBTGvY28LSeUORQI%2Fyw18%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": true
      },
@@ -1297,7 +1297,7 @@
       "shares": 13,
       "engagement": 0.022185014650481373,
       "url": "https://www.tiktok.com/@measyappai/video/7710962179138211104?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/026d8964704e44f29988a6dc2b8242bb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f2d3cb21&x-expires=1796785200&x-signature=%2Bs%2FWOmUysW9NFZYnoyVo3sZwJB4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/026d8964704e44f29988a6dc2b8242bb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b799cc50&x-expires=1796788800&x-signature=PV8srydU%2Fl%2BB5u5I8JtXKPEOeGs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": true
      },
@@ -1307,14 +1307,14 @@
       "store": "",
       "collection": "",
       "angle": "",
-      "views": 85631,
+      "views": 85638,
       "views72": null,
-      "likes": 3452,
+      "likes": 3453,
       "comments": 4,
       "shares": 939,
-      "engagement": 0.05132487066599713,
+      "engagement": 0.05133235246035638,
       "url": "https://www.tiktok.com/@measyappai/video/7710569953220447520?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e3c1b93c60464159a2a45c086ccb9f46~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ba19cd69&x-expires=1796785200&x-signature=n4jQjHiyqbLvxPxY68yNGHK7PNM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e3c1b93c60464159a2a45c086ccb9f46~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=25332280&x-expires=1796788800&x-signature=elkUYFjcixQuMQC%2FlW6jmBzRXTE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": true
      },
@@ -1325,13 +1325,13 @@
       "collection": "",
       "angle": "",
       "views": 4175,
-      "views72": 4060,
+      "views72": 4059,
       "likes": 103,
       "comments": 0,
       "shares": 18,
       "engagement": 0.02898203592814371,
       "url": "https://www.tiktok.com/@measyappai/video/7710395298480213280?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e55a120746814e459c5332c0683a343d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ecbe4392&x-expires=1796785200&x-signature=1788sjxMUthHMMKSexjhM8rHrZ0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e55a120746814e459c5332c0683a343d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bfb7092c&x-expires=1796788800&x-signature=5sbnqxxj%2BRxSo4YVSNj3QECdg%2Fo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1348,7 +1348,7 @@
       "shares": 2,
       "engagement": 0.01014906438312718,
       "url": "https://www.tiktok.com/@measyappai/video/7710185903674658080?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f683a80a7fe34c1d8c74ac6656257d0e~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bbb07d13&x-expires=1796785200&x-signature=KQryQSo62Ak0iV1d%2B6rOKdGnD44%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/f683a80a7fe34c1d8c74ac6656257d0e~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ab1ebf12&x-expires=1796788800&x-signature=13wmoXtNSse6KveKEF%2BTe%2BcAHF8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1365,7 +1365,7 @@
       "shares": 13,
       "engagement": 0.02406417112299465,
       "url": "https://www.tiktok.com/@measyappai/video/7709962623709711649?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e04a72dbe9f64a8d819633335243a7f6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d8710c7c&x-expires=1796785200&x-signature=6pZjEdHomzrB0fepwU%2FfF3AhD5g%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/e04a72dbe9f64a8d819633335243a7f6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=06eb3810&x-expires=1796788800&x-signature=8md56Su1jpjyGR%2F7fx8Brx2us08%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1382,7 +1382,7 @@
       "shares": 3,
       "engagement": 0.021172638436482084,
       "url": "https://www.tiktok.com/@measyappai/video/7709825945795906849?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/275f85ee75474b8595ca837f37905fed~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=53715838&x-expires=1796785200&x-signature=6X4D4RRgbtUcKY%2Bk8%2F2Hj2SMx%2B0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/275f85ee75474b8595ca837f37905fed~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8f62bc53&x-expires=1796788800&x-signature=Wd1r0ZjaszqclnWdb72z9ALusgw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1399,7 +1399,7 @@
       "shares": 7,
       "engagement": 0.02123730378578024,
       "url": "https://www.tiktok.com/@measyappai/video/7709585446950456609?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cdd70cb006854dc78dee61567f9e3148~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5bea1ac3&x-expires=1796785200&x-signature=wBkgnG76%2FyVpP%2BKrgudonNFy4m0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cdd70cb006854dc78dee61567f9e3148~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=94e6cf98&x-expires=1796788800&x-signature=g6o1Kn6nm0fkQkRu42Wb5ZenmAs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1416,7 +1416,7 @@
       "shares": 15,
       "engagement": 0.014710297208045632,
       "url": "https://www.tiktok.com/@measyappai/video/7709427788742167830?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/22348a5623cf49ada2674c76b77cd1f5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=737084ee&x-expires=1796785200&x-signature=%2BcJKb3tolNbuc07z1ayizPD8mOw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/22348a5623cf49ada2674c76b77cd1f5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8f176a9b&x-expires=1796788800&x-signature=2F%2FXcnx44Qf3JPEvAKUTNrnXw4w%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1433,7 +1433,7 @@
       "shares": 15,
       "engagement": 0.01838456901748041,
       "url": "https://www.tiktok.com/@measyappai/video/7709205459298815265?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c65c862038c44500a421f626a5058a61~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d173643f&x-expires=1796785200&x-signature=8FVIaguo1zCwud05e5K0iUh5uBg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c65c862038c44500a421f626a5058a61~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=05ee86d7&x-expires=1796788800&x-signature=dL2vS357cTXiQV9ZQoweDl2myf8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1450,7 +1450,7 @@
       "shares": 3,
       "engagement": 0.012110726643598616,
       "url": "https://www.tiktok.com/@measyappai/video/7709149625969675553?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a5a1d599d214466e99f2659ca78c1aa4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=6e11e4eb&x-expires=1796785200&x-signature=IfvFqtBQIK6xLJgByR192lCy28g%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a5a1d599d214466e99f2659ca78c1aa4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=af5f8618&x-expires=1796788800&x-signature=OnpVtiyUXNHDDlD4LrFtv0GB43o%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1467,7 +1467,7 @@
       "shares": 12,
       "engagement": 0.0131852879944483,
       "url": "https://www.tiktok.com/@measyappai/video/7708668988607253792?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c1887fcadb174bce9dbcc7bb99bd50f7~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a9806790&x-expires=1796785200&x-signature=blzuq3sfZF3nxpSGFn9%2BT6G6eyY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c1887fcadb174bce9dbcc7bb99bd50f7~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e05a9469&x-expires=1796788800&x-signature=NA6jX5Dka5%2FM39%2FVlGlrllHHnNU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1484,7 +1484,7 @@
       "shares": 89,
       "engagement": 0.02102814191758758,
       "url": "https://www.tiktok.com/@measyappai/video/7708447153928064288?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3f8af89e6df54ab69f8b4ed6a2d68958~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=856302a8&x-expires=1796785200&x-signature=BI1zkSjpfFtEnH7iDLYwDySVIZs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3f8af89e6df54ab69f8b4ed6a2d68958~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f58308ee&x-expires=1796788800&x-signature=dhi5W9rszskrcAJnNBdzIk0xBao%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1501,7 +1501,7 @@
       "shares": 6,
       "engagement": 0.013525305410122163,
       "url": "https://www.tiktok.com/@measyappai/video/7708371019039296800?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c255fff1ea834098ac70a7cf61500048~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=93d9a1fc&x-expires=1796785200&x-signature=Zb3IEm9tM5PkOUVKNHUIS4k8ujA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c255fff1ea834098ac70a7cf61500048~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b510ceb7&x-expires=1796788800&x-signature=%2BxDeyzP5GExIHVyT0EiPFolxbNM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1518,7 +1518,7 @@
       "shares": 76,
       "engagement": 0.01704951077142737,
       "url": "https://www.tiktok.com/@measyappai/video/7708098840422862112?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/0e378c1a8a5345f2ae012ba464d72b76~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=896e26a0&x-expires=1796785200&x-signature=eYflO72TsJQn3rCftPpuZA04Dg0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/0e378c1a8a5345f2ae012ba464d72b76~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7a5965d8&x-expires=1796788800&x-signature=iOqxFGdytQgLRFGMnWRKNWmDYRM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1535,7 +1535,7 @@
       "shares": 121,
       "engagement": 0.009948374803358962,
       "url": "https://www.tiktok.com/@measyappai/video/7708042198641544480?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a0a69b58b5e44081bdfd4a74fc33a4a5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0a028fe9&x-expires=1796785200&x-signature=6npGu8nCwYby6z4VmT7eQhZjvd8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/a0a69b58b5e44081bdfd4a74fc33a4a5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=085c6239&x-expires=1796788800&x-signature=dEeq74cpu7vTaq7l%2BlJ5hqObdms%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1552,7 +1552,7 @@
       "shares": 41,
       "engagement": 0.014336656720762682,
       "url": "https://www.tiktok.com/@measyappai/video/7707613673384086816?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/b1f444e0b7444ad6868c69f87559213b~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=33acc66a&x-expires=1796785200&x-signature=50YF58JUAyOnF6Lz5mnb%2BIQ3zP0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/b1f444e0b7444ad6868c69f87559213b~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c25fd0ea&x-expires=1796788800&x-signature=9sbYhC1%2FNEHvqxuopA1Udw90wU4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": false,
       "new": false
      },
@@ -1569,7 +1569,7 @@
       "shares": 14,
       "engagement": 0.015414258188824663,
       "url": "https://www.tiktok.com/@measyappai/video/7707392496682290464?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6afef85e730e45ceab15f8824cb9b233~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=cfdb81c0&x-expires=1796785200&x-signature=pUOuSZ3slRtEIKgKY6%2BTV6OSdUw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/6afef85e730e45ceab15f8824cb9b233~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=171b9564&x-expires=1796788800&x-signature=79qvaMFWOF7OQMDsjVds4tgYCVw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1586,7 +1586,7 @@
       "shares": 64,
       "engagement": 0.009451108687749909,
       "url": "https://www.tiktok.com/@measyappai/video/7707186070420475169?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/dadfec4943234feea93378ba7c234809~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=677a57a2&x-expires=1796785200&x-signature=YC6wtpUxSF7hLgaIMpnHQcjE1NQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/dadfec4943234feea93378ba7c234809~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=cb9efa2c&x-expires=1796788800&x-signature=XJxWW3qAQ8mouN4JfK8S24xkHi4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1603,7 +1603,7 @@
       "shares": 41,
       "engagement": 0.017787309196417307,
       "url": "https://www.tiktok.com/@measyappai/video/7707013609607400736?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/290c9072cdbc481091d3f3e1686fe9ce~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=15ba24b4&x-expires=1796785200&x-signature=q9e9hRqXQL4w48fHouM90a%2BULhY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/290c9072cdbc481091d3f3e1686fe9ce~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0d011118&x-expires=1796788800&x-signature=1NBiQ9LK%2BU0cUVjPgR5L6uXeQnA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -1620,7 +1620,7 @@
       "shares": 4,
       "engagement": 0.011455108359133126,
       "url": "https://www.tiktok.com/@measyappai/video/7706811769922014497?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cbd5045115c84f33ba5c287d5a77e399~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8f4b4a56&x-expires=1796785200&x-signature=27tuEbs0rQkCB8HHcfjqecOlxTU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/cbd5045115c84f33ba5c287d5a77e399~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=20ba2cba&x-expires=1796788800&x-signature=3eqUPE9YM3Gx%2BE3oQhOSzXYdXhM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -1637,7 +1637,7 @@
       "shares": 5,
       "engagement": 0.00935720097640358,
       "url": "https://www.tiktok.com/@measyappai/video/7706627504110325024?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/41a41d9706394b6db6b1418f827c6b93~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=1d1a3503&x-expires=1796785200&x-signature=97n0tyRjy%2B6HqRazCRfmkUGrqA4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/41a41d9706394b6db6b1418f827c6b93~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f4af82ab&x-expires=1796788800&x-signature=z4RTP4Hk6%2FeAM%2BPtJPtDRsAO%2FiA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -1654,7 +1654,7 @@
       "shares": 5,
       "engagement": 0.011288805268109126,
       "url": "https://www.tiktok.com/@measyappai/video/7706301022003662113?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/7e6a6fef520646b4a189b4a81dc5400a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=362b5f22&x-expires=1796785200&x-signature=p0XP5h5CHnhuMXodKlqpVclRY2M%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/7e6a6fef520646b4a189b4a81dc5400a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=52e5a684&x-expires=1796788800&x-signature=pXEeoBd1%2Bp9WE7ARQPeme5gHy5E%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
@@ -3677,12 +3677,12 @@
    "stats": {
     "title": "Meals with Measy TikTok performance",
     "handle": "@mealswithmeasy",
-    "updated": "2026-11-24T03:58+00:00",
+    "updated": "2026-11-24T04:03+00:00",
     "kpis": {
      "followers": 486,
      "followers_7d": 20,
      "likes": 1455,
-     "views_7d": 8321,
+     "views_7d": 8325,
      "views_prev_7d": 9672,
      "posts_tracked": 66,
      "posts_scored": 61,
@@ -4012,7 +4012,7 @@
       "followers": 486,
       "likes": 1455,
       "videos": 73,
-      "total_views": 98758
+      "total_views": 98762
      }
     ],
     "daily_views": [
@@ -4194,7 +4194,7 @@
      },
      {
       "date": "2026-11-24",
-      "views": 621
+      "views": 625
      }
     ],
     "top_posts": [
@@ -4211,7 +4211,7 @@
       "shares": 8,
       "engagement": 0.013043478260869565,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7698824721789406486?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3ecf123177b24338b12968e2586835f6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=fa0f3e0a&x-expires=1796785200&x-signature=1KTL3ekekkker%2FWfWyCU5cuWaEY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3ecf123177b24338b12968e2586835f6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=dacd33b5&x-expires=1796788800&x-signature=iv27cAVeG2DzjtVdYA8tVbsf2G0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4228,7 +4228,7 @@
       "shares": 8,
       "engagement": 0.016666666666666666,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7704977071461731606?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0cb919c092d54988aa9b89518dea12fc~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=9a1dadeb&x-expires=1796785200&x-signature=SYv45twSfVl34Di3J5oEWEcqwQI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0cb919c092d54988aa9b89518dea12fc~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=306fa8f5&x-expires=1796788800&x-signature=pUS9sEJG7tNNIt%2B8xlvOTNjtozE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4245,7 +4245,7 @@
       "shares": 6,
       "engagement": 0.013772455089820359,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7696146736410152225?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/4f82ba5b2c834ab38364973c67dbc8ad~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c5cf1ef2&x-expires=1796785200&x-signature=ivMHrByG9FLLdEZTg2Kgci7lcWI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/4f82ba5b2c834ab38364973c67dbc8ad~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=cdbb6e72&x-expires=1796788800&x-signature=0uSZj%2Fw16ziha60oZA%2B3FIE2HOA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4262,7 +4262,7 @@
       "shares": 3,
       "engagement": 0.015151515151515152,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7696949964051729697?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/96239ae3259847e683e38a370b685012~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ea4544f1&x-expires=1796785200&x-signature=1YAs%2B%2BzF%2B9i0MSvDZQ2IVsvO4XM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/96239ae3259847e683e38a370b685012~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=596418b8&x-expires=1796788800&x-signature=Qfss0xjd5DnznWhDHqz30dx5goA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4279,7 +4279,7 @@
       "shares": 4,
       "engagement": 0.02623360399750156,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7697669770665102625?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/fcdf0cedb4364bdc836cea333d3237b2~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c6745c14&x-expires=1796785200&x-signature=gFbrkhKml%2Fc9AtSE9QM2mbtqTMQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/fcdf0cedb4364bdc836cea333d3237b2~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=71422ed0&x-expires=1796788800&x-signature=h7oJH3DKLNHhdw54wr6T5ut4%2F0E%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -4289,14 +4289,14 @@
       "store": "Walmart",
       "collection": "Sticky, saucy dinners",
       "angle": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook",
-      "views": 1583,
+      "views": 1584,
       "views72": null,
       "likes": 49,
       "comments": 0,
       "shares": 4,
-      "engagement": 0.033480732785849655,
+      "engagement": 0.03345959595959596,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7710962528800591126?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/45263295565d416ba8db3fe8f7177cb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=462cc612&x-expires=1796785200&x-signature=Wo%2FtdaEl4qADJPD1vcnUb0Ah7XM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/45263295565d416ba8db3fe8f7177cb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d24461ee&x-expires=1796788800&x-signature=%2Fufjm383ATT8OcYR77G2jIhlHT4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -4313,7 +4313,7 @@
       "shares": 2,
       "engagement": 0.01590594744121715,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7704291600150646038?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/63ca05f3dd8d46938867a56e4d45356a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c01a924d&x-expires=1796785200&x-signature=4JwHBpdrTLm2ZVU10eHbGC3n%2BfY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/63ca05f3dd8d46938867a56e4d45356a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=31a03a0a&x-expires=1796788800&x-signature=TBpypkBQ3Ca9srOI67TBwyTxbEs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4330,7 +4330,7 @@
       "shares": 1,
       "engagement": 0.0084985835694051,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7707613886811327766?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/eddc49b0dd6c43cab8f490c54f17acba~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ce5270f8&x-expires=1796785200&x-signature=5NKj2K51KzxtS7iq%2BNj3pLH0sWg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/eddc49b0dd6c43cab8f490c54f17acba~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e56688db&x-expires=1796788800&x-signature=qLqDNhnAJGwpS92gCmvR3dBG2gc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4347,7 +4347,7 @@
       "shares": 0,
       "engagement": 0.011904761904761904,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7703880672829639958?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/38318886fdb146e3a4156e38141d9531~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d2bec98c&x-expires=1796785200&x-signature=%2BHkB0Bon20nQ%2FWCqtq%2FqYeOX60Q%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/38318886fdb146e3a4156e38141d9531~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7ac0154d&x-expires=1796788800&x-signature=4SHzPU8suAX0PgkOZnkVjsy2UN0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4364,7 +4364,7 @@
       "shares": 3,
       "engagement": 0.023449319213313162,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7700957805833948418?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1be1622cf1d04043a64aca31e665d4bc~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=604b7995&x-expires=1796785200&x-signature=DjlRhsydEhnQs6OPkggfWjpymCU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1be1622cf1d04043a64aca31e665d4bc~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d9aac2e7&x-expires=1796788800&x-signature=pW1QvVBdLY4sb2e4E38LAPsXP7E%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4381,7 +4381,7 @@
       "shares": 3,
       "engagement": 0.00842911877394636,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7695112487703809312?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/51841723cb614a4794d0b2d45fdecc30~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f8ac588c&x-expires=1796785200&x-signature=bmyqTHvDX4FTkceO0m4aWinblSI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/51841723cb614a4794d0b2d45fdecc30~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8b29185d&x-expires=1796788800&x-signature=ebKQ%2BA9NmASaZntLIYOFAHGgbQM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4398,7 +4398,7 @@
       "shares": 1,
       "engagement": 0.015007898894154818,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7705850220499799318?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f3a8109360c44da29de7e240976cf29a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5b5a63f6&x-expires=1796785200&x-signature=khujgRVJvBbLWAK25Oj0RTmSze0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f3a8109360c44da29de7e240976cf29a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bf596f2b&x-expires=1796788800&x-signature=EFt7MT%2B4Muw61mPUg%2Ba31P2Dmgg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4415,7 +4415,7 @@
       "shares": 2,
       "engagement": 0.02784407319013524,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708668658721115414?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/815770e53a374472a6a7a0b0741b3575~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7b9b3f05&x-expires=1796785200&x-signature=w9zsI4aTZQgNHHGR2OHNvci3B%2FE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/815770e53a374472a6a7a0b0741b3575~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ec80be97&x-expires=1796788800&x-signature=e67Bvr%2FaU5yV8HgMoI3%2FGVsfDJc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -4432,7 +4432,7 @@
       "shares": 2,
       "engagement": 0.018760195758564437,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7696473811687836960?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9a858f8ce72847ab94d9cc776ea4fc02~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0f8110a4&x-expires=1796785200&x-signature=F87UB%2Fb5rscgCZ%2F8h4fG8goybqM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/9a858f8ce72847ab94d9cc776ea4fc02~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=473205c3&x-expires=1796788800&x-signature=LVHc431FslE1jDNpYOD8I3I0A9g%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4449,7 +4449,7 @@
       "shares": 0,
       "engagement": 0.016835016835016835,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7702369321527414038?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/d86d9c63782f45338d569e36b112aa78~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=80ce6550&x-expires=1796785200&x-signature=9%2FFI4GDJQmXlU3UK3yw%2B5EeMmeI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/d86d9c63782f45338d569e36b112aa78~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=3d215bf2&x-expires=1796788800&x-signature=L83oYwArpGVWwapWf38eVcJb1ho%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
@@ -4461,14 +4461,14 @@
       "store": "Aldi",
       "collection": "Italian-style dinners (pasta, gnocchi, orzo)",
       "angle": "no idea what to cook tonight / this week",
-      "views": 91,
+      "views": 92,
       "views72": null,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "engagement": 0.0,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7711494971207077142?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/8f56a3ba4c7342b1be199729d8416ea6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=447c123f&x-expires=1796785200&x-signature=4h7cVBiYA7hdpwZpNpGG56SDyz8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/8f56a3ba4c7342b1be199729d8416ea6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=cd3d16b5&x-expires=1796788800&x-signature=Blh8HohLYtvACairXm6zBAm%2F%2Bdc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": true
      },
@@ -4485,7 +4485,7 @@
       "shares": 0,
       "engagement": 0.004273504273504274,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7711356363061955862?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3b9d0bb1ae3e484a97d992970d965289~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2f4792e7&x-expires=1796785200&x-signature=y6E1iN%2F44DOKn0TMt2a0FmAAt%2Fg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3b9d0bb1ae3e484a97d992970d965289~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=af8b6b12&x-expires=1796788800&x-signature=PSoxxkOZxoo9F2YATCsKM23LE1o%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -4502,7 +4502,7 @@
       "shares": 0,
       "engagement": 0.013605442176870748,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7711064140659379478?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/2b062e2e50784f1ea91bf76d77cbf9a9~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=4c5fd404&x-expires=1796785200&x-signature=Epftmtearfkb4leccaklz5hPTB4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/2b062e2e50784f1ea91bf76d77cbf9a9~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a61dfe43&x-expires=1796788800&x-signature=OlGKxhIFEUp4Q9MXoqmLhJSqoRY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -4512,14 +4512,14 @@
       "store": "Walmart",
       "collection": "Sticky, saucy dinners",
       "angle": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook",
-      "views": 1583,
+      "views": 1584,
       "views72": null,
       "likes": 49,
       "comments": 0,
       "shares": 4,
-      "engagement": 0.033480732785849655,
+      "engagement": 0.03345959595959596,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7710962528800591126?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/45263295565d416ba8db3fe8f7177cb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=462cc612&x-expires=1796785200&x-signature=Wo%2FtdaEl4qADJPD1vcnUb0Ah7XM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/45263295565d416ba8db3fe8f7177cb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d24461ee&x-expires=1796788800&x-signature=%2Fufjm383ATT8OcYR77G2jIhlHT4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -4536,7 +4536,7 @@
       "shares": 0,
       "engagement": 0.005454545454545455,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7710569686139735318?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/4c4fb423cf95455fa8e3233064bb822a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=118f7e02&x-expires=1796785200&x-signature=Et11JEJqQ%2BjTaQxrle0vMkKPZJ4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/4c4fb423cf95455fa8e3233064bb822a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=38d8a29b&x-expires=1796788800&x-signature=SMXNODPrk%2FN7OculloT6XUZJ8o0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -4553,7 +4553,7 @@
       "shares": 2,
       "engagement": 0.011131725417439703,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7710395539543674134?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1ae1c9a2c7994880b9af973ddd956a8a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a6562fff&x-expires=1796785200&x-signature=MAqJ9vTzpkqzihtuutNZADbp8UI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1ae1c9a2c7994880b9af973ddd956a8a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=6110318f&x-expires=1796788800&x-signature=Y93XHCFutX%2BF8YBG%2Fre%2BrvPQmbQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4570,7 +4570,7 @@
       "shares": 0,
       "engagement": 0.01818181818181818,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7710186064216083734?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/ab5f3d373ae84bfc8b482e1a94675fcb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=65a9b05c&x-expires=1796785200&x-signature=BOPJs%2B6kUalEd71YmWE29eBd%2FHg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/ab5f3d373ae84bfc8b482e1a94675fcb~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=9f869a81&x-expires=1796788800&x-signature=s5zhVafATaA6adIr3ChyWnyPcWA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4587,7 +4587,7 @@
       "shares": 0,
       "engagement": 0.007936507936507936,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709963143996362006?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0bd12877e58441b9815ed59089192716~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e0a2ef0e&x-expires=1796785200&x-signature=GK7Dn9d2YmoZ0H7rOza0lOKNYmQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0bd12877e58441b9815ed59089192716~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d25f5fb8&x-expires=1796788800&x-signature=TMDqErWZScejoOx2CvFXbzomZJE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4604,7 +4604,7 @@
       "shares": 0,
       "engagement": 0.0033613445378151263,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709825077742685462?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/11169989fb3548059d8c80d1ede444be~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=57a7452d&x-expires=1796785200&x-signature=g5LvRtzkf2n22Wzj0pIWk2vm0QI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/11169989fb3548059d8c80d1ede444be~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f53d9427&x-expires=1796788800&x-signature=LdoTX4eXELIdQW4yVTvJYDllGJk%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4621,7 +4621,7 @@
       "shares": 0,
       "engagement": 0.0,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709585590844443926?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/b08659d88dd841c69e3d4c4183a56647~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=df48d674&x-expires=1796785200&x-signature=KDclpVcDa%2BNXhnnX1Epk28tbIKY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/b08659d88dd841c69e3d4c4183a56647~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ea6fa45f&x-expires=1796788800&x-signature=WiEX7hFXtGeG%2FbE1ht%2BjNkszv8o%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -4638,7 +4638,7 @@
       "shares": 0,
       "engagement": 0.0,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709428023497477398?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/99c83ee8211442f3b173d302d142d617~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=786c81ed&x-expires=1796785200&x-signature=fdFVGqRM7JNaQnCtVgyWBiHy9Vo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/99c83ee8211442f3b173d302d142d617~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=9249c946&x-expires=1796788800&x-signature=COXNxPFIAeughYGEH1q1lq5Fvd8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -4655,7 +4655,7 @@
       "shares": 0,
       "engagement": 0.0053475935828877,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709204875766222102?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/06c34576745a4dff860825c79ede9dc1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=200ad299&x-expires=1796785200&x-signature=rkTXmCmAp6UeqZx48fRQuFY1J7E%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/06c34576745a4dff860825c79ede9dc1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=3f2f0696&x-expires=1796788800&x-signature=xVFWqcFia8%2B3QVOhJc7Ja2WtpYQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4672,7 +4672,7 @@
       "shares": 1,
       "engagement": 0.021252796420581657,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7709149842152410390?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/226ffacc5bf84dc3bbd29500c596e8e3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b6639e42&x-expires=1796785200&x-signature=QobyHd3uG7fGFmyUa3RH9Gx2W4k%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/226ffacc5bf84dc3bbd29500c596e8e3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f71e18a2&x-expires=1796788800&x-signature=KB5spQwHdMrBBpWgdu4jlClstWY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4689,7 +4689,7 @@
       "shares": 0,
       "engagement": 0.0053475935828877,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708893260286053654?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/6eff6863f092418aa9481c5cf4de761f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2a1cd7ff&x-expires=1796785200&x-signature=RfhZRVrrl2yOnxB%2BI5Eu3Dfo84Y%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/6eff6863f092418aa9481c5cf4de761f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e8599ea9&x-expires=1796788800&x-signature=linGlpcPFIZxfwTLxxt2xR9HVMQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4706,7 +4706,7 @@
       "shares": 2,
       "engagement": 0.02784407319013524,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708668658721115414?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/815770e53a374472a6a7a0b0741b3575~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7b9b3f05&x-expires=1796785200&x-signature=w9zsI4aTZQgNHHGR2OHNvci3B%2FE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/815770e53a374472a6a7a0b0741b3575~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ec80be97&x-expires=1796788800&x-signature=e67Bvr%2FaU5yV8HgMoI3%2FGVsfDJc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -4723,7 +4723,7 @@
       "shares": 0,
       "engagement": 0.0,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708447918323289366?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2c17dfcb00c4d2598ab9629e9896142~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f3da5e8e&x-expires=1796785200&x-signature=%2BG2xG0izImX3W%2FM6X8JhswfD0A0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2c17dfcb00c4d2598ab9629e9896142~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=93a2d7ae&x-expires=1796788800&x-signature=nvWt2%2BegIAbTyMNvB3ke5dPq4yc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4740,7 +4740,7 @@
       "shares": 0,
       "engagement": 0.0012285012285012285,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708374574420757782?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/249bf275b5364165972d244ef4279d31~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c53e8fb0&x-expires=1796785200&x-signature=6u6bh1FO5CwXfWt2fR5iucNWbNg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/249bf275b5364165972d244ef4279d31~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b91783cd&x-expires=1796788800&x-signature=IIjMWt3TETzaMGDO8u7fznLKWWQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4757,7 +4757,7 @@
       "shares": 1,
       "engagement": 0.0185546875,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7708042905272716546?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/fa131266d7234c3383b576a7278c8a17~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=33268031&x-expires=1796785200&x-signature=HCbX%2BQj%2FanvcOfaNM8KfodD9l%2FA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/fa131266d7234c3383b576a7278c8a17~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=fdeab7c5&x-expires=1796788800&x-signature=O51V8Xm1AoWmL3yecC0YI7l39g0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4774,7 +4774,7 @@
       "shares": 1,
       "engagement": 0.0084985835694051,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7707613886811327766?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/eddc49b0dd6c43cab8f490c54f17acba~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ce5270f8&x-expires=1796785200&x-signature=5NKj2K51KzxtS7iq%2BNj3pLH0sWg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/eddc49b0dd6c43cab8f490c54f17acba~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e56688db&x-expires=1796788800&x-signature=qLqDNhnAJGwpS92gCmvR3dBG2gc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4791,7 +4791,7 @@
       "shares": 0,
       "engagement": 0.004076086956521739,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7707392965878025494?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/fd58a5c3022141f6b42202f8f322be3a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c350d041&x-expires=1796785200&x-signature=BQwfs%2Fk9fuzRy8prZO%2BMCfroxJA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/fd58a5c3022141f6b42202f8f322be3a~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=62a84cab&x-expires=1796788800&x-signature=bjQxYTO%2BHhcAOV3i9qM1GN69cWA%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4808,7 +4808,7 @@
       "shares": 0,
       "engagement": 0.0011641443538998836,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7707186269209611542?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/12316d2a66ab4423a15a3b4d999804ea~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=88ae2e25&x-expires=1796785200&x-signature=x3Wk%2BGtMVLNZPif0UZElNX13f74%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/12316d2a66ab4423a15a3b4d999804ea~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0324f528&x-expires=1796788800&x-signature=qmlEhXM74T0sXCVlaIihHa%2BZIMU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4825,7 +4825,7 @@
       "shares": 2,
       "engagement": 0.011158798283261802,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7707014294654700822?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bbb89f0b4e834dc8acfb92a4ea2d504f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=03561566&x-expires=1796785200&x-signature=8pI0WuD%2Fgyr%2FLOYcYAvo0GSJ7bY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bbb89f0b4e834dc8acfb92a4ea2d504f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ab6bd415&x-expires=1796788800&x-signature=1eceRimMD3HSHjks%2B302SFK%2FjUQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4842,7 +4842,7 @@
       "shares": 0,
       "engagement": 0.0030211480362537764,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7706811930865847574?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7bef39bf15f545ae9fe556433f6866b4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a07086bc&x-expires=1796785200&x-signature=aFGoLb07sSm2KGyrb3QF%2Fbeh8BM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7bef39bf15f545ae9fe556433f6866b4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=23b695f9&x-expires=1796788800&x-signature=aQYRAneNBEStgZAfaZmSW%2F8XSTE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4859,7 +4859,7 @@
       "shares": 1,
       "engagement": 0.002554278416347382,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7706627789687901462?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0d78d95e47e24c72971782628fbf81fa~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a23b83ff&x-expires=1796785200&x-signature=eQ47arcdHNRroC4Pxtj%2Flqh4nvk%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/0d78d95e47e24c72971782628fbf81fa~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0a810423&x-expires=1796788800&x-signature=FDz7ASV%2FNas6glCMX8MF%2Bozv5C4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -4876,7 +4876,7 @@
       "shares": 0,
       "engagement": 0.004155124653739612,
       "url": "https://www.tiktok.com/@mealswithmeasy/video/7706301141939752214?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3f6e3d687f1a4efa91c3d1adc0882021~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5d0f767a&x-expires=1796785200&x-signature=fj91WqvDa9o0CeXfW78t5bQ%2B1X0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/3f6e3d687f1a4efa91c3d1adc0882021~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=321acd45&x-expires=1796788800&x-signature=egLizodcvFPUGVR1I4MdrS6e5Lw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
@@ -6701,12 +6701,12 @@
    "stats": {
     "title": "Ethan Is Cooking Daily TikTok performance",
     "handle": "@ethaniscookingdaily",
-    "updated": "2026-11-24T03:58+00:00",
+    "updated": "2026-11-24T04:03+00:00",
     "kpis": {
      "followers": 5616,
      "followers_7d": 56,
      "likes": 43285,
-     "views_7d": 41293,
+     "views_7d": 41296,
      "views_prev_7d": 42657,
      "posts_tracked": 62,
      "posts_scored": 57,
@@ -7036,7 +7036,7 @@
       "followers": 5616,
       "likes": 43285,
       "videos": 123,
-      "total_views": 2400354
+      "total_views": 2400357
      }
     ],
     "daily_views": [
@@ -7218,7 +7218,7 @@
      },
      {
       "date": "2026-11-24",
-      "views": 3652
+      "views": 3655
      }
     ],
     "top_posts": [
@@ -7235,7 +7235,7 @@
       "shares": 19,
       "engagement": 0.016584766584766583,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7697670320601173281?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/64d223696c854046b29ccd2ab6c1fe46~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=415e5a37&x-expires=1796785200&x-signature=PExfydhI1nfmA2LXE04o6Hi%2FlAo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/64d223696c854046b29ccd2ab6c1fe46~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=b526b2ea&x-expires=1796788800&x-signature=02%2FgIzWmoVzoz%2FS86O9E9shL2W8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -7252,7 +7252,7 @@
       "shares": 15,
       "engagement": 0.01186861716809274,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7696232262911692065?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c71965c904304f98a14f642ce023f440~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=9e0e0794&x-expires=1796785200&x-signature=9W%2BAS21L7EQiwA%2BE8h9%2F%2BnGsURo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/c71965c904304f98a14f642ce023f440~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0e548ec2&x-expires=1796788800&x-signature=7LlPe6ZXol8DapOyi5BgJZ0G%2BD0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7269,7 +7269,7 @@
       "shares": 11,
       "engagement": 0.013532562729066817,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7700209530730204438?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/74ef3c15fcf546dab4a6933da3ee5998~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=fdc072a4&x-expires=1796785200&x-signature=y3JJwI8mtMfy4W1JW%2B%2FSKK1jGl8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/74ef3c15fcf546dab4a6933da3ee5998~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=369c4cbc&x-expires=1796788800&x-signature=uO0%2Fv1IQFCOSPU4MwnY195b2Oh8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7286,7 +7286,7 @@
       "shares": 13,
       "engagement": 0.015736342042755345,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7696949596647345441?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/7ac944cb5b524741b460f11c137a403b~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=398fe25f&x-expires=1796785200&x-signature=hr%2FDnq%2FRjcLQthI0NZUSUC8NoTQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/7ac944cb5b524741b460f11c137a403b~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=18e63db6&x-expires=1796788800&x-signature=bt%2F4g%2Bm0N3%2FFMNqKl15APH7LavE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7303,7 +7303,7 @@
       "shares": 3,
       "engagement": 0.007881462799495587,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7695672168444726561?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bd156c42112b44cca4445b3014113d11~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c9309581&x-expires=1796785200&x-signature=UqOHCZsCuzHaiKG0PvARFC%2FTfkI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bd156c42112b44cca4445b3014113d11~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=1c3e1ba5&x-expires=1796788800&x-signature=K5hIVyW9ewsRTHW2Cvo3oV7ZOd8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7320,7 +7320,7 @@
       "shares": 7,
       "engagement": 0.016446307642695904,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7695337413404544289?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bd6500f494c84f3782fb13cfc1a3c8b4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ef569fe3&x-expires=1796785200&x-signature=nCo%2FDrht1IXKVo9AuMhT2V8iSrI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/bd6500f494c84f3782fb13cfc1a3c8b4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=db2d8dbe&x-expires=1796788800&x-signature=v%2FVX5ObhJyD7lNJDK8hQH1qsQEI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7337,7 +7337,7 @@
       "shares": 14,
       "engagement": 0.019601216627238932,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7699015587489418518?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/e88894967e024f5ab3677a8f93e2dc57~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5705437c&x-expires=1796785200&x-signature=hYuhEXGh1O0QdMxMDuWt%2BKgBGso%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/e88894967e024f5ab3677a8f93e2dc57~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=21050331&x-expires=1796788800&x-signature=L8%2FBi8%2BL8pJICmLe01MUh%2BGeDBM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7354,7 +7354,7 @@
       "shares": 3,
       "engagement": 0.011606819006166122,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7697229390765198624?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/107ada55873e459f9574cbe6cd223331~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=03644c04&x-expires=1796785200&x-signature=Tqy63zrhkGhSP14x3Vs0ifC8M0I%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/107ada55873e459f9574cbe6cd223331~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7bf51bd1&x-expires=1796788800&x-signature=sVciu95H77VK3dF5qaBS191F%2BkU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -7371,7 +7371,7 @@
       "shares": 10,
       "engagement": 0.017718715393133997,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7699519532863393046?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/20704d4b0f19448286a7a785bd8e6b93~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=eff613b2&x-expires=1796785200&x-signature=vDAxA8xlNhJW1rGRfW6Ms%2BiCCdQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/20704d4b0f19448286a7a785bd8e6b93~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0422abc2&x-expires=1796788800&x-signature=ta5m72G7lTEQte0fz%2B3mqeB53%2B0%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -7388,7 +7388,7 @@
       "shares": 4,
       "engagement": 0.012900703674745896,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7695112766322937120?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/0c0ed8415a354ddb93f0f443e1693bf4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=09173b2c&x-expires=1796785200&x-signature=hFagaR52vuLwbCvResWiqo2ItNo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/0c0ed8415a354ddb93f0f443e1693bf4~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=657c966c&x-expires=1796788800&x-signature=725%2BXWxIw7oUI46wsIfYRF2t7Wc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7422,7 +7422,7 @@
       "shares": 10,
       "engagement": 0.026017624842635333,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7698260379901725984?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3e3d01d87deb4c529176ec2fbdccf4dd~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ccc7c178&x-expires=1796785200&x-signature=u%2F5I896YMdYYS8zYak466J2SOQI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/3e3d01d87deb4c529176ec2fbdccf4dd~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f1630c46&x-expires=1796788800&x-signature=Ozc5Wi2dp2wUzWxSpuhZ8Taoa7I%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7439,7 +7439,7 @@
       "shares": 3,
       "engagement": 0.013490725126475547,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7694966338095238432?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/ef5db4cdb0274d53b8cf32d9128f13be~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7ce1666c&x-expires=1796785200&x-signature=bc%2Biey1m9rjcFO1wi2kWiPyvqBM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-useast2a-i-photomode-euttp/ef5db4cdb0274d53b8cf32d9128f13be~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a7ddf4e2&x-expires=1796788800&x-signature=Sgi%2Bh2xqh3P9vKOZLyfaOmE%2B6ik%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7456,7 +7456,7 @@
       "shares": 7,
       "engagement": 0.008902077151335312,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7704685617568861462?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/64af405434d7461faaa57f5282f254c1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=4387df85&x-expires=1796785200&x-signature=03lKYkEAxjjB%2BulhicsPHaHQqes%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/64af405434d7461faaa57f5282f254c1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=4c7392a8&x-expires=1796788800&x-signature=kljjmHRTxA%2FCZ8dmWXMk5pH5zAY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7473,7 +7473,7 @@
       "shares": 5,
       "engagement": 0.013312852022529442,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7698824957442182422?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f11ebcf1b036483e9e0a429aff391624~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=109f2933&x-expires=1796785200&x-signature=xtidAc4iJxidwkTxavufgg2m5hI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f11ebcf1b036483e9e0a429aff391624~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=eaaa4f09&x-expires=1796788800&x-signature=66aJyFhHt4dQe3D%2FhvUPEqD%2BqhI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
@@ -7492,7 +7492,7 @@
       "shares": 0,
       "engagement": 0.005263157894736842,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7711494846036430102?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/4244ee4803f3426aa553f1e12391dd32~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f24ecb8e&x-expires=1796785200&x-signature=Bl%2Fmc%2FD91%2BnPW1JdsMDlYAXELPI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/4244ee4803f3426aa553f1e12391dd32~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=44612893&x-expires=1796788800&x-signature=6u0RtAxog5Skgg7uBv2lRLXQbic%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -7509,7 +7509,7 @@
       "shares": 0,
       "engagement": 0.0036719706242350062,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7711356164658793751?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2709e4053984475a2f3bb3a4c8e48dd~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=af0f518e&x-expires=1796785200&x-signature=Wl%2BZMkv1Fv1mhBx5Mn5MmshWCP8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2709e4053984475a2f3bb3a4c8e48dd~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=313bab74&x-expires=1796788800&x-signature=NUuoz%2BMctybql%2Bqud7%2F%2Fv3wxF6Q%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -7526,7 +7526,7 @@
       "shares": 0,
       "engagement": 0.008658008658008658,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7711064421782605078?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bf2829edd99e4fcf96e5d95f3b35e92d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=3a4f59f7&x-expires=1796785200&x-signature=YX6QUEGVSi8c0yoXQ83l3hEVRco%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bf2829edd99e4fcf96e5d95f3b35e92d~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ffe76d1b&x-expires=1796788800&x-signature=mAr3PO0aLmDbhCh2fX%2B16J59suU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -7543,7 +7543,7 @@
       "shares": 0,
       "engagement": 0.01092896174863388,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7710966800896298262?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/c55fa7d4f59247a8a5af76992169265c~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=40ccb29e&x-expires=1796785200&x-signature=Oxyk4fA%2Fj1ozhd0IMR2C%2BKfq7fk%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/c55fa7d4f59247a8a5af76992169265c~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=050d0c64&x-expires=1796788800&x-signature=AWFtQQqDiXwqDUui66%2FAYW6bVn4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": true
      },
@@ -7560,7 +7560,7 @@
       "shares": 0,
       "engagement": 0.007104795737122558,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7710569531542015255?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7bf63156858c4c52be2dd31adf8fd164~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5e265332&x-expires=1796785200&x-signature=byvJ8e6HZ0la4UIkkdSVUvRzK2M%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/7bf63156858c4c52be2dd31adf8fd164~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e547d805&x-expires=1796788800&x-signature=NZv6txC09tUPssd9XBTZMCeJS5o%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": true
      },
@@ -7577,7 +7577,7 @@
       "shares": 1,
       "engagement": 0.006323396567299007,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7710395656451476758?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/c2dec3f0d3cd454892714f7e5bb4d88e~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c25cdd6e&x-expires=1796785200&x-signature=lUaxWzDqNmpJf2T%2FYyQYE0SsZ9k%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/c2dec3f0d3cd454892714f7e5bb4d88e~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7bc8ebb1&x-expires=1796788800&x-signature=4YHGLVDtW9mkGu2KtvLWAdty3RQ%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7594,7 +7594,7 @@
       "shares": 2,
       "engagement": 0.018500486854917234,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7710186159921597718?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f4fb2c8769714641a04b620935e67104~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=28906f9f&x-expires=1796785200&x-signature=L0l23oOAtMcvEOLvnpQ5PyUcrw8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f4fb2c8769714641a04b620935e67104~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=3367eaa2&x-expires=1796788800&x-signature=tDTjvId4EabdWYbOoSOwtiAoZyU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7611,7 +7611,7 @@
       "shares": 1,
       "engagement": 0.004608294930875576,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709962808703634710?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/d102bcc673c24d6fa056c9372c40308f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e6ba2ed5&x-expires=1796785200&x-signature=ayGfqb7BkA6WNtqvTld3mXpuFQc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/d102bcc673c24d6fa056c9372c40308f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2ddfc5c3&x-expires=1796788800&x-signature=aD%2F9NqMJ7gjkdpM4epP%2FGlK8e3w%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7628,7 +7628,7 @@
       "shares": 2,
       "engagement": 0.010416666666666666,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709825189818666262?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/baceffae7ff94273bce7cca112a3fc16~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=eeb6879b&x-expires=1796785200&x-signature=WhqjQkiOGaLBy8W9gQ6RyoFRHxg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/baceffae7ff94273bce7cca112a3fc16~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ab59db46&x-expires=1796788800&x-signature=A6xLMW4KrsduUBNNnVdsl%2B3miRU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7645,7 +7645,7 @@
       "shares": 0,
       "engagement": 0.006578947368421052,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709585739553606914?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/ea206d1d21f14de3854d577236561aff~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0e2dc344&x-expires=1796785200&x-signature=XlzSeA3BrN6J65jDXerCn2boRdg%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/ea206d1d21f14de3854d577236561aff~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8723f643&x-expires=1796788800&x-signature=ine%2BieZxKFd%2BsRr3GyJNyecv%2BZo%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -7662,7 +7662,7 @@
       "shares": 1,
       "engagement": 0.013031550068587106,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709427909517118742?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/8ce1d6f16316410bbcb80b16db293e72~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ab12b677&x-expires=1796785200&x-signature=MHor9dPvMyuXW0aAQVBzN1H33LY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/8ce1d6f16316410bbcb80b16db293e72~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=02a61103&x-expires=1796788800&x-signature=bdB%2Fak0WnWBZzG8AuyZr9INgOTs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7679,7 +7679,7 @@
       "shares": 1,
       "engagement": 0.008528784648187633,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709205727822236931?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/819243c1a69843ec81c4e0239d3069c3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8a431a38&x-expires=1796785200&x-signature=DaWNIgjP1mHhrKWshOvI%2FWrgMsc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/819243c1a69843ec81c4e0239d3069c3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=3357dab4&x-expires=1796788800&x-signature=s82MMZirNB5b5YERk2gSpcnbOkM%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7696,7 +7696,7 @@
       "shares": 2,
       "engagement": 0.013643659711075442,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7709149747583503638?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bb90c9fd57f84c0785d1d05d284cb3a0~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=56595d4e&x-expires=1796785200&x-signature=vhvZbKtCrd%2B3kymBq%2BSw1J%2FbQO4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/bb90c9fd57f84c0785d1d05d284cb3a0~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a621e1ce&x-expires=1796788800&x-signature=VjThbdfHPGLQmJ8egLB4DciaeCs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7713,7 +7713,7 @@
       "shares": 1,
       "engagement": 0.007413509060955519,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7708893125300784406?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a4031f1f82744b0fadad6e6ec4806df5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a1c669b4&x-expires=1796785200&x-signature=oj0Cr%2FRtNdDf7DWkqL0tvOL%2BwFc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a4031f1f82744b0fadad6e6ec4806df5~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7d2f27e8&x-expires=1796788800&x-signature=RNNpHY9Zb8aM1FlZC4vtH2qsWR4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
       "bot": true,
       "new": false
      },
@@ -7730,7 +7730,7 @@
       "shares": 1,
       "engagement": 0.008273009307135471,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7708669387045096726?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/e9411d2a601f4f4391205e95fe829043~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ef720800&x-expires=1796785200&x-signature=YddYq5spOn2mx3G%2FRuQrH9BhjIw%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/e9411d2a601f4f4391205e95fe829043~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=c90fac43&x-expires=1796788800&x-signature=B1jx1gNryylpqBZeFFoHJa%2Fu1Ik%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -7747,7 +7747,7 @@
       "shares": 6,
       "engagement": 0.015318146111547526,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7708447701339229462?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/be6a3edfa8bf4b69aaf24284059add06~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bd000b6a&x-expires=1796785200&x-signature=XyINLbn05qHjJsG7i39rc6B2uDI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/be6a3edfa8bf4b69aaf24284059add06~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=d5faa8d8&x-expires=1796788800&x-signature=EvH6C4Fqf33oIiBKa8%2BE52ovzJU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -7757,14 +7757,14 @@
       "store": "",
       "collection": "",
       "angle": "",
-      "views": 12598,
+      "views": 12599,
       "views72": 8796,
       "likes": 150,
       "comments": 2,
       "shares": 35,
-      "engagement": 0.014843625972376567,
+      "engagement": 0.014842447813318517,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7708371326397959446?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/680b23f8ac7f4b5aa7b2b81c43a308e0~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=aef1d050&x-expires=1796785200&x-signature=bcLLiWaaOTwGPDt9VqvcXYcJos4%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&sc=cover&biz_tag=tt_photomode",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/680b23f8ac7f4b5aa7b2b81c43a308e0~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5dd9a4a8&x-expires=1796788800&x-signature=rRyA177tF%2Fir0Mc7LKO8y6ZB%2FTs%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -7781,7 +7781,7 @@
       "shares": 5,
       "engagement": 0.015665796344647518,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7708042765422267671?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a679b387bc364430be368df6f4633554~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=5ad194d6&x-expires=1796785200&x-signature=e5FkNM5YCowbCRSeNpzyTIk7cQY%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a679b387bc364430be368df6f4633554~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=2471c7cf&x-expires=1796788800&x-signature=cBvJC%2BxQklUVfxxkcMUC4iX%2BnrE%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7798,7 +7798,7 @@
       "shares": 0,
       "engagement": 0.002749770852428964,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7707613804586077462?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/16fa677826d14f9aa021ecf86f390b3c~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e3c1cab2&x-expires=1796785200&x-signature=wTfYsaEsGZIxnPYcSf1mhGO8WpU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/16fa677826d14f9aa021ecf86f390b3c~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=94070971&x-expires=1796788800&x-signature=L519dJ2WNukoX%2BtsssrexIAKT8U%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7808,14 +7808,14 @@
       "store": "Lidl",
       "collection": "Creamy dinners",
       "angle": "midweek slump: you've got nothing left by Wednesday",
-      "views": 1368,
+      "views": 1369,
       "views72": 1230,
       "likes": 4,
       "comments": 0,
       "shares": 3,
-      "engagement": 0.005116959064327485,
+      "engagement": 0.005113221329437546,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7707392764236909846?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/626e6b786fff4314ba7976177404a1b3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=0a866cab&x-expires=1796785200&x-signature=0A5InnpChzOnZyBpQEXkGIk6YZI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/626e6b786fff4314ba7976177404a1b3~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=4ea4f3f8&x-expires=1796788800&x-signature=Q5ZZrF6Cgev7YrJ4SCXl%2BgUBrU8%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7832,7 +7832,7 @@
       "shares": 2,
       "engagement": 0.005016722408026756,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7707186204319419671?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a21ca0c971e34560b4ae9de2e1be78f1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=13145419&x-expires=1796785200&x-signature=z55HMp5Ijg2ySOhob1w82%2BUG%2FaU%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/a21ca0c971e34560b4ae9de2e1be78f1~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=7833dc5c&x-expires=1796788800&x-signature=fDXORuwkpSrHqQHIa4D1N0tzCsc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7849,7 +7849,7 @@
       "shares": 3,
       "engagement": 0.011235955056179775,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7707014057169030422?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/5c436b66f2044ec1bf551a8322367e74~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=a6cb9cc2&x-expires=1796785200&x-signature=Jd%2F2neRbecEtIBESoU59G0JlhAc%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/5c436b66f2044ec1bf551a8322367e74~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=67b709b5&x-expires=1796788800&x-signature=tgsPO6A89xizAQj4PJnlFDo1b5U%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": false,
       "new": false
      },
@@ -7866,7 +7866,7 @@
       "shares": 6,
       "engagement": 0.013530135301353014,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7706812097518177558?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2bd00b2e9c74e9e960fdbdd35c5cff6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=ee236e04&x-expires=1796785200&x-signature=ZYk%2BuI5iwCslRqDir1vY0GWIhoI%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/f2bd00b2e9c74e9e960fdbdd35c5cff6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=8a881e5f&x-expires=1796788800&x-signature=tJyd9NUq%2F5WSBN8xXnNr5Z70s8A%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7883,7 +7883,7 @@
       "shares": 0,
       "engagement": 0.007425742574257425,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7706627631415938326?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1f1812864ce84afa8e9cd42261e9fcb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=bb362488&x-expires=1796785200&x-signature=9zBdH%2Fo3Kt%2FpB2mx3kU58Y2l704%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p16-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/1f1812864ce84afa8e9cd42261e9fcb6~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=f2841af5&x-expires=1796788800&x-signature=%2Fe8gzf9BMrGQh8L20zY0e92LP1M%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      },
@@ -7900,7 +7900,7 @@
       "shares": 1,
       "engagement": 0.013409961685823755,
       "url": "https://www.tiktok.com/@ethaniscookingdaily/video/7706301325876792598?utm_campaign=tt4d_open_api&utm_source=sbawid8qeabxmcz7sx",
-      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/de1311d13bcd4f90862720ae3523e58f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=69e1ed92&x-expires=1796785200&x-signature=SLQmggwrxaPGPie2xqTh5Rcuk7U%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
+      "cover": "https://p19-common-sign.tiktokcdn-eu.com/tos-no1a-i-photomode-no/de1311d13bcd4f90862720ae3523e58f~tplv-photomode-image-cover:640:0:q70.webp?dr=1350&refresh_token=e103565a&x-expires=1796788800&x-signature=vOKzHHsmomfuoS4WnPpC%2BUZC7Ao%3D&t=5897f7ec&ps=d5b8ac02&shp=d05b14bd&shcp=8aecc5ac&idc=no1a&s=TIKTOK_FOR_DEVELOPER&biz_tag=tt_photomode&sc=cover",
       "bot": true,
       "new": false
      }
