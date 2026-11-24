@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -60,5 +60,15 @@ jobs:
         with:
           path: site
 
+      # GitHub sometimes can't see the upload for a moment ("No artifacts named github-pages"): wait and
+      # try again. The stats are already saved, so a dashboard that still won't publish doesn't fail the
+      # run (the next run publishes it).
       - id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        continue-on-error: true
         uses: actions/deploy-pages@v5

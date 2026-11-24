@@ -95,7 +95,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -114,8 +114,17 @@ jobs:
           path: .
       - run: tar xzf workdir.tgz && rm workdir.tgz
 
+      # GitHub sometimes can't see the upload for a moment ("No artifacts named github-pages"): wait and
+      # try again before giving up (TikTok fetches the slides from these pages).
       - name: Publish the slides on GitHub Pages
         id: deploy
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - name: Publish the slides on GitHub Pages (second try)
+        id: deploy2
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v5
 
       - name: Send to TikTok drafts
