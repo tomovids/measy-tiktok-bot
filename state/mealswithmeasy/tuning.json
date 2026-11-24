@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 60,
+ "scored_posts": 61,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -21,9 +21,9 @@
     "avg_ratio": 0.88
    },
    "fakeaway": {
-    "mult": 1.15,
-    "posts": 4,
-    "avg_ratio": 1.26
+    "mult": 1.1,
+    "posts": 5,
+    "avg_ratio": 1.15
    },
    "cheesy": {
     "mult": 1.05,
@@ -108,9 +108,9 @@
     "avg_ratio": 0.92
    },
    "takeaway": {
-    "mult": 1.28,
-    "posts": 6,
-    "avg_ratio": 1.42
+    "mult": 1.23,
+    "posts": 7,
+    "avg_ratio": 1.32
    },
    "no-idea": {
     "mult": 0.94,
@@ -215,9 +215,9 @@
     "avg_ratio": 1.12
    },
    "cheesy-bbq-loaded-potatoes": {
-    "mult": 1.0,
-    "posts": 3,
-    "avg_ratio": 0.99
+    "mult": 0.96,
+    "posts": 4,
+    "avg_ratio": 0.93
    },
    "cheesy-bbq-pulled-chicken-nachos": {
     "mult": 0.81,
