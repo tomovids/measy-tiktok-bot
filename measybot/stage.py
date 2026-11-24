@@ -48,6 +48,36 @@ def utf16_len(text: str) -> int:
     return len(text.encode("utf-16-le")) // 2
 
 
+def _thumb(path: Path) -> list[int]:
+    with Image.open(path) as im:
+        return list(im.convert("L").resize((16, 16), Image.BILINEAR).tobytes())
+
+
+def promo_problem(post: dict, site: Path | None = None, promos: list[Path] | None = None) -> str | None:
+    """Why this post doesn't end with the app promo, or None if it does. Every post must end with it:
+    the last slide's picture is compared with the promo images (so a resized copy still counts)."""
+    from .catalogue import promo_files
+    promos = promos if promos is not None else promo_files()
+    slides = post.get("slides") or []
+    if not slides:
+        return "it has no slides"
+    return slide_problem((site or config.SITE) / slides[-1], promos)
+
+
+def slide_problem(last: Path, promos: list[Path]) -> str | None:
+    """Why this slide isn't one of the app promo images (None if it is)."""
+    if not last.exists():
+        return f"its last slide ({last.name}) is missing"
+    if not promos:
+        return f"there are no app promo images in {config.PROMO_DIR}"
+    got = _thumb(last)
+    for promo in promos:
+        want = _thumb(promo)
+        if sum(abs(a - b) for a, b in zip(got, want)) / len(got) < 12:
+            return None
+    return f"its last slide ({last.name}) isn't the app promo"
+
+
 def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, words, caption: str,
           meta: dict, rel_root: Path | None = None, shop: Image.Image | None = None) -> dict:
     """Slides: the cover, the recipes, this post's shop slide (if drawn), and the app promo last."""

@@ -79,6 +79,9 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
             "hook_candidates": words.candidates,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     post = stage.stage(folder, day, slide, recipes, promo, words, caption, meta, shop=shop)
+    problem = stage.slide_problem(folder / Path(post["slides"][-1]).name, catalogue.promo_files())
+    if problem:          # every post must end with the app promo
+        raise RuntimeError(f"Built a post without the app promo at the end: {problem}")
     if save_background:
         background.save(folder / "background.jpg", "JPEG", quality=90)
     log(f"Built {len(post['slides'])} slides in {folder}")
@@ -118,6 +121,9 @@ def send_post(post: dict, cfg: dict, hist: History, tt: TikTok, token_key: str, 
     urls = [t["pages_base_url"].rstrip("/") + "/" + s for s in post["slides"]]
     record = {k: v for k, v in post.items() if k != "slides"}
     record["urls"] = urls
+    problem = stage.promo_problem(post)
+    if problem:          # never send a post that doesn't end with the app promo
+        raise TikTokError(f"Not sent: every post must end with the app promo, but {problem}.")
     try:
         wait_pages(urls, log=log)
         login = tokens.load(token_key)

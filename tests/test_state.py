@@ -54,6 +54,7 @@ POST = {"date": "2026-10-09", "slides": [f"p/2026-10-09/0{i}.jpg" for i in range
 
 def test_send_records_success(tmp_path, monkeypatch, cfg):
     monkeypatch.setattr("measybot.config.TOKEN_FILE", tmp_path / "t.enc")
+    monkeypatch.setattr("measybot.stage.promo_problem", lambda post: None)          # no real slides here
     key = tokens.new_key()
     tokens.save({"access_token": "old", "refresh_token": "r"}, key)
     hist = History([], tmp_path / "h.json")
@@ -68,6 +69,7 @@ def test_send_records_success(tmp_path, monkeypatch, cfg):
 
 def test_send_records_failure(tmp_path, monkeypatch, cfg):
     monkeypatch.setattr("measybot.config.TOKEN_FILE", tmp_path / "t.enc")
+    monkeypatch.setattr("measybot.stage.promo_problem", lambda post: None)          # no real slides here
     key = tokens.new_key()
     tokens.save({"access_token": "old", "refresh_token": "r"}, key)
     hist = History([], tmp_path / "h.json")
