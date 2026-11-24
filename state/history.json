@@ -12355,6 +12355,86 @@
    "publish_id": "p_inbox_url~v2.7711767594206939158",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-24T15:58:25+00:00"
+  },
+  {
+   "date": "2026-11-25",
+   "hook": "5 Aldi chicken dinners that beat a takeaway in flavour 🤤🍗",
+   "subline": "Skip the takeaway tonight 🤤",
+   "title": "5 Aldi chicken dinners that beat a takeaway in flavour 🤤🍗",
+   "caption": "💾 SAVE this for planning your next Aldi shop — chicken dinners to slot into the week 😋🛒\n\n1. Moroccan Chicken Traybake\n2. Thai Basil Chicken\n3. Golden Turmeric Chicken Pilaf\n4. Crunchy Peanut Chicken Wraps\n5. Coconut-Lime Chicken Curry\n\nWhich one are you trying first? 1–5 — go! 🍗\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #chickenrecipes #chickendinner",
+   "files": [
+    "card:new-moroccan-chicken-traybake-86f55-1",
+    "card:new-thai-basil-chicken-d01d9-1",
+    "card:new-golden-turmeric-chicken-pilaf-14e1c-1",
+    "card:new-crunchy-peanut-chicken-wraps-a94d0-1",
+    "card:new-coconut-lime-chicken-curry-389b1-1"
+   ],
+   "groups": [
+    "new-moroccan-chicken-traybake-86f55",
+    "new-thai-basil-chicken-d01d9",
+    "new-golden-turmeric-chicken-pilaf-14e1c",
+    "new-crunchy-peanut-chicken-wraps-a94d0",
+    "new-coconut-lime-chicken-curry-389b1"
+   ],
+   "dishes": [
+    "Moroccan Chicken Traybake",
+    "Thai Basil Chicken",
+    "Golden Turmeric Chicken Pilaf",
+    "Crunchy Peanut Chicken Wraps",
+    "Coconut-Lime Chicken Curry"
+   ],
+   "promo": "shop",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    432,
+    716
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "chicken",
+    "angle": "weekly-shop",
+    "label": "chicken dinners",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one are you trying first? 1–5 — go! 🍗",
+   "tuned": false,
+   "fresh_dishes": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi chicken dinners to send your flatmate who NEVER cooks 😂🍗",
+     "subline": "Send this to your flat chat 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi chicken dinners that beat a takeaway in flavour 🤤🍗",
+     "subline": "Skip the takeaway tonight 🤤",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi chicken meals ready in 45 minutes or less 😋⏰",
+     "subline": "All doable midweek — no faff ⏰",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-24T23:03:25+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711877484483987478",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-24T23:04:17+00:00"
   }
  ]
 }
