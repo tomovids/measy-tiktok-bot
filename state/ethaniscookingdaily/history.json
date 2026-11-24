@@ -7847,6 +7847,101 @@
    "publish_id": "p_inbox_url~v2.7711461725895526422",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T20:10:35+00:00"
+  },
+  {
+   "date": "2026-11-24",
+   "hook": "5 Aldi Dinners Better Than a Takeaway on Cold Nights 😏🍜",
+   "subline": "Fakeaway vibes, no delivery faff 🍜",
+   "title": "5 Aldi Dinners Better Than a Takeaway on Cold Nights 😏🍜",
+   "caption": "💾 SAVE this for cosy, dark nights when you can't be bothered to order a takeaway 😭🫶\n\n1. Crispy Lemon Cod Tacos\n2. Maple Mustard Turkey Meatballs\n3. Cheesy Lentil Shepherd's Pie\n4. Spicy Peanut Prawn Noodles\n5. Pineapple Pork Fried Rice\n\nWhich one are you trying first this week? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #dinnerideas #mealideas",
+   "files": [
+    "card:new-crispy-lemon-cod-tacos-ad61a-1",
+    "card:new-maple-mustard-turkey-meatballs-04f29-1",
+    "card:new-cheesy-s-lentil-shepherd-pie-6e2e2-1",
+    "card:new-spicy-peanut-prawn-noodles-9460e-1",
+    "card:new-pineapple-pork-fried-rice-da2e9-1"
+   ],
+   "groups": [
+    "new-crispy-lemon-cod-tacos-ad61a",
+    "new-maple-mustard-turkey-meatballs-04f29",
+    "new-cheesy-s-lentil-shepherd-pie-6e2e2",
+    "new-spicy-peanut-prawn-noodles-9460e",
+    "new-pineapple-pork-fried-rice-da2e9"
+   ],
+   "dishes": [
+    "Crispy Lemon Cod Tacos",
+    "Maple Mustard Turkey Meatballs",
+    "Cheesy Lentil Shepherd's Pie",
+    "Spicy Peanut Prawn Noodles",
+    "Pineapple Pork Fried Rice"
+   ],
+   "promo": "shop",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    372,
+    764
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "anything",
+    "angle": "cosy",
+    "label": "a mix of the best dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you trying first this week? 👀",
+   "tuned": false,
+   "fresh_dishes": true,
+   "hook_score": 9.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners for Cosy, Dark Nights You Need 😋🫶",
+     "subline": "Big, cosy flavours for darker nights 🫶",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Keep You Warm Without Spending Much 💸🫶",
+     "subline": "Warm meals, tiny fuss and tiny bills 💸",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Meals I'd Make for Cosy Nights — send your flatmate 😂",
+     "subline": "Perfect for sharing (or not) 😂",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Dinners Better Than a Takeaway on Cold Nights 😏🍜",
+     "subline": "Fakeaway vibes, no delivery faff 🍜",
+     "score": 9.5
+    },
+    {
+     "hook": "5 Aldi Dinners That Turn Dark Nights into Proper Comfort 😍",
+     "subline": "Dinner = a proper hug in a bowl 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Dinners to Rescue Your Tuesday Night — cosy & simple 😴🫶",
+     "subline": "Sort tonight's tea without fuss 🫶",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-24T04:51:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711596045494388758",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-24T04:52:29+00:00"
   }
  ]
 }
