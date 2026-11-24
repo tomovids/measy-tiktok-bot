@@ -70,14 +70,15 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
     slide = cover.render(background, words.hook, words.subline, cfg, random.Random(f"{seed}/cover"),
                          avoid=sign)
 
-    promo = _shop_slide(recipes, store, log) or hist.next_promo(catalogue.promo_files())
+    shop = _shop_slide(recipes, store, log)
+    promo = hist.next_promo(catalogue.promo_files())          # the app promo is always the last slide
     meta = {"scene": words.scene, "background": source, "image_model": model, "sign": sign, "extra": extra,
             "slot": slot, "store": store.id, "theme": theme.record(), "question": words.question,
             "tuned": bool(boost), "fresh_dishes": recipes[0].group.startswith("new-"),
             "hook_score": words.score,
             "hook_candidates": words.candidates,
             "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-    post = stage.stage(folder, day, slide, recipes, promo, words, caption, meta)
+    post = stage.stage(folder, day, slide, recipes, promo, words, caption, meta, shop=shop)
     if save_background:
         background.save(folder / "background.jpg", "JPEG", quality=90)
     log(f"Built {len(post['slides'])} slides in {folder}")
@@ -85,14 +86,14 @@ def build_post(day: date, cfg: dict, hist: History, folder: Path, ai: OpenAI | N
 
 
 def _shop_slide(recipes, store, log):
-    """The last slide, drawn from this post's dishes (None: use the saved promo slide)."""
+    """The "this week's shop" slide before the promo, drawn from this post's dishes (None: skip it)."""
     if not all(r.file.startswith("card:") for r in recipes):
         return None
     from .card import load_card, render_shop
     try:
         return render_shop([load_card(r.file) for r in recipes], store.name)
     except (OSError, KeyError, ValueError) as e:
-        log(f"Couldn't draw the shop slide ({e}); using the promo slide.")
+        log(f"Couldn't draw the shop slide ({e}); leaving it out.")
         return None
 
 

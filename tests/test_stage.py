@@ -42,6 +42,13 @@ def test_stage_post(tmp_path, monkeypatch):
     assert saved["files"] == [r.file for r in recipes] and saved["promo"] == "promo.webp"
     assert (folder / "caption.txt").read_text(encoding="utf-8").strip() == "caption text"
 
+    # with this post's shop slide: it goes before the app promo, which stays the last slide
+    post = stage.stage(folder, date(2026, 10, 9), Image.new("RGB", (1080, 1920)), recipes, promo,
+                       words, "caption text", {}, shop=Image.new("RGB", (1080, 1920), (10, 120, 60)))
+    assert len(post["slides"]) == 8 and post["promo"] == "promo.webp" and post["shop_slide"]
+    last = Image.open(tmp_path / "site" / post["slides"][-1])
+    assert abs(last.width / last.height - 1086 / 1448) < 0.02          # the promo, not the shop slide
+
 
 def test_title_fits_tiktok_limit(tmp_path, monkeypatch):
     monkeypatch.setattr("measybot.config.RECIPE_DIR", tmp_path)

@@ -48,8 +48,9 @@ def utf16_len(text: str) -> int:
     return len(text.encode("utf-16-le")) // 2
 
 
-def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path | Image.Image, words, caption: str,
-          meta: dict, rel_root: Path | None = None) -> dict:
+def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path, words, caption: str,
+          meta: dict, rel_root: Path | None = None, shop: Image.Image | None = None) -> dict:
+    """Slides: the cover, the recipes, this post's shop slide (if drawn), and the app promo last."""
     if folder.exists():
         shutil.rmtree(folder)
     folder.mkdir(parents=True)
@@ -70,11 +71,10 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path | Im
             slides.append(dst)
         else:
             slides.append(copy_slide(r.path, folder / f"{i:02d}"))
-    if isinstance(promo, Image.Image):          # drawn for this post (card.render_shop)
-        slides.append(folder / f"{len(recipes) + 2:02d}.jpg")
-        promo.convert("RGB").save(slides[-1], "JPEG", quality=92)
-    else:
-        slides.append(copy_slide(promo, folder / f"{len(recipes) + 2:02d}"))
+    if shop is not None:          # drawn for this post's dishes (card.render_shop)
+        slides.append(folder / f"{len(slides) + 1:02d}.jpg")
+        shop.convert("RGB").save(slides[-1], "JPEG", quality=92)
+    slides.append(copy_slide(promo, folder / f"{len(slides) + 1:02d}"))          # the app promo, always last
 
     title = words.hook
     while utf16_len(title) > 90:
@@ -89,7 +89,8 @@ def stage(folder: Path, day: date, cover: Image.Image, recipes, promo: Path | Im
         "files": [r.file for r in recipes],
         "groups": [r.group for r in recipes],
         "dishes": [r.dish for r in recipes],
-        "promo": "shop" if isinstance(promo, Image.Image) else promo.name,
+        "promo": promo.name,
+        "shop_slide": shop is not None,
         "words_source": words.source,
         **meta,
     }
