@@ -12260,6 +12260,101 @@
    "publish_id": "p_inbox_url~v2.7711514750626252822",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T23:38:54+00:00"
+  },
+  {
+   "date": "2026-11-24",
+   "hook": "A full week of Aldi dinners for £20 😭💸",
+   "subline": "Five pasta nights, no faff 🍝",
+   "title": "A full week of Aldi dinners for £20 😭💸",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Zesty Tuna Spaghetti\n2. Smoky Chorizo Penne\n3. Roasted Mushroom Tagliatelle\n4. Chilli Prawn Linguine\n5. Herby Ricotta Shells\n\nWhich one are you making first this week? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #pastarecipe #pastanight",
+   "files": [
+    "card:new-zesty-tuna-spaghetti-5bf7f-1",
+    "card:new-smoky-chorizo-penne-b7ea6-1",
+    "card:new-roasted-mushroom-tagliatelle-a5fae-1",
+    "card:new-chilli-prawn-linguine-060f8-1",
+    "card:new-herby-ricotta-shells-313ba-1"
+   ],
+   "groups": [
+    "new-zesty-tuna-spaghetti-5bf7f",
+    "new-smoky-chorizo-penne-b7ea6",
+    "new-roasted-mushroom-tagliatelle-a5fae",
+    "new-chilli-prawn-linguine-060f8",
+    "new-herby-ricotta-shells-313ba"
+   ],
+   "dishes": [
+    "Zesty Tuna Spaghetti",
+    "Smoky Chorizo Penne",
+    "Roasted Mushroom Tagliatelle",
+    "Chilli Prawn Linguine",
+    "Herby Ricotta Shells"
+   ],
+   "promo": "shop",
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    492,
+    940
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "pasta",
+    "angle": "full-week",
+    "label": "pasta dinners",
+    "angle_text": "a full week of {store} dinners for one total price"
+   },
+   "question": "Which one are you making first this week? 😋",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "A full week of Aldi dinners for £20 😭💸",
+     "subline": "Five pasta nights, no faff 🍝",
+     "score": 8.0
+    },
+    {
+     "hook": "Full week of Aldi dinners for £20 😏🍝",
+     "subline": "Better than a takeaway 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "A full week of Aldi dinners for £20 👀🛒",
+     "subline": "Send this to the group chat 😂",
+     "score": 7.0
+    },
+    {
+     "hook": "A full week of Aldi dinners for £20 😳🍝",
+     "subline": "Big flavour, tiny damage 😋",
+     "score": 5.5
+    },
+    {
+     "hook": "Full week of Aldi dinners for £20 🙌🍝",
+     "subline": "",
+     "score": 6.5
+    },
+    {
+     "hook": "A full week of Aldi dinners for £20 🤯🍝",
+     "subline": "Restaurant vibes, skip the takeaway 🤤",
+     "score": 7.0
+    }
+   ],
+   "built_at": "2026-11-24T15:52:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-24-2/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711767594206939158",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-24T15:58:25+00:00"
   }
  ]
 }

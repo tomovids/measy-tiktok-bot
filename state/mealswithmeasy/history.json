@@ -7984,6 +7984,81 @@
    "publish_id": "p_inbox_url~v2.7711461744446916611",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-23T20:10:23+00:00"
+  },
+  {
+   "date": "2026-11-24",
+   "hook": "5 Trader Joe's Pasta Dinners for Nights You're Exhausted 😩🍝",
+   "subline": "Comfort in a bowl, no delivery drama 😋",
+   "title": "5 Trader Joe's Pasta Dinners for Nights You're Exhausted 😩🍝",
+   "caption": "💾 SAVE this for the weeknight when you want pasta on repeat but zero fuss 😋🍝\n\n1. Miso Butter Salmon Linguine\n2. Turkey Mushroom Rigatoni\n3. Smoky Pancetta Pea Spaghetti\n4. Rustic White-Bean Pappardelle\n5. Lemon Caper Scallop Cavatelli\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #pastarecipe #pastanight",
+   "files": [
+    "card:new-miso-butter-salmon-linguine-1d0f1-1",
+    "card:new-turkey-mushroom-rigatoni-b185c-1",
+    "card:new-smoky-pancetta-pea-spaghetti-2766f-1",
+    "card:new-rustic-white-bean-pappardelle-48fda-1",
+    "card:new-lemon-caper-scallop-cavatelli-afe65-1"
+   ],
+   "groups": [
+    "new-miso-butter-salmon-linguine-1d0f1",
+    "new-turkey-mushroom-rigatoni-b185c",
+    "new-smoky-pancetta-pea-spaghetti-2766f",
+    "new-rustic-white-bean-pappardelle-48fda",
+    "new-lemon-caper-scallop-cavatelli-afe65"
+   ],
+   "dishes": [
+    "Miso Butter Salmon Linguine",
+    "Turkey Mushroom Rigatoni",
+    "Smoky Pancetta Pea Spaghetti",
+    "Rustic White-Bean Pappardelle",
+    "Lemon Caper Scallop Cavatelli"
+   ],
+   "promo": "shop",
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    480,
+    688
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "pasta",
+    "angle": "repeat",
+    "label": "pasta dinners",
+    "angle_text": "dinners I'd make on repeat / always go down well"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Pasta Dinners for Nights You're Exhausted 😩🍝",
+     "subline": "Comfort in a bowl, no delivery drama 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Trader Joe's Pastas to Rescue Tuesday Night 😩🍝",
+     "subline": "Turn Tuesday into pasta night 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-24T15:57:42+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-24-1/07.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711767629643515926",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-24T15:58:36+00:00"
   }
  ]
 }
