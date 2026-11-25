@@ -7942,6 +7942,103 @@
    "publish_id": "p_inbox_url~v2.7711596045494388758",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-24T04:52:29+00:00"
+  },
+  {
+   "date": "2026-11-25",
+   "hook": "A full week of Aldi dinners for £28 — cheesy fakeaways 🤤🧀",
+   "subline": "Send this to your housemate 😂",
+   "title": "A full week of Aldi dinners for £28 — cheesy fakeaways 🤤🧀",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Smoky Cheddar Fish Pie\n2. Baked Feta & Chickpea Traybake\n3. Cheesy Turkey & Bean Skillet\n4. Sweet Potato Cheddar Toasts\n5. Melted Mozza Beef & Broccoli\n\nWhich one are you trying first? 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:new-smoky-cheddar-fish-pie-5d838-1",
+    "card:new-baked-feta-chickpea-traybake-17284-1",
+    "card:new-cheesy-turkey-bean-skillet-c88df-1",
+    "card:new-sweet-potato-cheddar-toasts-826a5-1",
+    "card:new-melted-mozza-beef-broccoli-ac476-1"
+   ],
+   "groups": [
+    "new-smoky-cheddar-fish-pie-5d838",
+    "new-baked-feta-chickpea-traybake-17284",
+    "new-cheesy-turkey-bean-skillet-c88df",
+    "new-sweet-potato-cheddar-toasts-826a5",
+    "new-melted-mozza-beef-broccoli-ac476"
+   ],
+   "dishes": [
+    "Smoky Cheddar Fish Pie",
+    "Baked Feta & Chickpea Traybake",
+    "Cheesy Turkey & Bean Skillet",
+    "Sweet Potato Cheddar Toasts",
+    "Melted Mozza Beef & Broccoli"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    192,
+    548
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "full-week",
+    "label": "cheesy dinners",
+    "angle_text": "a full week of {store} dinners for one total price"
+   },
+   "question": "Which one are you trying first? 😋",
+   "tuned": false,
+   "fresh_dishes": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "A full week of Aldi dinners for £27 — 5 cheesy meals 😋🛒",
+     "subline": "Big melty cheese, tiny budget 🧀",
+     "score": 7.5
+    },
+    {
+     "hook": "Full week of Aldi dinners for £30 — send this to your mates 😂💸",
+     "subline": "Better than a takeaway 🍔",
+     "score": 7.0
+    },
+    {
+     "hook": "A full week of Aldi dinners for £35 — ready in 40 minutes ⏰😏",
+     "subline": "All melty comfort, no faff 😴",
+     "score": 6.0
+    },
+    {
+     "hook": "A full week of Aldi dinners for £28 — cheesy fakeaways 🤤🧀",
+     "subline": "Send this to your housemate 😂",
+     "score": 9.0
+    },
+    {
+     "hook": "Full week of Aldi dinners for £29 — skint? melt your worries 😭🧀",
+     "subline": "Dinner for the week, sorted 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "A full week of Aldi dinners for £40 — meltier than a takeaway 😏🧀",
+     "subline": "All under an hour, all melty 🤤",
+     "score": 4.5
+    }
+   ],
+   "built_at": "2026-11-25T04:36:06+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-25-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7711962223438088214",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-25T04:36:55+00:00"
   }
  ]
 }
