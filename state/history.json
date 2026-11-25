@@ -12435,6 +12435,83 @@
    "publish_id": "p_inbox_url~v2.7711877484483987478",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-24T23:04:17+00:00"
+  },
+  {
+   "date": "2026-11-25",
+   "hook": "5 Aldi saucy dinners that feel like restaurant food 😍🍝",
+   "subline": "Fancy vibes, tiny fuss 👀",
+   "title": "5 Aldi saucy dinners that feel like restaurant food 😍🍝",
+   "caption": "💾 SAVE this for when you have NO idea what to cook this week 😩🍜\n\n1. Balsamic Pork & Creamy Polenta\n2. Orange-Glazed Cod & New Potatoes\n3. Gochujang Tofu & Charred Pak Choi\n4. Honey-Soy Lamb & Pearl Barley\n5. Spiced Tomato Chickpea Sizzler\n\nWhich one are you making first? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #stickychicken #fakeaway",
+   "files": [
+    "card:new-balsamic-pork-creamy-polenta-2c990-1",
+    "card:new-orange-glazed-cod-new-potatoes-eafc9-1",
+    "card:new-gochujang-tofu-charred-pak-choi-20327-1",
+    "card:new-honey-soy-lamb-pearl-barley-49b68-1",
+    "card:new-spiced-tomato-chickpea-sizzler-de9d9-1"
+   ],
+   "groups": [
+    "new-balsamic-pork-creamy-polenta-2c990",
+    "new-orange-glazed-cod-new-potatoes-eafc9",
+    "new-gochujang-tofu-charred-pak-choi-20327",
+    "new-honey-soy-lamb-pearl-barley-49b68",
+    "new-spiced-tomato-chickpea-sizzler-de9d9"
+   ],
+   "dishes": [
+    "Balsamic Pork & Creamy Polenta",
+    "Orange-Glazed Cod & New Potatoes",
+    "Gochujang Tofu & Charred Pak Choi",
+    "Honey-Soy Lamb & Pearl Barley",
+    "Spiced Tomato Chickpea Sizzler"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    228,
+    644
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "sticky",
+    "angle": "no-idea",
+    "label": "sticky, saucy dinners",
+    "angle_text": "no idea what to cook tonight / this week"
+   },
+   "question": "Which one are you making first? 👇",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 7.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi saucy dinners that feel like restaurant food 😍🍝",
+     "subline": "Fancy vibes, tiny fuss 👀",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi saucy dinners to sort Wednesday night 😭🍜",
+     "subline": "Perfect for the midweek slump 😴",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-25T18:41:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-25-2/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712181009059514390",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-25T18:42:04+00:00"
   }
  ]
 }
