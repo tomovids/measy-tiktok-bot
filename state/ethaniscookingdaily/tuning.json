@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 58,
+ "scored_posts": 59,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -46,9 +46,9 @@
     "avg_ratio": 1.07
    },
    "italian": {
-    "mult": 1.23,
-    "posts": 2,
-    "avg_ratio": 1.58
+    "mult": 1.09,
+    "posts": 3,
+    "avg_ratio": 1.18
    },
    "loaded": {
     "mult": 1.22,
@@ -143,9 +143,9 @@
     "avg_ratio": 0.81
    },
    "repeat": {
-    "mult": 1.29,
-    "posts": 2,
-    "avg_ratio": 1.72
+    "mult": 1.14,
+    "posts": 3,
+    "avg_ratio": 1.27
    },
    "midweek": {
     "mult": 1.07,
@@ -285,9 +285,9 @@
     "avg_ratio": 1.05
    },
    "cheesy-beef-taco-pasta": {
-    "mult": 1.06,
-    "posts": 1,
-    "avg_ratio": 1.23
+    "mult": 0.92,
+    "posts": 2,
+    "avg_ratio": 0.8
    },
    "sweet-chilli-chicken-rice-bowl": {
     "mult": 1.23,
