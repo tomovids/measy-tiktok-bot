@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 64,
+ "scored_posts": 65,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -71,9 +71,9 @@
     "avg_ratio": 0.93
    },
    "sticky": {
-    "mult": 1.19,
-    "posts": 3,
-    "avg_ratio": 1.38
+    "mult": 1.07,
+    "posts": 4,
+    "avg_ratio": 1.12
    },
    "anything": {
     "mult": 1.14,
@@ -133,9 +133,9 @@
     "avg_ratio": 0.91
    },
    "tired": {
-    "mult": 1.0,
-    "posts": 7,
-    "avg_ratio": 1.01
+    "mult": 0.95,
+    "posts": 8,
+    "avg_ratio": 0.92
    },
    "repeat": {
     "mult": 1.1,
@@ -313,6 +313,11 @@
     "mult": 1.17,
     "posts": 1,
     "avg_ratio": 1.69
+   },
+   "sweet-chilli-chicken-rice-bowl": {
+    "mult": 0.84,
+    "posts": 1,
+    "avg_ratio": 0.35
    }
   }
  },
