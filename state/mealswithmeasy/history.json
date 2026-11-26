@@ -8146,6 +8146,88 @@
    "publish_id": "p_inbox_url~v2.7712044435055872002",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-25T09:52:31+00:00"
+  },
+  {
+   "date": "2026-11-26",
+   "hook": "5 Aldi Mexican Dinners for Dark, Cozy Evenings 🫶🌮",
+   "subline": "Comfort food that'll warm the house 🔥",
+   "title": "5 Aldi Mexican Dinners for Dark, Cozy Evenings 🫶🌮",
+   "caption": "💾 SAVE this for the next night you're about to order takeout — cozy, no delivery 😭🌮\n\n1. Street-Style Pork Carnitas Tacos\n2. Spicy Chorizo Nacho Bake\n3. Citrus Shrimp Burritos\n4. Green Salsa Chicken Quesadillas\n5. Smoky Beef & Corn Street Tacos\n\nWhich one are you making first? 🌮\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldifinds #aldiusa #budgetmeals #easydinner #dinnerideas #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:new-street-pork-carnitas-tacos-acc8e-1",
+    "card:new-spicy-chorizo-nacho-bake-b2743-1",
+    "card:new-citrus-shrimp-burritos-a96e6-1",
+    "card:new-green-salsa-chicken-quesadillas-9879d-1",
+    "card:new-smoky-beef-corn-street-tacos-68396-1"
+   ],
+   "groups": [
+    "new-street-pork-carnitas-tacos-acc8e",
+    "new-spicy-chorizo-nacho-bake-b2743",
+    "new-citrus-shrimp-burritos-a96e6",
+    "new-green-salsa-chicken-quesadillas-9879d",
+    "new-smoky-beef-corn-street-tacos-68396"
+   ],
+   "dishes": [
+    "Street-Style Pork Carnitas Tacos",
+    "Spicy Chorizo Nacho Bake",
+    "Citrus Shrimp Burritos",
+    "Green Salsa Chicken Quesadillas",
+    "Smoky Beef & Corn Street Tacos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, low angle from the parking lot looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    1304,
+    1460
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldius",
+   "theme": {
+    "collection": "mexican",
+    "angle": "cosy",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first? 🌮",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 8.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners to Send Your Group Chat 😂🌮",
+     "subline": "Perfect for lazy weekend feasts 😴",
+     "score": 6.8
+    },
+    {
+     "hook": "5 Aldi Dinners That Feel Like a Date Night Out 😍🌮",
+     "subline": "Skip delivery, get the same spice 🤤",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners for Dark, Cozy Evenings 🫶🌮",
+     "subline": "Comfort food that'll warm the house 🔥",
+     "score": 8.0
+    }
+   ],
+   "built_at": "2026-11-26T12:24:41+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-26-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712455321968691222",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-26T12:26:52+00:00"
   }
  ]
 }
