@@ -8039,6 +8039,88 @@
    "publish_id": "p_inbox_url~v2.7711962223438088214",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-25T04:36:55+00:00"
+  },
+  {
+   "date": "2026-11-26",
+   "hook": "5 Aldi Beef Dinners That Save You A Takeaway Tonight 🤤🍔",
+   "subline": "Same comfort, less delivery faff 💸",
+   "title": "5 Aldi Beef Dinners That Save You A Takeaway Tonight 🤤🍔",
+   "caption": "💾 SAVE this for when the family won't stop moaning about tea 😭🛒\n\n1. Smoky Beef & Sweet Potato Skillet\n2. Minted Beef Risotto\n3. Tomato-Braised Beef Meatballs & New Potatoes\n4. Aubergine & Feta Beef Traybake\n5. Stuffed Beef Peppers\n\nWhich one would stop the moaning at your house? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #mincerecipes #beefrecipes",
+   "files": [
+    "card:new-smoky-beef-sweet-potato-skillet-b680b-1",
+    "card:new-minted-beef-risotto-a7aca-1",
+    "card:new-tomato-braised-beef-meatballs-new-potato-cf049-1",
+    "card:new-aubergine-feta-beef-traybake-d7856-1",
+    "card:new-stuffed-beef-peppers-c7807-1"
+   ],
+   "groups": [
+    "new-smoky-beef-sweet-potato-skillet-b680b",
+    "new-minted-beef-risotto-a7aca",
+    "new-tomato-braised-beef-meatballs-new-potato-cf049",
+    "new-aubergine-feta-beef-traybake-d7856",
+    "new-stuffed-beef-peppers-c7807"
+   ],
+   "dishes": [
+    "Smoky Beef & Sweet Potato Skillet",
+    "Minted Beef Risotto",
+    "Tomato-Braised Beef Meatballs & New Potatoes",
+    "Aubergine & Feta Beef Traybake",
+    "Stuffed Beef Peppers"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle from the car park looking up at the store",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    272,
+    712
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "beef",
+    "angle": "family",
+    "label": "beef mince and beef dinners",
+    "angle_text": "feeding the whole family without the moaning"
+   },
+   "question": "Which one would stop the moaning at your house? 👇",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Beef Dinners To Send Your Other Half 😂👇",
+     "subline": "Pass this to them and then act surprised 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Beef Dinners That Save You A Takeaway Tonight 🤤🍔",
+     "subline": "Same comfort, less delivery faff 💸",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Beef Dinners To Sort Your Thursday Tea 😏🍝",
+     "subline": "Perfect for a knackered midweek crowd 😴",
+     "score": 7.8
+    }
+   ],
+   "built_at": "2026-11-26T04:23:41+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-26-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712330444674615318",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-26T04:24:29+00:00"
   }
  ]
 }
