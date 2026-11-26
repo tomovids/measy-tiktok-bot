@@ -12512,6 +12512,98 @@
    "publish_id": "p_inbox_url~v2.7712181009059514390",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-25T18:42:04+00:00"
+  },
+  {
+   "date": "2026-11-26",
+   "hook": "5 Aldi meat-free dinners for when you're knackered 😩",
+   "subline": "Comfort bowls and bakes, no stress 😴",
+   "title": "5 Aldi meat-free dinners for when you're knackered 😩",
+   "caption": "💾 SAVE this for the coming chilly nights — cosy dinners, no fuss 😭🛒\n\n1. Cajun Lentil Pepper Skillet\n2. Crunchy Peanut Tofu Stir-Fry\n3. Maple Roast Cauliflower Couscous\n4. Miso Aubergine Noodle Bowl\n5. Mushroom Thyme Polenta Bake\n\nWhich one are you trying first this week? 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #meatfree #vegetarianrecipes",
+   "files": [
+    "card:new-cajun-lentil-pepper-skillet-b4bc3-1",
+    "card:new-crunchy-peanut-tofu-stir-fry-37d28-1",
+    "card:new-maple-roast-cauliflower-couscous-3640b-1",
+    "card:new-miso-aubergine-noodle-bowl-703db-1",
+    "card:new-mushroom-thyme-polenta-bake-70340-1"
+   ],
+   "groups": [
+    "new-cajun-lentil-pepper-skillet-b4bc3",
+    "new-crunchy-peanut-tofu-stir-fry-37d28",
+    "new-maple-roast-cauliflower-couscous-3640b",
+    "new-miso-aubergine-noodle-bowl-703db",
+    "new-mushroom-thyme-polenta-bake-70340"
+   ],
+   "dishes": [
+    "Cajun Lentil Pepper Skillet",
+    "Crunchy Peanut Tofu Stir-Fry",
+    "Maple Roast Cauliflower Couscous",
+    "Miso Aubergine Noodle Bowl",
+    "Mushroom Thyme Polenta Bake"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    480,
+    868
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "veggie",
+    "angle": "cosy",
+    "label": "meat-free dinners",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you trying first this week? 👇",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi meat-free dinners for cosy dark nights 😍",
+     "subline": "Proper comfort food, no faff 🫶",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi meat-free dinners that save takeaway cash 💸",
+     "subline": "Warm, filling and wallet-friendly 😋",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi meat-free dinners to send your flatmate 😂",
+     "subline": "Share this — they'll pick one, promise 🙌",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi meat-free dinners with proper takeaway vibes 🍜",
+     "subline": "All cosy, all big on flavour 🤤",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi meat-free dinners for when you're knackered 😩",
+     "subline": "Comfort bowls and bakes, no stress 😴",
+     "score": 8.5
+    }
+   ],
+   "built_at": "2026-11-26T02:52:26+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-26-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712306985726953494",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-26T02:53:09+00:00"
   }
  ]
 }
