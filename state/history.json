@@ -12880,6 +12880,98 @@
    "publish_id": "p_inbox_url~v2.7712867938851850262",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-27T15:07:14+00:00"
+  },
+  {
+   "date": "2026-11-28",
+   "hook": "5 LAZY Aldi Cheesy dinners — when you can't be bothered 😩🧀",
+   "subline": "Get dinner on the table with zero fuss 😋",
+   "title": "5 LAZY Aldi Cheesy dinners — when you can't be bothered 😩🧀",
+   "caption": "💾 SAVE this for when you CANNOT be bothered to cook after a long day 😭🧀\n\n1. Smoky Cheddar Beef & Broccoli\n2. Garlic Mushroom & Blue Polenta\n3. Salmon & Spinach Cheesy Orzo\n4. Ham, Pea & Cheddar Risotto\n5. Smoked Haddock Cheesy Mash\n\nWhich one are you making first? Rate them out of 10! 😋\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheesy #comfortfood",
+   "files": [
+    "card:new-smoky-cheddar-beef-broccoli-7c4b2-1",
+    "card:new-garlic-mushroom-blue-polenta-e0db2-1",
+    "card:new-salmon-spinach-cheesy-orzo-a10d4-1",
+    "card:new-ham-pea-cheddar-risotto-566bd-1",
+    "card:new-smoked-haddock-cheesy-mash-50210-1"
+   ],
+   "groups": [
+    "new-smoky-cheddar-beef-broccoli-7c4b2",
+    "new-garlic-mushroom-blue-polenta-e0db2",
+    "new-salmon-spinach-cheesy-orzo-a10d4",
+    "new-ham-pea-cheddar-risotto-566bd",
+    "new-smoked-haddock-cheesy-mash-50210"
+   ],
+   "dishes": [
+    "Smoky Cheddar Beef & Broccoli",
+    "Garlic Mushroom & Blue Polenta",
+    "Salmon & Spinach Cheesy Orzo",
+    "Ham, Pea & Cheddar Risotto",
+    "Smoked Haddock Cheesy Mash"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Sunny summer evening, warm light on the facade, pastel sky, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    308,
+    796
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "cheesy",
+    "angle": "tired",
+    "label": "cheesy dinners",
+    "angle_text": "too tired / can't be bothered to cook after a long day"
+   },
+   "question": "Which one are you making first? Rate them out of 10! 😋",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Cheesy dinners for when you're proper knackered 😴🧀",
+     "subline": "Melty, lazy, no-fuss meals 😋",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Cheesy dinners to SEND to your flatmate 😂🧀",
+     "subline": "Share with the house chat — no drama 🙌",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Cheesy dinners that feel like takeaway 🤤🧀",
+     "subline": "All melt-in-your-mouth and cheap 😋",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Cheesy dinners that taste POSHER than they are 😏🧀",
+     "subline": "Proper cosy food without faff 😍",
+     "score": 5.8
+    },
+    {
+     "hook": "5 LAZY Aldi Cheesy dinners — when you can't be bothered 😩🧀",
+     "subline": "Get dinner on the table with zero fuss 😋",
+     "score": 9.0
+    }
+   ],
+   "built_at": "2026-11-27T23:28:46+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-28-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712996592391047190",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-27T23:29:30+00:00"
   }
  ]
 }
