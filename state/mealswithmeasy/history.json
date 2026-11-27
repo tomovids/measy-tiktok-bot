@@ -8228,6 +8228,83 @@
    "publish_id": "p_inbox_url~v2.7712455321968691222",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-26T12:26:52+00:00"
+  },
+  {
+   "date": "2026-11-27",
+   "hook": "5 Trader Joe's Asian Dinners to Stop You Ordering Takeout 🤤🍜",
+   "subline": "Quick, saucy, no delivery drama 👀",
+   "title": "5 Trader Joe's Asian Dinners to Stop You Ordering Takeout 🤤🍜",
+   "caption": "💾 SAVE this for the next time you or your roommate has NO idea what to cook 😭🍜\n\n1. Sweet Chili Shrimp Ramen\n2. Hoisin Pork Stir Noodles\n3. Teriyaki Salmon Rice Bowl\n4. Zesty Sweet-Chili Tofu Noodles\n5. Charred Pork Udon\n\nWhich one are you sending to your roommate? 😂\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#traderjoes #traderjoesfinds #traderjoeshaul #budgetmeals #easydinner #dinnerideas #measy #noodles #copycatrecipes",
+   "files": [
+    "card:new-sweet-chili-shrimp-ramen-079ed-1",
+    "card:new-hoisin-pork-stir-noodles-8e35e-1",
+    "card:new-teriyaki-salmon-rice-bowl-bf46c-1",
+    "card:new-zesty-sweet-chili-tofu-noodles-db795-1",
+    "card:new-charred-pork-udon-c0127-1"
+   ],
+   "groups": [
+    "new-sweet-chili-shrimp-ramen-079ed",
+    "new-hoisin-pork-stir-noodles-8e35e",
+    "new-teriyaki-salmon-rice-bowl-bf46c",
+    "new-zesty-sweet-chili-tofu-noodles-db795",
+    "new-charred-pork-udon-c0127"
+   ],
+   "dishes": [
+    "Sweet Chili Shrimp Ramen",
+    "Hoisin Pork Stir Noodles",
+    "Teriyaki Salmon Rice Bowl",
+    "Zesty Sweet-Chili Tofu Noodles",
+    "Charred Pork Udon"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Evening just after rain, wet tarmac reflecting the glowing shop front, clearing sky, three-quarter view from the corner of the parking lot",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    504,
+    732
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "traderjoes",
+   "theme": {
+    "collection": "asian",
+    "angle": "send",
+    "label": "Asian-style dinners (noodles, hoisin, teriyaki, sweet chilli)",
+    "angle_text": "send this to someone (partner, housemate, the group chat, your mum) who never knows what to cook"
+   },
+   "question": "Which one are you sending to your roommate? 😂",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 7.8,
+   "hook_candidates": [
+    {
+     "hook": "5 Trader Joe's Asian Dinners to Stop You Ordering Takeout 🤤🍜",
+     "subline": "Quick, saucy, no delivery drama 👀",
+     "score": 7.8
+    },
+    {
+     "hook": "5 Trader Joe's Noodle Dinners That Fix a No-Idea Night 😳🍜",
+     "subline": "All saucy, all simple 😋",
+     "score": 7.7
+    }
+   ],
+   "built_at": "2026-11-27T15:06:20+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/mealswithmeasy/2026-11-27-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712868020766509078",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-27T15:07:28+00:00"
   }
  ]
 }

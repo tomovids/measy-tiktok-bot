@@ -12783,6 +12783,103 @@
    "publish_id": "p_inbox_url~v2.7712692260534355990",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-27T03:49:04+00:00"
+  },
+  {
+   "date": "2026-11-27",
+   "hook": "5 LAZY Aldi dinners under £1.50 a portion — ready in 30m 😴⏰",
+   "subline": "Perfect for a knackered Friday 😴",
+   "title": "5 LAZY Aldi dinners under £1.50 a portion — ready in 30m 😴⏰",
+   "caption": "💾 SAVE this for the week before payday 😭💸\n\n1. Maple Sriracha Chicken Rice\n2. Smoky Beef Nacho Skillet\n3. Spiced Chickpea & Feta Wraps\n4. Tangy Pork & Pea Penne\n5. Charred Corn & Lentil Flatbreads\n\nWhich one would you try first? 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:new-maple-sriracha-chicken-rice-5579e-1",
+    "card:new-smoky-beef-nacho-skillet-7624c-1",
+    "card:new-spiced-chickpea-feta-wraps-911e9-1",
+    "card:new-tangy-pork-pea-penne-ba404-1",
+    "card:new-charred-corn-lentil-flatbreads-edd2c-1"
+   ],
+   "groups": [
+    "new-maple-sriracha-chicken-rice-5579e",
+    "new-smoky-beef-nacho-skillet-7624c",
+    "new-spiced-chickpea-feta-wraps-911e9",
+    "new-tangy-pork-pea-penne-ba404",
+    "new-charred-corn-lentil-flatbreads-edd2c"
+   ],
+   "dishes": [
+    "Maple Sriracha Chicken Rice",
+    "Smoky Beef Nacho Skillet",
+    "Spiced Chickpea & Feta Wraps",
+    "Tangy Pork & Pea Penne",
+    "Charred Corn & Lentil Flatbreads"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    472,
+    804
+   ],
+   "extra": false,
+   "slot": "afternoon",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-150",
+    "angle": "weekly-shop",
+    "label": "dinners under £1.50 a portion",
+    "angle_text": "plan your weekly {store} shop around these"
+   },
+   "question": "Which one would you try first? 👀",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion — payday's ages away 😭💸",
+     "subline": "Plan your weekly Aldi shop 🛒",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion — better than a takeaway 🤤💸",
+     "subline": "Skip the delivery, keep the flavour 😋",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion — SEND to your flatmate 😂👇",
+     "subline": "Group chat dinner ideas 🛒",
+     "score": 7.5
+    },
+    {
+     "hook": "5 LAZY Aldi dinners under £1.50 a portion — ready in 30m 😴⏰",
+     "subline": "Perfect for a knackered Friday 😴",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion your bank will thank 💷😋",
+     "subline": "Save a bit, eat proper food 💸",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi dinners under £1.50 a portion — cheap, tasty, filling 😋👀",
+     "subline": "Plan these into your next shop 🛒",
+     "score": 6.0
+    }
+   ],
+   "built_at": "2026-11-27T15:02:38+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-2/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712867938851850262",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-27T15:07:14+00:00"
   }
  ]
 }
