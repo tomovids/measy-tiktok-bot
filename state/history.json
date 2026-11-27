@@ -12691,6 +12691,98 @@
    "publish_id": "p_inbox_url~v2.7712547343997487126",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-26T18:24:26+00:00"
+  },
+  {
+   "date": "2026-11-27",
+   "hook": "5 Aldi Wraps That Make Takeaway Look LAZY 😏",
+   "subline": "Weekend dinner, sorted 🙌",
+   "title": "5 Aldi Wraps That Make Takeaway Look LAZY 😏",
+   "caption": "💾 SAVE this for when you want tonight's tea sorted before work 😭⏰\n\n1. Zaatar Roast Veg Flatbreads\n2. Smoky Jackfruit BBQ Wraps\n3. Orange-Sesame Salmon Quesadillas\n4. Mushroom & Ricotta Quesadillas\n5. Mango Black Bean Wraps\n\nWhich one will you try first? Tell us 👇\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #wraps #flatbread",
+   "files": [
+    "card:new-zaatar-roast-veg-flatbreads-f7dc4-1",
+    "card:new-smoky-jackfruit-bbq-wraps-13f19-1",
+    "card:new-orange-sesame-salmon-quesadillas-b9807-1",
+    "card:new-mushroom-ricotta-quesadillas-2208e-1",
+    "card:new-mango-black-bean-wraps-29f5a-1"
+   ],
+   "groups": [
+    "new-zaatar-roast-veg-flatbreads-f7dc4",
+    "new-smoky-jackfruit-bbq-wraps-13f19",
+    "new-orange-sesame-salmon-quesadillas-b9807",
+    "new-mushroom-ricotta-quesadillas-2208e",
+    "new-mango-black-bean-wraps-29f5a"
+   ],
+   "dishes": [
+    "Zaatar Roast Veg Flatbreads",
+    "Smoky Jackfruit BBQ Wraps",
+    "Orange-Sesame Salmon Quesadillas",
+    "Mushroom & Ricotta Quesadillas",
+    "Mango Black Bean Wraps"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, low angle close to the entrance, wide lens",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    508,
+    800
+   ],
+   "extra": false,
+   "slot": "morning",
+   "store": "aldi",
+   "theme": {
+    "collection": "handheld",
+    "angle": "plan-today",
+    "label": "wraps, flatbreads and quesadillas",
+    "angle_text": "sort tonight's dinner before you even get to work"
+   },
+   "question": "Which one will you try first? Tell us 👇",
+   "tuned": false,
+   "fresh_dishes": true,
+   "hook_score": 8.5,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Wraps to SORT tonight before you get to work 😏",
+     "subline": "Pick tonight's tea in your lunchbreak 🍜",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Flatbreads to SEND your housemate 😂",
+     "subline": "Tell them to do the big shop this time 🛒",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Wraps That Make Takeaway Look LAZY 😏",
+     "subline": "Weekend dinner, sorted 🙌",
+     "score": 8.5
+    },
+    {
+     "hook": "5 Aldi Wraps to Decide Before Your Coffee 🤯",
+     "subline": "Sort tonight during your commute 👀",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Flatbreads & Quesadillas for FRIDAY night 😋",
+     "subline": "Perfect for a lazy Friday evening 😴",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-27T03:48:10+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/2026-11-27-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712692260534355990",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-27T03:49:04+00:00"
   }
  ]
 }
