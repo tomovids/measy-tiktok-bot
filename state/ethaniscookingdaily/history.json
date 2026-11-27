@@ -8121,6 +8121,103 @@
    "publish_id": "p_inbox_url~v2.7712330444674615318",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-26T04:24:29+00:00"
+  },
+  {
+   "date": "2026-11-27",
+   "hook": "5 Aldi Dinners That Beat a Takeaway — under £2 a portion 😋🍜",
+   "subline": "Better than a takeaway — honest 🍜",
+   "title": "5 Aldi Dinners That Beat a Takeaway — under £2 a portion 😋🍜",
+   "caption": "💾 SAVE this for the week before payday 😭🛒\n\n1. Zesty Halloumi Orzo Bake\n2. Rustic Beef & Lentil Pilaf\n3. Mediterranean Tuna Jackets\n4. Ginger Sesame Tofu Noodles\n5. Apricot-Glazed Chicken & Couscous\n\nWhich one are you trying first? Tell us below 👀\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #cheapmeals",
+   "files": [
+    "card:new-zesty-halloumi-orzo-bake-36f04-1",
+    "card:new-rustic-beef-lentil-pilaf-b78a3-1",
+    "card:new-mediterranean-tuna-jackets-4ec35-1",
+    "card:new-ginger-sesame-tofu-noodles-fd3ea-1",
+    "card:new-apricot-glazed-chicken-couscous-6aa88-1"
+   ],
+   "groups": [
+    "new-zesty-halloumi-orzo-bake-36f04",
+    "new-rustic-beef-lentil-pilaf-b78a3",
+    "new-mediterranean-tuna-jackets-4ec35",
+    "new-ginger-sesame-tofu-noodles-fd3ea",
+    "new-apricot-glazed-chicken-couscous-6aa88"
+   ],
+   "dishes": [
+    "Zesty Halloumi Orzo Bake",
+    "Rustic Beef & Lentil Pilaf",
+    "Mediterranean Tuna Jackets",
+    "Ginger Sesame Tofu Noodles",
+    "Apricot-Glazed Chicken & Couscous"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Bright sunny day, deep blue sky with a few fluffy white clouds, crisp daylight, straight-on view from across the car park, symmetrical",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    680,
+    960
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "under-2",
+    "angle": "taste-cheap",
+    "label": "dinners under £2 a portion",
+    "angle_text": "cheap dinners that don't taste cheap"
+   },
+   "question": "Which one are you trying first? Tell us below 👀",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Dinners UNDER £2 a portion — fancy, not flimsy 😋💸",
+     "subline": "Big flavour, tiny spend 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Meals That Don't Taste Cheap — under £2 a portion 😍🍝",
+     "subline": "Fancy dinners, proper cheap 😍",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Dinners to Make This Weekend — all under £2 a portion 😏🛒",
+     "subline": "Weekend cooking that saves cash 🛒",
+     "score": 6.0
+    },
+    {
+     "hook": "5 Aldi Dinners That Beat a Takeaway — under £2 a portion 😋🍜",
+     "subline": "Better than a takeaway — honest 🍜",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Dinners for When You're Skint: under £2 a portion 😭💸",
+     "subline": "When payday feels ages away 😭",
+     "score": 6.5
+    },
+    {
+     "hook": "5 Aldi Dinners to Send Your Housemate — under £2 a portion 👀🥲",
+     "subline": "Send this to your flatmates 👀",
+     "score": 5.5
+    }
+   ],
+   "built_at": "2026-11-27T04:33:34+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-27-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7712704467782600726",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-27T04:34:20+00:00"
   }
  ]
 }
