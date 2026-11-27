@@ -1,6 +1,6 @@
 {
  "active": true,
- "scored_posts": 62,
+ "scored_posts": 63,
  "needed": 14,
  "explore": 0.25,
  "multipliers": {
@@ -61,9 +61,9 @@
     "avg_ratio": 0.88
    },
    "anything": {
-    "mult": 0.99,
-    "posts": 3,
-    "avg_ratio": 0.97
+    "mult": 1.08,
+    "posts": 4,
+    "avg_ratio": 1.15
    },
    "mexican": {
     "mult": 1.0,
@@ -78,7 +78,7 @@
    "chicken": {
     "mult": 1.03,
     "posts": 3,
-    "avg_ratio": 1.07
+    "avg_ratio": 1.06
    },
    "comfort": {
     "mult": 1.31,
@@ -173,9 +173,9 @@
     "avg_ratio": 1.52
    },
    "cosy": {
-    "mult": 1.36,
-    "posts": 5,
-    "avg_ratio": 1.57
+    "mult": 1.39,
+    "posts": 6,
+    "avg_ratio": 1.59
    },
    "taste-cheap": {
     "mult": 1.21,
@@ -363,6 +363,11 @@
     "mult": 0.94,
     "posts": 1,
     "avg_ratio": 0.76
+   },
+   "new-crispy-lemon-cod-tacos-ad61a": {
+    "mult": 1.17,
+    "posts": 1,
+    "avg_ratio": 1.67
    }
   }
  },
