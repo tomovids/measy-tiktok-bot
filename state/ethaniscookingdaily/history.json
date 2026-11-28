@@ -8218,6 +8218,98 @@
    "publish_id": "p_inbox_url~v2.7712704467782600726",
    "status": "SEND_TO_USER_INBOX",
    "sent_at": "2026-11-27T04:34:20+00:00"
+  },
+  {
+   "date": "2026-11-28",
+   "hook": "5 Aldi Mexican Fakeaways That Beat a Takeaway 🌮😏",
+   "subline": "Cheaper than a takeaway, properly messy 🤤",
+   "title": "5 Aldi Mexican Fakeaways That Beat a Takeaway 🌮😏",
+   "caption": "💾 SAVE this for cosy Saturday nights when you can't be bothered to order a takeaway 😭🌮\n\n1. Smoky Chipotle Pork Tacos\n2. Sweet Potato & Black Bean Quesadillas\n3. Chorizo & Halloumi Burrito\n4. Honey-Lime Turkey Nachos\n5. Fiery Mackerel Fish Tacos\n\nWhich one are you making first this weekend? 🌮\nFull recipes + the shopping list on the Measy app (link in bio) 📲\n\n#aldi #aldiuk #aldidinners #budgetmeals #easydinner #ukfood #measy #quesadilla #mexicanfood",
+   "files": [
+    "card:new-smoky-chipotle-pork-tacos-8570a-1",
+    "card:new-sweet-potato-black-bean-quesadillas-57a12-1",
+    "card:new-chorizo-halloumi-burrito-ec7df-1",
+    "card:new-honey-lime-turkey-nachos-f8ad9-1",
+    "card:new-fiery-mackerel-fish-tacos-e38c7-1"
+   ],
+   "groups": [
+    "new-smoky-chipotle-pork-tacos-8570a",
+    "new-sweet-potato-black-bean-quesadillas-57a12",
+    "new-chorizo-halloumi-burrito-ec7df",
+    "new-honey-lime-turkey-nachos-f8ad9",
+    "new-fiery-mackerel-fish-tacos-e38c7"
+   ],
+   "dishes": [
+    "Smoky Chipotle Pork Tacos",
+    "Sweet Potato & Black Bean Quesadillas",
+    "Chorizo & Halloumi Burrito",
+    "Honey-Lime Turkey Nachos",
+    "Fiery Mackerel Fish Tacos"
+   ],
+   "promo": "134_measy_tasty_meal_planning_made_easy.webp",
+   "shop_slide": true,
+   "words_source": "ai",
+   "scene": "Golden hour, warm low sun, orange and pink sky, long soft shadows, three-quarter view from the corner of the car park",
+   "background": "generated",
+   "image_model": "gpt-image-2",
+   "sign": [
+    264,
+    764
+   ],
+   "extra": false,
+   "slot": "midday",
+   "store": "aldi",
+   "theme": {
+    "collection": "mexican",
+    "angle": "cosy",
+    "label": "Mexican-style dinners (tacos, quesadillas, burritos, nachos)",
+    "angle_text": "cosy nights in now it's getting colder and darker"
+   },
+   "question": "Which one are you making first this weekend? 🌮",
+   "tuned": true,
+   "fresh_dishes": true,
+   "hook_score": 9.0,
+   "hook_candidates": [
+    {
+     "hook": "5 Aldi Mexican Dinners to Warm Up Dark Nights 🌮🫶",
+     "subline": "Tacos, quesadillas, burritos & nachos 😋",
+     "score": 7.0
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners That Won't Break the Bank 💸🌮",
+     "subline": "Big flavour, tiny budget 👀",
+     "score": 8.0
+    },
+    {
+     "hook": "5 Aldi Mexican Fakeaways That Beat a Takeaway 🌮😏",
+     "subline": "Cheaper than a takeaway, properly messy 🤤",
+     "score": 9.0
+    },
+    {
+     "hook": "5 Aldi Taco Nights That Feel Like Going Out 🌮😍",
+     "subline": "Cosy, spicy dinners for colder nights 🫶",
+     "score": 7.5
+    },
+    {
+     "hook": "5 Aldi Mexican Dinners to Make This Weekend 🌮🛒",
+     "subline": "Perfect for cosy weekend nights 😋",
+     "score": 6.5
+    }
+   ],
+   "built_at": "2026-11-28T04:12:56+00:00",
+   "urls": [
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/01.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/02.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/03.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/04.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/05.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/06.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/07.jpg",
+    "https://tomovids.github.io/measy-tiktok-bot/p/ethaniscookingdaily/2026-11-28-1/08.jpg"
+   ],
+   "publish_id": "p_inbox_url~v2.7713069925115480086",
+   "status": "SEND_TO_USER_INBOX",
+   "sent_at": "2026-11-28T04:13:37+00:00"
   }
  ]
 }
